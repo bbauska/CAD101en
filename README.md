@@ -1,4 +1,4 @@
-# Intro-to-Cloud-Development-HTML-CSS-JavaScript
+# CAD101EN - Introduction to Cloud Development with HTML5, CSS3, & JavaScript
 
 edX.org online course (CAD101EN) - 5 module course
 
@@ -32,8 +32,7 @@ After completing this course, you will be able to:
 *   Describe the common languages, libraries, frameworks, and other tools that developers use.
 *   Demonstrate basic programming techniques in HTML5.
 *   Enhance the appearance of a website by using CSS.
-*   Describe the HTML5 input element and its attributes.  
-     
+*   Describe the HTML5 input element and its attributes.
 *   Use JavaScript to enhance the interactivity of a Cloud Application or website.
 *   Manage your projects in GitHub.
 
