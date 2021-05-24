@@ -152,4 +152,80 @@ No prior knowledge of Computer Programming.
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
     -->
   </body>
+  
+<h2>  Module 5, Part V: Cloning & Forking GitHub Projects</h2>
+<div>Welcome to Cloning and Forking GitHub Projects.
+<p>After watching this video, you will be able to:</p>
+<ul>
+<li>•	Clone and sync repositories.</li>
+<li>•	Fork a project to make a base for a new project.</li>
+<li>•	Use git commands to communicate with other developers.</li>
+<p>
+GitHub has over existing 100M repositories, including some very useful projects.
+Whether you are joining a team or basing your own project on prior work, some of the most powerful tools are forking and cloning a repository.
+Cloning generally refers to creating a copy of a repository on your local machine.
+Cloned copies can be kept in sync between the two locations.
+Forking allows you to modify or extend a project without affecting the original project.
+Frequently, this is used to take an existing project and make it the starting point for
+your new project.
+</p>
+<p>
+To clone a GitHub repository, navigate to the repository that you want to clone.
+Under the repository name, click Code.
+In the Clone with HTTPS section, click the clipboard button to copy the URL.
+To download the source code, you can click Download zip, but without the version control information.
+On your local machine, open a “Terminal” window and change to the directory where you want the clone to be copied.
+Type “git clone” followed by pasting the URL that you copied above and then press ENTER to execute the cloning.
+When you have made your changes and are ready to sync your code back to GitHub.
+First, you must run the “git add ” command.
+This moves the changed files into a staging area on the GitHub repository.
+The staging area is an area where commits can be formatted and reviewed before completing the commit.
+Next, when you are ready, run “git commit –m ” and this will commit changes
+in the staging area.
+When you are ready to move your changes fully into the GitHub repository.
+Use the “git push” command.
+This will push all the committed changes into the repository.
+Remote repositories are repositories that are stored elsewhere – on the internet,
+on your network, even on your local computer.
+You can have several of remote repositories, each of which generally is either read-only or read/write for you.
+Collaborating with others involves managing these remote repositories and involves push, pull, and fetch operations to and from them when you need to share work.
+Use git push to transfer your changes to the remote repo.
+Use git fetch to transfer any changes from the remote repo to your local repo.
+It does not merge those changes to the branch you are working on. You can perform a merge manually if you want.
+Use git pull to transfer any changes from the remote repo to your local repo, and merge them to a branch.
+Developers use the terms upstream and origin when talking about remote reps.
+Origin generally refers to your fork and upstream refers to the original work.
+These are the norms.
+You can of course name them anything you like.
+Forking is used to take a copy of a GitHub repository and use it as the base for a new
+project.
+You can also use forking to submit back changes into the original repository.
+This is also used to independently make changes to a project.
+In that instance, when you are satisfied with your changes, submit a pull request to the original project owner.
+They can decide whether or not to accept your updates.
+It is often a legal requirement to keep a copy of the of the license file.
+Even if no legal requirement exists, it’s good practice.
+Navigate to the repository that you want to fork.
+In the top-right corner, click the “Fork” button.
+To keep a fork in sync with the original work from a local clone.
+First, create a local clone of the project.
+To configure Git to sync your fork:
+Open a Terminal and change to the directory containing the clone.
+Type “git remote –v” This gives you the remote repository.
+Type “git remote add upstream ” with the pasted-in directory that you used
+in creating your clone.
+Adding upstream adds the original repository as a new remote repository labelled upstream.
+If you type “git remote –v”, you’ll see the change reflected.
+Other commands of interest include “git fetch upstream” to grab upstream branches
+and “git merge upstream/master” which merges changes into the master branch.
+You will also see "git pull upstream" used to fetch and merge the remote branch in the same step.
+“Git pull upstream" reduces the number of steps to sync with a remote branch, but the automatic merges are not always desired.
+</p>
+<ul>In this video, you learned:
+<li>•	GitHub has over existing 100M repositories that you can use.</li>
+<li>•	You can clone a repository to copy it to your local machine and sync changes back to the original repository.</li>
+<li>•	You can fork a repository to use it as the base for a new project, or to work on a project independently.</li>
+
+<h2>Module 5, Part VI: Managing GitHub Projects</h2>
+
 </html>
