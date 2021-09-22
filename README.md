@@ -1,5 +1,3 @@
-# \*\*readme.md\*\*
-
 # CAD101EN - Introduction to Cloud Development with HTML5, CSS3, & JavaScript
 
 edX.org online course (CAD101EN) - 5 module course
