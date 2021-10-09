@@ -1,15 +1,16 @@
 # CAD101EN - Introduction to Cloud Development with HTML5, CSS3, & JavaScript
 
-edX.org online course (CAD101EN) - 5 module course
+## edX.org online course (CAD101EN) - 5 module course
 
-Welcome
+### Welcome
 
-#### Course Overview
-
+### Course Overview
+<p>
 Want to take the first steps to become a Cloud Application Developer? This course will lead you through the languages and tools you will need to develop your own Cloud Apps.
-
+</p>
+<p>
 Beginning with an explanation of how internet servers and clients work together to deliver applications to users, this course then takes you through the context for application development in the Cloud, introducing front-end, back-end, and full-stack development.
-
+</p>
 You’ll then focus on the languages you need for front-end development, working with HTML, CSS, and JavaScript.
 
 Finally, you will discover tools that help you to store your projects and keep track of changes made to project files, such as Git and GitHub.
