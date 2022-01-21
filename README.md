@@ -39,9 +39,9 @@ After completing this course, you will be able to:
 
 #### Syllabus
 ## [Table of Contents] - CAD101EN (#table-of-contents)
+## 1. [**Chapter 1. Introduction to Programming for the Cloud**](#ch1)
+>### 1.1 [**Course Introduction**](#ch1-1)
 
-## 1. [**Discovering Blockchain Technologies**](#ch1)
->### 1.1 [**Introduction & Learning Objectives**](#ch1-1)
 <ul>
 ><li><a href="#ch1"> ### Chapter 1. Introduction to Programming for the Cloud</li>
   <ul>
@@ -107,3 +107,5 @@ After completing this course, you will be able to:
   <li><a href="ch5-13">13) Module Summary</li>
       </ul>
       </ul>
+      **[`^        back to top        ^`](#table-of-contents)**
+
