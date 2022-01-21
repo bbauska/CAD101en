@@ -54,53 +54,53 @@ After completing this course, you will be able to:
       </ul>
   <li><a href="#ch2">Chapter 2. HTML5 and CSS3 Overview</li>
   <ul>
-  <li><a href="ch2a">1) Module Introduction</li>
-  <li><a href="ch2b">2) Introduction to HTML</li>
-  <li><a href="ch2c">3) HTML Features</li>
-  <li><a href="ch2d">4) Lab: Intro to HTML (JSFiddle)</li>
-  <li><a href="ch2e">5) HTML Management and Support</li>
-  <li><a href="ch2f">6) HTML Scripting</li>
-  <li><a href="ch2g">7) HTML5 Browser Support</li>
-  <li><a href="ch2h">8) Lab: HTML</li>
-  <li><a href="ch2i">9) CSS: Styling HTML</li>
-  <li><a href="ch2j">10) Lab: CSS</li>
-  <li><a href="ch2k">11) Module Summary</li>
+  <li><a href="ch2-1">1) Module Introduction</li>
+  <li><a href="ch2-2">2) Introduction to HTML</li>
+  <li><a href="ch2-3">3) HTML Features</li>
+  <li><a href="ch2-4">4) Lab: Intro to HTML (JSFiddle)</li>
+  <li><a href="ch2-5">5) HTML Management and Support</li>
+  <li><a href="ch2-6">6) HTML Scripting</li>
+  <li><a href="ch2-7">7) HTML5 Browser Support</li>
+  <li><a href="ch2-8">8) Lab: HTML</li>
+  <li><a href="ch2-9">9) CSS: Styling HTML</li>
+  <li><a href="ch2-10">10) Lab: CSS</li>
+  <li><a href="ch2-11">11) Module Summary</li>
       </ul>
   <li><a href="#ch3">Chapter 3. HTML5 Elements</li>
   <ul>
-  <li><a href="ch3a">a) Module Introduction</li>
-  <li><a href="ch3b">b) HTML5 Tags and Structural Elements</li>
-  <li><a href="ch3c">c) HTML5 Input Element: Attributes for the Input Tag</li>
-  <li><a href="ch3d">d) Lab: HTML5</li>
-  <li><a href="ch3e">e) Module Summary</li>
+  <li><a href="ch3-1">1) Module Introduction</li>
+  <li><a href="ch3-2">2) HTML5 Tags and Structural Elements</li>
+  <li><a href="ch3-3">3) HTML5 Input Element: Attributes for the Input Tag</li>
+  <li><a href="ch3-4">4) Lab: HTML5</li>
+  <li><a href="ch3-5">5) Module Summary</li>
       </ul>
   <li><a href="#ch4">Chapter 4. JavaScript Programming for Web Applications</li>
   <ul>
-  <li><a href="ch4a">a) Module Introduction</li>
-  <li><a href="ch4b">b) JavaScript Language: Overview and Syntax</li>
-  <li><a href="ch4c">c) JavaScript: Variables and Control Statements</li>
-  <li><a href="ch4d">d) JavaScript: Functions and Prototypes</li>
-  <li><a href="ch4e">e) Client-Side JavaScript: with HTML</li>
-  <li><a href="ch4f">f) Client-Side JavaScript: with DOM</li>
-  <li><a href="ch4g">g) JavScript DOM Objects</li>
-  <li><a href="ch4h">h) JavScript APIs</li>
-  <li><a href="ch4i">i) Lab: JavaScript</li>
-  <li><a href="ch4j">j) Module Summary</li>
+  <li><a href="ch4-1">1) Module Introduction</li>
+  <li><a href="ch4-2">2) JavaScript Language: Overview and Syntax</li>
+  <li><a href="ch4-3">3) JavaScript: Variables and Control Statements</li>
+  <li><a href="ch4-4">4) JavaScript: Functions and Prototypes</li>
+  <li><a href="ch4-5">5) Client-Side JavaScript: with HTML</li>
+  <li><a href="ch4-6">6) Client-Side JavaScript: with DOM</li>
+  <li><a href="ch4-7">7) JavScript DOM Objects</li>
+  <li><a href="ch4-8">8) JavScript APIs</li>
+  <li><a href="ch4-9">9) Lab: JavaScript</li>
+  <li><a href="ch4-10">10) Module Summary</li>
       </ul>
   <li><a href="#ch5">Chapter 5. GitHub</li>
   <ul>
-  <li><a href="ch5a">1) Module Introduction</li>
-  <li><a href="ch5b">2) Overview of GitHub</li>
-  <li><a href="ch5c">3) Introduction to GitHub</li>
-  <li><a href="ch5d">4) GitHub Repositories</li>
-  <li><a href="ch5e">5) Lab: GitHub Sign Up & Create Repo</li>
-  <li><a href="ch5f">6) GitHub Branches</li>
-  <li><a href="ch5g">7) Lab: Branching and Merging (Web UI)</li>
-  <li><a href="ch5h">8) Cloning and Forking GitHub Projects</li>
-  <li><a href="ch5i">9) Managing GitHub Projects</li>
-  <li><a href="ch5j">10) Git Installation</li>
-  <li><a href="ch5k">11) SSH Key Creation</li>
-  <li><a href="ch5l">12) Add SSH to Repo</li>
+  <li><a href="ch5-1">1) Module Introduction</li>
+  <li><a href="ch5-2">2) Overview of GitHub</li>
+  <li><a href="ch5-3">3) Introduction to GitHub</li>
+  <li><a href="ch5-4">4) GitHub Repositories</li>
+  <li><a href="ch5-5">5) Lab: GitHub Sign Up & Create Repo</li>
+  <li><a href="ch5-6">6) GitHub Branches</li>
+  <li><a href="ch5-7">7) Lab: Branching and Merging (Web UI)</li>
+  <li><a href="ch5-8">8) Cloning and Forking GitHub Projects</li>
+  <li><a href="ch5-9">9) Managing GitHub Projects</li>
+  <li><a href="ch5-10">10) Git Installation</li>
+  <li><a href="ch5-11">11) SSH Key Creation</li>
+  <li><a href="ch5-12">12) Add SSH to Repo</li>
   <li><a href="ch5-13">13) Module Summary</li>
       </ul>
       </ul>
