@@ -38,9 +38,12 @@ After completing this course, you will be able to:
 *   Manage your projects in GitHub.
 
 #### Syllabus
-## Table of Contents - CAD101EN
+## [Table of Contents] - CAD101EN (#table-of-contents)
+
+## 1. [**Discovering Blockchain Technologies**](#ch1)
+>### 1.1 [**Introduction & Learning Objectives**](#ch1-1)
 <ul>
-  <li><a href="#ch1">Chapter 1. Introduction to Programming for the Cloud</li>
+><li><a href="#ch1"> ### Chapter 1. Introduction to Programming for the Cloud</li>
   <ul>
   <li><a href="ch1-1">1) Course Introduction</li>
   <li><a href="ch1-2">2) Module Introduction</li>
