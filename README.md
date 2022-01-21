@@ -42,29 +42,29 @@ After completing this course, you will be able to:
 <ul>
   <li><a href="#ch1">Chapter 1. Introduction to Programming for the Cloud</li>
   <ul>
-  <li><a href="ch1a">a) Course Introduction</li>
-  <li><a href="ch1b">b) Module Introduction</li>
-  <li><a href="ch1c">c) Overview of Web and Cloud Development</li>
-  <li><a href="ch1d">d) Learning Front-End Development</li>
-  <li><a href="ch1e">e) Introducing Application Development Tools</li>
-  <li><a href="ch1f">f) More Application Development Tools</li>
-  <li><a href="ch1g">g) The Importance of Back-End Development</li>
-  <li><a href="ch1h">h) Lab: Demo of Web Development in Action</li>
-  <li><a href="ch1i">i) Module Summary</li>
+  <li><a href="ch1-1">1) Course Introduction</li>
+  <li><a href="ch1-2">2) Module Introduction</li>
+  <li><a href="ch1-3">3) Overview of Web and Cloud Development</li>
+  <li><a href="ch1-4">4) Learning Front-End Development</li>
+  <li><a href="ch1-5">5) Introducing Application Development Tools</li>
+  <li><a href="ch1-6">6) More Application Development Tools</li>
+  <li><a href="ch1-7">7) The Importance of Back-End Development</li>
+  <li><a href="ch1-8">8) Lab: Demo of Web Development in Action</li>
+  <li><a href="ch1-9">9) Module Summary</li>
       </ul>
   <li><a href="#ch2">Chapter 2. HTML5 and CSS3 Overview</li>
   <ul>
-  <li><a href="ch2a">a) Module Introduction</li>
-  <li><a href="ch2b">b) Introduction to HTML</li>
-  <li><a href="ch2c">c) HTML Features</li>
-  <li><a href="ch2d">d) Lab: Intro to HTML (JSFiddle)</li>
-  <li><a href="ch2e">e) HTML Management and Support</li>
-  <li><a href="ch2f">f) HTML Scripting</li>
-  <li><a href="ch2g">g) HTML5 Browser Support</li>
-  <li><a href="ch2h">h) Lab: HTML</li>
-  <li><a href="ch2i">i) CSS: Styling HTML</li>
-  <li><a href="ch2j">j) Lab: CSS</li>
-  <li><a href="ch2k">k) Module Summary</li>
+  <li><a href="ch2a">1) Module Introduction</li>
+  <li><a href="ch2b">2) Introduction to HTML</li>
+  <li><a href="ch2c">3) HTML Features</li>
+  <li><a href="ch2d">4) Lab: Intro to HTML (JSFiddle)</li>
+  <li><a href="ch2e">5) HTML Management and Support</li>
+  <li><a href="ch2f">6) HTML Scripting</li>
+  <li><a href="ch2g">7) HTML5 Browser Support</li>
+  <li><a href="ch2h">8) Lab: HTML</li>
+  <li><a href="ch2i">9) CSS: Styling HTML</li>
+  <li><a href="ch2j">10) Lab: CSS</li>
+  <li><a href="ch2k">11) Module Summary</li>
       </ul>
   <li><a href="#ch3">Chapter 3. HTML5 Elements</li>
   <ul>
@@ -89,18 +89,18 @@ After completing this course, you will be able to:
       </ul>
   <li><a href="#ch5">Chapter 5. GitHub</li>
   <ul>
-  <li><a href="ch5a">a) Module Introduction</li>
-  <li><a href="ch5b">b) Overview of GitHub</li>
-  <li><a href="ch5c">c) Introduction to GitHub</li>
-  <li><a href="ch5d">d) GitHub Repositories</li>
-  <li><a href="ch5e">e) Lab: GitHub Sign Up & Create Repo</li>
-  <li><a href="ch5f">f) GitHub Branches</li>
-  <li><a href="ch5g">g) Lab: Branching and Merging (Web UI)</li>
-  <li><a href="ch5h">h) Cloning and Forking GitHub Projects</li>
-  <li><a href="ch5i">i) Managing GitHub Projects</li>
-  <li><a href="ch5j">j) Git Installation</li>
-  <li><a href="ch5k">k) SSH Key Creation</li>
-  <li><a href="ch5l">l) Add SSH to Repo</li>
-  <li><a href="ch5m">m) Module Summary</li>
+  <li><a href="ch5a">1) Module Introduction</li>
+  <li><a href="ch5b">2) Overview of GitHub</li>
+  <li><a href="ch5c">3) Introduction to GitHub</li>
+  <li><a href="ch5d">4) GitHub Repositories</li>
+  <li><a href="ch5e">5) Lab: GitHub Sign Up & Create Repo</li>
+  <li><a href="ch5f">6) GitHub Branches</li>
+  <li><a href="ch5g">7) Lab: Branching and Merging (Web UI)</li>
+  <li><a href="ch5h">8) Cloning and Forking GitHub Projects</li>
+  <li><a href="ch5i">9) Managing GitHub Projects</li>
+  <li><a href="ch5j">10) Git Installation</li>
+  <li><a href="ch5k">11) SSH Key Creation</li>
+  <li><a href="ch5l">12) Add SSH to Repo</li>
+  <li><a href="ch5-13">13) Module Summary</li>
       </ul>
       </ul>
