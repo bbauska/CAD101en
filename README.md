@@ -38,23 +38,20 @@ After completing this course, you will be able to:
 *   Manage your projects in GitHub.
 
 #### Syllabus
-## [Table of Contents] - CAD101EN (#table-of-contents)
+
+## [Table of Contents] (#table-of-contents)
+
 ## 1. [**Chapter 1. Introduction to Programming for the Cloud**](#ch1)
 >### 1.1 [**Course Introduction**](#ch1-1)
+>### 1-2 [**Module Introduction**](#ch1-2)
+>### 1-3 [**Overview of Web and Cloud Development**](#ch1-3)
+>### 1-4 [**Learning Front-End Development**](#ch1-4)
+>### 1-5 [**Introducing Application Development Tools**](#ch1-5)
+>### 1-6 [**More Application Development Tool**](#ch1-6)
+>### 1-7 [**The Importance of Back-End Development**](#ch1-7)
+>### 1-8 [**Lab: Demo of Web Development in Action**](#ch1-8)
+>### 1-9 [**Module Summary**](#ch1-9)
 
-<ul>
-><li><a href="#ch1"> ### Chapter 1. Introduction to Programming for the Cloud</li>
-  <ul>
-  <li><a href="ch1-1">1) Course Introduction</li>
-  <li><a href="ch1-2">2) Module Introduction</li>
-  <li><a href="ch1-3">3) Overview of Web and Cloud Development</li>
-  <li><a href="ch1-4">4) Learning Front-End Development</li>
-  <li><a href="ch1-5">5) Introducing Application Development Tools</li>
-  <li><a href="ch1-6">6) More Application Development Tools</li>
-  <li><a href="ch1-7">7) The Importance of Back-End Development</li>
-  <li><a href="ch1-8">8) Lab: Demo of Web Development in Action</li>
-  <li><a href="ch1-9">9) Module Summary</li>
-      </ul>
   <li><a href="#ch2">Chapter 2. HTML5 and CSS3 Overview</li>
   <ul>
   <li><a href="ch2-1">1) Module Introduction</li>
