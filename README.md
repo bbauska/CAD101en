@@ -75,7 +75,7 @@ After completing this course, you will be able to:
 >### 3.4 [**Lab: HTML5**](ch3-4)
 >### 3.5 [**Module Summary**](ch3-5)
 
-## 4. [**Chapter 4. JavaScript Programming for Web Applications
+## 4. [**Chapter 4. JavaScript Programming for Web Applications**](ch4)
 
 >### 4.1 [**Module Introduction**](ch4-1)
 >### 4.2 [**JavaScript Language: Overv/iew and Syntax**](ch4-2)
