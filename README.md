@@ -37,20 +37,20 @@ After completing this course, you will be able to:
 *   Use JavaScript to enhance the interactivity of a Cloud Application or website.
 *   Manage your projects in GitHub.
 
-#### Syllabus
+## Syllabus
 
 ## [Table of Contents](#table-of-contents)
 
-## 1. [**Chapter 1. Introduction to Programming for the Cloud**](#ch1)
->### 1.1 [**Course Introduction**](#ch1-1)
->### 1-2 [**Module Introduction**](#ch1-2)
->### 1-3 [**Overview of Web and Cloud Development**](#ch1-3)
->### 1-4 [**Learning Front-End Development**](#ch1-4)
->### 1-5 [**Introducing Application Development Tools**](#ch1-5)
->### 1-6 [**More Application Development Tool**](#ch1-6)
->### 1-7 [**The Importance of Back-End Development**](#ch1-7)
->### 1-8 [**Lab: Demo of Web Development in Action**](#ch1-8)
->### 1-9 [**Module Summary**](#ch1-9)
+### 1. [**Chapter 1. Introduction to Programming for the Cloud**](#ch1)
+>#### 1.1 [**Course Introduction**](#ch1-1)
+>#### 1-2 [**Module Introduction**](#ch1-2)
+>#### 1-3 [**Overview of Web and Cloud Development**](#ch1-3)
+>#### 1-4 [**Learning Front-End Development**](#ch1-4)
+>#### 1-5 [**Introducing Application Development Tools**](#ch1-5)
+>#### 1-6 [**More Application Development Tool**](#ch1-6)
+>#### 1-7 [**The Importance of Back-End Development**](#ch1-7)
+>#### 1-8 [**Lab: Demo of Web Development in Action**](#ch1-8)
+>#### 1-9 [**Module Summary**](#ch1-9)
 
 ## 2. [**Chapter 2. HTML5 and CSS3 Overview**](ch2)
 >### 2.1 [**Module Introduction**](ch2-1)
