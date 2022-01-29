@@ -102,3 +102,5 @@ After completing this course, you will be able to:
 
 **[`^        back to top        ^`](#table-of-contents)**
 
+## <a id="ch1"></a>Introduction to Programming for the Cloud
+### Learning Objectives
