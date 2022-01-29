@@ -42,7 +42,6 @@ After completing this course, you will be able to:
 ## [Table of Contents] (#table-of-contents)
 
 ## 1. [**Chapter 1. Introduction to Programming for the Cloud**](#ch1)
-
 >### 1.1 [**Course Introduction**](#ch1-1)
 >### 1-2 [**Module Introduction**](#ch1-2)
 >### 1-3 [**Overview of Web and Cloud Development**](#ch1-3)
@@ -54,7 +53,6 @@ After completing this course, you will be able to:
 >### 1-9 [**Module Summary**](#ch1-9)
 
 ## 2. [**Chapter 2. HTML5 and CSS3 Overview**](ch2)
-
 >### 2.1 [**Module Introduction**](ch2-1)
 >### 2.2 [**Introduction to HTML**](ch2-2)
 >### 2.3 [**HTML Features**](ch2-3)
@@ -68,7 +66,6 @@ After completing this course, you will be able to:
 >### 2.11 [**Module Summary**](ch2-11)
 
 ## 3. [**Chapter 3. HTML5 Elements**](ch3)
-
 >### 3.1 [**Module Introduction**](ch3-1)
 >### 3.2 [**HTML5 Tags and Structural Elements**](ch3-2)
 >### 3.3 [**HTML5 Input Element: Attributes for the Input Tag**](ch3-3)
@@ -76,7 +73,6 @@ After completing this course, you will be able to:
 >### 3.5 [**Module Summary**](ch3-5)
 
 ## 4. [**Chapter 4. JavaScript Programming for Web Applications**](ch4)
-
 >### 4.1 [**Module Introduction**](ch4-1)
 >### 4.2 [**JavaScript Language: Overv/iew and Syntax**](ch4-2)
 >### 4.3 [**JavaScript: Variables and Control Statements**](ch4-3)
@@ -89,7 +85,6 @@ After completing this course, you will be able to:
 >### 4.10 [**Module Summary**](ch4-10)
 
 ## 5. [**Chapter 5. GitHub**](ch5)
-
 >### 5.1 [**Module Introduction**](ch5-1)
 >### 5.2 [**Overview of GitHub**](ch5-2)
 >### 5.3 [**Introduction to GitHub**](ch5-3)
@@ -104,5 +99,6 @@ After completing this course, you will be able to:
 >### 5.12 [**Add SSH to Repo**](ch5-12)
 >### 5.13 [**Module Summary**](ch5-13)
 
-      **[`^        back to top        ^`](#table-of-contents)**
+
+**[`^        back to top        ^`](#table-of-contents)**
 
