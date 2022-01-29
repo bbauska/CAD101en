@@ -100,7 +100,7 @@ After completing this course, you will be able to:
 >### 5.13 [**Module Summary**](ch5-13)
 
 
-**[`^        back to top        ^`](#table-of-contents)**
+**[`^        back to table of contents        ^`](#table-of-contents)**
 
 ## <a id="ch1"></a>Introduction to Programming for the Cloud
 ### Learning Objectives
