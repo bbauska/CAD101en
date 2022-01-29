@@ -39,7 +39,7 @@ After completing this course, you will be able to:
 
 #### Syllabus
 
-## [Table of Contents] (#table-of-contents)
+## [Table of Contents](#table-of-contents)
 
 ## 1. [**Chapter 1. Introduction to Programming for the Cloud**](#ch1)
 >### 1.1 [**Course Introduction**](#ch1-1)
