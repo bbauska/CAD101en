@@ -1,9 +1,10 @@
 **Introduction to Cloud Development with HTML5, CSS3 and JavaScript {w/
 Github}** (CAD101EN)
+<p align="center">
+<img src="images/image003.png" width="675">
+&nbsp;
 
-![](images/image001.png){width="1.0in" height="0.6382983377077865in"}
-
-![](images/image002.png){width="6.75in" height="3.8in"}
+</p>
 
 ## Welcome
 
@@ -170,10 +171,11 @@ After completing this course, you will be able to:
     or website.
 
 -   Manage your projects in GitHub.
+<p align="center">
+<img src="images/image004.png" width="500">
+&nbsp;
 
-![](media/image3.png){width="5.0in" height="2.49786198600175in"}
-
-![](media/image4.png){width="5.0in" height="2.9501027996500437in"}
+</p>
 
 Want to take the first steps to become a Cloud Application Developer?
 This course will lead you through the languages and tools you will need
@@ -215,7 +217,9 @@ After completing this module, you will be able to:
 
 -   Identify the tools that developers use to develop Cloud Apps.
 
-![](media/image5.png){width="5.0in" height="2.802944006999125in"}
+<p align="center">
+<img src="images/image005.png" width="500">
+&nbsp;
 
 ### Module 1, Part I: Overview of Web and Cloud Development
 
@@ -485,7 +489,9 @@ When many developers are working on the same project, knowing what order
 changes were made, thereby creating a new version of the source code,
 becomes overridingly important.
 
-![](media/image6.png){width="5.0in" height="2.4444444444444446in"}
+<p align="center">
+<img src="images/image006.png" width="500">
+&nbsp;
 
 Version control systems keep track of what changes were made when and by
 whom and resolve any conflicts between changes.
@@ -508,7 +514,9 @@ Git stores files in repositories where you can track changes, split code
 into different branches for more focused development, and then merge
 them back into the main body of code.
 
-![](media/image7.png){width="5.0in" height="2.4084372265966754in"}
+<p align="center">
+<img src="images/image007.png" width="500">
+&nbsp;
 
 Libraries are collections of code, like standard programs and
 subroutines, which you can use within your code.
@@ -537,23 +545,31 @@ Either way, there are lots for you to choose from, so do your research.
 
 Here are some examples of code libraries:
 
-![](media/image8.png){width="2.0in" height="0.6738735783027121in"}
+<p align="center">
+<img src="images/image008.png" width="200">
+&nbsp;
 
 -   jQuery is a JavaScript library that simplifies Dom manipulation.
 
-![](media/image9.png){width="2.0636253280839894in"
-height="1.1258902012248468in"}
+<p align="center">
+<img src="images/image009.png" width="200">
+&nbsp;
 
 -   Email-validator is a small library that checks an email address is
     correctly constructed and valid.
 
-![](media/image10.png){width="2.0in" height="0.957749343832021in"}
+
+<p align="center">
+<img src="images/image010.png" width="200">
+&nbsp;
 
 -   Apache Commons Proper is a repository of reusable Java components.
 
 Frameworks provide a standard way to build and deploy applications.
 
-![](media/image11.png){width="5.0in" height="2.7556594488188977in"}
+<p align="center">
+<img src="images/image011.png" width="500">
+&nbsp;
 
 You can think of a framework as being a skeleton that you can extend by
 adding your own code, providing a scaffold on which to build your apps.
@@ -1078,7 +1094,9 @@ So, what are some HTML5 features?
 By using HTML5, developers can create a modern application experience
 that is uniform across platforms and devices.
 
-![](media/image12.png){width="5.0in" height="6.004461942257218in"}
+<p align="center">
+<img src="images/image012.png" width="600">
+&nbsp;
 
 Here is an example of a document that conforms to the syntax of HTML5.
 
@@ -1130,7 +1148,9 @@ webpage.
 HTML user agents, commonly known as browsers, parse the markup, turning
 it into a DOM (Document Object Model) tree.
 
-![](media/image13.png){width="5.0in" height="3.9530621172353455in"}
+<p align="center">
+<img src="images/image013.png" width="500">
+&nbsp;
 
 A DOM tree is an in-memory representation of a document.
 
@@ -1140,7 +1160,10 @@ elements such as headers and paragraphs, text nodes, and comment nodes.
 Here is an example of a document that conforms to the XML syntax of
 HTML5.
 
-![](media/image14.png){width="5.0in" height="3.0569313210848645in"}
+<p align="center">
+<img src="images/image014.png" width="500">
+&nbsp;
+</p>
 
 Extensible Markup Language (XML) documents look similar to HTML
 documents, except they have an XML tag on the first line.
@@ -1209,11 +1232,17 @@ After reading this section (part 3), you will be able to:
 
 -   Describe browser support for HTML5 features.
 
-![](media/image15.png){width="5.0in" height="2.0673075240594927in"}
+<p align="center">
+<img src="images/image015.png" width="500">
+&nbsp;
+</p>
 
 Let's examine some of the key themes of the HTML5 specification.
 
-![](media/image16.png){width="5.0in" height="2.3730293088363954in"}
+<p align="center">
+<img src="images/image016.png" width="500">
+&nbsp;
+</p>
 
 The syntax it defines is compatible with HTML4 and XHTML1 documents.
 
@@ -1230,7 +1259,10 @@ attributes of the earlier specifications.
 For authors, several elements and attributes have been removed in order
 to simplify the language.
 
-![](media/image17.png){width="5.0in" height="2.8016404199475065in"}
+<p align="center">
+<img src="images/image017.png" width="500">
+&nbsp;
+</p>
 
 HTML5 includes some elements and application programming interfaces that
 help in the creation of web applications.
@@ -1304,7 +1336,10 @@ Hello and welcome to HTML Scripting.
 After reading this section (part 4), you will be able to describe how
 scripting is enabled in browsers.
 
-![](media/image18.png){width="5.0in" height="2.4601749781277342in"}
+<p align="center">
+<img src="images/image018.png" width="500">
+&nbsp;
+</p>
 
 Scripting is enabled for a browser context, when the conditions shown on
 the slide are true.
@@ -1336,7 +1371,10 @@ sandbox attribute on any tag that contains an embedded object.
 Each HTML document that is loaded into a browser page becomes a Document
 object.
 
-![](media/image19.png){width="5.0in" height="2.6465168416447944in"}
+<p align="center">
+<img src="images/image019.png" width="500">
+&nbsp;
+</p>
 
 The Document object provides access to all HTML elements in a page and
 can be accessed from within a script.
@@ -1357,7 +1395,10 @@ script elements in the document.
 
 Here are some common HTML DOM tree methods:
 
-![](media/image20.png){width="5.0in" height="2.4525087489063866in"}
+<p align="center">
+<img src="images/image020.png" width="500">
+&nbsp;
+</p>
 
 The **document.getElementById ('id')** function has one required
 parameter which is the id of the element you want to access.
@@ -1374,7 +1415,10 @@ matches the required parameter.
 This is a fragment of HTML with JavaScript code that uses the document
 API.
 
-![](media/image21.png){width="5.0in" height="2.5047397200349955in"}
+<p align="center">
+<img src="images/image021.png" width="500">
+&nbsp;
+</p>
 
 When Submit is clicked inside the page that is running in a web browser,
 the *textChecker* function begins.
@@ -1391,7 +1435,10 @@ A similar function will be used later in Exercise 1.
 Here is the output from running the code on the previous page that uses
 the document API.
 
-![](media/image22.png){width="5.0in" height="2.131433727034121in"}
+<p align="center">
+<img src="images/image022.png" width="500">
+&nbsp;
+</p>
 
 The user types "Test" in the input field and clicks Submit. The result
 is seen in an alert dialog box on the same page.
@@ -1420,7 +1467,10 @@ After reading this section (part 5), you will be able to:
 
 -   Describe browser support for HTML5 features.
 
-![](media/image23.png){width="5.0in" height="1.6078040244969378in"}
+<p align="center">
+<img src="images/image023.png" width="500">
+&nbsp;
+</p>
 
 Not all browsers fully support all the features that are described in
 the HTML5 and CSS3 specifications.
@@ -1439,7 +1489,10 @@ can be a useful tool when developing web pages.
 For example, caniuse.com has great support tables for HTML5, CSS3, and
 more.
 
-![](media/image24.png){width="5.0in" height="2.3958333333333335in"}
+<p align="center">
+<img src="images/image024.png" width="500">
+&nbsp;
+</p>
 
 Here are the results of displaying the \< input type= 'date' \>element
 in different browsers.
@@ -1454,7 +1507,10 @@ The Firefox browser displays the date field as a text field.
 
 This could raise several issues regarding input format and validation.
 
-![](media/image25.png){width="5.0in" height="2.3288801399825023in"}
+<p align="center">
+<img src="images/image025.png" width="500">
+&nbsp;
+</p>
 
 This example shows a support table for the \< input type= 'date' \>
 element.
@@ -1477,7 +1533,10 @@ support the type ='date'\> element.
 Support levels change as developers of browsers add new features, so
 check back frequently to see if the features you require are supported.
 
-![](media/image26.png){width="5.0in" height="2.3618503937007875in"}
+<p align="center">
+<img src="images/image026.png" width="500">
+&nbsp;
+</p>
 
 You can also use JavaScript to check whether a certain HTML5 element is
 supported by a browser.
@@ -1500,7 +1559,10 @@ supported by a browser.
 Browsers that do not support the element can revert to a fallback or
 default behavior such as displaying the field as a regular text field.
 
-![](media/image27.png){width="5.0in" height="2.5706200787401574in"}
+<p align="center">
+<img src="images/image027.png" width="500">
+&nbsp;
+</p>
 
 Here is an example of using JavaScript to check whether a certain HTML5
 element is supported by a browser.
@@ -1544,7 +1606,10 @@ provision your lab environment.
 
 ## Module 2, Part VI: CSS: Styling HTML
 
-![](media/image28.png){width="5.0in" height="1.9476760717410324in"}
+<p align="center">
+<img src="images/image028.png" width="500">
+&nbsp;
+</p>
 
 Hello and welcome to CSS: Styling HTML.
 
@@ -1560,7 +1625,10 @@ By using a combination of HTML5, JavaScript, and cascading style sheets,
 developers can create web pages that can be displayed on desktop
 computers and mobile devices.
 
-![](media/image29.png){width="5.0in" height="2.5222823709536306in"}
+<p align="center">
+<img src="images/image029.png" width="500">
+&nbsp;
+</p>
 
 These technologies have powerful features that can be used to show rich
 interactive applications without requiring plug-in technologies, like
@@ -1573,7 +1641,10 @@ people.
 Being able to meet accessibility requirements is one advantage of using
 HTML markup over browser plug-ins for delivering interactive content.
 
-![](media/image30.png){width="5.0in" height="2.6974912510936133in"}
+<p align="center">
+<img src="images/image030.png" width="500">
+&nbsp;
+</p>
 
 CSS is the design that is layered over the top of an HTML web page.
 
@@ -1599,7 +1670,10 @@ if they have special accessibility needs.
 It allows machines (such as search engines) to index a website without
 the design interfering.
 
-![](media/image31.png){width="5.0in" height="2.337665135608049in"}
+<p align="center">
+<img src="images/image031.png" width="500">
+&nbsp;
+</p>
 
 You can code CSS as a style attribute in an HTML tag, a head section of
 a document, or an external document.
@@ -1607,7 +1681,10 @@ a document, or an external document.
 The preference is to code CSS in external documents (referred to
 as style sheets).
 
-![](media/image32.png){width="5.0in" height="2.5095024059492563in"}
+<p align="center">
+<img src="images/image032.png" width="500">
+&nbsp;
+</p>
 
 You can use CSS to control a document's appearance and specify style
 rules for the following web page elements: Fonts, Text, Colors,
@@ -1616,7 +1693,10 @@ Tables, and Lists.
 
 CSS style element are structured like this.
 
-![](media/image33.png){width="5.0in" height="2.655931758530184in"}
+<p align="center">
+<img src="images/image033.png" width="500">
+&nbsp;
+</p>
 
 In this example, the html-tag-name can be one of the following elements:
 
@@ -1632,7 +1712,10 @@ In this example, the html-tag-name can be one of the following elements:
 When making a site design, begin by establishing the base style.
 Establish a base style by styling the \<Body\> tag, as shown here.
 
-![](media/image34.png){width="3.0in" height="3.6902679352580927in"}
+<p align="center">
+<img src="images/image034.png" width="300">
+&nbsp;
+</p>
 
 This example makes the following styles:
 
@@ -1800,9 +1883,15 @@ After reading this section (part 1), you will be able to:
 
     -   section, article, header, footer, figure, fig caption.
 
-![](media/image35.png){width="6.5in" height="3.419209317585302in"}
+<p align="center">
+<img src="images/image035.png" width="650">
+&nbsp;
+</p>
 
-![](media/image36.png){width="6.5in" height="5.3578182414698166in"}
+<p align="center">
+<img src="images/image039.png" width="650">
+&nbsp;
+</p>
 
 There are many HTML5 specific elements. The table shows some of them.
 
@@ -1813,9 +1902,15 @@ graphical content.
 Not all of these element tags are covered in this section, so take a
 moment to read through the table.
 
-![](media/image37.png){width="6.5in" height="3.502713254593176in"}
+<p align="center">
+<img src="images/image037.png" width="650">
+&nbsp;
+</p>
 
-![](media/image38.png){width="6.5in" height="3.675313867016623in"}
+<p align="center">
+<img src="images/image038.png" width="650">
+&nbsp;
+</p>
 
 This table shows more HTML5 elements.
 
@@ -1826,7 +1921,10 @@ Comments in HTML can assist the developer to explain what the code does.
 The browsers do not display these comments, unless the viewer views the
 source.
 
-![](media/image39.png){width="5.0in" height="2.351405293088364in"}
+<p align="center">
+<img src="images/image039.png" width="500">
+&nbsp;
+</p>
 
 In a division-based layout, each part of a page that you want to format
 differently is separated into its own division.
@@ -1854,7 +1952,10 @@ text.
 In contrast, the \<div\> tag has no innate semantic meaning besides the
 logical grouping of the content.
 
-![](media/image40.png){width="5.0in" height="3.050846456692913in"}
+<p align="center">
+<img src="images/image040.png" width="500">
+&nbsp;
+</p>
 
 You can use these dedicated elements to mark up your website, rather
 than using the generic \<div\> or \<span\> elements.
@@ -1869,7 +1970,10 @@ A \<header\> element is used to group the headers for a page.
 
 The \<footer\> defines the area at the bottom of the page.
 
-![](media/image41.png){width="5.0in" height="3.608923884514436in"}
+<p align="center">
+<img src="images/image041.png" width="500">
+&nbsp;
+</p>
 
 This code example shows some of the HTML5 structural element.
 
@@ -1882,7 +1986,10 @@ their own headers.
 
 The page also includes a \<footer\> element.
 
-![](media/image42.png){width="5.0in" height="3.770054680664917in"}
+<p align="center">
+<img src="images/image042.png" width="500">
+&nbsp;
+</p>
 
 The \<aside\> tag is used to provide additional information that is
 related to the main discussion.
@@ -1899,7 +2006,10 @@ sections.
 The \<figurecaption\> tag defines the caption for the contents of the
 element.
 
-![](media/image43.png){width="5.0in" height="3.689569116360455in"}
+<p align="center">
+<img src="images/image043.png" width="500">
+&nbsp;
+</p>
 
 Websites typically have sections that are dedicated to navigational
 links that go to these sites or for moving between pages of a single
@@ -1908,7 +2018,10 @@ application.
 In HTML5 syntax, these navigational links are placed inside a \<nav\>
 tag.
 
-![](media/image44.png){width="5.0in" height="3.8268164916885388in"}
+<p align="center">
+<img src="images/image044.png" width="500">
+&nbsp;
+</p>
 
 The \<nav\> tag is a convenience tag for grouping navigational links in
 a web page.
@@ -1922,7 +2035,10 @@ In HTML5 syntax, these navigational links are placed inside a \<\> tag.
 The \<\> tag is a convenience tag for grouping navigational links in a
 web page.
 
-![](media/image45.png){width="5.0in" height="2.964209317585302in"}
+<p align="center">
+<img src="images/image045.png" width="500">
+&nbsp;
+</p>
 
 In this section (part 1), you learned:
 
@@ -1965,7 +2081,10 @@ color code.
 The \< input type=\"date\" \> attribute is a date control (year, month,
 day) with no time zone.
 
-![](media/image46.png){width="5.0in" height="2.2741951006124235in"}
+<p align="center">
+<img src="images/image046.png" width="500">
+&nbsp;
+</p>
 
 The example shows the input type=\"date\" field as it is seen in Google
 Chrome.
@@ -1975,13 +2094,19 @@ The input dialog varies from browser to browser.
 The datetime-local attribute provides input for a date and time (year,
 month, day, hour, minute, AM/PM) with no time zone.
 
-![](media/image47.png){width="5.0in" height="2.2741951006124235in"}
+<p align="center">
+<img src="images/image047.png" width="500">
+&nbsp;
+</p>
 
 The datetime-local input field is displayed as a drop-down calendar in
 the Google Chrome browser. The time can be typed or entered using the
 spinner control.
 
-![](media/image48.png){width="5.0in" height="2.2741951006124235in"}
+<p align="center">
+<img src="images/image048.png" width="500">
+&nbsp;
+</p>
 
 The \< input type=\"email\" \> attribute is displayed as a regular text
 input field.
@@ -1992,13 +2117,15 @@ The \< input type=\"number\" \> takes a numeric value as input.
 
 You can optionally specify the minimum, maximum values, step size, etc.
 
-![](media/image49.png){width="5.0in" height="2.2741951006124235in"}
+<p align="center">
+<img src="images/image049.png" width="500">
+&nbsp;
+</p>
 
 The example shows the number selector in the Chrome browser. Only the
 numbers between 5 and the 10 are available for selection.
 
-The \< input type=\"range\" \> takes a numeric range as input.
-
+The \< input type=\"range\" \> takes a numeric range as input.0
 The example shows the number selector in the Google Chrome browser.
 
 Only the numbers in the range of the minimum and the maximum are
@@ -2007,7 +2134,10 @@ available for selection.
 The range attribute displays a slider with the range of values between
 the minimum and maximum.
 
-![](media/image50.png){width="5.0in" height="2.2741951006124235in"}
+<p align="center">
+<img src="images/image050.png" width="500">
+&nbsp;
+</p>
 
 Only the slider itself is shown. Additional JavaScript code is needed in
 order to display the value of the slider.
@@ -2023,7 +2153,10 @@ The search input field on the Safari browser has rounded corners.
 The input type=\"tel\" pattern=\"\[parameters\]\" attribute expects a
 telephone number as input.
 
-![](media/image51.png){width="5.0in" height="2.2741951006124235in"}
+<p align="center">
+<img src="images/image051.png" width="500">
+&nbsp;
+</p>
 
 On its own, the \< input type=\"tel\" \> provides nothing more than a
 text entry field in the browsers.
@@ -2034,7 +2167,10 @@ include other characters, such as the plus sign and hyphens.
 You need to supply your own pattern matcher if you want the browser to
 validate the telephone number.
 
-![](media/image52.png){width="5.0in" height="2.2741951006124235in"}
+<p align="center">
+<img src="images/image052.png" width="500">
+&nbsp;
+</p>
 
 The URL attribute is used to validate that the user typed in a properly
 formatted URL or web address.
@@ -2056,12 +2192,18 @@ looks like.
 The placeholder fills the input text field with the example values in a
 lighter shade of text.
 
-![](media/image54.png){width="5.0in" height="2.2741951006124235in"}
+<p align="center">
+<img src="images/image054.png" width="500">
+&nbsp;
+</p>
 
 The form does not submit the placeholder text value if the input text is
 not overwritten.
 
-![](media/image55.png){width="5.0in" height="2.2741951006124235in"}
+<p align="center">
+<img src="images/image055.png" width="500">
+&nbsp;
+</p>
 
 The required attribute implies that some text must be typed.
 
@@ -2071,7 +2213,10 @@ placeholder text.
 What happens if browser-based validation is not supported for these
 input attributes?
 
-![](media/image56.png){width="5.0in" height="2.2741951006124235in"}
+<p align="center">
+<img src="images/image056.png" width="500">
+&nbsp;
+</p>
 
 There are several options to performing validation in browsers that do
 not support all HTML5 input attributes.
@@ -2182,11 +2327,14 @@ After reading this section (part 1), you will be able to:
 
 -   Describe JavaScript primitives and objects.
 
-![](media/image57.png){width="5.0in" height="2.46376968503937in"}
+<p align="center">
+<img src="images/image057.png" width="500">
+&nbsp;
+</p>
 
 JavaScript is a scripting language that is derived from the ECMAScript
 standard and originally designed to run on the Netscape Navigator
-browser:
+browser
 
 Virtually all browsers now support JavaScript.
 
@@ -2254,7 +2402,10 @@ types.
 The primitive types number, string, and boolean can be wrapped by their
 object counterparts.
 
-![](media/image58.png){width="5.0in" height="2.46376968503937in"}
+<p align="center">
+<img src="images/image058.png" width="500">
+&nbsp;
+</p>
 
 Wrapper objects have the same name as the primitive type, except they
 start with an uppercase letter.
@@ -2266,7 +2417,10 @@ values.
 The wrapper objects use special methods such as the *valueOf* and
 *toString* methods to convert between objects and primitive literals.
 
-![](media/image59.png){width="5.0in" height="2.46376968503937in"}
+<p align="center">
+<img src="images/image059.png" width="500">
+&nbsp;
+</p>
 
 The *typeof* keyword in JavaScript is used to find out the data type of
 the supplied operand.
@@ -2279,7 +2433,10 @@ The keyword new is used to create the String wrapper object.
 This object can be converted to a primitive string type by calling the
 valueOf function on the object wrapper class.
 
-![](media/image60.png){width="5.0in" height="2.46376968503937in"}
+<p align="center">
+<img src="images/image060.png" width="500">
+&nbsp;
+</p>
 
 Arrays are specialized collection objects that aid the programmer in the
 storage and retrieval of data by indexed keys.
@@ -2292,7 +2449,10 @@ Arrays grow or shrink dynamically by adding or removing elements.
 The length property holds the number of elements that occur in the
 array.
 
-![](media/image61.png){width="5.0in" height="2.423510498687664in"}
+<p align="center">
+<img src="images/image061.png" width="500">
+&nbsp;
+</p>
 
 Arrays can be declared by using either an array constructor or an array
 literal.
@@ -2306,7 +2466,10 @@ brackets.
 You then assign the array to a variable, as seen in the last example on
 the slide.
 
-![](media/image62.png){width="5.0in" height="2.423510498687664in"}
+<p align="center">
+<img src="images/image062.png" width="500">
+&nbsp;
+</p>
 
 The Date object is a specialized object that is used to hold the date
 and time.
@@ -2324,7 +2487,10 @@ to the object.
 The result that is displayed is a string version of the date as shown on
 this slide.
 
-![](media/image63.png){width="5.0in" height="2.423510498687664in"}
+<p align="center">
+<img src="images/image063.png" width="500">
+&nbsp;
+</p>
 
 You can also create new dates by passing parameters to the new Date
 function.
@@ -2335,7 +2501,10 @@ used for the date parameters when creating new date objects.
 As with other object-oriented languages, JavaScript creates error object
 instances when an exception occurs.
 
-![](media/image64.png){width="5.0in" height="2.423510498687664in"}
+<p align="center">
+<img src="images/image064.png" width="500">
+&nbsp;
+</p>
 
 The error object instance includes two properties that contain
 information about the error:
@@ -2352,7 +2521,10 @@ JavaScript, three of which are shown on the slide.
 
 The other three are EvalError, ReferenceError, and SyntaxError.
 
-![](media/image65.png){width="5.0in" height="2.423510498687664in"}
+<p align="center">
+<img src="images/image065.png" width="500">
+&nbsp;
+</p>
 
 The Error object can be extended to create custom error types.
 
@@ -2406,8 +2578,10 @@ After reading this section (part 2), you will be able to:
 Variables are declared with the var keyword followed by the variable
 name, as in the example, var age,
 
-![](media/image66.png){width="5.0in" height="2.423510498687664in"}
-
+<p align="center">
+<img src="images/image066.png" width="500">
+&nbsp;
+</p>
 Variables can be declared and initialized in one step, as in the
 example, var age = 54,
 
@@ -4518,46 +4692,58 @@ location. Click **Next**.
 6.  You can change the name of the start menu folder or simply leave the
     default name as is. Click **Next**.
 
-![image](media/image165.png){width="5.0in" height="3.868599081364829in"}
+<p align="center">
+<img src="images/image165.png" width="500">
+&nbsp;
 
 7.  Select the default editor for Git to use. Click **Next**.
 
-![image](media/image166.png){width="5.0in"
-height="3.8518996062992126in"}
+<p align="center">
+<img src="images/image166.png" width="500">
+&nbsp;
 
 8.  Choose how you want to use Git from the command line.
     Click **Next**.
 
-![image](media/image167.png){width="5.0in" height="3.872095363079615in"}
+<p align="center">
+<img src="images/image167.png" width="500">
+&nbsp;
 
 9.  Select **Use the OpenSSL library**. Click **Next**.
 
-![image](media/image168.png){width="5.0in" height="3.901048775153106in"}
+<p align="center">
+<img src="images/image168.png" width="500">
+&nbsp;
 
 10. Configure your line ending conversions for Windows by selecting the
     default option, **Checkout Windows-style, commit Unix-style line
     endings**. Click **Next**.
 
-![image](media/image169.png){width="5.0in"
-height="3.8929002624671916in"}
+<p align="center">
+<img src="images/image169.png" width="500">
+&nbsp;
 
 11. Configure your terminal emulator to use with Git Bash by selecting
     the default option, **Use MinTTY(the default terminal of MSYS2)**.
     Click **Next**.
 
-![image](media/image170.png){width="5.0in" height="3.888229440069991in"}
+<p align="center">
+<img src="images/image170.png" width="500">
+&nbsp;
 
 12. Configure the default behavior for a git pull by selecting **Default
     (fast-forward or merge)**. Click **Next**.
 
-![image](media/image171.png){width="5.0in"
-height="3.8297036307961503in"}
+<p align="center">
+<img src="images/image171.png" width="500">
+&nbsp;
 
 13. Select any additional options you want to install. (The default
     option is sufficient to use Git Bash successfully). Click **Next**.
 
-![image](media/image172.png){width="5.0in"
-height="3.8872867454068243in"}
+<p align="center">
+<img src="images/image172.png" width="500">
+&nbsp;
 
 14. You can enable experimental options if you choose to. By enabling
     these options, you will be able to try newer features that are still
@@ -4576,8 +4762,9 @@ height="3.8948206474190727in"}
 The Git Bash terminal opens. You are now able to enter Git and Bash
 commands.
 
-![image](media/image175.png){width="5.0in"
-height="2.9336450131233596in"}
+<p align="center">
+<img src="images/image175.png" width="500">
+&nbsp;
 
 ### © IBM Corporation 2020. All rights reserved.
 
@@ -4585,7 +4772,9 @@ height="2.9336450131233596in"}
 
 ### Generate an SSH key
 
-![](media/image158.png){width="1.0in" height="1.0in"}
+<p align="center">
+<img src="images/image158.png" width="100">
+&nbsp;
 
 ### What is an SSH key?
 
@@ -4650,7 +4839,9 @@ key.
 
 ### Lab: Adding an SSH key to GitHub
 
-![](media/image158.png){width="1.0in" height="1.0in"}
+<p align="center">
+<img src="images/image158.png" width="100">
+&nbsp;
 
 ### Prerequisites
 
@@ -4675,25 +4866,31 @@ command line and the copy the output.
 2.  Sign in to GitHub. At the top right, click the drop-down menu on
     your profile image and select **Settings**.
 
-![image](media/image176.png){width="3.0in" height="3.516715879265092in"}
+<p align="center">
+<img src="images/image176.png" width="300">
+&nbsp;
 
 3.  From the \"Personal settings\" menu, select **SSH and GPG keys**, as
     shown in the following image:
 
-![image](media/image177.png){width="6.0in" height="4.551233595800525in"}
+<p align="center">
+<img src="images/image177.png" width="600">
+&nbsp;
 
 4.  Click **New SSH key**.
 
-![image](media/image178.png){width="6.0in"
-height="2.3197528433945758in"}
+<p align="center">
+<img src="images/image178.png" width="600">
+&nbsp;
 
 5.  Enter a title for the new SSH key. In the **Key** field, paste the
     key that you copied in step 1, above. The pasted key should
     include **Your email address** at the end, as shown in the following
     image:
 
-![image](media/image179.png){width="6.75in"
-height="2.9868055555555557in"}
+<p align="center">
+<img src="images/image179.png" width="675">
+&nbsp;
 
 6.  Click **Add SSH Key**. The SSH key is added to your account.
 
@@ -4752,8 +4949,9 @@ To clone a repo, you need the ssh url of the repo.
 4.  Click on the \'clipboard icon\' to copy the url. Paste this url
     where you can access it later.
 
-![ssh url](media/image180.png){width="6.0in"
-height="5.802466097987751in"}
+<p align="center">
+<img src="images/image180.png" width="600" "ssh url">
+&nbsp;
 
 5.  On your desktop open a terminal.(gitbash if you are using windows
     os)
@@ -4762,14 +4960,18 @@ height="5.802466097987751in"}
 
 7.  Run the command \"git clone \"
 
-![](media/image181.png){width="6.0in" height="1.2604932195975502in"}
+<p align="center">
+<img src="images/image181.png" width="600">
+&nbsp;
 
 8.  This will clone the repo on GitHub into your current directory.
 
 9.  You can see all the downloaded files under a directory named as your
     repo name.
 
-![](media/image182.png){width="6.0in" height="1.7148129921259843in"}
+<p align="center">
+<img src="images/image182.png" width="600">
+&nbsp;
 
 change to the simple_interest_calulator directory and list the files to
 verify all the files got downloaded
@@ -4778,11 +4980,15 @@ verify all the files got downloaded
 
 Using your favorite editor make the changes to the html file.
 
-![](media/image183.png){width="6.0in" height="2.627159886264217in"}
+<p align="center">
+<img src="images/image183.png" width="600">
+&nbsp;
 
 **git status** will show all the modified files.
 
-![](media/image184.png){width="5.0in" height="2.899688320209974in"}
+<p align="center">
+<img src="images/image184.png" width="500">
+&nbsp;
 
 ### Exercise 3: Add a new file to the local repo
 
@@ -4823,7 +5029,52 @@ GitHub repository.
 
 Run the command \"git push\"
 
-![](media/image185.png){width="5.0in" height="2.17078302712161in"}
+<p align="center">
+<img src="images/image185.png" width="675">
+&nbsp;
+
+Log into your GitHub account and verify if the local changes have
+synched.
+
+## Summary
+
+In this lab, you have learned how to clone a GitHub repository, make
+changes to it, commit the changes locally, and push it back to GitHub.
+
+## Module 5, Summary
+
+In this module, you learned that:
+
+-   Distributed version control keeps track of changes to code,
+    regardless of where it is stored.
+
+-   Repositories are storage structures that:
+
+    -   Hold code
+
+    -   Track issues
+
+    -   Enable you to collaborate with others
+
+-   Branches are used to isolate changes to code. When the changes are
+    complete, they can be merged back into the master branch.
+
+-   Repositories can be cloned to make it possible to work locally, then
+    sync changes back to the original.
+
+-   Repositories can be forked to be used as a base for a new project,
+    or so that the developer can work independently.
+
+-   Large projects include people working in different roles:
+
+    -   Developer -- creates code
+
+    -   Integrator -- manages changes made by developers
+
+    -   Repository Administrator -- configures and maintains access to
+        the repository
+
+...the end.
 
 Log into your GitHub account and verify if the local changes have
 synched.
