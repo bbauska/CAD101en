@@ -1,5 +1,7 @@
-**Introduction to Cloud Development with HTML5, CSS3 and JavaScript {w/
-Github}** (CAD101EN)
+## CAD101EN - IBM - Introduction to Cloud Development with HTML5, CSS3 and JavaScript {w/Github}
+<!------------------------------------------------------------------------------------------------>
+<!------------------------------- cad101en.md in bbauska/CAD101EN -------------------------------->
+<!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="images/image003.png" width="675">
 &nbsp;
@@ -7,9 +9,9 @@ Github}** (CAD101EN)
 </p>
 
 ## Welcome
-
+<!----------------------
 ## [Welcome to Introduction to Cloud Development with HTML5, CSS3, and JavaScript](https://courses.edx.org/courses/course-v1:IBM+CAD101EN+2T2020/courseware/f585e5c461ff46f2b51908e14db38908/7b1b222dc117433bbb16825ef1cc60d2/)
-
+------------------------>
 ### General Information
 
 ### Module 1 - Introduction to Programming for the Cloud
