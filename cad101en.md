@@ -2584,13 +2584,16 @@ name, as in the example, var age,
 <img src="images/image066.png" width="500">
 &nbsp;
 </p>
+
 Variables can be declared and initialized in one step, as in the
 example, var age = 54,
 
 You can assign a value to the variable at a later time, or reassign the
 value of a variable,
 
-![](media/image67.png){width="5.0in" height="2.850242782152231in"}
+<p align="center">
+<img src="images/image067.png" width="500">
+&nbsp;
 
 Since JavaScript is a loosely typed language, you do not need to declare
 the data type of a variable. The variable assumes the data type from the
@@ -2635,7 +2638,9 @@ You learn about functions shortly.
 Conditional statements are the set of commands that are used to perform
 different actions for different conditions:
 
-![](media/image68.png){width="5.0in" height="2.8502416885389326in"}
+<p align="center">
+<img src="images/image068.png" width="500">
+&nbsp;
 
 In JavaScript, the IF statement is the way the program logic decides
 which path to take based on the current values of variables or object
@@ -2665,7 +2670,9 @@ Unlike Java, there is no block statement scope in JavaScript.
 Having no block statement scope means that variables declared inside one
 IF condition can be used outside the scope of that condition.
 
-![](media/image69.png){width="5.0in" height="2.544283683289589in"}
+<p align="center">
+<img src="images/image069.png" width="500">
+&nbsp;
 
 JavaScript supports the switch statement as an alternative to the IF
 then ELSE control statements.
@@ -2690,7 +2697,9 @@ the associated statements.
 The break keyword is used to prevent the code from automatically falling
 into the next case clause.
 
-![](media/image70.png){width="5.0in" height="2.5845417760279963in"}
+<p align="center">
+<img src="images/image070.png" width="500">
+&nbsp;
 
 The FOR loop repeats a series of statements for any number of times.
 
@@ -2711,7 +2720,9 @@ If the condition evaluates to false, the FOR loop terminates.
 If the loop does not terminate, control returns to the second step and
 the conditional expression is evaluated again.
 
-![](media/image71.png){width="5.0in" height="1.7069258530183726in"}
+<p align="center">
+<img src="images/image071.png" width="500">
+&nbsp;
 
 The WHILE loop is another common loop in JavaScript,
 
@@ -2779,7 +2790,9 @@ A function is made up of the following parts:
 The last statement in a function block is the optional return statement
 that returns control back to whatever called the function.
 
-![](media/image72.png){width="5.0in" height="2.568436132983377in"}
+<p align="center">
+<img src="images/image072.png" width="500">
+&nbsp;
 
 This example is a function that is named add.
 
@@ -2804,7 +2817,9 @@ If the values can be interpreted as numbers, they are added.
 
 If they can be interpreted as strings, they are concatenated.
 
-![](media/image73.png){width="5.0in" height="2.423510498687664in"}
+<p align="center">
+<img src="images/image073.png" width="500">
+&nbsp;
 
 This is an example of declaring a function named Car that accepts three
 arguments as parameters.
@@ -2826,7 +2841,9 @@ newly created Car object.
 By using prototypes, you can easily define properties and methods for
 all instances of a particular object.
 
-![](media/image75.png){width="5.0in" height="2.4718186789151355in"}
+<p align="center">
+<img src="images/image075.png" width="500">
+&nbsp;
 
 Prototypes exist for all JavaScript objects that can be created with the
 new keyword.
@@ -2834,7 +2851,9 @@ new keyword.
 All object constructors create objects that inherit the properties and
 methods that are defined by the prototype for that object.
 
-![](media/image76.png){width="5.0in" height="2.4718186789151355in"}
+<p align="center">
+<img src="images/image076.png" width="500">
+&nbsp;
 
 Any object that gets instantiated inherits the current state of the
 prototype.
@@ -2855,7 +2874,9 @@ Any Car object that you create, or any car object that is already
 created, automatically inherits the new floor_model property and its
 value.
 
-![](media/image77.png){width="5.0in" height="2.4718186789151355in"}
+<p align="center">
+<img src="images/image077.png" width="500">
+&nbsp;
 
 Here is another example that uses a prototype to change Car instances.
 
@@ -2868,7 +2889,9 @@ function that returns the make, model, and year.
 All existing instances of the Car object also inherit the getName
 method.
 
-![](media/image78.png){width="5.0in" height="2.4718186789151355in"}
+<p align="center">
+<img src="images/image078.png" width="500">
+&nbsp;
 
 Functions are usually declared first, and not run until you specifically
 ask them to, as you saw in some of the previous examples.
@@ -2933,9 +2956,13 @@ A function is made up of the following parts:
 -   The last statement in a function block is the optional return
     statement that returns control back to whatever called the function.
 
-![](media/image79.png){width="5.0in" height="2.624799868766404in"}
+<p align="center">
+<img src="images/image079.png" width="500">
+&nbsp;
 
-![](media/image80.png){width="5.0in" height="2.479870953630796in"}
+<p align="center">
+<img src="images/image080.png" width="500">
+&nbsp;
 
 This example is a function that is named add.
 
@@ -2980,7 +3007,9 @@ newly created Car object.
 By using prototypes, you can easily define properties and methods for
 all instances of a particular object.
 
-![](media/image81.png){width="5.0in" height="2.479870953630796in"}
+<p align="center">
+<img src="images/image081.png" width="500">
+&nbsp;
 
 Prototypes exist for all JavaScript objects that can be created with the
 new keyword.
@@ -3007,7 +3036,9 @@ Any Car object that you create, or any car object that is already
 created, automatically inherits the new floor_model property and its
 value.
 
-![](media/image82.png){width="5.0in" height="2.479870953630796in"}
+<p align="center">
+<img src="images/image082.png" width="500">
+&nbsp;
 
 Here is another example that uses a prototype to change Car instances.
 
@@ -3020,7 +3051,9 @@ function that returns the make, model, and year.
 All existing instances of the Car object also inherit the getName
 method.
 
-![](media/image83.png){width="5.0in" height="2.479870953630796in"}
+<p align="center">
+<img src="images/image083.png" width="500">
+&nbsp;
 
 Functions are usually declared first, and not run until you specifically
 ask them to, as you saw in some of the previous examples.
@@ -3077,7 +3110,9 @@ After reading this section (part 5), you will be able to:
 A client-side script is a program that accompanies an HTML document or
 might be embedded directly in the HTML document itself.
 
-![](media/image84.png){width="5.0in" height="2.2946872265966753in"}
+<p align="center">
+<img src="images/image084.png" width="500">
+&nbsp;
 
 The script program runs on the client device when the document loads, or
 at some other time such as when a link is activated or when a button is
@@ -3100,7 +3135,9 @@ clicking of a button.
 Scripts can be used to dynamically create document elements on an HTML
 page.
 
-![](media/image85.png){width="5.0in" height="2.2946872265966753in"}
+<p align="center">
+<img src="images/image085.png" width="500">
+&nbsp;
 
 This slide shows two ways in which the document.
 
@@ -3110,7 +3147,9 @@ HTML document.
 This method is good for short scripts, but when a script is long, the
 method used in example 2 is preferred.
 
-![](media/image86.png){width="5.0in" height="2.2946872265966753in"}
+<p align="center">
+<img src="images/image086.png" width="500">
+&nbsp;
 
 Example 2 uses the src attribute to point to an external script file.
 
@@ -3121,7 +3160,9 @@ several HTML documents.
 Some users who visit your website might disable JavaScript from running,
 or they might be using a browser that does not support scripting.
 
-![](media/image87.png){width="5.0in" height="2.2946872265966753in"}
+<p align="center">
+<img src="images/image087.png" width="500">
+&nbsp;
 
 To allow for these situations, place the content for the alternative
 path within the tag.
@@ -3132,7 +3173,9 @@ of code that is within the noscript tag.
 Scripts can be run on the detection of certain events that happen when
 the page is running in a browser session.
 
-![](media/image88.png){width="5.0in" height="2.479870953630796in"}
+<p align="center">
+<img src="images/image088.png" width="500">
+&nbsp;
 
 For example, the onload event can run a script when the browser finishes
 loading a page.
@@ -3145,7 +3188,9 @@ such as a button, that declares a handler for the event.
 The event handler is a function that declares what to do when the button
 is clicked.
 
-![](media/image89.png){width="5.0in" height="2.479870953630796in"}
+<p align="center">
+<img src="images/image089.png" width="500">
+&nbsp;
 
 Here the inline event handler named showAnswers runs when the button is
 clicked.
@@ -3184,7 +3229,9 @@ After reading this section (part 6), you will be able to:
 -   Identify the DOM objects that are commonly used in JavaScript
     applications for working with HTML documents.
 
-![](media/image90.png){width="5.0in" height="2.4396128608923884in"}
+<p align="center">
+<img src="images/image090.png" width="500">
+&nbsp;
 
 The document object model is the programming interface between HTML or
 XHTML and JavaScript.
@@ -3196,7 +3243,9 @@ structure, and style of documents.
 JavaScript uses the DOM to access and modify web page elements in the
 web browser.
 
-![](media/image91.png){width="5.0in" height="2.4396128608923884in"}
+<p align="center">
+<img src="images/image091.png" width="500">
+&nbsp;
 
 The World Wide Web Consortium released four levels of the Document
 Object Model specifications.
@@ -3216,7 +3265,9 @@ APIs to access HTML elements with the DOM.
 
 The JavaScript engine in most web browsers fully supports DOM level 1.
 
-![](media/image92.png){width="5.0in" height="2.4396128608923884in"}
+<p align="center">
+<img src="images/image092.png" width="500">
+&nbsp;
 
 Here is a representation of the basic DOM model for browsers:
 
@@ -3258,7 +3309,9 @@ for you.
 You can then access the window object properties and functions from your
 JavaScript code.
 
-![](media/image93.png){width="5.0in" height="2.4396128608923884in"}
+<p align="center">
+<img src="images/image093.png" width="500">
+&nbsp;
 
 In client-side JavaScript, the Window object serves as the global object
 and everything in the DOM takes place in a window.
@@ -3277,12 +3330,16 @@ This figure shows the object model for a simple HTML document.
 Notice how the object hierarchy matches the HTML containment hierarchy
 on the left.
 
-![](media/image94.png){width="5.0in" height="2.4396128608923884in"}
+<p align="center">
+<img src="images/image094.png" width="500">
+&nbsp;
 
 The object diagram can also be represented as a tree structure that
 corresponds to the structure of the HTML document.
 
-![](media/image95.png){width="5.0in" height="2.4396128608923884in"}
+<p align="center">
+<img src="images/image095.png" width="500">
+&nbsp;
 
 The branches of the tree structure are termed nodes.
 
@@ -3294,7 +3351,9 @@ All HTML tags (html, head, meta, title, and body) are element nodes.
 The nodes that contain actual text that go between an element start tag
 and end tag, are text nodes.
 
-![](media/image96.png){width="5.0in" height="2.4396128608923884in"}
+<p align="center">
+<img src="images/image096.png" width="500">
+&nbsp;
 
 The figure shows the DOM level 2 tree for the FORM portion of the
 document.
@@ -3302,7 +3361,9 @@ document.
 The line feeds between elements are text nodes and are part of the DOM
 level 2 tree.
 
-![](media/image97.png){width="5.0in" height="2.3913046806649167in"}
+<p align="center">
+<img src="images/image097.png" width="500">
+&nbsp;
 
 The DOM level 2 tree includes a line feed text node before the paragraph
 and input elements.
@@ -3350,7 +3411,9 @@ After reading this section (part 7), you will be able to:
 -   Identify the DOM objects that are commonly used in JavaScript
     applications for working with HTML documents.
 
-![](media/image98.png){width="5.0in" height="2.4718186789151355in"}
+<p align="center">
+<img src="images/image098.png" width="500">
+&nbsp;
 
 The W3C DOM level 2 defines 12 different types of nodes, seven of which
 have direct applicability in HTML documents.
@@ -3367,7 +3430,9 @@ For example:
 
 An ELEMENT_NODE type is represented by the integer 1.
 
-![](media/image99.png){width="5.0in" height="2.4718186789151355in"}
+<p align="center">
+<img src="images/image099.png" width="500">
+&nbsp;
 
 An ATTRIBUTE_NODE type is represented by the integer 2.
 
@@ -3390,7 +3455,9 @@ If a paragraph element is followed by some text, the text string has a
 node name of hash-sign-text, and the node value is the text string
 itself.
 
-![](media/image100.png){width="5.0in" height="2.4718186789151355in"}
+<p align="center">
+<img src="images/image100.png" width="500">
+&nbsp;
 
 The table lists some of the DOM Level 2 node object properties and
 corresponding data types.
@@ -3398,7 +3465,9 @@ corresponding data types.
 You see these properties when you view a DOM tree for an HTML page in a
 browser's developer tools, like Chrome's DevTools.
 
-![](media/image101.png){width="5.0in" height="2.4718186789151355in"}
+<p align="center">
+<img src="images/image101.png" width="500">
+&nbsp;
 
 How do you access the elements on an HTML page with the DOM API?
 
@@ -3414,18 +3483,24 @@ Each of the array types, such as forms\[\], contains an array of
 elements\[\] with each index element being the fields or buttons that
 occur in that form.
 
-![](media/image102.png){width="5.0in" height="2.4718186789151355in"}
+<p align="center">
+<img src="images/image102.png" width="500">
+&nbsp;
 
 You can reference the element named field1 in the figure by its relative
 position as document.forms\[0\].elements\[0\].
 
-![](media/image103.png){width="5.0in" height="2.4718186789151355in"}
+<p align="center">
+<img src="images/image103.png" width="500">
+&nbsp;
 
 You can reference the same field with named elements; for example,
 document.forms\[\"form1\"\].elements\[\"field1\"\], or even the
 shortened document.form1.field1.
 
-![](media/image104.png){width="5.0in" height="2.4718186789151355in"}
+<p align="center">
+<img src="images/image104.png" width="500">
+&nbsp;
 
 Since only one document can be contained in a window, shown by the
 dashed line in the figure, you can leave out the window prefix. However,
@@ -3439,7 +3514,9 @@ element with a name that matches the value of the id attribute.
 In order to assign a scriptable reference name to an HTML element with
 the id attribute, use the following conventions:
 
-![](media/image105.png){width="5.0in" height="2.4718186789151355in"}
+<p align="center">
+<img src="images/image105.png" width="500">
+&nbsp;
 
 The id must be a unique name in the document.
 
@@ -3484,14 +3561,18 @@ detail for one unit.
 Instead, the remainder of the unit focuses on script functions and
 properties that are commonly used when working with HTML pages.
 
-![](media/image106.png){width="5.0in" height="2.2544280402449695in"}
+<p align="center">
+<img src="images/image106.png" width="500">
+&nbsp;
 
 Some of these common APIs used in when accessing HTML DOM elements in
 web pages are seen on the slide.
 
 DOM elements are reviewed next.
 
-![](images/image107.png){width="5.0in" height="2.2544280402449695in"}
+<p align="center">
+<img src="images/image107.png" width="500">
+&nbsp;
 
 To retrieve a node reference for an element of a document given an id,
 use the document.getElementById function and pass the id value as an
@@ -3514,7 +3595,9 @@ tag.
 If you run the function getElementsByTagName with a "p" as a parameter
 argument, a NodeList of all the paragraphs in the document is returned.
 
-![](media/image108.png){width="5.0in" height="2.2544280402449695in"}
+<p align="center">
+<img src="images/image108.png" width="500">
+&nbsp;
 
 This example shows how you can retrieve all the image elements from a
 web page by using the getElementsByTagName function and passing "img" as
@@ -3537,13 +3620,17 @@ create an element in the current document.
 After creating the element, you can use any of a number of functions to
 place the element in the appropriate location within the document.
 
-![](images/image109.png){width="5.0in" height="2.2544280402449695in"}
+<p align="center">
+<img src="images/image109.png" width="500">
+&nbsp;
 
 Examples of these functions include the insertBefore, appendChild, or
 replaceChild function that can be used to add the newly created element
 into the document.
 
-![](images/image110.png){width="5.0in" height="2.4959755030621174in"}
+<p align="center">
+<img src="images/image110.png" width="500">
+&nbsp;
 
 This example shows the source code for adding a node to a document.
 
@@ -3557,7 +3644,9 @@ the end of the
 
 body node of the HTML page.
 
-![](images/image111.png){width="5.0in" height="2.4959755030621174in"}
+<p align="center">
+<img src="images/image111.png" width="500">
+&nbsp;
 
 The function element.innerHTML retrieves or sets the contents of an HTML
 element.
@@ -3583,6 +3672,9 @@ element.style.propertyName = value.
 For example, if you had an element \<div style=\"color:blue\"\>.
 
 ![](images/image112.png){width="5.0in" height="2.4959755030621174in"}
+<p align="center">
+<img src="images/image112.png" width="500">
+&nbsp;
 
 Here the \<div\> tag is used to group block-elements to format them with
 a color style. You can change the style of this div tag with the
@@ -3590,14 +3682,18 @@ JavaScript statement:
 
 div.style.color = \'red\';
 
-![](images/image113.png){width="5.0in" height="2.4959755030621174in"}
+<p align="center">
+<img src="images/image113.png" width="500">
+&nbsp;
 
 In contrast, the element.setAttribute(\'style\', ...) wipes out all
 previously set inline CSS
 
 styles.
 
-![](images/image114.png){width="5.0in" height="2.4959755030621174in"}
+<p align="center">
+<img src="images/image114.png" width="500">
+&nbsp;
 
 The function element.setAttribute with parameters(attrName, attrValue)
 dynamically modifies the attribute of an element.
@@ -3611,11 +3707,15 @@ an element.
 The function element.getAttribute(attrName) retrieves the value of the
 specified attribute in the element, if it exists.
 
-![](images/image115.png){width="5.0in" height="2.4959755030621174in"}
+<p align="center">
+<img src="images/image115.png" width="500">
+&nbsp;
 
 Here are some window object functions and events.
 
-![](images/image116.png){width="5.0in" height="2.4959755030621174in"}
+<p align="center">
+<img src="images/image116.png" width="500">
+&nbsp;
 
 To open a new browser window, use the window.open() function.
 
@@ -3653,12 +3753,16 @@ information than the alert() method.
 Finally, the window.scrollTo(x-value, y-value) scrolls the web browser
 to a particular set of coordinates on a page.
 
-![](images/image117.png){width="5.0in" height="2.4959755030621174in"}
+<p align="center">
+<img src="images/image117.png" width="500">
+&nbsp;
 
 The onload event handler runs in the current window after the document
 loads the web page.
 
-![](images/image118.png){width="5.0in" height="2.431563867016623in"}
+<p align="center">
+<img src="images/image118.png" width="500">
+&nbsp;
 
 In the example, the onload event causes an anonymous function to run.
 This function, in turn, runs the function addPara().
@@ -3774,7 +3878,9 @@ others. 
 You can't talk about Git and GitHub without a basic understanding of
 what version control is. 
 
-![](media/image119.png){width="5.0in" height="2.732369860017498in"}
+<p align="center">
+<img src="images/image119.png" width="500">
+&nbsp;
 
 A version control system allows you to keep track of changes to your
 documents. 
@@ -3782,7 +3888,9 @@ documents. 
 This makes it easy for you to recover older versions of your document if
 you make a mistake, and it makes collaboration with others much easier. 
 
-![](media/image120.png){width="5.0in" height="2.732369860017498in"}
+<p align="center">
+<img src="images/image120.png" width="500">
+&nbsp;
 
 Here is an example to illustrate how version control works. 
 
@@ -3792,12 +3900,16 @@ confirm the things you need and add additional items. 
 Without version control, you've got a big mess to clean up before you
 can go shopping. 
 
-![](media/image121.png){width="5.0in" height="2.732369860017498in"}
+<p align="center">
+<img src="images/image121.png" width="500">
+&nbsp;
 
 With version control, you know EXACTLY what you need after everyone has
 contributed their ideas. 
 
-![](media/image122.png){width="5.0in" height="2.732369860017498in"}
+<p align="center">
+<img src="images/image122.png" width="500">
+&nbsp;
 
 Git is free and open source software distributed under the GNU General
 Public License. 
@@ -3819,14 +3931,18 @@ You can use Git without a web interface by using your command line
 interface, but GitHub is one of the most popular web-hosted services for
 Git repositories. 
 
-![](media/image123.png){width="5.0in" height="2.732369860017498in"}
+<p align="center">
+<img src="images/image123.png" width="500">
+&nbsp;
 
 Others include GitLab, BitBucket, and Beanstalk. 
 
 There are a few basic terms that you will need to know before you can
 get started. 
 
-![](media/image124.png){width="5.0in" height="2.732369860017498in"}
+<p align="center">
+<img src="images/image124.png" width="500">
+&nbsp;
 
 The SSH protocol is a method for secure remote login from one computer
 to another. 
@@ -3842,7 +3958,9 @@ your changes before they become final. 
 A working directory contains the files and subdirectories on your
 computer that are associated with a Git repository. 
 
-![](media/image125.png){width="5.0in" height="2.7323654855643045in"}
+<p align="center">
+<img src="images/image125.png" width="500">
+&nbsp;
 
 There are a few basic Git commands that you will always use. 
 
@@ -3871,9 +3989,9 @@ repository to make changes. 
 
 \"git merge\" lets you put everything back together again. 
 
- 
-
-![](media/image126.png){width="5.0in" height="2.7323654855643045in"}
+<p align="center">
+<img src="images/image126.png" width="500">
+&nbsp;
 
 To learn how to use Git effectively and begin collaborating with data
 scientists around the world, you will need to learn the essential
@@ -3910,7 +4028,9 @@ control system. 
 The project ran in short time frames and the key characteristics were
 defined by a small group. 
 
-![](media/image127.png){width="5.0in" height="2.732360017497813in"}
+<p align="center">
+<img src="images/image127.png" width="500">
+&nbsp;
 
 These include: 
 
@@ -3938,7 +4058,9 @@ updates. 
 Many pathways of development can lead to complex integration decisions
 that might require explicit integration strategies. 
 
-![](media/image128.png){width="5.0in" height="2.732360017497813in"}
+<p align="center">
+<img src="images/image128.png" width="500">
+&nbsp;
 
 What is special about the Git Repository model. 
 
@@ -3949,7 +4071,9 @@ Primarily focused on tracking source code during development. 
 Contains elements to coordinate among programmers, track changes, and
 support non-linear workflows. 
 
-![](media/image129.png){width="5.0in" height="2.492282370953631in"}
+<p align="center">
+<img src="images/image129.png" width="500">
+&nbsp;
 
 Created in 2005 by Linus Torvalds for distribution of Linux kernels. 
 
@@ -3982,7 +4106,9 @@ interface. 
 IBM Cloud is based on sound and established open-source tools including
 Git repositories, often called repos. 
 
-![](media/image130.png){width="5.0in" height="2.492283464566929in"}
+<p align="center">
+<img src="images/image130.png" width="500">
+&nbsp;
 
 GitHub is an online hosting service for Git repositories. 
 
@@ -4005,7 +4131,9 @@ A Repository is: 
 -   GitLab provides access to Git repositories, controlled by source
     code management. 
 
-![](media/image131.png){width="5.0in" height="2.492283464566929in"}
+<p align="center">
+<img src="images/image131.png" width="500">
+&nbsp;
 
 With GitLab, developers can: 
 
@@ -4047,7 +4175,9 @@ After reading this section (part 3), you will be able to:
 
 -   Signing up for a free, personal account on GitHub is quick and easy.
 
-![](media/image132.png){width="5.0in" height="2.4879232283464567in"}
+<p align="center">
+<img src="images/image132.png" width="500">
+&nbsp;
 
 Start at the GitHub site, https://github.com
 
@@ -4076,7 +4206,9 @@ provides you with some starting points.
 You can choose to create a repository or an organization, or you can
 take the Introduction to GitHub course.
 
-![](media/image133.png){width="5.0in" height="2.4879232283464567in"}
+<p align="center">
+<img src="images/image133.png" width="500">
+&nbsp;
 
 Remember, a repository is a data structure for storing documents
 including application source code which tracks and maintains
@@ -4106,7 +4238,9 @@ You can also make your repository private (only available to people with
 accounts that have permission to see it) or public (searchable and seen
 by everyone).
 
-![](media/image134.png){width="5.0in" height="2.4879232283464567in"}
+<p align="center">
+<img src="images/image134.png" width="500">
+&nbsp;
 
 When you create your repository, you'll notice that it has a number of
 tabs, and is opened to the Code tab.
@@ -4163,7 +4297,9 @@ After reading this section (part 4), you will be able to:
 
 All files in GitHub are stored on a branch.
 
-![](media/image135.png){width="5.0in" height="2.4879232283464567in"}
+<p align="center">
+<img src="images/image135.png" width="500">
+&nbsp;
 
 The master branch is definitive; it stores the deployable version of
 your code.
@@ -4178,7 +4314,9 @@ The new branch starts as an exact copy of the original branch.
 
 As you make changes, the branch that you created holds the changed code.
 
-![](media/image136.png){width="5.0in" height="2.4879232283464567in"}
+<p align="center">
+<img src="images/image136.png" width="500">
+&nbsp;
 
 To create a new branch, click drop-down branch: master
 
@@ -4202,7 +4340,9 @@ as a tip.
 
 and the two tips are merged into a third, combined branch.
 
-![](media/image137.png){width="5.0in" height="2.4879232283464567in"}
+<p align="center">
+<img src="images/image137.png" width="500">
+&nbsp;
 
 Developers work on source files in a branch. Since some projects take a
 while, the source doesn't make sense right away.
@@ -4241,7 +4381,10 @@ Some rules:
 
 -   Always write in an "active" voice.
 
-![](media/image138.png){width="5.0in" height="2.4879232283464567in"}
+<p align="center">
+<img src="images/image138.png" width="500">
+&nbsp;
+
 
 Pull is used to initiate the merging of branches in a way to capture
 changes.
@@ -4262,7 +4405,9 @@ person who approved the merge of the change.
 
 To open a new pull request:
 
-![](media/image139.png){width="5.0in" height="2.53623031496063in"}
+<p align="center">
+<img src="images/image139.png" width="500">
+&nbsp;
 
 Click Pull request and select New pull request.
 
@@ -4290,7 +4435,9 @@ The code is reviewed and approved.
 
 The approved code is merged back into the master code.
 
-![](media/image140.png){width="5.0in" height="2.447665135608049in"}
+<p align="center">
+<img src="images/image140.png" width="500">
+&nbsp;
 
 To merge a committed code change into your master code.
 
@@ -4298,7 +4445,10 @@ Click Merge pull request.
 
 Click Confirm merge.
 
-![](media/image141.png){width="5.0in" height="2.447665135608049in"}
+<p align="center">
+<img src="images/image141.png" width="500">
+&nbsp;
+
 
 When all changes for a branch are complete, that branch is considered
 obsolete and it should be deleted.
@@ -4327,8 +4477,9 @@ Pull requests enables other users to review and use the proposed changes
 When you are ready to merge the changed code into the master branch, you
 merge the committed code changes into your master code.
 
-![](media/image142.png){width="5.034096675415573in"
-height="2.464355861767279in"}
+<p align="center">
+<img src="images/image142.png" width="500">
+&nbsp;
 
 ## Hands-On Lab: Branching and Merging (Web UI)
 
@@ -4347,7 +4498,9 @@ After reading this section (part 5), you will be able to:
 
 -   Use git commands to communicate with other developers.
 
-![](media/image143.png){width="5.0in" height="2.447665135608049in"}
+<p align="center">
+<img src="images/image143.png" width="500">
+&nbsp;
 
 GitHub has over existing 100M repositories, including some very useful
 projects.
@@ -4369,9 +4522,13 @@ starting point for your new project.
 To clone a GitHub repository, navigate to the repository that you want
 to clone.
 
-![](media/image144.png){width="5.0in" height="2.447665135608049in"}
+<p align="center">
+<img src="images/image144.png" width="500">
+&nbsp;
 
-![](media/image145.png){width="5.0in" height="2.447665135608049in"}
+<p align="center">
+<img src="images/image145.png" width="500">
+&nbsp;
 
 Under the repository name, click Code.
 
@@ -4390,7 +4547,9 @@ then press ENTER to execute the cloning.
 When you have made your changes and are ready to sync your code back to
 GitHub.
 
-![](media/image146.png){width="5.0in" height="2.447665135608049in"}
+<p align="center">
+<img src="images/image146.png" width="500">
+&nbsp;
 
 First, you must run the "git add " command.
 
@@ -4408,7 +4567,9 @@ in the staging area.
 When you are ready to move your changes fully into the GitHub
 repository.
 
-![](media/image147.png){width="5.0in" height="2.447665135608049in"}
+<p align="center">
+<img src="images/image147.png" width="500">
+&nbsp;
 
 Use the "git push" command.
 
@@ -4426,7 +4587,9 @@ Collaborating with others involves managing these remote repositories
 and involves push, pull, and fetch operations to and from them when you
 need to share work.
 
-![](media/image148.png){width="5.0in" height="2.447665135608049in"}
+<p align="center">
+<img src="images/image148.png" width="500">
+&nbsp;
 
 Use git push to transfer your changes to the remote repo.
 
@@ -4436,7 +4599,9 @@ repo.
 It does not merge those changes to the branch you are working on. You
 can perform a merge manually if you want.
 
-![](media/image149.png){width="5.0in" height="2.447665135608049in"}
+<p align="center">
+<img src="images/image149.png" width="500">
+&nbsp;
 
 Use git pull to transfer any changes from the remote repo to your local
 repo, and merge them to a branch.
@@ -4444,7 +4609,9 @@ repo, and merge them to a branch.
 Developers use the terms upstream and origin when talking about remote
 reps.
 
-![](media/image150.png){width="5.0in" height="2.447665135608049in"}
+<p align="center">
+<img src="images/image150.png" width="500">
+&nbsp;
 
 Origin generally refers to your fork and upstream refers to the original
 work.
@@ -4453,7 +4620,9 @@ These are the norms.
 
 You can of course name them anything you like.
 
-![](media/image151.png){width="5.0in" height="2.447665135608049in"}
+<p align="center">
+<img src="images/image151.png" width="500">
+&nbsp;
 
 Forking is used to take a copy of a GitHub repository and use it as the
 base for a new
@@ -4475,7 +4644,9 @@ file.
 
 Even if no legal requirement exists, it's good practice.
 
-![](media/image152.png){width="5.0in" height="2.447665135608049in"}
+<p align="center">
+<img src="images/image152.png" width="500">
+&nbsp;
 
 Navigate to the repository that you want to fork.
 
@@ -4483,7 +4654,9 @@ In the top-right corner, click the "Fork" button.
 
 To keep a fork in sync with the original work from a local clone.
 
-![](media/image153.png){width="5.0in" height="2.447665135608049in"}
+<p align="center">
+<img src="images/image153.png" width="500">
+&nbsp;
 
 First, create a local clone of the project.
 
@@ -4501,7 +4674,9 @@ labelled upstream.
 
 If you type "git remote --v", you'll see the change reflected.
 
-![](media/image154.png){width="5.0in" height="2.447665135608049in"}
+<p align="center">
+<img src="images/image154.png" width="500">
+&nbsp;
 
 Other commands of interest include "git fetch upstream" to grab upstream
 branches and "git merge upstream/master" which merges changes into the
@@ -4537,7 +4712,9 @@ A Developer working as a participant in a group project needs to learn
 how to communicate with others and uses these commands in addition to
 the ones needed by a standalone developer.
 
-![](media/image155.png){width="5.0in" height="2.447665135608049in"}
+<p align="center">
+<img src="images/image155.png" width="500">
+&nbsp;
 
 When working with Git, you can use Git commands or a desktop tool such
 as GitHub Desktop.
@@ -4559,7 +4736,9 @@ as GitHub Desktop.
 -   git-request-pull to create a summary of changes for your upstream to
     pull.
 
-![](media/image156.png){width="5.0in" height="2.447665135608049in"}
+<p align="center">
+<img src="images/image156.png" width="500">
+&nbsp;
 
 An integrator in a group project receives changes made by others,
 reviews and integrates them (responds to pull requests) and publishes
@@ -4579,7 +4758,9 @@ participants.
 
 -   git-push to publish the bleeding edge.
 
-![](media/image157.png){width="5.0in" height="2.447665135608049in"}
+<p align="center">
+<img src="images/image157.png" width="500">
+&nbsp;
 
 A Repository Administrator uses the following tools to set up and
 maintain access to the repository by developers.
@@ -4664,7 +4845,9 @@ height="2.1208803587051617in"}
 
 You will be redirected to a new page and the download will start.
 
-![image](media/image160.png){width="5.0in" height="3.856991469816273in"}
+<p align="center">
+<img src="images/image160.png" width="500">
+&nbsp;
 
 **Note**: If the download doesn\'t start, click **Click here to download
 manually**.
@@ -4672,24 +4855,31 @@ manually**.
 2.  Go to the folder where you saved the file and double-click to open
     it.
 
-![image](media/image161.png){width="4.0in"
-height="3.0001640419947506in"}
+<p align="center">
+<img src="images/image161.png" width="400">
+&nbsp;
 
 3.  Click **Run** to begin the installation.
 
-![image](media/image162.png){width="5.0in" height="3.77623031496063in"}
+<p align="center">
+<img src="images/image162.png" width="500">
+&nbsp;
 
 4.  Select the location where you want to install Git Bash. 
 
 **Note**: It\'s recommended that you simply install to the default
 location. Click **Next**.
 
-![image](media/image163.png){width="5.0in" height="3.890340113735783in"}
+<p align="center">
+<img src="images/image163.png" width="500">
+&nbsp;
 
 5.  Choose the components you want to install, or simply leave the
     default options selected. Click **Next**.
 
-![image](media/image164.png){width="5.0in" height="3.906291557305337in"}
+<p align="center">
+<img src="images/image164.png" width="500">
+&nbsp;
 
 6.  You can change the name of the start menu folder or simply leave the
     default name as is. Click **Next**.
@@ -4754,12 +4944,15 @@ location. Click **Next**.
     installation with the options you have chosen. The installation runs
     and when complete, a Completing the Git Setup Wizard window opens.
 
-![image](media/image173.png){width="5.0in"
-height="3.8948206474190727in"}
+<p align="center">
+<img src="images/image173.png" width="500">
+&nbsp;
 
 15. Leave the checkboxes selected and click **Next**.
 
-![image](media/image174.png){width="5.0in" height="3.920686789151356in"}
+<p align="center">
+<img src="images/image174.png" width="500">
+&nbsp;
 
 The Git Bash terminal opens. You are now able to enter Git and Bash
 commands.
@@ -4906,7 +5099,9 @@ Congratulations! You have now learned how to add an SSH key to GitHub.
 
 ### Hands-on Lab: Cloning, committing and pushing your GitHub repo from the command line.
 
-![](media/image158.png){width="1.0in" height="1.0in"}
+<p align="center">
+<img src="images/image158.png" width="100">
+&nbsp;
 
 ### Objectives
 
