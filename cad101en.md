@@ -1,9 +1,9 @@
 **Introduction to Cloud Development with HTML5, CSS3 and JavaScript {w/
 Github}** (CAD101EN)
 
-![](media/image1.png){width="1.0in" height="0.6382983377077865in"}
+![](images/image001.png){width="1.0in" height="0.6382983377077865in"}
 
-![](media/image2.png){width="6.75in" height="3.8in"}
+![](images/image002.png){width="6.75in" height="3.8in"}
 
 ## Welcome
 
@@ -3315,7 +3315,7 @@ web pages are seen on the slide.
 
 DOM elements are reviewed next.
 
-![](media/image107.png){width="5.0in" height="2.2544280402449695in"}
+![](images/image107.png){width="5.0in" height="2.2544280402449695in"}
 
 To retrieve a node reference for an element of a document given an id,
 use the document.getElementById function and pass the id value as an
@@ -3361,13 +3361,13 @@ create an element in the current document.
 After creating the element, you can use any of a number of functions to
 place the element in the appropriate location within the document.
 
-![](media/image109.png){width="5.0in" height="2.2544280402449695in"}
+![](images/image109.png){width="5.0in" height="2.2544280402449695in"}
 
 Examples of these functions include the insertBefore, appendChild, or
 replaceChild function that can be used to add the newly created element
 into the document.
 
-![](media/image110.png){width="5.0in" height="2.4959755030621174in"}
+![](images/image110.png){width="5.0in" height="2.4959755030621174in"}
 
 This example shows the source code for adding a node to a document.
 
@@ -3381,7 +3381,7 @@ the end of the
 
 body node of the HTML page.
 
-![](media/image111.png){width="5.0in" height="2.4959755030621174in"}
+![](images/image111.png){width="5.0in" height="2.4959755030621174in"}
 
 The function element.innerHTML retrieves or sets the contents of an HTML
 element.
@@ -3406,7 +3406,7 @@ element.style.propertyName = value.
 
 For example, if you had an element \<div style=\"color:blue\"\>.
 
-![](media/image112.png){width="5.0in" height="2.4959755030621174in"}
+![](images/image112.png){width="5.0in" height="2.4959755030621174in"}
 
 Here the \<div\> tag is used to group block-elements to format them with
 a color style. You can change the style of this div tag with the
@@ -3414,14 +3414,14 @@ JavaScript statement:
 
 div.style.color = \'red\';
 
-![](media/image113.png){width="5.0in" height="2.4959755030621174in"}
+![](images/image113.png){width="5.0in" height="2.4959755030621174in"}
 
 In contrast, the element.setAttribute(\'style\', ...) wipes out all
 previously set inline CSS
 
 styles.
 
-![](media/image114.png){width="5.0in" height="2.4959755030621174in"}
+![](images/image114.png){width="5.0in" height="2.4959755030621174in"}
 
 The function element.setAttribute with parameters(attrName, attrValue)
 dynamically modifies the attribute of an element.
@@ -3435,11 +3435,11 @@ an element.
 The function element.getAttribute(attrName) retrieves the value of the
 specified attribute in the element, if it exists.
 
-![](media/image115.png){width="5.0in" height="2.4959755030621174in"}
+![](images/image115.png){width="5.0in" height="2.4959755030621174in"}
 
 Here are some window object functions and events.
 
-![](media/image116.png){width="5.0in" height="2.4959755030621174in"}
+![](images/image116.png){width="5.0in" height="2.4959755030621174in"}
 
 To open a new browser window, use the window.open() function.
 
@@ -3477,12 +3477,12 @@ information than the alert() method.
 Finally, the window.scrollTo(x-value, y-value) scrolls the web browser
 to a particular set of coordinates on a page.
 
-![](media/image117.png){width="5.0in" height="2.4959755030621174in"}
+![](images/image117.png){width="5.0in" height="2.4959755030621174in"}
 
 The onload event handler runs in the current window after the document
 loads the web page.
 
-![](media/image118.png){width="5.0in" height="2.431563867016623in"}
+![](images/image118.png){width="5.0in" height="2.431563867016623in"}
 
 In the example, the onload event causes an anonymous function to run.
 This function, in turn, runs the function addPara().
