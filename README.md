@@ -1,3 +1,6 @@
+<!------------------------------------------------------------------------------------------------>
+<!----------------------------- readme.md in cad101en.bauska.org --------------------------------->
+<!------------------------------------------------------------------------------------------------>
 # CAD101EN - Introduction to Cloud Development with HTML5, CSS3, & JavaScript
 
 ## edX.org online course (CAD101EN) - 5 module course
@@ -107,8 +110,13 @@ After completing this course, you will be able to:
 **Introduction to Cloud Development with HTML5, CSS3 and JavaScript {w/
 Github}** (CAD101EN)
 
+<!------------------------------------------------------------------------------------------------>
+<!----------------------------------- imag003.png -------------------------------------->
+<!------------------------------------------------------------------------------------------------>
 <p align="center">
-<img src="images/image003.png" width="675">
+<img src="images/image003.png" 
+	alt="Image 3"
+	width="85%">
 &nbsp;
 
 </p>
@@ -3380,7 +3388,7 @@ occur in that form.
 <p align="center">
 <img src="/images/image102.png?raw=true" 
      alt="" 
-     width="400" >
+     width="500" >
 &nbsp;
 
 You can reference the element named field1 in the figure by its relative
@@ -3389,14 +3397,18 @@ position as document.forms\[0\].elements\[0\].
 <p align="center">
 <img src="/images/image103.png?raw=true" 
      alt="" 
-     width="400" >
+     width="500" >
 &nbsp;
 
 You can reference the same field with named elements; for example,
 document.forms\[\"form1\"\].elements\[\"field1\"\], or even the
 shortened document.form1.field1.
 
-![](media/image104.png){width="5.0in" height="2.4718186789151355in"}
+<p align="center">
+<img src="/images/image104.png?raw=true" 
+     alt="" 
+     width="500" >
+&nbsp;
 
 Since only one document can be contained in a window, shown by the
 dashed line in the figure, you can leave out the window prefix. However,
@@ -3413,7 +3425,7 @@ the id attribute, use the following conventions:
 <p align="center">
 <img src="/images/image105.png?raw=true" 
      alt="" 
-     width="400" >
+     width="500" >
 &nbsp;
 
 The id must be a unique name in the document.
@@ -3462,7 +3474,7 @@ properties that are commonly used when working with HTML pages.
 <p align="center">
 <img src="/images/image106.png?raw=true" 
      alt="" 
-     width="400" >
+     width="500" >
 &nbsp;
 
 Some of these common APIs used in when accessing HTML DOM elements in
@@ -3473,7 +3485,7 @@ DOM elements are reviewed next.
 <p align="center">
 <img src="/images/image107.png?raw=true" 
      alt="" 
-     width="400" >
+     width="500" >
 &nbsp;
 
 To retrieve a node reference for an element of a document given an id,
@@ -3500,7 +3512,7 @@ argument, a NodeList of all the paragraphs in the document is returned.
 <p align="center">
 <img src="/images/image108.png?raw=true" 
      alt="" 
-     width="400" >
+     width="500" >
 &nbsp;
 
 This example shows how you can retrieve all the image elements from a
@@ -3527,7 +3539,7 @@ place the element in the appropriate location within the document.
 <p align="center">
 <img src="/images/image109.png?raw=true" 
      alt="" 
-     width="400" >
+     width="500" >
 &nbsp;
 
 Examples of these functions include the insertBefore, appendChild, or
@@ -3537,7 +3549,7 @@ into the document.
 <p align="center">
 <img src="/images/image110.png?raw=true" 
      alt="" 
-     width="400" >
+     width="500" >
 &nbsp;
 
 This example shows the source code for adding a node to a document.
@@ -3555,7 +3567,7 @@ body node of the HTML page.
 <p align="center">
 <img src="/images/image111.png?raw=true" 
      alt="" 
-     width="400" >
+     width="500" >
 &nbsp;
 
 The function element.innerHTML retrieves or sets the contents of an HTML
