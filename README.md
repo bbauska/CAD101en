@@ -4740,7 +4740,12 @@ Start Lab 
 
 Installing Git Bash
 
-![](media/image158.png){width="1.0in" height="1.0in"}
+<!------------------------------------------------------------------------------------------------>
+<p align="center">
+<img src="images/image158.png" 
+	alt=" "
+	width="20%">
+&nbsp;
 
 **Estimated time**: 20 minutes
 
@@ -4769,12 +4774,21 @@ following steps:
     Click **Download \[version number\] for Windows**, as shown in the
     following image:
 
-![image](media/image159.png){width="5.0in"
-height="2.1208803587051617in"}
+<!------------------------------------------------------------------------------------------------>
+<p align="center">
+<img src="images/image160.png" 
+	alt=" "
+	width="60%">
+&nbsp;
 
 You will be redirected to a new page and the download will start.
 
-![image](media/image160.png){width="5.0in" height="3.856991469816273in"}
+<!------------------------------------------------------------------------------------------------>
+<p align="center">
+<img src="images/image161.png" 
+	alt=" "
+	width="60%">
+&nbsp;
 
 **Note**: If the download doesn\'t start, click **Click here to download
 manually**.
@@ -4782,68 +4796,123 @@ manually**.
 2.  Go to the folder where you saved the file and double-click to open
     it.
 
-![image](media/image161.png){width="4.0in"
-height="3.0001640419947506in"}
+<!------------------------------------------------------------------------------------------------>
+<p align="center">
+<img src="images/image162.png" 
+	alt=" "
+	width="40%">
+&nbsp;
 
 3.  Click **Run** to begin the installation.
 
-![image](media/image162.png){width="5.0in" height="3.77623031496063in"}
+<!------------------------------------------------------------------------------------------------>
+<p align="center">
+<img src="images/image163.png" 
+	alt=" "
+	width="60%">
+&nbsp;
 
 4.  Select the location where you want to install Git Bash. 
 
 **Note**: It\'s recommended that you simply install to the default
 location. Click **Next**.
 
-![image](media/image163.png){width="5.0in" height="3.890340113735783in"}
+<!------------------------------------------------------------------------------------------------>
+<p align="center">
+<img src="images/image164.png" 
+	alt=" "
+	width="60%">
+&nbsp;
 
 5.  Choose the components you want to install, or simply leave the
     default options selected. Click **Next**.
 
-![image](media/image164.png){width="5.0in" height="3.906291557305337in"}
+<!------------------------------------------------------------------------------------------------>
+<p align="center">
+<img src="images/image165.png" 
+	alt=" "
+	width="60%">
+&nbsp;
 
 6.  You can change the name of the start menu folder or simply leave the
     default name as is. Click **Next**.
 
-![image](media/image165.png){width="5.0in" height="3.868599081364829in"}
+<!------------------------------------------------------------------------------------------------>
+<p align="center">
+<img src="images/image166.png" 
+	alt=" "
+	width="60%">
+&nbsp;
 
 7.  Select the default editor for Git to use. Click **Next**.
 
-![image](media/image166.png){width="5.0in"
-height="3.8518996062992126in"}
+<!------------------------------------------------------------------------------------------------>
+<p align="center">
+<img src="images/image167.png" 
+	alt=" "
+	width="60%">
+&nbsp;
 
 8.  Choose how you want to use Git from the command line.
     Click **Next**.
 
-![image](media/image167.png){width="5.0in" height="3.872095363079615in"}
+<!------------------------------------------------------------------------------------------------>
+<p align="center">
+<img src="images/image168.png" 
+	alt=" "
+	width="60%">
+&nbsp;
 
 9.  Select **Use the OpenSSL library**. Click **Next**.
 
-![image](media/image168.png){width="5.0in" height="3.901048775153106in"}
+<!------------------------------------------------------------------------------------------------>
+<p align="center">
+<img src="images/image169.png" 
+	alt=" "
+	width="60%">
+&nbsp;
 
 10. Configure your line ending conversions for Windows by selecting the
     default option, **Checkout Windows-style, commit Unix-style line
     endings**. Click **Next**.
 
-![image](media/image169.png){width="5.0in"
-height="3.8929002624671916in"}
+<!------------------------------------------------------------------------------------------------>
+<p align="center">
+<img src="images/image170.png" 
+	alt=" "
+	width="60%">
+&nbsp;
 
 11. Configure your terminal emulator to use with Git Bash by selecting
     the default option, **Use MinTTY(the default terminal of MSYS2)**.
     Click **Next**.
 
-![image](media/image170.png){width="5.0in" height="3.888229440069991in"}
+<!------------------------------------------------------------------------------------------------>
+<p align="center">
+<img src="images/image171.png" 
+	alt=" "
+	width="60%">
+&nbsp;
 
 12. Configure the default behavior for a git pull by selecting **Default
     (fast-forward or merge)**. Click **Next**.
 
-![image](media/image171.png){width="5.0in"
-height="3.8297036307961503in"}
+<!------------------------------------------------------------------------------------------------>
+<p align="center">
+<img src="images/image172.png" 
+	alt=" "
+	width="60%">
+&nbsp;
 
 13. Select any additional options you want to install. (The default
     option is sufficient to use Git Bash successfully). Click **Next**.
 
-![image](media/image172.png){width="5.0in"
-height="3.8872867454068243in"}
+<!------------------------------------------------------------------------------------------------>
+<p align="center">
+<img src="images/image173.png" 
+	alt=" "
+	width="60%">
+&nbsp;
 
 14. You can enable experimental options if you choose to. By enabling
     these options, you will be able to try newer features that are still
@@ -4852,26 +4921,45 @@ height="3.8872867454068243in"}
     installation with the options you have chosen. The installation runs
     and when complete, a Completing the Git Setup Wizard window opens.
 
-![image](media/image173.png){width="5.0in"
-height="3.8948206474190727in"}
+<!------------------------------------------------------------------------------------------------>
+<p align="center">
+<img src="images/image174.png" 
+	alt=" "
+	width="60%">
+&nbsp;
 
 15. Leave the checkboxes selected and click **Next**.
 
-![image](media/image174.png){width="5.0in" height="3.920686789151356in"}
+<!------------------------------------------------------------------------------------------------>
+<p align="center">
+<img src="images/image175.png" 
+	alt=" "
+	width="60%">
+&nbsp;
 
 The Git Bash terminal opens. You are now able to enter Git and Bash
 commands.
 
-![image](media/image175.png){width="5.0in"
-height="2.9336450131233596in"}
+<!------------------------------------------------------------------------------------------------>
+<p align="center">
+<img src="images/image176.png" 
+	alt="Git Bash Terminal"
+	width="60%">
+&nbsp;
+</p>
 
 ### © IBM Corporation 2020. All rights reserved.
 
 ## Module 5, Part VIII: SSH Key Creation
 
 ### Generate an SSH key
-
-![](media/image158.png){width="1.0in" height="1.0in"}
+<!------------------------------------------------------------------------------------------------>
+<p align="center">
+<img src="images/image158.png" 
+	alt="IBM Skills Network"
+	width="20%">
+&nbsp;
+</p>
 
 ### What is an SSH key?
 
@@ -4936,7 +5024,13 @@ key.
 
 ### Lab: Adding an SSH key to GitHub
 
-![](media/image158.png){width="1.0in" height="1.0in"}
+<!------------------------------------------------------------------------------------------------>
+<p align="center">
+<img src="images/image158.png" 
+	alt="IBM Skills Network logo"
+	width="20%">
+&nbsp;
+</p>
 
 ### Prerequisites
 
@@ -4961,25 +5055,47 @@ command line and the copy the output.
 2.  Sign in to GitHub. At the top right, click the drop-down menu on
     your profile image and select **Settings**.
 
-![image](media/image176.png){width="3.0in" height="3.516715879265092in"}
+<!------------------------------------------------------------------------------------------------>
+<p align="center">
+<img src="images/image177.png" 
+	alt="Github Settings"
+	width="40%">
+&nbsp;
+</p>
 
 3.  From the \"Personal settings\" menu, select **SSH and GPG keys**, as
     shown in the following image:
 
-![image](media/image177.png){width="6.0in" height="4.551233595800525in"}
+<!------------------------------------------------------------------------------------------------>
+<p align="center">
+<img src="images/image178.png" 
+	alt="SSH and GPG Keys"
+	width="85%">
+&nbsp;
+</p>
 
 4.  Click **New SSH key**.
 
-![image](media/image178.png){width="6.0in"
-height="2.3197528433945758in"}
+<!------------------------------------------------------------------------------------------------>
+<p align="center">
+<img src="images/image179.png" 
+	alt="Add SSH Key"
+	width="85%">
+&nbsp;
+</p>
 
 5.  Enter a title for the new SSH key. In the **Key** field, paste the
     key that you copied in step 1, above. The pasted key should
     include **Your email address** at the end, as shown in the following
     image:
 
-![image](media/image179.png){width="6.75in"
-height="2.9868055555555557in"}
+<!------------------------------------------------------------------------------------------------>
+<p align="center">
+<img src="images/image180.png" 
+	alt="SSH key/Add New"
+	width="85%">
+&nbsp;
+</p>
 
 6.  Click **Add SSH Key**. The SSH key is added to your account.
 
@@ -4993,7 +5109,13 @@ Congratulations! You have now learned how to add an SSH key to GitHub.
 
 ### Hands-on Lab: Cloning, committing and pushing your GitHub repo from the command line.
 
-![](media/image158.png){width="1.0in" height="1.0in"}
+<!------------------------------------------------------------------------------------------------>
+<p align="center">
+<img src="images/image158.png" 
+	alt="IBM Developer logo"
+	width="20%">
+&nbsp;
+</p>
 
 ### Objectives
 
@@ -5038,8 +5160,13 @@ To clone a repo, you need the ssh url of the repo.
 4.  Click on the \'clipboard icon\' to copy the url. Paste this url
     where you can access it later.
 
-![ssh url](media/image180.png){width="6.0in"
-height="5.802466097987751in"}
+<!------------------------------------------------------------------------------------------------>
+<p align="center">
+<img src="images/image181.png" 
+	alt="Copy/Paste URL"
+	width="60%">
+&nbsp;
+</p>
 
 5.  On your desktop open a terminal.(gitbash if you are using windows
     os)
@@ -5050,7 +5177,9 @@ height="5.802466097987751in"}
 
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
-<img src="images/image181.png" width="85%">
+<img src="images/image182.png" 
+	alt="clone .git file"
+	width="60%">
 &nbsp;
 </p>
 
@@ -5061,7 +5190,9 @@ height="5.802466097987751in"}
 
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
-<img src="images/image182.png" width="85%">
+<img src="images/image183.png" 
+	alt="git clone"
+	width="60%">
 &nbsp;
 </p>
 
@@ -5074,7 +5205,9 @@ Using your favorite editor make the changes to the html file.
 
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
-<img src="images/image183.png" width="60%">
+<img src="images/image184.png" 
+	alt="Edit the html"
+	width="60%">
 &nbsp;
 </p>
 
@@ -5082,7 +5215,9 @@ Using your favorite editor make the changes to the html file.
 
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
-<img src="images/image184.png" width="500">
+<img src="images/image185.png" 
+	alt="git status"
+	width="60%">
 &nbsp;
 </p>
 
@@ -5127,7 +5262,9 @@ Run the command \"git push\"
 
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
-<img src="images/image185.png" width="60%">
+<img src="images/image186.png" 
+	alt="git push"
+	width="60%">
 &nbsp;
 </p>
 
