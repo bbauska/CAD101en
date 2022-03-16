@@ -106,14 +106,9 @@ After completing this course, you will be able to:
 ### Learning Objectives
 **Introduction to Cloud Development with HTML5, CSS3 and JavaScript {w/
 Github}** (CAD101EN)
+
 <p align="center">
 <img src="images/image003.png" width="675">
-&nbsp;
-
-</p>
-
-<p align="center">
-<img src="images/image#.png" width="675">
 &nbsp;
 
 </p>
@@ -5052,11 +5047,17 @@ verify all the files got downloaded
 
 Using your favorite editor make the changes to the html file.
 
-![](media/image183.png){width="6.0in" height="2.627159886264217in"}
+<p align="center">
+<img src="images/image183.png" width="600">
+&nbsp;
+</p>
 
 **git status** will show all the modified files.
 
-![](media/image184.png){width="5.0in" height="2.899688320209974in"}
+<p align="center">
+<img src="images/image184.png" width="500">
+&nbsp;
+</p>
 
 ### Exercise 3: Add a new file to the local repo
 
@@ -5097,7 +5098,11 @@ GitHub repository.
 
 Run the command \"git push\"
 
-![](media/image185.png){width="5.0in" height="2.17078302712161in"}
+<p align="center">
+<img src="images/image185.png" width="500">
+&nbsp;
+
+</p>
 
 Log into your GitHub account and verify if the local changes have
 synched.
