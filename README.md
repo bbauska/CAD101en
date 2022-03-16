@@ -1,7 +1,7 @@
 <!------------------------------------------------------------------------------------------------>
 <!----------------------------- readme.md in cad101en.bauska.org --------------------------------->
 <!------------------------------------------------------------------------------------------------>
-# CAD101EN - Introduction to Cloud Development with HTML5, CSS3, & JavaScript
+# CAD101EN - Introduction to Cloud Development with HTML5, CSS3, & JavaScript (w/Github)
 
 ## edX.org online course (CAD101EN) - 5 module course
 
@@ -115,7 +115,7 @@ Github}** (CAD101EN)
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="images/image003.png" 
-	alt="Image 3"
+	alt="IBM Cloud Development - the Skills Network"
 	width="85%">
 &nbsp;
 
@@ -286,10 +286,12 @@ After completing this course, you will be able to:
     or website.
 
 -   Manage your projects in GitHub.
+<!------------------------------------------------------------------------------------------------>
 <p align="center">
-<img src="images/image004.png" width="500">
+	<img src="images/image004.png" 
+	alt="Cloud Courses from IBM"
+	width="85%">
 &nbsp;
-
 </p>
 
 Want to take the first steps to become a Cloud Application Developer?
@@ -332,8 +334,11 @@ After completing this module, you will be able to:
 
 -   Identify the tools that developers use to develop Cloud Apps.
 
+<!------------------------------------------------------------------------------------------------>
 <p align="center">
-<img src="images/image005.png" width="500">
+<img src="images/image005.png" 
+	alt="Overview of Cloud and Web Development by IBM - Skills Network"
+	width="85%">
 &nbsp;
 
 ### Module 1, Part I: Overview of Web and Cloud Development
@@ -5043,14 +5048,22 @@ height="5.802466097987751in"}
 
 7.  Run the command \"git clone \"
 
-![](media/image181.png){width="6.0in" height="1.2604932195975502in"}
+<!------------------------------------------------------------------------------------------------>
+<p align="center">
+<img src="images/image181.png" width="85%">
+&nbsp;
+</p>
 
 8.  This will clone the repo on GitHub into your current directory.
 
 9.  You can see all the downloaded files under a directory named as your
     repo name.
 
-![](media/image182.png){width="6.0in" height="1.7148129921259843in"}
+<!------------------------------------------------------------------------------------------------>
+<p align="center">
+<img src="images/image182.png" width="85%">
+&nbsp;
+</p>
 
 change to the simple_interest_calulator directory and list the files to
 verify all the files got downloaded
@@ -5059,13 +5072,15 @@ verify all the files got downloaded
 
 Using your favorite editor make the changes to the html file.
 
+<!------------------------------------------------------------------------------------------------>
 <p align="center">
-<img src="images/image183.png" width="600">
+<img src="images/image183.png" width="60%">
 &nbsp;
 </p>
 
 **git status** will show all the modified files.
 
+<!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="images/image184.png" width="500">
 &nbsp;
@@ -5110,10 +5125,10 @@ GitHub repository.
 
 Run the command \"git push\"
 
+<!------------------------------------------------------------------------------------------------>
 <p align="center">
-<img src="images/image185.png" width="500">
+<img src="images/image185.png" width="60%">
 &nbsp;
-
 </p>
 
 Log into your GitHub account and verify if the local changes have
