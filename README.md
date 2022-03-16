@@ -3323,7 +3323,11 @@ For example:
 
 An ELEMENT_NODE type is represented by the integer 1.
 
-![](media/image99.png){width="5.0in" height="2.4718186789151355in"}
+<p align="center">
+<img src="/images/image099.png?raw=true" 
+     alt="" 
+     width="400" >
+&nbsp;
 
 An ATTRIBUTE_NODE type is represented by the integer 2.
 
@@ -3346,7 +3350,11 @@ If a paragraph element is followed by some text, the text string has a
 node name of hash-sign-text, and the node value is the text string
 itself.
 
-![](media/image100.png){width="5.0in" height="2.4718186789151355in"}
+<p align="center">
+<img src="/images/image100.png?raw=true" 
+     alt="" 
+     width="400" >
+&nbsp;
 
 The table lists some of the DOM Level 2 node object properties and
 corresponding data types.
@@ -3354,7 +3362,11 @@ corresponding data types.
 You see these properties when you view a DOM tree for an HTML page in a
 browser's developer tools, like Chrome's DevTools.
 
-![](media/image101.png){width="5.0in" height="2.4718186789151355in"}
+<p align="center">
+<img src="/images/image101.png?raw=true" 
+     alt="" 
+     width="400" >
+&nbsp;
 
 How do you access the elements on an HTML page with the DOM API?
 
@@ -3370,12 +3382,20 @@ Each of the array types, such as forms\[\], contains an array of
 elements\[\] with each index element being the fields or buttons that
 occur in that form.
 
-![](media/image102.png){width="5.0in" height="2.4718186789151355in"}
+<p align="center">
+<img src="/images/image102.png?raw=true" 
+     alt="" 
+     width="400" >
+&nbsp;
 
 You can reference the element named field1 in the figure by its relative
 position as document.forms\[0\].elements\[0\].
 
-![](media/image103.png){width="5.0in" height="2.4718186789151355in"}
+<p align="center">
+<img src="/images/image103.png?raw=true" 
+     alt="" 
+     width="400" >
+&nbsp;
 
 You can reference the same field with named elements; for example,
 document.forms\[\"form1\"\].elements\[\"field1\"\], or even the
@@ -3395,7 +3415,11 @@ element with a name that matches the value of the id attribute.
 In order to assign a scriptable reference name to an HTML element with
 the id attribute, use the following conventions:
 
-![](media/image105.png){width="5.0in" height="2.4718186789151355in"}
+<p align="center">
+<img src="/images/image105.png?raw=true" 
+     alt="" 
+     width="400" >
+&nbsp;
 
 The id must be a unique name in the document.
 
@@ -3440,14 +3464,22 @@ detail for one unit.
 Instead, the remainder of the unit focuses on script functions and
 properties that are commonly used when working with HTML pages.
 
-![](media/image106.png){width="5.0in" height="2.2544280402449695in"}
+<p align="center">
+<img src="/images/image106.png?raw=true" 
+     alt="" 
+     width="400" >
+&nbsp;
 
 Some of these common APIs used in when accessing HTML DOM elements in
 web pages are seen on the slide.
 
 DOM elements are reviewed next.
 
-![](images/image107.png){width="5.0in" height="2.2544280402449695in"}
+<p align="center">
+<img src="/images/image107.png?raw=true" 
+     alt="" 
+     width="400" >
+&nbsp;
 
 To retrieve a node reference for an element of a document given an id,
 use the document.getElementById function and pass the id value as an
@@ -3470,7 +3502,11 @@ tag.
 If you run the function getElementsByTagName with a "p" as a parameter
 argument, a NodeList of all the paragraphs in the document is returned.
 
-![](media/image108.png){width="5.0in" height="2.2544280402449695in"}
+<p align="center">
+<img src="/images/image108.png?raw=true" 
+     alt="" 
+     width="400" >
+&nbsp;
 
 This example shows how you can retrieve all the image elements from a
 web page by using the getElementsByTagName function and passing "img" as
@@ -3493,13 +3529,21 @@ create an element in the current document.
 After creating the element, you can use any of a number of functions to
 place the element in the appropriate location within the document.
 
-![](images/image109.png){width="5.0in" height="2.2544280402449695in"}
+<p align="center">
+<img src="/images/image109.png?raw=true" 
+     alt="" 
+     width="400" >
+&nbsp;
 
 Examples of these functions include the insertBefore, appendChild, or
 replaceChild function that can be used to add the newly created element
 into the document.
 
-![](images/image110.png){width="5.0in" height="2.4959755030621174in"}
+<p align="center">
+<img src="/images/image110.png?raw=true" 
+     alt="" 
+     width="400" >
+&nbsp;
 
 This example shows the source code for adding a node to a document.
 
@@ -3513,7 +3557,11 @@ the end of the
 
 body node of the HTML page.
 
-![](images/image111.png){width="5.0in" height="2.4959755030621174in"}
+<p align="center">
+<img src="/images/image111.png?raw=true" 
+     alt="" 
+     width="400" >
+&nbsp;
 
 The function element.innerHTML retrieves or sets the contents of an HTML
 element.
@@ -3538,7 +3586,11 @@ element.style.propertyName = value.
 
 For example, if you had an element \<div style=\"color:blue\"\>.
 
-![](images/image112.png){width="5.0in" height="2.4959755030621174in"}
+<p align="center">
+<img src="/images/image112.png?raw=true" 
+     alt="" 
+     width="400" >
+&nbsp;
 
 Here the \<div\> tag is used to group block-elements to format them with
 a color style. You can change the style of this div tag with the
@@ -3546,14 +3598,22 @@ JavaScript statement:
 
 div.style.color = \'red\';
 
-![](images/image113.png){width="5.0in" height="2.4959755030621174in"}
+<p align="center">
+<img src="/images/image113.png?raw=true" 
+     alt="" 
+     width="400" >
+&nbsp;
 
 In contrast, the element.setAttribute(\'style\', ...) wipes out all
 previously set inline CSS
 
 styles.
 
-![](images/image114.png){width="5.0in" height="2.4959755030621174in"}
+<p align="center">
+<img src="/images/image114.png?raw=true" 
+     alt="" 
+     width="400" >
+&nbsp;
 
 The function element.setAttribute with parameters(attrName, attrValue)
 dynamically modifies the attribute of an element.
@@ -3567,11 +3627,19 @@ an element.
 The function element.getAttribute(attrName) retrieves the value of the
 specified attribute in the element, if it exists.
 
-![](images/image115.png){width="5.0in" height="2.4959755030621174in"}
+<p align="center">
+<img src="/images/image115.png?raw=true" 
+     alt="" 
+     width="400" >
+&nbsp;
 
 Here are some window object functions and events.
 
-![](images/image116.png){width="5.0in" height="2.4959755030621174in"}
+<p align="center">
+<img src="/images/image116.png?raw=true" 
+     alt="" 
+     width="400" >
+&nbsp;
 
 To open a new browser window, use the window.open() function.
 
@@ -3609,12 +3677,20 @@ information than the alert() method.
 Finally, the window.scrollTo(x-value, y-value) scrolls the web browser
 to a particular set of coordinates on a page.
 
-![](images/image117.png){width="5.0in" height="2.4959755030621174in"}
+<p align="center">
+<img src="/images/image117.png?raw=true" 
+     alt="" 
+     width="400" >
+&nbsp;
 
 The onload event handler runs in the current window after the document
 loads the web page.
 
-![](images/image118.png){width="5.0in" height="2.431563867016623in"}
+<p align="center">
+<img src="/images/image118.png?raw=true" 
+     alt="" 
+     width="400" >
+&nbsp;
 
 In the example, the onload event causes an anonymous function to run.
 This function, in turn, runs the function addPara().
@@ -3730,7 +3806,11 @@ others. 
 You can't talk about Git and GitHub without a basic understanding of
 what version control is. 
 
-![](media/image119.png){width="5.0in" height="2.732369860017498in"}
+<p align="center">
+<img src="/images/image119.png?raw=true" 
+     alt="" 
+     width="400" >
+&nbsp;
 
 A version control system allows you to keep track of changes to your
 documents. 
@@ -3738,7 +3818,11 @@ documents. 
 This makes it easy for you to recover older versions of your document if
 you make a mistake, and it makes collaboration with others much easier. 
 
-![](media/image120.png){width="5.0in" height="2.732369860017498in"}
+<p align="center">
+<img src="/images/image120.png?raw=true" 
+     alt="" 
+     width="400" >
+&nbsp;
 
 Here is an example to illustrate how version control works. 
 
@@ -3748,12 +3832,20 @@ confirm the things you need and add additional items. 
 Without version control, you've got a big mess to clean up before you
 can go shopping. 
 
-![](media/image121.png){width="5.0in" height="2.732369860017498in"}
+<p align="center">
+<img src="/images/image121.png?raw=true" 
+     alt="" 
+     width="400" >
+&nbsp;
 
 With version control, you know EXACTLY what you need after everyone has
 contributed their ideas. 
 
-![](media/image122.png){width="5.0in" height="2.732369860017498in"}
+<p align="center">
+<img src="/images/image122.png?raw=true" 
+     alt="" 
+     width="400" >
+&nbsp;
 
 Git is free and open source software distributed under the GNU General
 Public License. 
@@ -3775,14 +3867,22 @@ You can use Git without a web interface by using your command line
 interface, but GitHub is one of the most popular web-hosted services for
 Git repositories. 
 
-![](media/image123.png){width="5.0in" height="2.732369860017498in"}
+<p align="center">
+<img src="/images/image123.png?raw=true" 
+     alt="" 
+     width="400" >
+&nbsp;
 
 Others include GitLab, BitBucket, and Beanstalk. 
 
 There are a few basic terms that you will need to know before you can
 get started. 
 
-![](media/image124.png){width="5.0in" height="2.732369860017498in"}
+<p align="center">
+<img src="/images/image124.png?raw=true" 
+     alt="" 
+     width="400" >
+&nbsp;
 
 The SSH protocol is a method for secure remote login from one computer
 to another. 
@@ -3798,7 +3898,11 @@ your changes before they become final. 
 A working directory contains the files and subdirectories on your
 computer that are associated with a Git repository. 
 
-![](media/image125.png){width="5.0in" height="2.7323654855643045in"}
+<p align="center">
+<img src="/images/image125.png?raw=true" 
+     alt="" 
+     width="400" >
+&nbsp;
 
 There are a few basic Git commands that you will always use. 
 
@@ -3827,9 +3931,11 @@ repository to make changes. 
 
 \"git merge\" lets you put everything back together again. 
 
- 
-
-![](media/image126.png){width="5.0in" height="2.7323654855643045in"}
+<p align="center">
+<img src="/images/image126.png?raw=true" 
+     alt="" 
+     width="400" >
+&nbsp;
 
 To learn how to use Git effectively and begin collaborating with data
 scientists around the world, you will need to learn the essential
@@ -3866,7 +3972,11 @@ control system. 
 The project ran in short time frames and the key characteristics were
 defined by a small group. 
 
-![](media/image127.png){width="5.0in" height="2.732360017497813in"}
+<p align="center">
+<img src="/images/image127.png?raw=true" 
+     alt="" 
+     width="400" >
+&nbsp;
 
 These include: 
 
@@ -3894,7 +4004,11 @@ updates. 
 Many pathways of development can lead to complex integration decisions
 that might require explicit integration strategies. 
 
-![](media/image128.png){width="5.0in" height="2.732360017497813in"}
+<p align="center">
+<img src="/images/image128.png?raw=true" 
+     alt="" 
+     width="400" >
+&nbsp;
 
 What is special about the Git Repository model. 
 
@@ -3905,7 +4019,11 @@ Primarily focused on tracking source code during development. 
 Contains elements to coordinate among programmers, track changes, and
 support non-linear workflows. 
 
-![](media/image129.png){width="5.0in" height="2.492282370953631in"}
+<p align="center">
+<img src="/images/image129.png?raw=true" 
+     alt="" 
+     width="400" >
+&nbsp;
 
 Created in 2005 by Linus Torvalds for distribution of Linux kernels. 
 
@@ -3938,7 +4056,11 @@ interface. 
 IBM Cloud is based on sound and established open-source tools including
 Git repositories, often called repos. 
 
-![](media/image130.png){width="5.0in" height="2.492283464566929in"}
+<p align="center">
+<img src="/images/image130.png?raw=true" 
+     alt="" 
+     width="400" >
+&nbsp;
 
 GitHub is an online hosting service for Git repositories. 
 
@@ -3961,7 +4083,11 @@ A Repository is: 
 -   GitLab provides access to Git repositories, controlled by source
     code management. 
 
-![](media/image131.png){width="5.0in" height="2.492283464566929in"}
+<p align="center">
+<img src="/images/image131.png?raw=true" 
+     alt="" 
+     width="400" >
+&nbsp;
 
 With GitLab, developers can: 
 
@@ -4003,7 +4129,11 @@ After reading this section (part 3), you will be able to:
 
 -   Signing up for a free, personal account on GitHub is quick and easy.
 
-![](media/image132.png){width="5.0in" height="2.4879232283464567in"}
+<p align="center">
+<img src="/images/image132.png?raw=true" 
+     alt="" 
+     width="400" >
+&nbsp;
 
 Start at the GitHub site, https://github.com
 
@@ -4032,7 +4162,11 @@ provides you with some starting points.
 You can choose to create a repository or an organization, or you can
 take the Introduction to GitHub course.
 
-![](media/image133.png){width="5.0in" height="2.4879232283464567in"}
+<p align="center">
+<img src="/images/image133.png?raw=true" 
+     alt="" 
+     width="400" >
+&nbsp;
 
 Remember, a repository is a data structure for storing documents
 including application source code which tracks and maintains
@@ -4062,7 +4196,11 @@ You can also make your repository private (only available to people with
 accounts that have permission to see it) or public (searchable and seen
 by everyone).
 
-![](media/image134.png){width="5.0in" height="2.4879232283464567in"}
+<p align="center">
+<img src="/images/image134.png?raw=true" 
+     alt="" 
+     width="400" >
+&nbsp;
 
 When you create your repository, you'll notice that it has a number of
 tabs, and is opened to the Code tab.
@@ -4439,6 +4577,10 @@ In the top-right corner, click the "Fork" button.
 
 To keep a fork in sync with the original work from a local clone.
 
+<p align="center">
+<img src="images/image153.png){width="5.0in" height="2.447665135608049in"}
+                                                                        
+     width="300" >
 ![](media/image153.png){width="5.0in" height="2.447665135608049in"}
 
 First, create a local clone of the project.
