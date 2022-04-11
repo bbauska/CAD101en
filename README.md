@@ -112,7 +112,7 @@ After completing this course, you will be able to:
 Github}** (CAD101EN)
 
 <!------------------------------------------------------------------------------------------------>
-<!----------------------------------- imag003.png -------------------------------------->
+<!------------------------------- course intro: cloud development -------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="images/image003.png" 
@@ -258,6 +258,9 @@ After completing this course, you will be able to:
     or website.
 
 -   Manage your projects in GitHub.
+
+<!------------------------------------------------------------------------------------------------>
+<!------------------------------- course intro: cloud courses - 4 -------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 	<img src="images/image004.png" 
@@ -307,8 +310,10 @@ After completing this module, you will be able to:
 -   Identify the tools that developers use to develop Cloud Apps.
 
 <!------------------------------------------------------------------------------------------------>
+<!---------------------------- overview of web and cloud development ----------------------------->
+<!------------------------------------------------------------------------------------------------>
 <p align="center">
-<img src="images/image005.png" 
+<img src="images/image006.png" 
 	alt="Overview of Cloud and Web Development by IBM - Skills Network"
 	width="85%">
 &nbsp;
@@ -581,8 +586,13 @@ When many developers are working on the same project, knowing what order
 changes were made, thereby creating a new version of the source code,
 becomes overridingly important.
 
+<!------------------------------------------------------------------------------------------------>
+<!------------------------------------ version control (12) -------------------------------------->
+<!------------------------------------------------------------------------------------------------>
 <p align="center">
-<img src="images/image006.png" width="500">
+<img src="images/image006.png"
+   alt="Version Control"
+   width="65%">
 &nbsp;
 
 Version control systems keep track of what changes were made when and by
