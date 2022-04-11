@@ -1,4 +1,4 @@
-<h2 align="center">CAD101en - IBM Skills Network/h2>
+<h2 align="center">CAD101en - IBM Skills Network</h2>
 
 <!------------------------------------------------------------------------------------------------>
 <!------------------------------- readme.md in CAD101en.bauska.org ------------------------------->
@@ -12,11 +12,17 @@
 <!------------------------------------------------------------------------------------------------>
 <!----------------------------- readme.md in cad101en.bauska.org --------------------------------->
 <!------------------------------------------------------------------------------------------------>
-<h2 align="center">CAD101EN - Introduction to Cloud Development with HTML5, CSS3, & JavaScript (w/Github)</h2>
+<h2 align="center">Introduction to Cloud Development with HTML5, CSS3, & JavaScript (w/Github)</h2>
+<!------------------------------------------- cloud logo ------------------------------------------->
+<p align="center" width="100%">
+<img src="/images/image002.png?raw=true"
+   alt="Cloud logo"
+   width="40%">
+&nbsp;
 
-<h2>edX.org online course (CAD101EN) - 5 module course</h2>
+<h3>edX.org online course (CAD101EN) - 5 module course</h3>
 
-<h3>Welcome</h3>
+<h4>Welcome</h4>
 
 <h3>Course Overview</h3>
 <p>
@@ -113,10 +119,9 @@ After completing this course, you will be able to:
 >### 5.12 [**Add SSH to Repo**](#ch5-12)
 >### 5.13 [**Module Summary**](#ch5-13)
 
-
 **[`^        back to table of contents        ^`](#table-of-contents)**
 
-<h2 id="ch1">Introduction to Programming for the Cloud</h2>
+<h2 id="ch1">Ch 1: Introduction to Programming for the Cloud</h2>
 <h3>Learning Objectives</h3>
 
 **Introduction to Cloud Development with HTML5, CSS3 and JavaScript {w/
