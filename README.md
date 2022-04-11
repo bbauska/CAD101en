@@ -1,13 +1,13 @@
 <!------------------------------------------------------------------------------------------------>
 <!----------------------------- readme.md in cad101en.bauska.org --------------------------------->
 <!------------------------------------------------------------------------------------------------>
-# CAD101EN - Introduction to Cloud Development with HTML5, CSS3, & JavaScript (w/Github)
+<h1>CAD101EN - Introduction to Cloud Development with HTML5, CSS3, & JavaScript (w/Github)</h1>
 
-## edX.org online course (CAD101EN) - 5 module course
+<h2>edX.org online course (CAD101EN) - 5 module course</h2>
 
-### Welcome
+<h3>Welcome</h3>
 
-### Course Overview
+<h3>Course Overview</h3>
 <p>
 Want to take the first steps to become a Cloud Application Developer? This course will lead you through the languages and tools you will need to develop your own Cloud Apps.
 </p>
@@ -18,17 +18,17 @@ You’ll then focus on the languages you need for front-end development, working
 
 Finally, you will discover tools that help you to store your projects and keep track of changes made to project files, such as Git and GitHub.
 
-#### **Who is this course intended for?**
+<h4><b>Who is this course intended for?</b></h4>
 
 Anyone and everyone who wants to learn about building cloud applications -  whether you want to just understand what is Cloud Application Development (e.g. C-level execs, Managers, Sellers, Students, etc.) or start a career as a Cloud Application Developer (e.g. Developers, Systems/Cloud Architects, Technical Leads, Data Engineers, Security Engineers, Consultants, Technical Sellers, etc.).
 
-#### Prerequisites
+<h4>Prerequisites</h4>
 
 *   Basic computer literacy.
 *   Understanding of Cloud Computing concepts and terminology.  
     e.g.: [Introduction to Cloud Computing](https://www.edx.org/course/introduction-to-cloud-computing-6)
 
-#### **Learning Objectives**
+<h4><b>Learning Objectives</b></h4>
 
 After completing this course, you will be able to:
 
@@ -40,7 +40,7 @@ After completing this course, you will be able to:
 *   Use JavaScript to enhance the interactivity of a Cloud Application or website.
 *   Manage your projects in GitHub.
 
-## Syllabus
+<h2>Syllabus</h2>
 
 ## [Table of Contents](#table-of-contents)
 
@@ -55,58 +55,59 @@ After completing this course, you will be able to:
 >### 1-8 [**Lab: Demo of Web Development in Action**](#ch1-8)
 >### 1-9 [**Module Summary**](#ch1-9)
 
-## 2. [**Chapter 2. HTML5 and CSS3 Overview**](ch2)
->### 2.1 [**Module Introduction**](ch2-1)
->### 2.2 [**Introduction to HTML**](ch2-2)
->### 2.3 [**HTML Features**](ch2-3)
->### 2.4 [**Lab: Intro to HTML (JSFiddle)**](ch2-4)
->### 2.5 [**HTML Management and Support**](ch2-5)
->### 2.6 [**HTML Scripting**](ch2-6)
->### 2.7 [**HTML5 Browser Support**](ch2-7)
->### 2.8 [**Lab: HTML**](ch2-8)
->### 2.9 [**CSS: Styling HTM**](ch2-9)
->### 2.10 [**Lab: CSS**](ch2-10)
->### 2.11 [**Module Summary**](ch2-11)
+## 2. [**Chapter 2. HTML5 and CSS3 Overview**](#ch2)
+>### 2.1 [**Module Introduction**](#ch2-1)
+>### 2.2 [**Introduction to HTML**](#ch2-2)
+>### 2.3 [**HTML Features**](#ch2-3)
+>### 2.4 [**Lab: Intro to HTML (JSFiddle)**](#ch2-4)
+>### 2.5 [**HTML Management and Support**](#ch2-5)
+>### 2.6 [**HTML Scripting**](#ch2-6)
+>### 2.7 [**HTML5 Browser Support**](#ch2-7)
+>### 2.8 [**Lab: HTML**](#ch2-8)
+>### 2.9 [**CSS: Styling HTM**](#ch2-9)
+>### 2.10 [**Lab: CSS**](#ch2-10)
+>### 2.11 [**Module Summary**](#ch2-11)
 
-## 3. [**Chapter 3. HTML5 Elements**](ch3)
->### 3.1 [**Module Introduction**](ch3-1)
->### 3.2 [**HTML5 Tags and Structural Elements**](ch3-2)
->### 3.3 [**HTML5 Input Element: Attributes for the Input Tag**](ch3-3)
->### 3.4 [**Lab: HTML5**](ch3-4)
->### 3.5 [**Module Summary**](ch3-5)
+## 3. [**Chapter 3. HTML5 Elements**](#ch3)
+>### 3.1 [**Module Introduction**](#ch3-1)
+>### 3.2 [**HTML5 Tags and Structural Elements**](#ch3-2)
+>### 3.3 [**HTML5 Input Element: Attributes for the Input Tag**](#ch3-3)
+>### 3.4 [**Lab: HTML5**](#ch3-4)
+>### 3.5 [**Module Summary**](#ch3-5)
 
-## 4. [**Chapter 4. JavaScript Programming for Web Applications**](ch4)
->### 4.1 [**Module Introduction**](ch4-1)
->### 4.2 [**JavaScript Language: Overv/iew and Syntax**](ch4-2)
->### 4.3 [**JavaScript: Variables and Control Statements**](ch4-3)
->### 4.4 [**JavaScript: Functions and Prototypes**](ch4-4)
->### 4.5 [**Client-Side JavaScript: with HTML**](ch4-5)
->### 4.6 [**Client-Side JavaScript: with DOM**](ch4-6)
->### 4.7 [**JavScript DOM Objects**](ch4-7)
->### 4.8 [**JavScript APIs**](ch4-8)
->### 4.9 [**Lab: JavaScript**](ch4-9)
->### 4.10 [**Module Summary**](ch4-10)
+## 4. [**Chapter 4. JavaScript Programming for Web Applications**](#ch4)
+>### 4.1 [**Module Introduction**](#ch4-1)
+>### 4.2 [**JavaScript Language: Overv/iew and Syntax**](#ch4-2)
+>### 4.3 [**JavaScript: Variables and Control Statements**](#ch4-3)
+>### 4.4 [**JavaScript: Functions and Prototypes**](#ch4-4)
+>### 4.5 [**Client-Side JavaScript: with HTML**](#ch4-5)
+>### 4.6 [**Client-Side JavaScript: with DOM**](#ch4-6)
+>### 4.7 [**JavScript DOM Objects**](#ch4-7)
+>### 4.8 [**JavScript APIs**](#ch4-8)
+>### 4.9 [**Lab: JavaScript**](#ch4-9)
+>### 4.10 [**Module Summary**](#ch4-10)
 
-## 5. [**Chapter 5. GitHub**](ch5)
->### 5.1 [**Module Introduction**](ch5-1)
->### 5.2 [**Overview of GitHub**](ch5-2)
->### 5.3 [**Introduction to GitHub**](ch5-3)
->### 5.4 [**GitHub Repositories**](ch5-4)
->### 5.5 [**Lab: GitHub Sign Up & Create Repo**](ch5-5)
->### 5.6 [**GitHub Branches**](ch5-6)
->### 5.7 [**Lab: Branching and Merging (Web UI)**](ch5-7)
->### 5.8 [**Cloning and Forking GitHub Projects**](ch5-8)
->### 5.9 [**Managing GitHub Projects**](ch5-9)
->### 5.10 [**Git Installation**](ch5-10)
->### 5.11 [**SSH Key Creation**](ch5-11)
->### 5.12 [**Add SSH to Repo**](ch5-12)
->### 5.13 [**Module Summary**](ch5-13)
+## 5. [**Chapter 5. GitHub**](#ch5)
+>### 5.1 [**Module Introduction**](#ch5-1)
+>### 5.2 [**Overview of GitHub**](#ch5-2)
+>### 5.3 [**Introduction to GitHub**](#ch5-3)
+>### 5.4 [**GitHub Repositories**](#ch5-4)
+>### 5.5 [**Lab: GitHub Sign Up & Create Repo**](#ch5-5)
+>### 5.6 [**GitHub Branches**](#ch5-6)
+>### 5.7 [**Lab: Branching and Merging (Web UI)**](#ch5-7)
+>### 5.8 [**Cloning and Forking GitHub Projects**](#ch5-8)
+>### 5.9 [**Managing GitHub Projects**](#ch5-9)
+>### 5.10 [**Git Installation**](#ch5-10)
+>### 5.11 [**SSH Key Creation**](#ch5-11)
+>### 5.12 [**Add SSH to Repo**](#ch5-12)
+>### 5.13 [**Module Summary**](#ch5-13)
 
 
 **[`^        back to table of contents        ^`](#table-of-contents)**
 
-## <a id="ch1"></a>Introduction to Programming for the Cloud
-### Learning Objectives
+<h2 id="ch1">Introduction to Programming for the Cloud</h2>
+<h3>Learning Objectives</h3>
+
 **Introduction to Cloud Development with HTML5, CSS3 and JavaScript {w/
 Github}** (CAD101EN)
 
@@ -118,95 +119,73 @@ Github}** (CAD101EN)
 	alt="IBM Cloud Development - the Skills Network"
 	width="85%">
 &nbsp;
-
 </p>
 
-## Welcome
+<h3>Welcome</h3>
 
-## [Welcome to Introduction to Cloud Development with HTML5, CSS3, and JavaScript](https://courses.edx.org/courses/course-v1:IBM+CAD101EN+2T2020/courseware/f585e5c461ff46f2b51908e14db38908/7b1b222dc117433bbb16825ef1cc60d2/)
+<h3>Welcome to Introduction to Cloud Development with HTML5, CSS3, and JavaScript</h3>
 
-### General Information
+<h3>General Information</h3>
 
-### Module 1 - Introduction to Programming for the Cloud
+<h3>Module 1 - Introduction to Programming for the Cloud</h3>
 
-1.  [**Module Introduction and
-    Objectives**](https://github.com/bbauska/cad101en/intro)
+1.  **Module Introduction and Objectives**
 
-2.  [**Overview of Web and Cloud Development
-    (4:32)**](https://courses.edx.org/courses/course-v1:IBM+CAD101EN+2T2020/courseware/6be9b836a8634e84a9315f9b648a0b0c/ba8992672d194695aa854752cd6bb213/)
+2.  **Overview of Web and Cloud Development (4:32)**
+	
+3.  **Learning Front-End Development (6:09)**
 
-3.  [**Learning Front-End Development
-    (6:09)**](https://courses.edx.org/courses/course-v1:IBM+CAD101EN+2T2020/courseware/6be9b836a8634e84a9315f9b648a0b0c/23c3bc963be642989531f93d1c1cb111/)
+4.  **Introducing Application Development Tools (5:51)**
 
-4.  [**Introducing Application Development Tools
-    (5:51)**](https://courses.edx.org/courses/course-v1:IBM+CAD101EN+2T2020/courseware/6be9b836a8634e84a9315f9b648a0b0c/1214da20f0fa4d9d9b5e8224a1bf67e7/)
+5.  **More Application Development Tools (5:10)**
 
-5.  [**More Application Development Tools
-    (5:10)**](https://courses.edx.org/courses/course-v1:IBM+CAD101EN+2T2020/courseware/6be9b836a8634e84a9315f9b648a0b0c/a117a1eeb78b4eeeb406ac4195c85dab/)
-
-6.  [**The Importance of Back-End Development
-    (6:29)**](https://courses.edx.org/courses/course-v1:IBM+CAD101EN+2T2020/courseware/6be9b836a8634e84a9315f9b648a0b0c/7d933df4e71c447d9724e5502f62b860/)
+6.  **The Importance of Back-End Development (6:29)**
 
 7.  **Lab: Demo of Web Development**
 
 8.  **Module Summary**
 
-### Module 2 - HTML5 and CSS Overview
+<h3>Module 2 - HTML5 and CSS Overview</h3>
 
-1.  [**Module Introduction and
-    Objectives**](https://courses.edx.org/courses/course-v1:IBM+CAD101EN+2T2020/courseware/6a6617b1b6f54e45a6d5adf47d6f0790/5fbe3474b93f4fef97d3b88f8038a1e1/)
+1.  **Module Introduction and Objectives**
 
-2.  [**Introduction to HTML
-    (4:12)**](https://courses.edx.org/courses/course-v1:IBM+CAD101EN+2T2020/courseware/6a6617b1b6f54e45a6d5adf47d6f0790/225239620bd140aa804238f4b8bd3941/)
+2.  **Introduction to HTML (4:12)**
 
-3.  [**HTML Features
-    (6:02)**](https://courses.edx.org/courses/course-v1:IBM+CAD101EN+2T2020/courseware/6a6617b1b6f54e45a6d5adf47d6f0790/c956d0147fec4ebd86f291664842bd35/)
+3.  **HTML Features (6:02)**
 
-4.  [**Lab: Intro to HTML
-    (JSFiddle)**](https://courses.edx.org/courses/course-v1:IBM+CAD101EN+2T2020/courseware/6a6617b1b6f54e45a6d5adf47d6f0790/37098ee97f964f9999ef81512fdc4a93/)
+4.  **Lab: Intro to HTML (JSFiddle)**
 
-5.  [**HTML Management and Support
-    (3:58)**](https://courses.edx.org/courses/course-v1:IBM+CAD101EN+2T2020/courseware/6a6617b1b6f54e45a6d5adf47d6f0790/11ca0132c8254a1ea4374ed1dc8d4f88/)
+5.  **HTML Management and Support (3:58)**
 
-6.  [**HTML Scripting
-    (4:41)**](https://courses.edx.org/courses/course-v1:IBM+CAD101EN+2T2020/courseware/6a6617b1b6f54e45a6d5adf47d6f0790/4a4ecd86ef1d4b77ac9d8e1d9a3b8a4b/)
+6.  **HTML Scripting (4:41)**
 
-7.  [**HTML5 Browser Support
-    (4:24)**](https://courses.edx.org/courses/course-v1:IBM+CAD101EN+2T2020/courseware/6a6617b1b6f54e45a6d5adf47d6f0790/9431b79bc13f411190e7d5e7ef2e6e2a/)
+7.  **HTML5 Browser Support (4:24)**
 
-8.  [**Lab: HTML - Creating a Simple Web
-    Page**](https://courses.edx.org/courses/course-v1:IBM+CAD101EN+2T2020/courseware/6a6617b1b6f54e45a6d5adf47d6f0790/75323dc3566843e084c4520390c11e5a/)
+8.  **Lab: HTML - Creating a Simple Web Page**
 
-9.  [**CSS: Styling HTML
-    (7:27)**](https://courses.edx.org/courses/course-v1:IBM+CAD101EN+2T2020/courseware/6a6617b1b6f54e45a6d5adf47d6f0790/19504674ccde4f8882d5824f66e819be/)
+9.  **CSS: Styling HTML (7:27)**
 
-10. [**Lab: CSS Basics - Styling Your Web
-    Page**](https://courses.edx.org/courses/course-v1:IBM+CAD101EN+2T2020/courseware/6a6617b1b6f54e45a6d5adf47d6f0790/819760c29eee486ab99b774ce2db8a40/)
+10. **Lab: CSS Basics - Styling Your Web Page**
 
 11. **Module Summary**
 
-### Module 3 - HTML5 Elements
+<h3>Module 3 - HTML5 Elements</h3>
 
-1.  [**Module Introduction and
-    Objectives**](https://courses.edx.org/courses/course-v1:IBM+CAD101EN+2T2020/courseware/6405584a0d2d4dd389f1e9e6b94371c1/8c16166e308349c1819ffcaa743e0d67/)
+1.  **Module Introduction and Objectives**
 
-2.  [**HTML5 Tags and Structural Elements
-    (4:29)**](https://courses.edx.org/courses/course-v1:IBM+CAD101EN+2T2020/courseware/6405584a0d2d4dd389f1e9e6b94371c1/46dc01dbdf614f19afed2fa541142c9f/)
+2.  **HTML5 Tags and Structural Elements (4:29)**
 
-3.  [**HTML5 Input Element: Attributes for the Input Tag
-    (4:53)**](https://courses.edx.org/courses/course-v1:IBM+CAD101EN+2T2020/courseware/6405584a0d2d4dd389f1e9e6b94371c1/f8952c4411b642e9bc587569a216c2a1/)
+3.  **HTML5 Input Element: Attributes for the Input Tag (4:53)**
 
-4.  [**Lab:
-    HTML5**](https://courses.edx.org/courses/course-v1:IBM+CAD101EN+2T2020/courseware/6405584a0d2d4dd389f1e9e6b94371c1/fa5bfdc0993941119a2e0356c6c03a91/)
+4.  **Lab: HTML5**
 
 5.  **Module Summary**
 
 ### 
 
-### Module 4 - JavaScript Programming for Web Applications
+<h3>Module 4 - JavaScript Programming for Web Applications</h3>
 
-1.  [**Module Introduction and
-    Objectives**](https://courses.edx.org/courses/course-v1:IBM+CAD101EN+2T2020/courseware/24ab228eda59426cb0f9823ae7901f0a/fa40eda1f93445c985a95f1cac228373/)
+1.  **Module Introduction and Objectives**
 
 2.  **JavaScript Language: Overview and Syntax (7:41)**
 
@@ -214,8 +193,7 @@ Github}** (CAD101EN)
 
 4.  **JavaScript: Functions and Prototypes (5:25)**
 
-5.  [**Client-Side JavaScript: with HTML
-    (3:54)**](https://courses.edx.org/courses/course-v1:IBM+CAD101EN+2T2020/courseware/24ab228eda59426cb0f9823ae7901f0a/1c9ef6cc82c9447ea706d86235ea629e/)
+5.  **Client-Side JavaScript: with HTML (3:54)**
 
 6.  **Client-Side JavaScript: with DOM (6:11)**
 
@@ -223,10 +201,9 @@ Github}** (CAD101EN)
 
 8.  **JavaScript APIs (9:10)**
 
-9.  [**Hands-On Lab:
-    JavaScript**](https://courses.edx.org/courses/course-v1:IBM+CAD101EN+2T2020/courseware/24ab228eda59426cb0f9823ae7901f0a/472420eebbdc43d5a4039ee40f86461b/)
+9.  **Hands-On Lab: JavaScript**
 
-### Module 5 - GitHub
+<h3>Module 5 - GitHub</h3>
 
 1.  **Module Introduction and Objectives**
 
@@ -246,27 +223,22 @@ Github}** (CAD101EN)
 
 9.  **Managing GitHub Projects (3:09)**
 
-10. [**Hands-On Lab: Working with Git on
-    Theia**](https://courses.edx.org/courses/course-v1:IBM+CAD101EN+2T2020/courseware/647003a2942d4749b9fd9e30ed8d24b0/f4d79b453c3243aa93b097757ebf6353/)
+10. **Hands-On Lab: Working with Git on Theia**
 
-11. [**Hands-On Lab: Git Installation on Desktop
-    (Optional)**](https://courses.edx.org/courses/course-v1:IBM+CAD101EN+2T2020/courseware/647003a2942d4749b9fd9e30ed8d24b0/142daac926774a5db3e72c833d8f179a/)
+11. **Hands-On Lab: Git Installation on Desktop (Optional)**
 
-12. [**Hands-On Lab: SSH Key Creation
-    (Optional)**](https://courses.edx.org/courses/course-v1:IBM+CAD101EN+2T2020/courseware/647003a2942d4749b9fd9e30ed8d24b0/b4c3d4efa35d4826b0fd20415c669352/)
+12. **Hands-On Lab: SSH Key Creation (Optional)**
 
-13. [**Hands-On Lab: Add SSH to Repo
-    (Optional)**](https://courses.edx.org/courses/course-v1:IBM+CAD101EN+2T2020/courseware/647003a2942d4749b9fd9e30ed8d24b0/b037a23d7d214c3aa43f33c87ba57ee1/)
+13. **Hands-On Lab: Add SSH to Repo (Optional)**
 
-14. [**Hands-On Lab: Using Git from Your Own Desktop
-    (Optional)**](https://courses.edx.org/courses/course-v1:IBM+CAD101EN+2T2020/courseware/647003a2942d4749b9fd9e30ed8d24b0/ae9adfa369a44b3b87d621990c2e64e8/)
+14. **Hands-On Lab: Using Git from Your Own Desktop (Optional)**
 
 **\
 **
 
-#### [**Learning Objectives and Syllabus**](https://courses.edx.org/courses/course-v1:IBM+CAD101EN+2T2020/courseware/f585e5c461ff46f2b51908e14db38908/faa5c597bb51446b872513054c495217/)
+<h4><b>Learning Objectives and Syllabus</b></h4>
 
-## Learning Objectives
+<h2>Learning Objectives</h2>
 
 After completing this course, you will be able to:
 
@@ -305,7 +277,7 @@ front-end development, working with HTML, CSS, and JavaScript. Finally,
 you will discover tools that help you to store your projects and keep
 track of changes made to project files, such as Git and GitHub.
 
-### Module 1: Introduction and Learning Objectives
+<h3>Module 1: Introduction and Learning Objectives</h3>
 
 Learn what Cloud Application development involves from the very
 beginning. Discover the languages, frameworks, and tools that enable you
@@ -341,7 +313,7 @@ After completing this module, you will be able to:
 	width="85%">
 &nbsp;
 
-### Module 1, Part I: Overview of Web and Cloud Development
+<h3>Module 1, Part I: Overview of Web and Cloud Development</h3>
 
 When you're starting out as a Web Developer, it can be difficult to
 determine what you need to learn and what order you should learn it in.
@@ -432,7 +404,7 @@ storage tools like Git and GitHub.
 Other useful features are custom extensions and themes for supporting
 your working style and environment.
 
-Examples for code editors and IDEs include Sublime Text, Atom, Vim, VS
+aExamples for code editors and IDEs include Sublime Text, Atom, Vim, VS
 Code, Visual Studio, Eclipse and NetBeans.
 
 In this brief overview, you learned about:
@@ -450,7 +422,7 @@ In this brief overview, you learned about:
 
 -   IDEs will help you create and manage your code.
 
-### Module 1, Part II: Learning Front-End Development
+<h3>Module 1, Part II: Learning Front-End Development</h3>
 
 Internet websites offer lots of different services, one of the most
 popular being online shopping.
@@ -589,7 +561,7 @@ needs to keep upgrading the websites that they create.
 The websites that they create should work in multiple browsers, multiple
 operating systems and multiple devices.
 
-### Module 1, Part III: Introducing Application Development Tools
+<h3>Module 1, Part III: Introducing Application Development Tools</h3>
 
 Welcome to Introducing Application Development Tools.
 
@@ -760,7 +732,7 @@ will utilize in your career as a developer including:
 
 -   frameworks
 
-### Module 1, Part IV: More Application Development Tools
+<h3>Module 1, Part IV: More Application Development Tools</h3>
 
 Welcome to More Application Development Tools.
 
@@ -1036,7 +1008,7 @@ storing data as required.
 
 Life for a back-end developer is varied, challenging, and ever changing.
 
-## Module 1: Summary
+<h2>Module 1: Summary</h2>
 
 In this module, you learned that:
 
@@ -1059,7 +1031,7 @@ In this module, you learned that:
 -   Frameworks and libraries extend the functionality of coding
     languages such as JavaScript and Python.
 
-## Module 2: Introduction and Learning Objectives
+<h2>Module 2: Introduction and Learning Objectives</h2>
 
 The most fundamental tools for front-end developers are the languages
 they use for developing the website or app. Foremost among these is
@@ -1089,7 +1061,7 @@ After completing this module, you will be able to:
 
 -   Describe how CSS is used to enhance websites.
 
-## Module 2, Part I: Introduction to HTML
+<h2>Module 2, Part I: Introduction to HTML</h2>
 
 Hello and welcome to Introduction to HTML.
 
@@ -1180,7 +1152,7 @@ In this section (part 1), you learned:
 
 -   Markup and APIs for web storage, video, and audio content.
 
-## Module 2, Part II: HTML Features
+<h2>Module 2, Part II: HTML Features</h2>
 
 Hello and welcome to HTML Features.
 
@@ -1280,7 +1252,7 @@ elements such as headers and paragraphs, text nodes, and comment nodes.
 Here is an example of a document that conforms to the XML syntax of
 HTML5.
 
-![](media/image14.png){width="5.0in" height="3.0569313210848645in"}
+![](images/image14.png){width="5.0in" height="3.0569313210848645in"}
 
 Extensible Markup Language (XML) documents look similar to HTML
 documents, except they have an XML tag on the first line.
@@ -1337,7 +1309,7 @@ Hands-on Lab: Intro to HTML (JDFiddle)
 [Click here to launch the lab in another
 browser.](https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBMDeveloperSkillsNetwork-CD0101EN-SkillsNetwork/labs/demos/jsfiddle-demo.md.html)
 
-## Module 2, Part III: HTML Management and Support
+<h2>Module 2, Part III: HTML Management and Support</h2>
 
 Hello, and welcome to HTML Management and Support.
 
@@ -1349,11 +1321,11 @@ After reading this section (part 3), you will be able to:
 
 -   Describe browser support for HTML5 features.
 
-![](media/image15.png){width="5.0in" height="2.0673075240594927in"}
+![](images/image015.png){width="5.0in" height="2.0673075240594927in"}
 
 Let's examine some of the key themes of the HTML5 specification.
 
-![](media/image16.png){width="5.0in" height="2.3730293088363954in"}
+![](images/image016.png){width="5.0in" height="2.3730293088363954in"}
 
 The syntax it defines is compatible with HTML4 and XHTML1 documents.
 
@@ -1370,7 +1342,7 @@ attributes of the earlier specifications.
 For authors, several elements and attributes have been removed in order
 to simplify the language.
 
-![](media/image17.png){width="5.0in" height="2.8016404199475065in"}
+![](images/image017.png){width="5.0in" height="2.8016404199475065in"}
 
 HTML5 includes some elements and application programming interfaces that
 help in the creation of web applications.
@@ -1437,14 +1409,14 @@ About HTML5 Web Applications, which have:
 And about HTML5 Elements, which enable you to define and manage web page
 structure and content.
 
-## Module 2, Part IV: HTML Scripting
+<h2>Module 2, Part IV: HTML Scripting</h2>
 
 Hello and welcome to HTML Scripting.
 
 After reading this section (part 4), you will be able to describe how
 scripting is enabled in browsers.
 
-![](media/image18.png){width="5.0in" height="2.4601749781277342in"}
+![](images/image018.png){width="5.0in" height="2.4601749781277342in"}
 
 Scripting is enabled for a browser context, when the conditions shown on
 the slide are true.
@@ -1476,7 +1448,7 @@ sandbox attribute on any tag that contains an embedded object.
 Each HTML document that is loaded into a browser page becomes a Document
 object.
 
-![](media/image19.png){width="5.0in" height="2.6465168416447944in"}
+![](images/image019.png){width="5.0in" height="2.6465168416447944in"}
 
 The Document object provides access to all HTML elements in a page and
 can be accessed from within a script.
@@ -1497,7 +1469,7 @@ script elements in the document.
 
 Here are some common HTML DOM tree methods:
 
-![](media/image20.png){width="5.0in" height="2.4525087489063866in"}
+![](images/image020.png){width="5.0in" height="2.4525087489063866in"}
 
 The **document.getElementById ('id')** function has one required
 parameter which is the id of the element you want to access.
@@ -1514,7 +1486,7 @@ matches the required parameter.
 This is a fragment of HTML with JavaScript code that uses the document
 API.
 
-![](media/image21.png){width="5.0in" height="2.5047397200349955in"}
+![](images/image021.png){width="5.0in" height="2.5047397200349955in"}
 
 When Submit is clicked inside the page that is running in a web browser,
 the *textChecker* function begins.
@@ -1531,7 +1503,7 @@ A similar function will be used later in Exercise 1.
 Here is the output from running the code on the previous page that uses
 the document API.
 
-![](media/image22.png){width="5.0in" height="2.131433727034121in"}
+![](images/image022.png){width="5.0in" height="2.131433727034121in"}
 
 The user types "Test" in the input field and clicks Submit. The result
 is seen in an alert dialog box on the same page.
@@ -1552,7 +1524,7 @@ In this section (part 4), you learned:
 -   HTML documents loaded into a browser page become Document objects,
     which you can access through scripts.
 
-## Module 2, Part V: HTML5 Browser Support
+<h2>Module 2, Part V: HTML5 Browser Support</h2>
 
 Hello and welcome to HTML5 Browser Support.
 
@@ -1560,7 +1532,7 @@ After reading this section (part 5), you will be able to:
 
 -   Describe browser support for HTML5 features.
 
-![](media/image23.png){width="5.0in" height="1.6078040244969378in"}
+![](images/image023.png){width="5.0in" height="1.6078040244969378in"}
 
 Not all browsers fully support all the features that are described in
 the HTML5 and CSS3 specifications.
@@ -1579,7 +1551,7 @@ can be a useful tool when developing web pages.
 For example, caniuse.com has great support tables for HTML5, CSS3, and
 more.
 
-![](media/image24.png){width="5.0in" height="2.3958333333333335in"}
+![](images/image024.png){width="5.0in" height="2.3958333333333335in"}
 
 Here are the results of displaying the \< input type= 'date' \>element
 in different browsers.
@@ -1594,7 +1566,7 @@ The Firefox browser displays the date field as a text field.
 
 This could raise several issues regarding input format and validation.
 
-![](media/image25.png){width="5.0in" height="2.3288801399825023in"}
+![](images/image025.png){width="5.0in" height="2.3288801399825023in"}
 
 This example shows a support table for the \< input type= 'date' \>
 element.
@@ -1617,7 +1589,7 @@ support the type ='date'\> element.
 Support levels change as developers of browsers add new features, so
 check back frequently to see if the features you require are supported.
 
-![](media/image26.png){width="5.0in" height="2.3618503937007875in"}
+![](images/image026.png){width="5.0in" height="2.3618503937007875in"}
 
 You can also use JavaScript to check whether a certain HTML5 element is
 supported by a browser.
@@ -1640,7 +1612,7 @@ supported by a browser.
 Browsers that do not support the element can revert to a fallback or
 default behavior such as displaying the field as a regular text field.
 
-![](media/image27.png){width="5.0in" height="2.5706200787401574in"}
+![](images/image027.png){width="5.0in" height="2.5706200787401574in"}
 
 Here is an example of using JavaScript to check whether a certain HTML5
 element is supported by a browser.
@@ -1665,26 +1637,26 @@ In this section (part 5), you learned:
 -   You can use JavaScript to check whether a certain HTML5 element is
     supported by a browser.
 
-## Hands-On Lab: HTML - Creating a Simple Web Page
+<h2>Hands-On Lab: HTML - Creating a Simple Web Page</h2>
 
-# Use the Start Lab button below to launch the lab in a new browser tab.
+<h1>Use the Start Lab button below to launch the lab in a new browser tab.</h1>
 
 [Note: In case the Start Lab button does not work, instructions to
 complete this lab are also
 available here](https://labs.cognitiveclass.ai/tools/theiadocker/?md_instructions_url=https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBMDeveloperSkillsNetwork-CD0101EN-SkillsNetwork/labs/Theia%20Labs/01%20-%20HTML%20and%20CSS/Lab%201%20HTML/instructions.md).
 
-## Hands-On Lab: HTML (External resource)
+<h2>Hands-On Lab: HTML (External resource)</h2>
 
 Clicking on the Start Lab button below will launch the cloud based SN
 labs virtual labs environment with instructions to complete this lab.
 Your username and email will be shared with SN Labs to authenticate and
 provision your lab environment.
 
-# Start Lab 
+<h1>Start Lab</h1>
 
-## Module 2, Part VI: CSS: Styling HTML
+<h2>Module 2, Part VI: CSS: Styling HTML</h2>
 
-![](media/image28.png){width="5.0in" height="1.9476760717410324in"}
+![](images/image028.png){width="5.0in" height="1.9476760717410324in"}
 
 Hello and welcome to CSS: Styling HTML.
 
@@ -1700,7 +1672,7 @@ By using a combination of HTML5, JavaScript, and cascading style sheets,
 developers can create web pages that can be displayed on desktop
 computers and mobile devices.
 
-![](media/image29.png){width="5.0in" height="2.5222823709536306in"}
+![](images/image029.png){width="5.0in" height="2.5222823709536306in"}
 
 These technologies have powerful features that can be used to show rich
 interactive applications without requiring plug-in technologies, like
@@ -1713,7 +1685,7 @@ people.
 Being able to meet accessibility requirements is one advantage of using
 HTML markup over browser plug-ins for delivering interactive content.
 
-![](media/image30.png){width="5.0in" height="2.6974912510936133in"}
+![](images/image030.png){width="5.0in" height="2.6974912510936133in"}
 
 CSS is the design that is layered over the top of an HTML web page.
 
@@ -1739,7 +1711,7 @@ if they have special accessibility needs.
 It allows machines (such as search engines) to index a website without
 the design interfering.
 
-![](media/image31.png){width="5.0in" height="2.337665135608049in"}
+![](images/image031.png){width="5.0in" height="2.337665135608049in"}
 
 You can code CSS as a style attribute in an HTML tag, a head section of
 a document, or an external document.
@@ -1747,7 +1719,7 @@ a document, or an external document.
 The preference is to code CSS in external documents (referred to
 as style sheets).
 
-![](media/image32.png){width="5.0in" height="2.5095024059492563in"}
+![](images/image032.png){width="5.0in" height="2.5095024059492563in"}
 
 You can use CSS to control a document's appearance and specify style
 rules for the following web page elements: Fonts, Text, Colors,
@@ -1756,7 +1728,7 @@ Tables, and Lists.
 
 CSS style element are structured like this.
 
-![](media/image33.png){width="5.0in" height="2.655931758530184in"}
+![](images/image033.png){width="5.0in" height="2.655931758530184in"}
 
 In this example, the html-tag-name can be one of the following elements:
 
@@ -1772,7 +1744,7 @@ In this example, the html-tag-name can be one of the following elements:
 When making a site design, begin by establishing the base style.
 Establish a base style by styling the \<Body\> tag, as shown here.
 
-![](media/image34.png){width="3.0in" height="3.6902679352580927in"}
+![](images/image034.png){width="3.0in" height="3.6902679352580927in"}
 
 This example makes the following styles:
 
@@ -1842,7 +1814,7 @@ You apply this style to only one page.
 If you copy and paste this style on each page, this approach increases
 the load time of each page, which causes the user to wait longer.
 
-### Link tag
+<h3>Link tag</h3>
 
 You can link to it from other pages, which ensures a clean HTML and a
 smaller page size.
@@ -1871,17 +1843,17 @@ In this section , you learned:
 
 -   Fixed: the height and width of elements remains the same.
 
-### Hands On Lab: CSS Basics
+<h3>Hands On Lab: CSS Basics</h3>
 
-### HANDS-ON LAB: CSS Basics - Styling Your Web Page
+<h3>HANDS-ON LAB: CSS Basics - Styling Your Web Page</h3>
 
-# Use the Start Lab button below to launch the lab in a new browser tab.
+<h1>Use the Start Lab button below to launch the lab in a new browser tab.</h1>
 
 [Note: In case the Start Lab button does not work, instructions to
 complete this lab are also
 available here](https://labs.cognitiveclass.ai/tools/theiadocker/?md_instructions_url=https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBMDeveloperSkillsNetwork-CD0101EN-SkillsNetwork/labs/Theia%20Labs/01%20-%20HTML%20and%20CSS/Lab%202%20CSS/instructions.md).
 
-### Hands-On Lab: CSS Basics - Styling Your Web Page (External resource)
+<h3>Hands-On Lab: CSS Basics - Styling Your Web Page (External resource)</h3>
 
 Clicking on the Start Lab button below will launch the cloud based SN
 labs virtual labs environment with instructions to complete this lab.
@@ -1890,7 +1862,7 @@ provision your lab environment.
 
 # Start Lab 
 
-## Module 2 Summary
+<h2>Module 2 Summary</h2>
 
 In this module (2), you learned that:
 
@@ -1910,7 +1882,7 @@ In this module (2), you learned that:
 
 -   CSS provides a consistent style and design throughout the website.
 
-## Module 3: Introduction and Learning Objectives
+<h2>Module 3: Introduction and Learning Objectives</h2>
 
 HTML5 has many elements that enable developers to create well-structured
 and varied websites. These HTML5 elements provide ways to separate an
@@ -1928,7 +1900,7 @@ After completing this module, you will be able to:
 
 -   Describe the attributes of HTML5 input elements.
 
-## Module 3, Part I: HTML5 Tags and Structural Elements
+<h2>Module 3, Part I: HTML5 Tags and Structural Elements</h2>
 
 Hello. Welcome to HTML5 Tags and Structural Elements.
 
@@ -1940,9 +1912,9 @@ After reading this section (part 1), you will be able to:
 
     -   section, article, header, footer, figure, fig caption.
 
-![](media/image35.png){width="6.5in" height="3.419209317585302in"}
+![](images/image035.png){width="6.5in" height="3.419209317585302in"}
 
-![](media/image36.png){width="6.5in" height="5.3578182414698166in"}
+![](images/image036.png){width="6.5in" height="5.3578182414698166in"}
 
 There are many HTML5 specific elements. The table shows some of them.
 
@@ -1953,9 +1925,9 @@ graphical content.
 Not all of these element tags are covered in this section, so take a
 moment to read through the table.
 
-![](media/image37.png){width="6.5in" height="3.502713254593176in"}
+![](images/image037.png){width="6.5in" height="3.502713254593176in"}
 
-![](media/image38.png){width="6.5in" height="3.675313867016623in"}
+![](images/image038.png){width="6.5in" height="3.675313867016623in"}
 
 This table shows more HTML5 elements.
 
@@ -1966,7 +1938,7 @@ Comments in HTML can assist the developer to explain what the code does.
 The browsers do not display these comments, unless the viewer views the
 source.
 
-![](media/image39.png){width="5.0in" height="2.351405293088364in"}
+![](images/image039.png){width="5.0in" height="2.351405293088364in"}
 
 In a division-based layout, each part of a page that you want to format
 differently is separated into its own division.
@@ -1994,7 +1966,7 @@ text.
 In contrast, the \<div\> tag has no innate semantic meaning besides the
 logical grouping of the content.
 
-![](media/image40.png){width="5.0in" height="3.050846456692913in"}
+![](images/image040.png){width="5.0in" height="3.050846456692913in"}
 
 You can use these dedicated elements to mark up your website, rather
 than using the generic \<div\> or \<span\> elements.
@@ -2009,7 +1981,7 @@ A \<header\> element is used to group the headers for a page.
 
 The \<footer\> defines the area at the bottom of the page.
 
-![](media/image41.png){width="5.0in" height="3.608923884514436in"}
+![](images/image041.png){width="5.0in" height="3.608923884514436in"}
 
 This code example shows some of the HTML5 structural element.
 
@@ -2022,7 +1994,7 @@ their own headers.
 
 The page also includes a \<footer\> element.
 
-![](media/image42.png){width="5.0in" height="3.770054680664917in"}
+![](images/image042.png){width="5.0in" height="3.770054680664917in"}
 
 The \<aside\> tag is used to provide additional information that is
 related to the main discussion.
@@ -2039,7 +2011,7 @@ sections.
 The \<figurecaption\> tag defines the caption for the contents of the
 element.
 
-![](media/image43.png){width="5.0in" height="3.689569116360455in"}
+![](images/image043.png){width="5.0in" height="3.689569116360455in"}
 
 Websites typically have sections that are dedicated to navigational
 links that go to these sites or for moving between pages of a single
@@ -2048,7 +2020,7 @@ application.
 In HTML5 syntax, these navigational links are placed inside a \<nav\>
 tag.
 
-![](media/image44.png){width="5.0in" height="3.8268164916885388in"}
+![](images/image044.png){width="5.0in" height="3.8268164916885388in"}
 
 The \<nav\> tag is a convenience tag for grouping navigational links in
 a web page.
@@ -2062,7 +2034,7 @@ In HTML5 syntax, these navigational links are placed inside a \<\> tag.
 The \<\> tag is a convenience tag for grouping navigational links in a
 web page.
 
-![](media/image45.png){width="5.0in" height="2.964209317585302in"}
+![](images/image045.png){width="5.0in" height="2.964209317585302in"}
 
 In this section (part 1), you learned:
 
@@ -2082,7 +2054,7 @@ In this section (part 1), you learned:
 
 -   And the \<nav\> tags enable you to group navigational links.
 
-## Module 3, Part II: HTML5 Input Element: Attributes for the Input Tag
+<h2>Module 3, Part II: HTML5 Input Element: Attributes for the Input Tag</h2>
 
 Hello. Welcome to HTML5 Input Element: Attributes for the Input Tag.
 
@@ -2105,7 +2077,7 @@ color code.
 The \< input type=\"date\" \> attribute is a date control (year, month,
 day) with no time zone.
 
-![](media/image46.png){width="5.0in" height="2.2741951006124235in"}
+![](images/image046.png){width="5.0in" height="2.2741951006124235in"}
 
 The example shows the input type=\"date\" field as it is seen in Google
 Chrome.
@@ -2115,13 +2087,13 @@ The input dialog varies from browser to browser.
 The datetime-local attribute provides input for a date and time (year,
 month, day, hour, minute, AM/PM) with no time zone.
 
-![](media/image47.png){width="5.0in" height="2.2741951006124235in"}
+![](images/image047.png){width="5.0in" height="2.2741951006124235in"}
 
 The datetime-local input field is displayed as a drop-down calendar in
 the Google Chrome browser. The time can be typed or entered using the
 spinner control.
 
-![](media/image48.png){width="5.0in" height="2.2741951006124235in"}
+![](images/image048.png){width="5.0in" height="2.2741951006124235in"}
 
 The \< input type=\"email\" \> attribute is displayed as a regular text
 input field.
@@ -2132,7 +2104,7 @@ The \< input type=\"number\" \> takes a numeric value as input.
 
 You can optionally specify the minimum, maximum values, step size, etc.
 
-![](media/image49.png){width="5.0in" height="2.2741951006124235in"}
+![](images/image049.png){width="5.0in" height="2.2741951006124235in"}
 
 The example shows the number selector in the Chrome browser. Only the
 numbers between 5 and the 10 are available for selection.
@@ -2147,7 +2119,7 @@ available for selection.
 The range attribute displays a slider with the range of values between
 the minimum and maximum.
 
-![](media/image50.png){width="5.0in" height="2.2741951006124235in"}
+![](images/image050.png){width="5.0in" height="2.2741951006124235in"}
 
 Only the slider itself is shown. Additional JavaScript code is needed in
 order to display the value of the slider.
@@ -2163,7 +2135,7 @@ The search input field on the Safari browser has rounded corners.
 The input type=\"tel\" pattern=\"\[parameters\]\" attribute expects a
 telephone number as input.
 
-![](media/image51.png){width="5.0in" height="2.2741951006124235in"}
+![](images/image051.png){width="5.0in" height="2.2741951006124235in"}
 
 On its own, the \< input type=\"tel\" \> provides nothing more than a
 text entry field in the browsers.
@@ -2174,7 +2146,7 @@ include other characters, such as the plus sign and hyphens.
 You need to supply your own pattern matcher if you want the browser to
 validate the telephone number.
 
-![](media/image52.png){width="5.0in" height="2.2741951006124235in"}
+![](images/image052.png){width="5.0in" height="2.2741951006124235in"}
 
 The URL attribute is used to validate that the user typed in a properly
 formatted URL or web address.
@@ -2186,7 +2158,7 @@ auto-complete functionality.
 
 You can fill the list by nesting
 
-![](media/image53.png){width="5.0in" height="2.2741951006124235in"}
+![](images/image053.png){width="5.0in" height="2.2741951006124235in"}
 
 These options are the types of fruits listed in the drop-down list.
 
@@ -2196,12 +2168,12 @@ looks like.
 The placeholder fills the input text field with the example values in a
 lighter shade of text.
 
-![](media/image54.png){width="5.0in" height="2.2741951006124235in"}
+![](images/image054.png){width="5.0in" height="2.2741951006124235in"}
 
 The form does not submit the placeholder text value if the input text is
 not overwritten.
 
-![](media/image55.png){width="5.0in" height="2.2741951006124235in"}
+![](images/image055.png){width="5.0in" height="2.2741951006124235in"}
 
 The required attribute implies that some text must be typed.
 
@@ -2211,7 +2183,7 @@ placeholder text.
 What happens if browser-based validation is not supported for these
 input attributes?
 
-![](media/image56.png){width="5.0in" height="2.2741951006124235in"}
+![](images/image056.png){width="5.0in" height="2.2741951006124235in"}
 
 There are several options to performing validation in browsers that do
 not support all HTML5 input attributes.
@@ -2231,7 +2203,7 @@ In this section (part 2), you learned:
 
 -   How to implement validation fallback.
 
-## Module 3, Hands on Lab: 
+<h2>Module 3, Hands on Lab:</h2>
 
 HANDS-ON LAB: HTML5
 
@@ -2241,16 +2213,16 @@ Use the Start Lab button below to launch the lab in a new browser tab.
 complete this lab are also available
 here](https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBMDeveloperSkillsNetwork-CD0101EN-SkillsNetwork/labs/Theia%20Labs/02%20-%20HTML5%20Elements/instructions.md.html).
 
-### Hands-On Lab: HTML5 (External resource)
+<h3>Hands-On Lab: HTML5 (External resource)</h3>
 
 Clicking on the Start Lab button below will launch the cloud based SN
 labs virtual labs environment with instructions to complete this lab.
 Your username and email will be shared with SN Labs to authenticate and
 provision your lab environment.
 
-### Start Lab 
+<h3>Start Lab</h3>
 
-## Module 3: Summary
+<h2>Module 3: Summary</h2>
 
 In this module, you learned that:
 
@@ -2287,7 +2259,7 @@ In this module, you learned that:
 
     -   URL
 
-## Module 4, Part I: JavaScript Programming for Web Applications
+<h2>Module 4, Part I: JavaScript Programming for Web Applications</h2>
 
 So now you have a website or Cloud App with structure and content from
 HTML, consistent style from CSS, and a limited amount of interactivity
@@ -2314,7 +2286,7 @@ After completing this module, you will be able to:
 
 -   List the common APIs used in JavaScript Applications.
 
-## Module 4, Part I: JavaScript Language Overview & Syntax
+<h2>Module 4, Part I: JavaScript Language Overview & Syntax</h2>
 
 Hello. Welcome to The JavaScript language, Overview and Syntax.
 
@@ -2322,7 +2294,11 @@ After reading this section (part 1), you will be able to:
 
 -   Describe JavaScript primitives and objects.
 
-![](media/image57.png){width="5.0in" height="2.46376968503937in"}
+<!------------------------------------------------------------------------------------------------>
+<!---------------------------------------- git push (162) ---------------------------------------->
+<!------------------------------------------------------------------------------------------------>
+
+![](images/image057.png){width="5.0in" height="2.46376968503937in"}
 
 JavaScript is a scripting language that is derived from the ECMAScript
 standard and originally designed to run on the Netscape Navigator
@@ -2394,7 +2370,7 @@ types.
 The primitive types number, string, and boolean can be wrapped by their
 object counterparts.
 
-![](media/image58.png){width="5.0in" height="2.46376968503937in"}
+![](images/image058.png){width="5.0in" height="2.46376968503937in"}
 
 Wrapper objects have the same name as the primitive type, except they
 start with an uppercase letter.
@@ -2406,7 +2382,7 @@ values.
 The wrapper objects use special methods such as the *valueOf* and
 *toString* methods to convert between objects and primitive literals.
 
-![](media/image59.png){width="5.0in" height="2.46376968503937in"}
+![](images/image059.png){width="5.0in" height="2.46376968503937in"}
 
 The *typeof* keyword in JavaScript is used to find out the data type of
 the supplied operand.
@@ -2419,7 +2395,7 @@ The keyword new is used to create the String wrapper object.
 This object can be converted to a primitive string type by calling the
 valueOf function on the object wrapper class.
 
-![](media/image60.png){width="5.0in" height="2.46376968503937in"}
+![](images/image060.png){width="5.0in" height="2.46376968503937in"}
 
 Arrays are specialized collection objects that aid the programmer in the
 storage and retrieval of data by indexed keys.
@@ -2432,7 +2408,7 @@ Arrays grow or shrink dynamically by adding or removing elements.
 The length property holds the number of elements that occur in the
 array.
 
-![](media/image61.png){width="5.0in" height="2.423510498687664in"}
+![](images/image061.png){width="5.0in" height="2.423510498687664in"}
 
 Arrays can be declared by using either an array constructor or an array
 literal.
@@ -2446,7 +2422,7 @@ brackets.
 You then assign the array to a variable, as seen in the last example on
 the slide.
 
-![](media/image62.png){width="5.0in" height="2.423510498687664in"}
+![](images/image062.png){width="5.0in" height="2.423510498687664in"}
 
 The Date object is a specialized object that is used to hold the date
 and time.
@@ -2464,7 +2440,7 @@ to the object.
 The result that is displayed is a string version of the date as shown on
 this slide.
 
-![](media/image63.png){width="5.0in" height="2.423510498687664in"}
+![](images/image063.png){width="5.0in" height="2.423510498687664in"}
 
 You can also create new dates by passing parameters to the new Date
 function.
@@ -2475,7 +2451,7 @@ used for the date parameters when creating new date objects.
 As with other object-oriented languages, JavaScript creates error object
 instances when an exception occurs.
 
-![](media/image64.png){width="5.0in" height="2.423510498687664in"}
+![](images/image064.png){width="5.0in" height="2.423510498687664in"}
 
 The error object instance includes two properties that contain
 information about the error:
@@ -2492,7 +2468,7 @@ JavaScript, three of which are shown on the slide.
 
 The other three are EvalError, ReferenceError, and SyntaxError.
 
-![](media/image65.png){width="5.0in" height="2.423510498687664in"}
+![](images/image065.png){width="5.0in" height="2.423510498687664in"}
 
 The Error object can be extended to create custom error types.
 
@@ -2533,9 +2509,9 @@ In this section (part 1), you learned:
 
     -   error objects.
 
-## Module 4, Part II: JavaScript: Variables & Control Statements
+<h2>Module 4, Part II: JavaScript: Variables & Control Statements</h2>
 
-## **Hello. Welcome to JavaScript Variables and Control** Statements.
+<h2><b>Hello. Welcome to JavaScript Variables and Control</b> Statements.</h2>
 
 After reading this section (part 2), you will be able to:
 
@@ -2546,7 +2522,7 @@ After reading this section (part 2), you will be able to:
 Variables are declared with the var keyword followed by the variable
 name, as in the example, var age,
 
-![](media/image66.png){width="5.0in" height="2.423510498687664in"}
+![](images/image066.png){width="5.0in" height="2.423510498687664in"}
 
 Variables can be declared and initialized in one step, as in the
 example, var age = 54,
@@ -2554,7 +2530,7 @@ example, var age = 54,
 You can assign a value to the variable at a later time, or reassign the
 value of a variable,
 
-![](media/image67.png){width="5.0in" height="2.850242782152231in"}
+![](images/image067.png){width="5.0in" height="2.850242782152231in"}
 
 Since JavaScript is a loosely typed language, you do not need to declare
 the data type of a variable. The variable assumes the data type from the
@@ -2599,7 +2575,7 @@ You learn about functions shortly.
 Conditional statements are the set of commands that are used to perform
 different actions for different conditions:
 
-![](media/image68.png){width="5.0in" height="2.8502416885389326in"}
+![](images/image068.png){width="5.0in" height="2.8502416885389326in"}
 
 In JavaScript, the IF statement is the way the program logic decides
 which path to take based on the current values of variables or object
@@ -2629,7 +2605,7 @@ Unlike Java, there is no block statement scope in JavaScript.
 Having no block statement scope means that variables declared inside one
 IF condition can be used outside the scope of that condition.
 
-![](media/image69.png){width="5.0in" height="2.544283683289589in"}
+![](images/image069.png){width="5.0in" height="2.544283683289589in"}
 
 JavaScript supports the switch statement as an alternative to the IF
 then ELSE control statements.
@@ -2654,7 +2630,7 @@ the associated statements.
 The break keyword is used to prevent the code from automatically falling
 into the next case clause.
 
-![](media/image70.png){width="5.0in" height="2.5845417760279963in"}
+![](images/image070.png){width="5.0in" height="2.5845417760279963in"}
 
 The FOR loop repeats a series of statements for any number of times.
 
@@ -2675,7 +2651,7 @@ If the condition evaluates to false, the FOR loop terminates.
 If the loop does not terminate, control returns to the second step and
 the conditional expression is evaluated again.
 
-![](media/image71.png){width="5.0in" height="1.7069258530183726in"}
+![](images/image071.png){width="5.0in" height="1.7069258530183726in"}
 
 The WHILE loop is another common loop in JavaScript,
 
@@ -2717,7 +2693,7 @@ statements, including:
 
 -   Repeat statements like for loops and while loops.
 
-## Module 4, Part III: JavaScript: Functions & Prototypes
+<h2>Module 4, Part III: JavaScript: Functions & Prototypes</h2>
 
 Hello. Welcome to JavaScript Functions and Prototypes.
 
@@ -2743,7 +2719,7 @@ A function is made up of the following parts:
 The last statement in a function block is the optional return statement
 that returns control back to whatever called the function.
 
-![](media/image72.png){width="5.0in" height="2.568436132983377in"}
+![](images/image072.png){width="5.0in" height="2.568436132983377in"}
 
 This example is a function that is named add.
 
@@ -2768,7 +2744,7 @@ If the values can be interpreted as numbers, they are added.
 
 If they can be interpreted as strings, they are concatenated.
 
-![](media/image73.png){width="5.0in" height="2.423510498687664in"}
+![](images/image073.png){width="5.0in" height="2.423510498687664in"}
 
 This is an example of declaring a function named Car that accepts three
 arguments as parameters.
@@ -2785,12 +2761,12 @@ Car that is associated with the variable named c.
 The getName function of Car returns the make, model, and year of the
 newly created Car object.
 
-![](media/image74.png){width="5.0in" height="2.4718186789151355in"}
+![](images/image074.png){width="5.0in" height="2.4718186789151355in"}
 
 By using prototypes, you can easily define properties and methods for
 all instances of a particular object.
 
-![](media/image75.png){width="5.0in" height="2.4718186789151355in"}
+![](images/image075.png){width="5.0in" height="2.4718186789151355in"}
 
 Prototypes exist for all JavaScript objects that can be created with the
 new keyword.
@@ -2798,7 +2774,7 @@ new keyword.
 All object constructors create objects that inherit the properties and
 methods that are defined by the prototype for that object.
 
-![](media/image76.png){width="5.0in" height="2.4718186789151355in"}
+![](images/image076.png){width="5.0in" height="2.4718186789151355in"}
 
 Any object that gets instantiated inherits the current state of the
 prototype.
@@ -2819,7 +2795,7 @@ Any Car object that you create, or any car object that is already
 created, automatically inherits the new floor_model property and its
 value.
 
-![](media/image77.png){width="5.0in" height="2.4718186789151355in"}
+![](images/image077.png){width="5.0in" height="2.4718186789151355in"}
 
 Here is another example that uses a prototype to change Car instances.
 
@@ -2832,7 +2808,7 @@ function that returns the make, model, and year.
 All existing instances of the Car object also inherit the getName
 method.
 
-![](media/image78.png){width="5.0in" height="2.4718186789151355in"}
+![](images/image078.png){width="5.0in" height="2.4718186789151355in"}
 
 Functions are usually declared first, and not run until you specifically
 ask them to, as you saw in some of the previous examples.
@@ -2871,7 +2847,7 @@ after they have been declared.
 
 The functions and variables are isolated from the rest of the script.
 
-## Module 4, Part IV: JavaScript: Functions & Prototypes
+<h2>Module 4, Part IV: JavaScript: Functions & Prototypes</h2>
 
 Hello. Welcome to JavaScript Functions and Prototypes.
 
@@ -2897,9 +2873,9 @@ A function is made up of the following parts:
 -   The last statement in a function block is the optional return
     statement that returns control back to whatever called the function.
 
-![](media/image79.png){width="5.0in" height="2.624799868766404in"}
+![](images/image079.png){width="5.0in" height="2.624799868766404in"}
 
-![](media/image80.png){width="5.0in" height="2.479870953630796in"}
+![](images/image080.png){width="5.0in" height="2.479870953630796in"}
 
 This example is a function that is named add.
 
@@ -2944,7 +2920,7 @@ newly created Car object.
 By using prototypes, you can easily define properties and methods for
 all instances of a particular object.
 
-![](media/image81.png){width="5.0in" height="2.479870953630796in"}
+![](images/image081.png){width="5.0in" height="2.479870953630796in"}
 
 Prototypes exist for all JavaScript objects that can be created with the
 new keyword.
@@ -2971,7 +2947,7 @@ Any Car object that you create, or any car object that is already
 created, automatically inherits the new floor_model property and its
 value.
 
-![](media/image82.png){width="5.0in" height="2.479870953630796in"}
+![](images/image082.png){width="5.0in" height="2.479870953630796in"}
 
 Here is another example that uses a prototype to change Car instances.
 
@@ -2984,7 +2960,7 @@ function that returns the make, model, and year.
 All existing instances of the Car object also inherit the getName
 method.
 
-![](media/image83.png){width="5.0in" height="2.479870953630796in"}
+![](images/image083.png){width="5.0in" height="2.479870953630796in"}
 
 Functions are usually declared first, and not run until you specifically
 ask them to, as you saw in some of the previous examples.
@@ -3024,7 +3000,7 @@ In this section (part 4), you learned:
 -   The functions and variables are isolated from the rest of the
     script.
 
-## Module 4, Part V: Client-Side JavaScript: with HTML
+<h2>Module 4, Part V: Client-Side JavaScript: with HTML</h2>
 
 Hello. Welcome to Client-side JavaScript.
 
@@ -3041,7 +3017,7 @@ After reading this section (part 5), you will be able to:
 A client-side script is a program that accompanies an HTML document or
 might be embedded directly in the HTML document itself.
 
-![](media/image84.png){width="5.0in" height="2.2946872265966753in"}
+![](images/image084.png){width="5.0in" height="2.2946872265966753in"}
 
 The script program runs on the client device when the document loads, or
 at some other time such as when a link is activated or when a button is
@@ -3064,7 +3040,7 @@ clicking of a button.
 Scripts can be used to dynamically create document elements on an HTML
 page.
 
-![](media/image85.png){width="5.0in" height="2.2946872265966753in"}
+![](images/image085.png){width="5.0in" height="2.2946872265966753in"}
 
 This slide shows two ways in which the document.
 
@@ -3074,7 +3050,7 @@ HTML document.
 This method is good for short scripts, but when a script is long, the
 method used in example 2 is preferred.
 
-![](media/image86.png){width="5.0in" height="2.2946872265966753in"}
+![](images/image086.png){width="5.0in" height="2.2946872265966753in"}
 
 Example 2 uses the src attribute to point to an external script file.
 
@@ -3085,7 +3061,7 @@ several HTML documents.
 Some users who visit your website might disable JavaScript from running,
 or they might be using a browser that does not support scripting.
 
-![](media/image87.png){width="5.0in" height="2.2946872265966753in"}
+![](images/image087.png){width="5.0in" height="2.2946872265966753in"}
 
 To allow for these situations, place the content for the alternative
 path within the tag.
@@ -3096,7 +3072,7 @@ of code that is within the noscript tag.
 Scripts can be run on the detection of certain events that happen when
 the page is running in a browser session.
 
-![](media/image88.png){width="5.0in" height="2.479870953630796in"}
+![](images/image088.png){width="5.0in" height="2.479870953630796in"}
 
 For example, the onload event can run a script when the browser finishes
 loading a page.
@@ -3109,7 +3085,7 @@ such as a button, that declares a handler for the event.
 The event handler is a function that declares what to do when the button
 is clicked.
 
-![](media/image89.png){width="5.0in" height="2.479870953630796in"}
+![](images/image089.png){width="5.0in" height="2.479870953630796in"}
 
 Here the inline event handler named showAnswers runs when the button is
 clicked.
@@ -3135,7 +3111,7 @@ It may even be embedded into the HTML itself.
 For example, the onload event can run a script when the browser finishes
 loading a page.
 
-## Module 4, Part VI: Client-Side JavaScript: with DOM
+<h2>Module 4, Part VI: Client-Side JavaScript: with DOM</h2>
 
 Hello. Welcome to Client-side JavaScript.
 
@@ -3148,7 +3124,7 @@ After reading this section (part 6), you will be able to:
 -   Identify the DOM objects that are commonly used in JavaScript
     applications for working with HTML documents.
 
-![](media/image90.png){width="5.0in" height="2.4396128608923884in"}
+![](images/image090.png){width="5.0in" height="2.4396128608923884in"}
 
 The document object model is the programming interface between HTML or
 XHTML and JavaScript.
@@ -3160,7 +3136,7 @@ structure, and style of documents.
 JavaScript uses the DOM to access and modify web page elements in the
 web browser.
 
-![](media/image91.png){width="5.0in" height="2.4396128608923884in"}
+![](images/image091.png){width="5.0in" height="2.4396128608923884in"}
 
 The World Wide Web Consortium released four levels of the Document
 Object Model specifications.
@@ -3168,7 +3144,7 @@ Object Model specifications.
 Each successive level provides a more detailed set of features for
 describing structured documents.
 
-![](media/image92.png){width="5.0in" height="2.4396128608923884in"}
+![](images/image092.png){width="5.0in" height="2.4396128608923884in"}
 
 The different browsers have various levels of compatibility with the DOM
 standard.
@@ -3180,7 +3156,7 @@ APIs to access HTML elements with the DOM.
 
 The JavaScript engine in most web browsers fully supports DOM level 1.
 
-![](media/image92.png){width="5.0in" height="2.4396128608923884in"}
+![](images/image092.png){width="5.0in" height="2.4396128608923884in"}
 
 Here is a representation of the basic DOM model for browsers:
 
@@ -3222,7 +3198,7 @@ for you.
 You can then access the window object properties and functions from your
 JavaScript code.
 
-![](media/image93.png){width="5.0in" height="2.4396128608923884in"}
+![](images/image093.png){width="5.0in" height="2.4396128608923884in"}
 
 In client-side JavaScript, the Window object serves as the global object
 and everything in the DOM takes place in a window.
@@ -3241,12 +3217,12 @@ This figure shows the object model for a simple HTML document.
 Notice how the object hierarchy matches the HTML containment hierarchy
 on the left.
 
-![](media/image94.png){width="5.0in" height="2.4396128608923884in"}
+![](images/image094.png){width="5.0in" height="2.4396128608923884in"}
 
 The object diagram can also be represented as a tree structure that
 corresponds to the structure of the HTML document.
 
-![](media/image95.png){width="5.0in" height="2.4396128608923884in"}
+![](images/image095.png){width="5.0in" height="2.4396128608923884in"}
 
 The branches of the tree structure are termed nodes.
 
@@ -3258,7 +3234,7 @@ All HTML tags (html, head, meta, title, and body) are element nodes.
 The nodes that contain actual text that go between an element start tag
 and end tag, are text nodes.
 
-![](media/image96.png){width="5.0in" height="2.4396128608923884in"}
+![](images/image096.png){width="5.0in" height="2.4396128608923884in"}
 
 The figure shows the DOM level 2 tree for the FORM portion of the
 document.
@@ -3266,7 +3242,7 @@ document.
 The line feeds between elements are text nodes and are part of the DOM
 level 2 tree.
 
-![](media/image97.png){width="5.0in" height="2.3913046806649167in"}
+![](images/image097.png){width="5.0in" height="2.3913046806649167in"}
 
 The DOM level 2 tree includes a line feed text node before the paragraph
 and input elements.
@@ -3305,7 +3281,7 @@ document object provides access to all HTML elements within a page.
     variety of documents, from plain HTML documents for web pages, to
     more complex forms.
 
-## Module 4, Part VII: JavaScript DOM Objects
+<h2>Module 4, Part VII: JavaScript DOM Objects</h2>
 
 Hello. Welcome to JavaScript Dom Objects
 
@@ -3314,7 +3290,7 @@ After reading this section (part 7), you will be able to:
 -   Identify the DOM objects that are commonly used in JavaScript
     applications for working with HTML documents.
 
-![](media/image98.png){width="5.0in" height="2.4718186789151355in"}
+![](images/image098.png){width="5.0in" height="2.4718186789151355in"}
 
 The W3C DOM level 2 defines 12 different types of nodes, seven of which
 have direct applicability in HTML documents.
@@ -3454,7 +3430,7 @@ In this section (part 7), you learned:
 
 -   Objects can be named to make accessing them from the script easier.
 
-## Module 4, Part VIII: JavaScript APIs
+<h2>Module 4, Part VIII: JavaScript APIs</h2>
 
 Hello. Welcome to JavaScript APIs.
 
@@ -3746,7 +3722,7 @@ you to work with HTML elements and nodes.
 
 Window Object Methods & Events
 
-## Module 4 -- Summary
+<h2>Module 4 -- Summary</h2>
 
 In this module, you learned that:
 
@@ -3770,9 +3746,9 @@ In this module, you learned that:
 
 -   APIs are often used to access HTML DOM elements in web pages.
 
-## Module 5 -- GitHub / Module Introduction & Learning Objectives 
+<h2>Module 5 -- GitHub / Module Introduction & Learning Objectives</h2>
 
-### GitHub
+<h3>GitHub</h3>
 
 Web and Cloud App developers rarely work alone. Large projects will
 include many people -- front-end developers, back-end developers,
@@ -3808,7 +3784,7 @@ After completing this module, you will be able to: 
 
 -   List the roles common in large projects. 
 
-## Module 5 -- GitHub: Overview of Git/GitHub
+<h2>Module 5 -- GitHub: Overview of Git/GitHub</h2>
 
 In this module, you'll get an overview of Git and GitHub, which are
 popular environments among developers and data scientists for performing
@@ -3962,7 +3938,7 @@ tutorials. 
 In the following modules, we\'ll give you a crash course on setting up
 your local environment and getting started on a project. 
 
-## Module 5, Part I -- Introduction to GitHub 
+<h2>Module 5, Part I -- Introduction to GitHub</h2>
 
 Welcome to Introduction to GitHub. 
 
@@ -4129,7 +4105,7 @@ In this module, you learned: 
 -   Contains elements to coordinate among programmers, track changes,
     and support non-linear workflows. 
 
-##  Module 5, Part III: GitHub Repositories
+<h2> Module 5, Part III: GitHub Repositories</h2>
 
 Welcome to GitHub Repositories!
 
@@ -4255,9 +4231,9 @@ In this section (part 3), you learned:
 -   Repositories are storage structures that can hold Code, track
     Issues, and enable you to collaborate with others.
 
-### Hands-On Lab: GitHub Sign Up & Create Repo
+<h3>Hands-On Lab: GitHub Sign Up & Create Repo</h3>
 
-## Module 5, Part IV: GitHub Branches
+<h2>Module 5, Part IV: GitHub Branches</h2>
 
 Welcome to GitHub Branches!
 
@@ -4269,7 +4245,7 @@ After reading this section (part 4), you will be able to:
 
 All files in GitHub are stored on a branch.
 
-![](media/image135.png){width="5.0in" height="2.4879232283464567in"}
+![](images/image135.png){width="5.0in" height="2.4879232283464567in"}
 
 The master branch is definitive; it stores the deployable version of
 your code.
@@ -4284,7 +4260,7 @@ The new branch starts as an exact copy of the original branch.
 
 As you make changes, the branch that you created holds the changed code.
 
-![](media/image136.png){width="5.0in" height="2.4879232283464567in"}
+![](images/image136.png){width="5.0in" height="2.4879232283464567in"}
 
 To create a new branch, click drop-down branch: master
 
@@ -4308,7 +4284,7 @@ as a tip.
 
 and the two tips are merged into a third, combined branch.
 
-![](media/image137.png){width="5.0in" height="2.4879232283464567in"}
+![](images/image137.png){width="5.0in" height="2.4879232283464567in"}
 
 Developers work on source files in a branch. Since some projects take a
 while, the source doesn't make sense right away.
@@ -4347,7 +4323,7 @@ Some rules:
 
 -   Always write in an "active" voice.
 
-![](media/image138.png){width="5.0in" height="2.4879232283464567in"}
+![](images/image138.png){width="5.0in" height="2.4879232283464567in"}
 
 Pull is used to initiate the merging of branches in a way to capture
 changes.
@@ -4368,7 +4344,7 @@ person who approved the merge of the change.
 
 To open a new pull request:
 
-![](media/image139.png){width="5.0in" height="2.53623031496063in"}
+![](images/image139.png){width="5.0in" height="2.53623031496063in"}
 
 Click Pull request and select New pull request.
 
@@ -4396,7 +4372,7 @@ The code is reviewed and approved.
 
 The approved code is merged back into the master code.
 
-![](media/image140.png){width="5.0in" height="2.447665135608049in"}
+![](images/image140.png){width="5.0in" height="2.447665135608049in"}
 
 To merge a committed code change into your master code.
 
@@ -4404,7 +4380,7 @@ Click Merge pull request.
 
 Click Confirm merge.
 
-![](media/image141.png){width="5.0in" height="2.447665135608049in"}
+![](images/image141.png){width="5.0in" height="2.447665135608049in"}
 
 When all changes for a branch are complete, that branch is considered
 obsolete and it should be deleted.
@@ -4433,15 +4409,15 @@ Pull requests enables other users to review and use the proposed changes
 When you are ready to merge the changed code into the master branch, you
 merge the committed code changes into your master code.
 
-![](media/image142.png){width="5.034096675415573in"
+![](images/image142.png){width="5.034096675415573in"
 height="2.464355861767279in"}
 
-## Hands-On Lab: Branching and Merging (Web UI)
+<h2>Hands-On Lab: Branching and Merging (Web UI)</h2>
 
 [Click here to launch the lab in another
 browser.](https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBMDeveloperSkillsNetwork-CD0101EN-SkillsNetwork/labs/GitHubLabs/GitHub2_Branch_Merge.md.html)
 
-## Module 5, Part V: Cloning & Forking GitHub Projects
+<h2>Module 5, Part V: Cloning & Forking GitHub Projects</h2>
 
 Welcome to Cloning and Forking GitHub Projects.
 
@@ -4453,7 +4429,7 @@ After reading this section (part 5), you will be able to:
 
 -   Use git commands to communicate with other developers.
 
-![](media/image143.png){width="5.0in" height="2.447665135608049in"}
+![](images/image143.png){width="5.0in" height="2.447665135608049in"}
 
 GitHub has over existing 100M repositories, including some very useful
 projects.
@@ -4475,9 +4451,9 @@ starting point for your new project.
 To clone a GitHub repository, navigate to the repository that you want
 to clone.
 
-![](media/image144.png){width="5.0in" height="2.447665135608049in"}
+![](images/image144.png){width="5.0in" height="2.447665135608049in"}
 
-![](media/image145.png){width="5.0in" height="2.447665135608049in"}
+![](images/image145.png){width="5.0in" height="2.447665135608049in"}
 
 Under the repository name, click Code.
 
@@ -4496,7 +4472,7 @@ then press ENTER to execute the cloning.
 When you have made your changes and are ready to sync your code back to
 GitHub.
 
-![](media/image146.png){width="5.0in" height="2.447665135608049in"}
+![](images/image146.png){width="5.0in" height="2.447665135608049in"}
 
 First, you must run the "git add " command.
 
@@ -4514,7 +4490,7 @@ in the staging area.
 When you are ready to move your changes fully into the GitHub
 repository.
 
-![](media/image147.png){width="5.0in" height="2.447665135608049in"}
+![](images/image147.png){width="5.0in" height="2.447665135608049in"}
 
 Use the "git push" command.
 
@@ -4532,7 +4508,7 @@ Collaborating with others involves managing these remote repositories
 and involves push, pull, and fetch operations to and from them when you
 need to share work.
 
-![](media/image148.png){width="5.0in" height="2.447665135608049in"}
+![](images/image148.png){width="5.0in" height="2.447665135608049in"}
 
 Use git push to transfer your changes to the remote repo.
 
@@ -4542,7 +4518,7 @@ repo.
 It does not merge those changes to the branch you are working on. You
 can perform a merge manually if you want.
 
-![](media/image149.png){width="5.0in" height="2.447665135608049in"}
+![](images/image149.png){width="5.0in" height="2.447665135608049in"}
 
 Use git pull to transfer any changes from the remote repo to your local
 repo, and merge them to a branch.
@@ -4550,7 +4526,7 @@ repo, and merge them to a branch.
 Developers use the terms upstream and origin when talking about remote
 reps.
 
-![](media/image150.png){width="5.0in" height="2.447665135608049in"}
+![](images/image150.png){width="5.0in" height="2.447665135608049in"}
 
 Origin generally refers to your fork and upstream refers to the original
 work.
@@ -4559,7 +4535,7 @@ These are the norms.
 
 You can of course name them anything you like.
 
-![](media/image151.png){width="5.0in" height="2.447665135608049in"}
+![](images/image151.png){width="5.0in" height="2.447665135608049in"}
 
 Forking is used to take a copy of a GitHub repository and use it as the
 base for a new
@@ -4581,7 +4557,7 @@ file.
 
 Even if no legal requirement exists, it's good practice.
 
-![](media/image152.png){width="5.0in" height="2.447665135608049in"}
+![](images/image152.png){width="5.0in" height="2.447665135608049in"}
 
 Navigate to the repository that you want to fork.
 
@@ -4593,7 +4569,7 @@ To keep a fork in sync with the original work from a local clone.
 <img src="images/image153.png){width="5.0in" height="2.447665135608049in"}
                                                                         
      width="300" >
-![](media/image153.png){width="5.0in" height="2.447665135608049in"}
+![](images/image153.png){width="5.0in" height="2.447665135608049in"}
 
 First, create a local clone of the project.
 
@@ -4611,7 +4587,7 @@ labelled upstream.
 
 If you type "git remote --v", you'll see the change reflected.
 
-![](media/image154.png){width="5.0in" height="2.447665135608049in"}
+![](images/image154.png){width="5.0in" height="2.447665135608049in"}
 
 Other commands of interest include "git fetch upstream" to grab upstream
 branches and "git merge upstream/master" which merges changes into the
@@ -4633,7 +4609,7 @@ In this section (part 5), you learned:
 -   You can fork a repository to use it as the base for a new project,
     or to work on a project independently.
 
-## Module 5, Part VI: Managing GitHub Projects
+<h2>Module 5, Part VI: Managing GitHub Projects</h2>
 
 Welcome to Managing GitHub Projects
 
@@ -4647,7 +4623,7 @@ A Developer working as a participant in a group project needs to learn
 how to communicate with others and uses these commands in addition to
 the ones needed by a standalone developer.
 
-![](media/image155.png){width="5.0in" height="2.447665135608049in"}
+![](images/image155.png){width="5.0in" height="2.447665135608049in"}
 
 When working with Git, you can use Git commands or a desktop tool such
 as GitHub Desktop.
@@ -4669,7 +4645,7 @@ as GitHub Desktop.
 -   git-request-pull to create a summary of changes for your upstream to
     pull.
 
-![](media/image156.png){width="5.0in" height="2.447665135608049in"}
+![](images/image156.png){width="5.0in" height="2.447665135608049in"}
 
 An integrator in a group project receives changes made by others,
 reviews and integrates them (responds to pull requests) and publishes
@@ -4689,7 +4665,7 @@ participants.
 
 -   git-push to publish the bleeding edge.
 
-![](media/image157.png){width="5.0in" height="2.447665135608049in"}
+![](images/image157.png){width="5.0in" height="2.447665135608049in"}
 
 A Repository Administrator uses the following tools to set up and
 maintain access to the repository by developers.
@@ -4721,13 +4697,13 @@ In this section (part 6), you learned:
 
 Each role uses different git commands to communicate with collaborators.
 
-### HANDS-ON LAB: Working with Git on Theia
+<h3>HANDS-ON LAB: Working with Git on Theia</h3>
 
 [Note: In case the Start Lab button does not work, instructions to
 complete this lab are also available
 here.](https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBMDeveloperSkillsNetwork-CD0101EN-SkillsNetwork/labs/Theia%20Labs/04%20-%20GitHub/Lab%20Using%20git%20on%20Theia/instructions.md)
 
-## Hands-On Lab: Working with Git on Theia (External resource)
+<h2>Hands-On Lab: Working with Git on Theia (External resource)</h2>
 
 Clicking on the Start Lab button below will launch the cloud based SN
 labs virtual labs environment with instructions to complete this lab.
@@ -4736,7 +4712,7 @@ provision your lab environment.
 
 Start Lab 
 
-## Module 5, Part VII: Git Installation on Desktop
+<h2>Module 5, Part VII: Git Installation on Desktop</h2>
 
 Installing Git Bash
 
@@ -4749,7 +4725,7 @@ Installing Git Bash
 
 **Estimated time**: 20 minutes
 
-## What is Git Bash?
+<h2>What is Git Bash?</h2>
 
 Git Bash for Windows is simply a package that includes
 both *Git* and *Bash*.
@@ -4764,7 +4740,7 @@ Bash is a Unix command-line shell. The name is an acronym
 for *Bourne-Again Shell*. It comes with useful Unix commands like cat,
 ssh, SCP, etc., which are not usually found on Windows.
 
-## Installing Git Bash for Windows
+<h2>Installing Git Bash for Windows</h2>
 
 To install Git Bash for Windows to your local system, complete the
 following steps:
@@ -4948,11 +4924,11 @@ commands.
 &nbsp;
 </p>
 
-### © IBM Corporation 2020. All rights reserved.
+<h3>© IBM Corporation 2020. All rights reserved.</h3>
 
-## Module 5, Part VIII: SSH Key Creation
+<h2>Module 5, Part VIII: SSH Key Creation</h2>
 
-### Generate an SSH key
+<h3>Generate an SSH key</h3>
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="images/image158.png" 
@@ -4961,13 +4937,13 @@ commands.
 &nbsp;
 </p>
 
-### What is an SSH key?
+<h3>What is an SSH key?</h3>
 
 An SSH key is an access credential in the SSH protocol. Its function is
 similar to that of user names and passwords, but the keys are primarily
 used for automated processes.
 
-### Generating an SSH key
+<h3>Generating an SSH key</h3>
 
 To generate an SSH key, complete the following steps:
 
@@ -5018,11 +4994,11 @@ key.
 
 ### 
 
-### © IBM Corporation 2020. All rights reserved.
+<h3>© IBM Corporation 2020. All rights reserved.</h3>
 
-## Module 5, Part IX: Adding an SSH Key to GitHub
+<h2>Module 5, Part IX: Adding an SSH Key to GitHub</h2>
 
-### Lab: Adding an SSH key to GitHub
+<h3>Lab: Adding an SSH key to GitHub</h3>
 
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
@@ -5032,14 +5008,14 @@ key.
 &nbsp;
 </p>
 
-### Prerequisites
+<h3>Prerequisites</h3>
 
 This hands-on lab requires you to have already generated an SSH key. See
 the [Generating an SSH
 key](https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBMDeveloperSkillsNetwork-CD0101EN-SkillsNetwork/labs/GitHubLabs/SSH_Key.md.html) lab
 for instructions.
 
-### Steps
+<h3>Steps</h3>
 
 To add an SSH key to GitHub, you need to copy the SSH key that you
 generated in the previous lab. Open a terminal and then complete the
@@ -5099,15 +5075,15 @@ command line and the copy the output.
 
 6.  Click **Add SSH Key**. The SSH key is added to your account.
 
-### Summary
+<h3>Summary</h3>
 
 Congratulations! You have now learned how to add an SSH key to GitHub.
 
-### © IBM Corporation 2020. All rights reserved.
+<h3>© IBM Corporation 2020. All rights reserved.</h3>
 
-## Module 5, Part X: Using Git from Your Own Desktop
+<h2>Module 5, Part X: Using Git from Your Own Desktop</h2>
 
-### Hands-on Lab: Cloning, committing and pushing your GitHub repo from the command line.
+<h3>Hands-on Lab: Cloning, committing and pushing your GitHub repo from the command line.</h3>
 
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
@@ -5117,7 +5093,7 @@ Congratulations! You have now learned how to add an SSH key to GitHub.
 &nbsp;
 </p>
 
-### Objectives
+<h3>Objectives</h3>
 
 After completing this lab you will be able to:
 
@@ -5133,7 +5109,7 @@ After completing this lab you will be able to:
 
 -   Push the changes back to GitHub.
 
-### Pre-requisites
+<h3>Pre-requisites</h3>
 
 -   GitHub account, with a project in it, as illustrated in [this
     lab](https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBMDeveloperSkillsNetwork-CD0101EN-SkillsNetwork/labs/GitHubLabs/GitHub1_Getting_Started.md.html).
@@ -5147,7 +5123,7 @@ After completing this lab you will be able to:
 -   Add SSH Key to GitHub, as in [this
     lab](https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBMDeveloperSkillsNetwork-CD0101EN-SkillsNetwork/labs/GitHubLabs/GitHub_AddSSHtoRepo.md.html)
 
-## Exercise 1: Clone a repo
+<h2>Exercise 1: Clone a repo</h2>
 
 To clone a repo, you need the ssh url of the repo.
 
@@ -5160,7 +5136,7 @@ To clone a repo, you need the ssh url of the repo.
 4.  Click on the \'clipboard icon\' to copy the url. Paste this url
     where you can access it later.
 
-<!------------------------------------------------------------------------------------------------>
+<!--------------------------------------- copy/paste url ----------------------------------------->
 <p align="center">
 <img src="images/image181.png" 
 	alt="Copy/Paste URL"
@@ -5175,7 +5151,7 @@ To clone a repo, you need the ssh url of the repo.
 
 7.  Run the command \"git clone \"
 
-<!------------------------------------------------------------------------------------------------>
+<!----------------------------------------- git clone -------------------------------------------->
 <p align="center">
 <img src="images/image182.png" 
 	alt="clone .git file"
@@ -5187,8 +5163,7 @@ To clone a repo, you need the ssh url of the repo.
 
 9.  You can see all the downloaded files under a directory named as your
     repo name.
-
-<!------------------------------------------------------------------------------------------------>
+<!--------------------------------------- list directory ----------------------------------------->
 <p align="center">
 <img src="images/image183.png" 
 	alt="git clone"
@@ -5199,11 +5174,11 @@ To clone a repo, you need the ssh url of the repo.
 change to the simple_interest_calulator directory and list the files to
 verify all the files got downloaded
 
-## Exercise 2: Make changes to cloned files.
+<h2>Exercise 2: Make changes to cloned files</h2>
 
 Using your favorite editor make the changes to the html file.
 
-<!------------------------------------------------------------------------------------------------>
+<!--------------------------------------- edit html ---------------------------------------------->
 <p align="center">
 <img src="images/image184.png" 
 	alt="Edit the html"
@@ -5214,6 +5189,8 @@ Using your favorite editor make the changes to the html file.
 **git status** will show all the modified files.
 
 <!------------------------------------------------------------------------------------------------>
+<!----------------------------------------- git status ------------------------------------------->
+<!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="images/image185.png" 
 	alt="git status"
@@ -5221,7 +5198,7 @@ Using your favorite editor make the changes to the html file.
 &nbsp;
 </p>
 
-### Exercise 3: Add a new file to the local repo
+<h3>Exercise 3: Add a new file to the local repo</h3>
 
 Let us add a new file to the local repo.
 
@@ -5231,7 +5208,7 @@ Add \"Chrome, Firefox, Edge\" into the file.
 
 Save the file.
 
-### Exercise 4: Check the status
+<h3>Exercise 4: Check the status</h3>
 
 Run \"git status\" to see info on the modified files.
 
@@ -5239,7 +5216,7 @@ Let us add the file for committing.
 
 Run \"git add browser-support.txt\"
 
-### Exercise 5: Commit the changes
+<h3>Exercise 5: Commit the changes</h3>
 
 git commit will record all the changes into the local staging area.
 
@@ -5250,7 +5227,7 @@ git commit -m \'added a new file browser-support.txt\'
 
 Now all the changes you have made thus far, get committed locally.
 
-### Exercise 6: Push the changes to GitHub
+<h3>Exercise 6: Push the changes to GitHub</h3>
 
 After you have made all the changes and committed them, it is time to
 push the changes to the GitHub.
@@ -5260,6 +5237,8 @@ GitHub repository.
 
 Run the command \"git push\"
 
+<!------------------------------------------------------------------------------------------------>
+<!---------------------------------------- git push (162) ---------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="images/image186.png" 
@@ -5271,12 +5250,12 @@ Run the command \"git push\"
 Log into your GitHub account and verify if the local changes have
 synched.
 
-## Summary
+<h2>Summary</h2>
 
 In this lab, you have learned how to clone a GitHub repository, make
 changes to it, commit the changes locally, and push it back to GitHub.
 
-## Module 5, Summary
+<h2 id="ch5-3">Module 5, Summary</h2>
 
 In this module, you learned that:
 
@@ -5284,11 +5263,8 @@ In this module, you learned that:
     regardless of where it is stored.
 
 -   Repositories are storage structures that:
-
     -   Hold code
-
     -   Track issues
-
     -   Enable you to collaborate with others
 
 -   Branches are used to isolate changes to code. When the changes are
@@ -5301,11 +5277,8 @@ In this module, you learned that:
     or so that the developer can work independently.
 
 -   Large projects include people working in different roles:
-
     -   Developer -- creates code
-
     -   Integrator -- manages changes made by developers
-
     -   Repository Administrator -- configures and maintains access to
         the repository
 
