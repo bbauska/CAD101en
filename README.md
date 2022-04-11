@@ -1,7 +1,18 @@
+<h2 align="center">CAD101en - IBM Skills Network/h2>
+
+<!------------------------------------------------------------------------------------------------>
+<!------------------------------- readme.md in CAD101en.bauska.org ------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<!------------------------------------------- ibm logo ------------------------------------------->
+<p align="center" width="100%">
+<img src="/images/image001.png?raw=true"
+   alt="IBM logo"
+   width="40%">
+&nbsp;
 <!------------------------------------------------------------------------------------------------>
 <!----------------------------- readme.md in cad101en.bauska.org --------------------------------->
 <!------------------------------------------------------------------------------------------------>
-<h1>CAD101EN - Introduction to Cloud Development with HTML5, CSS3, & JavaScript (w/Github)</h1>
+<h2 align="center">CAD101EN - Introduction to Cloud Development with HTML5, CSS3, & JavaScript (w/Github)</h2>
 
 <h2>edX.org online course (CAD101EN) - 5 module course</h2>
 
