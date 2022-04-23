@@ -2214,8 +2214,14 @@ color code.
 
 The \< input type=\"date\" \> attribute is a date control (year, month,
 day) with no time zone.
-
-![](images/image046.png){width="5.0in" height="2.2741951006124235in"}
+<!------------------------------------------------------------------------------------------------>
+<!------------------------ 47.  (##) -------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center">
+<img src="images/image047.png"
+   alt=""
+   width="65%" />
+&nbsp;
 
 The example shows the input type=\"date\" field as it is seen in Google
 Chrome.
@@ -2225,13 +2231,27 @@ The input dialog varies from browser to browser.
 The datetime-local attribute provides input for a date and time (year,
 month, day, hour, minute, AM/PM) with no time zone.
 
-![](images/image047.png){width="5.0in" height="2.2741951006124235in"}
+<!------------------------------------------------------------------------------------------------>
+<!------------------------ 48.  (##) -------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center">
+<img src="images/image048.png"
+   alt=""
+   width="65%" />
+&nbsp;
 
 The datetime-local input field is displayed as a drop-down calendar in
 the Google Chrome browser. The time can be typed or entered using the
 spinner control.
 
-![](images/image048.png){width="5.0in" height="2.2741951006124235in"}
+<!------------------------------------------------------------------------------------------------>
+<!------------------------ 49.  (##) -------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center">
+<img src="images/image049.png"
+   alt=""
+   width="65%" />
+&nbsp;
 
 The \< input type=\"email\" \> attribute is displayed as a regular text
 input field.
@@ -2241,8 +2261,14 @@ It provides feedback when the input does not follow the email format.
 The \< input type=\"number\" \> takes a numeric value as input.
 
 You can optionally specify the minimum, maximum values, step size, etc.
-
-![](images/image049.png){width="5.0in" height="2.2741951006124235in"}
+<!------------------------------------------------------------------------------------------------>
+<!------------------------ 50.  (##) -------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center">
+<img src="images/image050.png"
+   alt=""
+   width="65%" />
+&nbsp;
 
 The example shows the number selector in the Chrome browser. Only the
 numbers between 5 and the 10 are available for selection.
@@ -2257,7 +2283,14 @@ available for selection.
 The range attribute displays a slider with the range of values between
 the minimum and maximum.
 
-![](images/image050.png){width="5.0in" height="2.2741951006124235in"}
+<!------------------------------------------------------------------------------------------------>
+<!------------------------ 51.  (##) -------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center">
+<img src="images/image051.png"
+   alt=""
+   width="65%" />
+&nbsp;
 
 Only the slider itself is shown. Additional JavaScript code is needed in
 order to display the value of the slider.
@@ -2273,7 +2306,14 @@ The search input field on the Safari browser has rounded corners.
 The input type=\"tel\" pattern=\"\[parameters\]\" attribute expects a
 telephone number as input.
 
-![](images/image051.png){width="5.0in" height="2.2741951006124235in"}
+<!------------------------------------------------------------------------------------------------>
+<!------------------------ 52.  (##) -------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center">
+<img src="images/image052.png"
+   alt=""
+   width="65%" />
+&nbsp;
 
 On its own, the \< input type=\"tel\" \> provides nothing more than a
 text entry field in the browsers.
@@ -2284,7 +2324,14 @@ include other characters, such as the plus sign and hyphens.
 You need to supply your own pattern matcher if you want the browser to
 validate the telephone number.
 
-![](images/image052.png){width="5.0in" height="2.2741951006124235in"}
+<!------------------------------------------------------------------------------------------------>
+<!------------------------ 53.  (##) -------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center">
+<img src="images/image053.png"
+   alt=""
+   width="65%" />
+&nbsp;
 
 The URL attribute is used to validate that the user typed in a properly
 formatted URL or web address.
@@ -2296,7 +2343,14 @@ auto-complete functionality.
 
 You can fill the list by nesting
 
-![](images/image053.png){width="5.0in" height="2.2741951006124235in"}
+<!------------------------------------------------------------------------------------------------>
+<!------------------------ 54.  (##) -------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center">
+<img src="images/image054.png"
+   alt=""
+   width="65%" />
+&nbsp;
 
 These options are the types of fruits listed in the drop-down list.
 
@@ -2306,12 +2360,26 @@ looks like.
 The placeholder fills the input text field with the example values in a
 lighter shade of text.
 
-![](images/image054.png){width="5.0in" height="2.2741951006124235in"}
+<!------------------------------------------------------------------------------------------------>
+<!------------------------ 55.  (##) -------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center">
+<img src="images/image055.png"
+   alt=""
+   width="65%" />
+&nbsp;
 
 The form does not submit the placeholder text value if the input text is
 not overwritten.
 
-![](images/image055.png){width="5.0in" height="2.2741951006124235in"}
+<!------------------------------------------------------------------------------------------------>
+<!------------------------ 56.  (##) -------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center">
+<img src="images/image056.png"
+   alt=""
+   width="65%" />
+&nbsp;
 
 The required attribute implies that some text must be typed.
 
@@ -2321,7 +2389,14 @@ placeholder text.
 What happens if browser-based validation is not supported for these
 input attributes?
 
-![](images/image056.png){width="5.0in" height="2.2741951006124235in"}
+<!------------------------------------------------------------------------------------------------>
+<!------------------------ 57.  (##) -------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center">
+<img src="images/image057.png"
+   alt=""
+   width="65%" />
+&nbsp;
 
 There are several options to performing validation in browsers that do
 not support all HTML5 input attributes.
@@ -2433,10 +2508,13 @@ After reading this section (part 1), you will be able to:
 -   Describe JavaScript primitives and objects.
 
 <!------------------------------------------------------------------------------------------------>
-<!---------------------------------------- git push (162) ---------------------------------------->
+<!------------------------ 58. git push (##) -------------------------->
 <!------------------------------------------------------------------------------------------------>
-
-![](images/image057.png){width="5.0in" height="2.46376968503937in"}
+<p align="center">
+<img src="images/image058.png"
+   alt=""
+   width="65%" />
+&nbsp;
 
 JavaScript is a scripting language that is derived from the ECMAScript
 standard and originally designed to run on the Netscape Navigator
@@ -2508,7 +2586,14 @@ types.
 The primitive types number, string, and boolean can be wrapped by their
 object counterparts.
 
-![](images/image058.png){width="5.0in" height="2.46376968503937in"}
+<!------------------------------------------------------------------------------------------------>
+<!------------------------ 59.  (##) -------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center">
+<img src="images/image059.png"
+   alt=""
+   width="65%" />
+&nbsp;
 
 Wrapper objects have the same name as the primitive type, except they
 start with an uppercase letter.
@@ -2520,7 +2605,14 @@ values.
 The wrapper objects use special methods such as the *valueOf* and
 *toString* methods to convert between objects and primitive literals.
 
-![](images/image059.png){width="5.0in" height="2.46376968503937in"}
+<!------------------------------------------------------------------------------------------------>
+<!------------------------ 60.  (##) -------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center">
+<img src="images/image060.png"
+   alt=""
+   width="65%" />
+&nbsp;
 
 The *typeof* keyword in JavaScript is used to find out the data type of
 the supplied operand.
@@ -2533,7 +2625,14 @@ The keyword new is used to create the String wrapper object.
 This object can be converted to a primitive string type by calling the
 valueOf function on the object wrapper class.
 
-![](images/image060.png){width="5.0in" height="2.46376968503937in"}
+<!------------------------------------------------------------------------------------------------>
+<!------------------------ 61.  (##) -------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center">
+<img src="images/image061.png"
+   alt=""
+   width="65%" />
+&nbsp;
 
 Arrays are specialized collection objects that aid the programmer in the
 storage and retrieval of data by indexed keys.
@@ -2546,7 +2645,14 @@ Arrays grow or shrink dynamically by adding or removing elements.
 The length property holds the number of elements that occur in the
 array.
 
-![](images/image061.png){width="5.0in" height="2.423510498687664in"}
+<!------------------------------------------------------------------------------------------------>
+<!------------------------ 62.  (##) -------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center">
+<img src="images/image062.png"
+   alt=""
+   width="65%" />
+&nbsp;
 
 Arrays can be declared by using either an array constructor or an array
 literal.
@@ -2560,7 +2666,14 @@ brackets.
 You then assign the array to a variable, as seen in the last example on
 the slide.
 
-![](images/image062.png){width="5.0in" height="2.423510498687664in"}
+<!------------------------------------------------------------------------------------------------>
+<!------------------------ 63.  (##) -------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center">
+<img src="images/image063.png"
+   alt=""
+   width="65%" />
+&nbsp;
 
 The Date object is a specialized object that is used to hold the date
 and time.
@@ -2578,7 +2691,14 @@ to the object.
 The result that is displayed is a string version of the date as shown on
 this slide.
 
-![](images/image063.png){width="5.0in" height="2.423510498687664in"}
+<!------------------------------------------------------------------------------------------------>
+<!------------------------ 64.  (##) -------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center">
+<img src="images/image064.png"
+   alt=""
+   width="65%" />
+&nbsp;
 
 You can also create new dates by passing parameters to the new Date
 function.
@@ -2589,7 +2709,14 @@ used for the date parameters when creating new date objects.
 As with other object-oriented languages, JavaScript creates error object
 instances when an exception occurs.
 
-![](images/image064.png){width="5.0in" height="2.423510498687664in"}
+<!------------------------------------------------------------------------------------------------>
+<!------------------------ 65.  (##) -------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center">
+<img src="images/image065.png"
+   alt=""
+   width="65%" />
+&nbsp;
 
 The error object instance includes two properties that contain
 information about the error:
@@ -2606,7 +2733,14 @@ JavaScript, three of which are shown on the slide.
 
 The other three are EvalError, ReferenceError, and SyntaxError.
 
-![](images/image065.png){width="5.0in" height="2.423510498687664in"}
+<!------------------------------------------------------------------------------------------------>
+<!------------------------ 66.  (##) -------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center">
+<img src="images/image066.png"
+   alt=""
+   width="65%" />
+&nbsp;
 
 The Error object can be extended to create custom error types.
 
@@ -2660,7 +2794,14 @@ After reading this section (part 2), you will be able to:
 Variables are declared with the var keyword followed by the variable
 name, as in the example, var age,
 
-![](images/image066.png){width="5.0in" height="2.423510498687664in"}
+<!------------------------------------------------------------------------------------------------>
+<!------------------------ 67.  (##) -------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center">
+<img src="images/image067.png"
+   alt=""
+   width="65%" />
+&nbsp;
 
 Variables can be declared and initialized in one step, as in the
 example, var age = 54,
@@ -2668,7 +2809,14 @@ example, var age = 54,
 You can assign a value to the variable at a later time, or reassign the
 value of a variable,
 
-![](images/image067.png){width="5.0in" height="2.850242782152231in"}
+<!------------------------------------------------------------------------------------------------>
+<!------------------------ 68.  (##) -------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center">
+<img src="images/image068.png"
+   alt=""
+   width="65%" />
+&nbsp;
 
 Since JavaScript is a loosely typed language, you do not need to declare
 the data type of a variable. The variable assumes the data type from the
@@ -2713,7 +2861,14 @@ You learn about functions shortly.
 Conditional statements are the set of commands that are used to perform
 different actions for different conditions:
 
-![](images/image068.png){width="5.0in" height="2.8502416885389326in"}
+<!------------------------------------------------------------------------------------------------>
+<!------------------------ 69.  (##) -------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center">
+<img src="images/image069.png"
+   alt=""
+   width="65%" />
+&nbsp;
 
 In JavaScript, the IF statement is the way the program logic decides
 which path to take based on the current values of variables or object
@@ -2743,7 +2898,14 @@ Unlike Java, there is no block statement scope in JavaScript.
 Having no block statement scope means that variables declared inside one
 IF condition can be used outside the scope of that condition.
 
-![](images/image069.png){width="5.0in" height="2.544283683289589in"}
+<!------------------------------------------------------------------------------------------------>
+<!------------------------ 70.  (##) -------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center">
+<img src="images/image070.png"
+   alt=""
+   width="65%" />
+&nbsp;
 
 JavaScript supports the switch statement as an alternative to the IF
 then ELSE control statements.
@@ -2768,7 +2930,14 @@ the associated statements.
 The break keyword is used to prevent the code from automatically falling
 into the next case clause.
 
-![](images/image070.png){width="5.0in" height="2.5845417760279963in"}
+<!------------------------------------------------------------------------------------------------>
+<!------------------------ 71.  (##) -------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center">
+<img src="images/image071.png"
+   alt=""
+   width="65%" />
+&nbsp;
 
 The FOR loop repeats a series of statements for any number of times.
 
@@ -2789,7 +2958,14 @@ If the condition evaluates to false, the FOR loop terminates.
 If the loop does not terminate, control returns to the second step and
 the conditional expression is evaluated again.
 
-![](images/image071.png){width="5.0in" height="1.7069258530183726in"}
+<!------------------------------------------------------------------------------------------------>
+<!------------------------ 72.  (##) -------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center">
+<img src="images/image072.png"
+   alt=""
+   width="65%" />
+&nbsp;
 
 The WHILE loop is another common loop in JavaScript,
 
@@ -2857,7 +3033,14 @@ A function is made up of the following parts:
 The last statement in a function block is the optional return statement
 that returns control back to whatever called the function.
 
-![](images/image072.png){width="5.0in" height="2.568436132983377in"}
+<!------------------------------------------------------------------------------------------------>
+<!------------------------ 73.  (##) -------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center">
+<img src="images/image073.png"
+   alt=""
+   width="65%" />
+&nbsp;
 
 This example is a function that is named add.
 
@@ -2882,7 +3065,14 @@ If the values can be interpreted as numbers, they are added.
 
 If they can be interpreted as strings, they are concatenated.
 
-![](images/image073.png){width="5.0in" height="2.423510498687664in"}
+<!------------------------------------------------------------------------------------------------>
+<!------------------------ 74.  (##) -------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center">
+<img src="images/image074.png"
+   alt=""
+   width="65%" />
+&nbsp;
 
 This is an example of declaring a function named Car that accepts three
 arguments as parameters.
@@ -2899,12 +3089,26 @@ Car that is associated with the variable named c.
 The getName function of Car returns the make, model, and year of the
 newly created Car object.
 
-![](images/image074.png){width="5.0in" height="2.4718186789151355in"}
+<!------------------------------------------------------------------------------------------------>
+<!------------------------ 75.  (##) -------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center">
+<img src="images/image075.png"
+   alt=""
+   width="65%" />
+&nbsp;
 
 By using prototypes, you can easily define properties and methods for
 all instances of a particular object.
 
-![](images/image075.png){width="5.0in" height="2.4718186789151355in"}
+<!------------------------------------------------------------------------------------------------>
+<!------------------------ 76.  (##) -------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center">
+<img src="images/image076.png"
+   alt=""
+   width="65%" />
+&nbsp;
 
 Prototypes exist for all JavaScript objects that can be created with the
 new keyword.
@@ -2912,7 +3116,14 @@ new keyword.
 All object constructors create objects that inherit the properties and
 methods that are defined by the prototype for that object.
 
-![](images/image076.png){width="5.0in" height="2.4718186789151355in"}
+<!------------------------------------------------------------------------------------------------>
+<!------------------------ 77.  (##) -------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center">
+<img src="images/image077.png"
+   alt=""
+   width="65%" />
+&nbsp;
 
 Any object that gets instantiated inherits the current state of the
 prototype.
@@ -2933,7 +3144,14 @@ Any Car object that you create, or any car object that is already
 created, automatically inherits the new floor_model property and its
 value.
 
-![](images/image077.png){width="5.0in" height="2.4718186789151355in"}
+<!------------------------------------------------------------------------------------------------>
+<!------------------------ 78.  (##) -------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center">
+<img src="images/image078.png"
+   alt=""
+   width="65%" />
+&nbsp;
 
 Here is another example that uses a prototype to change Car instances.
 
@@ -2946,7 +3164,14 @@ function that returns the make, model, and year.
 All existing instances of the Car object also inherit the getName
 method.
 
-![](images/image078.png){width="5.0in" height="2.4718186789151355in"}
+<!------------------------------------------------------------------------------------------------>
+<!------------------------ 79.  (##) -------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center">
+<img src="images/image079.png"
+   alt=""
+   width="65%" />
+&nbsp;
 
 Functions are usually declared first, and not run until you specifically
 ask them to, as you saw in some of the previous examples.
@@ -3011,9 +3236,23 @@ A function is made up of the following parts:
 -   The last statement in a function block is the optional return
     statement that returns control back to whatever called the function.
 
-![](images/image079.png){width="5.0in" height="2.624799868766404in"}
+<!------------------------------------------------------------------------------------------------>
+<!------------------------ 80.  (##) -------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center">
+<img src="images/image080.png"
+   alt=""
+   width="65%" />
+&nbsp;
 
-![](images/image080.png){width="5.0in" height="2.479870953630796in"}
+<!------------------------------------------------------------------------------------------------>
+<!------------------------ 81.  (##) -------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center">
+<img src="images/image081.png"
+   alt=""
+   width="65%" />
+&nbsp;
 
 This example is a function that is named add.
 
@@ -3058,7 +3297,14 @@ newly created Car object.
 By using prototypes, you can easily define properties and methods for
 all instances of a particular object.
 
-![](images/image081.png){width="5.0in" height="2.479870953630796in"}
+<!------------------------------------------------------------------------------------------------>
+<!------------------------ 82.  (##) -------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center">
+<img src="images/image082.png"
+   alt=""
+   width="65%" />
+&nbsp;
 
 Prototypes exist for all JavaScript objects that can be created with the
 new keyword.
@@ -3085,7 +3331,14 @@ Any Car object that you create, or any car object that is already
 created, automatically inherits the new floor_model property and its
 value.
 
-![](images/image082.png){width="5.0in" height="2.479870953630796in"}
+<!------------------------------------------------------------------------------------------------>
+<!------------------------ 83.  (##) -------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center">
+<img src="images/image083.png"
+   alt=""
+   width="65%" />
+&nbsp;
 
 Here is another example that uses a prototype to change Car instances.
 
@@ -3098,7 +3351,14 @@ function that returns the make, model, and year.
 All existing instances of the Car object also inherit the getName
 method.
 
-![](images/image083.png){width="5.0in" height="2.479870953630796in"}
+<!------------------------------------------------------------------------------------------------>
+<!------------------------ 84.  (##) -------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center">
+<img src="images/image084.png"
+   alt=""
+   width="65%" />
+&nbsp;
 
 Functions are usually declared first, and not run until you specifically
 ask them to, as you saw in some of the previous examples.
@@ -3155,7 +3415,14 @@ After reading this section (part 5), you will be able to:
 A client-side script is a program that accompanies an HTML document or
 might be embedded directly in the HTML document itself.
 
-![](images/image084.png){width="5.0in" height="2.2946872265966753in"}
+<!------------------------------------------------------------------------------------------------>
+<!------------------------ 85.  (##) -------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center">
+<img src="images/image085.png"
+   alt=""
+   width="65%" />
+&nbsp;
 
 The script program runs on the client device when the document loads, or
 at some other time such as when a link is activated or when a button is
@@ -3178,7 +3445,14 @@ clicking of a button.
 Scripts can be used to dynamically create document elements on an HTML
 page.
 
-![](images/image085.png){width="5.0in" height="2.2946872265966753in"}
+<!------------------------------------------------------------------------------------------------>
+<!------------------------ 86.  (##) -------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center">
+<img src="images/image086.png"
+   alt=""
+   width="65%" />
+&nbsp;
 
 This slide shows two ways in which the document.
 
@@ -3188,7 +3462,14 @@ HTML document.
 This method is good for short scripts, but when a script is long, the
 method used in example 2 is preferred.
 
-![](images/image086.png){width="5.0in" height="2.2946872265966753in"}
+<!------------------------------------------------------------------------------------------------>
+<!------------------------ 87.  (##) -------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center">
+<img src="images/image087.png"
+   alt=""
+   width="65%" />
+&nbsp;
 
 Example 2 uses the src attribute to point to an external script file.
 
@@ -3199,7 +3480,14 @@ several HTML documents.
 Some users who visit your website might disable JavaScript from running,
 or they might be using a browser that does not support scripting.
 
-![](images/image087.png){width="5.0in" height="2.2946872265966753in"}
+<!------------------------------------------------------------------------------------------------>
+<!------------------------ 88.  (##) -------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center">
+<img src="images/image088.png"
+   alt=""
+   width="65%" />
+&nbsp;
 
 To allow for these situations, place the content for the alternative
 path within the tag.
@@ -3210,7 +3498,14 @@ of code that is within the noscript tag.
 Scripts can be run on the detection of certain events that happen when
 the page is running in a browser session.
 
-![](images/image088.png){width="5.0in" height="2.479870953630796in"}
+<!------------------------------------------------------------------------------------------------>
+<!------------------------ 89.  (##) -------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center">
+<img src="images/image089.png"
+   alt=""
+   width="65%" />
+&nbsp;
 
 For example, the onload event can run a script when the browser finishes
 loading a page.
@@ -3223,7 +3518,14 @@ such as a button, that declares a handler for the event.
 The event handler is a function that declares what to do when the button
 is clicked.
 
-![](images/image089.png){width="5.0in" height="2.479870953630796in"}
+<!------------------------------------------------------------------------------------------------>
+<!------------------------ 90.  (##) -------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center">
+<img src="images/image090.png"
+   alt=""
+   width="65%" />
+&nbsp;
 
 Here the inline event handler named showAnswers runs when the button is
 clicked.
@@ -3262,7 +3564,14 @@ After reading this section (part 6), you will be able to:
 -   Identify the DOM objects that are commonly used in JavaScript
     applications for working with HTML documents.
 
-![](images/image090.png){width="5.0in" height="2.4396128608923884in"}
+<!------------------------------------------------------------------------------------------------>
+<!------------------------ 91.  (##) -------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center">
+<img src="images/image091.png"
+   alt=""
+   width="65%" />
+&nbsp;
 
 The document object model is the programming interface between HTML or
 XHTML and JavaScript.
@@ -3274,7 +3583,14 @@ structure, and style of documents.
 JavaScript uses the DOM to access and modify web page elements in the
 web browser.
 
-![](images/image091.png){width="5.0in" height="2.4396128608923884in"}
+<!------------------------------------------------------------------------------------------------>
+<!------------------------ 92.  (##) -------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center">
+<img src="images/image092.png"
+   alt=""
+   width="65%" />
+&nbsp;
 
 The World Wide Web Consortium released four levels of the Document
 Object Model specifications.
@@ -3282,7 +3598,14 @@ Object Model specifications.
 Each successive level provides a more detailed set of features for
 describing structured documents.
 
-![](images/image092.png){width="5.0in" height="2.4396128608923884in"}
+<!------------------------------------------------------------------------------------------------>
+<!------------------------ 93.  (##) -------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center">
+<img src="images/image093.png"
+   alt=""
+   width="65%" />
+&nbsp;
 
 The different browsers have various levels of compatibility with the DOM
 standard.
@@ -3294,7 +3617,14 @@ APIs to access HTML elements with the DOM.
 
 The JavaScript engine in most web browsers fully supports DOM level 1.
 
-![](images/image092.png){width="5.0in" height="2.4396128608923884in"}
+<!------------------------------------------------------------------------------------------------>
+<!------------------------ 94.  (##) -------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center">
+<img src="images/image094.png"
+   alt=""
+   width="65%" />
+&nbsp;
 
 Here is a representation of the basic DOM model for browsers:
 
@@ -5420,7 +5750,7 @@ In this module, you learned that:
     -   Repository Administrator -- configures and maintains access to
         the repository
 
-<p><b><i>Last edited 04/23/2022 1:33pm</i></b></p>
+<p><b><i>Last edited 04/23/2022 3:19pm</i></b></p>
 
 ...the end.
 
