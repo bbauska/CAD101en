@@ -3,21 +3,22 @@
 <!------------------------------------------------------------------------------------------------>
 <!------------------------------- readme.md in CAD101en.bauska.org ------------------------------->
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------------------- ibm logo ------------------------------------------->
+<!----------------------------------------- 01. ibm logo ----------------------------------------->
+<!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image001.png?raw=true"
    alt="IBM logo"
-   width="40%">
+   width="40%" />
 &nbsp;
 <!------------------------------------------------------------------------------------------------>
-<!----------------------------- readme.md in cad101en.bauska.org --------------------------------->
-<!------------------------------------------------------------------------------------------------>
 <h2 align="center">Introduction to Cloud Development with HTML5, CSS3, & JavaScript (w/Github)</h2>
-<!------------------------------------------- cloud logo ------------------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<!---------------------------------------- 02. cloud logo ---------------------------------------->
+<!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image002.png?raw=true"
    alt="Cloud logo"
-   width="40%">
+   width="40%" />
 &nbsp;
 
 <h3>edX.org online course (CAD101EN) - 5 module course</h3>
@@ -128,12 +129,12 @@ After completing this course, you will be able to:
 Github}** (CAD101EN)
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------- course intro: cloud development -------------------------------->
+<!----------------------------- 03. course intro: cloud development ------------------------------>
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="images/image003.png" 
 	alt="IBM Cloud Development - the Skills Network"
-	width="85%">
+	width="65%">
 &nbsp;
 </p>
 
@@ -141,147 +142,13 @@ Github}** (CAD101EN)
 
 <h3>Welcome to Introduction to Cloud Development with HTML5, CSS3, and JavaScript</h3>
 
-<h3>General Information</h3>
-
-<h3>Module 1 - Introduction to Programming for the Cloud</h3>
-
-1.  **Module Introduction and Objectives**
-
-2.  **Overview of Web and Cloud Development (4:32)**
-	
-3.  **Learning Front-End Development (6:09)**
-
-4.  **Introducing Application Development Tools (5:51)**
-
-5.  **More Application Development Tools (5:10)**
-
-6.  **The Importance of Back-End Development (6:29)**
-
-7.  **Lab: Demo of Web Development**
-
-8.  **Module Summary**
-
-<h3>Module 2 - HTML5 and CSS Overview</h3>
-
-1.  **Module Introduction and Objectives**
-
-2.  **Introduction to HTML (4:12)**
-
-3.  **HTML Features (6:02)**
-
-4.  **Lab: Intro to HTML (JSFiddle)**
-
-5.  **HTML Management and Support (3:58)**
-
-6.  **HTML Scripting (4:41)**
-
-7.  **HTML5 Browser Support (4:24)**
-
-8.  **Lab: HTML - Creating a Simple Web Page**
-
-9.  **CSS: Styling HTML (7:27)**
-
-10. **Lab: CSS Basics - Styling Your Web Page**
-
-11. **Module Summary**
-
-<h3>Module 3 - HTML5 Elements</h3>
-
-1.  **Module Introduction and Objectives**
-
-2.  **HTML5 Tags and Structural Elements (4:29)**
-
-3.  **HTML5 Input Element: Attributes for the Input Tag (4:53)**
-
-4.  **Lab: HTML5**
-
-5.  **Module Summary**
-
-### 
-
-<h3>Module 4 - JavaScript Programming for Web Applications</h3>
-
-1.  **Module Introduction and Objectives**
-
-2.  **JavaScript Language: Overview and Syntax (7:41)**
-
-3.  **JavaScript: Variables and Control Statements (6:36)**
-
-4.  **JavaScript: Functions and Prototypes (5:25)**
-
-5.  **Client-Side JavaScript: with HTML (3:54)**
-
-6.  **Client-Side JavaScript: with DOM (6:11)**
-
-7.  **JavaScript DOM Objects (4:34)**
-
-8.  **JavaScript APIs (9:10)**
-
-9.  **Hands-On Lab: JavaScript**
-
-<h3>Module 5 - GitHub</h3>
-
-1.  **Module Introduction and Objectives**
-
-2.  **Overview of Git/GitHub (4:27)**
-
-3.  **Introduction to GitHub (4:55)**
-
-4.  **GitHub Repositories (4:00)**
-
-5.  **Hands-On Lab: GitHub Sign Up & Create Repo**
-
-6.  **GitHub Branches (5:08)**
-
-7.  **Hands-On Lab: Branching and Merging (Web UI)**
-
-8.  **Cloning and Forking GitHub Projects (6:00)**
-
-9.  **Managing GitHub Projects (3:09)**
-
-10. **Hands-On Lab: Working with Git on Theia**
-
-11. **Hands-On Lab: Git Installation on Desktop (Optional)**
-
-12. **Hands-On Lab: SSH Key Creation (Optional)**
-
-13. **Hands-On Lab: Add SSH to Repo (Optional)**
-
-14. **Hands-On Lab: Using Git from Your Own Desktop (Optional)**
-
-**\
-**
-
-<h4><b>Learning Objectives and Syllabus</b></h4>
-
-<h2>Learning Objectives</h2>
-
-After completing this course, you will be able to:
-
--   Explain the roles of Front-end, back-end, and full stack developers
-    in developing Cloud Applications.
-
--   Describe the common languages, libraries, frameworks, and other
-    tools that developers use.
-
--   Demonstrate basic programming techniques in HTML5.
-
--   Enhance the appearance of a website by using CSS.
-
--   Describe the HTML5 input element and its attributes.
-
--   Use JavaScript to enhance the interactivity of a Cloud Application
-    or website.
-
--   Manage your projects in GitHub.
-
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------- course intro: cloud courses - 4 -------------------------------->
+<!----------------------------- 04. course intro: cloud courses (4) ------------------------------>
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 	<img src="images/image004.png" 
 	alt="Cloud Courses from IBM"
-	width="85%">
+	width="65%" />
 &nbsp;
 </p>
 
@@ -326,12 +193,12 @@ After completing this module, you will be able to:
 -   Identify the tools that developers use to develop Cloud Apps.
 
 <!------------------------------------------------------------------------------------------------>
-<!---------------------------- overview of web and cloud development ----------------------------->
+<!-------------------------- 06. overview of web and cloud development --------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="images/image006.png" 
 	alt="Overview of Cloud and Web Development by IBM - Skills Network"
-	width="85%">
+	width="65%" />
 &nbsp;
 
 <h3>Module 1, Part I: Overview of Web and Cloud Development</h3>
@@ -603,7 +470,7 @@ changes were made, thereby creating a new version of the source code,
 becomes overridingly important.
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------------ version control (12) -------------------------------------->
+<!---------------------------------- 06. version control (12) ------------------------------------>
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="images/image006.png"
@@ -633,7 +500,9 @@ into different branches for more focused development, and then merge
 them back into the main body of code.
 
 <p align="center">
-<img src="images/image007.png" width="500">
+<img src="images/image007.png" 
+   alt=""
+   width="65%" />
 &nbsp;
 
 Libraries are collections of code, like standard programs and
@@ -664,7 +533,9 @@ Either way, there are lots for you to choose from, so do your research.
 Here are some examples of code libraries:
 
 <p align="center">
-<img src="images/image008.png" width="200">
+<img src="images/image008.png"
+   alt="Libraries: What they are"
+   width="20%" />
 &nbsp;
 
 -   jQuery is a JavaScript library that simplifies Dom manipulation.
@@ -4780,7 +4651,7 @@ following steps:
 <p align="center">
 <img src="images/image160.png" 
 	alt=" "
-	width="60%">
+	width="65%">
 &nbsp;
 
 You will be redirected to a new page and the download will start.
@@ -4789,7 +4660,7 @@ You will be redirected to a new page and the download will start.
 <p align="center">
 <img src="images/image161.png" 
 	alt=" "
-	width="60%">
+	width="65%">
 &nbsp;
 
 **Note**: If the download doesn\'t start, click **Click here to download
@@ -4811,7 +4682,7 @@ manually**.
 <p align="center">
 <img src="images/image163.png" 
 	alt=" "
-	width="60%">
+	width="65%">
 &nbsp;
 
 4.  Select the location where you want to install Git Bash. 
@@ -4823,7 +4694,7 @@ location. Click **Next**.
 <p align="center">
 <img src="images/image164.png" 
 	alt=" "
-	width="60%">
+	width="65%">
 &nbsp;
 
 5.  Choose the components you want to install, or simply leave the
@@ -4833,7 +4704,7 @@ location. Click **Next**.
 <p align="center">
 <img src="images/image165.png" 
 	alt=" "
-	width="60%">
+	width="65%">
 &nbsp;
 
 6.  You can change the name of the start menu folder or simply leave the
@@ -4843,7 +4714,7 @@ location. Click **Next**.
 <p align="center">
 <img src="images/image166.png" 
 	alt=" "
-	width="60%">
+	width="65%">
 &nbsp;
 
 7.  Select the default editor for Git to use. Click **Next**.
@@ -4852,7 +4723,7 @@ location. Click **Next**.
 <p align="center">
 <img src="images/image167.png" 
 	alt=" "
-	width="60%">
+	width="65%">
 &nbsp;
 
 8.  Choose how you want to use Git from the command line.
@@ -4862,7 +4733,7 @@ location. Click **Next**.
 <p align="center">
 <img src="images/image168.png" 
 	alt=" "
-	width="60%">
+	width="65%">
 &nbsp;
 
 9.  Select **Use the OpenSSL library**. Click **Next**.
@@ -4871,7 +4742,7 @@ location. Click **Next**.
 <p align="center">
 <img src="images/image169.png" 
 	alt=" "
-	width="60%">
+	width="65%">
 &nbsp;
 
 10. Configure your line ending conversions for Windows by selecting the
@@ -4882,7 +4753,7 @@ location. Click **Next**.
 <p align="center">
 <img src="images/image170.png" 
 	alt=" "
-	width="60%">
+	width="65%">
 &nbsp;
 
 11. Configure your terminal emulator to use with Git Bash by selecting
@@ -4893,7 +4764,7 @@ location. Click **Next**.
 <p align="center">
 <img src="images/image171.png" 
 	alt=" "
-	width="60%">
+	width="65%">
 &nbsp;
 
 12. Configure the default behavior for a git pull by selecting **Default
@@ -4903,7 +4774,7 @@ location. Click **Next**.
 <p align="center">
 <img src="images/image172.png" 
 	alt=" "
-	width="60%">
+	width="65%">
 &nbsp;
 
 13. Select any additional options you want to install. (The default
@@ -4913,7 +4784,7 @@ location. Click **Next**.
 <p align="center">
 <img src="images/image173.png" 
 	alt=" "
-	width="60%">
+	width="65%">
 &nbsp;
 
 14. You can enable experimental options if you choose to. By enabling
@@ -4927,7 +4798,7 @@ location. Click **Next**.
 <p align="center">
 <img src="images/image174.png" 
 	alt=" "
-	width="60%">
+	width="65%">
 &nbsp;
 
 15. Leave the checkboxes selected and click **Next**.
@@ -4936,7 +4807,7 @@ location. Click **Next**.
 <p align="center">
 <img src="images/image175.png" 
 	alt=" "
-	width="60%">
+	width="65%">
 &nbsp;
 
 The Git Bash terminal opens. You are now able to enter Git and Bash
@@ -4946,7 +4817,7 @@ commands.
 <p align="center">
 <img src="images/image176.png" 
 	alt="Git Bash Terminal"
-	width="60%">
+	width="65%">
 &nbsp;
 </p>
 
@@ -5095,7 +4966,7 @@ command line and the copy the output.
 <p align="center">
 <img src="images/image180.png" 
 	alt="SSH key/Add New"
-	width="85%">
+	width="65%">
 &nbsp;
 </p>
 
@@ -5166,7 +5037,7 @@ To clone a repo, you need the ssh url of the repo.
 <p align="center">
 <img src="images/image181.png" 
 	alt="Copy/Paste URL"
-	width="60%">
+	width="65%">
 &nbsp;
 </p>
 
@@ -5181,7 +5052,7 @@ To clone a repo, you need the ssh url of the repo.
 <p align="center">
 <img src="images/image182.png" 
 	alt="clone .git file"
-	width="60%">
+	width="65%">
 &nbsp;
 </p>
 
@@ -5193,7 +5064,7 @@ To clone a repo, you need the ssh url of the repo.
 <p align="center">
 <img src="images/image183.png" 
 	alt="git clone"
-	width="60%">
+	width="65%">
 &nbsp;
 </p>
 
@@ -5208,19 +5079,19 @@ Using your favorite editor make the changes to the html file.
 <p align="center">
 <img src="images/image184.png" 
 	alt="Edit the html"
-	width="60%">
+	width="65%">
 &nbsp;
 </p>
 
 **git status** will show all the modified files.
 
 <!------------------------------------------------------------------------------------------------>
-<!----------------------------------------- git status ------------------------------------------->
+<!-------------------------------------- 185. git status ----------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="images/image185.png" 
 	alt="git status"
-	width="60%">
+	width="65%">
 &nbsp;
 </p>
 
@@ -5264,12 +5135,12 @@ GitHub repository.
 Run the command \"git push\"
 
 <!------------------------------------------------------------------------------------------------>
-<!---------------------------------------- git push (162) ---------------------------------------->
+<!------------------------------------- 186. git push (162) -------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="images/image186.png" 
 	alt="git push"
-	width="60%">
+	width="65%" />
 &nbsp;
 </p>
 
@@ -5281,7 +5152,7 @@ synched.
 In this lab, you have learned how to clone a GitHub repository, make
 changes to it, commit the changes locally, and push it back to GitHub.
 
-<h2 id="ch5-3">Module 5, Summary</h2>
+<h2 id="ch5-3">Module 5 Summary</h2>
 
 In this module, you learned that:
 
@@ -5308,5 +5179,6 @@ In this module, you learned that:
     -   Repository Administrator -- configures and maintains access to
         the repository
 
-...the end.
+<p><b><i>Last edited 04/22/2022 5:59pm</i></b></p>
 
+...the end.
