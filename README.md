@@ -1093,8 +1093,13 @@ So, what are some HTML5 features?
 By using HTML5, developers can create a modern application experience
 that is uniform across platforms and devices.
 
+<!------------------------------------------------------------------------------------------------>
+<!----------------------------------- 13. html dom tree (26) ------------------------------------->
+<!------------------------------------------------------------------------------------------------>
 <p align="center">
-<img src="images/image012.png" width="600">
+<img src="images/image013.png"
+   alt="HTML DOM Tree"
+   width="65%" />
 &nbsp;
 
 Here is an example of a document that conforms to the syntax of HTML5.
@@ -1147,8 +1152,13 @@ webpage.
 HTML user agents, commonly known as browsers, parse the markup, turning
 it into a DOM (Document Object Model) tree.
 
+<!------------------------------------------------------------------------------------------------>
+<!--------------- 14. dom tree - an in-memory representation of a document (28) ------------------>
+<!------------------------------------------------------------------------------------------------>
 <p align="center">
-<img src="images/image013.png" width="500">
+<img src="images/image014.png"
+   alt="DOM Tree - an in-memory representation of a document"
+   width="65%" />
 &nbsp;
 
 A DOM tree is an in-memory representation of a document.
@@ -1159,7 +1169,14 @@ elements such as headers and paragraphs, text nodes, and comment nodes.
 Here is an example of a document that conforms to the XML syntax of
 HTML5.
 
-![](images/image14.png){width="5.0in" height="3.0569313210848645in"}
+<!------------------------------------------------------------------------------------------------>
+<!--------------- 15. xml example - an in-memory representation of a document (28) ------------------>
+<!------------------------------------------------------------------------------------------------>
+<p align="center">
+<img src="images/image015.png"
+   alt="XML Example Document"
+   width="65%" />
+&nbsp;
 
 Extensible Markup Language (XML) documents look similar to HTML
 documents, except they have an XML tag on the first line.
@@ -1228,11 +1245,25 @@ After reading this section (part 3), you will be able to:
 
 -   Describe browser support for HTML5 features.
 
-![](images/image015.png){width="5.0in" height="2.0673075240594927in"}
+<!------------------------------------------------------------------------------------------------>
+<!---------------------------------- 16. html5 objectives (30) ----------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center">
+<img src="images/image016.png"
+   alt="Objectives"
+   width="65%" />
+&nbsp;
 
 Let's examine some of the key themes of the HTML5 specification.
 
-![](images/image016.png){width="5.0in" height="2.3730293088363954in"}
+<!------------------------------------------------------------------------------------------------>
+<!---------------------------------- 17. key themes html5 (31) ----------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center">
+<img src="images/image017.png"
+   alt="Key Themes of HTML5"
+   width="65%" />
+&nbsp;
 
 The syntax it defines is compatible with HTML4 and XHTML1 documents.
 
@@ -1249,7 +1280,14 @@ attributes of the earlier specifications.
 For authors, several elements and attributes have been removed in order
 to simplify the language.
 
-![](images/image017.png){width="5.0in" height="2.8016404199475065in"}
+<!------------------------------------------------------------------------------------------------>
+<!------------------------------ 18. html5 for web applications (32) ----------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center">
+<img src="images/image018.png"
+   alt="HTML5 for Web Applications"
+   width="65%" />
+&nbsp;
 
 HTML5 includes some elements and application programming interfaces that
 help in the creation of web applications.
@@ -1323,7 +1361,14 @@ Hello and welcome to HTML Scripting.
 After reading this section (part 4), you will be able to describe how
 scripting is enabled in browsers.
 
-![](images/image018.png){width="5.0in" height="2.4601749781277342in"}
+<!------------------------------------------------------------------------------------------------>
+<!------------------------------ 19.  (34) ----------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center">
+<img src="images/image019.png"
+   alt="Scripting"
+   width="65%" />
+&nbsp;
 
 Scripting is enabled for a browser context, when the conditions shown on
 the slide are true.
@@ -1355,7 +1400,14 @@ sandbox attribute on any tag that contains an embedded object.
 Each HTML document that is loaded into a browser page becomes a Document
 object.
 
-![](images/image019.png){width="5.0in" height="2.6465168416447944in"}
+<!------------------------------------------------------------------------------------------------>
+<!------------------------- 20. html document api: dom tree accessors (35) ----------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center">
+<img src="images/image020.png"
+   alt="HTML Document API - DOM Tree Accessors"
+   width="65%" />
+&nbsp;
 
 The Document object provides access to all HTML elements in a page and
 can be accessed from within a script.
@@ -1376,7 +1428,14 @@ script elements in the document.
 
 Here are some common HTML DOM tree methods:
 
-![](images/image020.png){width="5.0in" height="2.4525087489063866in"}
+<!------------------------------------------------------------------------------------------------>
+<!------------------------ 21. html document api: dom tree methods (36) -------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center">
+<img src="images/image021.png"
+   alt="HTML Document API - DOM Tree Accessors"
+   width="65%" />
+&nbsp;
 
 The **document.getElementById ('id')** function has one required
 parameter which is the id of the element you want to access.
@@ -1392,8 +1451,14 @@ matches the required parameter.
 
 This is a fragment of HTML with JavaScript code that uses the document
 API.
-
-![](images/image021.png){width="5.0in" height="2.5047397200349955in"}
+<!------------------------------------------------------------------------------------------------>
+<!------------------------ 22. example script with the document api (37) ------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center">
+<img src="images/image022.png"
+   alt="Example Script with the Document API"
+   width="65%" />
+&nbsp;
 
 When Submit is clicked inside the page that is running in a web browser,
 the *textChecker* function begins.
@@ -1410,7 +1475,14 @@ A similar function will be used later in Exercise 1.
 Here is the output from running the code on the previous page that uses
 the document API.
 
-![](images/image022.png){width="5.0in" height="2.131433727034121in"}
+<!------------------------------------------------------------------------------------------------>
+<!----------------------- 23. output from running the example script (38) ------------------------>
+<!------------------------------------------------------------------------------------------------>
+<p align="center">
+<img src="images/image023.png"
+   alt="Output from Running the Example Script"
+   width="65%" />
+&nbsp;
 
 The user types "Test" in the input field and clicks Submit. The result
 is seen in an alert dialog box on the same page.
@@ -1439,7 +1511,14 @@ After reading this section (part 5), you will be able to:
 
 -   Describe browser support for HTML5 features.
 
-![](images/image023.png){width="5.0in" height="1.6078040244969378in"}
+<!------------------------------------------------------------------------------------------------>
+<!------------------------ 24.  (##) -------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center">
+<img src="images/image024.png"
+   alt=""
+   width="65%" />
+&nbsp;
 
 Not all browsers fully support all the features that are described in
 the HTML5 and CSS3 specifications.
@@ -1458,7 +1537,14 @@ can be a useful tool when developing web pages.
 For example, caniuse.com has great support tables for HTML5, CSS3, and
 more.
 
-![](images/image024.png){width="5.0in" height="2.3958333333333335in"}
+<!------------------------------------------------------------------------------------------------>
+<!------------------------ 25.  (##) -------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center">
+<img src="images/image025.png"
+   alt=""
+   width="65%" />
+&nbsp;
 
 Here are the results of displaying the \< input type= 'date' \>element
 in different browsers.
@@ -1473,7 +1559,14 @@ The Firefox browser displays the date field as a text field.
 
 This could raise several issues regarding input format and validation.
 
-![](images/image025.png){width="5.0in" height="2.3288801399825023in"}
+<!------------------------------------------------------------------------------------------------>
+<!------------------------ 26.  (##) -------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center">
+<img src="images/image026.png"
+   alt=""
+   width="65%" />
+&nbsp;
 
 This example shows a support table for the \< input type= 'date' \>
 element.
@@ -1496,7 +1589,14 @@ support the type ='date'\> element.
 Support levels change as developers of browsers add new features, so
 check back frequently to see if the features you require are supported.
 
-![](images/image026.png){width="5.0in" height="2.3618503937007875in"}
+<!------------------------------------------------------------------------------------------------>
+<!------------------------ 27.  (##) -------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center">
+<img src="images/image027.png"
+   alt=""
+   width="65%" />
+&nbsp;
 
 You can also use JavaScript to check whether a certain HTML5 element is
 supported by a browser.
@@ -1519,7 +1619,14 @@ supported by a browser.
 Browsers that do not support the element can revert to a fallback or
 default behavior such as displaying the field as a regular text field.
 
-![](images/image027.png){width="5.0in" height="2.5706200787401574in"}
+<!------------------------------------------------------------------------------------------------>
+<!------------------------ 28.  (##) -------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center">
+<img src="images/image028.png"
+   alt=""
+   width="65%" />
+&nbsp;
 
 Here is an example of using JavaScript to check whether a certain HTML5
 element is supported by a browser.
@@ -1563,7 +1670,14 @@ provision your lab environment.
 
 <h2>Module 2, Part VI: CSS: Styling HTML</h2>
 
-![](images/image028.png){width="5.0in" height="1.9476760717410324in"}
+<!------------------------------------------------------------------------------------------------>
+<!------------------------ 29.  (##) -------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center">
+<img src="images/image029.png"
+   alt=""
+   width="65%" />
+&nbsp;
 
 Hello and welcome to CSS: Styling HTML.
 
@@ -1579,7 +1693,14 @@ By using a combination of HTML5, JavaScript, and cascading style sheets,
 developers can create web pages that can be displayed on desktop
 computers and mobile devices.
 
-![](images/image029.png){width="5.0in" height="2.5222823709536306in"}
+<!------------------------------------------------------------------------------------------------>
+<!------------------------ 30.  (##) -------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center">
+<img src="images/image030.png"
+   alt=""
+   width="65%" />
+&nbsp;
 
 These technologies have powerful features that can be used to show rich
 interactive applications without requiring plug-in technologies, like
@@ -1592,7 +1713,14 @@ people.
 Being able to meet accessibility requirements is one advantage of using
 HTML markup over browser plug-ins for delivering interactive content.
 
-![](images/image030.png){width="5.0in" height="2.6974912510936133in"}
+<!------------------------------------------------------------------------------------------------>
+<!------------------------ 31.  (##) -------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center">
+<img src="images/image031.png"
+   alt=""
+   width="65%" />
+&nbsp;
 
 CSS is the design that is layered over the top of an HTML web page.
 
@@ -1618,7 +1746,14 @@ if they have special accessibility needs.
 It allows machines (such as search engines) to index a website without
 the design interfering.
 
-![](images/image031.png){width="5.0in" height="2.337665135608049in"}
+<!------------------------------------------------------------------------------------------------>
+<!------------------------ 32.  (##) -------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center">
+<img src="images/image032.png"
+   alt=""
+   width="65%" />
+&nbsp;
 
 You can code CSS as a style attribute in an HTML tag, a head section of
 a document, or an external document.
@@ -1626,7 +1761,14 @@ a document, or an external document.
 The preference is to code CSS in external documents (referred to
 as style sheets).
 
-![](images/image032.png){width="5.0in" height="2.5095024059492563in"}
+<!------------------------------------------------------------------------------------------------>
+<!------------------------ 33.  (##) -------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center">
+<img src="images/image033.png"
+   alt=""
+   width="65%" />
+&nbsp;
 
 You can use CSS to control a document's appearance and specify style
 rules for the following web page elements: Fonts, Text, Colors,
@@ -1635,7 +1777,14 @@ Tables, and Lists.
 
 CSS style element are structured like this.
 
-![](images/image033.png){width="5.0in" height="2.655931758530184in"}
+<!------------------------------------------------------------------------------------------------>
+<!------------------------ 34.  (##) -------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center">
+<img src="images/image034.png"
+   alt=""
+   width="65%" />
+&nbsp;
 
 In this example, the html-tag-name can be one of the following elements:
 
@@ -1651,7 +1800,14 @@ In this example, the html-tag-name can be one of the following elements:
 When making a site design, begin by establishing the base style.
 Establish a base style by styling the \<Body\> tag, as shown here.
 
-![](images/image034.png){width="3.0in" height="3.6902679352580927in"}
+<!------------------------------------------------------------------------------------------------>
+<!------------------------ 35.  (##) -------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center">
+<img src="images/image035.png"
+   alt=""
+   width="65%" />
+&nbsp;
 
 This example makes the following styles:
 
@@ -1819,9 +1975,22 @@ After reading this section (part 1), you will be able to:
 
     -   section, article, header, footer, figure, fig caption.
 
-![](images/image035.png){width="6.5in" height="3.419209317585302in"}
-
-![](images/image036.png){width="6.5in" height="5.3578182414698166in"}
+<!------------------------------------------------------------------------------------------------>
+<!------------------------ 36.  (##) -------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center">
+<img src="images/image036.png"
+   alt=""
+   width="65%" />
+&nbsp;
+<!------------------------------------------------------------------------------------------------>
+<!------------------------ 37.  (##) -------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center">
+<img src="images/image037.png"
+   alt=""
+   width="65%" />
+&nbsp;
 
 There are many HTML5 specific elements. The table shows some of them.
 
@@ -1832,9 +2001,22 @@ graphical content.
 Not all of these element tags are covered in this section, so take a
 moment to read through the table.
 
-![](images/image037.png){width="6.5in" height="3.502713254593176in"}
-
-![](images/image038.png){width="6.5in" height="3.675313867016623in"}
+<!------------------------------------------------------------------------------------------------>
+<!------------------------ 38.  (##) -------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center">
+<img src="images/image038.png"
+   alt=""
+   width="65%" />
+&nbsp;
+<!------------------------------------------------------------------------------------------------>
+<!------------------------ 39.  (##) -------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center">
+<img src="images/image039.png"
+   alt=""
+   width="65%" />
+&nbsp;
 
 This table shows more HTML5 elements.
 
@@ -1845,7 +2027,14 @@ Comments in HTML can assist the developer to explain what the code does.
 The browsers do not display these comments, unless the viewer views the
 source.
 
-![](images/image039.png){width="5.0in" height="2.351405293088364in"}
+<!------------------------------------------------------------------------------------------------>
+<!------------------------ 40.  (##) -------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center">
+<img src="images/image040.png"
+   alt=""
+   width="65%" />
+&nbsp;
 
 In a division-based layout, each part of a page that you want to format
 differently is separated into its own division.
@@ -1873,7 +2062,14 @@ text.
 In contrast, the \<div\> tag has no innate semantic meaning besides the
 logical grouping of the content.
 
-![](images/image040.png){width="5.0in" height="3.050846456692913in"}
+<!------------------------------------------------------------------------------------------------>
+<!------------------------ 41.  (##) -------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center">
+<img src="images/image041.png"
+   alt=""
+   width="65%" />
+&nbsp;
 
 You can use these dedicated elements to mark up your website, rather
 than using the generic \<div\> or \<span\> elements.
@@ -1888,7 +2084,14 @@ A \<header\> element is used to group the headers for a page.
 
 The \<footer\> defines the area at the bottom of the page.
 
-![](images/image041.png){width="5.0in" height="3.608923884514436in"}
+<!------------------------------------------------------------------------------------------------>
+<!------------------------ 42.  (##) -------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center">
+<img src="images/image042.png"
+   alt=""
+   width="65%" />
+&nbsp;
 
 This code example shows some of the HTML5 structural element.
 
@@ -1901,7 +2104,14 @@ their own headers.
 
 The page also includes a \<footer\> element.
 
-![](images/image042.png){width="5.0in" height="3.770054680664917in"}
+<!------------------------------------------------------------------------------------------------>
+<!------------------------ 43.  (##) -------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center">
+<img src="images/image043.png"
+   alt=""
+   width="65%" />
+&nbsp;
 
 The \<aside\> tag is used to provide additional information that is
 related to the main discussion.
@@ -1918,7 +2128,14 @@ sections.
 The \<figurecaption\> tag defines the caption for the contents of the
 element.
 
-![](images/image043.png){width="5.0in" height="3.689569116360455in"}
+<!------------------------------------------------------------------------------------------------>
+<!------------------------ 44.  (##) -------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center">
+<img src="images/image044.png"
+   alt=""
+   width="65%" />
+&nbsp;
 
 Websites typically have sections that are dedicated to navigational
 links that go to these sites or for moving between pages of a single
@@ -1927,7 +2144,14 @@ application.
 In HTML5 syntax, these navigational links are placed inside a \<nav\>
 tag.
 
-![](images/image044.png){width="5.0in" height="3.8268164916885388in"}
+<!------------------------------------------------------------------------------------------------>
+<!------------------------ 45.  (##) -------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center">
+<img src="images/image045.png"
+   alt=""
+   width="65%" />
+&nbsp;
 
 The \<nav\> tag is a convenience tag for grouping navigational links in
 a web page.
@@ -1941,7 +2165,14 @@ In HTML5 syntax, these navigational links are placed inside a \<\> tag.
 The \<\> tag is a convenience tag for grouping navigational links in a
 web page.
 
-![](images/image045.png){width="5.0in" height="2.964209317585302in"}
+<!------------------------------------------------------------------------------------------------>
+<!------------------------ 46.  (##) -------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center">
+<img src="images/image046.png"
+   alt=""
+   width="65%" />
+&nbsp;
 
 In this section (part 1), you learned:
 
@@ -5189,7 +5420,7 @@ In this module, you learned that:
     -   Repository Administrator -- configures and maintains access to
         the repository
 
-<p><b><i>Last edited 04/23/2022 12:57pm</i></b></p>
+<p><b><i>Last edited 04/23/2022 1:33pm</i></b></p>
 
 ...the end.
 
