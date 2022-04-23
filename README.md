@@ -3034,11 +3034,11 @@ The last statement in a function block is the optional return statement
 that returns control back to whatever called the function.
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------ 73.  (##) -------------------------->
+<!------------------------ 73. Functions: Parts of a Function (80) -------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="images/image073.png"
-   alt=""
+   alt="Functions: Parts of a Function"
    width="65%" />
 &nbsp;
 
@@ -3066,11 +3066,11 @@ If the values can be interpreted as numbers, they are added.
 If they can be interpreted as strings, they are concatenated.
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------ 74.  (##) -------------------------->
+<!------------------------ 74. Creating Custom Objects (81) -------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="images/image074.png"
-   alt=""
+   alt="Creating Custom Objects"
    width="65%" />
 &nbsp;
 
@@ -3090,11 +3090,11 @@ The getName function of Car returns the make, model, and year of the
 newly created Car object.
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------ 75.  (##) -------------------------->
+<!------------------------ 75. Creating custom Objects (81) -------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="images/image075.png"
-   alt=""
+   alt="Creating Custom Objects"
    width="65%" />
 &nbsp;
 
@@ -3102,11 +3102,11 @@ By using prototypes, you can easily define properties and methods for
 all instances of a particular object.
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------ 76.  (##) -------------------------->
+<!------------------------ 76. Prototypes (82) -------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="images/image076.png"
-   alt=""
+   alt="Prototypes"
    width="65%" />
 &nbsp;
 
@@ -3117,11 +3117,11 @@ All object constructors create objects that inherit the properties and
 methods that are defined by the prototype for that object.
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------ 77.  (##) -------------------------->
+<!------------------------ 77. Prototypes (82) -------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="images/image077.png"
-   alt=""
+   alt="Prototypes"
    width="65%" />
 &nbsp;
 
@@ -3145,11 +3145,11 @@ created, automatically inherits the new floor_model property and its
 value.
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------ 78.  (##) -------------------------->
+<!------------------------ 78. Adding functions to prototypes (83) -------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="images/image078.png"
-   alt=""
+   alt="Adding Functions to Prototypes"
    width="65%" />
 &nbsp;
 
