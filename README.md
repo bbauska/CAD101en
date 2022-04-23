@@ -123,7 +123,6 @@ After completing this course, you will be able to:
 **[`^        back to table of contents        ^`](#table-of-contents)**
 
 <h2 id="ch1">Ch 1: Introduction to Programming for the Cloud</h2>
-
 <h3>Learning Objectives</h3>
 
 **Introduction to Cloud Development with HTML5, CSS3 and JavaScript {w/
@@ -139,17 +138,9 @@ Github}** (CAD101EN)
 &nbsp;
 </p>
 
-<h3 id="ch1-1">Welcome to Introduction to Cloud Development with HTML5, CSS3, and JavaScript</h3>
-<h3>Learning Objectives and Syllabus</h3>
+<h3>Welcome</h3>
 
-After completing this course, you will be able to:
-•	Explain the roles of Front-end, back-end, and full stack developers in developing Cloud Applications.
-•	Describe the common languages, libraries, frameworks, and other tools that developers use.
-•	Demonstrate basic programming techniques in HTML5.
-•	Enhance the appearance of a website by using CSS.
-•	Describe the HTML5 input element and its attributes.
-•	Use JavaScript to enhance the interactivity of a Cloud Application or website.
-•	Manage your projects in GitHub.
+<h3>Welcome to Introduction to Cloud Development with HTML5, CSS3, and JavaScript</h3>
 
 <!------------------------------------------------------------------------------------------------>
 <!----------------------------- 04. course intro: cloud courses (4) ------------------------------>
@@ -157,15 +148,6 @@ After completing this course, you will be able to:
 <p align="center">
 	<img src="images/image004.png" 
 	alt="Cloud Courses from IBM"
-	width="65%" />
-&nbsp;
-</p>
-<!------------------------------------------------------------------------------------------------>
-<!---------------------- 05. emerging jobs: full, back, front & javas (5) ------------------------>
-<!------------------------------------------------------------------------------------------------>
-<p align="center">
-	<img src="images/image005.png" 
-	alt="Emerging Jobs"
 	width="65%" />
 &nbsp;
 </p>
@@ -181,7 +163,7 @@ front-end development, working with HTML, CSS, and JavaScript. Finally,
 you will discover tools that help you to store your projects and keep
 track of changes made to project files, such as Git and GitHub.
 
-<h3 id="ch1-2">Module 1: Introduction and Learning Objectives</h3>
+<h3>Module 1: Introduction and Learning Objectives</h3>
 
 Learn what Cloud Application development involves from the very
 beginning. Discover the languages, frameworks, and tools that enable you
@@ -219,7 +201,7 @@ After completing this module, you will be able to:
 	width="65%" />
 &nbsp;
 
-<h3 id="ch1-3">Module 1, Part I: Overview of Web and Cloud Development</h3>
+<h3>Module 1, Part I: Overview of Web and Cloud Development</h3>
 
 When you're starting out as a Web Developer, it can be difficult to
 determine what you need to learn and what order you should learn it in.
@@ -328,7 +310,7 @@ In this brief overview, you learned about:
 
 -   IDEs will help you create and manage your code.
 
-<h3 id="ch1-4">Module 1, Part II: Learning Front-End Development</h3>
+<h3>Module 1, Part II: Learning Front-End Development</h3>
 
 Internet websites offer lots of different services, one of the most
 popular being online shopping.
@@ -5197,6 +5179,7 @@ In this module, you learned that:
     -   Repository Administrator -- configures and maintains access to
         the repository
 
-<p><b><i>Last edited 04/22/2022 8:04pm</i></b></p>
+<p><b><i>Last edited 04/22/2022 10:52pm</i></b></p>
 
 ...the end.
+
