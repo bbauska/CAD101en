@@ -140,7 +140,7 @@ Github}** (CAD101EN)
 
 <h3>Welcome</h3>
 
-<h3>Welcome to Introduction to Cloud Development with HTML5, CSS3, and JavaScript</h3>
+<h4>Welcome to Introduction to Cloud Development with HTML5, CSS3, and JavaScript</h4>
 
 <!------------------------------------------------------------------------------------------------>
 <!----------------------------- 04. course intro: cloud courses (4) ------------------------------>
@@ -163,7 +163,7 @@ front-end development, working with HTML, CSS, and JavaScript. Finally,
 you will discover tools that help you to store your projects and keep
 track of changes made to project files, such as Git and GitHub.
 
-<h3>Module 1: Introduction and Learning Objectives</h3>
+<h3 id="ch1-1">1.1 Module 1: Introduction and Learning Objectives</h3>
 
 Learn what Cloud Application development involves from the very
 beginning. Discover the languages, frameworks, and tools that enable you
@@ -201,7 +201,7 @@ After completing this module, you will be able to:
 	width="65%" />
 &nbsp;
 
-<h3>Module 1, Part I: Overview of Web and Cloud Development</h3>
+<h3 id="ch1-2">1.2 Module 1, Part I: Overview of Web and Cloud Development</h3>
 
 When you're starting out as a Web Developer, it can be difficult to
 determine what you need to learn and what order you should learn it in.
@@ -310,7 +310,7 @@ In this brief overview, you learned about:
 
 -   IDEs will help you create and manage your code.
 
-<h3>Module 1, Part II: Learning Front-End Development</h3>
+<h3 id="ch1-3">1.3 Module 1, Part II: Learning Front-End Development</h3>
 
 Internet websites offer lots of different services, one of the most
 popular being online shopping.
@@ -449,7 +449,7 @@ needs to keep upgrading the websites that they create.
 The websites that they create should work in multiple browsers, multiple
 operating systems and multiple devices.
 
-<h3>Module 1, Part III: Introducing Application Development Tools</h3>
+<h3 id="ch1-4">1.4 Module 1, Part III: Introducing Application Development Tools</h3>
 
 Welcome to Introducing Application Development Tools.
 
@@ -470,10 +470,10 @@ changes were made, thereby creating a new version of the source code,
 becomes overridingly important.
 
 <!------------------------------------------------------------------------------------------------>
-<!---------------------------------- 06. version control (12) ------------------------------------>
+<!---------------------------------- 07. version control (12) ------------------------------------>
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
-<img src="images/image006.png"
+<img src="images/image007.png"
    alt="Version Control"
    width="65%">
 &nbsp;
@@ -499,9 +499,12 @@ Git stores files in repositories where you can track changes, split code
 into different branches for more focused development, and then merge
 them back into the main body of code.
 
+<!------------------------------------------------------------------------------------------------>
+<!------------------------------------- 08. libraries (13) --------------------------------------->
+<!------------------------------------------------------------------------------------------------>
 <p align="center">
-<img src="images/image007.png" 
-   alt=""
+<img src="images/image008.png" 
+   alt="Libraries"
    width="65%" />
 &nbsp;
 
@@ -533,31 +536,38 @@ Either way, there are lots for you to choose from, so do your research.
 Here are some examples of code libraries:
 
 <p align="center">
-<img src="images/image008.png"
-   alt="Libraries: What they are"
+<img src="images/image009.png"
+   alt="Libraries: jQuery"
    width="20%" />
 &nbsp;
 
 -   jQuery is a JavaScript library that simplifies Dom manipulation.
 
 <p align="center">
-<img src="images/image009.png" width="200">
+<img src="images/image010.png"
+   alt="E-Mail Validator"
+   width="20%" />
 &nbsp;
 
 -   Email-validator is a small library that checks an email address is
     correctly constructed and valid.
 
-
 <p align="center">
-<img src="images/image010.png" width="200">
+<img src="images/image011.png"
+   alt="Apache Commons Proper"
+   width="20%" />
 &nbsp;
 
 -   Apache Commons Proper is a repository of reusable Java components.
 
 Frameworks provide a standard way to build and deploy applications.
-
+<!------------------------------------------------------------------------------------------------>
+<!------------------------ 12. frameworks - scaffold to build apps (14) -------------------------->
+<!------------------------------------------------------------------------------------------------>
 <p align="center">
-<img src="images/image011.png" width="500">
+<img src="images/image012.png"
+   alt="Frameworks - the scaffold to build your apps"
+   width="65%" />
 &nbsp;
 
 You can think of a framework as being a skeleton that you can extend by
@@ -835,15 +845,15 @@ Each request needs to interact with the back-end in a different way.
 Back-end developers use APIs, routes, and endpoints to process incoming
 requests:
 
-An **[API]{.underline}** is code that works with data, usually using
+An **API** is code that works with data, usually using
 JSON or XML. APIs have set rules and structure.
 
-A **[route]{.underline}** is a path to a website or page that the user
+A **route** is a path to a website or page that the user
 interacts with.
 
 Routes generally take user input and show results based on the input.
 
-An **[endpoint]{.underline}** may be an API or may simply be a path.
+An **endpoint** may be an API or may simply be a path.
 
 When a request from the front-end arrives at the back-end, it is routed
 to the correct service.
@@ -905,7 +915,7 @@ storing data as required.
 
 Life for a back-end developer is varied, challenging, and ever changing.
 
-<h2>Module 1: Summary</h2>
+<h3 id="ch1-8">1.8 Module 1: Summary</h3>
 
 In this module, you learned that:
 
@@ -928,7 +938,7 @@ In this module, you learned that:
 -   Frameworks and libraries extend the functionality of coding
     languages such as JavaScript and Python.
 
-<h2>Module 2: Introduction and Learning Objectives</h2>
+<h2 id="ch2">Module 2: Introduction and Learning Objectives</h2>
 
 The most fundamental tools for front-end developers are the languages
 they use for developing the website or app. Foremost among these is
@@ -958,7 +968,7 @@ After completing this module, you will be able to:
 
 -   Describe how CSS is used to enhance websites.
 
-<h2>Module 2, Part I: Introduction to HTML</h2>
+<h3 id="ch2-2">2.2 Module 2, Part I: Introduction to HTML</h3>
 
 Hello and welcome to Introduction to HTML.
 
@@ -1759,7 +1769,7 @@ provision your lab environment.
 
 # Start Lab 
 
-<h2>Module 2 Summary</h2>
+<h2 id="ch2-99">2.99 Module 2 Summary</h2>
 
 In this module (2), you learned that:
 
@@ -5152,7 +5162,7 @@ synched.
 In this lab, you have learned how to clone a GitHub repository, make
 changes to it, commit the changes locally, and push it back to GitHub.
 
-<h2 id="ch5-3">Module 5 Summary</h2>
+<h2 id="ch5-13">Module 5 Summary</h2>
 
 In this module, you learned that:
 
@@ -5179,7 +5189,7 @@ In this module, you learned that:
     -   Repository Administrator -- configures and maintains access to
         the repository
 
-<p><b><i>Last edited 04/22/2022 10:52pm</i></b></p>
+<p><b><i>Last edited 04/23/2022 12:57pm</i></b></p>
 
 ...the end.
 
