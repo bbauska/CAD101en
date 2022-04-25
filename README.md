@@ -204,8 +204,8 @@ After completing this module, you will be able to:
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="images/image006.png" 
-	alt="Overview of Cloud and Web Development by IBM - Skills Network"
-	width="65%" />
+   alt="Overview of Cloud and Web Development by IBM - Skills Network"
+   width="65%" />
 &nbsp;
 <div align="right">
   <b><a href="#table-of-contents">↥ Back To Top</a></b>
@@ -3328,11 +3328,11 @@ By using prototypes, you can easily define properties and methods for
 all instances of a particular object.
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------ 82.  (##) -------------------------->
+<!------------------------ 76. prototypes  (82) -------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="images/image082.png"
-   alt=""
+   alt="Prototypes"
    width="65%" />
 &nbsp;
 
@@ -3341,6 +3341,15 @@ new keyword.
 
 All object constructors create objects that inherit the properties and
 methods that are defined by the prototype for that object.
+
+<!------------------------------------------------------------------------------------------------>
+<!------------------------ 77/82. prototypes  (82) -------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center">
+<img src="images/image082.png"
+   alt="Prototypes #2"
+   width="65%" />
+&nbsp;
 
 Any object that gets instantiated inherits the current state of the
 prototype.
@@ -3362,7 +3371,7 @@ created, automatically inherits the new floor_model property and its
 value.
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------ 83.  (##) -------------------------->
+<!------------------------ 83. adding functions to prototypes  (83) -------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="images/image083.png"
@@ -3382,7 +3391,7 @@ All existing instances of the Car object also inherit the getName
 method.
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------ 84.  (##) -------------------------->
+<!------------------------ 84. self-executing functions (83) -------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="images/image084.png"
@@ -3446,11 +3455,11 @@ A client-side script is a program that accompanies an HTML document or
 might be embedded directly in the HTML document itself.
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------ 85.  (##) -------------------------->
+<!---------------------------------- 85. scripts in html (##) ------------------------------------>
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="images/image085.png"
-   alt=""
+   alt="Scripts in HTML"
    width="65%" />
 &nbsp;
 
