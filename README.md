@@ -1384,11 +1384,11 @@ After reading this section (part 4), you will be able to describe how
 scripting is enabled in browsers.
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------ 19.  (34) ----------------------------->
+<!-------------------------------- 19. enabling scripting (34) ----------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="images/image019.png"
-   alt="Scripting"
+   alt="Enabling Scripting"
    width="65%" />
 &nbsp;
 
@@ -1534,11 +1534,11 @@ After reading this section (part 5), you will be able to:
 -   Describe browser support for HTML5 features.
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------ 24.  (##) -------------------------->
+<!------------------------------- 24. html5 browser support (39) --------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="images/image024.png"
-   alt=""
+   alt="HTML5 Browser Support"
    width="65%" />
 &nbsp;
 
@@ -1560,11 +1560,11 @@ For example, caniuse.com has great support tables for HTML5, CSS3, and
 more.
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------ 25.  (##) -------------------------->
+<!------------------- 25. how different browsers display html5 elements (39) --------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="images/image025.png"
-   alt=""
+   alt="How Different Browsers Display HTML5 Elements"
    width="65%" />
 &nbsp;
 
@@ -1582,11 +1582,11 @@ The Firefox browser displays the date field as a text field.
 This could raise several issues regarding input format and validation.
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------ 26.  (##) -------------------------->
+<!--------------------------- 26. html5 browser support tables (40) ------------------------------>
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="images/image026.png"
-   alt=""
+   alt="HTML5 Browser Support Tables"
    width="65%" />
 &nbsp;
 
@@ -1612,11 +1612,11 @@ Support levels change as developers of browsers add new features, so
 check back frequently to see if the features you require are supported.
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------ 27.  (##) -------------------------->
+<!------------------ 27. verifying html5 browser support using javascript (41) ------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="images/image027.png"
-   alt=""
+   alt="Verifying HTML5 Browser Support Using JavaScript"
    width="65%" />
 &nbsp;
 
@@ -1642,11 +1642,11 @@ Browsers that do not support the element can revert to a fallback or
 default behavior such as displaying the field as a regular text field.
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------ 28.  (##) -------------------------->
+<!---------------------- 28. verifying html5 browser support example (42) ------------------------>
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="images/image028.png"
-   alt=""
+   alt="Verifying HTML5 Browser Support Example"
    width="65%" />
 &nbsp;
 
@@ -1693,11 +1693,11 @@ provision your lab environment.
 <h3 id="ch2-9">2.9 Module 2, Part VI: CSS: Styling HTML</h3>
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------ 29.  (##) -------------------------->
+<!--------------------------- 29. objectives: css styling html (43) ------------------------------>
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="images/image029.png"
-   alt=""
+   alt="Objectives: CSS Styling HTML"
    width="65%" />
 &nbsp;
 
@@ -1716,11 +1716,11 @@ developers can create web pages that can be displayed on desktop
 computers and mobile devices.
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------ 30.  (##) -------------------------->
+<!------------------------ 30. media independence with html and css (44) ------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="images/image030.png"
-   alt=""
+   alt="Media Independence with HTML and CSS"
    width="65%" />
 &nbsp;
 
@@ -1736,11 +1736,11 @@ Being able to meet accessibility requirements is one advantage of using
 HTML markup over browser plug-ins for delivering interactive content.
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------ 31.  (##) -------------------------->
+<!------------------------------------ 31. what is css? (44) ------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="images/image031.png"
-   alt=""
+   alt="What is CSS?"
    width="65%" />
 &nbsp;
 
@@ -1769,11 +1769,11 @@ It allows machines (such as search engines) to index a website without
 the design interfering.
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------ 32.  (##) -------------------------->
+<!------------------------------- 32. css design and coding (45) --------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="images/image032.png"
-   alt=""
+   alt="CSS Design and Coding"
    width="65%" />
 &nbsp;
 
@@ -1784,11 +1784,11 @@ The preference is to code CSS in external documents (referred to
 as style sheets).
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------ 33.  (##) -------------------------->
+<!-------------------------- 33. what elements can css control? (45) ----------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="images/image033.png"
-   alt=""
+   alt="What Elements Can CSS Control?"
    width="65%" />
 &nbsp;
 
@@ -1800,11 +1800,11 @@ Tables, and Lists.
 CSS style element are structured like this.
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------ 34.  (##) -------------------------->
+<!------------------------------------- 34. css format (46) -------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="images/image034.png"
-   alt=""
+   alt="CSS Format"
    width="65%" />
 &nbsp;
 
@@ -1823,11 +1823,11 @@ When making a site design, begin by establishing the base style.
 Establish a base style by styling the \<Body\> tag, as shown here.
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------ 35.  (##) -------------------------->
+<!------------------------------------ 35. base styles (47) -------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="images/image035.png"
-   alt=""
+   alt="Base Styles"
    width="65%" />
 &nbsp;
 
@@ -2002,19 +2002,19 @@ After reading this section (part 1), you will be able to:
     -   section, article, header, footer, figure, fig caption.
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------ 36.  (##) -------------------------->
+<!---------------------------- 36. html5 specific tags (1of4) (51) ------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="images/image036.png"
-   alt=""
+   alt="HTML5 Specific Tags (1 of 4)"
    width="65%" />
 &nbsp;
 <!------------------------------------------------------------------------------------------------>
-<!------------------------ 37.  (##) -------------------------->
+<!---------------------------- 37. html5 specific tags (2of4) (52) ------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="images/image037.png"
-   alt=""
+   alt="HTML5 Specific Tags (2 of 4)"
    width="65%" />
 &nbsp;
 
@@ -2028,19 +2028,19 @@ Not all of these element tags are covered in this section, so take a
 moment to read through the table.
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------ 38.  (##) -------------------------->
+<!---------------------------- 38. html5 specific tags (3of4) (53) ------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="images/image038.png"
-   alt=""
+   alt="HTML5 Specific Tags (3 of 4)"
    width="65%" />
 &nbsp;
 <!------------------------------------------------------------------------------------------------>
-<!------------------------ 39.  (##) -------------------------->
+<!---------------------------- 39. html5 specific tags (4of4) (53) ------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="images/image039.png"
-   alt=""
+   alt="HTML5 Specific Tags (4 of 4)"
    width="65%" />
 &nbsp;
 
@@ -2054,11 +2054,11 @@ The browsers do not display these comments, unless the viewer views the
 source.
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------ 40.  (##) -------------------------->
+<!----------------------------- 40. html5 structural elements (54) ------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="images/image040.png"
-   alt=""
+   alt="HTML5 Structural Elements"
    width="65%" />
 &nbsp;
 
@@ -2089,11 +2089,11 @@ In contrast, the \<div\> tag has no innate semantic meaning besides the
 logical grouping of the content.
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------ 41.  (##) -------------------------->
+<!------------------------ 41. html5 structural elements #2 (55) -------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="images/image041.png"
-   alt=""
+   alt="HTML5 Structural Elements #2"
    width="65%" />
 &nbsp;
 
@@ -2111,7 +2111,7 @@ A \<header\> element is used to group the headers for a page.
 The \<footer\> defines the area at the bottom of the page.
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------ 42.  (##) -------------------------->
+<!------------------------ 42. example with structural elements (56) -------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="images/image042.png"
@@ -3697,7 +3697,7 @@ You can then access the window object properties and functions from your
 JavaScript code.
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------ 94. client-side window object (95) -------------------------->
+<!----------------------------- 94. client-side window object (95) ------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="images/image094.png"
@@ -3723,27 +3723,25 @@ Notice how the object hierarchy matches the HTML containment hierarchy
 on the left.
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------ 94.  (##) -------------------------->
+<!--------------------------- 95. html document object diagram (96) ------------------------------>
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
-<img src="images/image094.png"
-   alt=""
+<img src="images/image095.png"
+   alt="HTML Document Object Diagram"
    width="65%" />
 &nbsp;
-![](images/image094.png){width="5.0in" height="2.4396128608923884in"}
 
 The object diagram can also be represented as a tree structure that
 corresponds to the structure of the HTML document.
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------ 94.  (##) -------------------------->
+<!---------------------- 96. html document object diagram with tree (96) ------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
-<img src="images/image094.png"
-   alt=""
+<img src="images/image096.png"
+   alt="HTM Document Object Diagram with Tree"
    width="65%" />
 &nbsp;
-![](images/image095.png){width="5.0in" height="2.4396128608923884in"}
 
 The branches of the tree structure are termed nodes.
 
@@ -3756,11 +3754,11 @@ The nodes that contain actual text that go between an element start tag
 and end tag, are text nodes.
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------ 94.  (##) -------------------------->
+<!---------------------------- 97. DOM Level 2 Tree for a Form (97) ------------------------------>
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
-<img src="images/image094.png"
-   alt=""
+<img src="images/image097.png"
+   alt="DOM Level 2 Tree for a Form"
    width="65%" />
 &nbsp;
 ![](images/image096.png){width="5.0in" height="2.4396128608923884in"}
@@ -3772,14 +3770,13 @@ The line feeds between elements are text nodes and are part of the DOM
 level 2 tree.
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------ 94.  (##) -------------------------->
+<!--------------------------- 98. DOM Level 2 Tree for a Form #2 (97) ---------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
-<img src="images/image094.png"
+<img src="images/image098.png"
    alt=""
    width="65%" />
 &nbsp;
-![](images/image097.png){width="5.0in" height="2.3913046806649167in"}
 
 The DOM level 2 tree includes a line feed text node before the paragraph
 and input elements.
@@ -3828,11 +3825,11 @@ After reading this section (part 7), you will be able to:
     applications for working with HTML documents.
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------ 94.  (##) -------------------------->
+<!------------------------ 99. dom html-related note types (98) -------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
-<img src="images/image094.png"
-   alt=""
+<img src="images/image099.png"
+   alt="DOM HTML-Related Node Types"
    width="65%" />
 &nbsp;
 
@@ -3852,10 +3849,10 @@ For example:
 An ELEMENT_NODE type is represented by the integer 1.
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------ .  (##) -------------------------->
+<!------------------------ 100.  (99) -------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
-<img src="/images/image099.png?raw=true" 
+<img src="/images/image100.png?raw=true" 
      alt="" 
      width="65%" />
 &nbsp;
