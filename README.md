@@ -968,7 +968,7 @@ After completing this module, you will be able to:
 
 -   Describe how CSS is used to enhance websites.
 
-<h3 id="ch2-2">2.2 Module 2, Part I: Introduction to HTML</h3>
+<h3 id="ch2-1">2.1 Module 2, Part I: Introduction to HTML</h3>
 
 Hello and welcome to Introduction to HTML.
 
@@ -1059,7 +1059,7 @@ In this section (part 1), you learned:
 
 -   Markup and APIs for web storage, video, and audio content.
 
-<h2>Module 2, Part II: HTML Features</h2>
+<h3 id-"ch2-3">Module 2, Part II: HTML Features</h3>
 
 Hello and welcome to HTML Features.
 
@@ -1233,7 +1233,7 @@ Hands-on Lab: Intro to HTML (JDFiddle)
 [Click here to launch the lab in another
 browser.](https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBMDeveloperSkillsNetwork-CD0101EN-SkillsNetwork/labs/demos/jsfiddle-demo.md.html)
 
-<h2>Module 2, Part III: HTML Management and Support</h2>
+<h3 id="ch2-4">Module 2, Part III: HTML Management and Support</h3>
 
 Hello, and welcome to HTML Management and Support.
 
@@ -1354,7 +1354,7 @@ About HTML5 Web Applications, which have:
 And about HTML5 Elements, which enable you to define and manage web page
 structure and content.
 
-<h2>Module 2, Part IV: HTML Scripting</h2>
+<h3 id="ch2-6">2.6 Module 2, Part IV: HTML Scripting</h3>
 
 Hello and welcome to HTML Scripting.
 
@@ -1503,7 +1503,7 @@ In this section (part 4), you learned:
 -   HTML documents loaded into a browser page become Document objects,
     which you can access through scripts.
 
-<h2>Module 2, Part V: HTML5 Browser Support</h2>
+<h3 id="ch2-7">2.7 Module 2, Part V: HTML5 Browser Support</h3>
 
 Hello and welcome to HTML5 Browser Support.
 
@@ -1651,15 +1651,15 @@ In this section (part 5), you learned:
 -   You can use JavaScript to check whether a certain HTML5 element is
     supported by a browser.
 
-<h2>Hands-On Lab: HTML - Creating a Simple Web Page</h2>
+<h3 id="ch2-8">2.8 Hands-On Lab: HTML - Creating a Simple Web Page</h3>
 
-<h1>Use the Start Lab button below to launch the lab in a new browser tab.</h1>
+<h3>Use the Start Lab button below to launch the lab in a new browser tab.</h3>
 
 [Note: In case the Start Lab button does not work, instructions to
 complete this lab are also
 available here](https://labs.cognitiveclass.ai/tools/theiadocker/?md_instructions_url=https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBMDeveloperSkillsNetwork-CD0101EN-SkillsNetwork/labs/Theia%20Labs/01%20-%20HTML%20and%20CSS/Lab%201%20HTML/instructions.md).
 
-<h2>Hands-On Lab: HTML (External resource)</h2>
+<h3>Hands-On Lab: HTML (External resource)</h3>
 
 Clicking on the Start Lab button below will launch the cloud based SN
 labs virtual labs environment with instructions to complete this lab.
@@ -1668,7 +1668,7 @@ provision your lab environment.
 
 <h1>Start Lab</h1>
 
-<h2>Module 2, Part VI: CSS: Styling HTML</h2>
+<h3 id="ch2-9">2.9 Module 2, Part VI: CSS: Styling HTML</h3>
 
 <!------------------------------------------------------------------------------------------------>
 <!------------------------ 29.  (##) -------------------------->
@@ -1923,9 +1923,9 @@ labs virtual labs environment with instructions to complete this lab.
 Your username and email will be shared with SN Labs to authenticate and
 provision your lab environment.
 
-# Start Lab 
+<h3>Start Lab</h3>
 
-<h2 id="ch2-99">2.99 Module 2 Summary</h2>
+<h3 id="ch2-11">2.11 Module 2 Summary</h3>
 
 In this module (2), you learned that:
 
@@ -1945,7 +1945,7 @@ In this module (2), you learned that:
 
 -   CSS provides a consistent style and design throughout the website.
 
-<h2>Module 3: Introduction and Learning Objectives</h2>
+<h2 id="ch3">Module 3: Introduction and Learning Objectives</h2>
 
 HTML5 has many elements that enable developers to create well-structured
 and varied websites. These HTML5 elements provide ways to separate an
@@ -1963,7 +1963,7 @@ After completing this module, you will be able to:
 
 -   Describe the attributes of HTML5 input elements.
 
-<h2>Module 3, Part I: HTML5 Tags and Structural Elements</h2>
+<h3 id="ch3-2">3.2 Module 3, Part I: HTML5 Tags and Structural Elements</h3>
 
 Hello. Welcome to HTML5 Tags and Structural Elements.
 
@@ -2192,7 +2192,7 @@ In this section (part 1), you learned:
 
 -   And the \<nav\> tags enable you to group navigational links.
 
-<h2>Module 3, Part II: HTML5 Input Element: Attributes for the Input Tag</h2>
+<h3 id="ch3-3">3.3 Module 3, Part II: HTML5 Input Element: Attributes for the Input Tag</h3>
 
 Hello. Welcome to HTML5 Input Element: Attributes for the Input Tag.
 
@@ -2416,7 +2416,7 @@ In this section (part 2), you learned:
 
 -   How to implement validation fallback.
 
-<h2>Module 3, Hands on Lab:</h2>
+<h3 id="ch3-4">3.4 Module 3, Hands on Lab:</h3>
 
 HANDS-ON LAB: HTML5
 
@@ -2435,7 +2435,7 @@ provision your lab environment.
 
 <h3>Start Lab</h3>
 
-<h2>Module 3: Summary</h2>
+<h3>3.5 Module 3: Summary</h3>
 
 In this module, you learned that:
 
@@ -2472,7 +2472,7 @@ In this module, you learned that:
 
     -   URL
 
-<h2>Module 4, Part I: JavaScript Programming for Web Applications</h2>
+<h2 id="ch4">Module 4, Part I: JavaScript Programming for Web Applications</h2>
 
 So now you have a website or Cloud App with structure and content from
 HTML, consistent style from CSS, and a limited amount of interactivity
@@ -2499,7 +2499,7 @@ After completing this module, you will be able to:
 
 -   List the common APIs used in JavaScript Applications.
 
-<h2>Module 4, Part I: JavaScript Language Overview & Syntax</h2>
+<h3 id-"ch4-2">4.2 Module 4, Part I: JavaScript Language Overview & Syntax</h3>
 
 Hello. Welcome to The JavaScript language, Overview and Syntax.
 
@@ -2781,9 +2781,9 @@ In this section (part 1), you learned:
 
     -   error objects.
 
-<h2>Module 4, Part II: JavaScript: Variables & Control Statements</h2>
+<h3 id="ch4-3">4.3 Module 4, Part II: JavaScript: Variables & Control Statements</h3>
 
-<h2><b>Hello. Welcome to JavaScript Variables and Control</b> Statements.</h2>
+<h3><b>Hello. Welcome to JavaScript Variables and Control</b> Statements.</h3>
 
 After reading this section (part 2), you will be able to:
 
@@ -3007,7 +3007,7 @@ statements, including:
 
 -   Repeat statements like for loops and while loops.
 
-<h2>Module 4, Part III: JavaScript: Functions & Prototypes</h2>
+<h3 id="ch4-4">4.4 Module 4, Part III: JavaScript: Functions & Prototypes</h3>
 
 Hello. Welcome to JavaScript Functions and Prototypes.
 
@@ -3165,7 +3165,7 @@ All existing instances of the Car object also inherit the getName
 method.
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------ 79.  (##) -------------------------->
+<!------------------------ 79. self-executing function (##) -------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="images/image079.png"
@@ -3210,7 +3210,7 @@ after they have been declared.
 
 The functions and variables are isolated from the rest of the script.
 
-<h2>Module 4, Part IV: JavaScript: Functions & Prototypes</h2>
+<h3 id="ch4-4">4.4 Module 4, Part IV: JavaScript: Functions & Prototypes</h3>
 
 Hello. Welcome to JavaScript Functions and Prototypes.
 
@@ -3237,20 +3237,20 @@ A function is made up of the following parts:
     statement that returns control back to whatever called the function.
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------ 80.  (##) -------------------------->
+<!-------------------------- 80. Functions: parts of a function (80) ----------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="images/image080.png"
-   alt=""
+   alt="Functions: Parts of a Function"
    width="65%" />
 &nbsp;
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------ 81.  (##) -------------------------->
+<!------------------------------ 81. creating custom objects (81) -------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="images/image081.png"
-   alt=""
+   alt="Creating Custom Objects"
    width="65%" />
 &nbsp;
 
@@ -3446,11 +3446,11 @@ Scripts can be used to dynamically create document elements on an HTML
 page.
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------ 86.  (##) -------------------------->
+<!-------------------------- 86. <script> tag examples: example 1 (90) --------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="images/image086.png"
-   alt=""
+   alt="<SCRIPT> tag example"
    width="65%" />
 &nbsp;
 
@@ -3463,11 +3463,11 @@ This method is good for short scripts, but when a script is long, the
 method used in example 2 is preferred.
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------ 87.  (##) -------------------------->
+<!-------------------------- 87. <script> tag examples: example 2 (90) --------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="images/image087.png"
-   alt=""
+   alt="<SCRIPT> tag example 2"
    width="65%" />
 &nbsp;
 
@@ -3481,7 +3481,7 @@ Some users who visit your website might disable JavaScript from running,
 or they might be using a browser that does not support scripting.
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------ 88.  (##) -------------------------->
+<!-------------------------- 88. when scripting is not available (91) ---------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="images/image088.png"
@@ -5392,11 +5392,14 @@ commands.
 &nbsp;
 </p>
 
-<h3>© IBM Corporation 2020. All rights reserved.</h3>
+<h4>© IBM Corporation 2020. All rights reserved.</h4>
 
-<h2>Module 5, Part VIII: SSH Key Creation</h2>
+<h3 id="ch5-11">Module 5, Part VIII: SSH Key Creation</h3>
 
 <h3>Generate an SSH key</h3>
+
+<!------------------------------------------------------------------------------------------------>
+<!----------------------------- 158. ibm skills network logo (153) ------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="images/image158.png" 
@@ -5460,14 +5463,14 @@ key.
 
 **ssh-add \~/.ssh/id_rsa**
 
-### 
+<h4>© IBM Corporation 2020. All rights reserved.</h4>
 
-<h3>© IBM Corporation 2020. All rights reserved.</h3>
-
-<h2>Module 5, Part IX: Adding an SSH Key to GitHub</h2>
+<h3 id="ch5-12">Module 5, Part IX: Adding an SSH Key to GitHub</h3>
 
 <h3>Lab: Adding an SSH key to GitHub</h3>
 
+<!------------------------------------------------------------------------------------------------>
+<!----------------------------- 158. ibm skills network logo (155) ------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="images/image158.png" 
@@ -5500,6 +5503,8 @@ command line and the copy the output.
     your profile image and select **Settings**.
 
 <!------------------------------------------------------------------------------------------------>
+<!--------------------------------- 177. github settings (156) ----------------------------------->
+<!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="images/image177.png" 
 	alt="Github Settings"
@@ -5511,6 +5516,8 @@ command line and the copy the output.
     shown in the following image:
 
 <!------------------------------------------------------------------------------------------------>
+<!--------------------------------- 178. ssh and gpg keys (156) ---------------------------------->
+<!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="images/image178.png" 
 	alt="SSH and GPG Keys"
@@ -5521,9 +5528,11 @@ command line and the copy the output.
 4.  Click **New SSH key**.
 
 <!------------------------------------------------------------------------------------------------>
+<!----------------------------------- 179. new ssh key (157) ------------------------------------->
+<!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="images/image179.png" 
-	alt="Add SSH Key"
+	alt="New SSH Key"
 	width="85%">
 &nbsp;
 </p>
@@ -5532,11 +5541,12 @@ command line and the copy the output.
     key that you copied in step 1, above. The pasted key should
     include **Your email address** at the end, as shown in the following
     image:
-
+<!------------------------------------------------------------------------------------------------>
+<!--------------------------------- 180. ssh keys/add new (157) ---------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="images/image180.png" 
-	alt="SSH key/Add New"
+	alt="SSH keys/Add New"
 	width="65%">
 &nbsp;
 </p>
@@ -5547,12 +5557,15 @@ command line and the copy the output.
 
 Congratulations! You have now learned how to add an SSH key to GitHub.
 
-<h3>© IBM Corporation 2020. All rights reserved.</h3>
+<h4>© IBM Corporation 2020. All rights reserved.</h4>
 
-<h2>Module 5, Part X: Using Git from Your Own Desktop</h2>
+<h3>Module 5, Part X: Using Git from Your Own Desktop</h3>
 
 <h3>Hands-on Lab: Cloning, committing and pushing your GitHub repo from the command line.</h3>
 
+<!------------------------------------------------------------------------------------------------>
+<!------------------------------- 158. ibm developer logo (158) ---------------------------------->
+<!------------------------------------------------------------------------------------------------>
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="images/image158.png" 
@@ -5604,7 +5617,9 @@ To clone a repo, you need the ssh url of the repo.
 4.  Click on the \'clipboard icon\' to copy the url. Paste this url
     where you can access it later.
 
-<!--------------------------------------- copy/paste url ----------------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<!---------------------------------- 181. copy/paste url (159) ----------------------------------->
+<!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="images/image181.png" 
 	alt="Copy/Paste URL"
@@ -5619,7 +5634,9 @@ To clone a repo, you need the ssh url of the repo.
 
 7.  Run the command \"git clone \"
 
-<!----------------------------------------- git clone -------------------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<!------------------------------------ 184. git clone (159) -------------------------------------->
+<!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="images/image182.png" 
 	alt="clone .git file"
@@ -5631,7 +5648,9 @@ To clone a repo, you need the ssh url of the repo.
 
 9.  You can see all the downloaded files under a directory named as your
     repo name.
-<!--------------------------------------- list directory ----------------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<!---------------------------------- 183. list directory (160) ----------------------------------->
+<!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="images/image183.png" 
 	alt="git clone"
@@ -5642,11 +5661,13 @@ To clone a repo, you need the ssh url of the repo.
 change to the simple_interest_calulator directory and list the files to
 verify all the files got downloaded
 
-<h2>Exercise 2: Make changes to cloned files</h2>
+<h3>Exercise 2: Make changes to cloned files</h3>
 
 Using your favorite editor make the changes to the html file.
 
-<!--------------------------------------- edit html ---------------------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<!---------------------------------- 184. edit the html (160) ------------------------------------>
+<!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="images/image184.png" 
 	alt="Edit the html"
@@ -5661,7 +5682,7 @@ Using your favorite editor make the changes to the html file.
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="images/image185.png" 
-	alt="git status"
+	alt="git Status"
 	width="65%">
 &nbsp;
 </p>
@@ -5718,12 +5739,12 @@ Run the command \"git push\"
 Log into your GitHub account and verify if the local changes have
 synched.
 
-<h2>Summary</h2>
+<h3>Summary</h3>
 
 In this lab, you have learned how to clone a GitHub repository, make
 changes to it, commit the changes locally, and push it back to GitHub.
 
-<h2 id="ch5-13">Module 5 Summary</h2>
+<h3 id="ch5-13">Module 5 Summary</h3>
 
 In this module, you learned that:
 
@@ -5750,7 +5771,7 @@ In this module, you learned that:
     -   Repository Administrator -- configures and maintains access to
         the repository
 
-<p><b><i>Last edited 04/23/2022 3:19pm</i></b></p>
+<p><b><i>Last edited 04/24/2022 5:14pm</i></b></p>
 
 ...the end.
 
