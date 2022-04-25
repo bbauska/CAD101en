@@ -2892,11 +2892,11 @@ Conditional statements are the set of commands that are used to perform
 different actions for different conditions:
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------ 69.  (##) -------------------------->
+<!---------------------------- 69. compound control statements (76) ------------------------------>
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="images/image069.png"
-   alt=""
+   alt="Compound Control Statements"
    width="65%" />
 &nbsp;
 
@@ -2929,11 +2929,11 @@ Having no block statement scope means that variables declared inside one
 IF condition can be used outside the scope of that condition.
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------ 70.  (##) -------------------------->
+<!--------------------------------- 70. swtich statement (77) ------------------------------------>
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="images/image070.png"
-   alt=""
+   alt="Switch Statement"
    width="65%" />
 &nbsp;
 
@@ -2961,11 +2961,11 @@ The break keyword is used to prevent the code from automatically falling
 into the next case clause.
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------ 71.  (##) -------------------------->
+<!------------------------------- 71. repeat with for loop (78) ---------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="images/image071.png"
-   alt=""
+   alt="Repeat with for loop"
    width="65%" />
 &nbsp;
 
@@ -2989,11 +2989,11 @@ If the loop does not terminate, control returns to the second step and
 the conditional expression is evaluated again.
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------ 72.  (##) -------------------------->
+<!------------------------------ 72. repeat with while loops (78) -------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="images/image072.png"
-   alt=""
+   alt="Repeat with while loops"
    width="65%" />
 &nbsp;
 
@@ -3529,11 +3529,11 @@ Scripts can be run on the detection of certain events that happen when
 the page is running in a browser session.
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------ 89.  (##) -------------------------->
+<!-------------------------- 89. scripts tied to intrinsic events (91) --------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="images/image089.png"
-   alt=""
+   alt="Scripts Tied to Intrinsic Events"
    width="65%" />
 &nbsp;
 
@@ -3549,11 +3549,11 @@ The event handler is a function that declares what to do when the button
 is clicked.
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------ 90.  (##) -------------------------->
+<!------------------------------ 90. event binding in scripts (92) ------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="images/image090.png"
-   alt=""
+   alt="Event Binding in Scripts"
    width="65%" />
 &nbsp;
 
@@ -3595,11 +3595,11 @@ After reading this section (part 6), you will be able to:
     applications for working with HTML documents.
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------ 91.  (##) -------------------------->
+<!----------------------------- 91. dom programming interface (93) ------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="images/image091.png"
-   alt=""
+   alt="DOM Programming Interface"
    width="65%" />
 &nbsp;
 
@@ -3614,11 +3614,11 @@ JavaScript uses the DOM to access and modify web page elements in the
 web browser.
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------ 92.  (##) -------------------------->
+<!------------------------------------- 92. dom levels (93) -------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="images/image092.png"
-   alt=""
+   alt="DOM Levels"
    width="65%" />
 &nbsp;
 
@@ -3629,11 +3629,11 @@ Each successive level provides a more detailed set of features for
 describing structured documents.
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------ 93.  (##) -------------------------->
+<!--------------------------- 93. basic dom model for browsers (94) ------------------------------>
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="images/image093.png"
-   alt=""
+   alt="Basic DOM Model for Browsers"
    width="65%" />
 &nbsp;
 
@@ -3648,11 +3648,11 @@ APIs to access HTML elements with the DOM.
 The JavaScript engine in most web browsers fully supports DOM level 1.
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------ 94.  (##) -------------------------->
+<!--------------------------- 93. basic dom model for browsers (94) ------------------------------>
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
-<img src="images/image094.png"
-   alt=""
+<img src="images/image093.png"
+   alt="Basic DOM Model for Browsers"
    width="65%" />
 &nbsp;
 
@@ -3697,14 +3697,13 @@ You can then access the window object properties and functions from your
 JavaScript code.
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------ 94.  (##) -------------------------->
+<!------------------------ 94. client-side window object (95) -------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="images/image094.png"
-   alt=""
+   alt="Client-Side Window Object"
    width="65%" />
 &nbsp;
-![](images/image093.png){width="5.0in" height="2.4396128608923884in"}
 
 In client-side JavaScript, the Window object serves as the global object
 and everything in the DOM takes place in a window.
@@ -3836,7 +3835,6 @@ After reading this section (part 7), you will be able to:
    alt=""
    width="65%" />
 &nbsp;
-![](images/image098.png){width="5.0in" height="2.4718186789151355in"}
 
 The W3C DOM level 2 defines 12 different types of nodes, seven of which
 have direct applicability in HTML documents.
@@ -3859,7 +3857,7 @@ An ELEMENT_NODE type is represented by the integer 1.
 <p align="center">
 <img src="/images/image099.png?raw=true" 
      alt="" 
-     width="400" >
+     width="65%" />
 &nbsp;
 
 An ATTRIBUTE_NODE type is represented by the integer 2.
@@ -3884,12 +3882,12 @@ node name of hash-sign-text, and the node value is the text string
 itself.
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------ .  (##) -------------------------->
+<!----------------------------- 101. dom level 2 properties (100) -------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
-<img src="/images/image100.png?raw=true" 
-     alt="" 
-     width="400" >
+<img src="/images/image101.png?raw=true" 
+     alt="DOM Level 2 Properties"
+     width="65%" />
 &nbsp;
 
 The table lists some of the DOM Level 2 node object properties and
@@ -3899,11 +3897,11 @@ You see these properties when you view a DOM tree for an HTML page in a
 browser's developer tools, like Chrome's DevTools.
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------ .  (##) -------------------------->
+<!------------------------- 102. accessing document elements #1 (100) ---------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
-<img src="/images/image101.png?raw=true" 
-   alt=""
+<img src="/images/image102.png?raw=true" 
+   alt="Accessing Document Elements"
    width="65%" />
 &nbsp;
 
@@ -3922,24 +3920,24 @@ elements\[\] with each index element being the fields or buttons that
 occur in that form.
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------ .  (##) -------------------------->
+<!------------------------- 103. accessing document elements #2 (101) ---------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
-<img src="/images/image102.png?raw=true" 
-     alt="" 
-     width="500" >
+<img src="/images/image103.png?raw=true" 
+   alt="Accessing Document Elements"
+   width="65%" />
 &nbsp;
 
 You can reference the element named field1 in the figure by its relative
 position as document.forms\[0\].elements\[0\].
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------ .  (##) -------------------------->
+<!------------------------- 104. accessing document elements #3 (101) ---------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
-<img src="/images/image103.png?raw=true" 
-     alt="" 
-     width="500" >
+<img src="/images/image104.png?raw=true" 
+   alt="Accessing Document Elements"
+   width="65%" />
 &nbsp;
 
 You can reference the same field with named elements; for example,
@@ -3947,12 +3945,12 @@ document.forms\[\"form1\"\].elements\[\"field1\"\], or even the
 shortened document.form1.field1.
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------ .  (##) -------------------------->
+<!------------------------- 105. accessing document elements #4 (102) ---------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
-<img src="/images/image104.png?raw=true" 
-     alt="" 
-     width="500" >
+<img src="/images/image105.png?raw=true"
+   alt="Accessing Document Elements"
+   width="65%" />
 &nbsp;
 
 Since only one document can be contained in a window, shown by the
@@ -3968,10 +3966,10 @@ In order to assign a scriptable reference name to an HTML element with
 the id attribute, use the following conventions:
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------ 106. object naming (102) -------------------------->
+<!---------------------------------- 106. object naming (102) ------------------------------------>
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
-<img src="/images/image106.png?raw=true" 
+<img src="/images/image106.png?raw=true"
      alt="Object Nameing"
      width="65%" />
 &nbsp;
@@ -4799,7 +4797,7 @@ You can choose to create a repository or an organization, or you can
 take the Introduction to GitHub course.
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------- 134. create a repository (125) --------------------->
+<!------------------------------- 134. create a repository (125) --------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image134.png?raw=true" 
@@ -4836,7 +4834,7 @@ accounts that have permission to see it) or public (searchable and seen
 by everyone).
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------- 135. exploring your repository (126) --------------------->
+<!---------------------------- 135. exploring your repository (126) ------------------------------>
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image135.png?raw=true" 
@@ -4900,9 +4898,13 @@ After reading this section (part 4), you will be able to:
 All files in GitHub are stored on a branch.
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------- 135. exploring your repository (1##) --------------------->
+<!------------------------------- 136. what are branches? (127) ---------------------------------->
 <!------------------------------------------------------------------------------------------------>
-![](images/image135.png){width="5.0in" height="2.4879232283464567in"}
+<p align="center">
+<img src="/images/image136.png?raw=true"
+   alt="What are Branches?"
+   width="65%" />
+&nbsp;
 
 The master branch is definitive; it stores the deployable version of
 your code.
@@ -4918,9 +4920,13 @@ The new branch starts as an exact copy of the original branch.
 As you make changes, the branch that you created holds the changed code.
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------- 136.  (1##) --------------------->
+<!----------------------------- 137. how to create a branch (128) -------------------------------->
 <!------------------------------------------------------------------------------------------------>
-![](images/image136.png){width="5.0in" height="2.4879232283464567in"}
+<p align="center">
+<img src="/images/image137.png?raw=true"
+   alt="How to Create a Branch"
+   width="65%" />
+&nbsp;
 
 To create a new branch, click drop-down branch: master
 
@@ -4945,9 +4951,13 @@ as a tip.
 and the two tips are merged into a third, combined branch.
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------- 137.  (1##) --------------------->
+<!-------------------------------- 138. merging branches (128) ----------------------------------->
 <!------------------------------------------------------------------------------------------------>
-![](images/image137.png){width="5.0in" height="2.4879232283464567in"}
+<p align="center">
+<img src="/images/image138.png?raw=true" 
+   alt="Merging Branches"
+   width="65%" />
+&nbsp;
 
 Developers work on source files in a branch. Since some projects take a
 while, the source doesn't make sense right away.
@@ -4987,9 +4997,13 @@ Some rules:
 -   Always write in an "active" voice.
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------- 138.  (1##) --------------------->
+<!----------------------------- 139. what is a pull request? (129) ------------------------------->
 <!------------------------------------------------------------------------------------------------>
-![](images/image138.png){width="5.0in" height="2.4879232283464567in"}
+<p align="center">
+<img src="/images/image139.png?raw=true"
+   alt="What is a Pull Request?"
+   width="65%" />
+&nbsp;
 
 Pull is used to initiate the merging of branches in a way to capture
 changes.
@@ -5011,9 +5025,13 @@ person who approved the merge of the change.
 To open a new pull request:
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------- 139.  (1##) --------------------->
+<!------------------------- 140. open a pull request (130) --------------------->
 <!------------------------------------------------------------------------------------------------>
-![](images/image139.png){width="5.0in" height="2.53623031496063in"}
+<p align="center">
+<img src="/images/image140.png?raw=true"
+   alt="Open a Pull Request"
+   width="65%" />
+&nbsp;
 
 Click Pull request and select New pull request.
 
@@ -5042,9 +5060,13 @@ The code is reviewed and approved.
 The approved code is merged back into the master code.
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------- 140.  (1##) --------------------->
+<!------------------------- 141. merged into the master branch  (131) --------------------->
 <!------------------------------------------------------------------------------------------------>
-![](images/image140.png){width="5.0in" height="2.447665135608049in"}
+<p align="center">
+<img src="/images/image141.png?raw=true"
+   alt="Merging into the Master Branch"
+   width="65%" />
+&nbsp;
 
 To merge a committed code change into your master code.
 
@@ -5053,9 +5075,13 @@ Click Merge pull request.
 Click Confirm merge.
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------- 141.  (1##) --------------------->
+<!------------------------------ 142. merge a pull request (131) --------------------------------->
 <!------------------------------------------------------------------------------------------------>
-![](images/image141.png){width="5.0in" height="2.447665135608049in"}
+<p align="center">
+<img src="/images/image142.png?raw=true"
+   alt="Merge a Pull Request"
+   width="65%" />
+&nbsp;
 
 When all changes for a branch are complete, that branch is considered
 obsolete and it should be deleted.
@@ -5085,10 +5111,13 @@ When you are ready to merge the changed code into the master branch, you
 merge the committed code changes into your master code.
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------- 142.  (1##) --------------------->
+<!------------------------------------- 143. summary (132) --------------------------------------->
 <!------------------------------------------------------------------------------------------------>
-![](images/image142.png){width="5.034096675415573in"
-height="2.464355861767279in"}
+<p align="center">
+<img src="/images/image143.png?raw=true"
+   alt="Summary"
+   width="65%" />
+&nbsp;
 
 <h3 id="ch5-7">5.7 Hands-On Lab: Branching and Merging (Web UI)</h3>
 
@@ -6109,7 +6138,7 @@ In this module, you learned that:
     -   Repository Administrator -- configures and maintains access to
         the repository
 
-<p><b><i>Last edited 04/25/2022 1:02pm</i></b></p>
+<p><b><i>Last edited 04/25/2022 3:17pm</i></b></p>
 
 ...the end.
 
