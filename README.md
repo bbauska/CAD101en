@@ -122,6 +122,10 @@ After completing this course, you will be able to:
 
 **[`^        back to table of contents        ^`](#table-of-contents)**
 
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
+
 <h2 id="ch1">Ch 1: Introduction to Programming for the Cloud</h2>
 <h3>Learning Objectives</h3>
 
@@ -151,6 +155,9 @@ Github}** (CAD101EN)
 	width="65%" />
 &nbsp;
 </p>
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
 Want to take the first steps to become a Cloud Application Developer?
 This course will lead you through the languages and tools you will need
@@ -200,6 +207,9 @@ After completing this module, you will be able to:
 	alt="Overview of Cloud and Web Development by IBM - Skills Network"
 	width="65%" />
 &nbsp;
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
 <h3 id="ch1-2">1.2 Module 1, Part I: Overview of Web and Cloud Development</h3>
 
@@ -256,13 +266,13 @@ Cloud services, making them very scalable and very resilient.
 The environment for building websites and Cloud Applications is divided
 into two primary areas:
 
-1.  The **[front-end]{.underline}** deals with everything that happens
+1.  The **front-end** deals with everything that happens
     at the client-side -- everything the user can see and interact with.
 
 You can choose to specialize in front-end coding, using HTML, CSS,
 JavaScript and related frameworks, libraries, and tools.
 
-2.  The **[back-end]{.underline}** deals with everything that happens on
+2.  The **back-end** deals with everything that happens on
     the server before the code and data are sent to the client.
 
 The back-end coding usually handles the logic and functionality that
@@ -309,6 +319,10 @@ In this brief overview, you learned about:
     development,
 
 -   IDEs will help you create and manage your code.
+
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
 <h3 id="ch1-3">1.3 Module 1, Part II: Learning Front-End Development</h3>
 
@@ -448,6 +462,10 @@ needs to keep upgrading the websites that they create.
 
 The websites that they create should work in multiple browsers, multiple
 operating systems and multiple devices.
+
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
 <h3 id="ch1-4">1.4 Module 1, Part III: Introducing Application Development Tools</h3>
 
@@ -937,6 +955,10 @@ In this module, you learned that:
 
 -   Frameworks and libraries extend the functionality of coding
     languages such as JavaScript and Python.
+
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
 <h2 id="ch2">Module 2: Introduction and Learning Objectives</h2>
 
@@ -1945,6 +1967,10 @@ In this module (2), you learned that:
 
 -   CSS provides a consistent style and design throughout the website.
 
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
+
 <h2 id="ch3">Module 3: Introduction and Learning Objectives</h2>
 
 HTML5 has many elements that enable developers to create well-structured
@@ -2471,6 +2497,10 @@ In this module, you learned that:
     -   Search
 
     -   URL
+
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
 <h2 id="ch4">Module 4, Part I: JavaScript Programming for Web Applications</h2>
 
@@ -3034,7 +3064,7 @@ The last statement in a function block is the optional return statement
 that returns control back to whatever called the function.
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------ 73. Functions: Parts of a Function (80) -------------------------->
+<!-------------------------- 73. Functions: Parts of a Function (80) ----------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="images/image073.png"
@@ -3066,7 +3096,7 @@ If the values can be interpreted as numbers, they are added.
 If they can be interpreted as strings, they are concatenated.
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------ 74. Creating Custom Objects (81) -------------------------->
+<!------------------------------ 74. Creating Custom Objects (81) -------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="images/image074.png"
@@ -3090,7 +3120,7 @@ The getName function of Car returns the make, model, and year of the
 newly created Car object.
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------ 75. Creating custom Objects (81) -------------------------->
+<!------------------------------ 75. Creating custom Objects (81) -------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="images/image075.png"
@@ -3102,7 +3132,7 @@ By using prototypes, you can easily define properties and methods for
 all instances of a particular object.
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------ 76. Prototypes (82) -------------------------->
+<!------------------------------------ 76. Prototypes (82) --------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="images/image076.png"
@@ -3117,7 +3147,7 @@ All object constructors create objects that inherit the properties and
 methods that are defined by the prototype for that object.
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------ 77. Prototypes (82) -------------------------->
+<!------------------------------------ 77. Prototypes (82) --------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="images/image077.png"
@@ -3145,7 +3175,7 @@ created, automatically inherits the new floor_model property and its
 value.
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------ 78. Adding functions to prototypes (83) -------------------------->
+<!-------------------------- 78. Adding functions to prototypes (83) ----------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="images/image078.png"
@@ -3938,12 +3968,12 @@ In order to assign a scriptable reference name to an HTML element with
 the id attribute, use the following conventions:
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------ .  (##) -------------------------->
+<!------------------------ 106. object naming (102) -------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
-<img src="/images/image105.png?raw=true" 
-     alt="" 
-     width="500" >
+<img src="/images/image106.png?raw=true" 
+     alt="Object Nameing"
+     width="65%" />
 &nbsp;
 
 The id must be a unique name in the document.
@@ -3990,12 +4020,12 @@ Instead, the remainder of the unit focuses on script functions and
 properties that are commonly used when working with HTML pages.
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------ .  (##) -------------------------->
+<!----------------------------------- 107. common apis (103) ------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
-<img src="/images/image106.png?raw=true" 
-     alt="" 
-     width="500" >
+<img src="/images/image107.png?raw=true" 
+     alt="Common APIs"
+     width="65%" />
 &nbsp;
 
 Some of these common APIs used in when accessing HTML DOM elements in
@@ -4004,12 +4034,12 @@ web pages are seen on the slide.
 DOM elements are reviewed next.
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------ .  (##) -------------------------->
+<!------------------------- 108. retrieving a reference to a node (104) -------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
-<img src="/images/image107.png?raw=true" 
-     alt="" 
-     width="500" >
+<img src="/images/image108.png?raw=true"
+     alt="Retrieving a Reference to a Node"
+     width="65%" />
 &nbsp;
 
 To retrieve a node reference for an element of a document given an id,
@@ -4034,12 +4064,12 @@ If you run the function getElementsByTagName with a "p" as a parameter
 argument, a NodeList of all the paragraphs in the document is returned.
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------ .  (##) -------------------------->
+<!-------------------------- 109. example: retrieving all images (104) --------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
-<img src="/images/image108.png?raw=true" 
-     alt="" 
-     width="500" >
+<img src="/images/image109.png?raw=true" 
+     alt="Example: Retrieving All Images"
+     width="65%" />
 &nbsp;
 
 This example shows how you can retrieve all the image elements from a
@@ -4064,12 +4094,12 @@ After creating the element, you can use any of a number of functions to
 place the element in the appropriate location within the document.
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------- 109.  (1##) --------------------->
+<!------------------------- 110. adding new nodes (105) --------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
-<img src="/images/image109.png?raw=true" 
-   alt="" 
-   width="50%" />
+<img src="/images/image110.png?raw=true"
+   alt="Adding New Nodes"
+   width="65%" />
 &nbsp;
 
 Examples of these functions include the insertBefore, appendChild, or
@@ -4077,12 +4107,12 @@ replaceChild function that can be used to add the newly created element
 into the document.
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------- 110.  (1##) --------------------->
+<!----------------------------- 111. example: adding a node (106) -------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
-<img src="/images/image110.png?raw=true" 
-   alt="" 
-   width="50%" />
+<img src="/images/image111.png?raw=true"
+   alt="Example: Adding a Node"
+   width="65%" />
 &nbsp;
 
 This example shows the source code for adding a node to a document.
@@ -4098,12 +4128,12 @@ the end of the
 body node of the HTML page.
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------- 111.  (1##) --------------------->
+<!-------------------------- 112. modifying an elements content (106) ---------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
-<img src="/images/image111.png?raw=true" 
-   alt="" 
-   width="50%" />
+<img src="/images/image112.png?raw=true"
+   alt="Modifying an Elements Content"
+   width="65%" />
 &nbsp;
 
 The function element.innerHTML retrieves or sets the contents of an HTML
@@ -4130,11 +4160,11 @@ element.style.propertyName = value.
 For example, if you had an element \<div style=\"color:blue\"\>.
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------- 112.  (1##) --------------------->
+<!---------------------------- 113. modifying the inline style (107) ----------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
-<img src="/images/image112.png?raw=true" 
-   alt="" 
+<img src="/images/image113.png?raw=true" 
+   alt="Modifying the inline style"
    width="65%" />
 &nbsp;
 
@@ -4145,11 +4175,11 @@ JavaScript statement:
 div.style.color = \'red\';
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------- 113.  (1##) --------------------->
+<!---------------------------- 114. modifying the inline style (108) ----------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
-<img src="/images/image113.png?raw=true" 
-   alt="" 
+<img src="/images/image114.png?raw=true" 
+   alt="Modifying the inline style #2"
    width="65%" />
 &nbsp;
 
@@ -4159,11 +4189,11 @@ previously set inline CSS
 styles.
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------- 114.  (1##) --------------------->
+<!------------------------------- 115. modifying attributes (108) -------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
-<img src="/images/image114.png?raw=true" 
-   alt="" 
+<img src="/images/image115.png?raw=true" 
+   alt="Modifying Attributes"
    width="65%" />
 &nbsp;
 
@@ -4180,22 +4210,22 @@ The function element.getAttribute(attrName) retrieves the value of the
 specified attribute in the element, if it exists.
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------- 115.  (1##) --------------------->
+<!------------------------- 116. window object methods and events (109) -------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
-<img src="/images/image115.png?raw=true" 
-     alt="" 
+<img src="/images/image116.png?raw=true" 
+     alt=""Window Object Methods and Events" 
      width="65%" />
 &nbsp;
 
 Here are some window object functions and events.
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------- 116.  (1##) --------------------->
+<!---------------------- 117.  window object methods and events #2 (109) ------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
-<img src="/images/image116.png?raw=true" 
-   alt="" 
+<img src="/images/image117.png?raw=true" 
+   alt="Window Object methods and events"
    width="65%" />
 &nbsp;
 
@@ -4236,11 +4266,11 @@ Finally, the window.scrollTo(x-value, y-value) scrolls the web browser
 to a particular set of coordinates on a page.
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------- 117.  (1##) --------------------->
+<!-------------------------- 118. example: using window.onload (110) ----------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
-<img src="/images/image117.png?raw=true" 
-     alt="" 
+<img src="/images/image118.png?raw=true"
+     alt="Example: Using window.onload"
      width="65%" />
 &nbsp;
 
@@ -4248,11 +4278,11 @@ The onload event handler runs in the current window after the document
 loads the web page.
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------- 118.  (1##) --------------------->
+<!------------------------------------- 119. summary (111) --------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
-<img src="/images/image118.png?raw=true" 
-   alt="" 
+<img src="/images/image119.png?raw=true" 
+   alt="Summary"
    width="65%" />
 &nbsp;
 
@@ -4371,11 +4401,11 @@ You can't talk about Git and GitHub without a basic understanding of
 what version control is. 
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------- 119.  (1##) --------------------->
+<!---------------------------------- 120. version control (113) ---------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
-<img src="/images/image119.png?raw=true" 
-   alt="" 
+<img src="/images/image120.png?raw=true" 
+   alt="Version Control"
    width="65%" />
 &nbsp;
 
@@ -4386,11 +4416,11 @@ This makes it easy for you to recover older versions of your document if
 you make a mistake, and it makes collaboration with others much easier. 
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------- 120.  (1##) --------------------->
+<!------------------------- 121. working without version control (114) --------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
-<img src="/images/image120.png?raw=true" 
-   alt="" 
+<img src="/images/image121.png?raw=true" 
+   alt="Working Without Version Control"
    width="65%" />
 &nbsp;
 
@@ -4403,11 +4433,11 @@ Without version control, you've got a big mess to clean up before you
 can go shopping. 
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------- 121.  (1##) --------------------->
+<!-------------------------- 122. working with version control (114) ----------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
-<img src="/images/image121.png?raw=true" 
-   alt=""
+<img src="/images/image122.png?raw=true" 
+   alt="Working with Version Control"
    width="65%" />
 &nbsp;
 
@@ -6079,7 +6109,7 @@ In this module, you learned that:
     -   Repository Administrator -- configures and maintains access to
         the repository
 
-<p><b><i>Last edited 04/24/2022 8:02pm</i></b></p>
+<p><b><i>Last edited 04/25/2022 1:02pm</i></b></p>
 
 ...the end.
 
