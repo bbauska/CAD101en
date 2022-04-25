@@ -2390,7 +2390,7 @@ What happens if browser-based validation is not supported for these
 input attributes?
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------ 57.  (##) -------------------------->
+<!------------------------ 57. validation fallback (65) -------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="images/image057.png"
@@ -2435,7 +2435,7 @@ provision your lab environment.
 
 <h3>Start Lab</h3>
 
-<h3>3.5 Module 3: Summary</h3>
+<h3 id="ch3-5">3.5 Module 3: Summary</h3>
 
 In this module, you learned that:
 
@@ -2508,11 +2508,11 @@ After reading this section (part 1), you will be able to:
 -   Describe JavaScript primitives and objects.
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------ 58. git push (##) -------------------------->
+<!----------------------------- 58. the nature of javascript (67) -------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="images/image058.png"
-   alt=""
+   alt="The Nature of JavaScript"
    width="65%" />
 &nbsp;
 
@@ -2587,11 +2587,11 @@ The primitive types number, string, and boolean can be wrapped by their
 object counterparts.
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------ 59.  (##) -------------------------->
+<!---------------------------------- 59. wrapper objects (69) ------------------------------------>
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="images/image059.png"
-   alt=""
+   alt="Wrapper Objects: Start with an Uppercase"
    width="65%" />
 &nbsp;
 
@@ -2606,11 +2606,11 @@ The wrapper objects use special methods such as the *valueOf* and
 *toString* methods to convert between objects and primitive literals.
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------ 60.  (##) -------------------------->
+<!--------------------------- 60. examples with wrapper objects (69) ----------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="images/image060.png"
-   alt=""
+   alt="Examples with Wrapper Objects"
    width="65%" />
 &nbsp;
 
@@ -2626,11 +2626,11 @@ This object can be converted to a primitive string type by calling the
 valueOf function on the object wrapper class.
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------ 61.  (##) -------------------------->
+<!--------------------------------- 61. array objects defined (70) ------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="images/image061.png"
-   alt=""
+   alt="Arrays are specialized collection objects"
    width="65%" />
 &nbsp;
 
@@ -2646,11 +2646,11 @@ The length property holds the number of elements that occur in the
 array.
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------ 62.  (##) -------------------------->
+<!------------------------------ 62. declaring array objects (70) -------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="images/image062.png"
-   alt=""
+   alt="Declaring Array Objects"
    width="65%" />
 &nbsp;
 
@@ -2667,11 +2667,11 @@ You then assign the array to a variable, as seen in the last example on
 the slide.
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------ 63.  (##) -------------------------->
+<!------------------------------------ 63. date objects (71) ------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="images/image063.png"
-   alt=""
+   alt="Date Objects"
    width="65%" />
 &nbsp;
 
@@ -2692,11 +2692,11 @@ The result that is displayed is a string version of the date as shown on
 this slide.
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------ 64.  (##) -------------------------->
+<!------------------------------------ 64. date objects (72) ------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="images/image064.png"
-   alt=""
+   alt="Date Objects #2"
    width="65%" />
 &nbsp;
 
@@ -2710,11 +2710,11 @@ As with other object-oriented languages, JavaScript creates error object
 instances when an exception occurs.
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------ 65.  (##) -------------------------->
+<!------------------------------------ 65. error objects (72) ------------------------------------>
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="images/image065.png"
-   alt=""
+   alt="Error Objects"
    width="65%" />
 &nbsp;
 
@@ -2734,11 +2734,11 @@ JavaScript, three of which are shown on the slide.
 The other three are EvalError, ReferenceError, and SyntaxError.
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------ 66.  (##) -------------------------->
+<!--------------------------------- 66. custom error types (73) ---------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="images/image066.png"
-   alt=""
+   alt="Custom Error Types"
    width="65%" />
 &nbsp;
 
@@ -2795,11 +2795,11 @@ Variables are declared with the var keyword followed by the variable
 name, as in the example, var age,
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------ 67.  (##) -------------------------->
+<!------------------------------- 67. a primer on variables (74) --------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="images/image067.png"
-   alt=""
+   alt="A Primer on Variables"
    width="65%" />
 &nbsp;
 
@@ -2810,11 +2810,11 @@ You can assign a value to the variable at a later time, or reassign the
 value of a variable,
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------ 68.  (##) -------------------------->
+<!----------------------------- 68.  a primer on variables #2 (75) ------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="images/image068.png"
-   alt=""
+   alt="A Primer on Variables #2"
    width="65%" />
 &nbsp;
 
@@ -3398,7 +3398,7 @@ In this section (part 4), you learned:
 -   The functions and variables are isolated from the rest of the
     script.
 
-<h2>Module 4, Part V: Client-Side JavaScript: with HTML</h2>
+<h3 id="ch4-5">4.5 Module 4, Part V: Client-Side JavaScript: with HTML</h3>
 
 Hello. Welcome to Client-side JavaScript.
 
@@ -3551,7 +3551,7 @@ It may even be embedded into the HTML itself.
 For example, the onload event can run a script when the browser finishes
 loading a page.
 
-<h2>Module 4, Part VI: Client-Side JavaScript: with DOM</h2>
+<h3 id="ch4-6">4.6 Module 4, Part VI: Client-Side JavaScript: with DOM</h3>
 
 Hello. Welcome to Client-side JavaScript.
 
@@ -3666,6 +3666,14 @@ for you.
 You can then access the window object properties and functions from your
 JavaScript code.
 
+<!------------------------------------------------------------------------------------------------>
+<!------------------------ 94.  (##) -------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center">
+<img src="images/image094.png"
+   alt=""
+   width="65%" />
+&nbsp;
 ![](images/image093.png){width="5.0in" height="2.4396128608923884in"}
 
 In client-side JavaScript, the Window object serves as the global object
@@ -3685,11 +3693,27 @@ This figure shows the object model for a simple HTML document.
 Notice how the object hierarchy matches the HTML containment hierarchy
 on the left.
 
+<!------------------------------------------------------------------------------------------------>
+<!------------------------ 94.  (##) -------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center">
+<img src="images/image094.png"
+   alt=""
+   width="65%" />
+&nbsp;
 ![](images/image094.png){width="5.0in" height="2.4396128608923884in"}
 
 The object diagram can also be represented as a tree structure that
 corresponds to the structure of the HTML document.
 
+<!------------------------------------------------------------------------------------------------>
+<!------------------------ 94.  (##) -------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center">
+<img src="images/image094.png"
+   alt=""
+   width="65%" />
+&nbsp;
 ![](images/image095.png){width="5.0in" height="2.4396128608923884in"}
 
 The branches of the tree structure are termed nodes.
@@ -3702,6 +3726,14 @@ All HTML tags (html, head, meta, title, and body) are element nodes.
 The nodes that contain actual text that go between an element start tag
 and end tag, are text nodes.
 
+<!------------------------------------------------------------------------------------------------>
+<!------------------------ 94.  (##) -------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center">
+<img src="images/image094.png"
+   alt=""
+   width="65%" />
+&nbsp;
 ![](images/image096.png){width="5.0in" height="2.4396128608923884in"}
 
 The figure shows the DOM level 2 tree for the FORM portion of the
@@ -3710,6 +3742,14 @@ document.
 The line feeds between elements are text nodes and are part of the DOM
 level 2 tree.
 
+<!------------------------------------------------------------------------------------------------>
+<!------------------------ 94.  (##) -------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center">
+<img src="images/image094.png"
+   alt=""
+   width="65%" />
+&nbsp;
 ![](images/image097.png){width="5.0in" height="2.3913046806649167in"}
 
 The DOM level 2 tree includes a line feed text node before the paragraph
@@ -3749,7 +3789,7 @@ document object provides access to all HTML elements within a page.
     variety of documents, from plain HTML documents for web pages, to
     more complex forms.
 
-<h2>Module 4, Part VII: JavaScript DOM Objects</h2>
+<h3 id="ch4-7">4.7 Module 4, Part VII: JavaScript DOM Objects</h3>
 
 Hello. Welcome to JavaScript Dom Objects
 
@@ -3758,6 +3798,14 @@ After reading this section (part 7), you will be able to:
 -   Identify the DOM objects that are commonly used in JavaScript
     applications for working with HTML documents.
 
+<!------------------------------------------------------------------------------------------------>
+<!------------------------ 94.  (##) -------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center">
+<img src="images/image094.png"
+   alt=""
+   width="65%" />
+&nbsp;
 ![](images/image098.png){width="5.0in" height="2.4718186789151355in"}
 
 The W3C DOM level 2 defines 12 different types of nodes, seven of which
@@ -3775,6 +3823,9 @@ For example:
 
 An ELEMENT_NODE type is represented by the integer 1.
 
+<!------------------------------------------------------------------------------------------------>
+<!------------------------ .  (##) -------------------------->
+<!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image099.png?raw=true" 
      alt="" 
@@ -3802,6 +3853,9 @@ If a paragraph element is followed by some text, the text string has a
 node name of hash-sign-text, and the node value is the text string
 itself.
 
+<!------------------------------------------------------------------------------------------------>
+<!------------------------ .  (##) -------------------------->
+<!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image100.png?raw=true" 
      alt="" 
@@ -3814,10 +3868,13 @@ corresponding data types.
 You see these properties when you view a DOM tree for an HTML page in a
 browser's developer tools, like Chrome's DevTools.
 
+<!------------------------------------------------------------------------------------------------>
+<!------------------------ .  (##) -------------------------->
+<!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image101.png?raw=true" 
-     alt="" 
-     width="400" >
+   alt=""
+   width="65%" />
 &nbsp;
 
 How do you access the elements on an HTML page with the DOM API?
@@ -3834,6 +3891,9 @@ Each of the array types, such as forms\[\], contains an array of
 elements\[\] with each index element being the fields or buttons that
 occur in that form.
 
+<!------------------------------------------------------------------------------------------------>
+<!------------------------ .  (##) -------------------------->
+<!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image102.png?raw=true" 
      alt="" 
@@ -3843,6 +3903,9 @@ occur in that form.
 You can reference the element named field1 in the figure by its relative
 position as document.forms\[0\].elements\[0\].
 
+<!------------------------------------------------------------------------------------------------>
+<!------------------------ .  (##) -------------------------->
+<!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image103.png?raw=true" 
      alt="" 
@@ -3853,6 +3916,9 @@ You can reference the same field with named elements; for example,
 document.forms\[\"form1\"\].elements\[\"field1\"\], or even the
 shortened document.form1.field1.
 
+<!------------------------------------------------------------------------------------------------>
+<!------------------------ .  (##) -------------------------->
+<!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image104.png?raw=true" 
      alt="" 
@@ -3871,6 +3937,9 @@ element with a name that matches the value of the id attribute.
 In order to assign a scriptable reference name to an HTML element with
 the id attribute, use the following conventions:
 
+<!------------------------------------------------------------------------------------------------>
+<!------------------------ .  (##) -------------------------->
+<!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image105.png?raw=true" 
      alt="" 
@@ -3898,7 +3967,7 @@ In this section (part 7), you learned:
 
 -   Objects can be named to make accessing them from the script easier.
 
-<h2>Module 4, Part VIII: JavaScript APIs</h2>
+<h3 id="ch4-8">4.8 Module 4, Part VIII: JavaScript APIs</h3>
 
 Hello. Welcome to JavaScript APIs.
 
@@ -3920,6 +3989,9 @@ detail for one unit.
 Instead, the remainder of the unit focuses on script functions and
 properties that are commonly used when working with HTML pages.
 
+<!------------------------------------------------------------------------------------------------>
+<!------------------------ .  (##) -------------------------->
+<!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image106.png?raw=true" 
      alt="" 
@@ -3931,6 +4003,9 @@ web pages are seen on the slide.
 
 DOM elements are reviewed next.
 
+<!------------------------------------------------------------------------------------------------>
+<!------------------------ .  (##) -------------------------->
+<!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image107.png?raw=true" 
      alt="" 
@@ -3958,6 +4033,9 @@ tag.
 If you run the function getElementsByTagName with a "p" as a parameter
 argument, a NodeList of all the paragraphs in the document is returned.
 
+<!------------------------------------------------------------------------------------------------>
+<!------------------------ .  (##) -------------------------->
+<!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image108.png?raw=true" 
      alt="" 
@@ -4057,7 +4135,7 @@ For example, if you had an element \<div style=\"color:blue\"\>.
 <p align="center">
 <img src="/images/image112.png?raw=true" 
    alt="" 
-   width="40%" />
+   width="65%" />
 &nbsp;
 
 Here the \<div\> tag is used to group block-elements to format them with
@@ -4072,7 +4150,7 @@ div.style.color = \'red\';
 <p align="center">
 <img src="/images/image113.png?raw=true" 
    alt="" 
-   width="40%" />
+   width="65%" />
 &nbsp;
 
 In contrast, the element.setAttribute(\'style\', ...) wipes out all
@@ -4086,7 +4164,7 @@ styles.
 <p align="center">
 <img src="/images/image114.png?raw=true" 
    alt="" 
-   width="40%" />
+   width="65%" />
 &nbsp;
 
 The function element.setAttribute with parameters(attrName, attrValue)
@@ -4107,7 +4185,7 @@ specified attribute in the element, if it exists.
 <p align="center">
 <img src="/images/image115.png?raw=true" 
      alt="" 
-     width="40%" />
+     width="65%" />
 &nbsp;
 
 Here are some window object functions and events.
@@ -4118,7 +4196,7 @@ Here are some window object functions and events.
 <p align="center">
 <img src="/images/image116.png?raw=true" 
    alt="" 
-   width="40%" />
+   width="65%" />
 &nbsp;
 
 To open a new browser window, use the window.open() function.
@@ -4163,7 +4241,7 @@ to a particular set of coordinates on a page.
 <p align="center">
 <img src="/images/image117.png?raw=true" 
      alt="" 
-     width="40%" />
+     width="65%" />
 &nbsp;
 
 The onload event handler runs in the current window after the document
@@ -4175,7 +4253,7 @@ loads the web page.
 <p align="center">
 <img src="/images/image118.png?raw=true" 
    alt="" 
-   width="40%" />
+   width="65%" />
 &nbsp;
 
 In the example, the onload event causes an anonymous function to run.
@@ -4220,7 +4298,7 @@ you to work with HTML elements and nodes.
 
 Window Object Methods & Events
 
-<h2>Module 4 -- Summary</h2>
+<h3 id="ch4-10">4.10 Module 4 -- Summary</h3>
 
 In this module, you learned that:
 
@@ -4244,7 +4322,7 @@ In this module, you learned that:
 
 -   APIs are often used to access HTML DOM elements in web pages.
 
-<h2>Module 5 -- GitHub / Module Introduction & Learning Objectives</h2>
+<h2 id="ch5">Module 5 -- GitHub / Module Introduction & Learning Objectives</h2>
 
 <h3>GitHub</h3>
 
@@ -4282,7 +4360,7 @@ After completing this module, you will be able to: 
 
 -   List the roles common in large projects. 
 
-<h2>Module 5 -- GitHub: Overview of Git/GitHub</h2>
+<h3 id="ch5-13">Module 5 -- GitHub: Overview of Git/GitHub</h3>
 
 In this module, you'll get an overview of Git and GitHub, which are
 popular environments among developers and data scientists for performing
@@ -4298,7 +4376,7 @@ what version control is. 
 <p align="center">
 <img src="/images/image119.png?raw=true" 
    alt="" 
-   width="40%" />
+   width="65%" />
 &nbsp;
 
 A version control system allows you to keep track of changes to your
@@ -4313,7 +4391,7 @@ you make a mistake, and it makes collaboration with others much easier. 
 <p align="center">
 <img src="/images/image120.png?raw=true" 
    alt="" 
-   width="40%" />
+   width="65%" />
 &nbsp;
 
 Here is an example to illustrate how version control works. 
@@ -4330,19 +4408,19 @@ can go shopping. 
 <p align="center">
 <img src="/images/image121.png?raw=true" 
    alt=""
-   width="40%" />
+   width="65%" />
 &nbsp;
 
 With version control, you know EXACTLY what you need after everyone has
 contributed their ideas. 
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------- 122.  (1##) --------------------->
+<!--------------------------------------- 123. git (115) ----------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
-<img src="/images/image122.png?raw=true" 
-   alt="" 
-   width="40%" />
+<img src="/images/image123.png?raw=true" 
+   alt="git"
+   width="65%" />
 &nbsp;
 
 Git is free and open source software distributed under the GNU General
@@ -4366,12 +4444,12 @@ interface, but GitHub is one of the most popular web-hosted services for
 Git repositories. 
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------- 123.  (1##) --------------------->
+<!----------------------------- 124. git logos: git + github (116) ------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
-<img src="/images/image123.png?raw=true" 
-   alt=""
-   width="40%" />
+<img src="/images/image124.png?raw=true" 
+   alt="git logos: git + github"
+   width="65%" />
 &nbsp;
 
 Others include GitLab, BitBucket, and Beanstalk. 
@@ -4380,12 +4458,12 @@ There are a few basic terms that you will need to know before you can
 get started. 
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------- 124.  (1##) --------------------->
+<!----------------------------- 125. short glossary of terms (116) ------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
-<img src="/images/image124.png?raw=true" 
-   alt="" 
-   width="40%" />
+<img src="/images/image125.png?raw=true" 
+   alt="Short Glossary of Terms"
+   width="65%" />
 &nbsp;
 
 The SSH protocol is a method for secure remote login from one computer
@@ -4403,12 +4481,12 @@ A working directory contains the files and subdirectories on your
 computer that are associated with a Git repository. 
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------- 125.  (1##) --------------------->
+<!-------------------------------- 126. basic git commands (117) --------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
-<img src="/images/image125.png?raw=true" 
-   alt="" 
-   width="40%" />
+<img src="/images/image126.png?raw=true" 
+   alt="Basic git Commands"
+   width="65%" />
 &nbsp;
 
 There are a few basic Git commands that you will always use. 
@@ -4439,12 +4517,12 @@ repository to make changes. 
 \"git merge\" lets you put everything back together again. 
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------- 126.  (1##) --------------------->
+<!------------------------------ 127. https://try.github.io (118) -------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
-<img src="/images/image126.png?raw=true" 
-   alt="" 
-   width="40%" />
+<img src="/images/image127.png?raw=true" 
+   alt="https://try.github.io" 
+   width="65%" />
 &nbsp;
 
 To learn how to use Git effectively and begin collaborating with data
@@ -4460,7 +4538,7 @@ tutorials. 
 In the following modules, we\'ll give you a crash course on setting up
 your local environment and getting started on a project. 
 
-<h2>Module 5, Part I -- Introduction to GitHub</h2>
+<h3 id="ch5-3">Module 5, Part I -- Introduction to GitHub</h3>
 
 Welcome to Introduction to GitHub. 
 
@@ -4483,12 +4561,12 @@ The project ran in short time frames and the key characteristics were
 defined by a small group. 
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------- 127.  (1##) --------------------->
+<!-------------------------------- 128. background of git (119) ---------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
-<img src="/images/image127.png?raw=true" 
-   alt="" 
-   width="40%" />
+<img src="/images/image128.png?raw=true" 
+   alt="Background of git"
+   width="65%" />
 &nbsp;
 
 These include: 
@@ -4518,12 +4596,12 @@ Many pathways of development can lead to complex integration decisions
 that might require explicit integration strategies. 
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------- 128.  (1##) --------------------->
+<!--------------------------------- 129. git repository model (120) ------------------------------>
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
-<img src="/images/image128.png?raw=true" 
-   alt="" 
-   width="40%" />
+<img src="/images/image129.png?raw=true"
+   alt="Git Repository Model"
+   width="65%" />
 &nbsp;
 
 What is special about the Git Repository model. 
@@ -4536,12 +4614,12 @@ Contains elements to coordinate among programmers, track changes, and
 support non-linear workflows. 
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------- 129.  (1##) --------------------->
+<!---------------------------------- 130. what is git? (121) ------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
-<img src="/images/image129.png?raw=true" 
-   alt="" 
-   width="40%" />
+<img src="/images/image130.png?raw=true"
+   alt="What is Git?"
+   width="65%" />
 &nbsp;
 
 Created in 2005 by Linus Torvalds for distribution of Linux kernels. 
@@ -4576,12 +4654,12 @@ IBM Cloud is based on sound and established open-source tools including
 Git repositories, often called repos. 
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------- 130.  (1##) --------------------->
+<!---------------------------------- 131. what is github? (122) ---------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
-<img src="/images/image130.png?raw=true" 
-   alt="" 
-   width="40%" />
+<img src="/images/image131.png?raw=true" 
+   alt="What is GitHub?"
+   width="65%" />
 &nbsp;
 
 GitHub is an online hosting service for Git repositories. 
@@ -4606,12 +4684,12 @@ A Repository is: 
     code management. 
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------- 131.  (1##) --------------------->
+<!--------------------------------- 132. what is gitlab? (123) ----------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
-<img src="/images/image131.png?raw=true" 
-   alt=""
-   width="40%" />
+<img src="/images/image132.png?raw=true" 
+   alt="What is GitLab?"
+   width="65%" />
 &nbsp;
 
 With GitLab, developers can: 
@@ -4642,7 +4720,7 @@ In this module, you learned: 
 -   Contains elements to coordinate among programmers, track changes,
     and support non-linear workflows. 
 
-<h2> Module 5, Part III: GitHub Repositories</h2>
+<h3 id="ch5-4">5.4 Module 5, Part III: GitHub Repositories</h3>
 
 Welcome to GitHub Repositories!
 
@@ -4655,12 +4733,12 @@ After reading this section (part 3), you will be able to:
 -   Signing up for a free, personal account on GitHub is quick and easy.
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------- 132.  (1##) --------------------->
+<!-------------------------------- 133. create an account (124) ---------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
-<img src="/images/image132.png?raw=true" 
-   alt="" 
-   width="40%" />
+<img src="/images/image133.png?raw=true" 
+   alt="Create an Account"
+   width="65%" />
 &nbsp;
 
 Start at the GitHub site, https://github.com
@@ -4691,12 +4769,12 @@ You can choose to create a repository or an organization, or you can
 take the Introduction to GitHub course.
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------- 133.  (1##) --------------------->
+<!------------------------- 134. create a repository (125) --------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
-<img src="/images/image133.png?raw=true" 
-   alt="" 
-   width="40%" />
+<img src="/images/image134.png?raw=true" 
+   alt="Create a Repository"
+   width="65%" />
 &nbsp;
 
 Remember, a repository is a data structure for storing documents
@@ -4728,12 +4806,12 @@ accounts that have permission to see it) or public (searchable and seen
 by everyone).
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------- 134.  (1##) --------------------->
+<!------------------------- 135. exploring your repository (126) --------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
-<img src="/images/image134.png?raw=true" 
-   alt="" 
-   width="40%" />
+<img src="/images/image135.png?raw=true" 
+   alt="Exploring Your Repository"
+   width="65%" />
 &nbsp;
 
 When you create your repository, you'll notice that it has a number of
@@ -4792,7 +4870,7 @@ After reading this section (part 4), you will be able to:
 All files in GitHub are stored on a branch.
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------- 135.  (1##) --------------------->
+<!------------------------- 135. exploring your repository (1##) --------------------->
 <!------------------------------------------------------------------------------------------------>
 ![](images/image135.png){width="5.0in" height="2.4879232283464567in"}
 
@@ -5393,7 +5471,7 @@ Installing Git Bash
 <p align="center">
 <img src="images/image159.png"
 	alt="IBM Cloud logo"
-	width="40%" />
+	width="65%" />
 &nbsp;
 
 **Estimated time**: 20 minutes
@@ -5739,7 +5817,7 @@ command line and the copy the output.
 <p align="center">
 <img src="images/image177.png" 
    alt="Github Settings"
-   width="40%" />
+   width="65%" />
 &nbsp;
 </p>
 
