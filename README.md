@@ -4121,9 +4121,7 @@ the string "Hello world!"
 The text node is then appended as a child of the paragraph element.
 
 Finally, the entire paragraph with text is appended as a child node at
-the end of the
-
-body node of the HTML page.
+the end of the body node of the HTML page.
 
 <!------------------------------------------------------------------------------------------------>
 <!-------------------------- 112. modifying an elements content (106) ---------------------------->
@@ -4326,7 +4324,7 @@ you to work with HTML elements and nodes.
 
 Window Object Methods & Events
 
-<h3 id="ch4-10">4.10 Module 4 -- Summary</h3>
+<h3 id="ch4-10">4.10 Module 4 - Summary</h3>
 
 In this module, you learned that:
 
@@ -4350,9 +4348,9 @@ In this module, you learned that:
 
 -   APIs are often used to access HTML DOM elements in web pages.
 
-<h2 id="ch5">Module 5 -- GitHub / Module Introduction & Learning Objectives</h2>
+<h2 id="ch5">Module 5 - GitHub / Module Introduction & Learning Objectives</h2>
 
-<h3>GitHub</h3>
+<h3 id="ch5-1">5.1 GitHub</h3>
 
 Web and Cloud App developers rarely work alone. Large projects will
 include many people -- front-end developers, back-end developers,
@@ -4388,7 +4386,7 @@ After completing this module, you will be able to: 
 
 -   List the roles common in large projects. 
 
-<h3 id="ch5-13">Module 5 -- GitHub: Overview of Git/GitHub</h3>
+<h3 id="ch5-2">5.2 Module 5 - GitHub: Overview of Git/GitHub</h3>
 
 In this module, you'll get an overview of Git and GitHub, which are
 popular environments among developers and data scientists for performing
@@ -4566,7 +4564,7 @@ tutorials. 
 In the following modules, we\'ll give you a crash course on setting up
 your local environment and getting started on a project. 
 
-<h3 id="ch5-3">Module 5, Part I -- Introduction to GitHub</h3>
+<h3 id="ch5-3">5.3 Module 5, Part I - Introduction to GitHub</h3>
 
 Welcome to Introduction to GitHub. 
 
@@ -4883,7 +4881,7 @@ In this section (part 3), you learned:
 -   Repositories are storage structures that can hold Code, track
     Issues, and enable you to collaborate with others.
 
-<h3>Hands-On Lab: GitHub Sign Up & Create Repo</h3>
+<h3 id="ch5-5">5.5 Hands-On Lab: GitHub Sign Up & Create Repo</h3>
 
 <h3 id="ch5-6">5.6 Module 5, Part IV: GitHub Branches</h3>
 
@@ -5762,7 +5760,7 @@ commands.
 
 <h4>© IBM Corporation 2020. All rights reserved.</h4>
 
-<h3 id="ch5-11">Module 5, Part VIII: SSH Key Creation</h3>
+<h3 id="ch5-11">5.11 Module 5, Part VIII: SSH Key Creation</h3>
 
 <h3>Generate an SSH key</h3>
 
@@ -5833,7 +5831,7 @@ key.
 
 <h4>© IBM Corporation 2020. All rights reserved.</h4>
 
-<h3 id="ch5-12">Module 5, Part IX: Adding an SSH Key to GitHub</h3>
+<h3 id="ch5-12">5.12 Module 5, Part IX: Adding an SSH Key to GitHub</h3>
 
 <h3>Lab: Adding an SSH key to GitHub</h3>
 
@@ -6111,7 +6109,7 @@ synched.
 In this lab, you have learned how to clone a GitHub repository, make
 changes to it, commit the changes locally, and push it back to GitHub.
 
-<h3 id="ch5-13">Module 5 Summary</h3>
+<h3 id="ch5-13">5.13 Module 5 Summary</h3>
 
 In this module, you learned that:
 
