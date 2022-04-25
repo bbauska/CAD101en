@@ -3985,20 +3985,26 @@ create an element in the current document.
 After creating the element, you can use any of a number of functions to
 place the element in the appropriate location within the document.
 
+<!------------------------------------------------------------------------------------------------>
+<!------------------------- 109.  (1##) --------------------->
+<!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image109.png?raw=true" 
-     alt="" 
-     width="500" >
+   alt="" 
+   width="50%" />
 &nbsp;
 
 Examples of these functions include the insertBefore, appendChild, or
 replaceChild function that can be used to add the newly created element
 into the document.
 
+<!------------------------------------------------------------------------------------------------>
+<!------------------------- 110.  (1##) --------------------->
+<!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image110.png?raw=true" 
-     alt="" 
-     width="500" >
+   alt="" 
+   width="50%" />
 &nbsp;
 
 This example shows the source code for adding a node to a document.
@@ -4013,10 +4019,13 @@ the end of the
 
 body node of the HTML page.
 
+<!------------------------------------------------------------------------------------------------>
+<!------------------------- 111.  (1##) --------------------->
+<!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image111.png?raw=true" 
-     alt="" 
-     width="500" >
+   alt="" 
+   width="50%" />
 &nbsp;
 
 The function element.innerHTML retrieves or sets the contents of an HTML
@@ -4042,10 +4051,13 @@ element.style.propertyName = value.
 
 For example, if you had an element \<div style=\"color:blue\"\>.
 
+<!------------------------------------------------------------------------------------------------>
+<!------------------------- 112.  (1##) --------------------->
+<!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image112.png?raw=true" 
-     alt="" 
-     width="400" >
+   alt="" 
+   width="40%" />
 &nbsp;
 
 Here the \<div\> tag is used to group block-elements to format them with
@@ -4054,10 +4066,13 @@ JavaScript statement:
 
 div.style.color = \'red\';
 
+<!------------------------------------------------------------------------------------------------>
+<!------------------------- 113.  (1##) --------------------->
+<!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image113.png?raw=true" 
-     alt="" 
-     width="400" >
+   alt="" 
+   width="40%" />
 &nbsp;
 
 In contrast, the element.setAttribute(\'style\', ...) wipes out all
@@ -4065,10 +4080,13 @@ previously set inline CSS
 
 styles.
 
+<!------------------------------------------------------------------------------------------------>
+<!------------------------- 114.  (1##) --------------------->
+<!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image114.png?raw=true" 
-     alt="" 
-     width="400" >
+   alt="" 
+   width="40%" />
 &nbsp;
 
 The function element.setAttribute with parameters(attrName, attrValue)
@@ -4083,18 +4101,24 @@ an element.
 The function element.getAttribute(attrName) retrieves the value of the
 specified attribute in the element, if it exists.
 
+<!------------------------------------------------------------------------------------------------>
+<!------------------------- 115.  (1##) --------------------->
+<!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image115.png?raw=true" 
      alt="" 
-     width="400" >
+     width="40%" />
 &nbsp;
 
 Here are some window object functions and events.
 
+<!------------------------------------------------------------------------------------------------>
+<!------------------------- 116.  (1##) --------------------->
+<!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image116.png?raw=true" 
-     alt="" 
-     width="400" >
+   alt="" 
+   width="40%" />
 &nbsp;
 
 To open a new browser window, use the window.open() function.
@@ -4133,19 +4157,25 @@ information than the alert() method.
 Finally, the window.scrollTo(x-value, y-value) scrolls the web browser
 to a particular set of coordinates on a page.
 
+<!------------------------------------------------------------------------------------------------>
+<!------------------------- 117.  (1##) --------------------->
+<!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image117.png?raw=true" 
      alt="" 
-     width="400" >
+     width="40%" />
 &nbsp;
 
 The onload event handler runs in the current window after the document
 loads the web page.
 
+<!------------------------------------------------------------------------------------------------>
+<!------------------------- 118.  (1##) --------------------->
+<!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image118.png?raw=true" 
-     alt="" 
-     width="400" >
+   alt="" 
+   width="40%" />
 &nbsp;
 
 In the example, the onload event causes an anonymous function to run.
@@ -4262,10 +4292,13 @@ others. 
 You can't talk about Git and GitHub without a basic understanding of
 what version control is. 
 
+<!------------------------------------------------------------------------------------------------>
+<!------------------------- 119.  (1##) --------------------->
+<!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image119.png?raw=true" 
-     alt="" 
-     width="400" >
+   alt="" 
+   width="40%" />
 &nbsp;
 
 A version control system allows you to keep track of changes to your
@@ -4274,10 +4307,13 @@ documents. 
 This makes it easy for you to recover older versions of your document if
 you make a mistake, and it makes collaboration with others much easier. 
 
+<!------------------------------------------------------------------------------------------------>
+<!------------------------- 120.  (1##) --------------------->
+<!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image120.png?raw=true" 
-     alt="" 
-     width="400" >
+   alt="" 
+   width="40%" />
 &nbsp;
 
 Here is an example to illustrate how version control works. 
@@ -4288,19 +4324,25 @@ confirm the things you need and add additional items. 
 Without version control, you've got a big mess to clean up before you
 can go shopping. 
 
+<!------------------------------------------------------------------------------------------------>
+<!------------------------- 121.  (1##) --------------------->
+<!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image121.png?raw=true" 
-     alt="" 
-     width="400" >
+   alt=""
+   width="40%" />
 &nbsp;
 
 With version control, you know EXACTLY what you need after everyone has
 contributed their ideas. 
 
+<!------------------------------------------------------------------------------------------------>
+<!------------------------- 122.  (1##) --------------------->
+<!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image122.png?raw=true" 
-     alt="" 
-     width="400" >
+   alt="" 
+   width="40%" />
 &nbsp;
 
 Git is free and open source software distributed under the GNU General
@@ -4323,10 +4365,13 @@ You can use Git without a web interface by using your command line
 interface, but GitHub is one of the most popular web-hosted services for
 Git repositories. 
 
+<!------------------------------------------------------------------------------------------------>
+<!------------------------- 123.  (1##) --------------------->
+<!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image123.png?raw=true" 
-     alt="" 
-     width="400" >
+   alt=""
+   width="40%" />
 &nbsp;
 
 Others include GitLab, BitBucket, and Beanstalk. 
@@ -4334,10 +4379,13 @@ Others include GitLab, BitBucket, and Beanstalk. 
 There are a few basic terms that you will need to know before you can
 get started. 
 
+<!------------------------------------------------------------------------------------------------>
+<!------------------------- 124.  (1##) --------------------->
+<!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image124.png?raw=true" 
-     alt="" 
-     width="400" >
+   alt="" 
+   width="40%" />
 &nbsp;
 
 The SSH protocol is a method for secure remote login from one computer
@@ -4354,10 +4402,13 @@ your changes before they become final. 
 A working directory contains the files and subdirectories on your
 computer that are associated with a Git repository. 
 
+<!------------------------------------------------------------------------------------------------>
+<!------------------------- 125.  (1##) --------------------->
+<!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image125.png?raw=true" 
-     alt="" 
-     width="400" >
+   alt="" 
+   width="40%" />
 &nbsp;
 
 There are a few basic Git commands that you will always use. 
@@ -4387,10 +4438,13 @@ repository to make changes. 
 
 \"git merge\" lets you put everything back together again. 
 
+<!------------------------------------------------------------------------------------------------>
+<!------------------------- 126.  (1##) --------------------->
+<!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image126.png?raw=true" 
-     alt="" 
-     width="400" >
+   alt="" 
+   width="40%" />
 &nbsp;
 
 To learn how to use Git effectively and begin collaborating with data
@@ -4428,10 +4482,13 @@ control system. 
 The project ran in short time frames and the key characteristics were
 defined by a small group. 
 
+<!------------------------------------------------------------------------------------------------>
+<!------------------------- 127.  (1##) --------------------->
+<!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image127.png?raw=true" 
-     alt="" 
-     width="400" >
+   alt="" 
+   width="40%" />
 &nbsp;
 
 These include: 
@@ -4460,10 +4517,13 @@ updates. 
 Many pathways of development can lead to complex integration decisions
 that might require explicit integration strategies. 
 
+<!------------------------------------------------------------------------------------------------>
+<!------------------------- 128.  (1##) --------------------->
+<!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image128.png?raw=true" 
-     alt="" 
-     width="400" >
+   alt="" 
+   width="40%" />
 &nbsp;
 
 What is special about the Git Repository model. 
@@ -4475,10 +4535,13 @@ Primarily focused on tracking source code during development. 
 Contains elements to coordinate among programmers, track changes, and
 support non-linear workflows. 
 
+<!------------------------------------------------------------------------------------------------>
+<!------------------------- 129.  (1##) --------------------->
+<!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image129.png?raw=true" 
-     alt="" 
-     width="400" >
+   alt="" 
+   width="40%" />
 &nbsp;
 
 Created in 2005 by Linus Torvalds for distribution of Linux kernels. 
@@ -4512,10 +4575,13 @@ interface. 
 IBM Cloud is based on sound and established open-source tools including
 Git repositories, often called repos. 
 
+<!------------------------------------------------------------------------------------------------>
+<!------------------------- 130.  (1##) --------------------->
+<!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image130.png?raw=true" 
-     alt="" 
-     width="400" >
+   alt="" 
+   width="40%" />
 &nbsp;
 
 GitHub is an online hosting service for Git repositories. 
@@ -4539,10 +4605,13 @@ A Repository is: 
 -   GitLab provides access to Git repositories, controlled by source
     code management. 
 
+<!------------------------------------------------------------------------------------------------>
+<!------------------------- 131.  (1##) --------------------->
+<!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image131.png?raw=true" 
-     alt="" 
-     width="400" >
+   alt=""
+   width="40%" />
 &nbsp;
 
 With GitLab, developers can: 
@@ -4585,10 +4654,13 @@ After reading this section (part 3), you will be able to:
 
 -   Signing up for a free, personal account on GitHub is quick and easy.
 
+<!------------------------------------------------------------------------------------------------>
+<!------------------------- 132.  (1##) --------------------->
+<!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image132.png?raw=true" 
-     alt="" 
-     width="400" >
+   alt="" 
+   width="40%" />
 &nbsp;
 
 Start at the GitHub site, https://github.com
@@ -4618,10 +4690,13 @@ provides you with some starting points.
 You can choose to create a repository or an organization, or you can
 take the Introduction to GitHub course.
 
+<!------------------------------------------------------------------------------------------------>
+<!------------------------- 133.  (1##) --------------------->
+<!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image133.png?raw=true" 
-     alt="" 
-     width="400" >
+   alt="" 
+   width="40%" />
 &nbsp;
 
 Remember, a repository is a data structure for storing documents
@@ -4652,10 +4727,13 @@ You can also make your repository private (only available to people with
 accounts that have permission to see it) or public (searchable and seen
 by everyone).
 
+<!------------------------------------------------------------------------------------------------>
+<!------------------------- 134.  (1##) --------------------->
+<!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image134.png?raw=true" 
-     alt="" 
-     width="400" >
+   alt="" 
+   width="40%" />
 &nbsp;
 
 When you create your repository, you'll notice that it has a number of
@@ -4701,7 +4779,7 @@ In this section (part 3), you learned:
 
 <h3>Hands-On Lab: GitHub Sign Up & Create Repo</h3>
 
-<h2>Module 5, Part IV: GitHub Branches</h2>
+<h3 id="ch5-6">5.6 Module 5, Part IV: GitHub Branches</h3>
 
 Welcome to GitHub Branches!
 
@@ -4713,6 +4791,9 @@ After reading this section (part 4), you will be able to:
 
 All files in GitHub are stored on a branch.
 
+<!------------------------------------------------------------------------------------------------>
+<!------------------------- 135.  (1##) --------------------->
+<!------------------------------------------------------------------------------------------------>
 ![](images/image135.png){width="5.0in" height="2.4879232283464567in"}
 
 The master branch is definitive; it stores the deployable version of
@@ -4728,6 +4809,9 @@ The new branch starts as an exact copy of the original branch.
 
 As you make changes, the branch that you created holds the changed code.
 
+<!------------------------------------------------------------------------------------------------>
+<!------------------------- 136.  (1##) --------------------->
+<!------------------------------------------------------------------------------------------------>
 ![](images/image136.png){width="5.0in" height="2.4879232283464567in"}
 
 To create a new branch, click drop-down branch: master
@@ -4752,6 +4836,9 @@ as a tip.
 
 and the two tips are merged into a third, combined branch.
 
+<!------------------------------------------------------------------------------------------------>
+<!------------------------- 137.  (1##) --------------------->
+<!------------------------------------------------------------------------------------------------>
 ![](images/image137.png){width="5.0in" height="2.4879232283464567in"}
 
 Developers work on source files in a branch. Since some projects take a
@@ -4791,6 +4878,9 @@ Some rules:
 
 -   Always write in an "active" voice.
 
+<!------------------------------------------------------------------------------------------------>
+<!------------------------- 138.  (1##) --------------------->
+<!------------------------------------------------------------------------------------------------>
 ![](images/image138.png){width="5.0in" height="2.4879232283464567in"}
 
 Pull is used to initiate the merging of branches in a way to capture
@@ -4812,6 +4902,9 @@ person who approved the merge of the change.
 
 To open a new pull request:
 
+<!------------------------------------------------------------------------------------------------>
+<!------------------------- 139.  (1##) --------------------->
+<!------------------------------------------------------------------------------------------------>
 ![](images/image139.png){width="5.0in" height="2.53623031496063in"}
 
 Click Pull request and select New pull request.
@@ -4840,6 +4933,9 @@ The code is reviewed and approved.
 
 The approved code is merged back into the master code.
 
+<!------------------------------------------------------------------------------------------------>
+<!------------------------- 140.  (1##) --------------------->
+<!------------------------------------------------------------------------------------------------>
 ![](images/image140.png){width="5.0in" height="2.447665135608049in"}
 
 To merge a committed code change into your master code.
@@ -4848,6 +4944,9 @@ Click Merge pull request.
 
 Click Confirm merge.
 
+<!------------------------------------------------------------------------------------------------>
+<!------------------------- 141.  (1##) --------------------->
+<!------------------------------------------------------------------------------------------------>
 ![](images/image141.png){width="5.0in" height="2.447665135608049in"}
 
 When all changes for a branch are complete, that branch is considered
@@ -4877,6 +4976,9 @@ Pull requests enables other users to review and use the proposed changes
 When you are ready to merge the changed code into the master branch, you
 merge the committed code changes into your master code.
 
+<!------------------------------------------------------------------------------------------------>
+<!------------------------- 142.  (1##) --------------------->
+<!------------------------------------------------------------------------------------------------>
 ![](images/image142.png){width="5.034096675415573in"
 height="2.464355861767279in"}
 
@@ -4897,6 +4999,9 @@ After reading this section (part 5), you will be able to:
 
 -   Use git commands to communicate with other developers.
 
+<!------------------------------------------------------------------------------------------------>
+<!------------------------- 143.  (1##) --------------------->
+<!------------------------------------------------------------------------------------------------>
 ![](images/image143.png){width="5.0in" height="2.447665135608049in"}
 
 GitHub has over existing 100M repositories, including some very useful
@@ -4919,8 +5024,14 @@ starting point for your new project.
 To clone a GitHub repository, navigate to the repository that you want
 to clone.
 
+<!------------------------------------------------------------------------------------------------>
+<!------------------------- 144.  (1##) --------------------->
+<!------------------------------------------------------------------------------------------------>
 ![](images/image144.png){width="5.0in" height="2.447665135608049in"}
 
+<!------------------------------------------------------------------------------------------------>
+<!------------------------- 145.  (1##) --------------------->
+<!------------------------------------------------------------------------------------------------>
 ![](images/image145.png){width="5.0in" height="2.447665135608049in"}
 
 Under the repository name, click Code.
@@ -4939,7 +5050,9 @@ then press ENTER to execute the cloning.
 
 When you have made your changes and are ready to sync your code back to
 GitHub.
-
+<!------------------------------------------------------------------------------------------------>
+<!------------------------- 146.  (1##) --------------------->
+<!------------------------------------------------------------------------------------------------>
 ![](images/image146.png){width="5.0in" height="2.447665135608049in"}
 
 First, you must run the "git add " command.
@@ -4958,6 +5071,9 @@ in the staging area.
 When you are ready to move your changes fully into the GitHub
 repository.
 
+<!------------------------------------------------------------------------------------------------>
+<!------------------------- 147.  (1##) --------------------->
+<!------------------------------------------------------------------------------------------------>
 ![](images/image147.png){width="5.0in" height="2.447665135608049in"}
 
 Use the "git push" command.
@@ -4976,6 +5092,9 @@ Collaborating with others involves managing these remote repositories
 and involves push, pull, and fetch operations to and from them when you
 need to share work.
 
+<!------------------------------------------------------------------------------------------------>
+<!------------------------- 148.  (1##) --------------------->
+<!------------------------------------------------------------------------------------------------>
 ![](images/image148.png){width="5.0in" height="2.447665135608049in"}
 
 Use git push to transfer your changes to the remote repo.
@@ -4986,6 +5105,9 @@ repo.
 It does not merge those changes to the branch you are working on. You
 can perform a merge manually if you want.
 
+<!------------------------------------------------------------------------------------------------>
+<!------------------------- 149.  (1##) --------------------->
+<!------------------------------------------------------------------------------------------------>
 ![](images/image149.png){width="5.0in" height="2.447665135608049in"}
 
 Use git pull to transfer any changes from the remote repo to your local
@@ -4994,6 +5116,9 @@ repo, and merge them to a branch.
 Developers use the terms upstream and origin when talking about remote
 reps.
 
+<!------------------------------------------------------------------------------------------------>
+<!------------------------- 150.  (1##) --------------------->
+<!------------------------------------------------------------------------------------------------>
 ![](images/image150.png){width="5.0in" height="2.447665135608049in"}
 
 Origin generally refers to your fork and upstream refers to the original
@@ -5003,6 +5128,9 @@ These are the norms.
 
 You can of course name them anything you like.
 
+<!------------------------------------------------------------------------------------------------>
+<!------------------------- 151.  (1##) --------------------->
+<!------------------------------------------------------------------------------------------------>
 ![](images/image151.png){width="5.0in" height="2.447665135608049in"}
 
 Forking is used to take a copy of a GitHub repository and use it as the
@@ -5025,6 +5153,9 @@ file.
 
 Even if no legal requirement exists, it's good practice.
 
+<!------------------------------------------------------------------------------------------------>
+<!------------------------- 152.  (1##) --------------------->
+<!------------------------------------------------------------------------------------------------>
 ![](images/image152.png){width="5.0in" height="2.447665135608049in"}
 
 Navigate to the repository that you want to fork.
@@ -5033,11 +5164,11 @@ In the top-right corner, click the "Fork" button.
 
 To keep a fork in sync with the original work from a local clone.
 
-<p align="center">
+<!------------------------------------------------------------------------------------------------>
+<!------------------------- 153.  (1##) --------------------->
+<!------------------------------------------------------------------------------------------------>
 <img src="images/image153.png){width="5.0in" height="2.447665135608049in"}
-                                                                        
      width="300" >
-![](images/image153.png){width="5.0in" height="2.447665135608049in"}
 
 First, create a local clone of the project.
 
@@ -5055,6 +5186,9 @@ labelled upstream.
 
 If you type "git remote --v", you'll see the change reflected.
 
+<!------------------------------------------------------------------------------------------------>
+<!------------------------- 154.  (1##) --------------------->
+<!------------------------------------------------------------------------------------------------>
 ![](images/image154.png){width="5.0in" height="2.447665135608049in"}
 
 Other commands of interest include "git fetch upstream" to grab upstream
@@ -5091,6 +5225,9 @@ A Developer working as a participant in a group project needs to learn
 how to communicate with others and uses these commands in addition to
 the ones needed by a standalone developer.
 
+<!------------------------------------------------------------------------------------------------>
+<!------------------------- 155.  (1##) --------------------->
+<!------------------------------------------------------------------------------------------------>
 ![](images/image155.png){width="5.0in" height="2.447665135608049in"}
 
 When working with Git, you can use Git commands or a desktop tool such
@@ -5113,6 +5250,9 @@ as GitHub Desktop.
 -   git-request-pull to create a summary of changes for your upstream to
     pull.
 
+<!------------------------------------------------------------------------------------------------>
+<!------------------------- 156.  (1##) --------------------->
+<!------------------------------------------------------------------------------------------------>
 ![](images/image156.png){width="5.0in" height="2.447665135608049in"}
 
 An integrator in a group project receives changes made by others,
@@ -5133,7 +5273,14 @@ participants.
 
 -   git-push to publish the bleeding edge.
 
-![](images/image157.png){width="5.0in" height="2.447665135608049in"}
+<!------------------------------------------------------------------------------------------------>
+<!------------------------- 157.  (1##) --------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center">
+<img src="images/image157.png" 
+	alt=" "
+	width="65%">
+&nbsp;
 
 A Repository Administrator uses the following tools to set up and
 maintain access to the repository by developers.
@@ -5185,6 +5332,8 @@ Start Lab 
 Installing Git Bash
 
 <!------------------------------------------------------------------------------------------------>
+<!------------------------- 158.  (1##) --------------------->
+<!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="images/image158.png" 
 	alt=" "
@@ -5218,6 +5367,8 @@ following steps:
     Click **Download \[version number\] for Windows**, as shown in the
     following image:
 
+<!------------------------------------------------------------------------------------------------>
+<!------------------------- 160.  (1##) --------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="images/image160.png" 
@@ -5310,9 +5461,11 @@ location. Click **Next**.
 9.  Select **Use the OpenSSL library**. Click **Next**.
 
 <!------------------------------------------------------------------------------------------------>
+<!------------------------- 169. use openssh library or native windows (148) --------------------->
+<!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="images/image169.png" 
-	alt=" "
+	alt="Use OpenSSH Library (not piece of shit windows), if you can"
 	width="65%">
 &nbsp;
 
@@ -5321,16 +5474,19 @@ location. Click **Next**.
     endings**. Click **Next**.
 
 <!------------------------------------------------------------------------------------------------>
+<!----------------------------- 170. line ending conversions (149) ------------------------------->
+<!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="images/image170.png" 
-	alt=" "
+	alt="Configure line ending conversios"
 	width="65%">
 &nbsp;
 
 11. Configure your terminal emulator to use with Git Bash by selecting
     the default option, **Use MinTTY(the default terminal of MSYS2)**.
     Click **Next**.
-
+<!------------------------------------------------------------------------------------------------>
+<!---------------------- 171. configure terminal emulator to gitbash (150) ------------------------>
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="images/image171.png" 
@@ -5340,17 +5496,20 @@ location. Click **Next**.
 
 12. Configure the default behavior for a git pull by selecting **Default
     (fast-forward or merge)**. Click **Next**.
-
+<!------------------------------------------------------------------------------------------------>
+<!-------------- 172. configure default git pull with fast-forward or merge (150) ---------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="images/image172.png" 
-	alt=" "
+	alt="Configure Default Behavior for git pull"
 	width="65%">
 &nbsp;
 
 13. Select any additional options you want to install. (The default
     option is sufficient to use Git Bash successfully). Click **Next**.
 
+<!------------------------------------------------------------------------------------------------>
+<!-------------------------------- 173. additional options  (151) -------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="images/image173.png" 
@@ -5366,24 +5525,30 @@ location. Click **Next**.
     and when complete, a Completing the Git Setup Wizard window opens.
 
 <!------------------------------------------------------------------------------------------------>
+<!--------------------------- 174. experimental options? yes/no (152) ---------------------------->
+<!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="images/image174.png" 
-	alt=" "
+	alt="Experimental Options? yes/no"
 	width="65%">
 &nbsp;
 
 15. Leave the checkboxes selected and click **Next**.
 
 <!------------------------------------------------------------------------------------------------>
+<!--------------------- 175. leave checkboxes selected and click next (152) ---------------------->
+<!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="images/image175.png" 
-	alt=" "
+	alt="Leave the checkboxes selected and click 'Next'"
 	width="65%">
 &nbsp;
 
 The Git Bash terminal opens. You are now able to enter Git and Bash
 commands.
 
+<!------------------------------------------------------------------------------------------------>
+<!--------------------------------- 176. git bash terminal (1xx) --------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="images/image176.png" 
