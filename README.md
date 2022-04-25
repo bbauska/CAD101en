@@ -4982,12 +4982,12 @@ merge the committed code changes into your master code.
 ![](images/image142.png){width="5.034096675415573in"
 height="2.464355861767279in"}
 
-<h2>Hands-On Lab: Branching and Merging (Web UI)</h2>
+<h3 id="ch5-7">5.7 Hands-On Lab: Branching and Merging (Web UI)</h3>
 
 [Click here to launch the lab in another
 browser.](https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBMDeveloperSkillsNetwork-CD0101EN-SkillsNetwork/labs/GitHubLabs/GitHub2_Branch_Merge.md.html)
 
-<h2>Module 5, Part V: Cloning & Forking GitHub Projects</h2>
+<h3 id="ch5-8">5.8 Module 5, Part V: Cloning & Forking GitHub Projects</h3>
 
 Welcome to Cloning and Forking GitHub Projects.
 
@@ -5000,9 +5000,13 @@ After reading this section (part 5), you will be able to:
 -   Use git commands to communicate with other developers.
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------- 143.  (1##) --------------------->
+<!----------------------------- 144. team working with github (133) ------------------------------>
 <!------------------------------------------------------------------------------------------------>
-![](images/image143.png){width="5.0in" height="2.447665135608049in"}
+<p align="center">
+<img src="images/image144.png"
+   alt="Team Working with GitHub"
+   width="65%">
+&nbsp;
 
 GitHub has over existing 100M repositories, including some very useful
 projects.
@@ -5025,14 +5029,22 @@ To clone a GitHub repository, navigate to the repository that you want
 to clone.
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------- 144.  (1##) --------------------->
+<!-------------------------- 145. cloning a github repository #1 (133) --------------------------->
 <!------------------------------------------------------------------------------------------------>
-![](images/image144.png){width="5.0in" height="2.447665135608049in"}
+<p align="center">
+<img src="images/image145.png"
+   alt="Cloning a GitHub Repository #1"
+   width="65%" />
+&nbsp;
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------- 145.  (1##) --------------------->
+<!-------------------------- 146. cloning a github repository #2 (134) --------------------------->
 <!------------------------------------------------------------------------------------------------>
-![](images/image145.png){width="5.0in" height="2.447665135608049in"}
+<p align="center">
+<img src="images/image146.png"
+	alt="Cloning a GitHub Repository #2"
+	width="65%">
+&nbsp;
 
 Under the repository name, click Code.
 
@@ -5050,10 +5062,15 @@ then press ENTER to execute the cloning.
 
 When you have made your changes and are ready to sync your code back to
 GitHub.
+
 <!------------------------------------------------------------------------------------------------>
-<!------------------------- 146.  (1##) --------------------->
+<!----------------------------- 147. syncing local changes (134) --------------------------------->
 <!------------------------------------------------------------------------------------------------>
-![](images/image146.png){width="5.0in" height="2.447665135608049in"}
+<p align="center">
+<img src="images/image147.png"
+   alt="Syncing a Local Repository"
+   width="65%" />
+&nbsp;
 
 First, you must run the "git add " command.
 
@@ -5072,9 +5089,13 @@ When you are ready to move your changes fully into the GitHub
 repository.
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------- 147.  (1##) --------------------->
+<!----------------------------- 148. remote repositories #1 (135) -------------------------------->
 <!------------------------------------------------------------------------------------------------>
-![](images/image147.png){width="5.0in" height="2.447665135608049in"}
+<p align="center">
+<img src="images/image148.png"
+   alt="Remote Repositories #1"
+   width="65%" />
+&nbsp;
 
 Use the "git push" command.
 
@@ -5093,9 +5114,13 @@ and involves push, pull, and fetch operations to and from them when you
 need to share work.
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------- 148.  (1##) --------------------->
+<!----------------------------- 149. remote repositories #2 (136) -------------------------------->
 <!------------------------------------------------------------------------------------------------>
-![](images/image148.png){width="5.0in" height="2.447665135608049in"}
+<p align="center">
+<img src="images/image149.png"
+   alt="Remote Repositories #2"
+   width="65%" />
+&nbsp;
 
 Use git push to transfer your changes to the remote repo.
 
@@ -5106,9 +5131,13 @@ It does not merge those changes to the branch you are working on. You
 can perform a merge manually if you want.
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------- 149.  (1##) --------------------->
+<!----------------------------- 150. remote repositories #3 (136) -------------------------------->
 <!------------------------------------------------------------------------------------------------>
-![](images/image149.png){width="5.0in" height="2.447665135608049in"}
+<p align="center">
+<img src="images/image150.png"
+   alt="Remote Repositories #3"
+   width="65%" />
+&nbsp;
 
 Use git pull to transfer any changes from the remote repo to your local
 repo, and merge them to a branch.
@@ -5117,9 +5146,13 @@ Developers use the terms upstream and origin when talking about remote
 reps.
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------- 150.  (1##) --------------------->
+<!------------------------------ 151. remote repositories #4 (137) ------------------------------->
 <!------------------------------------------------------------------------------------------------>
-![](images/image150.png){width="5.0in" height="2.447665135608049in"}
+<p align="center">
+<img src="images/image151.png"
+   alt="Remote Repositories #4"
+   width="65%" />
+&nbsp;
 
 Origin generally refers to your fork and upstream refers to the original
 work.
@@ -5129,9 +5162,13 @@ These are the norms.
 You can of course name them anything you like.
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------- 151.  (1##) --------------------->
+<!-------------------------------- 152. forking a project (137) ---------------------------------->
 <!------------------------------------------------------------------------------------------------>
-![](images/image151.png){width="5.0in" height="2.447665135608049in"}
+<p align="center">
+<img src="images/image152.png" 
+   alt="Forking a Project"
+   width="65%" />
+&nbsp;
 
 Forking is used to take a copy of a GitHub repository and use it as the
 base for a new
@@ -5154,9 +5191,13 @@ file.
 Even if no legal requirement exists, it's good practice.
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------- 152.  (1##) --------------------->
+<!--------------------------- 153. steps in forking a project (138) ------------------------------>
 <!------------------------------------------------------------------------------------------------>
-![](images/image152.png){width="5.0in" height="2.447665135608049in"}
+<p align="center">
+<img src="images/image153.png" 
+   alt="Steps in Forking of a Project"
+   width="65%" />
+&nbsp;
 
 Navigate to the repository that you want to fork.
 
@@ -5165,10 +5206,13 @@ In the top-right corner, click the "Fork" button.
 To keep a fork in sync with the original work from a local clone.
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------- 153.  (1##) --------------------->
+<!--------------------------- 154. syncing a fork of a project (138) ----------------------------->
 <!------------------------------------------------------------------------------------------------>
-<img src="images/image153.png){width="5.0in" height="2.447665135608049in"}
-     width="300" >
+<p align="center">
+<img src="images/image154.png" 
+   alt="Syncing a Fork of a Project"
+   width="65%" />
+&nbsp;
 
 First, create a local clone of the project.
 
@@ -5187,9 +5231,13 @@ labelled upstream.
 If you type "git remote --v", you'll see the change reflected.
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------- 154.  (1##) --------------------->
+<!--------------------------- 155. commands for managing forks (139) ----------------------------->
 <!------------------------------------------------------------------------------------------------>
-![](images/image154.png){width="5.0in" height="2.447665135608049in"}
+<p align="center">
+<img src="images/image155.png" 
+   alt="Commands for managing forks"
+   width="65%" />
+&nbsp;
 
 Other commands of interest include "git fetch upstream" to grab upstream
 branches and "git merge upstream/master" which merges changes into the
@@ -5211,7 +5259,7 @@ In this section (part 5), you learned:
 -   You can fork a repository to use it as the base for a new project,
     or to work on a project independently.
 
-<h2>Module 5, Part VI: Managing GitHub Projects</h2>
+<h3 id="ch5-9">5.9 Module 5, Part VI: Managing GitHub Projects</h3>
 
 Welcome to Managing GitHub Projects
 
@@ -5226,9 +5274,13 @@ how to communicate with others and uses these commands in addition to
 the ones needed by a standalone developer.
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------- 155.  (1##) --------------------->
+<!---------------------------- 156. github developer commands (140) ------------------------------>
 <!------------------------------------------------------------------------------------------------>
-![](images/image155.png){width="5.0in" height="2.447665135608049in"}
+<p align="center">
+<img src="images/image156.png"
+   alt="GitHub Developer commands"
+   width="65%" />
+&nbsp;
 
 When working with Git, you can use Git commands or a desktop tool such
 as GitHub Desktop.
@@ -5251,9 +5303,13 @@ as GitHub Desktop.
     pull.
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------- 156.  (1##) --------------------->
+<!-------------------------------- 157. github integrator (141) ---------------------------------->
 <!------------------------------------------------------------------------------------------------>
-![](images/image156.png){width="5.0in" height="2.447665135608049in"}
+<p align="center">
+<img src="images/image156.png" 
+   alt="GitHub Integrator"
+   width="65%" />
+&nbsp;
 
 An integrator in a group project receives changes made by others,
 reviews and integrates them (responds to pull requests) and publishes
@@ -5274,12 +5330,12 @@ participants.
 -   git-push to publish the bleeding edge.
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------- 157.  (1##) --------------------->
+<!------------------------- 158. github repository administrator (141) --------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
-<img src="images/image157.png" 
-	alt=" "
-	width="65%">
+<img src="images/image158.png" 
+   alt="GitHub Repository Administrator"
+   width="65%" />
 &nbsp;
 
 A Repository Administrator uses the following tools to set up and
@@ -5318,31 +5374,31 @@ Each role uses different git commands to communicate with collaborators.
 complete this lab are also available
 here.](https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBMDeveloperSkillsNetwork-CD0101EN-SkillsNetwork/labs/Theia%20Labs/04%20-%20GitHub/Lab%20Using%20git%20on%20Theia/instructions.md)
 
-<h2>Hands-On Lab: Working with Git on Theia (External resource)</h2>
+<h3>Hands-On Lab: Working with Git on Theia (External resource)</h3>
 
 Clicking on the Start Lab button below will launch the cloud based SN
 labs virtual labs environment with instructions to complete this lab.
 Your username and email will be shared with SN Labs to authenticate and
 provision your lab environment.
 
-Start Lab 
+Start Lab
 
-<h2>Module 5, Part VII: Git Installation on Desktop</h2>
+<h3 id="ch5-10">5.10 Module 5, Part VII: Git Installation on Desktop</h2>
 
 Installing Git Bash
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------- 158.  (1##) --------------------->
+<!---------------------------------- 159. ibm cloud logo (143) ----------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
-<img src="images/image158.png" 
-	alt=" "
-	width="20%">
+<img src="images/image159.png"
+	alt="IBM Cloud logo"
+	width="40%" />
 &nbsp;
 
 **Estimated time**: 20 minutes
 
-<h2>What is Git Bash?</h2>
+<h3>What is Git Bash?</h3>
 
 Git Bash for Windows is simply a package that includes
 both *Git* and *Bash*.
@@ -5357,7 +5413,7 @@ Bash is a Unix command-line shell. The name is an acronym
 for *Bourne-Again Shell*. It comes with useful Unix commands like cat,
 ssh, SCP, etc., which are not usually found on Windows.
 
-<h2>Installing Git Bash for Windows</h2>
+<h3>Installing Git Bash for Windows</h3>
 
 To install Git Bash for Windows to your local system, complete the
 following steps:
@@ -5368,21 +5424,23 @@ following steps:
     following image:
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------- 160.  (1##) --------------------->
+<!------------------------------------ 160. downloads (144) -------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="images/image160.png" 
-	alt=" "
+	alt="Downloads"
 	width="65%">
 &nbsp;
 
 You will be redirected to a new page and the download will start.
 
 <!------------------------------------------------------------------------------------------------>
+<!--------------------------------- 161. downloading git  (144) ---------------------------------->
+<!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="images/image161.png" 
-	alt=" "
-	width="65%">
+   alt="Downloading Git"
+   width="65%" />
 &nbsp;
 
 **Note**: If the download doesn\'t start, click **Click here to download
@@ -5392,19 +5450,23 @@ manually**.
     it.
 
 <!------------------------------------------------------------------------------------------------>
+<!--------------------------- 162. open file security warning (145) ------------------------------>
+<!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="images/image162.png" 
-	alt=" "
-	width="40%">
+   alt="Open File Security Warning"
+   width="65%" />
 &nbsp;
 
 3.  Click **Run** to begin the installation.
 
 <!------------------------------------------------------------------------------------------------>
+<!--------------------------- 163. click run to begin install (145) ------------------------------>
+<!------------------------------------------------------------------------------------------------>
 <p align="center">
-<img src="images/image163.png" 
-	alt=" "
-	width="65%">
+<img src="images/image163.png"
+   alt="Click Next to Begin Install"
+   width="65%" />
 &nbsp;
 
 4.  Select the location where you want to install Git Bash. 
@@ -5413,10 +5475,12 @@ manually**.
 location. Click **Next**.
 
 <!------------------------------------------------------------------------------------------------>
+<!----------------------- 164. select location to install git bash (146) ------------------------->
+<!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="images/image164.png" 
-	alt=" "
-	width="65%">
+   alt="Enter Location to Install Git Bash"
+   width="65%" />
 &nbsp;
 
 5.  Choose the components you want to install, or simply leave the
@@ -5769,7 +5833,7 @@ After completing this lab you will be able to:
 -   Add SSH Key to GitHub, as in [this
     lab](https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBMDeveloperSkillsNetwork-CD0101EN-SkillsNetwork/labs/GitHubLabs/GitHub_AddSSHtoRepo.md.html)
 
-<h2>Exercise 1: Clone a repo</h2>
+<h3>Exercise 1: Clone a repo</h3>
 
 To clone a repo, you need the ssh url of the repo.
 
@@ -5936,7 +6000,7 @@ In this module, you learned that:
     -   Repository Administrator -- configures and maintains access to
         the repository
 
-<p><b><i>Last edited 04/24/2022 5:14pm</i></b></p>
+<p><b><i>Last edited 04/24/2022 8:02pm</i></b></p>
 
 ...the end.
 
