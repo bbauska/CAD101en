@@ -5516,21 +5516,23 @@ location. Click **Next**.
     Click **Next**.
 
 <!------------------------------------------------------------------------------------------------>
+<!------------------------- 168. choose how you want to use git from cli (148) --------------------->
+<!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="images/image168.png" 
-	alt=" "
-	width="65%">
+   alt="How Would you Like to Use Git from the Command Line Interface (CLI)?"
+   width="65%" />
 &nbsp;
 
 9.  Select **Use the OpenSSL library**. Click **Next**.
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------- 169. use openssh library or native windows (148) --------------------->
+<!------------------------- 169. use openssl library or native windows (148) --------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="images/image169.png" 
-	alt="Use OpenSSH Library (not piece of shit windows), if you can"
-	width="65%">
+   alt="Use OpenSSL Library (not piece of shit windows), if you can"
+   width="65%" />
 &nbsp;
 
 10. Configure your line ending conversions for Windows by selecting the
@@ -5542,8 +5544,8 @@ location. Click **Next**.
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="images/image170.png" 
-	alt="Configure line ending conversios"
-	width="65%">
+   alt="Configure line ending conversios"
+   width="65%" />
 &nbsp;
 
 11. Configure your terminal emulator to use with Git Bash by selecting
@@ -5554,8 +5556,8 @@ location. Click **Next**.
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="images/image171.png" 
-	alt=" "
-	width="65%">
+   alt="Configure Terminal Emulator to Work with Git Bash"
+   width="65%" />
 &nbsp;
 
 12. Configure the default behavior for a git pull by selecting **Default
@@ -5565,20 +5567,20 @@ location. Click **Next**.
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="images/image172.png" 
-	alt="Configure Default Behavior for git pull"
-	width="65%">
+   alt="Configure Default Behavior for git pull"
+   width="65%" />
 &nbsp;
 
 13. Select any additional options you want to install. (The default
     option is sufficient to use Git Bash successfully). Click **Next**.
 
 <!------------------------------------------------------------------------------------------------>
-<!-------------------------------- 173. additional options  (151) -------------------------------->
+<!---------------------------- 173. configuring extra options  (151) ----------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="images/image173.png" 
-	alt=" "
-	width="65%">
+   alt="Additional Options"
+   width="65%" />
 &nbsp;
 
 14. You can enable experimental options if you choose to. By enabling
@@ -5593,8 +5595,8 @@ location. Click **Next**.
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="images/image174.png" 
-	alt="Experimental Options? yes/no"
-	width="65%">
+   alt="Experimental Options? yes/no"
+   width="65%" />
 &nbsp;
 
 15. Leave the checkboxes selected and click **Next**.
@@ -5604,8 +5606,8 @@ location. Click **Next**.
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="images/image175.png" 
-	alt="Leave the checkboxes selected and click 'Next'"
-	width="65%">
+   alt="Leave the checkboxes selected and click 'Next'"
+   width="65%" />
 &nbsp;
 
 The Git Bash terminal opens. You are now able to enter Git and Bash
@@ -5616,8 +5618,8 @@ commands.
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="images/image176.png" 
-	alt="Git Bash Terminal"
-	width="65%">
+   alt="Git Bash Terminal"
+   width="65%" />
 &nbsp;
 </p>
 
@@ -5631,9 +5633,9 @@ commands.
 <!----------------------------- 158. ibm skills network logo (153) ------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
-<img src="images/image158.png" 
-	alt="IBM Skills Network"
-	width="20%">
+<img src="images/image158.png"
+   alt="IBM Skills Network"
+   width="20%" />
 &nbsp;
 </p>
 
@@ -5703,8 +5705,8 @@ key.
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="images/image158.png" 
-	alt="IBM Skills Network logo"
-	width="20%">
+   alt="IBM Skills Network logo"
+   width="20%" />
 &nbsp;
 </p>
 
@@ -5736,8 +5738,8 @@ command line and the copy the output.
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="images/image177.png" 
-	alt="Github Settings"
-	width="40%">
+   alt="Github Settings"
+   width="40%" />
 &nbsp;
 </p>
 
@@ -5749,8 +5751,8 @@ command line and the copy the output.
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="images/image178.png" 
-	alt="SSH and GPG Keys"
-	width="85%">
+   alt="SSH and GPG Keys"
+   width="65%" />
 &nbsp;
 </p>
 
@@ -5761,8 +5763,8 @@ command line and the copy the output.
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="images/image179.png" 
-	alt="New SSH Key"
-	width="85%">
+   alt="New SSH Key"
+   width="65%" />
 &nbsp;
 </p>
 
@@ -5775,8 +5777,8 @@ command line and the copy the output.
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="images/image180.png" 
-	alt="SSH keys/Add New"
-	width="65%">
+   alt="SSH keys/Add New"
+   width="65%" />
 &nbsp;
 </p>
 
@@ -5793,13 +5795,12 @@ Congratulations! You have now learned how to add an SSH key to GitHub.
 <h3>Hands-on Lab: Cloning, committing and pushing your GitHub repo from the command line.</h3>
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------- 158. ibm developer logo (158) ---------------------------------->
-<!------------------------------------------------------------------------------------------------>
+<!------------------------------- 159. ibm developer logo (158) ---------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
-<img src="images/image158.png" 
-	alt="IBM Developer logo"
-	width="20%">
+<img src="images/image159.png" 
+   alt="IBM Developer logo"
+   width="20%" />
 &nbsp;
 </p>
 
@@ -5851,8 +5852,8 @@ To clone a repo, you need the ssh url of the repo.
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="images/image181.png" 
-	alt="Copy/Paste URL"
-	width="65%">
+   alt="Copy/Paste URL"
+   width="65%" />
 &nbsp;
 </p>
 
@@ -5864,12 +5865,12 @@ To clone a repo, you need the ssh url of the repo.
 7.  Run the command \"git clone \"
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------------ 184. git clone (159) -------------------------------------->
+<!------------------------------------ 182. git clone (159) -------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="images/image182.png" 
-	alt="clone .git file"
-	width="65%">
+   alt="Clone .git File"
+   width="65%" />
 &nbsp;
 </p>
 
@@ -5882,8 +5883,8 @@ To clone a repo, you need the ssh url of the repo.
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="images/image183.png" 
-	alt="git clone"
-	width="65%">
+   alt="git clone"
+   width="65%" />
 &nbsp;
 </p>
 
@@ -5899,8 +5900,8 @@ Using your favorite editor make the changes to the html file.
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="images/image184.png" 
-	alt="Edit the html"
-	width="65%">
+   alt="Edit the html"
+   width="65%" />
 &nbsp;
 </p>
 
@@ -5911,8 +5912,8 @@ Using your favorite editor make the changes to the html file.
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="images/image185.png" 
-	alt="git Status"
-	width="65%">
+   alt="git Status"
+   width="65%" />
 &nbsp;
 </p>
 
