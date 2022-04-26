@@ -64,61 +64,56 @@ After completing this course, you will be able to:
 
 ## 1. [**Chapter 1. Introduction to Programming for the Cloud**](#ch1)
 >### 1.1 [**Course Introduction**](#ch1-1)
->### 1-2 [**Module Introduction**](#ch1-2)
->### 1-3 [**Overview of Web and Cloud Development**](#ch1-3)
->### 1-4 [**Learning Front-End Development**](#ch1-4)
->### 1-5 [**Introducing Application Development Tools**](#ch1-5)
->### 1-6 [**More Application Development Tool**](#ch1-6)
->### 1-7 [**The Importance of Back-End Development**](#ch1-7)
->### 1-8 [**Lab: Demo of Web Development in Action**](#ch1-8)
->### 1-9 [**Module Summary**](#ch1-9)
+>### 1-2 [**Overview of Web and Cloud Development**](#ch1-2)
+>### 1-3 [**Learning Front-End Development**](#ch1-3)
+>### 1-4 [**Introducing Application Development Tools**](#ch1-4)
+>### 1-5 [**More Application Development Tool**](#ch1-5)
+>### 1-6 [**The Importance of Back-End Development**](#ch1-6)
+>### 1-7 [**Lab: Demo of Web Development in Action**](#ch1-7)
+>### 1-8 [**Module Summary**](#ch1-8)
 
 ## 2. [**Chapter 2. HTML5 and CSS3 Overview**](#ch2)
->### 2.1 [**Module Introduction**](#ch2-1)
->### 2.2 [**Introduction to HTML**](#ch2-2)
->### 2.3 [**HTML Features**](#ch2-3)
->### 2.4 [**Lab: Intro to HTML (JSFiddle)**](#ch2-4)
->### 2.5 [**HTML Management and Support**](#ch2-5)
->### 2.6 [**HTML Scripting**](#ch2-6)
->### 2.7 [**HTML5 Browser Support**](#ch2-7)
->### 2.8 [**Lab: HTML**](#ch2-8)
->### 2.9 [**CSS: Styling HTM**](#ch2-9)
->### 2.10 [**Lab: CSS**](#ch2-10)
->### 2.11 [**Module Summary**](#ch2-11)
+>### 2.1 [**Introduction to HTML**](#ch2-1)
+>### 2.2 [**HTML Features**](#ch2-2)
+>### 2.3 [**Lab: Intro to HTML (JSFiddle)**](#ch2-3)
+>### 2.4 [**HTML Management and Support**](#ch2-4)
+>### 2.5 [**HTML Scripting**](#ch2-5)
+>### 2.6 [**HTML5 Browser Support**](#ch2-6)
+>### 2.7 [**Lab: HTML**](#ch2-7)
+>### 2.8 [**CSS: Styling HTM**](#ch2-8)
+>### 2.9 [**Lab: CSS**](#ch2-9)
+>### 2.10 [**Module Summary**](#ch2-10)
 
 ## 3. [**Chapter 3. HTML5 Elements**](#ch3)
->### 3.1 [**Module Introduction**](#ch3-1)
->### 3.2 [**HTML5 Tags and Structural Elements**](#ch3-2)
->### 3.3 [**HTML5 Input Element: Attributes for the Input Tag**](#ch3-3)
->### 3.4 [**Lab: HTML5**](#ch3-4)
->### 3.5 [**Module Summary**](#ch3-5)
+>### 3.1 [**HTML5 Tags and Structural Elements**](#ch3-1)
+>### 3.2 [**HTML5 Input Element: Attributes for the Input Tag**](#ch3-2)
+>### 3.3 [**Lab: HTML5**](#ch3-3)
+>### 3.4 [**Module Summary**](#ch3-4)
 
 ## 4. [**Chapter 4. JavaScript Programming for Web Applications**](#ch4)
->### 4.1 [**Module Introduction**](#ch4-1)
->### 4.2 [**JavaScript Language: Overv/iew and Syntax**](#ch4-2)
->### 4.3 [**JavaScript: Variables and Control Statements**](#ch4-3)
->### 4.4 [**JavaScript: Functions and Prototypes**](#ch4-4)
->### 4.5 [**Client-Side JavaScript: with HTML**](#ch4-5)
->### 4.6 [**Client-Side JavaScript: with DOM**](#ch4-6)
->### 4.7 [**JavScript DOM Objects**](#ch4-7)
->### 4.8 [**JavScript APIs**](#ch4-8)
->### 4.9 [**Lab: JavaScript**](#ch4-9)
->### 4.10 [**Module Summary**](#ch4-10)
+>### 4.1 [**JavaScript Language: Overv/iew and Syntax**](#ch4-1)
+>### 4.2 [**JavaScript: Variables and Control Statements**](#ch4-2)
+>### 4.3 [**JavaScript: Functions and Prototypes**](#ch4-3)
+>### 4.4 [**Client-Side JavaScript: with HTML**](#ch4-4)
+>### 4.5 [**Client-Side JavaScript: with DOM**](#ch4-5)
+>### 4.6 [**JavScript DOM Objects**](#ch4-6)
+>### 4.7 [**JavScript APIs**](#ch4-7)
+>### 4.8 [**Lab: JavaScript**](#ch4-8)
+>### 4.9 [**Module Summary**](#ch4-9)
 
 ## 5. [**Chapter 5. GitHub**](#ch5)
->### 5.1 [**Module Introduction**](#ch5-1)
->### 5.2 [**Overview of GitHub**](#ch5-2)
->### 5.3 [**Introduction to GitHub**](#ch5-3)
->### 5.4 [**GitHub Repositories**](#ch5-4)
->### 5.5 [**Lab: GitHub Sign Up & Create Repo**](#ch5-5)
->### 5.6 [**GitHub Branches**](#ch5-6)
->### 5.7 [**Lab: Branching and Merging (Web UI)**](#ch5-7)
->### 5.8 [**Cloning and Forking GitHub Projects**](#ch5-8)
->### 5.9 [**Managing GitHub Projects**](#ch5-9)
->### 5.10 [**Git Installation**](#ch5-10)
->### 5.11 [**SSH Key Creation**](#ch5-11)
->### 5.12 [**Add SSH to Repo**](#ch5-12)
->### 5.13 [**Module Summary**](#ch5-13)
+>### 5.1 [**Overview of GitHub**](#ch5-1)
+>### 5.2 [**Introduction to GitHub**](#ch5-2)
+>### 5.3 [**GitHub Repositories**](#ch5-3)
+>### 5.4 [**Lab: GitHub Sign Up & Create Repo**](#ch5-4)
+>### 5.5 [**GitHub Branches**](#ch5-5)
+>### 5.6 [**Lab: Branching and Merging (Web UI)**](#ch5-6)
+>### 5.7 [**Cloning and Forking GitHub Projects**](#ch5-7)
+>### 5.8 [**Managing GitHub Projects**](#ch5-8)
+>### 5.9 [**Git Installation**](#ch5-9)
+>### 5.10 [**SSH Key Creation**](#ch5-10)
+>### 5.11 [**Add SSH to Repo**](#ch5-11)
+>### 5.12 [**Module Summary**](#ch5-12)
 
 **[`^        back to table of contents        ^`](#table-of-contents)**
 
@@ -144,7 +139,7 @@ Github}** (CAD101EN)
 
 <h3>Welcome</h3>
 
-<h4>Welcome to Introduction to Cloud Development with HTML5, CSS3, and JavaScript</h4>
+<h3 id="ch1-1">1.1 Welcome to Introduction to Cloud Development with HTML5, CSS3, and JavaScript</h3>
 
 <!------------------------------------------------------------------------------------------------>
 <!----------------------------- 04. course intro: cloud courses (4) ------------------------------>
@@ -170,7 +165,7 @@ front-end development, working with HTML, CSS, and JavaScript. Finally,
 you will discover tools that help you to store your projects and keep
 track of changes made to project files, such as Git and GitHub.
 
-<h3 id="ch1-1">1.1 Module 1: Introduction and Learning Objectives</h3>
+<h3>Module 1: Introduction and Learning Objectives</h3>
 
 Learn what Cloud Application development involves from the very
 beginning. Discover the languages, frameworks, and tools that enable you
@@ -211,7 +206,7 @@ After completing this module, you will be able to:
   <b><a href="#table-of-contents">↥ Back To Top</a></b>
 </div>
 
-<h3 id="ch1-2">1.2 Module 1, Part I: Overview of Web and Cloud Development</h3>
+<h3 id="ch1-2">1.2 Module 1 Overview of Web and Cloud Development</h3>
 
 When you're starting out as a Web Developer, it can be difficult to
 determine what you need to learn and what order you should learn it in.
@@ -324,7 +319,7 @@ In this brief overview, you learned about:
   <b><a href="#table-of-contents">↥ Back To Top</a></b>
 </div>
 
-<h3 id="ch1-3">1.3 Module 1, Part II: Learning Front-End Development</h3>
+<h3 id="ch1-3">1.3 Module 1 Learning Front-End Development</h3>
 
 Internet websites offer lots of different services, one of the most
 popular being online shopping.
@@ -467,7 +462,7 @@ operating systems and multiple devices.
   <b><a href="#table-of-contents">↥ Back To Top</a></b>
 </div>
 
-<h3 id="ch1-4">1.4 Module 1, Part III: Introducing Application Development Tools</h3>
+<h3 id="ch1-4">1.4 Module 1 Introducing Application Development Tools</h3>
 
 Welcome to Introducing Application Development Tools.
 
@@ -990,7 +985,7 @@ After completing this module, you will be able to:
 
 -   Describe how CSS is used to enhance websites.
 
-<h3 id="ch2-1">2.1 Module 2, Part I: Introduction to HTML</h3>
+<h3 id="ch2-1">2.1 Module 2 Introduction to HTML</h3>
 
 Hello and welcome to Introduction to HTML.
 
@@ -1081,7 +1076,7 @@ In this section (part 1), you learned:
 
 -   Markup and APIs for web storage, video, and audio content.
 
-<h3 id-"ch2-3">Module 2, Part II: HTML Features</h3>
+<h3 id-"ch2-3">Module 2 HTML Features</h3>
 
 Hello and welcome to HTML Features.
 
@@ -1255,7 +1250,7 @@ Hands-on Lab: Intro to HTML (JDFiddle)
 [Click here to launch the lab in another
 browser.](https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBMDeveloperSkillsNetwork-CD0101EN-SkillsNetwork/labs/demos/jsfiddle-demo.md.html)
 
-<h3 id="ch2-4">Module 2, Part III: HTML Management and Support</h3>
+<h3 id="ch2-4">Module 2 HTML Management and Support</h3>
 
 Hello, and welcome to HTML Management and Support.
 
@@ -1376,7 +1371,7 @@ About HTML5 Web Applications, which have:
 And about HTML5 Elements, which enable you to define and manage web page
 structure and content.
 
-<h3 id="ch2-6">2.6 Module 2, Part IV: HTML Scripting</h3>
+<h3 id="ch2-6">2.6 Module 2 HTML Scripting</h3>
 
 Hello and welcome to HTML Scripting.
 
@@ -1525,7 +1520,7 @@ In this section (part 4), you learned:
 -   HTML documents loaded into a browser page become Document objects,
     which you can access through scripts.
 
-<h3 id="ch2-7">2.7 Module 2, Part V: HTML5 Browser Support</h3>
+<h3 id="ch2-7">2.7 Module 2 HTML5 Browser Support</h3>
 
 Hello and welcome to HTML5 Browser Support.
 
@@ -1688,9 +1683,9 @@ labs virtual labs environment with instructions to complete this lab.
 Your username and email will be shared with SN Labs to authenticate and
 provision your lab environment.
 
-<h1>Start Lab</h1>
+<h4>Start Lab</h4>
 
-<h3 id="ch2-9">2.9 Module 2, Part VI: CSS: Styling HTML</h3>
+<h3 id="ch2-9">2.9 Module 2 CSS: Styling HTML</h3>
 
 <!------------------------------------------------------------------------------------------------>
 <!--------------------------- 29. objectives: css styling html (43) ------------------------------>
@@ -1947,7 +1942,7 @@ provision your lab environment.
 
 <h3>Start Lab</h3>
 
-<h3 id="ch2-11">2.11 Module 2 Summary</h3>
+<h3 id="ch2-10">2.10 Module 2 Summary</h3>
 
 In this module (2), you learned that:
 
@@ -1989,7 +1984,7 @@ After completing this module, you will be able to:
 
 -   Describe the attributes of HTML5 input elements.
 
-<h3 id="ch3-2">3.2 Module 3, Part I: HTML5 Tags and Structural Elements</h3>
+<h3 id="ch3-1">3.1 Module 3 HTML5 Tags and Structural Elements</h3>
 
 Hello. Welcome to HTML5 Tags and Structural Elements.
 
@@ -2089,7 +2084,7 @@ In contrast, the \<div\> tag has no innate semantic meaning besides the
 logical grouping of the content.
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------ 41. html5 structural elements #2 (55) -------------------------->
+<!--------------------------- 41. html5 structural elements #2 (55) ------------------------------>
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="images/image041.png"
@@ -2111,11 +2106,11 @@ A \<header\> element is used to group the headers for a page.
 The \<footer\> defines the area at the bottom of the page.
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------ 42. example with structural elements (56) -------------------------->
+<!-------------------------- 42. example with structural elements (56) --------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="images/image042.png"
-   alt=""
+   alt="Example with Structural Elements"
    width="65%" />
 &nbsp;
 
@@ -2131,11 +2126,11 @@ their own headers.
 The page also includes a \<footer\> element.
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------ 43.  (##) -------------------------->
+<!--------------------------- 43. elements for grouping content (57) ----------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="images/image043.png"
-   alt=""
+   alt="Elements for Grouping Content"
    width="65%" />
 &nbsp;
 
@@ -2155,11 +2150,11 @@ The \<figurecaption\> tag defines the caption for the contents of the
 element.
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------ 44.  (##) -------------------------->
+<!------------------------------- 44. navigational elements (58) --------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="images/image044.png"
-   alt=""
+   alt="Navigational Elements"
    width="65%" />
 &nbsp;
 
@@ -2171,11 +2166,11 @@ In HTML5 syntax, these navigational links are placed inside a \<nav\>
 tag.
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------ 45.  (##) -------------------------->
+<!----------------------------- 45. navigational elements #2 (58) -------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="images/image045.png"
-   alt=""
+   alt="Navigational Elements #2"
    width="65%" />
 &nbsp;
 
@@ -2192,11 +2187,11 @@ The \<\> tag is a convenience tag for grouping navigational links in a
 web page.
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------ 46.  (##) -------------------------->
+<!-------------------------------------- 46. summary (59) ---------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="images/image046.png"
-   alt=""
+   alt="Summary"
    width="65%" />
 &nbsp;
 
@@ -2218,7 +2213,7 @@ In this section (part 1), you learned:
 
 -   And the \<nav\> tags enable you to group navigational links.
 
-<h3 id="ch3-3">3.3 Module 3, Part II: HTML5 Input Element: Attributes for the Input Tag</h3>
+<h3 id="ch3-2">3.2 Module 3 HTML5 Input Element: Attributes for the Input Tag</h3>
 
 Hello. Welcome to HTML5 Input Element: Attributes for the Input Tag.
 
@@ -2241,11 +2236,11 @@ color code.
 The \< input type=\"date\" \> attribute is a date control (year, month,
 day) with no time zone.
 <!------------------------------------------------------------------------------------------------>
-<!------------------------ 47.  (##) -------------------------->
+<!----------------------------------- 47. input for date (60) ------------------------------------>
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="images/image047.png"
-   alt=""
+   alt="Input for Date"
    width="65%" />
 &nbsp;
 
@@ -2258,11 +2253,11 @@ The datetime-local attribute provides input for a date and time (year,
 month, day, hour, minute, AM/PM) with no time zone.
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------ 48.  (##) -------------------------->
+<!------------------------------ 48. input for date and time (60) -------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="images/image048.png"
-   alt=""
+   alt="Input for Date & Time"
    width="65%" />
 &nbsp;
 
@@ -2442,7 +2437,7 @@ In this section (part 2), you learned:
 
 -   How to implement validation fallback.
 
-<h3 id="ch3-4">3.4 Module 3, Hands on Lab:</h3>
+<h3 id="ch3-3">3.3 Module 3, Hands on Lab:</h3>
 
 HANDS-ON LAB: HTML5
 
@@ -3770,7 +3765,6 @@ and end tag, are text nodes.
    alt="DOM Level 2 Tree for a Form"
    width="65%" />
 &nbsp;
-![](images/image096.png){width="5.0in" height="2.4396128608923884in"}
 
 The figure shows the DOM level 2 tree for the FORM portion of the
 document.
@@ -3834,7 +3828,7 @@ After reading this section (part 7), you will be able to:
     applications for working with HTML documents.
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------ 99. dom html-related note types (98) -------------------------->
+<!---------------------------- 99. dom html-related note types (98) ------------------------------>
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="images/image099.png"
@@ -3858,11 +3852,11 @@ For example:
 An ELEMENT_NODE type is represented by the integer 1.
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------ 100.  (99) -------------------------->
+<!--------------------------- 100. dom html-related node types (99) ------------------------------>
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image100.png?raw=true" 
-     alt="" 
+     alt="DOM - HTML-related Node Types" 
      width="65%" />
 &nbsp;
 
@@ -6145,4 +6139,3 @@ In this module, you learned that:
 <p><b><i>Last edited 04/25/2022 9:30pm</i></b></p>
 
 ...the end.
-
