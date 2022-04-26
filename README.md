@@ -5771,10 +5771,10 @@ commands.
 <h3>Generate an SSH key</h3>
 
 <!------------------------------------------------------------------------------------------------>
-<!----------------------------- 158. ibm skills network logo (153) ------------------------------->
+<!----------------------------- 159. ibm skills network logo (153) ------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
-<img src="images/image158.png"
+<img src="images/image159.png"
    alt="IBM Skills Network"
    width="20%" />
 &nbsp;
@@ -5842,10 +5842,10 @@ key.
 <h3>Lab: Adding an SSH key to GitHub</h3>
 
 <!------------------------------------------------------------------------------------------------>
-<!----------------------------- 158. ibm skills network logo (155) ------------------------------->
+<!----------------------------- 159. ibm skills network logo (155) ------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
-<img src="images/image158.png" 
+<img src="images/image159.png"
    alt="IBM Skills Network logo"
    width="20%" />
 &nbsp;
@@ -5880,7 +5880,7 @@ command line and the copy the output.
 <p align="center">
 <img src="images/image177.png" 
    alt="Github Settings"
-   width="65%" />
+   width="45%" />
 &nbsp;
 </p>
 
@@ -6142,7 +6142,7 @@ In this module, you learned that:
     -   Repository Administrator -- configures and maintains access to
         the repository
 
-<p><b><i>Last edited 04/25/2022 3:17pm</i></b></p>
+<p><b><i>Last edited 04/25/2022 9:30pm</i></b></p>
 
 ...the end.
 
