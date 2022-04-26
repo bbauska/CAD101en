@@ -146,6 +146,14 @@ Github}** (CAD101EN)
 <div align="right">
   <b><a href="#table-of-contents">↥ Back To Top</a></b>
 </div>
+<!------------------------------------------------------------------------------------------------>
+<!------------------------------------ 05. emerging jobs (4) ------------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center">
+	<img src="images/image005.png" 
+	alt="Emerging Jobs: Full-Stack, Back-End, Front-End, JavaScript"
+	width="65%" />
+&nbsp;
 
 Want to take the first steps to become a Cloud Application Developer?
 This course will lead you through the languages and tools you will need
