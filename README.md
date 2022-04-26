@@ -395,7 +395,7 @@ Sheets (SAAS).
 
 It is an extension of CSS that is compatible with all versions of CSS.
 
-SAAS enables you to use things like variables, nested rules, and inline
+SAAS enables you to use things like variables, nested rules, and inline
 imports to keep things organized.
 
 SAAS allows you to create style sheets faster and more easily.
@@ -883,7 +883,7 @@ If the end point is missing, the server returns a 404 error.
 
 Back-end developers must create and maintain this server-side routing.
 
-Along with backend APIs, routes effectively allow the front-end client
+Along with backend APIs, routes effectively allow the front-end client
 to plug into the correct socket at the back-end.
 
 APIs provide a mechanism for Cloud apps, mobile apps, and other types of
@@ -1134,33 +1134,33 @@ text/html, it is processed as an HTML document by web browsers.
 
 This example uses the following elements:
 
-The **\<!DOCTYPE html\>** is a declaration tag that represents the
+The **\<!DOCTYPE html\>** is a declaration tag that represents the
 document type.
 
-The  declaration is not an HTML tag; it is an instruction to the web
+The declaration is not an HTML tag; it is an instruction to the web
 browser about what version of HTML the page is written in.
 
 Although this declaration is not required, it should be the first line
 of the HTML code if the developer decides to include it.
 
-The \<html\> ... \</html\> tag is the root element of this tree.
+The \<html\> ... \</html\> tag is the root element of this tree.
 
-It contains all of the other HTML elements, except the \<!DOCTYPE html\>
+It contains all of the other HTML elements, except the \<!DOCTYPE html\>
 declaration tag.
 
-This example, contains two elements:  \<head\> and \<body\>.
+This example, contains two elements:  \<head\> and \<body\>.
 
-The \<head\> tag contains a \<title\> in the example.
+The \<head\> tag contains a \<title\> in the example.
 
-The \<head\> element can contain the following tags:
+The \<head\> element can contain the following tags:
 
--   title ( 
+-   title ( 
 
 -   scripts (
 
 -   style (
 
--   style sheet links ( ),
+-   style sheet links ( ),
 
 -   meta information (),
 
@@ -1168,7 +1168,7 @@ The \<head\> element can contain the following tags:
 
 -   other initialization functions ().
 
-Finally, the \<body\> tag contains all content that is displayed on the
+Finally, the \<body\> tag contains all content that is displayed on the
 webpage.
 
 HTML user agents, commonly known as browsers, parse the markup, turning
@@ -1781,7 +1781,7 @@ You can code CSS as a style attribute in an HTML tag, a head section of
 a document, or an external document.
 
 The preference is to code CSS in external documents (referred to
-as style sheets).
+as style sheets).
 
 <!------------------------------------------------------------------------------------------------>
 <!-------------------------- 33. what elements can css control? (45) ----------------------------->
@@ -1808,19 +1808,19 @@ CSS style element are structured like this.
    width="65%" />
 &nbsp;
 
-In this example, the html-tag-name can be one of the following elements:
+In this example, the html-tag-name can be one of the following elements:
 
--   Any of the tags you find in HTML code (for example,\<a\> , \<div\>,
-    \<li\>, or \<label\>, etc.)
+-   Any of the tags you find in HTML code (for example,\<a\>, \<div\>,
+    \<li\>, or \<label\>, etc.)
 
--   An id reference that is displayed with a preceding hash symbol (#)
+-   An id reference that is displayed with a preceding hash symbol (#)
     in CSS code.
 
--   A class reference that is displayed with a preceding dot/period
-    (.) symbol in CSS code.
+-   A class reference that is displayed with a preceding dot/period
+    (.) symbol in CSS code.
 
 When making a site design, begin by establishing the base style.
-Establish a base style by styling the \<Body\> tag, as shown here.
+Establish a base style by styling the \<Body\> tag, as shown here.
 
 <!------------------------------------------------------------------------------------------------>
 <!------------------------------------ 35. base styles (47) -------------------------------------->
@@ -1828,7 +1828,7 @@ Establish a base style by styling the \<Body\> tag, as shown here.
 <p align="center">
 <img src="images/image035.png"
    alt="Base Styles"
-   width="65%" />
+   width="20%" />
 &nbsp;
 
 This example makes the following styles:
@@ -1838,7 +1838,7 @@ This example makes the following styles:
 -   Ensures that the font color is black (color),
 
 -   Ensures that all content edges match the edge of the browser window
-    frame (margin and padding),
+    frame (margin and padding),
 
 -   Horizontally aligns the textual content to the left (text-align),
 
@@ -1848,38 +1848,38 @@ This example makes the following styles:
 
 These settings are simple. Generally, follow these guidelines:
 
--   When a color is specified, use Red-Green-Blue (RGB) hexadecimal
+-   When a color is specified, use Red-Green-Blue (RGB) hexadecimal
     light values.
 
--   When a size is specified, use pixels (indicated by a px after the
-    number); an em, which is indicated by em after the number (that is,
+-   When a size is specified, use pixels (indicated by apx after the
+    number); an em, which is indicated by em after the number (that is,
     the size of the font multiplied by the specified number); or
-    a percentage, which is indicated by a % after the number.
+    a percentage, which is indicated by a % after the number.
 
--   Text can be aligned left, right, or center.
+-   Text can be aligned left,right, or center.
 
--   Floats can also be left or right.
+-   Floats can also be left or right.
 
--   Vertical alignments must be top, middle, or bottom.
+-   Vertical alignments must be top, middle, or bottom.
 
 -   Fonts can be any specific font or font family (serif, sans-serif, or
     monospace) or even a downloadable font.
 
 One of the most important decisions you must make when you are
-determining the design of your website is whether to use a fluid or
-a fixed layout.
+determining the design of your website is whether to use a fluid or
+a fixed layout.
 
-A fluid layout is a layout in which the height and width of elements is
+A fluid layout is a layout in which the height and width of elements is
 flexible and can expand or contract based on the browser window, the
 operating system, and other user preferences.
 
-You specify these elements mostly by using percentages and ems.
+You specify these elements mostly by using percentages and ems.
 
-A fixed layout is a layout where you specify the height and width of
+A fixed layout is a layout where you specify the height and width of
 elements, and those values remain the same regardless of which operating
 system or browser you use to access the website.
 
-You specify these elements mostly by using pixels.
+You specify these elements mostly by using pixels.
 
 When determining the layout, consider also the pros and cons for fluid
 and fixed layouts.
@@ -1891,7 +1891,7 @@ To apply a CSS, you must tell the browser where to look for it.
 
 This step is the only true point where HTML references a CSS.
 
-You can make the reference in one of two ways---the or the tag Style tag
+You can make the reference in one of two ways---the or the tag Style tag
 It "dirties" the page with a non-HTML code.
 
 You apply this style to only one page.
@@ -1904,7 +1904,7 @@ the load time of each page, which causes the user to wait longer.
 You can link to it from other pages, which ensures a clean HTML and a
 smaller page size.
 
-To use this method, the tag must be added to the  tag section.
+To use this method, the tag must be added to the  tag section.
 
 In this section , you learned:
 
@@ -4914,7 +4914,7 @@ The master branch is definitive; it stores the deployable version of
 your code.
 
 The master branch is created by default, however, you can use any branch
-as the main, finished, deployable version of the code.
+as the main, finished, deployable version of the code.
 
 When you plan to change things, you create a new branch and give it a
 descriptive name.
@@ -5039,7 +5039,7 @@ To open a new pull request:
 
 Click Pull request and select New pull request.
 
-Select the new branch from the compare box.
+Select the new branch from the compare box.
 
 Scroll down to view the changes.
 
