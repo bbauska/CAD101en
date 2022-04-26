@@ -158,7 +158,7 @@ front-end development, working with HTML, CSS, and JavaScript. Finally,
 you will discover tools that help you to store your projects and keep
 track of changes made to project files, such as Git and GitHub.
 
-<h3>Module 1: Introduction and Learning Objectives</h3>
+<h3>Chapter 1: Introduction to Programming for the Cloud</h3>
 
 Learn what Cloud Application development involves from the very
 beginning. Discover the languages, frameworks, and tools that enable you
@@ -948,7 +948,7 @@ In this module, you learned that:
   <b><a href="#table-of-contents">↥ Back To Top</a></b>
 </div>
 
-<h2 id="ch2">Module 2: Introduction and Learning Objectives</h2>
+<h2 id="ch2">Chapter 2: HTML5 and CSS3 Overview</h2>
 
 The most fundamental tools for front-end developers are the languages
 they use for developing the website or app. Foremost among these is
