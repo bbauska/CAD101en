@@ -23,8 +23,6 @@
 
 <h3>edX.org online course (CAD101EN) - 5 module course</h3>
 
-<h4>Welcome</h4>
-
 <h3>Course Overview</h3>
 <p>
 Want to take the first steps to become a Cloud Application Developer? This course will lead you through the languages and tools you will need to develop your own Cloud Apps.
@@ -58,8 +56,6 @@ After completing this course, you will be able to:
 *   Use JavaScript to enhance the interactivity of a Cloud Application or website.
 *   Manage your projects in GitHub.
 
-<h2>Syllabus</h2>
-
 ## [Table of Contents](#table-of-contents)
 
 ## 1. [**Chapter 1. Introduction to Programming for the Cloud**](#ch1)
@@ -69,8 +65,7 @@ After completing this course, you will be able to:
 >### 1-4 [**Introducing Application Development Tools**](#ch1-4)
 >### 1-5 [**More Application Development Tool**](#ch1-5)
 >### 1-6 [**The Importance of Back-End Development**](#ch1-6)
->### 1-7 [**Lab: Demo of Web Development in Action**](#ch1-7)
->### 1-8 [**Module Summary**](#ch1-8)
+>### 1-7 [**Module Summary**](#ch1-7)
 
 ## 2. [**Chapter 2. HTML5 and CSS3 Overview**](#ch2)
 >### 2.1 [**Introduction to HTML**](#ch2-1)
@@ -121,7 +116,7 @@ After completing this course, you will be able to:
   <b><a href="#table-of-contents">↥ Back To Top</a></b>
 </div>
 
-<h2 id="ch1">Ch 1: Introduction to Programming for the Cloud</h2>
+<h2 id="ch1">Chapter 1: Introduction to Programming for the Cloud</h2>
 <h3>Learning Objectives</h3>
 
 **Introduction to Cloud Development with HTML5, CSS3 and JavaScript {w/
@@ -136,8 +131,6 @@ Github}** (CAD101EN)
 	width="65%">
 &nbsp;
 </p>
-
-<h3>Welcome</h3>
 
 <h3 id="ch1-1">1.1 Welcome to Introduction to Cloud Development with HTML5, CSS3, and JavaScript</h3>
 
@@ -206,7 +199,7 @@ After completing this module, you will be able to:
   <b><a href="#table-of-contents">↥ Back To Top</a></b>
 </div>
 
-<h3 id="ch1-2">1.2 Module 1 Overview of Web and Cloud Development</h3>
+<h3 id="ch1-2">1.2 Overview of Web and Cloud Development</h3>
 
 When you're starting out as a Web Developer, it can be difficult to
 determine what you need to learn and what order you should learn it in.
@@ -319,7 +312,7 @@ In this brief overview, you learned about:
   <b><a href="#table-of-contents">↥ Back To Top</a></b>
 </div>
 
-<h3 id="ch1-3">1.3 Module 1 Learning Front-End Development</h3>
+<h3 id="ch1-3">1.3 Learning Front-End Development</h3>
 
 Internet websites offer lots of different services, one of the most
 popular being online shopping.
@@ -462,7 +455,7 @@ operating systems and multiple devices.
   <b><a href="#table-of-contents">↥ Back To Top</a></b>
 </div>
 
-<h3 id="ch1-4">1.4 Module 1 Introducing Application Development Tools</h3>
+<h3 id="ch1-4">1.4 Introducing Application Development Tools</h3>
 
 Welcome to Introducing Application Development Tools.
 
@@ -652,7 +645,7 @@ will utilize in your career as a developer including:
 
 -   frameworks
 
-<h3>Module 1, Part IV: More Application Development Tools</h3>
+<h3 id="ch1-5">1.5 More Application Development Tools</h3>
 
 Welcome to More Application Development Tools.
 
@@ -786,7 +779,7 @@ will utilize will support you in your career as a developer , including:
 
 -   CI/CD, Build Tools, Packages, Package Managers
 
-1.  Module 1, Part V: The Importance of Back-End Development
+<h3 id="ch1-6">1.6 The Importance of Back-End Development</h3>
 
 Welcome to the importance of back-end development.
 
@@ -928,7 +921,7 @@ storing data as required.
 
 Life for a back-end developer is varied, challenging, and ever changing.
 
-<h3 id="ch1-8">1.8 Module 1: Summary</h3>
+<h3 id="ch1-7">1.7 Module Summary</h3>
 
 In this module, you learned that:
 
@@ -985,7 +978,7 @@ After completing this module, you will be able to:
 
 -   Describe how CSS is used to enhance websites.
 
-<h3 id="ch2-1">2.1 Module 2 Introduction to HTML</h3>
+<h3 id="ch2-1">2.1 Introduction to HTML</h3>
 
 Hello and welcome to Introduction to HTML.
 
@@ -1076,7 +1069,7 @@ In this section (part 1), you learned:
 
 -   Markup and APIs for web storage, video, and audio content.
 
-<h3 id-"ch2-3">Module 2 HTML Features</h3>
+<h3 id-"ch2-2">2.2 HTML Features</h3>
 
 Hello and welcome to HTML Features.
 
@@ -1245,12 +1238,12 @@ The DOM tree is a representation of a document which is held in memory.
 
 It contains nodes which define the type and structure of the document.
 
-Hands-on Lab: Intro to HTML (JDFiddle)
+<h3 id="ch2-3">2.3 Hands-on Lab: Intro to HTML (JDFiddle)</h3>
 
 [Click here to launch the lab in another
 browser.](https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBMDeveloperSkillsNetwork-CD0101EN-SkillsNetwork/labs/demos/jsfiddle-demo.md.html)
 
-<h3 id="ch2-4">Module 2 HTML Management and Support</h3>
+<h3 id="ch2-4">2.4 HTML Management and Support</h3>
 
 Hello, and welcome to HTML Management and Support.
 
@@ -1371,7 +1364,7 @@ About HTML5 Web Applications, which have:
 And about HTML5 Elements, which enable you to define and manage web page
 structure and content.
 
-<h3 id="ch2-6">2.6 Module 2 HTML Scripting</h3>
+<h3 id="ch2-5">2.5 HTML Scripting</h3>
 
 Hello and welcome to HTML Scripting.
 
@@ -1520,7 +1513,7 @@ In this section (part 4), you learned:
 -   HTML documents loaded into a browser page become Document objects,
     which you can access through scripts.
 
-<h3 id="ch2-7">2.7 Module 2 HTML5 Browser Support</h3>
+<h3 id="ch2-6">2.6 HTML5 Browser Support</h3>
 
 Hello and welcome to HTML5 Browser Support.
 
@@ -1685,7 +1678,7 @@ provision your lab environment.
 
 <h4>Start Lab</h4>
 
-<h3 id="ch2-9">2.9 Module 2 CSS: Styling HTML</h3>
+<h3 id="ch2-9">2.9 CSS: Styling HTML</h3>
 
 <!------------------------------------------------------------------------------------------------>
 <!--------------------------- 29. objectives: css styling html (43) ------------------------------>
@@ -1942,7 +1935,7 @@ provision your lab environment.
 
 <h3>Start Lab</h3>
 
-<h3 id="ch2-10">2.10 Module 2 Summary</h3>
+<h3 id="ch2-10">2.10 Chapter Summary</h3>
 
 In this module (2), you learned that:
 
@@ -6136,6 +6129,6 @@ In this module, you learned that:
     -   Repository Administrator -- configures and maintains access to
         the repository
 
-<p><b><i>Last edited 04/25/2022 9:30pm</i></b></p>
+<p><b><i>Last edited 04/25/2022 10:53pm</i></b></p>
 
 ...the end.
