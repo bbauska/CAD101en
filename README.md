@@ -65,7 +65,7 @@ After completing this course, you will be able to:
 >### 1-4 [**Introducing Application Development Tools**](#ch1-4)
 >### 1-5 [**More Application Development Tool**](#ch1-5)
 >### 1-6 [**The Importance of Back-End Development**](#ch1-6)
->### 1-7 [**Module Summary**](#ch1-7)
+>### 1-7 [**Chapter 1 Summary**](#ch1-7)
 
 ## 2. [**Chapter 2. HTML5 and CSS3 Overview**](#ch2)
 >### 2.1 [**Introduction to HTML**](#ch2-1)
@@ -77,13 +77,13 @@ After completing this course, you will be able to:
 >### 2.7 [**Lab: HTML**](#ch2-7)
 >### 2.8 [**CSS: Styling HTM**](#ch2-8)
 >### 2.9 [**Lab: CSS**](#ch2-9)
->### 2.10 [**Module Summary**](#ch2-10)
+>### 2.10 [**Chapter 2 Summary**](#ch2-10)
 
 ## 3. [**Chapter 3. HTML5 Elements**](#ch3)
 >### 3.1 [**HTML5 Tags and Structural Elements**](#ch3-1)
 >### 3.2 [**HTML5 Input Element: Attributes for the Input Tag**](#ch3-2)
 >### 3.3 [**Lab: HTML5**](#ch3-3)
->### 3.4 [**Module Summary**](#ch3-4)
+>### 3.4 [**Chapter 3 Summary**](#ch3-4)
 
 ## 4. [**Chapter 4. JavaScript Programming for Web Applications**](#ch4)
 >### 4.1 [**JavaScript Language: Overv/iew and Syntax**](#ch4-1)
@@ -94,7 +94,7 @@ After completing this course, you will be able to:
 >### 4.6 [**JavScript DOM Objects**](#ch4-6)
 >### 4.7 [**JavScript APIs**](#ch4-7)
 >### 4.8 [**Lab: JavaScript**](#ch4-8)
->### 4.9 [**Module Summary**](#ch4-9)
+>### 4.9 [**Chapter 4 Summary**](#ch4-9)
 
 ## 5. [**Chapter 5. GitHub**](#ch5)
 >### 5.1 [**Overview of GitHub**](#ch5-1)
@@ -108,7 +108,7 @@ After completing this course, you will be able to:
 >### 5.9 [**Git Installation**](#ch5-9)
 >### 5.10 [**SSH Key Creation**](#ch5-10)
 >### 5.11 [**Add SSH to Repo**](#ch5-11)
->### 5.12 [**Module Summary**](#ch5-12)
+>### 5.12 [**Chapter 5 Summary**](#ch5-12)
 
 **[`^        back to table of contents        ^`](#table-of-contents)**
 
@@ -1967,7 +1967,7 @@ In this module (2), you learned that:
   <b><a href="#table-of-contents">↥ Back To Top</a></b>
 </div>
 
-<h2 id="ch3">Module 3: Introduction and Learning Objectives</h2>
+<h2 id="ch3">Chapter 3: Introduction and Learning Objectives</h2>
 
 HTML5 has many elements that enable developers to create well-structured
 and varied websites. These HTML5 elements provide ways to separate an
@@ -2498,9 +2498,9 @@ In this module, you learned that:
   <b><a href="#table-of-contents">↥ Back To Top</a></b>
 </div>
 
-<h2 id="ch4">Module 4, Part I: JavaScript Programming for Web Applications</h2>
+<h2 id="ch4">Chapter 4: JavaScript Programming for Web Applications</h2>
 
-So now you have a website or Cloud App with structure and content from
+Now you have a website or Cloud App with structure and content from
 HTML, consistent style from CSS, and a limited amount of interactivity
 for the user.  To enhance the user experience and create a real wow
 factor, you're going to need JavaScript. With JavaScript, you can make
@@ -4349,9 +4349,9 @@ In this module, you learned that:
 
 -   APIs are often used to access HTML DOM elements in web pages.
 
-<h2 id="ch5">Module 5 - GitHub / Module Introduction & Learning Objectives</h2>
+<h2 id="ch5">Chapter 5: GitHub</h2>
 
-<h3 id="ch5-1">5.1 GitHub</h3>
+<h3 id="ch5-1">5.1 Overview of GitHub</h3>
 
 Web and Cloud App developers rarely work alone. Large projects will
 include many people -- front-end developers, back-end developers,
@@ -4387,7 +4387,7 @@ After completing this module, you will be able to: 
 
 -   List the roles common in large projects. 
 
-<h3 id="ch5-2">5.2 Module 5 - GitHub: Overview of Git/GitHub</h3>
+<h3 id="ch5-2">5.2 Introduction to Git/GitHub</h3>
 
 In this module, you'll get an overview of Git and GitHub, which are
 popular environments among developers and data scientists for performing
@@ -4747,7 +4747,7 @@ In this module, you learned: 
 -   Contains elements to coordinate among programmers, track changes,
     and support non-linear workflows. 
 
-<h3 id="ch5-4">5.4 Module 5, Part III: GitHub Repositories</h3>
+<h3 id="ch5-4">5.4 GitHub Repositories</h3>
 
 Welcome to GitHub Repositories!
 
@@ -6137,6 +6137,6 @@ In this module, you learned that:
     -   Repository Administrator -- configures and maintains access to
         the repository
 
-<p><b><i>Last edited 04/25/2022 10:53pm</i></b></p>
+<p><b><i>Last edited 04/27/2022 7:39pm</i></b></p>
 
 ...the end.
