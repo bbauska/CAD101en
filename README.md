@@ -2011,7 +2011,7 @@ In this module (2), you learned that:
   <b><a href="#table-of-contents">↥ Back To Top</a></b>
 </div>
 
-<h2 id="ch3">Chapter 3: Introduction and Learning Objectives</h2>
+<h2 id="ch3">Chapter 3: HTML5 Elements/h2>
 
 HTML5 has many elements that enable developers to create well-structured
 and varied websites. These HTML5 elements provide ways to separate an
@@ -2083,6 +2083,9 @@ moment to read through the table.
    alt="HTML5 Specific Tags (4 of 4)"
    width="65%" />
 &nbsp;
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
 This table shows more HTML5 elements.
 
@@ -2158,8 +2161,11 @@ The \<footer\> defines the area at the bottom of the page.
    alt="Example with Structural Elements"
    width="65%" />
 &nbsp;
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
-This code example shows some of the HTML5 structural element.
+This code example shows some of the HTML5 structural elements.
 
 Here, the \<article\> element is used to create an online news report.
 
@@ -2218,6 +2224,9 @@ tag.
    alt="Navigational Elements #2"
    width="65%" />
 &nbsp;
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
 The \<nav\> tag is a convenience tag for grouping navigational links in
 a web page.
@@ -2288,6 +2297,9 @@ day) with no time zone.
    alt="Input for Date"
    width="65%" />
 &nbsp;
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
 The example shows the input type=\"date\" field as it is seen in Google
 Chrome.
@@ -2357,6 +2369,9 @@ the minimum and maximum.
    alt=""
    width="65%" />
 &nbsp;
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
 Only the slider itself is shown. Additional JavaScript code is needed in
 order to display the value of the slider.
@@ -2391,7 +2406,7 @@ You need to supply your own pattern matcher if you want the browser to
 validate the telephone number.
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------ 53.  (##) -------------------------->
+<!------------------------ 53. input for urls (63) -------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="images/image053.png"
@@ -2399,24 +2414,25 @@ validate the telephone number.
    width="65%" />
 &nbsp;
 
-The URL attribute is used to validate that the user typed in a properly
-formatted URL or web address.
+The URL attribute is used to validate that the user typed in a properly formatted URL or web address.
 
-The \< input list=\"some_list\" \> uses the
+The \< input list=\"some_list\" \> provides a list of auto-complete suggestions for the input field.
 
-Not to be confused with the \< select \> element. The Useful for
-auto-complete functionality.
+Not to be confused with the \< select \> element. Useful for auto-complete functionality.
 
 You can fill the list by nesting
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------ 54.  (##) -------------------------->
+<!-------------------- 54. input attribute 'list' used with <datalist> (63) ---------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="images/image054.png"
-   alt=""
+   alt="Input Attribute 'list' used with <datalist>"
    width="65%" />
 &nbsp;
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
 These options are the types of fruits listed in the drop-down list.
 
@@ -2427,11 +2443,11 @@ The placeholder fills the input text field with the example values in a
 lighter shade of text.
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------ 55.  (##) -------------------------->
+<!------------------- 55. input attribute 'placeholder' used as example (64) --------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="images/image055.png"
-   alt=""
+   alt="Input Attribute 'placeholder' used to provide an example of the input format"
    width="65%" />
 &nbsp;
 
@@ -2439,11 +2455,11 @@ The form does not submit the placeholder text value if the input text is
 not overwritten.
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------ 56.  (##) -------------------------->
+<!------------ 56. input attribute 'required' indicates that field is required (64) -------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="images/image056.png"
-   alt=""
+   alt="Input Attribute 'required' indicates that the field is required"
    width="65%" />
 &nbsp;
 
@@ -2456,11 +2472,11 @@ What happens if browser-based validation is not supported for these
 input attributes?
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------ 57. validation fallback (65) -------------------------->
+<!-------------------------------- 57. validation fallback (65) ---------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="images/image057.png"
-   alt=""
+   alt="Validation Fallback"
    width="65%" />
 &nbsp;
 
@@ -6161,6 +6177,10 @@ In this module, you learned that:
     -   Repository Administrator -- configures and maintains access to
         the repository
 
-<p><b><i>Last edited 04/28/2022 11:07am +</i></b></p>
+<p><b><i>Last edited 04/28/2022 11:48am +</i></b></p>
 
 ...the end.
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
+
