@@ -70,20 +70,16 @@ After completing this course, you will be able to:
 ## 2. [**Chapter 2. HTML5 and CSS3 Overview**](#ch2)
 >### 2.1 [**Introduction to HTML**](#ch2-1)
 >### 2.2 [**HTML Features**](#ch2-2)
->### 2.3 [**Lab: Intro to HTML (JSFiddle)**](#ch2-3)
->### 2.4 [**HTML Management and Support**](#ch2-4)
->### 2.5 [**HTML Scripting**](#ch2-5)
->### 2.6 [**HTML5 Browser Support**](#ch2-6)
->### 2.7 [**Lab: HTML**](#ch2-7)
->### 2.8 [**CSS: Styling HTM**](#ch2-8)
->### 2.9 [**Lab: CSS**](#ch2-9)
->### 2.10 [**Chapter 2 Summary**](#ch2-10)
+>### 2.3 [**HTML Management and Support**](#ch2-3)
+>### 2.4 [**HTML Scripting**](#ch2-4)
+>### 2.5 [**HTML5 Browser Support**](#ch2-5)
+>### 2.6 [**CSS: Styling HTM**](#ch2-6)
+>### 2.7 [**Chapter 2 Summary**](#ch2-7)
 
 ## 3. [**Chapter 3. HTML5 Elements**](#ch3)
 >### 3.1 [**HTML5 Tags and Structural Elements**](#ch3-1)
 >### 3.2 [**HTML5 Input Element: Attributes for the Input Tag**](#ch3-2)
->### 3.3 [**Lab: HTML5**](#ch3-3)
->### 3.4 [**Chapter 3 Summary**](#ch3-4)
+>### 3.3 [**Chapter 3 Summary**](#ch3-3)
 
 ## 4. [**Chapter 4. JavaScript Programming for Web Applications**](#ch4)
 >### 4.1 [**JavaScript: Variables and Control Statements**](#ch4-1)
@@ -1242,12 +1238,12 @@ The DOM tree is a representation of a document which is held in memory.
 
 It contains nodes which define the type and structure of the document.
 
-<h3 id="ch2-3">2.3 Hands-on Lab: Intro to HTML (JDFiddle)</h3>
+<h3>Hands-on Lab: Intro to HTML (JDFiddle)</h3>
 
 [Click here to launch the lab in another
 browser.](https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBMDeveloperSkillsNetwork-CD0101EN-SkillsNetwork/labs/demos/jsfiddle-demo.md.html)
 
-<h3 id="ch2-4">2.4 HTML Management and Support</h3>
+<h3 id="ch2-3">2.3 HTML Management and Support</h3>
 
 Hello, and welcome to HTML Management and Support.
 
@@ -1368,7 +1364,7 @@ About HTML5 Web Applications, which have:
 And about HTML5 Elements, which enable you to define and manage web page
 structure and content.
 
-<h3 id="ch2-5">2.5 HTML Scripting</h3>
+<h3 id="ch2-4">2.4 HTML Scripting</h3>
 
 Hello and welcome to HTML Scripting.
 
@@ -1517,7 +1513,7 @@ In this section (part 4), you learned:
 -   HTML documents loaded into a browser page become Document objects,
     which you can access through scripts.
 
-<h3 id="ch2-6">2.6 HTML5 Browser Support</h3>
+<h3 id="ch2-5">2.5 HTML5 Browser Support</h3>
 
 Hello and welcome to HTML5 Browser Support.
 
@@ -1665,7 +1661,7 @@ In this section (part 5), you learned:
 -   You can use JavaScript to check whether a certain HTML5 element is
     supported by a browser.
 
-<h3 id="ch2-8">2.8 Hands-On Lab: HTML - Creating a Simple Web Page</h3>
+<h3>Hands-On Lab: HTML - Creating a Simple Web Page</h3>
 
 <h3>Use the Start Lab button below to launch the lab in a new browser tab.</h3>
 
@@ -1682,7 +1678,7 @@ provision your lab environment.
 
 <h4>Start Lab</h4>
 
-<h3 id="ch2-9">2.9 CSS: Styling HTML</h3>
+<h3 id="ch2-6">2.6 CSS: Styling HTML</h3>
 
 <!------------------------------------------------------------------------------------------------>
 <!--------------------------- 29. objectives: css styling html (43) ------------------------------>
@@ -1939,7 +1935,7 @@ provision your lab environment.
 
 <h3>Start Lab</h3>
 
-<h3 id="ch2-10">2.10 Chapter 2 Summary</h3>
+<h3 id="ch2-7">2.7 Chapter 2 Summary</h3>
 
 In this module (2), you learned that:
 
@@ -1981,7 +1977,7 @@ After completing this module, you will be able to:
 
 -   Describe the attributes of HTML5 input elements.
 
-<h3 id="ch3-1">3.1 Module 3 HTML5 Tags and Structural Elements</h3>
+<h3 id="ch3-1">3.1 HTML5 Tags and Structural Elements</h3>
 
 Hello. Welcome to HTML5 Tags and Structural Elements.
 
@@ -2210,7 +2206,7 @@ In this section (part 1), you learned:
 
 -   And the \<nav\> tags enable you to group navigational links.
 
-<h3 id="ch3-2">3.2 Module 3 HTML5 Input Element: Attributes for the Input Tag</h3>
+<h3 id="ch3-2">3.2 HTML5 Input Element: Attributes for the Input Tag</h3>
 
 Hello. Welcome to HTML5 Input Element: Attributes for the Input Tag.
 
@@ -2434,7 +2430,7 @@ In this section (part 2), you learned:
 
 -   How to implement validation fallback.
 
-<h3 id="ch3-3">3.3 Module 3, Hands on Lab:</h3>
+<h3>Module 3, Hands on Lab:</h3>
 
 HANDS-ON LAB: HTML5
 
@@ -2453,7 +2449,7 @@ provision your lab environment.
 
 <h3>Start Lab</h3>
 
-<h3 id="ch3-5">3.5 Chapter 3 Summary</h3>
+<h3 id="ch3-3">3.3 Chapter 3 Summary</h3>
 
 In this module, you learned that:
 
@@ -3222,7 +3218,7 @@ after they have been declared.
 
 The functions and variables are isolated from the rest of the script.
 
-<h3 id="ch4-4">4.4 Module 4, Part IV: JavaScript: Functions & Prototypes</h3>
+<h3>Module 4, Part IV: JavaScript: Functions & Prototypes</h3>
 
 Hello. Welcome to JavaScript Functions and Prototypes.
 
@@ -6113,6 +6109,6 @@ In this module, you learned that:
     -   Repository Administrator -- configures and maintains access to
         the repository
 
-<p><b><i>Last edited 04/27/2022 10:21pm +</i></b></p>
+<p><b><i>Last edited 04/28/2022 11:07am +</i></b></p>
 
 ...the end.
