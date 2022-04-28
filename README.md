@@ -86,15 +86,13 @@ After completing this course, you will be able to:
 >### 3.4 [**Chapter 3 Summary**](#ch3-4)
 
 ## 4. [**Chapter 4. JavaScript Programming for Web Applications**](#ch4)
->### 4.1 [**JavaScript Language: Overv/iew and Syntax**](#ch4-1)
->### 4.2 [**JavaScript: Variables and Control Statements**](#ch4-2)
->### 4.3 [**JavaScript: Functions and Prototypes**](#ch4-3)
->### 4.4 [**Client-Side JavaScript: with HTML**](#ch4-4)
->### 4.5 [**Client-Side JavaScript: with DOM**](#ch4-5)
->### 4.6 [**JavScript DOM Objects**](#ch4-6)
->### 4.7 [**JavScript APIs**](#ch4-7)
->### 4.8 [**Lab: JavaScript**](#ch4-8)
->### 4.9 [**Chapter 4 Summary**](#ch4-9)
+>### 4.1 [**JavaScript: Variables and Control Statements**](#ch4-1)
+>### 4.2 [**JavaScript: Functions and Prototypes**](#ch4-2)
+>### 4.3 [**Client-Side JavaScript: with HTML**](#ch4-3)
+>### 4.4 [**Client-Side JavaScript: with DOM**](#ch4-4)
+>### 4.5 [**JavScript DOM Objects**](#ch4-5)
+>### 4.6 [**JavScript APIs**](#ch4-6)
+>### 4.7 [**Chapter 4 Summary**](#ch4-7)
 
 ## 5. [**Chapter 5. GitHub**](#ch5)
 >### 5.1 [**Overview of GitHub**](#ch5-1)
@@ -929,7 +927,7 @@ storing data as required.
 
 Life for a back-end developer is varied, challenging, and ever changing.
 
-<h3 id="ch1-7">1.7 Module Summary</h3>
+<h3 id="ch1-7">1.7 Chapter 1 Summary</h3>
 
 In this module, you learned that:
 
@@ -1943,7 +1941,7 @@ provision your lab environment.
 
 <h3>Start Lab</h3>
 
-<h3 id="ch2-10">2.10 Chapter Summary</h3>
+<h3 id="ch2-10">2.10 Chapter 2 Summary</h3>
 
 In this module (2), you learned that:
 
@@ -2457,7 +2455,7 @@ provision your lab environment.
 
 <h3>Start Lab</h3>
 
-<h3 id="ch3-5">3.5 Module 3: Summary</h3>
+<h3 id="ch3-5">3.5 Chapter 3 Summary</h3>
 
 In this module, you learned that:
 
@@ -2525,7 +2523,7 @@ After completing this module, you will be able to:
 
 -   List the common APIs used in JavaScript Applications.
 
-<h3 id-"ch4-1">4.1 JavaScript Language Overview & Syntax</h3>
+<h3>JavaScript Language Overview & Syntax</h3>
 
 Hello. Welcome to The JavaScript language, Overview and Syntax.
 
@@ -2797,7 +2795,7 @@ In this section (part 1), you learned:
 	-   array, data, and error objects.
 ```
 
-<h3 id="ch4-3">4.3 Module 4, Part II: JavaScript: Variables & Control Statements</h3>
+<h3 id="ch4-1">4.1 JavaScript: Variables & Control Statements</h3>
 
 <h3><b>Hello. Welcome to JavaScript Variables and Control</b> Statements.</h3>
 
@@ -3023,7 +3021,7 @@ statements, including:
 
 -   Repeat statements like for loops and while loops.
 
-<h3 id="ch4-4">4.4 Module 4, Part III: JavaScript: Functions & Prototypes</h3>
+<h3 id="ch4-2">4.2 JavaScript: Functions & Prototypes</h3>
 
 Hello. Welcome to JavaScript Functions and Prototypes.
 
@@ -3423,7 +3421,7 @@ In this section (part 4), you learned:
 -   The functions and variables are isolated from the rest of the
     script.
 
-<h3 id="ch4-5">4.5 Module 4, Part V: Client-Side JavaScript: with HTML</h3>
+<h3 id="ch4-3">4.3 Client-Side JavaScript: with HTML</h3>
 
 Hello. Welcome to Client-side JavaScript.
 
@@ -3576,7 +3574,7 @@ It may even be embedded into the HTML itself.
 For example, the onload event can run a script when the browser finishes
 loading a page.
 
-<h3 id="ch4-6">4.6 Module 4, Part VI: Client-Side JavaScript: with DOM</h3>
+<h3 id="ch4-4">4.4 Client-Side JavaScript: with DOM</h3>
 
 Hello. Welcome to Client-side JavaScript.
 
@@ -3809,7 +3807,7 @@ document object provides access to all HTML elements within a page.
     variety of documents, from plain HTML documents for web pages, to
     more complex forms.
 
-<h3 id="ch4-7">4.7 Module 4, Part VII: JavaScript DOM Objects</h3>
+<h3 id="ch4-5">4.5 JavaScript DOM Objects</h3>
 
 Hello. Welcome to JavaScript Dom Objects
 
@@ -3986,7 +3984,7 @@ In this section (part 7), you learned:
 
 -   Objects can be named to make accessing them from the script easier.
 
-<h3 id="ch4-8">4.8 Module 4, Part VIII: JavaScript APIs</h3>
+<h3 id="ch4-6">4.6 JavaScript APIs</h3>
 
 Hello. Welcome to JavaScript APIs.
 
@@ -4315,7 +4313,7 @@ you to work with HTML elements and nodes.
 
 Window Object Methods & Events
 
-<h3 id="ch4-10">4.10 Module 4 - Summary</h3>
+<h3 id="ch4-7">4.7 Chapter 4 Summary</h3>
 
 In this module, you learned that:
 
@@ -4555,7 +4553,7 @@ tutorials. 
 In the following modules, we\'ll give you a crash course on setting up
 your local environment and getting started on a project. 
 
-<h3 id="ch5-3">5.3 Module 5, Part I - Introduction to GitHub</h3>
+<h3>Introduction to GitHub</h3>
 
 Welcome to Introduction to GitHub. 
 
@@ -4737,7 +4735,7 @@ In this module, you learned: 
 -   Contains elements to coordinate among programmers, track changes,
     and support non-linear workflows. 
 
-<h3 id="ch5-4">5.4 GitHub Repositories</h3>
+<h3 id="ch5-3">5.3 GitHub Repositories</h3>
 
 Welcome to GitHub Repositories!
 
@@ -4862,7 +4860,7 @@ these tools provide a communication base to the external user community.
 *Settings* -- GitHub allows for a lot of personalization, including
 changing the name of your repository and controlling access.
 
-In this section (part 3), you learned:
+In this section you learned:
 
 -   How to create and verify a GitHub account.
 
@@ -4872,9 +4870,9 @@ In this section (part 3), you learned:
 -   Repositories are storage structures that can hold Code, track
     Issues, and enable you to collaborate with others.
 
-<h3 id="ch5-5">5.5 Hands-On Lab: GitHub Sign Up & Create Repo</h3>
+<h3 id="ch5-4">5.4 Hands-On Lab: GitHub Sign Up & Create Repo</h3>
 
-<h3 id="ch5-6">5.6 Module 5, Part IV: GitHub Branches</h3>
+<h3 id="ch5-5">5.5 GitHub Branches</h3>
 
 Welcome to GitHub Branches!
 
@@ -5108,12 +5106,12 @@ merge the committed code changes into your master code.
    width="65%" />
 &nbsp;
 
-<h3 id="ch5-7">5.7 Hands-On Lab: Branching and Merging (Web UI)</h3>
+<h3 id="ch5-6">5.6 Hands-On Lab: Branching and Merging (Web UI)</h3>
 
 [Click here to launch the lab in another
 browser.](https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBMDeveloperSkillsNetwork-CD0101EN-SkillsNetwork/labs/GitHubLabs/GitHub2_Branch_Merge.md.html)
 
-<h3 id="ch5-8">5.8 Module 5, Part V: Cloning & Forking GitHub Projects</h3>
+<h3 id="ch5-7">5.7 Cloning & Forking GitHub Projects</h3>
 
 Welcome to Cloning and Forking GitHub Projects.
 
@@ -5385,7 +5383,7 @@ In this section (part 5), you learned:
 -   You can fork a repository to use it as the base for a new project,
     or to work on a project independently.
 
-<h3 id="ch5-9">5.9 Module 5, Part VI: Managing GitHub Projects</h3>
+<h3 id="ch5-8">5.8 Managing GitHub Projects</h3>
 
 Welcome to Managing GitHub Projects
 
@@ -5509,7 +5507,7 @@ provision your lab environment.
 
 Start Lab
 
-<h3 id="ch5-10">5.10 Module 5, Part VII: Git Installation on Desktop</h2>
+<h3 id="ch5-9">5.9 Git Installation on Desktop</h3>
 
 Installing Git Bash
 
@@ -5751,7 +5749,7 @@ commands.
 
 <h4>© IBM Corporation 2020. All rights reserved.</h4>
 
-<h3 id="ch5-11">5.11 Module 5, Part VIII: SSH Key Creation</h3>
+<h3 id="ch5-10">5.10 SSH Key Creation</h3>
 
 <h3>Generate an SSH key</h3>
 
@@ -5822,7 +5820,7 @@ key.
 
 <h4>© IBM Corporation 2020. All rights reserved.</h4>
 
-<h3 id="ch5-12">5.12 Module 5, Part IX: Adding an SSH Key to GitHub</h3>
+<h3 id="ch5-11">5.11 Adding an SSH Key to GitHub</h3>
 
 <h3>Lab: Adding an SSH key to GitHub</h3>
 
@@ -6100,7 +6098,7 @@ synched.
 In this lab, you have learned how to clone a GitHub repository, make
 changes to it, commit the changes locally, and push it back to GitHub.
 
-<h3 id="ch5-13">5.13 Module 5 Summary</h3>
+<h3 id="ch5-12">5.13 Chapter 5 Summary</h3>
 
 In this module, you learned that:
 
@@ -6127,6 +6125,6 @@ In this module, you learned that:
     -   Repository Administrator -- configures and maintains access to
         the repository
 
-<p><b><i>Last edited 04/27/2022 8:24pm +</i></b></p>
+<p><b><i>Last edited 04/27/2022 10:08pm +</i></b></p>
 
 ...the end.
