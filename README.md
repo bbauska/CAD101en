@@ -513,6 +513,9 @@ them back into the main body of code.
    alt="Libraries"
    width="65%" />
 &nbsp;
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
 Libraries are collections of code, like standard programs and
 subroutines, which you can use within your code.
@@ -644,6 +647,10 @@ will utilize in your career as a developer including:
 -   libraries,
 
 -   frameworks
+
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
 <h3 id="ch1-5">1.5 More Application Development Tools</h3>
 
@@ -778,6 +785,10 @@ In this section (part 4) you've learned about some of the tools that you
 will utilize will support you in your career as a developer , including:
 
 -   CI/CD, Build Tools, Packages, Package Managers
+
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
 <h3 id="ch1-6">1.6 The Importance of Back-End Development</h3>
 
@@ -1069,6 +1080,10 @@ In this section (part 1), you learned:
 
 -   Markup and APIs for web storage, video, and audio content.
 
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
+
 <h3 id-"ch2-2">2.2 HTML Features</h3>
 
 Hello and welcome to HTML Features.
@@ -1155,6 +1170,10 @@ The \<head\> element can contain the following tags:
 -   browser support information and,
 
 -   other initialization functions ().
+
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
 Finally, the \<body\> tag contains all content that is displayed on the
 webpage.
@@ -1243,6 +1262,10 @@ It contains nodes which define the type and structure of the document.
 [Click here to launch the lab in another
 browser.](https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBMDeveloperSkillsNetwork-CD0101EN-SkillsNetwork/labs/demos/jsfiddle-demo.md.html)
 
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
+
 <h3 id="ch2-3">2.3 HTML Management and Support</h3>
 
 Hello, and welcome to HTML Management and Support.
@@ -1298,6 +1321,9 @@ to simplify the language.
    alt="HTML5 for Web Applications"
    width="65%" />
 &nbsp;
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
 HTML5 includes some elements and application programming interfaces that
 help in the creation of web applications.
@@ -1379,6 +1405,9 @@ scripting is enabled in browsers.
    alt="Enabling Scripting"
    width="65%" />
 &nbsp;
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
 Scripting is enabled for a browser context, when the conditions shown on
 the slide are true.
@@ -1446,6 +1475,9 @@ Here are some common HTML DOM tree methods:
    alt="HTML Document API - DOM Tree Accessors"
    width="65%" />
 &nbsp;
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
 The **document.getElementById ('id')** function has one required
 parameter which is the id of the element you want to access.
@@ -1513,6 +1545,10 @@ In this section (part 4), you learned:
 -   HTML documents loaded into a browser page become Document objects,
     which you can access through scripts.
 
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
+
 <h3 id="ch2-5">2.5 HTML5 Browser Support</h3>
 
 Hello and welcome to HTML5 Browser Support.
@@ -1577,6 +1613,9 @@ This could raise several issues regarding input format and validation.
    alt="HTML5 Browser Support Tables"
    width="65%" />
 &nbsp;
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
 This example shows a support table for the \< input type= 'date' \>
 element.
@@ -1637,6 +1676,9 @@ default behavior such as displaying the field as a regular text field.
    alt="Verifying HTML5 Browser Support Example"
    width="65%" />
 &nbsp;
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
 Here is an example of using JavaScript to check whether a certain HTML5
 element is supported by a browser.
@@ -1711,6 +1753,9 @@ computers and mobile devices.
    alt="Media Independence with HTML and CSS"
    width="65%" />
 &nbsp;
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
 These technologies have powerful features that can be used to show rich
 interactive applications without requiring plug-in technologies, like
@@ -1779,13 +1824,16 @@ as style sheets).
    alt="What Elements Can CSS Control?"
    width="65%" />
 &nbsp;
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
 You can use CSS to control a document's appearance and specify style
 rules for the following web page elements: Fonts, Text, Colors,
 Backgrounds, Sizes, Borders, Spacing, Positioning, Visual effects,
 Tables, and Lists.
 
-CSS style element are structured like this.
+CSS style elements are structured like this.
 
 <!------------------------------------------------------------------------------------------------>
 <!------------------------------------- 34. css format (46) -------------------------------------->
@@ -1886,6 +1934,10 @@ You apply this style to only one page.
 
 If you copy and paste this style on each page, this approach increases
 the load time of each page, which causes the user to wait longer.
+
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
 <h3>Link tag</h3>
 
