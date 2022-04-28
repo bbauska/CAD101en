@@ -781,7 +781,7 @@ Here are some examples of package managers for popular languages:
 
 -   For Python - Pip and Conda
 
-In this section (part 4) you've learned about some of the tools that you
+In this section, you've learned about some of the tools that you
 will utilize will support you in your career as a developer , including:
 
 -   CI/CD, Build Tools, Packages, Package Managers
@@ -993,7 +993,7 @@ After completing this module, you will be able to:
 
 Hello and welcome to Introduction to HTML.
 
-After reading this section (part 1), you will be able to:
+After reading this section, you will be able to:
 
 -   Explain what Hyper Text Markup Language (HTML) and HTML5 is, and
     list the objectives of HTML5.
@@ -1066,7 +1066,7 @@ such as when discussing features new to HTML5.
 
 In this course, HTML refers to HTML5, unless specified otherwise.
 
-In this section (part 1), you learned:
+In this section, you learned:
 
 -   HTML stands for HyperText Markup Language, a markup language that
     enables documents to be displayed as web pages on the Internet.
@@ -1088,7 +1088,7 @@ In this section (part 1), you learned:
 
 Hello and welcome to HTML Features.
 
-After reading this section (part 2), you will be able to:
+After reading this section, you will be able to:
 
 -   List some of the features of HTML5,
 
@@ -1096,7 +1096,7 @@ After reading this section (part 2), you will be able to:
 
 -   Explain when you would use XML and when you would use HTML.
 
-So, what are some HTML5 features?
+What are some HTML5 features?
 
 -   It provides the means to categorize web pages into different
     sections, and includes tools for effective data management, drawing,
@@ -1124,7 +1124,7 @@ that is uniform across platforms and devices.
 <p align="center">
 <img src="images/image013.png"
    alt="HTML DOM Tree"
-   width="65%" />
+   width="40%" />
 &nbsp;
 
 Here is an example of a document that conforms to the syntax of HTML5.
@@ -1245,7 +1245,7 @@ and uncontained elements are allowed and commonplace.
 
 In this regard, HTML syntax is less rigorous than XHTML syntax.
 
-In this section (part 2), you learned that HTML5 Includes features for
+In this section, you learned that HTML5 Includes features for
 categorizing sections of web pages, and managing data, video and audio
 tools.
 
@@ -1270,7 +1270,7 @@ browser.](https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBM
 
 Hello, and welcome to HTML Management and Support.
 
-After reading this section (part 3), you will be able to:
+After reading this section, you will be able to:
 
 -   List some HTML document API properties and methods,
 
@@ -1370,7 +1370,7 @@ The web workers feature can be used for non-interactive processing. Web
 workers provide a way to run processing-intensive tasks without blocking
 the user interactions to the current page.
 
-In this section (part 3), you learned about:
+In this section, you learned about:
 
 HTML5 Themes, which provide:
 
@@ -1394,7 +1394,7 @@ structure and content.
 
 Hello and welcome to HTML Scripting.
 
-After reading this section (part 4), you will be able to describe how
+After reading this section, you will be able to describe how
 scripting is enabled in browsers.
 
 <!------------------------------------------------------------------------------------------------>
@@ -1529,7 +1529,7 @@ the document API.
 The user types "Test" in the input field and clicks Submit. The result
 is seen in an alert dialog box on the same page.
 
-In this section (part 4), you learned:
+In this section, you learned:
 
 -   Scripting is used to provide a more interactive user experience when
     browsing websites.
@@ -1553,7 +1553,7 @@ In this section (part 4), you learned:
 
 Hello and welcome to HTML5 Browser Support.
 
-After reading this section (part 5), you will be able to:
+After reading this section, you will be able to:
 
 -   Describe browser support for HTML5 features.
 
@@ -1692,7 +1692,7 @@ element, and then you set the type attribute to the value of \"date".
 If the browser does not support the input type =date, the field is
 displayed in the browser as a regular text field.
 
-In this section (part 5), you learned:
+In this section, you learned:
 
 -   Not all browsers fully support all the features that are described
     in the HTML5 and CSS3 specifications.
@@ -1733,7 +1733,7 @@ provision your lab environment.
 
 Hello and welcome to CSS: Styling HTML.
 
-After reading this section (part 6), you will be able to:
+After reading this section, you will be able to:
 
 -   Explain what a Cascade Style Sheet (CSS) is,
 
@@ -2033,7 +2033,7 @@ After completing this module, you will be able to:
 
 Hello. Welcome to HTML5 Tags and Structural Elements.
 
-After reading this section (part 1), you will be able to:
+After reading this section, you will be able to:
 
 -   List specific elements to HTML5 and
 
@@ -2240,7 +2240,7 @@ web page.
    width="65%" />
 &nbsp;
 
-In this section (part 1), you learned:
+In this section, you learned:
 
 -   Tags provide control within an HTML5 document.
 
@@ -2262,7 +2262,7 @@ In this section (part 1), you learned:
 
 Hello. Welcome to HTML5 Input Element: Attributes for the Input Tag.
 
-After reading this section (part 2), you will be able to:
+After reading this section, you will be able to:
 
 -   Describe the attributes of the HTML5 input element input type
     attributes tel, email, date time, number, range, and color.
@@ -2476,7 +2476,7 @@ You can code client-side validation that is attached to the form submit
 event handler to validate all the fields on the form when the form is
 submitted.
 
-In this section (part 2), you learned:
+In this section, you learned:
 
 -   Common attributes of the \< input \> tag.
 
@@ -2573,7 +2573,7 @@ After completing this module, you will be able to:
 
 Hello. Welcome to The JavaScript language, Overview and Syntax.
 
-After reading this section (part 1), you will be able to:
+After reading this section, you will be able to:
 
 -   Describe JavaScript primitives and objects.
 
@@ -2817,7 +2817,7 @@ The Error object can be extended to create custom error types.
 The last line of the slide shows the creation of a generic error object
 with a custom error message in the parameter field.
 
-In this section (part 1), you learned:
+In this section, you learned:
 
 -   JavaScript is a scripting language that adds behavior to otherwise
     static web content.
@@ -2845,7 +2845,7 @@ In this section (part 1), you learned:
 
 <h3><b>Hello. Welcome to JavaScript Variables and Control</b> Statements.</h3>
 
-After reading this section (part 2), you will be able to:
+After reading this section, you will be able to:
 
 -   Explain how variables are declared and used in JavaScript,
 
@@ -3037,7 +3037,7 @@ exits the loop.
 Make sure that the condition evaluates to false at some point; otherwise
 the loop never terminates.
 
-In this section (part 2), you learned:
+In this section, you learned:
 
 -   Variables are declared using the keyword var followed by the
     variable name.
@@ -3071,7 +3071,7 @@ statements, including:
 
 Hello. Welcome to JavaScript Functions and Prototypes.
 
-After reading this section (part 3), you will be able to:
+After reading this section, you will be able to:
 
 -   Describe functions in JavaScript, and
 
@@ -3248,7 +3248,7 @@ and have the format that is shown in the code block on the slide.
 Self-executing functions are often used to initialize data or to declare
 DOM elements on the page.
 
-In this section (part 3), you learned:
+In this section, you learned:
 
 -   A function is a block of code which can be called from any point in
     a script after being declared.
@@ -3270,11 +3270,11 @@ after they have been declared.
 
 The functions and variables are isolated from the rest of the script.
 
-<h3>Module 4, Part IV: JavaScript: Functions & Prototypes</h3>
+<h3>Module 4, JavaScript: Functions & Prototypes</h3>
 
 Hello. Welcome to JavaScript Functions and Prototypes.
 
-After reading this section (part 4), you will be able to:
+After reading this section, you will be able to:
 
 -   Describe functions in JavaScript, and
 
@@ -3444,7 +3444,7 @@ and have the format that is shown in the code block on the slide.
 Self-executing functions are often used to initialize data or to declare
 DOM elements on the page.
 
-In this section (part 4), you learned:
+In this section , you learned:
 
 -   A function is a block of code which can be called from any point in
     a script after being declared.
@@ -3471,7 +3471,7 @@ In this section (part 4), you learned:
 
 Hello. Welcome to Client-side JavaScript.
 
-After reading this section (part 5), you will be able to:
+After reading this section, you will be able to:
 
 -   Define a client-side script,
 
@@ -3599,7 +3599,7 @@ is clicked.
 Here the inline event handler named showAnswers runs when the button is
 clicked.
 
-In this section (part 5), you learned:
+In this section, you learned:
 
 -   A client-side script is a program that accompanies an HTML document.
 
@@ -3624,7 +3624,7 @@ loading a page.
 
 Hello. Welcome to Client-side JavaScript.
 
-After reading this section (part 6), you will be able to:
+After reading this section, you will be able to:
 
 -   Describe the document object model (DOM) hierarchy.
 
@@ -3830,7 +3830,7 @@ form, p, and input boxes.
 The DOM level 2 adds the carriage returns, tabs, and spaces, sometimes
 referred to as \"white space\".
 
-In this section (part 6), you learned:
+In this section, you learned:
 
 -   The document object model (DOM) is the programming interface between
     HTML or XHTML and JavaScript.
@@ -3857,7 +3857,7 @@ document object provides access to all HTML elements within a page.
 
 Hello. Welcome to JavaScript Dom Objects
 
-After reading this section (part 7), you will be able to:
+After reading this section, you will be able to:
 
 -   Identify the DOM objects that are commonly used in JavaScript
     applications for working with HTML documents.
@@ -4022,7 +4022,7 @@ argument.
 It is suggested that the same value is used for both the id and the name
 attribute (seen earlier) when both are used.
 
-In this section (part 7), you learned:
+In this section, you learned:
 
 -   How to work with DOM objects in JavaScript, including:
 
@@ -4034,7 +4034,7 @@ In this section (part 7), you learned:
 
 Hello. Welcome to JavaScript APIs.
 
-After reading this section (part 8), you will be able to:
+After reading this section, you will be able to:
 
 -   Explain how to work with nodes,
 
@@ -4320,7 +4320,7 @@ loads the web page.
 In the example, the onload event causes an anonymous function to run.
 This function, in turn, runs the function addPara().
 
-In this section (part 8), you learned:
+In this section, you learned:
 
 -   You can retrieve a reference to a node using:
 
@@ -4782,7 +4782,7 @@ In this module, you learned: 
 
 Welcome to GitHub Repositories!
 
-After reading this section (part 3), you will be able to:
+After reading this section, you will be able to:
 
 -   Explain how to sign up for a GitHub account, and
 
@@ -4914,7 +4914,7 @@ In this section you learned:
 
 Welcome to GitHub Branches!
 
-After reading this section (part 4), you will be able to:
+After reading this section, you will be able to:
 
 -   Explain the purpose of branches and
 
@@ -5111,7 +5111,7 @@ Click Confirm merge.
 When all changes for a branch are complete, that branch is considered
 obsolete and it should be deleted.
 
-In this section (part 4), you learned:
+In this section, you learned:
 
 -   All files in GitHub exist on a branch.
 
@@ -5151,7 +5151,7 @@ browser.](https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBM
 
 Welcome to Cloning and Forking GitHub Projects.
 
-After reading this section (part 5), you will be able to:
+After reading this section, you will be able to:
 
 -   Clone and sync repositories.
 
@@ -5409,7 +5409,7 @@ remote branch in the same step.
 "Git pull upstream\" reduces the number of steps to sync with a remote
 branch, but the automatic merges are not always desired.
 
-In this section (part 5), you learned:
+In this section, you learned:
 
 -   GitHub has over existing 100M repositories that you can use.
 
@@ -5423,7 +5423,7 @@ In this section (part 5), you learned:
 
 Welcome to Managing GitHub Projects
 
-After reading this section (part 6), you will be able to:
+After reading this section, you will be able to:
 
 -   Understand common roles in a Git project
 
@@ -5516,7 +5516,7 @@ maintain access to the repository by developers.
 Repository Admins can use GitHub Actions to automate software workflows,
 including continuous integration and continuous delivery.
 
-In this section (part 6), you learned:
+In this section, you learned:
 
 -   There are multiple roles involved in managing a project:
 
@@ -5950,7 +5950,7 @@ Congratulations! You have now learned how to add an SSH key to GitHub.
 
 <h4>© IBM Corporation 2020. All rights reserved.</h4>
 
-<h3>Module 5, Part X: Using Git from Your Own Desktop</h3>
+<h3>Module 5, Using Git from Your Own Desktop</h3>
 
 <h3>Hands-on Lab: Cloning, committing and pushing your GitHub repo from the command line.</h3>
 
