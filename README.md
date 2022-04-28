@@ -98,15 +98,13 @@ After completing this course, you will be able to:
 >### 5.1 [**Overview of GitHub**](#ch5-1)
 >### 5.2 [**Introduction to GitHub**](#ch5-2)
 >### 5.3 [**GitHub Repositories**](#ch5-3)
->### 5.4 [**Lab: GitHub Sign Up & Create Repo**](#ch5-4)
->### 5.5 [**GitHub Branches**](#ch5-5)
->### 5.6 [**Lab: Branching and Merging (Web UI)**](#ch5-6)
->### 5.7 [**Cloning and Forking GitHub Projects**](#ch5-7)
->### 5.8 [**Managing GitHub Projects**](#ch5-8)
->### 5.9 [**Git Installation**](#ch5-9)
->### 5.10 [**SSH Key Creation**](#ch5-10)
->### 5.11 [**Add SSH to Repo**](#ch5-11)
->### 5.12 [**Chapter 5 Summary**](#ch5-12)
+>### 5.4 [**GitHub Branches**](#ch5-4)
+>### 5.5 [**Cloning and Forking GitHub Projects**](#ch5-5)
+>### 5.6 [**Managing GitHub Projects**](#ch5-6)
+>### 5.7 [**Git Installation**](#ch5-7)
+>### 5.8 [**SSH Key Creation**](#ch5-8)
+>### 5.9 [**Add SSH to Repo**](#ch5-9)
+>### 5.10 [**Chapter 5 Summary**](#ch5-10)
 
 **[`^        back to table of contents        ^`](#table-of-contents)**
 
@@ -4362,18 +4360,15 @@ Lab are some of the most widely used tools for collaboration, storage,
 and version control. \
 After completing this module, you will be able to: 
 
--   Define distributed version control. 
+-   Define distributed version control,
 
--   Describe the purpose of repositories. 
+-   Describe the purpose of repositories,
 
--   Explain how branches are used. 
+-   Explain how branches are used,
 
-```{=html}
-<!-- -->
-```
--   Describe the function of Git commands like push, pull, and fetch. 
+-   Describe the function of Git commands like push, pull, and fetch,
 
--   List the roles common in large projects. 
+-   List the roles common in large projects.
 
 <h3 id="ch5-2">5.2 Introduction to Git/GitHub</h3>
 
@@ -4504,32 +4499,32 @@ computer that are associated with a Git repository. 
    width="65%" />
 &nbsp;
 
-There are a few basic Git commands that you will always use. 
+There are a few basic <b>Git</b> commands that you will always use. 
 
 When starting out with a new repository, you only need create it once:
 either locally, and then push to GitHub, or by cloning an existing
-repository by using the command \"git init\". 
+repository by using the command <b>\"git init\"</b>.
 
-\"git add\" moves changes from the working directory to the staging
+<b>\"git add\"</b> moves changes from the working directory to the staging
 area. 
 
-\"git status\" allows you to see the state of your working directory and
+<b>\"git status\"</b> allows you to see the state of your working directory and
 the staged snapshot of your changes. 
 
-\"git commit\" takes your staged snapshot of changes and commits them to
+<b>\"git commit\"</b> takes your staged snapshot of changes and commits them to
 the project. 
 
-\"git reset\" undoes changes that you've made to the files in your
+<b>\"git reset\"</b> undoes changes that you've made to the files in your
 working directory. 
 
-\"git log\" enables you to browse previous changes to a project. 
+<b>\"git log\"</b> enables you to browse previous changes to a project. 
 
-\"git branch\" lets you create an isolated environment within your
+<b>\"git branch\"</b> lets you create an isolated environment within your
 repository to make changes. 
 
-\"git checkout\" lets you see and change existing branches. 
+<b>\"git checkout\"</b> lets you see and change existing branches. 
 
-\"git merge\" lets you put everything back together again. 
+<b>\"git merge\"</b> lets you put everything back together again. 
 
 <!------------------------------------------------------------------------------------------------>
 <!------------------------------ 127. https://try.github.io (118) -------------------------------->
@@ -4864,15 +4859,10 @@ In this section you learned:
 
 -   How to create and verify a GitHub account.
 
-```{=html}
-<!-- -->
-```
 -   Repositories are storage structures that can hold Code, track
     Issues, and enable you to collaborate with others.
 
-<h3 id="ch5-4">5.4 Hands-On Lab: GitHub Sign Up & Create Repo</h3>
-
-<h3 id="ch5-5">5.5 GitHub Branches</h3>
+<h3 id="ch5-4">5.4 GitHub Branches</h3>
 
 Welcome to GitHub Branches!
 
@@ -5106,12 +5096,10 @@ merge the committed code changes into your master code.
    width="65%" />
 &nbsp;
 
-<h3 id="ch5-6">5.6 Hands-On Lab: Branching and Merging (Web UI)</h3>
-
 [Click here to launch the lab in another
 browser.](https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBMDeveloperSkillsNetwork-CD0101EN-SkillsNetwork/labs/GitHubLabs/GitHub2_Branch_Merge.md.html)
 
-<h3 id="ch5-7">5.7 Cloning & Forking GitHub Projects</h3>
+<h3 id="ch5-5">5.5 Cloning & Forking GitHub Projects</h3>
 
 Welcome to Cloning and Forking GitHub Projects.
 
@@ -5383,7 +5371,7 @@ In this section (part 5), you learned:
 -   You can fork a repository to use it as the base for a new project,
     or to work on a project independently.
 
-<h3 id="ch5-8">5.8 Managing GitHub Projects</h3>
+<h3 id="ch5-6">5.6 Managing GitHub Projects</h3>
 
 Welcome to Managing GitHub Projects
 
@@ -5507,7 +5495,7 @@ provision your lab environment.
 
 Start Lab
 
-<h3 id="ch5-9">5.9 Git Installation on Desktop</h3>
+<h3 id="ch5-7">5.7 Git Installation on Desktop</h3>
 
 Installing Git Bash
 
@@ -5749,7 +5737,7 @@ commands.
 
 <h4>© IBM Corporation 2020. All rights reserved.</h4>
 
-<h3 id="ch5-10">5.10 SSH Key Creation</h3>
+<h3 id="ch5-8">5.8 SSH Key Creation</h3>
 
 <h3>Generate an SSH key</h3>
 
@@ -5820,7 +5808,7 @@ key.
 
 <h4>© IBM Corporation 2020. All rights reserved.</h4>
 
-<h3 id="ch5-11">5.11 Adding an SSH Key to GitHub</h3>
+<h3 id="ch5-9">5.9 Adding an SSH Key to GitHub</h3>
 
 <h3>Lab: Adding an SSH key to GitHub</h3>
 
@@ -6098,7 +6086,7 @@ synched.
 In this lab, you have learned how to clone a GitHub repository, make
 changes to it, commit the changes locally, and push it back to GitHub.
 
-<h3 id="ch5-12">5.13 Chapter 5 Summary</h3>
+<h3 id="ch5-10">5.10 Chapter 5 Summary</h3>
 
 In this module, you learned that:
 
@@ -6125,6 +6113,6 @@ In this module, you learned that:
     -   Repository Administrator -- configures and maintains access to
         the repository
 
-<p><b><i>Last edited 04/27/2022 10:08pm +</i></b></p>
+<p><b><i>Last edited 04/27/2022 10:21pm +</i></b></p>
 
 ...the end.
