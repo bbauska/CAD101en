@@ -2525,7 +2525,7 @@ After completing this module, you will be able to:
 
 -   List the common APIs used in JavaScript Applications.
 
-<h3 id-"ch4-2">4.2 Module 4, Part I: JavaScript Language Overview & Syntax</h3>
+<h3 id-"ch4-1">4.1 JavaScript Language Overview & Syntax</h3>
 
 Hello. Welcome to The JavaScript language, Overview and Syntax.
 
@@ -2778,16 +2778,10 @@ In this section (part 1), you learned:
 -   JavaScript is a scripting language that adds behavior to otherwise
     static web content.
 
--   Primitives are values, and have no properties or methods. Examples
-    of primitives include:
-
+-   Primitives are values, and have no properties or methods. 
+	Examples of primitives include:
 ```{=html}
-<!-- -->
-```
--   number, string, boolean, null, and undefined.
-
-```{=html}
-<!-- -->
+	-   number, string, boolean, null, and undefined.
 ```
 -   Wrapper objects allow objects of corresponding primitive data types
     to be created.
@@ -2798,14 +2792,10 @@ In this section (part 1), you learned:
 -   Wrapper objects have the same name as the primitive type, but they
     begin with a capital letter to differentiate them from the primitive
     data type itself.
-
--   Some examples of wrapper objects are
-
-    -   array,
-
-    -   data, and
-
-    -   error objects.
+	Examples of wrapper objects are:
+```[=html]
+	-   array, data, and error objects.
+```
 
 <h3 id="ch4-3">4.3 Module 4, Part II: JavaScript: Variables & Control Statements</h3>
 
@@ -6137,6 +6127,6 @@ In this module, you learned that:
     -   Repository Administrator -- configures and maintains access to
         the repository
 
-<p><b><i>Last edited 04/27/2022 7:39pm</i></b></p>
+<p><b><i>Last edited 04/27/2022 8:24pm +</i></b></p>
 
 ...the end.
