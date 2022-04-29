@@ -2011,7 +2011,7 @@ In this module (2), you learned that:
   <b><a href="#table-of-contents">↥ Back To Top</a></b>
 </div>
 
-<h2 id="ch3">Chapter 3: HTML5 Elements/h2>
+<h2 id="ch3">Chapter 3: HTML5 Elements</h2>
 
 HTML5 has many elements that enable developers to create well-structured
 and varied websites. These HTML5 elements provide ways to separate an
@@ -6177,7 +6177,7 @@ In this module, you learned that:
     -   Repository Administrator -- configures and maintains access to
         the repository
 
-<p><b><i>Last edited 04/28/2022 11:48am +</i></b></p>
+<p><b><i>Last edited 04/29/2022 7:52am +</i></b></p>
 
 ...the end.
 <div align="right">
