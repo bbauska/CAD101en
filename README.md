@@ -2524,34 +2524,22 @@ In this module, you learned that:
 -   To structure a document, HTML5 uses elements like:
 
     -   \<div\>
-
     -   \<header\>
-
     -   \<footer\>
-
     -   \<section\>
-
     -   \<body\>
-
     -   \<heading\>
 
 -   HTML5 uses the \<input\> tag to allow users to input information. It
     has many different types, including:
 
     -   Color
-
     -   Date
-
     -   Datetime-local
-
     -   Email
-
     -   Number
-
     -   Range
-
     -   Search
-
     -   URL
 
 <div align="right">
@@ -2644,7 +2632,7 @@ various primitive values:
 
 3.  Boolean: The values true or false,
 
-4.  Null: The value null.
+4.  Null: The value null,
 
 5.  Undefined: The value undefined, since a data type has not been
     assigned or the variable does not exist.
@@ -6177,7 +6165,7 @@ In this module, you learned that:
     -   Repository Administrator -- configures and maintains access to
         the repository
 
-<p><b><i>Last edited 04/28/2022 11:48am +</i></b></p>
+<p><b><i>Last edited 04/29/2022 08:01am +</i></b></p>
 
 ...the end.
 <div align="right">
