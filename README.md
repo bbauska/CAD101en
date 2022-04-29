@@ -4693,7 +4693,7 @@ support non-linear workflows. 
 <p align="center">
 <img src="/images/image130.png?raw=true"
    alt="What is Git?"
-   width="65%" />
+   width="75%" />
 &nbsp;
 
 Created in 2005 by Linus Torvalds for distribution of Linux kernels. 
@@ -4733,7 +4733,7 @@ Git repositories, often called repos. 
 <p align="center">
 <img src="/images/image131.png?raw=true" 
    alt="What is GitHub?"
-   width="65%" />
+   width="75%" />
 &nbsp;
 
 GitHub is an online hosting service for Git repositories. 
