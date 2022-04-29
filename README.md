@@ -2047,7 +2047,7 @@ After reading this section, you will be able to:
 <p align="center">
 <img src="images/image036.png"
    alt="HTML5 Specific Tags (1 of 4)"
-   width="65%" />
+   width="75%" />
 &nbsp;
 <!------------------------------------------------------------------------------------------------>
 <!---------------------------- 37. html5 specific tags (2of4) (52) ------------------------------->
@@ -2055,7 +2055,7 @@ After reading this section, you will be able to:
 <p align="center">
 <img src="images/image037.png"
    alt="HTML5 Specific Tags (2 of 4)"
-   width="65%" />
+   width="75%" />
 &nbsp;
 
 There are many HTML5 specific elements. The table shows some of them.
@@ -2073,7 +2073,7 @@ moment to read through the table.
 <p align="center">
 <img src="images/image038.png"
    alt="HTML5 Specific Tags (3 of 4)"
-   width="65%" />
+   width="75%" />
 &nbsp;
 <!------------------------------------------------------------------------------------------------>
 <!---------------------------- 39. html5 specific tags (4of4) (53) ------------------------------->
@@ -2081,7 +2081,7 @@ moment to read through the table.
 <p align="center">
 <img src="images/image039.png"
    alt="HTML5 Specific Tags (4 of 4)"
-   width="65%" />
+   width="75%" />
 &nbsp;
 <div align="right">
   <b><a href="#table-of-contents">↥ Back To Top</a></b>
@@ -6177,7 +6177,7 @@ In this module, you learned that:
     -   Repository Administrator -- configures and maintains access to
         the repository
 
-<p><b><i>Last edited 04/29/2022 7:52am +</i></b></p>
+<p><b><i>Last edited 04/28/2022 11:48am +</i></b></p>
 
 ...the end.
 <div align="right">
