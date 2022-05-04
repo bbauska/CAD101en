@@ -38,23 +38,25 @@ Finally, you will discover tools that help you to store your projects and keep t
 
 Anyone and everyone who wants to learn about building cloud applications -  whether you want to just understand what is Cloud Application Development (e.g. C-level execs, Managers, Sellers, Students, etc.) or start a career as a Cloud Application Developer (e.g. Developers, Systems/Cloud Architects, Technical Leads, Data Engineers, Security Engineers, Consultants, Technical Sellers, etc.).
 
-<h4>Prerequisites</h4>
-
-*   Basic computer literacy.
-*   Understanding of Cloud Computing concepts and terminology.  
+<h4>Prerequisites:</h4>
+<ul>
+<li>Basic computer literacy,</li>
+<li>Understanding of Cloud Computing concepts and terminology.</li>
+</ul>
     e.g.: [Introduction to Cloud Computing](https://www.edx.org/course/introduction-to-cloud-computing-6)
 
 <h4><b>Learning Objectives</b></h4>
 
 After completing this course, you will be able to:
-
-*   Explain the roles of Front-end, back-end, and full stack developers in developing Cloud Applications.
-*   Describe the common languages, libraries, frameworks, and other tools that developers use.
-*   Demonstrate basic programming techniques in HTML5.
-*   Enhance the appearance of a website by using CSS.
-*   Describe the HTML5 input element and its attributes.
-*   Use JavaScript to enhance the interactivity of a Cloud Application or website.
-*   Manage your projects in GitHub.
+<ul>
+<li>Explain the roles of Front-end, back-end, and full stack developers in developing Cloud Applications,</li>
+<li>Describe the common languages, libraries, frameworks, and other tools that developers use,</li>
+<li>Demonstrate basic programming techniques in HTML5,</li>
+<li>Enhance the appearance of a website by using CSS,</li>
+<li>Describe the HTML5 input element and its attributes,</li>
+<li>Use JavaScript to enhance the interactivity of a Cloud Application or website,</li>
+<li>Manage your projects in GitHub.</li>
+</ul>
 
 ## [Table of Contents](#table-of-contents)
 
