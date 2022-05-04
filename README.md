@@ -6138,29 +6138,28 @@ changes to it, commit the changes locally, and push it back to GitHub.
 <h3 id="ch5-10">5.10 Chapter 5 Summary</h3>
 
 In this module, you learned that:
-
--   Distributed version control keeps track of changes to code,
-    regardless of where it is stored.
-
--   Repositories are storage structures that:
-    -   Hold code
-    -   Track issues
-    -   Enable you to collaborate with others
-
--   Branches are used to isolate changes to code. When the changes are
-    complete, they can be merged back into the master branch.
-
--   Repositories can be cloned to make it possible to work locally, then
-    sync changes back to the original.
-
--   Repositories can be forked to be used as a base for a new project,
-    or so that the developer can work independently.
-
--   Large projects include people working in different roles:
-    -   Developer -- creates code
-    -   Integrator -- manages changes made by developers
-    -   Repository Administrator -- configures and maintains access to
-        the repository
+<ul>
+<li>Distributed version control keeps track of changes to code,
+    regardless of where it is stored,<br/>&nbsp;</li>
+<li>Repositories are storage structures that:
+	<ul>
+    <li>Hold code</li>
+    <li>Track issues</li>
+    <li>Enable you to collaborate with others</li>
+	</ul><br/>&nbsp;</li>
+<li>Branches are used to isolate changes to code. When the changes are
+    complete, they can be merged back into the master branch,<br/>&nbsp;</li>
+<li>Repositories can be cloned to make it possible to work locally, then
+    sync changes back to the original.<br/>&nbsp;</li>
+<li>Repositories can be forked to be used as a base for a new project,
+    or so that the developer can work independently.<br/>&nbsp;</li>
+<li>Large projects include people working in different roles:
+	<ul>
+    <li>Developer -- creates code</li>
+    <li>Integrator -- manages changes made by developers</li>
+    <li>Repository Administrator -- configures and maintains access to the repository</li>
+	</ul>
+</ul>
 
 <p><b><i>Last edited 05/04/2022 4:23pm +</i></b></p>
 
