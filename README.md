@@ -187,13 +187,13 @@ become proficient.
 The labs are intended as an introduction to the basics. 
 
 After completing this module, you will be able to:
-
-<li>Describe what developing a website or Cloud App involves,<br/>&nbsp;</li>
-<li>Recognize some of the terminologies that web developers and Cloud
+<ul>
+   <li>Describe what developing a website or Cloud App involves,<br/>&nbsp;</li>
+   <li>Recognize some of the terminologies that web developers and Cloud
     App developers use,<br/>&nbsp;</li>
-<li>List the skills that Front-end, Back-end, and Full-stack developers
+   <li>List the skills that Front-end, Back-end, and Full-stack developers
     need,<br/>&nbsp;</li>
-<li>Identify the tools that developers use to develop Cloud Apps.<br/>&nbsp;</li>
+   <li>Identify the tools that developers use to develop Cloud Apps.<br/>&nbsp;</li>
 </ul>
 
 <!------------------------------------------------------------------------------------------------>
