@@ -217,31 +217,33 @@ Understanding how the websites that you're already familiar with are
 constructed and delivered to you is a good starting point.
 
 Let's review the basics of how you interact with a website.
+<ol>
+   <li>You launch an internet browser -- there are lots available:
+   <ul>
+      <li>Google Chrome,</li> <li>Microsoft Edge,</li> <li>Mozilla Firefox, and</li> <li>Apple Safari are
+some of the most popular.</li>
+</ul><br/></li>
 
-1.  You launch an internet browser -- there are lots available:
+   <li>The browser has an address bar, into which you enter a URL, like
+    www.IBM.com, <br/></li>
 
-Google Chrome, Microsoft Edge, Mozilla Firefox, and Apple Safari are
-some of
+   <li>The browser then contacts the server with the name and requests the
+    information that makes up the website,<br/></li>
 
-the most popular.
+   <li>The server then sends a response, which contains the data that the
+    client requires to display the website,<br/></li>
 
-2.  The browser has an address bar, into which you enter a URL, like
-    www.IBM.com.
+   <li>For most websites, the server will return:
+   <ul>
+      HTML, which defines the structure of the page, but doesn't look very
+    attractive,<br/></li>
 
-3.  The browser then contacts the server with the name and requests the
-    information that makes up the website.
+      <li>CSS, which adds styles and flair to the page and,</li>
 
-4.  The server then sends a response, which contains the data that the
-    client requires to display the website.
-
-5.  For most websites, the server will return:
-
--   HTML, which defines the structure of the page, but doesn't look very
-    attractive.
-
--   CSS, which adds styles and flair to the page and,
-
--   JavaScript, which adds interactivity and dynamic content.
+      <li>JavaScript, which adds interactivity and dynamic content.</li><br/>
+	  </ul>
+	  </li>
+</ol>
 
 Content displayed by websites can contain elements that are either
 previously stored on the server (called "static") or generated each time
