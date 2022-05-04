@@ -44,7 +44,7 @@ Anyone and everyone who wants to learn about building cloud applications -  whe
 <li>Understanding of Cloud Computing concepts and terminology.</li>
 </ul>
 
-[e.g.: Introduction to Cloud Computing](https://www.edx.org/course/introduction-to-cloud-computing-6)
+   [e.g.: Introduction to Cloud Computing](https://www.edx.org/course/introduction-to-cloud-computing-6)
 
 <h4><b>Learning Objectives</b></h4>
 
@@ -114,8 +114,16 @@ After completing this course, you will be able to:
 <h2 id="ch1">Chapter 1: Introduction to Programming for the Cloud</h2>
 <h3>Learning Objectives</h3>
 
-**Introduction to Cloud Development with HTML5, CSS3 and JavaScript {w/
-Github}** (CAD101EN)
+After completing this course, you will be able to:
+<ul>
+<li>Explain the roles of Front-end, back-end, and full stack developers in developing Cloud Applications,.</li>
+<li>Describe the common languages, libraries, frameworks, and other tools that developers use,</li>
+<li>Demonstrate basic programming techniques in HTML5,</li>
+<li>Enhance the appearance of a website by using CSS,</li>
+<li>Describe the HTML5 input element and its attributes,</li>
+<li>Use JavaScript to enhance the interactivity of a Cloud Application or website,</li>
+<li>Manage your projects in GitHub.</li>
+</ul>
 
 <!------------------------------------------------------------------------------------------------>
 <!----------------------------- 03. course intro: cloud development ------------------------------>
@@ -180,15 +188,13 @@ The labs are intended as an introduction to the basics. 
 
 After completing this module, you will be able to:
 
--   Describe what developing a website or Cloud App involves.
-
--   Recognize some of the terminologies that web developers and Cloud
-    App developers use.
-
--   List the skills that Front-end, Back-end, and Full-stack developers
-    need.
-
--   Identify the tools that developers use to develop Cloud Apps.
+<li>Describe what developing a website or Cloud App involves,< br/>&nbsp;</li>
+<li>Recognize some of the terminologies that web developers and Cloud
+    App developers use,< br/>&nbsp;</li>
+<li>List the skills that Front-end, Back-end, and Full-stack developers
+    need,< br/>&nbsp;</li>
+<li>Identify the tools that developers use to develop Cloud Apps.< br/>&nbsp;</li>
+</ul>
 
 <!------------------------------------------------------------------------------------------------>
 <!-------------------------- 06. overview of web and cloud development --------------------------->
