@@ -216,7 +216,7 @@ determine what you need to learn and what order you should learn it in.
 Understanding how the websites that you're already familiar with are
 constructed and delivered to you is a good starting point.
 
-Let's review the basics of how you interact with a website.
+Let's review the basics of how you interact with a website:
 <ol>
    <li>You launch an internet browser -- there are lots available:
    <ul>
@@ -240,7 +240,6 @@ some of the most popular.</li>
    </ul>
    </li>
 </ol>
-
 Content displayed by websites can contain elements that are either
 previously stored on the server (called "static") or generated each time
 they are requested by the client (called "dynamic").
@@ -301,19 +300,14 @@ aExamples for code editors and IDEs include Sublime Text, Atom, Vim, VS
 Code, Visual Studio, Eclipse and NetBeans.
 
 In this brief overview, you learned about:
-
--   The basic communication between client and servers,
-
--   How websites are built and displayed,
-
--   Front-end development is about what happens on the client,
-
--   Back-end development is about what happens on the server,
-
--   Full-stack development incudes both front-end and back-end
-    development,
-
--   IDEs will help you create and manage your code.
+<ul>
+<li>The basic communication between client and servers,<br/>&nbsp;</li>
+<li>How websites are built and displayed,<br/>&nbsp;</li>
+<li>Front-end development is about what happens on the client,<br/>&nbsp;</li>
+<li>Back-end development is about what happens on the server,<br/>&nbsp;</li>
+<li>Full-stack development incudes both front-end and back-end development,<br/>&nbsp;</li>
+<li>IDEs will help you create and manage your code.</li>
+</ul>
 
 <div align="right">
   <b><a href="#table-of-contents">↥ Back To Top</a></b>
@@ -426,29 +420,23 @@ Programmers can manipulate the different functions, use them wherever
 required and can create device responsive applications.
 
 A few examples of several frameworks being used are:
-
--   Angular framework is an open-source framework and is being
-    maintained by Google.
-
+<ul>
+<li><b><i>Angular framework</i></b> is an open-source framework and is being maintained by Google.<br/>
 Angular frameworks allow websites to render the HTML pages quickly and
-efficiently.
-
-It has built-in tools for routing and form validation.
-
--   React.js has been developed and maintained by Facebook.
-
+efficiently.<br/>
+It has built-in tools for routing and form validation.<br/>&nbsp;</li>
+<li><b><i>React.js</i></b> has been developed and maintained by Facebook.<br/>
 It is a JavaScript library that builds and renders components for a web
 page. It is not a complete suite of tools. For example, routing is not a
 part of this framework and will need to be added using a third-party
-tool.
-
-React.js only helps build and drop components into a page.
-
--   Vue.js is maintained by the community and its main focus is the view
-    layer which includes user interface, buttons, and visual components.
-    It is flexible, scalable and integrates well with other frameworks.
-    It is very adaptable -- it can be a library, or it can be the
-    framework.
+tool.<br/>
+React.js only helps build and drop components into a page.<br/>&nbsp;</li>
+<li><b><i>Vue.js</i></b> is maintained by the community and its main focus is the view
+layer which includes user interface, buttons, and visual components.<br/>
+It is flexible, scalable and integrates well with other frameworks.<br/>
+It is very adaptable -- it can be a library, or it can be the
+framework.<br/>&nbsp;</li>
+</ul>
 
 The task of a front-end developer evolves continuously.
 
@@ -471,13 +459,11 @@ and deployed is a long process, but there are many tools which will help
 you along the way.
 
 A cloud application developer's workbench includes:
-
--   Version Control,
-
--   Libraries, and
-
--   Frameworks.
-
+<ul>
+<li>Version Control,<br/>&nbsp;</li>
+<li>Libraries, and<br/>&nbsp;</li>
+<li>Frameworks.</li>
+</ul>
 When many developers are working on the same project, knowing what order
 changes were made, thereby creating a new version of the source code,
 becomes overridingly important.
@@ -6176,7 +6162,7 @@ In this module, you learned that:
     -   Repository Administrator -- configures and maintains access to
         the repository
 
-<p><b><i>Last edited 05/04/2022 2:58pm +</i></b></p>
+<p><b><i>Last edited 05/04/2022 4:23pm +</i></b></p>
 
 ...the end.
 <div align="right">
