@@ -5494,7 +5494,7 @@ participants.
 -   git-push to publish the bleeding edge.
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------- 158. github repository administrator (141) --------------------->
+<!------------------------- 158. github repository administrator (141) --------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="images/image158.png" 
@@ -5556,8 +5556,8 @@ Installing Git Bash
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="images/image159.png"
-	alt="IBM Cloud logo"
-	width="65%" />
+   alt="IBM Cloud logo"
+   width="65%" />
 &nbsp;
 
 **Estimated time**: 20 minutes
@@ -5592,8 +5592,8 @@ following steps:
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="images/image160.png" 
-	alt="Downloads"
-	width="65%">
+   alt="Downloads"
+   width="65%" />
 &nbsp;
 
 You will be redirected to a new page and the download will start.
@@ -5649,38 +5649,42 @@ location. Click **Next**.
 
 5.  Choose the components you want to install, or simply leave the
     default options selected. Click **Next**.
-
+<!------------------------------------------------------------------------------------------------>
+<!-------------------------- 165. select components for git setup (14x) -------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
-<img src="images/image165.png" 
-	alt=" "
-	width="65%">
+<img src="images/image165.png"
+   alt="Select Components for Git Setup"
+   width="65%">
 &nbsp;
 
 6.  You can change the name of the start menu folder or simply leave the
     default name as is. Click **Next**.
-
+<!------------------------------------------------------------------------------------------------>
+<!------------------------------- 166. select start menu folder (14x) ---------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="images/image166.png" 
-	alt=" "
-	width="65%">
+   alt="Select Start Menu Folder for Git"
+   width="65%">
 &nbsp;
 
 7.  Select the default editor for Git to use. Click **Next**.
 
 <!------------------------------------------------------------------------------------------------>
+<!-------------------------- 167. choose default editor for git (14x) ---------------------------->
+<!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="images/image167.png" 
-	alt=" "
-	width="65%">
+   alt="Choose Default Editor for Git"
+   width="65%">
 &nbsp;
 
 8.  Choose how you want to use Git from the command line.
     Click **Next**.
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------- 168. choose how you want to use git from cli (148) --------------------->
+<!--------------------- 168. choose how you want to use git from cli (148) ----------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="images/image168.png" 
@@ -6165,7 +6169,7 @@ In this module, you learned that:
     -   Repository Administrator -- configures and maintains access to
         the repository
 
-<p><b><i>Last edited 04/29/2022 08:01am +</i></b></p>
+<p><b><i>Last edited 05/03/2022 11:22pm +</i></b></p>
 
 ...the end.
 <div align="right">
