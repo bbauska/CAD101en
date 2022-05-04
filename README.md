@@ -222,27 +222,23 @@ Let's review the basics of how you interact with a website.
    <ul>
       <li>Google Chrome,</li> <li>Microsoft Edge,</li> <li>Mozilla Firefox, and</li> <li>Apple Safari are
 some of the most popular.</li>
-</ul><br/></li>
-
+</ul></li>
    <li>The browser has an address bar, into which you enter a URL, like
-    www.IBM.com, <br/></li>
+    www.IBM.com,</li>
 
    <li>The browser then contacts the server with the name and requests the
-    information that makes up the website,<br/></li>
+    information that makes up the website,</li>
 
    <li>The server then sends a response, which contains the data that the
-    client requires to display the website,<br/></li>
+    client requires to display the website,</li>
 
    <li>For most websites, the server will return:
    <ul>
-      HTML, which defines the structure of the page, but doesn't look very
-    attractive,<br/></li>
-
+      <li>HTML, which defines the structure of the page, but doesn't look very attractive,</li>
       <li>CSS, which adds styles and flair to the page and,</li>
-
-      <li>JavaScript, which adds interactivity and dynamic content.</li><br/>
-	  </ul>
-	  </li>
+      <li>JavaScript, which adds interactivity and dynamic content.</li>
+   </ul>
+   </li>
 </ol>
 
 Content displayed by websites can contain elements that are either
