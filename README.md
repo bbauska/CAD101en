@@ -105,8 +105,6 @@ After completing this course, you will be able to:
 >### 5.9 [**Add SSH to Repo**](#ch5-9)
 >### 5.10 [**Chapter 5 Summary**](#ch5-10)
 
-**[`^        back to table of contents        ^`](#table-of-contents)**
-
 <div align="right">
   <b><a href="#table-of-contents">↥ Back To Top</a></b>
 </div>
@@ -266,7 +264,7 @@ into two primary areas:
 You can choose to specialize in front-end coding, using HTML, CSS,
 JavaScript and related frameworks, libraries, and tools.
 
-2.  The **back-end</b> deals with everything that happens on
+2.  The <b>back-end</b> deals with everything that happens on
     the server before the code and data are sent to the client.
 
 The back-end coding usually handles the logic and functionality that
@@ -1222,7 +1220,7 @@ pages?
 People are equally divided about whether to use XHTML or HTML.
 
 Both HTML and XHTML use the same semantic (tags). However, XHTML tags
-all need to be in *lowercase*, while the case used does not matter in
+all need to be in <i>lowercase</i>, while the case used does not matter in
 HTML.
 
 In addition, XHTML must be well-formed.
@@ -1496,7 +1494,7 @@ API.
 &nbsp;
 
 When Submit is clicked inside the page that is running in a web browser,
-the *textChecker* function begins.
+the <i>textChecker</i> function begins.
 
 The <b>document.getElementById('textField1')</b> retrieves the contents of
 what was typed into the input field that has the id of textField1 and
@@ -2668,8 +2666,8 @@ Like most object-oriented programming languages, JavaScript provides
 built-in ways to convert between these wrapper objects and primitive
 values.
 
-The wrapper objects use special methods such as the *valueOf* and
-*toString* methods to convert between objects and primitive literals.
+The wrapper objects use special methods such as the <i>valueOf</i> and
+<i>toString</i> methods to convert between objects and primitive literals.
 
 <!------------------------------------------------------------------------------------------------>
 <!--------------------------- 60. examples with wrapper objects (69) ----------------------------->
@@ -2680,7 +2678,7 @@ The wrapper objects use special methods such as the *valueOf* and
    width="65%" />
 &nbsp;
 
-The *typeof* keyword in JavaScript is used to find out the data type of
+The <i>typeof</i> keyword in JavaScript is used to find out the data type of
 the supplied operand.
 
 Notice how strings created without the new keyword have a type of
@@ -3201,7 +3199,7 @@ created, automatically inherits the new floor_model property and its
 value.
 
 <!------------------------------------------------------------------------------------------------>
-<!-------------------------- 78. Adding functions to prototypes (83) ----------------------------->
+<!-------------------------- 78. adding functions to prototypes (82) ----------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="images/image078.png"
@@ -3221,11 +3219,11 @@ All existing instances of the Car object also inherit the getName
 method.
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------ 79. self-executing function (##) -------------------------->
+<!------------------------------ 79. self-executing function (82) -------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="images/image079.png"
-   alt=""
+   alt="Self-Executing Functions Run Immediately After Being Declared"
    width="65%" />
 &nbsp;
 
@@ -3293,7 +3291,7 @@ A function is made up of the following parts:
     statement that returns control back to whatever called the function.
 
 <!------------------------------------------------------------------------------------------------>
-<!-------------------------- 80. Functions: parts of a function (80) ----------------------------->
+<!-------------------------- 80. Functions: parts of a function (84) ----------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="images/image080.png"
@@ -3302,7 +3300,7 @@ A function is made up of the following parts:
 &nbsp;
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------ 81. creating custom objects (81) -------------------------------->
+<!------------------------------ 81. creating custom objects (84) -------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="images/image081.png"
@@ -3334,9 +3332,7 @@ If the values can be interpreted as numbers, they are added.
 If they can be interpreted as strings, they are concatenated.
 
 This is an example of declaring a function named Car that accepts three
-arguments as
-
-Parameters.
+arguments as Parameters.
 
 A little further down, you specifically ask the function to run, by
 declaring the statement:
@@ -3354,7 +3350,7 @@ By using prototypes, you can easily define properties and methods for
 all instances of a particular object.
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------ 76. prototypes  (82) -------------------------->
+<!------------------------------------ 82. prototypes  (85) -------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="images/image082.png"
@@ -3367,15 +3363,6 @@ new keyword.
 
 All object constructors create objects that inherit the properties and
 methods that are defined by the prototype for that object.
-
-<!------------------------------------------------------------------------------------------------>
-<!------------------------ 77/82. prototypes  (82) -------------------------->
-<!------------------------------------------------------------------------------------------------>
-<p align="center">
-<img src="images/image082.png"
-   alt="Prototypes #2"
-   width="65%" />
-&nbsp;
 
 Any object that gets instantiated inherits the current state of the
 prototype.
@@ -3397,11 +3384,11 @@ created, automatically inherits the new floor_model property and its
 value.
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------ 83. adding functions to prototypes  (83) -------------------------->
+<!-------------------------- 83. adding functions to prototypes  (86) ---------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="images/image083.png"
-   alt=""
+   alt="Adding Functions to Prototypes"
    width="65%" />
 &nbsp;
 
@@ -3417,11 +3404,11 @@ All existing instances of the Car object also inherit the getName
 method.
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------ 84. self-executing functions (83) -------------------------->
+<!------------------------------ 84. self-executing functions (87) ------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="images/image084.png"
-   alt=""
+   alt="Self-Executing Functions Run Immediately After Being Declared"
    width="65%" />
 &nbsp;
 
@@ -3481,7 +3468,7 @@ A client-side script is a program that accompanies an HTML document or
 might be embedded directly in the HTML document itself.
 
 <!------------------------------------------------------------------------------------------------>
-<!---------------------------------- 85. scripts in html (##) ------------------------------------>
+<!---------------------------------- 85. scripts in html (88) ------------------------------------>
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="images/image085.png"
@@ -3511,7 +3498,7 @@ Scripts can be used to dynamically create document elements on an HTML
 page.
 
 <!------------------------------------------------------------------------------------------------>
-<!-------------------------- 86. <script> tag examples: example 1 (90) --------------------------->
+<!-------------------------- 86. <script> tag examples: example 1 (89) --------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="images/image086.png"
@@ -3528,7 +3515,7 @@ This method is good for short scripts, but when a script is long, the
 method used in example 2 is preferred.
 
 <!------------------------------------------------------------------------------------------------>
-<!-------------------------- 87. <script> tag examples: example 2 (90) --------------------------->
+<!-------------------------- 87. <script> tag examples: example 2 (89) --------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="images/image087.png"
@@ -3546,11 +3533,11 @@ Some users who visit your website might disable JavaScript from running,
 or they might be using a browser that does not support scripting.
 
 <!------------------------------------------------------------------------------------------------>
-<!-------------------------- 88. when scripting is not available (91) ---------------------------->
+<!-------------------------- 88. when scripting is not available (90) ---------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="images/image088.png"
-   alt=""
+   alt="When Scripting is NOT Available <noscript>"
    width="65%" />
 &nbsp;
 
@@ -3564,7 +3551,7 @@ Scripts can be run on the detection of certain events that happen when
 the page is running in a browser session.
 
 <!------------------------------------------------------------------------------------------------>
-<!-------------------------- 89. scripts tied to intrinsic events (91) --------------------------->
+<!-------------------------- 89. scripts tied to intrinsic events (90) --------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="images/image089.png"
@@ -4879,24 +4866,24 @@ of files end up in here.
 If you created a README and/or license, that's all that's here right
 now.
 
-*Issues* -- as you continue, you can track and plan with tools such as
+<i>Issues</i> -- as you continue, you can track and plan with tools such as
 "Issues" that lists all open items against your project base.
 
-*Pull Requests* -- this is part of the mechanism for collaborating with
+<i>Pull Requests</i> -- this is part of the mechanism for collaborating with
 other users.
 
 Pull requests define changes that are committed and ready for review
 before being merged into the main branch.
 
-*Projects* -- all the tools for managing, sorting, planning, etc. your
+<i>Projects</i> -- all the tools for managing, sorting, planning, etc. your
 various projects.
 
 This is the core of the collaborative power of GitHub.
 
-*Wiki, Security,* and *Insights* -- often left for more advanced users,
+<i>Wiki, Security,</i> and <i>Insights</i> -- often left for more advanced users,
 these tools provide a communication base to the external user community.
 
-*Settings* -- GitHub allows for a lot of personalization, including
+<i>Settings</i> -- GitHub allows for a lot of personalization, including
 changing the name of your repository and controlling access.
 
 In this section you learned:
@@ -5557,7 +5544,7 @@ Installing Git Bash
 <h3>What is Git Bash?</h3>
 
 Git Bash for Windows is simply a package that includes
-both *Git* and *Bash*.
+both <i>Git</i> and <i>Bash</i>.
 
 Git is an open-source version control system for tracking source code
 changes when developing software. It keeps a commit history that allows
@@ -5566,7 +5553,7 @@ Git also enables multiple developers to collaborate on the same code
 base.
 
 Bash is a Unix command-line shell. The name is an acronym
-for *Bourne-Again Shell*. It comes with useful Unix commands like cat,
+for <i>Bourne-Again Shell</i>. It comes with useful Unix commands like cat,
 ssh, SCP, etc., which are not usually found on Windows.
 
 <h3>Installing Git Bash for Windows</h3>
@@ -5861,7 +5848,7 @@ key.
 <h3>Lab: Adding an SSH key to GitHub</h3>
 
 <!------------------------------------------------------------------------------------------------>
-<!----------------------------- 159. ibm skills network logo (155) ------------------------------->
+<!----------------------------- 159. ibm skills network logo (154) ------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="images/image159.png"
@@ -5894,7 +5881,7 @@ command line and the copy the output.
     your profile image and select <b>Settings</b>.
 
 <!------------------------------------------------------------------------------------------------>
-<!--------------------------------- 177. github settings (156) ----------------------------------->
+<!--------------------------------- 177. github settings (155) ----------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="images/image177.png" 
@@ -5907,7 +5894,7 @@ command line and the copy the output.
     shown in the following image:
 
 <!------------------------------------------------------------------------------------------------>
-<!--------------------------------- 178. ssh and gpg keys (156) ---------------------------------->
+<!--------------------------------- 178. ssh and gpg keys (155) ---------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="images/image178.png" 
@@ -5919,7 +5906,7 @@ command line and the copy the output.
 4.  Click <b>New SSH key</b>.
 
 <!------------------------------------------------------------------------------------------------>
-<!----------------------------------- 179. new ssh key (157) ------------------------------------->
+<!----------------------------------- 179. new ssh key (156) ------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="images/image179.png" 
@@ -5933,7 +5920,7 @@ command line and the copy the output.
     include <b>Your email address</b> at the end, as shown in the following
     image:
 <!------------------------------------------------------------------------------------------------>
-<!--------------------------------- 180. ssh keys/add new (157) ---------------------------------->
+<!--------------------------------- 180. ssh keys/add new (156) ---------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="images/image180.png" 
@@ -5955,7 +5942,7 @@ Congratulations! You have now learned how to add an SSH key to GitHub.
 <h3>Hands-on Lab: Cloning, committing and pushing your GitHub repo from the command line.</h3>
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------- 159. ibm developer logo (158) ---------------------------------->
+<!------------------------------- 159. ibm developer logo (157) ---------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="images/image159.png" 
@@ -6008,7 +5995,7 @@ To clone a repo, you need the ssh url of the repo.
     where you can access it later.
 
 <!------------------------------------------------------------------------------------------------>
-<!---------------------------------- 181. copy/paste url (159) ----------------------------------->
+<!---------------------------------- 181. copy/paste url (158) ----------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="images/image181.png" 
@@ -6017,15 +6004,14 @@ To clone a repo, you need the ssh url of the repo.
 &nbsp;
 </p>
 
-5.  On your desktop open a terminal.(gitbash if you are using windows
-    os)
+5.  On your desktop open a terminal (gitbash if you are using windows os).
 
 6.  Navigate to a directory where you wish to clone the repo.
 
-7.  Run the command \"git clone \"
+7.  Run the command \"git clone \".
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------------ 182. git clone (159) -------------------------------------->
+<!------------------------------------ 182. git clone (158) -------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="images/image182.png" 
@@ -6039,7 +6025,7 @@ To clone a repo, you need the ssh url of the repo.
 9.  You can see all the downloaded files under a directory named as your
     repo name.
 <!------------------------------------------------------------------------------------------------>
-<!---------------------------------- 183. list directory (160) ----------------------------------->
+<!---------------------------------- 183. list directory (159) ----------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="images/image183.png" 
@@ -6048,15 +6034,15 @@ To clone a repo, you need the ssh url of the repo.
 &nbsp;
 </p>
 
-change to the simple_interest_calulator directory and list the files to
-verify all the files got downloaded
+Change directory to the simple_interest_calculator directory and list the files to
+verify all were downloaded.
 
 <h3>Exercise 2: Make changes to cloned files</h3>
 
 Using your favorite editor make the changes to the html file.
 
 <!------------------------------------------------------------------------------------------------>
-<!---------------------------------- 184. edit the html (160) ------------------------------------>
+<!---------------------------------- 184. edit the html (159) ------------------------------------>
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="images/image184.png" 
@@ -6068,7 +6054,7 @@ Using your favorite editor make the changes to the html file.
 <b>git status</b> will show all the modified files.
 
 <!------------------------------------------------------------------------------------------------>
-<!-------------------------------------- 185. git status ----------------------------------------->
+<!----------------------------------- 185. git status (160) -------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="images/image185.png" 
@@ -6117,7 +6103,7 @@ GitHub repository.
 Run the command \"git push\"
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------------- 186. git push (162) -------------------------------------->
+<!------------------------------------- 186. git push (161) -------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="images/image186.png" 
@@ -6160,7 +6146,7 @@ In this module, you learned that:
 	</ul>
 </ul>
 
-<p><b><i>Last edited 05/04/2022 10:21pm +</i></b></p>
+<p><b><i>Last edited 05/05/2022 3:09pm +</i></b></p>
 
 ...the end.
 <div align="right">
