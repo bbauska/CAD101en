@@ -6097,7 +6097,7 @@ Run \"git add browser-support.txt\"
 
 <h3>Exercise 5: Commit the changes</h3>
 
-git commit will record all the changes into the local staging area.
+<b>git commit</b> will record all the changes into the local staging area.
 
 To commit the changes, you have made, run git commit with a message like
 this.
@@ -6145,7 +6145,7 @@ In this module, you learned that:
     <li>Hold code</li>
     <li>Track issues</li>
     <li>Enable you to collaborate with others</li>
-	</ul><br/>&nbsp;</li>
+</ul></li>
 <li>Branches are used to isolate changes to code. When the changes are
     complete, they can be merged back into the master branch,<br/>&nbsp;</li>
 <li>Repositories can be cloned to make it possible to work locally, then
@@ -6160,7 +6160,7 @@ In this module, you learned that:
 	</ul>
 </ul>
 
-<p><b><i>Last edited 05/04/2022 7:54pm +</i></b></p>
+<p><b><i>Last edited 05/04/2022 10:21pm +</i></b></p>
 
 ...the end.
 <div align="right">
