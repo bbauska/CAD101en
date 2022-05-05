@@ -260,13 +260,13 @@ Cloud services, making them very scalable and very resilient.
 The environment for building websites and Cloud Applications is divided
 into two primary areas:
 
-1.  The **front-end** deals with everything that happens
+1.  The <b>front-end</b> deals with everything that happens
     at the client-side -- everything the user can see and interact with.
 
 You can choose to specialize in front-end coding, using HTML, CSS,
 JavaScript and related frameworks, libraries, and tools.
 
-2.  The **back-end** deals with everything that happens on
+2.  The **back-end</b> deals with everything that happens on
     the server before the code and data are sent to the client.
 
 The back-end coding usually handles the logic and functionality that
@@ -855,15 +855,15 @@ Each request needs to interact with the back-end in a different way.
 Back-end developers use APIs, routes, and endpoints to process incoming
 requests:
 
-An **API** is code that works with data, usually using
+An <b>API</b> is code that works with data, usually using
 JSON or XML. APIs have set rules and structure.
 
-A **route** is a path to a website or page that the user
+A <b>route</b> is a path to a website or page that the user
 interacts with.
 
 Routes generally take user input and show results based on the input.
 
-An **endpoint** may be an API or may simply be a path.
+An <b>endpoint</b> may be an API or may simply be a path.
 
 When a request from the front-end arrives at the back-end, it is routed
 to the correct service.
@@ -1130,7 +1130,7 @@ text/html, it is processed as an HTML document by web browsers.
 
 This example uses the following elements:
 
-The **\<!DOCTYPE html\>** is a declaration tag that represents the
+The <b>\<!DOCTYPE html\></b> is a declaration tag that represents the
 document type.
 
 The declaration is not an HTML tag; it is an instruction to the web
@@ -1449,13 +1449,13 @@ the HTML elements on a page.
 
 The property to access is prefixed by the word document.
 
-For example, **document.head** returns the first head element that is a
+For example, <b>document.head</b> returns the first head element that is a
 child of the html element, if there is one, otherwise null.
 
-The function **document.images** returns an HTML Collection of the image
+The function <b>document.images</b> returns an HTML Collection of the image
 elements in the document.
 
-The function **document.scripts** returns an HTML Collection of the
+The function <b>document.scripts</b> returns an HTML Collection of the
 script elements in the document.
 
 Here are some common HTML DOM tree methods:
@@ -1472,13 +1472,13 @@ Here are some common HTML DOM tree methods:
   <b><a href="#table-of-contents">↥ Back To Top</a></b>
 </div>
 
-The **document.getElementById ('id')** function has one required
+The <b>document.getElementById ('id')</b> function has one required
 parameter which is the id of the element you want to access.
 
 The id is specified as an attribute on one of the elements that is coded
 elsewhere on the page.
 
-The **document.getElementsByTagName('tag')** function has one required
+The <b>document.getElementsByTagName('tag')</b> function has one required
 parameter which is the tag name of the element you want to access.
 
 This function returns a node list of all the elements with the tag that
@@ -1498,7 +1498,7 @@ API.
 When Submit is clicked inside the page that is running in a web browser,
 the *textChecker* function begins.
 
-The **document.getElementById('textField1')** retrieves the contents of
+The <b>document.getElementById('textField1')</b> retrieves the contents of
 what was typed into the input field that has the id of textField1 and
 places this content into a variable.
 
@@ -1686,15 +1686,14 @@ If the browser does not support the input type =date, the field is
 displayed in the browser as a regular text field.
 
 In this section, you learned:
-
--   Not all browsers fully support all the features that are described
-    in the HTML5 and CSS3 specifications.
-
--   CanIUse.com has good support tables that show what features are
-    supported by which browsers.
-
--   You can use JavaScript to check whether a certain HTML5 element is
-    supported by a browser.
+<ul>
+<li>Not all browsers fully support all the features that are described
+    in the HTML5 and CSS3 specifications,</li><br/>&nbsp;
+<li>CanIUse.com has good support tables that show what features are
+    supported by which browsers,</li><br/>&nbsp;
+<li>You can use JavaScript to check whether a certain HTML5 element is
+    supported by a browser.</li><br/>&nbsp;
+</ul>
 
 <h3>Hands-On Lab: HTML - Creating a Simple Web Page</h3>
 
@@ -2316,11 +2315,11 @@ the Google Chrome browser. The time can be typed or entered using the
 spinner control.
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------ 49.  (##) -------------------------->
+<!---------------------------------- 49. input for emails (60) ----------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="images/image049.png"
-   alt=""
+   alt="Input for Emails"
    width="65%" />
 &nbsp;
 
@@ -2333,11 +2332,11 @@ The \< input type=\"number\" \> takes a numeric value as input.
 
 You can optionally specify the minimum, maximum values, step size, etc.
 <!------------------------------------------------------------------------------------------------>
-<!------------------------ 50.  (##) -------------------------->
+<!-------------------------------- 50. input for type number (60) -------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="images/image050.png"
-   alt=""
+   alt="Input for Type Number"
    width="65%" />
 &nbsp;
 
@@ -2355,11 +2354,11 @@ The range attribute displays a slider with the range of values between
 the minimum and maximum.
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------ 51.  (##) -------------------------->
+<!-------------------------------- 51. input of type range (61) ---------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="images/image051.png"
-   alt=""
+   alt="Input of Type Range"
    width="65%" />
 &nbsp;
 <div align="right">
@@ -2381,11 +2380,11 @@ The input type=\"tel\" pattern=\"\[parameters\]\" attribute expects a
 telephone number as input.
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------ 52.  (##) -------------------------->
+<!----------------------------- 52. input of phone number (61) ----------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="images/image052.png"
-   alt=""
+   alt="Input of Phone Number"
    width="65%" />
 &nbsp;
 
@@ -2399,11 +2398,11 @@ You need to supply your own pattern matcher if you want the browser to
 validate the telephone number.
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------ 53. input for urls (63) -------------------------->
+<!----------------------------------- 53. input for urls (62) ------------------------------------>
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="images/image053.png"
-   alt=""
+   alt="Input for URL's"
    width="65%" />
 &nbsp;
 
@@ -2416,7 +2415,7 @@ Not to be confused with the \< select \> element. Useful for auto-complete funct
 You can fill the list by nesting
 
 <!------------------------------------------------------------------------------------------------>
-<!-------------------- 54. input attribute 'list' used with <datalist> (63) ---------------------->
+<!-------------------- 54. input attribute 'list' used with <datalist> (62) ---------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="images/image054.png"
@@ -2436,7 +2435,7 @@ The placeholder fills the input text field with the example values in a
 lighter shade of text.
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------- 55. input attribute 'placeholder' used as example (64) --------------------->
+<!------------------- 55. input attribute 'placeholder' used as example (63) --------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="images/image055.png"
@@ -2448,7 +2447,7 @@ The form does not submit the placeholder text value if the input text is
 not overwritten.
 
 <!------------------------------------------------------------------------------------------------>
-<!------------ 56. input attribute 'required' indicates that field is required (64) -------------->
+<!------------ 56. input attribute 'required' indicates that field is required (63) -------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="images/image056.png"
@@ -2465,7 +2464,7 @@ What happens if browser-based validation is not supported for these
 input attributes?
 
 <!------------------------------------------------------------------------------------------------>
-<!-------------------------------- 57. validation fallback (65) ---------------------------------->
+<!-------------------------------- 57. validation fallback (64) ---------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="images/image057.png"
@@ -2575,7 +2574,7 @@ After reading this section, you will be able to:
 -   Describe JavaScript primitives and objects.
 
 <!------------------------------------------------------------------------------------------------>
-<!----------------------------- 58. the nature of javascript (67) -------------------------------->
+<!----------------------------- 58. the nature of javascript (66) -------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="images/image058.png"
@@ -5553,7 +5552,7 @@ Installing Git Bash
    width="65%" />
 &nbsp;
 
-**Estimated time**: 20 minutes
+<b>Estimated time</b>: 20 minutes
 
 <h3>What is Git Bash?</h3>
 
@@ -5577,7 +5576,7 @@ following steps:
 
 1.  Go to the [Git download
     page](https://git-scm.com/downloads?cm_mmc=Email_Newsletter-_-Developer_Ed%2BTech-_-WW_WW-_-SkillsNetwork-Courses-IBMDeveloperSkillsNetwork-CD0101EN-SkillsNetwork-20336975&cm_mmca1=000026UJ&cm_mmca2=10006555&cm_mmca3=M12345678&cvosrc=email.Newsletter.M12345678&cvo_campaign=000026UJ&cm_mmc=Email_Newsletter-_-Developer_Ed%2BTech-_-WW_WW-_-SkillsNetwork-Courses-IBMDeveloperSkillsNetwork-CD0101EN-SkillsNetwork-20336975&cm_mmca1=000026UJ&cm_mmca2=10006555&cm_mmca3=M12345678&cvosrc=email.Newsletter.M12345678&cvo_campaign=000026UJ).
-    Click **Download \[version number\] for Windows**, as shown in the
+    Click <b>Download \[version number\] for Windows</b>, as shown in the
     following image:
 
 <!------------------------------------------------------------------------------------------------>
@@ -5600,8 +5599,8 @@ You will be redirected to a new page and the download will start.
    width="65%" />
 &nbsp;
 
-**Note**: If the download doesn\'t start, click **Click here to download
-manually**.
+<b>Note</b>: If the download doesn\'t start, click <b>Click here to download
+manually</b>.
 
 2.  Go to the folder where you saved the file and double-click to open
     it.
@@ -5615,7 +5614,7 @@ manually**.
    width="65%" />
 &nbsp;
 
-3.  Click **Run** to begin the installation.
+3.  Click <b>Run</b> to begin the installation.
 
 <!------------------------------------------------------------------------------------------------>
 <!--------------------------- 163. click run to begin install (145) ------------------------------>
@@ -5628,8 +5627,8 @@ manually**.
 
 4.  Select the location where you want to install Git Bash. 
 
-**Note**: It\'s recommended that you simply install to the default
-location. Click **Next**.
+<b>Note</b>: It\'s recommended that you simply install to the default
+location. Click <b>Next</b>.
 
 <!------------------------------------------------------------------------------------------------>
 <!----------------------- 164. select location to install git bash (146) ------------------------->
@@ -5641,7 +5640,7 @@ location. Click **Next**.
 &nbsp;
 
 5.  Choose the components you want to install, or simply leave the
-    default options selected. Click **Next**.
+    default options selected. Click <b>Next</b>.
 <!------------------------------------------------------------------------------------------------>
 <!-------------------------- 165. select components for git setup (14x) -------------------------->
 <!------------------------------------------------------------------------------------------------>
@@ -5652,7 +5651,7 @@ location. Click **Next**.
 &nbsp;
 
 6.  You can change the name of the start menu folder or simply leave the
-    default name as is. Click **Next**.
+    default name as is. Click <b>Next</b>.
 <!------------------------------------------------------------------------------------------------>
 <!------------------------------- 166. select start menu folder (14x) ---------------------------->
 <!------------------------------------------------------------------------------------------------>
@@ -5662,7 +5661,7 @@ location. Click **Next**.
    width="65%">
 &nbsp;
 
-7.  Select the default editor for Git to use. Click **Next**.
+7.  Select the default editor for Git to use. Click <b>Next</b>.
 
 <!------------------------------------------------------------------------------------------------>
 <!-------------------------- 167. choose default editor for git (14x) ---------------------------->
@@ -5674,7 +5673,7 @@ location. Click **Next**.
 &nbsp;
 
 8.  Choose how you want to use Git from the command line.
-    Click **Next**.
+    Click <b>Next</b>.
 
 <!------------------------------------------------------------------------------------------------>
 <!--------------------- 168. choose how you want to use git from cli (148) ----------------------->
@@ -5685,7 +5684,7 @@ location. Click **Next**.
    width="65%" />
 &nbsp;
 
-9.  Select **Use the OpenSSL library**. Click **Next**.
+9.  Select <b>Use the OpenSSL library</b>. Click <b>Next</b>.
 
 <!------------------------------------------------------------------------------------------------>
 <!------------------------- 169. use openssl library or native windows (148) --------------------->
@@ -5697,8 +5696,8 @@ location. Click **Next**.
 &nbsp;
 
 10. Configure your line ending conversions for Windows by selecting the
-    default option, **Checkout Windows-style, commit Unix-style line
-    endings**. Click **Next**.
+    default option, <b>Checkout Windows-style, commit Unix-style line
+    endings</b>. Click <b>Next</b>.
 
 <!------------------------------------------------------------------------------------------------>
 <!----------------------------- 170. line ending conversions (149) ------------------------------->
@@ -5710,8 +5709,8 @@ location. Click **Next**.
 &nbsp;
 
 11. Configure your terminal emulator to use with Git Bash by selecting
-    the default option, **Use MinTTY(the default terminal of MSYS2)**.
-    Click **Next**.
+    the default option, <b>Use MinTTY(the default terminal of MSYS2)</b>.
+    Click <b>Next</b>.
 <!------------------------------------------------------------------------------------------------>
 <!---------------------- 171. configure terminal emulator to gitbash (150) ------------------------>
 <!------------------------------------------------------------------------------------------------>
@@ -5721,8 +5720,8 @@ location. Click **Next**.
    width="65%" />
 &nbsp;
 
-12. Configure the default behavior for a git pull by selecting **Default
-    (fast-forward or merge)**. Click **Next**.
+12. Configure the default behavior for a git pull by selecting <b>Default
+    (fast-forward or merge)</b>. Click <b>Next</b>.
 <!------------------------------------------------------------------------------------------------>
 <!-------------- 172. configure default git pull with fast-forward or merge (150) ---------------->
 <!------------------------------------------------------------------------------------------------>
@@ -5733,7 +5732,7 @@ location. Click **Next**.
 &nbsp;
 
 13. Select any additional options you want to install. (The default
-    option is sufficient to use Git Bash successfully). Click **Next**.
+    option is sufficient to use Git Bash successfully). Click <b>Next</b>.
 
 <!------------------------------------------------------------------------------------------------>
 <!---------------------------- 173. configuring extra options  (151) ----------------------------->
@@ -5747,7 +5746,7 @@ location. Click **Next**.
 14. You can enable experimental options if you choose to. By enabling
     these options, you will be able to try newer features that are still
     being developed. However, you do not have to select any experimental
-    options to use Git Bash. Click **Install** to complete the
+    options to use Git Bash. Click <b>Install</b> to complete the
     installation with the options you have chosen. The installation runs
     and when complete, a Completing the Git Setup Wizard window opens.
 
@@ -5760,7 +5759,7 @@ location. Click **Next**.
    width="65%" />
 &nbsp;
 
-15. Leave the checkboxes selected and click **Next**.
+15. Leave the checkboxes selected and click <b>Next</b>.
 
 <!------------------------------------------------------------------------------------------------>
 <!--------------------- 175. leave checkboxes selected and click next (152) ---------------------->
@@ -5816,7 +5815,7 @@ To generate an SSH key, complete the following steps:
     email address that is linked to your Github account. When you have
     typed the command, press Enter.
 
-**ssh-keygen -t rsa -b 4096 -C \"\<your email address\>\"**
+<b>ssh-keygen -t rsa -b 4096 -C \"\<your email address\>\"</b>
 
 A new SSH key is generated.
 
@@ -5829,15 +5828,15 @@ A new SSH key is generated.
     option not to create a passphrase. To skip the passphrase, press
     Enter twice to confirm that the passphrase is empty.
 
-5.  **Optional**: To navigate to the .ssh directory, and check the
+5.  <b>Optional</b>: To navigate to the .ssh directory, and check the
     contents of the directory, run the following commands in the
     terminal:
 
-**cd \~/.ssh**
+<b>cd \~/.ssh</b>
 
 and then,
 
-**ls**
+<b>ls</b>
 
 When you list the contents of the .ssh directory, you should
 see id_rsa and id_rsa.pub in the list of contents, where id_rsa is the
@@ -5848,12 +5847,12 @@ key.
     the authentication process. To start the ssh-agent, run the
     following command in the terminal:
 
-**eval \"\$(ssh-agent -s)\"**
+<b>eval \"\$(ssh-agent -s)\"</b>
 
 7.  To add the key to the agent, run the following command in the
     terminal:
 
-**ssh-add \~/.ssh/id_rsa**
+<b>ssh-add \~/.ssh/id_rsa</b>
 
 <h4>© IBM Corporation 2020. All rights reserved.</h4>
 
@@ -5886,13 +5885,13 @@ following steps:
 
 1.  In the terminal, run the following command:
 
-**cat \~/.ssh/id_rsa.pub \| clip**
+<b>cat \~/.ssh/id_rsa.pub \| clip</b>
 
-**Note**: If clip doesn\'t work, run cat \~/.ssh/id_rsa.pub in the
+<b>Note</b>: If clip doesn\'t work, run cat \~/.ssh/id_rsa.pub in the
 command line and the copy the output.
 
 2.  Sign in to GitHub. At the top right, click the drop-down menu on
-    your profile image and select **Settings**.
+    your profile image and select <b>Settings</b>.
 
 <!------------------------------------------------------------------------------------------------>
 <!--------------------------------- 177. github settings (156) ----------------------------------->
@@ -5904,7 +5903,7 @@ command line and the copy the output.
 &nbsp;
 </p>
 
-3.  From the \"Personal settings\" menu, select **SSH and GPG keys**, as
+3.  From the \"Personal settings\" menu, select <b>SSH and GPG keys</b>, as
     shown in the following image:
 
 <!------------------------------------------------------------------------------------------------>
@@ -5917,7 +5916,7 @@ command line and the copy the output.
 &nbsp;
 </p>
 
-4.  Click **New SSH key**.
+4.  Click <b>New SSH key</b>.
 
 <!------------------------------------------------------------------------------------------------>
 <!----------------------------------- 179. new ssh key (157) ------------------------------------->
@@ -5929,9 +5928,9 @@ command line and the copy the output.
 &nbsp;
 </p>
 
-5.  Enter a title for the new SSH key. In the **Key** field, paste the
+5.  Enter a title for the new SSH key. In the <b>Key</b> field, paste the
     key that you copied in step 1, above. The pasted key should
-    include **Your email address** at the end, as shown in the following
+    include <b>Your email address</b> at the end, as shown in the following
     image:
 <!------------------------------------------------------------------------------------------------>
 <!--------------------------------- 180. ssh keys/add new (157) ---------------------------------->
@@ -5943,7 +5942,7 @@ command line and the copy the output.
 &nbsp;
 </p>
 
-6.  Click **Add SSH Key**. The SSH key is added to your account.
+6.  Click <b>Add SSH Key</b>. The SSH key is added to your account.
 
 <h3>Summary</h3>
 
@@ -6066,7 +6065,7 @@ Using your favorite editor make the changes to the html file.
 &nbsp;
 </p>
 
-**git status** will show all the modified files.
+<b>git status</b> will show all the modified files.
 
 <!------------------------------------------------------------------------------------------------>
 <!-------------------------------------- 185. git status ----------------------------------------->
@@ -6112,7 +6111,7 @@ Now all the changes you have made thus far, get committed locally.
 After you have made all the changes and committed them, it is time to
 push the changes to the GitHub.
 
-**git push** will sync all the changes made till now to your online
+<b>git push</b> will sync all the changes made till now to your online
 GitHub repository.
 
 Run the command \"git push\"
@@ -6161,7 +6160,7 @@ In this module, you learned that:
 	</ul>
 </ul>
 
-<p><b><i>Last edited 05/04/2022 4:23pm +</i></b></p>
+<p><b><i>Last edited 05/04/2022 7:54pm +</i></b></p>
 
 ...the end.
 <div align="right">
