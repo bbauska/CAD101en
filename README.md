@@ -5568,7 +5568,7 @@ Installing Git Bash
 <p align="center">
 <img src="images/image159.png"
    alt="IBM Cloud logo"
-   width="65%" />
+   width="20%" />
 &nbsp;
 
 <b>Estimated time</b>: 20 minutes
