@@ -76,7 +76,7 @@ After completing this course, you will be able to:
 >### 2.3 [**HTML Management and Support**](#ch2-3)
 >### 2.4 [**HTML Scripting**](#ch2-4)
 >### 2.5 [**HTML5 Browser Support**](#ch2-5)
->### 2.6 [**CSS: Styling HTM**](#ch2-6)
+>### 2.6 [**CSS: Styling HTML**](#ch2-6)
 >### 2.7 [**Chapter 2 Summary**](#ch2-7)
 
 ## 3. [**Chapter 3. HTML5 Elements**](#ch3)
@@ -6182,7 +6182,7 @@ In this module, you learned that:
 	</ul>
 </ul>
 
-<p><b><i>Last edited 05/05/2022 5:29pm +</i></b></p>
+<p><b><i>Last edited 05/06/2022 10:01am +</i></b></p>
 
 ...the end.
 <div align="right">
