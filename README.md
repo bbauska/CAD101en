@@ -251,6 +251,10 @@ user experience.
 Cloud Applications are similar to Websites in that they request content
 that a server returns.
 
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
+
 Cloud Apps are built to work seamlessly with a Cloud-based back-end
 infrastructure, Cloud-based data storage and data processing, and other
 Cloud services, making them very scalable and very resilient.
@@ -350,6 +354,10 @@ When you order products from any website, you realize that the pages
 have a pleasing font style, attractive colors and are easy to navigate.
 
 Developers use CSS to create stylish websites.
+
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
 CSS provides front-end developers with a standard method to define,
 apply, and manage different sets of style characteristics for a website
@@ -474,6 +482,9 @@ becomes overridingly important.
    alt="Version Control"
    width="65%">
 &nbsp;
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
 Version control systems keep track of what changes were made when and by
 whom and resolve any conflicts between changes.
@@ -684,6 +695,10 @@ changes were made, in what order, what dependencies exist, and what
 needs to be incorporated in the next build, so automation is key to
 keeping everything running smoothly.
 
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
+
 Build automation can automate a wide variety of tasks that developers do
 in their day-to-day activities like:
 
@@ -822,6 +837,10 @@ and make a purchase.
 As you search for products, your search request is submitted to a web
 application which then retrieves the data from a separate database and
 serves it back to the client for display.
+
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
 To facilitate this, a back-end developer must understand the language
 that the web application uses, how to query the database for the correct
@@ -980,6 +999,10 @@ After completing this module, you will be able to:
 
 -   Describe how CSS is used to enhance websites.
 
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
+
 <h3 id="ch2-1">2.1 Introduction to HTML</h3>
 
 Hello and welcome to Introduction to HTML.
@@ -1075,7 +1098,7 @@ In this section, you learned:
   <b><a href="#table-of-contents">↥ Back To Top</a></b>
 </div>
 
-<h3 id-"ch2-2">2.2 HTML Features</h3>
+<h3 id="ch2-2">2.2 HTML Features</h3>
 
 Hello and welcome to HTML Features.
 
@@ -1117,6 +1140,9 @@ that is uniform across platforms and devices.
    alt="HTML DOM Tree"
    width="40%" />
 &nbsp;
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
 Here is an example of a document that conforms to the syntax of HTML5.
 
@@ -2031,6 +2057,9 @@ After reading this section, you will be able to:
 
     -   section, article, header, footer, figure, fig caption.
 
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 <!------------------------------------------------------------------------------------------------>
 <!---------------------------- 36. html5 specific tags (1of4) (51) ------------------------------->
 <!------------------------------------------------------------------------------------------------>
@@ -2047,6 +2076,9 @@ After reading this section, you will be able to:
    alt="HTML5 Specific Tags (2 of 4)"
    width="85%" />
 &nbsp;
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
 There are many HTML5 specific elements. The table shows some of them.
 
@@ -5880,6 +5912,10 @@ command line and the copy the output.
 2.  Sign in to GitHub. At the top right, click the drop-down menu on
     your profile image and select <b>Settings</b>.
 
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
+
 <!------------------------------------------------------------------------------------------------>
 <!--------------------------------- 177. github settings (155) ----------------------------------->
 <!------------------------------------------------------------------------------------------------>
@@ -6146,7 +6182,7 @@ In this module, you learned that:
 	</ul>
 </ul>
 
-<p><b><i>Last edited 05/05/2022 3:09pm +</i></b></p>
+<p><b><i>Last edited 05/05/2022 5:29pm +</i></b></p>
 
 ...the end.
 <div align="right">
