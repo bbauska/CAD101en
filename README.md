@@ -5922,7 +5922,7 @@ command line and the copy the output.
 <p align="center">
 <img src="images/image177.png" 
    alt="Github Settings"
-   width="45%" />
+   width="65%" />
 &nbsp;
 </p>
 
@@ -6182,7 +6182,7 @@ In this module, you learned that:
 	</ul>
 </ul>
 
-<p><b><i>Last edited 05/06/2022 10:01am +</i></b></p>
+<p><b><i>Last edited 05/13/2022 11:38am +</i></b></p>
 
 ...the end.
 <div align="right">
