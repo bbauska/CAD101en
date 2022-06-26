@@ -5830,7 +5830,7 @@ To generate an SSH key, complete the following steps:
 
 1.  Launch a terminal. If you are using Windows, launch Git Bash.
 
-2.  Type the following command in your terminal, replacing \\ with the
+2.  Type the following command in your terminal, replacing \"\<your email address\>\" with the
     email address that is linked to your Github account. When you have
     typed the command, press Enter.
 
