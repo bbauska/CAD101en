@@ -841,7 +841,7 @@ Once you have bundled your app into a package, you can use a package
 manager to distribute it.</p>
 <p>
 Package managers take care of the tasks of finding, installing,
-maintaining or uninstalling software packages at the user\'s request.</p>
+maintaining or uninstalling software packages at the user's request.</p>
 
 Package management systems:
 <ol>
@@ -1166,40 +1166,37 @@ In this section, you learned:
 -   Interoperation with earlier HTML versions,
 
 -   Markup and APIs for web storage, video, and audio content.
+</p>
 
 <h3 id-"ch2-2">2.2 HTML Features</h3>
-
+<p>
 Hello and welcome to HTML Features.
+</p>
+<h4>After reading this section, you will be able to:</h4>
+<ul>
+<li>List some of the features of HTML5,</li>
+<li>Describe the Document Object Model (DOM) tree,</li>
+<li>Explain when you would use XML and when you would use HTML.</li>
+</ul>
 
-After reading this section, you will be able to:
-
--   List some of the features of HTML5,
-
--   Describe the Document Object Model (DOM) tree,
-
--   Explain when you would use XML and when you would use HTML.
-
-What are some HTML5 features?
-
--   It provides the means to categorize web pages into different
+<h4>What are some HTML5 features?</h4>
+<ul>
+<li>It provides the means to categorize web pages into different
     sections, and includes tools for effective data management, drawing,
-    video, and audio.
-
--   Facilitates the development of cross-browser applications for the
-    web and portable devices.
-
--   Allows greater flexibility, permitting the development of exciting
-    and interactive websites.
-
--   Helps to create a more engaging user experience. Pages that are
+    video, and audio.</li>
+<li>Facilitates the development of cross-browser applications for the
+    web and portable devices.</li>
+<li>Allows greater flexibility, permitting the development of exciting
+    and interactive websites.</li>
+<li>Helps to create a more engaging user experience. Pages that are
     designed by using HTML5 can provide an experience similar to desktop
-    applications.
+    applications.</li>
+<li>Allows for enhanced, multiple-platform development by combining the
+    capability of an application programming interface (API).</li>
+</ul>
 
--   Allows for enhanced, multiple-platform development by combining the
-    capability of an application programming interface (API).
-
-By using HTML5, developers can create a modern application experience
-that is uniform across platforms and devices.
+<p>By using HTML5, developers can create a modern application experience
+that is uniform across platforms and devices.</p>
 
 <!------------------------------------------------------------------------------------------------>
 <!----------------------------------- 13. html dom tree (26) ------------------------------------->
@@ -1209,7 +1206,7 @@ that is uniform across platforms and devices.
    alt="HTML DOM Tree"
    width="40%" />
 &nbsp;
-
+<p>
 Here is an example of a document that conforms to the syntax of HTML5.
 
 Documents that have the text/html media type are parsed using HTML
@@ -1218,27 +1215,26 @@ rules.
 If a document is transmitted with an HTML content type, such as
 text/html, it is processed as an HTML document by web browsers.
 
-This example uses the following elements:
-
-The <b>\<!DOCTYPE html\></b> is a declaration tag that represents the
-document type.
-
-The declaration is not an HTML tag; it is an instruction to the web
-browser about what version of HTML the page is written in.
+<h4>This example uses the following elements:</h4>
+<ul>
+<li>The <b><!DOCTYPE html></b> is a declaration tag that represents the
+document type.</li>
+<li>The <b>declaration</b> is not an HTML tag; it is an instruction to the web
+browser about what version of HTML the page is written in.</li>
 
 Although this declaration is not required, it should be the first line
 of the HTML code if the developer decides to include it.
 
-The \<html\> ... \</html\> tag is the root element of this tree.
+The <html> ... </html> tag is the root element of this tree.
 
-It contains all of the other HTML elements, except the \<!DOCTYPE html\>
+It contains all of the other HTML elements, except the <!DOCTYPE html>
 declaration tag.
 
-This example, contains two elements:  \<head\> and \<body\>.
+This example, contains two elements:  <head> and <body>.
 
-The \<head\> tag contains a \<title\> in the example.
+The <head> tag contains a <title> in the example.
 
-The \<head\> element can contain the following tags:
+The <head> element can contain the following tags:
 
 -   title ( 
 
@@ -1254,7 +1250,7 @@ The \<head\> element can contain the following tags:
 
 -   other initialization functions ().
 
-Finally, the \<body\> tag contains all content that is displayed on the
+Finally, the <body> tag contains all content that is displayed on the
 webpage.
 
 HTML user agents, commonly known as browsers, parse the markup, turning
@@ -1654,7 +1650,7 @@ more.
    width="65%" />
 &nbsp;
 
-Here are the results of displaying the \< input type= 'date' \>element
+Here are the results of displaying the < input type= 'date' >element
 in different browsers.
 
 The Google Chrome browser displays a calendar to enter the data.
@@ -1676,7 +1672,7 @@ This could raise several issues regarding input format and validation.
    width="65%" />
 &nbsp;
 
-This example shows a support table for the \< input type= 'date' \>
+This example shows a support table for the < input type= 'date' >
 element.
 
 The numbers represent the browser version. The color determines the
@@ -1688,11 +1684,11 @@ level of support.
 
 -   Red: No support
 
-Edge, Chrome, and Opera browsers are green, meaning they support the \<
-input type= 'date' \> element.
+Edge, Chrome, and Opera browsers are green, meaning they support the <
+input type= 'date' > element.
 
 Internet Explorer and Safari browsers are red, meaning they do not
-support the type ='date'\> element.
+support the type ='date'> element.
 
 Support levels change as developers of browsers add new features, so
 check back frequently to see if the features you require are supported.
@@ -1739,11 +1735,11 @@ default behavior such as displaying the field as a regular text field.
 Here is an example of using JavaScript to check whether a certain HTML5
 element is supported by a browser.
 
-This code is used to test whether the browser supports the element \<
-input type= 'date' \>.
+This code is used to test whether the browser supports the element <
+input type= 'date' >.
 
 In the example, you dynamically create the DOM object for the input
-element, and then you set the type attribute to the value of \"date".
+element, and then you set the type attribute to the value of "date".
 
 If the browser does not support the input type =date, the field is
 displayed in the browser as a regular text field.
@@ -1896,8 +1892,8 @@ CSS style elements are structured like this.
 
 In this example, the html-tag-name can be one of the following elements:
 
--   Any of the tags you find in HTML code (for example,\<a\>, \<div\>,
-    \<li\>, or \<label\>, etc.)
+-   Any of the tags you find in HTML code (for example,<a>, <div>,
+    <li>, or <label>, etc.)
 
 -   An id reference that is displayed with a preceding hash symbol (#)
     in CSS code.
@@ -1906,7 +1902,7 @@ In this example, the html-tag-name can be one of the following elements:
     (.) symbol in CSS code.
 
 When making a site design, begin by establishing the base style.
-Establish a base style by styling the \<Body\> tag, as shown here.
+Establish a base style by styling the <Body> tag, as shown here.
 
 <!------------------------------------------------------------------------------------------------>
 <!------------------------------------ 35. base styles (47) -------------------------------------->
@@ -2154,7 +2150,7 @@ These divisions might include the page title, a banner with selectable
 tabs, an area for the image, and further blocks for text and thumbnail
 images.
 
-The \<div\> tag was not introduced in HTML5, but is a good starting
+The <div> tag was not introduced in HTML5, but is a good starting
 point for laying out a page or document.
 
 Then, you can use other HTML5-specific structural elements inside the
@@ -2164,10 +2160,10 @@ Most HTML elements have a semantic meaning. In other words, the element
 describes either the function or the type of data that is contained
 within.
 
-For example, a \<p\> element is a paragraph that usually contains some
+For example, a <p> element is a paragraph that usually contains some
 text.
 
-In contrast, the \<div\> tag has no innate semantic meaning besides the
+In contrast, the <div> tag has no innate semantic meaning besides the
 logical grouping of the content.
 
 <!------------------------------------------------------------------------------------------------>
@@ -2180,17 +2176,17 @@ logical grouping of the content.
 &nbsp;
 
 You can use these dedicated elements to mark up your website, rather
-than using the generic \<div\> or \<span\> elements.
+than using the generic <div> or <span> elements.
 
-An \<article\> defines a block of code that can be distinguished from
+An <article> defines a block of code that can be distinguished from
 the rest of the page.
 
-A \<section\> defines a logical separation in the document such as the
+A <section> defines a logical separation in the document such as the
 numbered chapters of an online manual.
 
-A \<header\> element is used to group the headers for a page.
+A <header> element is used to group the headers for a page.
 
-The \<footer\> defines the area at the bottom of the page.
+The <footer> defines the area at the bottom of the page.
 
 <!------------------------------------------------------------------------------------------------>
 <!-------------------------- 42. example with structural elements (56) --------------------------->
@@ -2203,14 +2199,14 @@ The \<footer\> defines the area at the bottom of the page.
 
 This code example shows some of the HTML5 structural elements.
 
-Here, the \<article\> element is used to create an online news report.
+Here, the <article> element is used to create an online news report.
 
-The \<article\> includes a header.
+The <article> includes a header.
 
-Within the \<article\>, the page is marked up into sections that have
+Within the <article>, the page is marked up into sections that have
 their own headers.
 
-The page also includes a \<footer\> element.
+The page also includes a <footer> element.
 
 <!------------------------------------------------------------------------------------------------>
 <!--------------------------- 43. elements for grouping content (57) ----------------------------->
@@ -2221,19 +2217,19 @@ The page also includes a \<footer\> element.
    width="65%" />
 &nbsp;
 
-The \<aside\> tag is used to provide additional information that is
+The <aside> tag is used to provide additional information that is
 related to the main discussion.
 
-The \<aside\> tag lets you extract and display further content or go to
+The <aside> tag lets you extract and display further content or go to
 additional resources without detracting from the main discussion.
 
-The \<figure\> tag defines a self-contained element that is referred to
+The <figure> tag defines a self-contained element that is referred to
 from the main content.
 
-The \<figure\> element can be used to embed graphics, images, or code
+The <figure> element can be used to embed graphics, images, or code
 sections.
 
-The \<figurecaption\> tag defines the caption for the contents of the
+The <figurecaption> tag defines the caption for the contents of the
 element.
 
 <!------------------------------------------------------------------------------------------------>
@@ -2249,7 +2245,7 @@ Websites typically have sections that are dedicated to navigational
 links that go to these sites or for moving between pages of a single
 application.
 
-In HTML5 syntax, these navigational links are placed inside a \<nav\>
+In HTML5 syntax, these navigational links are placed inside a <nav>
 tag.
 
 <!------------------------------------------------------------------------------------------------>
@@ -2261,16 +2257,16 @@ tag.
    width="65%" />
 &nbsp;
 
-The \<nav\> tag is a convenience tag for grouping navigational links in
+The <nav> tag is a convenience tag for grouping navigational links in
 a web page.
 
 Websites typically have sections that are dedicated to navigational
 links that go to these sites or for moving between pages of a single
 application.
 
-In HTML5 syntax, these navigational links are placed inside a \<\> tag.
+In HTML5 syntax, these navigational links are placed inside a <> tag.
 
-The \<\> tag is a convenience tag for grouping navigational links in a
+The <> tag is a convenience tag for grouping navigational links in a
 web page.
 
 <!------------------------------------------------------------------------------------------------>
@@ -2288,17 +2284,17 @@ In this section, you learned:
 
 -   Some tags provide structural elements:
 
--   The \<div\> tag separates areas in a document into divisions,
+-   The <div> tag separates areas in a document into divisions,
     enabling you to apply different styles to different parts of a
     document.
 
--   Dedicated elements like \<article\>, \<section\>, \<header\>, and
-    \<footer\> are more specific than the generic element.
+-   Dedicated elements like <article>, <section>, <header>, and
+    <footer> are more specific than the generic element.
 
--   The \<aside\>, \<figure\> and \<figurecaption\> tags enable you to
+-   The <aside>, <figure> and <figurecaption> tags enable you to
     group content.
 
--   And the \<nav\> tags enable you to group navigational links.
+-   And the <nav> tags enable you to group navigational links.
 
 <h3 id="ch3-2">3.2 HTML5 Input Element: Attributes for the Input Tag</h3>
 
@@ -2309,7 +2305,7 @@ After reading this section, you will be able to:
 -   Describe the attributes of the HTML5 input element input type
     attributes tel, email, date time, number, range, and color.
 
-The \< input type= \"color\" / \> attribute allows the user to select a
+The < input type= "color" / > attribute allows the user to select a
 color.
 
 The dialog varies depending on the browser.
@@ -2320,7 +2316,7 @@ In non-supporting browsers, this input type is displayed as a regular
 text input field into which the user might type a valid color name or
 color code.
 
-The \< input type=\"date\" \> attribute is a date control (year, month,
+The < input type="date" > attribute is a date control (year, month,
 day) with no time zone.
 <!------------------------------------------------------------------------------------------------>
 <!----------------------------------- 47. input for date (60) ------------------------------------>
@@ -2334,7 +2330,7 @@ day) with no time zone.
   <b><a href="#table-of-contents">↥ Back To Top</a></b>
 </div>
 
-The example shows the input type=\"date\" field as it is seen in Google
+The example shows the input type="date" field as it is seen in Google
 Chrome.
 
 The input dialog varies from browser to browser.
@@ -2364,12 +2360,12 @@ spinner control.
    width="65%" />
 &nbsp;
 
-The \< input type=\"email\" \> attribute is displayed as a regular text
+The < input type="email" > attribute is displayed as a regular text
 input field.
 
 It provides feedback when the input does not follow the email format.
 
-The \< input type=\"number\" \> takes a numeric value as input.
+The < input type="number" > takes a numeric value as input.
 
 You can optionally specify the minimum, maximum values, step size, etc.
 <!------------------------------------------------------------------------------------------------>
@@ -2384,7 +2380,7 @@ You can optionally specify the minimum, maximum values, step size, etc.
 The example shows the number selector in the Chrome browser. Only the
 numbers between 5 and the 10 are available for selection.
 
-The \< input type=\"range\" \> takes a numeric range as input.
+The < input type="range" > takes a numeric range as input.
 
 The example shows the number selector in the Google Chrome browser.
 
@@ -2409,15 +2405,15 @@ the minimum and maximum.
 Only the slider itself is shown. Additional JavaScript code is needed in
 order to display the value of the slider.
 
-The differences between \< input type=\"search\"\\ \> and \< input
-type=\"text\" / \> are mostly in style.
+The differences between < input type="search" > and < input
+type="text" / > are mostly in style.
 
 WebKit-based browsers return a history of recently searched text
 strings.
 
 The search input field on the Safari browser has rounded corners.
 
-The input type=\"tel\" pattern=\"\[parameters\]\" attribute expects a
+The input type="tel" pattern="[parameters]" attribute expects a
 telephone number as input.
 
 <!------------------------------------------------------------------------------------------------>
@@ -2429,7 +2425,7 @@ telephone number as input.
    width="65%" />
 &nbsp;
 
-On its own, the \< input type=\"tel\" \> provides nothing more than a
+On its own, the < input type="tel" > provides nothing more than a
 text entry field in the browsers.
 
 It does not enforce numeric only input since many telephone numbers
@@ -2449,9 +2445,9 @@ validate the telephone number.
 
 The URL attribute is used to validate that the user typed in a properly formatted URL or web address.
 
-The \< input list=\"some_list\" \> provides a list of auto-complete suggestions for the input field.
+The < input list="some_list" > provides a list of auto-complete suggestions for the input field.
 
-Not to be confused with the \< select \> element. Useful for auto-complete functionality.
+Not to be confused with the < select > element. Useful for auto-complete functionality.
 
 You can fill the list by nesting
 
@@ -2527,7 +2523,7 @@ submitted.
 
 In this section, you learned:
 
--   Common attributes of the \< input \> tag.
+-   Common attributes of the < input > tag.
 
 -   How to implement validation fallback.
 
@@ -2552,26 +2548,21 @@ provision your lab environment.
 
 <h3 id="ch3-3">3.3 Chapter 3 Summary</h3>
 
-In this module, you learned that:
-
--   To structure a document, HTML5 uses elements like:
-
-    -   \<div\>
-
-    -   \<header\>
-
-    -   \<footer\>
-
-    -   \<section\>
-
-    -   \<body\>
-
-    -   \<heading\>
-
--   HTML5 uses the \<input\> tag to allow users to input information. It
-    has many different types, including:
-
-    -   Color
+<h4>In this module, you learned that:</h4>
+<ul>
+   <li>To structure a document, HTML5 uses elements like:</li>
+      <ul>
+         <li>&lt;div&gt;</li>
+         <li>&lt;header&gt;</li>
+         <li>&lt;footer&gt;</li>
+         <li>&lt;section&gt;</li>
+         <li>&lt;body&gt;</li>
+         <li>&lt;heading&gt;</li>
+      </ul>
+   <li>HTML5 uses the <input> tag to allow users to input information. It
+    has many different types, including:</li>
+      <ul>
+         <li>Color</li>
 
     -   Date
 
@@ -2655,7 +2646,7 @@ One of the ways that server programming and browser scripting work
 together is in an architecture that is called Ajax, or Asynchronous
 JavaScript and XML.
 
-The term \"Ajax\" encompasses more than asynchronous server calls
+The term "Ajax" encompasses more than asynchronous server calls
 through JavaScript and XML.
 
 Ajax represents a series of techniques that provide richer, interactive
@@ -2793,8 +2784,8 @@ the slide.
 The Date object is a specialized object that is used to hold the date
 and time.
 
-The constructor for a date object is in the format: new Date (\[with
-optional parameters\]).
+The constructor for a date object is in the format: new Date ([with
+optional parameters]).
 
 If you create a Date object without any parameters, JavaScript returns
 an object that contains the current local date and time.
@@ -2941,10 +2932,10 @@ empty string.
 
 Variable names, or identifiers, have these rules:
 
--   The name must start with a letter, underscore (\_), or a dollar sign
-    (\$),
+-   The name must start with a letter, underscore (_), or a dollar sign
+    ($),
 
--   Subsequent characters can also be digits \[0-9\] Identifiers are
+-   Subsequent characters can also be digits [0-9] Identifiers are
     case-sensitive.
 
 -   Variables also have a scope:
@@ -3106,7 +3097,7 @@ In this section, you learned:
 When executing, the flow of the program is directed by control
 statements, including:
 
--   Conditional statements like if\...then\...else,
+-   Conditional statements like if...then...else,
 
 -   Switch statements,
 
@@ -3187,7 +3178,7 @@ declaring the statement:
 
 var c = new Car with the arguments; "meridian", "Sabre GT" and 2012.
 
-In the Car function, the keyword \"this\" refers to the current instance
+In the Car function, the keyword "this" refers to the current instance
 of the Car object that is being created. In other words, an instance of
 Car that is associated with the variable named c.
 
@@ -3392,7 +3383,7 @@ declaring the statement:
 
 -   var c = new Car with the arguments "meridian", "Sabre GT" and 2012.
 
-In the Car function, the keyword \"this\" refers to the current instance
+In the Car function, the keyword "this" refers to the current instance
 of the Car object that is being created. In other words, an instance of
 Car that is associated with the variable named c.
 
@@ -3760,7 +3751,7 @@ There is no standard that applies to the navigator object, so the
 property values returned when running queries on the navigator object
 are not consistent across browsers.
 
-The screen object is used to derive information about a user\'s screen,
+The screen object is used to derive information about a user's screen,
 such as the dimensions of the display screen.
 
 The screen object is useful for determining the screen size of browser
@@ -3873,7 +3864,7 @@ The DOM level 0 for the form portion of the document would have only the
 form, p, and input boxes.
 
 The DOM level 2 adds the carriage returns, tabs, and spaces, sometimes
-referred to as \"white space\".
+referred to as "white space".
 
 In this section, you learned:
 
@@ -3995,8 +3986,8 @@ It then places all the objects of each type into these arrays.
 The arrays are indexed as they occur in the source document. The first
 index of each array starts at zero.
 
-Each of the array types, such as forms\[\], contains an array of
-elements\[\] with each index element being the fields or buttons that
+Each of the array types, such as forms[], contains an array of
+elements[] with each index element being the fields or buttons that
 occur in that form.
 
 <!------------------------------------------------------------------------------------------------>
@@ -4009,7 +4000,7 @@ occur in that form.
 &nbsp;
 
 You can reference the element named field1 in the figure by its relative
-position as document.forms\[0\].elements\[0\].
+position as document.forms[0].elements[0].
 
 <!------------------------------------------------------------------------------------------------>
 <!------------------------- 104. accessing document elements #3 (101) ---------------------------->
@@ -4021,7 +4012,7 @@ position as document.forms\[0\].elements\[0\].
 &nbsp;
 
 You can reference the same field with named elements; for example,
-document.forms\[\"form1\"\].elements\[\"field1\"\], or even the
+document.forms["form1"].elements["field1"], or even the
 shortened document.form1.field1.
 
 <!------------------------------------------------------------------------------------------------>
@@ -4233,7 +4224,7 @@ any setting from a CSS style sheet with one specific style.
 The way to set the style in JavaScript is with the format
 element.style.propertyName = value.
 
-For example, if you had an element \<div style=\"color:blue\"\>.
+For example, if you had an element <div style="color:blue">.
 
 <!------------------------------------------------------------------------------------------------>
 <!---------------------------- 113. modifying the inline style (107) ----------------------------->
@@ -4244,11 +4235,11 @@ For example, if you had an element \<div style=\"color:blue\"\>.
    width="65%" />
 &nbsp;
 
-Here the \<div\> tag is used to group block-elements to format them with
+Here the <div> tag is used to group block-elements to format them with
 a color style. You can change the style of this div tag with the
 JavaScript statement:
 
-div.style.color = \'red\';
+div.style.color = 'red';
 
 <!------------------------------------------------------------------------------------------------>
 <!---------------------------- 114. modifying the inline style (108) ----------------------------->
@@ -4259,7 +4250,7 @@ div.style.color = \'red\';
    width="65%" />
 &nbsp;
 
-In contrast, the element.setAttribute(\'style\', ...) wipes out all
+In contrast, the element.setAttribute('style', ...) wipes out all
 previously set inline CSS
 
 styles.
@@ -4332,7 +4323,7 @@ the current page in the browser history.
 The window.onload function can be used to start a function after the
 page is loaded.
 
-The function, window.dump(\"message\") writes a string into the console
+The function, window.dump("message") writes a string into the console
 for the web browser.
 
 The dump() function is a less intrusive way to display diagnostic
@@ -4396,7 +4387,7 @@ element.setAttribute to modify the attributes of an element.
 window.open to return reference to a new window object for the web
 browser.
 
-window.dump(\"message\") to write a string into the console for the web
+window.dump("message") to write a string into the console for the web
 browser.
 
 This is not an exhaustive list -- many more functions exist that enable
@@ -4450,7 +4441,7 @@ to be merged seamlessly, to allow for potential rollbacks, and for
 accountability. This type of distributed version control is extremely
 important when managing large software projects. Git, GitHub, and Git
 Lab are some of the most widely used tools for collaboration, storage,
-and version control. \
+and version control. 
 After completing this module, you will be able to: 
 
 -   Define distributed version control,
@@ -4596,28 +4587,28 @@ There are a few basic <b>Git</b> commands that you will always use. 
 
 When starting out with a new repository, you only need create it once:
 either locally, and then push to GitHub, or by cloning an existing
-repository by using the command <b>\"git init\"</b>.
+repository by using the command <b>"git init"</b>.
 
-<b>\"git add\"</b> moves changes from the working directory to the staging
+<b>"git add"</b> moves changes from the working directory to the staging
 area. 
 
-<b>\"git status\"</b> allows you to see the state of your working directory and
+<b>"git status"</b> allows you to see the state of your working directory and
 the staged snapshot of your changes. 
 
-<b>\"git commit\"</b> takes your staged snapshot of changes and commits them to
+<b>"git commit"</b> takes your staged snapshot of changes and commits them to
 the project. 
 
-<b>\"git reset\"</b> undoes changes that you've made to the files in your
+<b>"git reset"</b> undoes changes that you've made to the files in your
 working directory. 
 
-<b>\"git log\"</b> enables you to browse previous changes to a project. 
+<b>"git log"</b> enables you to browse previous changes to a project. 
 
-<b>\"git branch\"</b> lets you create an isolated environment within your
+<b>"git branch"</b> lets you create an isolated environment within your
 repository to make changes. 
 
-<b>\"git checkout\"</b> lets you see and change existing branches. 
+<b>"git checkout"</b> lets you see and change existing branches. 
 
-<b>\"git merge\"</b> lets you put everything back together again. 
+<b>"git merge"</b> lets you put everything back together again. 
 
 <!------------------------------------------------------------------------------------------------>
 <!------------------------------ 127. https://try.github.io (118) -------------------------------->
@@ -4638,7 +4629,7 @@ started. 
 Go to try.github.io to download the cheat sheets and run through the
 tutorials. 
 
-In the following modules, we\'ll give you a crash course on setting up
+In the following modules, we'll give you a crash course on setting up
 your local environment and getting started on a project. 
 
 <h3>Introduction to GitHub</h3>
@@ -5448,10 +5439,10 @@ Other commands of interest include "git fetch upstream" to grab upstream
 branches and "git merge upstream/master" which merges changes into the
 master branch.
 
-You will also see \"git pull upstream\" used to fetch and merge the
+You will also see "git pull upstream" used to fetch and merge the
 remote branch in the same step.
 
-"Git pull upstream\" reduces the number of steps to sync with a remote
+"Git pull upstream" reduces the number of steps to sync with a remote
 branch, but the automatic merges are not always desired.
 
 In this section, you learned:
@@ -5492,7 +5483,7 @@ as GitHub Desktop.
 
 -   git-clone from the upstream to prime the local repository.
 
--   git-pull and git-fetch from \"origin\" to keep up-to-date with the
+-   git-pull and git-fetch from "origin" to keep up-to-date with the
     upstream
 
 -   git-push to shared repository, if you adopt CVS style shared
@@ -5552,7 +5543,7 @@ maintain access to the repository by developers.
     repository users.
 
 -   git-http-backend provides a server-side implementation of
-    Git-over-HTTP (\"Smart http\") allowing both fetch and push
+    Git-over-HTTP ("Smart http") allowing both fetch and push
     services.
 
 -   gitweb provides a web front-end to Git repositories, which can be
@@ -5625,7 +5616,7 @@ following steps:
 
 1.  Go to the [Git download
     page](https://git-scm.com/downloads?cm_mmc=Email_Newsletter-_-Developer_Ed%2BTech-_-WW_WW-_-SkillsNetwork-Courses-IBMDeveloperSkillsNetwork-CD0101EN-SkillsNetwork-20336975&cm_mmca1=000026UJ&cm_mmca2=10006555&cm_mmca3=M12345678&cvosrc=email.Newsletter.M12345678&cvo_campaign=000026UJ&cm_mmc=Email_Newsletter-_-Developer_Ed%2BTech-_-WW_WW-_-SkillsNetwork-Courses-IBMDeveloperSkillsNetwork-CD0101EN-SkillsNetwork-20336975&cm_mmca1=000026UJ&cm_mmca2=10006555&cm_mmca3=M12345678&cvosrc=email.Newsletter.M12345678&cvo_campaign=000026UJ).
-    Click <b>Download \[version number\] for Windows</b>, as shown in the
+    Click <b>Download [version number] for Windows</b>, as shown in the
     following image:
 
 <!------------------------------------------------------------------------------------------------>
@@ -5648,7 +5639,7 @@ You will be redirected to a new page and the download will start.
    width="65%" />
 &nbsp;
 
-<b>Note</b>: If the download doesn\'t start, click <b>Click here to download
+<b>Note</b>: If the download doesn't start, click <b>Click here to download
 manually</b>.
 
 2.  Go to the folder where you saved the file and double-click to open
@@ -5676,7 +5667,7 @@ manually</b>.
 
 4.  Select the location where you want to install Git Bash. 
 
-<b>Note</b>: It\'s recommended that you simply install to the default
+<b>Note</b>: It's recommended that you simply install to the default
 location. Click <b>Next</b>.
 
 <!------------------------------------------------------------------------------------------------>
@@ -5856,18 +5847,18 @@ To generate an SSH key, complete the following steps:
 
 1.  Launch a terminal. If you are using Windows, launch Git Bash.
 
-2.  Type the following command in your terminal, replacing \\ with the
+2.  Type the following command in your terminal, replacing  with the
     email address that is linked to your Github account. When you have
     typed the command, press Enter.
 
-<b>ssh-keygen -t rsa -b 4096 -C \"\<your email address\>\"</b>
+<b>ssh-keygen -t rsa -b 4096 -C "<your email address>"</b>
 
 A new SSH key is generated.
 
 3.  You will be prompted to enter a directory to save the key. You can
     simply press Enter to accept the default location, which is an .ssh
     folder in the home directory. This means you will be able to locate
-    the key in \~/.ssh/id_rsa.
+    the key in ~/.ssh/id_rsa.
 
 4.  You will be prompted to choose a passphrase. You also have the
     option not to create a passphrase. To skip the passphrase, press
@@ -5877,7 +5868,7 @@ A new SSH key is generated.
     contents of the directory, run the following commands in the
     terminal:
 
-<b>cd \~/.ssh</b>
+<b>cd ~/.ssh</b>
 
 and then,
 
@@ -5892,12 +5883,12 @@ key.
     the authentication process. To start the ssh-agent, run the
     following command in the terminal:
 
-<b>eval \"\$(ssh-agent -s)\"</b>
+<b>eval "$(ssh-agent -s)"</b>
 
 7.  To add the key to the agent, run the following command in the
     terminal:
 
-<b>ssh-add \~/.ssh/id_rsa</b>
+<b>ssh-add ~/.ssh/id_rsa</b>
 
 <h4>© IBM Corporation 2020. All rights reserved.</h4>
 
@@ -5930,9 +5921,9 @@ following steps:
 
 1.  In the terminal, run the following command:
 
-<b>cat \~/.ssh/id_rsa.pub \| clip</b>
+<b>cat ~/.ssh/id_rsa.pub | clip</b>
 
-<b>Note</b>: If clip doesn\'t work, run cat \~/.ssh/id_rsa.pub in the
+<b>Note</b>: If clip doesn't work, run cat ~/.ssh/id_rsa.pub in the
 command line and the copy the output.
 
 2.  Sign in to GitHub. At the top right, click the drop-down menu on
@@ -5948,7 +5939,7 @@ command line and the copy the output.
 &nbsp;
 </p>
 
-3.  From the \"Personal settings\" menu, select <b>SSH and GPG keys</b>, as
+3.  From the "Personal settings" menu, select <b>SSH and GPG keys</b>, as
     shown in the following image:
 
 <!------------------------------------------------------------------------------------------------>
@@ -6047,9 +6038,9 @@ To clone a repo, you need the ssh url of the repo.
 
 2.  Navigate to the repo you wish to clone.
 
-3.  Click on the \'Code\' button.
+3.  Click on the 'Code' button.
 
-4.  Click on the \'clipboard icon\' to copy the url. Paste this url
+4.  Click on the 'clipboard icon' to copy the url. Paste this url
     where you can access it later.
 
 <!------------------------------------------------------------------------------------------------>
@@ -6067,7 +6058,7 @@ To clone a repo, you need the ssh url of the repo.
 
 6.  Navigate to a directory where you wish to clone the repo.
 
-7.  Run the command \"git clone \"
+7.  Run the command "git clone "
 
 <!------------------------------------------------------------------------------------------------>
 <!------------------------------------ 182. git clone (159) -------------------------------------->
@@ -6126,19 +6117,19 @@ Using your favorite editor make the changes to the html file.
 
 Let us add a new file to the local repo.
 
-Using a text editor, create a new file \"browser-support.txt\".
+Using a text editor, create a new file "browser-support.txt".
 
-Add \"Chrome, Firefox, Edge\" into the file.
+Add "Chrome, Firefox, Edge" into the file.
 
 Save the file.
 
 <h3>Exercise 4: Check the status</h3>
 
-Run \"git status\" to see info on the modified files.
+Run "git status" to see info on the modified files.
 
 Let us add the file for committing.
 
-Run \"git add browser-support.txt\"
+Run "git add browser-support.txt"
 
 <h3>Exercise 5: Commit the changes</h3>
 
@@ -6147,7 +6138,7 @@ git commit will record all the changes into the local staging area.
 To commit the changes, you have made, run git commit with a message like
 this.
 
-git commit -m \'added a new file browser-support.txt\'
+git commit -m 'added a new file browser-support.txt'
 
 Now all the changes you have made thus far, get committed locally.
 
@@ -6159,7 +6150,7 @@ push the changes to the GitHub.
 <b>git push</b> will sync all the changes made till now to your online
 GitHub repository.
 
-Run the command \"git push\".
+Run the command "git push".
 
 <!------------------------------------------------------------------------------------------------>
 <!------------------------------------- 186. git push (162) -------------------------------------->
@@ -6207,7 +6198,7 @@ In this module, you learned that:
 </ul>
 &nbsp;<br/><br/></li>
 </ul>
-<p><b><i>Last edited 04/29/2022 10:55am +</i></b></p>
+<p><b><i>Last edited 09/25/2022 4:47pm +</i></b></p>
 
 ...the end.
 
