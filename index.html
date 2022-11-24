@@ -42,7 +42,7 @@ document.getElementById("demo").innerHTML = text;
 <!----------------------------------------- 01. ibm logo ----------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <div align="center" class="sample">
-<img src="/images/image001.png?raw=true" alt="IBM logo." style="width:70px;height:50px;margin-left:16px;">
+<img src="/images/image001.png?raw=true" alt="IBM logo." style="width:96px;height:61px;margin-left:16px;">
 </div>
 
 <!--
@@ -58,7 +58,7 @@ document.getElementById("demo").innerHTML = text;
 <!---------------------------------------- 02. cloud logo ---------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <div align="center" class="sample">
-<img src="/images/image002.png?raw=true" alt="IBM cloud logo." style="width:400px;height:220px;margin-left:16px;">
+<img src="/images/image002.png?raw=true" alt="IBM cloud logo." style="width:576px;height:269px;margin-left:16px;">
 </div>
 
 <!--
@@ -6107,41 +6107,32 @@ Congratulations! You have now learned how to add an SSH key to GitHub.
 <div align="center" class="sample">
 <img src="images/image159.png" 
   alt="IBM Developer Logo."
-  style="width:50px;height:50px;margin-left:16px;">
+  style="width:192px;height:192px;margin-left:16px;">
 </div>
 
 <h3>Objectives</h3>
-
-After completing this lab you will be able to:
-
--   Clone your GitHub repository locally.
-
--   Make changes to the cloned files.
-
--   Add a new file.
-
--   Check the status.
-
--   Commit changes.
-
--   Push the changes back to GitHub.
+<p>
+After completing this lab you will be able to:</p>
+<ul>
+<li>Clone your GitHub repository locally,<br></li>
+<li>Make changes to the cloned files,<br></li>
+<li>Add a new file,<br></li>
+<li>Check the status,<br></li>
+<li>Commit changes,<br></li>
+<li>Push the changes back to GitHub.</li>
+</ul>
 
 <h3>Pre-requisites</h3>
 
--   GitHub account, with a project in it, as illustrated in [this
-    lab](https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBMDeveloperSkillsNetwork-CD0101EN-SkillsNetwork/labs/GitHubLabs/GitHub1_Getting_Started.md.html).
-
--   GitBash or git installed on your local desktop, as in [this
-    lab](https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBMDeveloperSkillsNetwork-CD0101EN-SkillsNetwork/labs/GitHubLabs/GitBash_Install.md.html).
-
--   Create ssh keys, as in [this
-    lab](https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBMDeveloperSkillsNetwork-CD0101EN-SkillsNetwork/labs/GitHubLabs/SSH_Key.md.html)
-
--   Add SSH Key to GitHub, as in [this
-    lab](https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBMDeveloperSkillsNetwork-CD0101EN-SkillsNetwork/labs/GitHubLabs/GitHub_AddSSHtoRepo.md.html)
+<ul>
+<li>GitHub account, with a project in it, as illustrated in <a href="https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBMDeveloperSkillsNetwork-CD0101EN-SkillsNetwork/labs/GitHubLabs/GitHub1_Getting_Started.md.html" target="_blank" rel="noopener noreferrer">this lab</a>.<br></li>
+<li>GitBash or git installed on your local desktop, as in <a href="https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBMDeveloperSkillsNetwork-CD0101EN-SkillsNetwork/labs/GitHubLabs/GitBash_Install.md.html" target="_blank" rel="noopener noreferrer">this lab</a>.<br></li>
+<li>Create ssh keys, as in <a  href="https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBMDeveloperSkillsNetwork-CD0101EN-SkillsNetwork/labs/GitHubLabs/SSH_Key.md.html">this lab</a>.<br></li>
+<li>Add SSH Key to GitHub, as in <a href="https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBMDeveloperSkillsNetwork-CD0101EN-SkillsNetwork/labs/GitHubLabs/GitHub_AddSSHtoRepo.md.html">this lab</a>.</li>
+</ul>
 
 <h3>Exercise 1: Clone a repo</h3>
-
+<p>
 To clone a repo, you need the ssh url of the repo.
 
 1.  To get the ssh url, login into GitHub.
@@ -6152,6 +6143,7 @@ To clone a repo, you need the ssh url of the repo.
 
 4.  Click on the 'clipboard icon' to copy the url. Paste this url
     where you can access it later.
+</p>
 
 <!------------------------------------------------------------------------------------------------>
 <!---------------------------------- 181. copy/paste url (159) ----------------------------------->
@@ -6161,14 +6153,14 @@ To clone a repo, you need the ssh url of the repo.
   alt="Copy/Paste URL."
   style="width:450px;height:350px;margin-left:16px;">
 </div>
-
-
+<p>
 5.  On your desktop open a terminal.(gitbash if you are using windows
     os)
 
 6.  Navigate to a directory where you wish to clone the repo.
 
 7.  Run the command "git clone "
+</p>
 
 <!------------------------------------------------------------------------------------------------>
 <!------------------------------------ 182. git clone (159) -------------------------------------->
@@ -6176,24 +6168,17 @@ To clone a repo, you need the ssh url of the repo.
 <div align="center" class="sample">
 <img src="/images/image182.png?raw=true" alt="Clone .git file." style="width:450px;height:350px;margin-left:16px;">
 </div>
-
-<!--
-<p align="center">
-<img src="images/image182.png" 
-   alt="Clone .git File"
-   width="65%" />
-&nbsp;
--->
-
-8.  This will clone the repo on GitHub into your current directory.
+<p>
+8.  This will clone the repo on GitHub into your current directory.<br>
 <br>
 9.  You can see all the downloaded files under a directory named as your
-    repo name.
+    repo name.<br>
+</p>
 <!------------------------------------------------------------------------------------------------>
-<!---------------------------------- 183. list directory (160) ----------------------------------->
+<!---------------------------------- 183. list directory (159) ----------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <div align="center" class="sample">
-<img src="/images/image183.png?raw=true" alt="List directory." style="width:450px;height:350px;margin-left:16px;">
+<img src="/images/image183.png?raw=true" alt="List directory." style="width:576px;height:165px;margin-left:16px;">
 </div>
 
 <!--
@@ -6205,17 +6190,17 @@ To clone a repo, you need the ssh url of the repo.
 -->
 
 change to the simple_interest_calulator directory and list the files to
-verify all the files got downloaded
+verify all the files got downloaded.
 
 <h3>Exercise 2: Make changes to cloned files</h3>
-
-Using your favorite editor make the changes to the html file.
+<p>
+Using your favorite editor make the changes to the html file.</p>
 
 <!------------------------------------------------------------------------------------------------>
 <!---------------------------------- 184. edit the html (160) ------------------------------------>
 <!------------------------------------------------------------------------------------------------>
 <div align="center" class="sample">
-<img src="/images/image184.png?raw=true" alt="Edit the HTML." style="width:450px;height:350px;margin-left:16px;">
+<img src="/images/image184.png?raw=true" alt="Edit the HTML." style="width:576px;height:278px;margin-left:16px;">
 </div>
 
 <!--
@@ -6232,7 +6217,7 @@ Using your favorite editor make the changes to the html file.
 <!-------------------------------------- 185. git status ----------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <div align="center" class="sample">
-<img src="/images/image185.png?raw=true" alt="Git status." style="width:450px;height:350px;margin-left:16px;">
+<img src="/images/image185.png?raw=true" alt="Git status." style="width:576px;height:211px;margin-left:16px;">
 </div>
 
 <h3>Exercise 3: Add a new file to the local repo</h3>
@@ -6284,7 +6269,7 @@ Run the command "git push".
 <!------------------------------------- 186. git push (162) -------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <div align="center" class="sample">
-<img src="/images/image186.png?raw=true" alt="Git push." style="width:400px;height:220px;margin-left:16px;">
+<img src="/images/image186.png?raw=true" alt="Git push." style="width:576px;height:211px;margin-left:16px;">
 </div>
 
 <p>
@@ -6324,7 +6309,7 @@ In this module, you learned that:</p>
 </ul>
 &nbsp;<br><br></li>
 </ul>
-<p><b><i>Last edited 11/24/2022 12:20am +</i></b>
+<p><b><i>Last edited 11/24/2022 12:15pm +</i></b>
 
 ...the end.
 
