@@ -8,26 +8,34 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
 background: linear-gradient(60deg, #3d3393 0%, #2b76b9 37%, #2cacd1 65%, #35eb93 100%);
-body {
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 20px;
-}
 
-.sample {
-color: green;
-border: 3px blue;
-margin-left: auto;
-margin-right: auto;
+div.sample {
+  color: green;
+  border: 3px blue;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
 }
 h1  {
-color: initial;
+  color: initial;
+  text-align: center;
+  font-size: 20px;
 }
-
+h2 {
+  font-family: Bahnschrift, Arial, Helvetic, sans-serif;
+  font-size: 18px;
+  text-align: center;
+}
+body {
+  font-family: Bahnschrift, Arial, Helvetic, sans-serif;
+  font-size: 14px;
+}
+  
 </style>
 
 <head>
 
-<h2 align="center">CAD101en - IBM Skills Network</h2>
+<h2>CAD101en - IBM Skills Network</h2>
 
 <script>
 let text = "Total width/height: " + screen.width + "*" + screen.height + "<br>" +
@@ -41,33 +49,22 @@ document.getElementById("demo").innerHTML = text;
 <!------------------------------------------------------------------------------------------------>
 <!----------------------------------------- 01. ibm logo ----------------------------------------->
 <!------------------------------------------------------------------------------------------------>
-<div align="center" class="sample">
-<img src="/images/image001.png?raw=true" alt="IBM logo." style="width:70px;height:50px;margin-left:16px;">
+<div class="sample">
+<img src="/images/image001.png?raw=true" 
+  alt="IBM logo." 
+  style="width:30%;margin-left:16px;margin-right:16px;">
 </div>
 
-<!--
-<p align="center" width="100%">
-<img src="/images/image001.png?raw=true"
-   alt="IBM logo"
-   width="40%" />
-&nbsp;
--->
 <!------------------------------------------------------------------------------------------------>
-<h2 align="center">Introduction to Cloud Development with HTML5, CSS3, &amp; JavaScript (w/Github)</h2>
+<h2>Introduction to Cloud Development with HTML5, CSS3, &amp; JavaScript (w/Github)</h2>
 <!------------------------------------------------------------------------------------------------>
 <!---------------------------------------- 02. cloud logo ---------------------------------------->
 <!------------------------------------------------------------------------------------------------>
-<div align="center" class="sample">
-<img src="/images/image002.png?raw=true" alt="IBM cloud logo." style="width:400px;height:220px;margin-left:16px;">
-</div>
-
-<!--
-<p align="center" width="100%">
+<div class="sample">
 <img src="/images/image002.png?raw=true"
-   alt="Cloud logo"
-   width="40%" />
-&nbsp;
--->
+  alt="IBM cloud logo."
+  style="width:60%;margin-left:16px;margin-right:16px;">
+</div>
 
 </p>
 
@@ -1691,7 +1688,7 @@ more.
   style="width:85%;margin-left:16px;margin-right:16px;">
 </div>
 
-Here are the results of displaying the < input type= 'date' >element
+Here are the results of displaying the &lt; input type= 'date' &gt; element
 in different browsers.
 
 The Google Chrome browser displays a calendar to enter the data.
@@ -2226,7 +2223,7 @@ logical grouping of the content.
 </div>
 
 You can use these dedicated elements to mark up your website, rather
-than using the generic &lt;div&gt; or <span> elements.
+than using the generic &lt;div&gt; or &lt;span&gt; elements.
 
 An &lt;article&gt; defines a block of code that can be distinguished from
 the rest of the page.
@@ -2314,7 +2311,7 @@ Websites typically have sections that are dedicated to navigational
 links that go to these sites or for moving between pages of a single
 application.
 
-In HTML5 syntax, these navigational links are placed inside a <> tag.
+In HTML5 syntax, these navigational links are placed inside a &lt; &gt; tag.
 
 The &lt;&gt; tag is a convenience tag for grouping navigational links in a
 web page.
@@ -2367,7 +2364,7 @@ In non-supporting browsers, this input type is displayed as a regular
 text input field into which the user might type a valid color name or
 color code.
 
-The < input type="date" > attribute is a date control (year, month,
+The &lt; input type="date" &gt; attribute is a date control (year, month,
 day) with no time zone.
 <!------------------------------------------------------------------------------------------------>
 <!----------------------------------- 47. input for date (59) ------------------------------------>
@@ -2490,9 +2487,9 @@ validate the telephone number.
 
 The URL attribute is used to validate that the user typed in a properly formatted URL or web address.
 
-The < input list="some_list" > provides a list of auto-complete suggestions for the input field.
+The &lt; input list="some_list" &gt; provides a list of auto-complete suggestions for the input field.
 
-Not to be confused with the < select > element. Useful for auto-complete functionality.
+Not to be confused with the &lt; select &gt; element. Useful for auto-complete functionality.
 
 You can fill the list by nesting
 
@@ -3229,7 +3226,7 @@ newly created Car object.
 <!------------------------------------------------------------------------------------------------>
 <div class="sample">
 <img src="images/image075.png"
-  alt="Creating Custom Objects"
+  alt="Creating custom objects."
   style="width:65%;margin-left:16px;margin-right:16px;">
 </div>
 
@@ -3484,14 +3481,14 @@ value.
   style="width:65%;margin-left:16px;margin-right:16px;">
 </div>
 
-Here is another example that uses a prototype to change Car instances.
-
+Here is another example that uses a prototype to change Car instances.<br>
+<br>
 This time, you add a method function called getName to the Car
-prototype.
-
+prototype.<br>
+<br>
 Now when a Car object is instantiated, it also includes the getName
-function that returns the make, model, and year.
-
+function that returns the make, model, and year.<br>
+<br>
 All existing instances of the Car object also inherit the getName
 method.
 
@@ -3505,21 +3502,21 @@ method.
 </div>
 
 Functions are usually declared first, and not run until you specifically
-ask them to, as you saw in some of the previous examples.
-
+ask them to, as you saw in some of the previous examples.<br>
+<br>
 Auto-invocation or self-executing functions start running immediately
-after being declared.
-
+after being declared.<br>
+<br>
 The functions and variables inside self-executing functions are only
-available to the code inside the self-executing function.
-
+available to the code inside the self-executing function.<br>
+<br>
 Auto-invocation functions can also be unnamed or anonymous functions,
-and have the format that is shown in the code block on the slide.
-
+and have the format that is shown in the code block on the slide.<br>
+<br>
 Self-executing functions are often used to initialize data or to declare
-DOM elements on the page.
-
-In this section , you learned:
+DOM elements on the page.<br>
+<br>
+In this section , you learned:<br>
 
 -   A function is a block of code which can be called from any point in
     a script after being declared.
@@ -3545,9 +3542,9 @@ In this section , you learned:
 <!------------------------------- 4.3 client-side js: with html ---------------------------------->
 <h3 id="ch4-3">4.3 Client-Side JavaScript: with HTML</h3>
 
-Hello. Welcome to Client-side JavaScript.
-
-After reading this section, you will be able to:
+Hello. Welcome to Client-side JavaScript.<br>
+<br>
+After reading this section, you will be able to:<br>
 
 -   Define a client-side script,
 
@@ -3555,8 +3552,8 @@ After reading this section, you will be able to:
 
 -   Explain how to use the
 
--   Describe Event Binding in scripts.
-
+-   Describe Event Binding in scripts.<br>
+<br>
 A client-side script is a program that accompanies an HTML document or
 might be embedded directly in the HTML document itself.
 
@@ -3571,22 +3568,22 @@ might be embedded directly in the HTML document itself.
 
 The script program runs on the client device when the document loads, or
 at some other time such as when a link is activated or when a button is
-clicked.
-
+clicked.<br>
+<br>
 Although JavaScript is widely used as a scripting language in HTML,
-other scripting languages can be used instead.
-
+other scripting languages can be used instead.<br>
+<br>
 Scripts offer authors a means to modify and extend HTML documents in
-highly interactive ways.
-
-Scripts can run after an HTML document is loaded.
-
+highly interactive ways.<br>
+<br>
+Scripts can run after an HTML document is loaded.<br>
+<br>
 Scripts can be used to validate forms or to process input as it is
-typed.
-
+typed.<br>
+<br>
 Scripts can be triggered by events that occur on a web page, such as the
-clicking of a button.
-
+clicking of a button.<br>
+<br>
 Scripts can be used to dynamically create document elements on an HTML
 page.
 
@@ -3599,11 +3596,11 @@ page.
   style="width:65%;margin-left:16px;margin-right:16px;">
 </div>
 
-This slide shows two ways in which the document.
-
+This slide shows two ways in which the document.<br>
+<br>
 Example 1 demonstrates how you can include a script directly inside the
-HTML document.
-
+HTML document.<br>
+<br>
 This method is good for short scripts, but when a script is long, the
 method used in example 2 is preferred.
 
@@ -3617,11 +3614,11 @@ method used in example 2 is preferred.
 </div>
 
 Example 2 uses the src attribute to point to an external script file.
-
+<br>
 This method has several use cases, such as importing JavaScript
 libraries for complex interactions or using the same script across
-several HTML documents.
-
+several HTML documents.<br>
+<br>
 Some users who visit your website might disable JavaScript from running,
 or they might be using a browser that does not support scripting.
 
@@ -3635,11 +3632,11 @@ or they might be using a browser that does not support scripting.
 </div>
 
 To allow for these situations, place the content for the alternative
-path within the tag.
-
+path within the tag.<br>
+<br>
 If the browser does not support scripting, the browser runs the section
-of code that is within the noscript tag.
-
+of code that is within the noscript tag.<br>
+<br>
 Scripts can be run on the detection of certain events that happen when
 the page is running in a browser session.
 
@@ -3653,13 +3650,13 @@ the page is running in a browser session.
 </div>
 
 For example, the onload event can run a script when the browser finishes
-loading a page.
-
-Or a function can be performed when the onclick event occurs.
-
+loading a page.<br>
+<br>
+Or a function can be performed when the onclick event occurs.<br>
+<br>
 This event occurs when the pointing device is clicked over an element,
-such as a button, that declares a handler for the event.
-
+such as a button, that declares a handler for the event.<br>
+<br>
 The event handler is a function that declares what to do when the button
 is clicked.
 
@@ -3673,13 +3670,13 @@ is clicked.
 </div>
 
 Here the inline event handler named showAnswers runs when the button is
-clicked.
-
-In this section, you learned:
+clicked.<br>
+<br>
+In this section, you learned:<br>
 
 -   A client-side script is a program that accompanies an HTML document.
 
-It may even be embedded into the HTML itself.
+It may even be embedded into the HTML itself.<br>
 
 -   Scripts offer developers ways to extend HTML documents to enhance
     the user experience, especially by incorporating more interactive
@@ -3699,9 +3696,9 @@ loading a page.
 <!-------------------------------- 4.4 client-side js: with dom ---------------------------------->
 <h3 id="ch4-4">4.4 Client-Side JavaScript: with DOM</h3>
 
-Hello. Welcome to Client-side JavaScript.
-
-After reading this section, you will be able to:
+Hello. Welcome to Client-side JavaScript.<br>
+<br>
+After reading this section, you will be able to:<br>
 
 -   Describe the document object model (DOM) hierarchy.
 
@@ -3720,12 +3717,12 @@ After reading this section, you will be able to:
 </div>
 
 The document object model is the programming interface between HTML or
-XHTML and JavaScript.
-
+XHTML and JavaScript.<br>
+<br>
 The Document Object Model (DOM) is a browser-based interface for
 applications and scripts to dynamically access and update the content,
-structure, and style of documents.
-
+structure, and style of documents.<br>
+<br>
 JavaScript uses the DOM to access and modify web page elements in the
 web browser.
 
@@ -3739,8 +3736,8 @@ web browser.
 </div>
 
 The World Wide Web Consortium released four levels of the Document
-Object Model specifications.
-
+Object Model specifications.<br>
+<br>
 Each successive level provides a more detailed set of features for
 describing structured documents.
 
@@ -3754,13 +3751,11 @@ describing structured documents.
 </div>
 
 The different browsers have various levels of compatibility with the DOM
-standard.
-
+standard.<br>
+<br>
 The discussion of the DOM in this unit focuses on the DOM Level 1 Core
-and DOM Level 1 HTML
-
-APIs to access HTML elements with the DOM.
-
+and DOM Level 1 HTML APIs to access HTML elements with the DOM.<br>
+<br>
 The JavaScript engine in most web browsers fully supports DOM level 1.
 
 <!------------------------------------------------------------------------------------------------>
@@ -3772,43 +3767,43 @@ The JavaScript engine in most web browsers fully supports DOM level 1.
   style="width:65%;margin-left:16px;margin-right:16px;">
 </div>
 
-Here is a representation of the basic DOM model for browsers:
-
+Here is a representation of the basic DOM model for browsers:<br>
+<br>
 The window object is at the top of the DOM hierarchy and controls the
-environment that contains the document.
-
+environment that contains the document.<br>
+<br>
 The history object keeps internal details about the recent history of
-pages in the browser.
-
+pages in the browser.<br>
+<br>
 The history object has methods for letting you simulate clicking the
-back or forward buttons in a browser.
-
-The location object contains information about the URL of a page.
-
+back or forward buttons in a browser.<br>
+<br>
+The location object contains information about the URL of a page.<br>
+<br>
 The navigator is an object representation of the client Internet browser
-(user agent).
-
+(user agent).<br>
+<br>
 There is no standard that applies to the navigator object, so the
 property values returned when running queries on the navigator object
-are not consistent across browsers.
-
+are not consistent across browsers.<br>
+<br>
 The screen object is used to derive information about a user's screen,
-such as the dimensions of the display screen.
-
+such as the dimensions of the display screen.<br>
+<br>
 The screen object is useful for determining the screen size of browser
-windows that run on mobile devices.
-
-The document object provides access to all HTML elements within a page.
-
+windows that run on mobile devices.<br>
+<br>
+The document object provides access to all HTML elements within a page.<br>
+<br>
 Each HTML document that gets loaded into a window becomes a document
-object.
-
+object.<br>
+<br>
 The window object is the outermost global container of all the objects
-in the DOM hierarchy.
-
+in the DOM hierarchy.<br>
+<br>
 When the browser loads a page, a window object is automatically created
-for you.
-
+for you.<br>
+<br>
 You can then access the window object properties and functions from your
 JavaScript code.
 
@@ -3822,19 +3817,19 @@ JavaScript code.
 </div>
 
 In client-side JavaScript, the Window object serves as the global object
-and everything in the DOM takes place in a window.
-
-A number of predefined methods exist for the window object.
-
+and everything in the DOM takes place in a window.<br>
+<br>
+A number of predefined methods exist for the window object.<br>
+<br>
 The window.alert, window.confirm, and window.prompt dialogs that are
-used in web pages, come from the global window object.
-
+used in web pages, come from the global window object.<br>
+<br>
 You can leave out the window prefix for methods in the DOM API. So the
 window.alert method can be coded more simply as alert with a message
-argument.
-
-This figure shows the object model for a simple HTML document.
-
+argument.<br>
+<br>
+This figure shows the object model for a simple HTML document.<br>
+<br>
 Notice how the object hierarchy matches the HTML containment hierarchy
 on the left.
 
@@ -3859,13 +3854,13 @@ corresponds to the structure of the HTML document.
   style="width:65%;margin-left:16px;margin-right:16px;">
 </div>
 
-The branches of the tree structure are termed nodes.
-
+The branches of the tree structure are termed nodes.<br>
+<br>
 There are two types of nodes in the W3C DOM, element nodes and text
-nodes.
-
-All HTML tags (html, head, meta, title, and body) are element nodes.
-
+nodes.<br>
+<br>
+All HTML tags (html, head, meta, title, and body) are element nodes.<br>
+<br>
 The nodes that contain actual text that go between an element start tag
 and end tag, are text nodes.
 
@@ -3879,8 +3874,8 @@ and end tag, are text nodes.
 </div>
 
 The figure shows the DOM level 2 tree for the FORM portion of the
-document.
-
+document.<br>
+<br>
 The line feeds between elements are text nodes and are part of the DOM
 level 2 tree.
 
@@ -3894,20 +3889,21 @@ level 2 tree.
 </div>
 
 The DOM level 2 tree includes a line feed text node before the paragraph
-and input elements.
-
+and input elements.<br>
+<br>
 The input element includes a text node that contains all the text that
-follows the input tag.
-
-An additional line feed text node follows the input element.
-
+follows the input tag.<br>
+<br>
+An additional line feed text node follows the input element.<br>
+<br>
 The DOM level 0 for the form portion of the document would have only the
-form, p, and input boxes.
-
+form, p, and input boxes.<br>
+<br>
 The DOM level 2 adds the carriage returns, tabs, and spaces, sometimes
-referred to as "white space".
-
-In this section, you learned:
+referred to as "white space".<br>
+<br>
+In this section, you learned:<br>
+<br>
 
 -   The document object model (DOM) is the programming interface between
     HTML or XHTML and JavaScript.
@@ -3950,18 +3946,18 @@ After reading this section, you will be able to:
 </div>
 
 The W3C DOM level 2 defines 12 different types of nodes, seven of which
-have direct applicability in HTML documents.
-
-Node types that are not applicable to HTML are omitted from the table.
-
+have direct applicability in HTML documents.<br>
+<br>
+Node types that are not applicable to HTML are omitted from the table.<br>
+<br>
 This table is of interest so that when you view a DOM tree, you
-understand the meaning of the numeric node types.
-
+understand the meaning of the numeric node types.<br>
+<br>
 Each node type is a named constant that is also represented by an
-integer value.
-
-For example:
-
+integer value.<br>
+<br>
+For example:<br>
+<br>
 An ELEMENT_NODE type is represented by the integer 1.
 
 <!------------------------------------------------------------------------------------------------>
@@ -3973,23 +3969,23 @@ An ELEMENT_NODE type is represented by the integer 1.
   style="width:65%;margin-left:16px;margin-right:16px;">
 </div>
 
-An ATTRIBUTE_NODE type is represented by the integer 2.
-
-A TEXT_NODE type is represented by the integer 3.
-
-A COMMENT_NODE is represented by the integer 8.
-
+An ATTRIBUTE_NODE type is represented by the integer 2.<br>
+<br>
+A TEXT_NODE type is represented by the integer 3.<br>
+<br>
+A COMMENT_NODE is represented by the integer 8.<br>
+<br>
 In the DOM tree, the node name for ELEMENT_NODE type is the name of the
-element or tag.
-
-For example, if you are looking at a DIV element, the node name is DIV.
-
+element or tag.<br>
+<br>
+For example, if you are looking at a DIV element, the node name is DIV.<br>
+<br>
 If the DIV element has an attribute like id=div123, then the attribute
 name is "id" and the attribute value is "div123", which is the
-name-value pair.
-
-Another example:
-
+name-value pair.<br>
+<br>
+Another example:<br>
+<br>
 If a paragraph element is followed by some text, the text string has a
 node name of hash-sign-text, and the node value is the text string
 itself.
@@ -4004,8 +4000,8 @@ itself.
 </div>
 
 The table lists some of the DOM Level 2 node object properties and
-corresponding data types.
-
+corresponding data types.<br>
+<br>
 You see these properties when you view a DOM tree for an HTML page in a
 browser's developer tools, like Chrome's DevTools.
 
@@ -4014,20 +4010,20 @@ browser's developer tools, like Chrome's DevTools.
 <!------------------------------------------------------------------------------------------------>
 <div class="sample">
 <img src="/images/image102.png?raw=true"
-  alt="Accessing Document Elements #1."
+  alt="Accessing document elements, #1."
   style="width:65%;margin-left:16px;margin-right:16px;">
 </div>
 
-How do you access the elements on an HTML page with the DOM API?
-
+How do you access the elements on an HTML page with the DOM API?<br>
+<br>
 When the document is loaded, the browser creates arrays for forms,
-images, anchors, links, applets, and embeds.
-
-It then places all the objects of each type into these arrays.
-
+images, anchors, links, applets, and embeds.<br>
+<br>
+It then places all the objects of each type into these arrays.<br>
+<br>
 The arrays are indexed as they occur in the source document. The first
-index of each array starts at zero.
-
+index of each array starts at zero.<br>
+<br>
 Each of the array types, such as forms[], contains an array of
 elements[] with each index element being the fields or buttons that
 occur in that form.
@@ -4037,7 +4033,7 @@ occur in that form.
 <!------------------------------------------------------------------------------------------------>
 <div class="sample">
 <img src="/images/image103.png?raw=true"
-  alt="Accessing Document Elements #2."
+  alt="Accessing document elements, #2."
   style="width:65%;margin-left:16px;margin-right:16px;">
 </div>
 
@@ -4049,7 +4045,7 @@ position as document.forms[0].elements[0].
 <!------------------------------------------------------------------------------------------------>
 <div class="sample">
 <img src="/images/image104.png?raw=true"
-  alt="Accessing Document Elements #3."
+  alt="Accessing document elements, #3."
   style="width:65%;margin-left:16px;margin-right:16px;">
 </div>
 
@@ -4062,19 +4058,19 @@ shortened document.form1.field1.
 <!------------------------------------------------------------------------------------------------>
 <div class="sample">
 <img src="/images/image105.png?raw=true"
-  alt="Accessing Document Elements"
+  alt="Accessing document elements, #4."
   style="width:65%;margin-left:16px;margin-right:16px;">
 </div>
 
 Since only one document can be contained in a window, shown by the
 dashed line in the figure, you can leave out the window prefix. However,
-you cannot omit the document prefix from the referenced object.
-
-The id attribute identifies an element in a document.
-
+you cannot omit the document prefix from the referenced object.<br>
+<br>
+The id attribute identifies an element in a document.<br>
+<br>
 The id attribute of an element is used by scripts to refer to the
-element with a name that matches the value of the id attribute.
-
+element with a name that matches the value of the id attribute.<br>
+<br>
 In order to assign a scriptable reference name to an HTML element with
 the id attribute, use the following conventions:
 
@@ -4087,20 +4083,20 @@ the id attribute, use the following conventions:
   style="width:65%;margin-left:16px;margin-right:16px;">
 </div>
 
-The id must be a unique name in the document.
-
-The name must be in quotation marks when assigned to the id attribute.
-
-The name must not start with a numeric digit.
-
+The id must be a unique name in the document.<br>
+<br>
+The name must be in quotation marks when assigned to the id attribute.<br>
+<br>
+The name must not start with a numeric digit.<br>
+<br>
 The function that is used to return a node object that matches the id
 value is document.getElementById with the name of the id as a parameter
-argument.
-
+argument.<br>
+<br>
 It is suggested that the same value is used for both the id and the name
-attribute (seen earlier) when both are used.
-
-In this section, you learned:
+attribute (seen earlier) when both are used.<br>
+<br>
+In this section, you learned:<br>
 
 -   How to work with DOM objects in JavaScript, including:
 
@@ -4111,9 +4107,9 @@ In this section, you learned:
 <!---------------------------------------- 4.6 js: apis ------------------------------------------>
 <h3 id="ch4-6">4.6 JavaScript APIs</h3>
 
-Hello. Welcome to JavaScript APIs.
-
-After reading this section, you will be able to:
+Hello. Welcome to JavaScript APIs.<br>
+<br>
+After reading this section, you will be able to:<br>
 
 -   Explain how to work with nodes,
 
@@ -4141,8 +4137,8 @@ properties that are commonly used when working with HTML pages.
 </div>
 
 Some of these common APIs used in when accessing HTML DOM elements in
-web pages are seen on the slide.
-
+web pages are seen on the slide.<br>
+<br>
 DOM elements are reviewed next.
 
 <!------------------------------------------------------------------------------------------------>
@@ -4156,22 +4152,22 @@ DOM elements are reviewed next.
 
 To retrieve a node reference for an element of a document given an id,
 use the document.getElementById function and pass the id value as an
-argument.
-
+argument.<br>
+<br>
 This returns one specific HTML or XML element if a matching unique id is
-found on the web page.
-
+found on the web page.<br>
+<br>
 The getElementsByTagName function retrieves a NodeList of elements with
-a specified tag name.
-
-The NodeList contains an array of elements in your document.
-
+a specified tag name.<br>
+<br>
+The NodeList contains an array of elements in your document.<br>
+<br>
 You provide the name of the element you are interested in and an array
-of all elements with that name found in the document is returned.
-
+of all elements with that name found in the document is returned.<br>
+<br>
 For HTML elements, the tagName parameter is the literal name of the HTML
-tag.
-
+tag.<br>
+<br>
 If you run the function getElementsByTagName with a "p" as a parameter
 argument, a NodeList of all the paragraphs in the document is returned.
 
@@ -4180,28 +4176,28 @@ argument, a NodeList of all the paragraphs in the document is returned.
 <!------------------------------------------------------------------------------------------------>
 <div class="sample">
 <img src="/images/image109.png?raw=true"
-  alt="Example: Retrieving All Images."
+  alt="Example: retrieving all images."
   style="width:65%;margin-left:16px;margin-right:16px;">
 </div>
 
 This example shows how you can retrieve all the image elements from a
 web page by using the getElementsByTagName function and passing "img" as
-the parameter argument.
-
-The result is a NodeList that is assigned to the variable imgSet.
-
+the parameter argument.<br>
+<br>
+The result is a NodeList that is assigned to the variable imgSet.<br>
+<br>
 In the next part of the code, you loop through the nodeList and
-concatenate the results into a DOM output stream.
-
+concatenate the results into a DOM output stream.<br>
+<br>
 The src attribute is a common property for the img tag. The src
-attribute indicates the location of the image source.
-
+attribute indicates the location of the image source.<br>
+<br>
 The document.write() function adds the script-generated HTML to the
-document.
-
+document.<br>
+<br>
 You can use the DOM API function document.createElement(TagName) to
-create an element in the current document.
-
+create an element in the current document.<br>
+<br>
 After creating the element, you can use any of a number of functions to
 place the element in the appropriate location within the document.
 
@@ -4223,17 +4219,17 @@ into the document.
 <!------------------------------------------------------------------------------------------------>
 <div class="sample">
 <img src="/images/image111.png?raw=true"
-  alt="Example: Adding a Node."
+  alt="Example: adding a node."
   style="width:65%;margin-left:16px;margin-right:16px;">
 </div>
 
-This example shows the source code for adding a node to a document.
-
+This example shows the source code for adding a node to a document.<br>
+<br>
 A new paragraph element is being created that includes a text node with
-the string "Hello world!"
-
-The text node is then appended as a child of the paragraph element.
-
+the string "Hello world!"<br>
+<br>
+The text node is then appended as a child of the paragraph element.<br>
+<br>
 Finally, the entire paragraph with text is appended as a child node at
 the end of the body node of the HTML page.
 
@@ -4247,26 +4243,26 @@ the end of the body node of the HTML page.
 </div>
 
 The function element.innerHTML retrieves or sets the contents of an HTML
-element.
-
-The innerHTML property returns all child elements as a text string.
-
+element.<br>
+<br>
+The innerHTML property returns all child elements as a text string.<br>
+<br>
 With the element.innerHTML function, you can change the contents of an
-HTML element, by setting it to a text string that can include HTML tags.
-
+HTML element, by setting it to a text string that can include HTML tags.<br>
+<br>
 Setting the innerHTML value of an element to a string removes all of the
 current child elements. The browser then parses the string and sets the
-contents of the HTML element.
-
+contents of the HTML element.<br>
+<br>
 You can use the element.style method to retrieve or set the inline CSS
-style for a particular element.
-
+style for a particular element.<br>
+<br>
 If you use element.style to set the style of an element, it overrides
-any setting from a CSS style sheet with one specific style.
-
+any setting from a CSS style sheet with one specific style.<br>
+<br>
 The way to set the style in JavaScript is with the format
-element.style.propertyName = value.
-
+element.style.propertyName = value.<br>
+<br>
 For example, if you had an element <div style="color:blue">.
 
 <!------------------------------------------------------------------------------------------------>
@@ -4282,7 +4278,9 @@ Here the &lt;div&gt; tag is used to group block-elements to format them with
 a color style. You can change the style of this div tag with the
 JavaScript statement:
 
+```
 div.style.color = 'red';
+```
 
 <!------------------------------------------------------------------------------------------------>
 <!---------------------------- 114. modifying the inline style (108) ----------------------------->
@@ -4293,10 +4291,7 @@ div.style.color = 'red';
   style="width:65%;margin-left:16px;margin-right:16px;">
 </div>
 
-In contrast, the element.setAttribute('style', ...) wipes out all
-previously set inline CSS
-
-styles.
+In contrast, the element.setAttribute('style', ...) wipes out all previously set inline CSS styles.
 
 <!------------------------------------------------------------------------------------------------>
 <!------------------------------- 115. modifying attributes (108) -------------------------------->
@@ -4308,72 +4303,72 @@ styles.
 </div>
 
 The function element.setAttribute with parameters(attrName, attrValue)
-dynamically modifies the attribute of an element.
-
+dynamically modifies the attribute of an element.<br>
+<br>
 In the example, the src attribute of an element with an id of theImage
-is set to a different target image.
-
+is set to a different target image.<br>
+<br>
 The function element.removeAttribute(attrName) removes an attribute from
-an element.
-
+an element.<br>
+<br>
 The function element.getAttribute(attrName) retrieves the value of the
-specified attribute in the element, if it exists.
+specified attribute in the element, if it exists.<br>
 
 <!------------------------------------------------------------------------------------------------>
 <!------------------------- 116. window object methods and events (109) -------------------------->
 <!------------------------------------------------------------------------------------------------>
 <div class="sample">
 <img src="/images/image116.png?raw=true"
-  alt=""Window Object Methods and Events."
+  alt=""Window object methods and events."
   style="width:65%;margin-left:16px;margin-right:16px;">
 </div>
 
 Here are some window object functions and events.
 
 <!------------------------------------------------------------------------------------------------>
-<!---------------------- 117.  window object methods and events #2 (109) ------------------------->
+<!----------------------- 117. window object functions and events (109) -------------------------->
 <!------------------------------------------------------------------------------------------------>
 <div class="sample">
 <img src="/images/image117.png?raw=true"
-  alt="Window Object methods and events."
+  alt="Window object functions and events."
   style="width:65%;margin-left:16px;margin-right:16px;">
 </div>
 
-To open a new browser window, use the window.open() function.
-
-This method returns a reference to the new window object.
-
+To open a new browser window, use the window.open() function.<br>
+<br>
+This method returns a reference to the new window object.<br>
+<br>
 You can use this reference later to close the window, with the
-reference_name followed by the close() function.
-
-The parameters of the window.open function are:
-
+reference_name followed by the close() function.<br>
+<br>
+The parameters of the window.open function are:<br>
+<br>
 URL - A string that indicates the location of the web page to be
-displayed in the new window.
-
+displayed in the new window.<br>
+<br>
 You can pass an empty string if you are going to write some script-
-generated content to the new window in the current URL context.
-
-Name - A string that specifies the name of the window.
-
+generated content to the new window in the current URL context.<br>
+<br>
+Name - A string that specifies the name of the window.<br>
+<br>
 Features - An optional string that specifies the features of the window,
 such as its placement and dimensions. The features string is a
-comma-separated list of name- value pairs.
-
+comma-separated list of name- value pairs.<br>
+<br>
 Replace -- An optional boolean value. If true, the new location replaces
-the current page in the browser history.
-
+the current page in the browser history.<br>
+<br>
 The window.onload function can be used to start a function after the
-page is loaded.
-
+page is loaded.<br>
+<br>
 The function, window.dump("message") writes a string into the console
-for the web browser.
-
+for the web browser.<br>
+<br>
 The dump() function is a less intrusive way to display diagnostic
-information than the alert() method.
-
+information than the alert() method.<br>
+<br>
 Finally, the window.scrollTo(x-value, y-value) scrolls the web browser
-to a particular set of coordinates on a page.
+to a particular set of coordinates on a page.<br>
 
 <!------------------------------------------------------------------------------------------------>
 <!-------------------------- 118. example: using window.onload (110) ----------------------------->
@@ -4396,47 +4391,48 @@ loads the web page.
   style="width:65%;margin-left:16px;margin-right:16px;">
 </div>
 
-In the example, the onload event causes an anonymous function to run.
-This function, in turn, runs the function addPara().
-
-In this section, you learned:
+In the example, the onload event causes an anonymous function to run.<br>
+<br>
+This function, in turn, runs the function addPara().<br>
+<br>
+In this section, you learned:<br>
 
 -   You can retrieve a reference to a node using:
 
 document.getElementById(id) - Returns one specific element that is based
-on the id attribute.
+on the id attribute.<br>
 
 document.getElementsByTagName(tagName) - retrieves a of elements with
-the specified tag.
+the specified tag.<br>
 
--   You can create an element using:
+-   You can create an element using:<br>
 
-document.createElement(TagName).
+document.createElement(TagName).<br>
 
--   And place it using:
+-   And place it using:<br>
 
-insertBefore, appendChild, or replaceChild.
+insertBefore, appendChild, or replaceChild.<br>
 
 -   You can modify elements using:
 
-element.innerHTML to retrieve or set the contents of an HTML element.
+element.innerHTML to retrieve or set the contents of an HTML element.<br>
 
-element.style to retrieve or set the inline CSS style.
+element.style to retrieve or set the inline CSS style.<br>
 
-element.setAttribute to modify the attributes of an element.
+element.setAttribute to modify the attributes of an element.<br>
 
--   You can manage a window object using functions including:
+-   You can manage a window object using functions including:<br>
 
 window.open to return reference to a new window object for the web
-browser.
+browser.<br>
 
 window.dump("message") to write a string into the console for the web
-browser.
+browser.<br>
 
 This is not an exhaustive list -- many more functions exist that enable
-you to work with HTML elements and nodes.
+you to work with HTML elements and nodes.<br>
 
-Window Object Methods & Events
+Window Object Methods & Events<br>
 
 <!------------------------------------ 4.7 chapter 4 summary ------------------------------------->
 <h3 id="ch4-7">4.7 Chapter 4 Summary</h3>
@@ -4469,25 +4465,33 @@ In this module, you learned that:
 <!----------------------------------- 5.1 overview of github ------------------------------------->
 <h3 id="ch5-1">5.1 Overview of GitHub</h3>
 
-Web and Cloud App developers rarely work alone. Large projects will
-include many people -- front-end developers, back-end developers,
-database administrators, and repository administrators. Every change by
-every contributor must be tracked and controlled to enable the changes
+Web and Cloud App developers rarely work alone. <br>
+<br>
+Large projects will include many people -- front-end developers, back-end developers,
+database administrators, and repository administrators. <br>
+<br>
+Every change by every contributor must be tracked and controlled to enable the changes
 to be merged seamlessly, to allow for potential rollbacks, and for
-accountability. This type of distributed version control is extremely
-important when managing large software projects. Git, GitHub, and Git
-Lab are some of the most widely used tools for collaboration, storage,
-and version control.
-
-Web and Cloud App developers rarely work alone. Large projects will
-include many people -- front-end developers, back-end developers,
-database administrators, and repository administrators. Every change by
-every contributor must be tracked and controlled to enable the changes
-to be merged seamlessly, to allow for potential rollbacks, and for
-accountability. This type of distributed version control is extremely
-important when managing large software projects. Git, GitHub, and Git
-Lab are some of the most widely used tools for collaboration, storage,
-and version control. 
+accountability. <br>
+<br>
+This type of distributed version control is extremely important when managing large software projects.<br>
+<br>
+Git, GitHub, and Git Lab are some of the most widely used tools for collaboration, storage,
+and version control.<br>
+<br>
+Web and Cloud App developers rarely work alone. <br>
+<br>
+Large projects will include many people -- front-end developers, back-end developers,
+database administrators, and repository administrators. <br>
+<br>
+Every change by every contributor must be tracked and controlled to enable the changes
+to be merged seamlessly, to allow for potential rollbacks, and for accountability. <br>
+<br>
+This type of distributed version control is extremely important when managing large software projects. <br>
+<br>
+Git, GitHub, and Git Lab are some of the most widely used tools for collaboration, storage,
+and version control.<br>
+<br>
 After completing this module, you will be able to: 
 
 -   Define distributed version control,
@@ -4516,7 +4520,7 @@ what version control is. 
 <!------------------------------------------------------------------------------------------------>
 <div class="sample">
 <img src="/images/image120.png?raw=true"
-  alt="Version Control."
+  alt="Version control defined."
   style="width:65%;margin-left:16px;margin-right:16px;">
 </div>
 
