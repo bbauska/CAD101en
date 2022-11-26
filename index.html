@@ -9,13 +9,17 @@
 <style>
 background: linear-gradient(60deg, #3d3393 0%, #2b76b9 37%, #2cacd1 65%, #35eb93 100%);
 
-div.sample {
+.sample {
   color: green;
   border: 3px blue;
   margin-left: auto;
   margin-right: auto;
-  justify-content: center;
+  text-align: center;
 }
+.sample img {
+  width: 65%;
+}
+
 h1  {
   color: initial;
   text-align: center;
@@ -30,7 +34,62 @@ body {
   font-family: Bahnschrift, Arial, Helvetic, sans-serif;
   font-size: 14px;
 }
-  
+
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: red;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 4px;
+}
+
+#myBtn:hover {
+  background-color: #555;
+}
+
+.dropbtn {
+  background-color: #04006D;
+  color: white;
+  padding: 14px;
+  font-size: 14px;
+  border: none;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #ccc;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #398e41;}
+
 </style>
 
 <head>
@@ -43,7 +102,7 @@ let text = "Total width/height: " + screen.width + "*" + screen.height + "<br>" 
 "Color depth: " + screen.colorDepth + "<br>" +
 "Color resolution: " + screen.pixelDepth;
 
-document.getElementById("demo").innerHTML = text;
+document.getElementById("div.sample").innerHTML = text;
 </script>
 
 <!------------------------------------------------------------------------------------------------>
@@ -109,33 +168,6 @@ Anyone and everyone who wants to learn about building cloud applications -  whe
 <!------------------------------------------------------------------------------------------------>
 
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<style>
-background: linear-gradient(60deg, #3d3393 0%, #2b76b9 37%, #2cacd1 65%, #35eb93 100%);
-body {
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 20px;
-}
-
-#myBtn {
-  display: none;
-  position: fixed;
-  bottom: 20px;
-  right: 30px;
-  z-index: 99;
-  font-size: 18px;
-  border: none;
-  outline: none;
-  background-color: red;
-  color: white;
-  cursor: pointer;
-  padding: 15px;
-  border-radius: 4px;
-}
-
-#myBtn:hover {
-  background-color: #555;
-}
-</style>
 
 <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
 
@@ -172,43 +204,6 @@ function topFunction() {
 <script type = "text/javascript" src="/js/function.js"></script>  
 
 <!---- Drop down menu ----->
-<style>
-.dropbtn {
-  background-color: #04006D;
-  color: white;
-  padding: 14px;
-  font-size: 14px;
-  border: none;
-}
-
-.dropdown {
-  position: relative;
-  display: inline-block;
-}
-
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #f1f1f1;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
-}
-
-.dropdown-content a {
-  color: black;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-}
-
-.dropdown-content a:hover {background-color: #ccc;}
-
-.dropdown:hover .dropdown-content {display: block;}
-
-.dropdown:hover .dropbtn {background-color: #398e41;}
-
-</style>
 </head>
 <body>
 
@@ -4263,7 +4258,7 @@ any setting from a CSS style sheet with one specific style.<br>
 The way to set the style in JavaScript is with the format
 element.style.propertyName = value.<br>
 <br>
-For example, if you had an element <div style="color:blue">.
+For example, if you had an element &lt;div style="color:blue"&gt;.
 
 <!------------------------------------------------------------------------------------------------>
 <!---------------------------- 113. modifying the inline style (107) ----------------------------->
@@ -4510,8 +4505,8 @@ After completing this module, you will be able to: 
 In this module, you'll get an overview of Git and GitHub, which are
 popular environments among developers and data scientists for performing
 version control of source code files and projects and collaborating with
-others. 
-
+others. <br>
+<br>
 You can't talk about Git and GitHub without a basic understanding of
 what version control is. 
 
@@ -4539,11 +4534,11 @@ you make a mistake, and it makes collaboration with others much easier. 
   style="width:65%;margin-left:16px;margin-right:16px;">
 </div>
 
-Here is an example to illustrate how version control works. 
-
+Here is an example to illustrate how version control works.<br>
+<br>
 Let's say you've got a shopping list and you want your roommates to
-confirm the things you need and add additional items. 
-
+confirm the things you need and add additional items.<br>
+<br>
 Without version control, you've got a big mess to clean up before you
 can go shopping. 
 
@@ -4569,24 +4564,24 @@ contributed their ideas. 
 </div>
 
 Git is free and open source software distributed under the GNU General
-Public License. 
-
+Public License.<br>
+<br>
 Git is a distributed version control system, which means that users
 anywhere in the world can have a copy of your project on their own
 computer; when they've made changes, they can sync their version to a
-remote server to share it with you. 
-
+remote server to share it with you.<br>
+<br>
 Git isn't the only version control system out there, but the distributed
 aspect is one of the main reasons it's become one of the most common
-version control systems available. 
-
+version control systems available. <br>
+<br>
 Version control systems are widely used for things involving code, but
 you can also version control images, documents, and any number of file
-types. 
-
+types. <br>
+<br>
 You can use Git without a web interface by using your command line
 interface, but GitHub is one of the most popular web-hosted services for
-Git repositories. 
+Git repositories.
 
 <!------------------------------------------------------------------------------------------------>
 <!----------------------------- 124. git logos: git + github (116) ------------------------------->
@@ -4612,16 +4607,16 @@ get started. 
 </div>
 
 The SSH protocol is a method for secure remote login from one computer
-to another. 
-
+to another.<br>
+<br>
 A repository contains your project folders that are set up for version
-control. 
-
-A fork is a copy of a repository. 
-
+control.<br>
+<br>
+A fork is a copy of a repository.<br>
+<br>
 A pull request is the way you request that someone reviews and approves
-your changes before they become final. 
-
+your changes before they become final.<br>
+<br>
 A working directory contains the files and subdirectories on your
 computer that are associated with a Git repository. 
 
@@ -4634,31 +4629,31 @@ computer that are associated with a Git repository. 
   style="width:65%;margin-left:16px;margin-right:16px;">
 </div>
 
-There are a few basic <b>Git</b> commands that you will always use. 
-
+There are a few basic <b>Git</b> commands that you will always use.<br>
+<br>
 When starting out with a new repository, you only need create it once:
 either locally, and then push to GitHub, or by cloning an existing
-repository by using the command <b>"git init"</b>.
-
+repository by using the command <b>"git init"</b>.<br>
+<br>
 <b>"git add"</b> moves changes from the working directory to the staging
-area. 
-
+area.<br>
+<br>
 <b>"git status"</b> allows you to see the state of your working directory and
-the staged snapshot of your changes. 
-
+the staged snapshot of your changes.<br>
+<br>
 <b>"git commit"</b> takes your staged snapshot of changes and commits them to
-the project. 
-
+the project. <br>
+<br>
 <b>"git reset"</b> undoes changes that you've made to the files in your
-working directory. 
-
-<b>"git log"</b> enables you to browse previous changes to a project. 
-
+working directory. <br>
+<br>
+<b>"git log"</b> enables you to browse previous changes to a project. <br>
+<br>
 <b>"git branch"</b> lets you create an isolated environment within your
-repository to make changes. 
-
-<b>"git checkout"</b> lets you see and change existing branches. 
-
+repository to make changes. <br>
+<br>
+<b>"git checkout"</b> lets you see and change existing branches. <br>
+<br>
 <b>"git merge"</b> lets you put everything back together again. 
 
 <!------------------------------------------------------------------------------------------------>
@@ -4672,36 +4667,37 @@ repository to make changes. 
 
 To learn how to use Git effectively and begin collaborating with data
 scientists around the world, you will need to learn the essential
-commands. 
-
+commands. <br>
+<br>
 Luckily for us, GitHub has amazing resources available to help you get
-started. 
-
+started. <br>
+<br>
 Go to try.github.io to download the cheat sheets and run through the
-tutorials. 
-
+tutorials. <br>
+<br>
 In the following modules, we'll give you a crash course on setting up
 your local environment and getting started on a project. 
 
 <h3>Introduction to GitHub</h3>
 
-Welcome to Introduction to GitHub. 
-
-After reading this module, you will be able to: 
+Welcome to Introduction to GitHub. <br>
+<br>
+After reading this module, you will be able to: <br>
 
 -   Describe the purpose of source repositories. 
 
 -   Explain how GitHub satisfies the needs of a source repository. 
 
+<br>
 Linux development in the early 2000's was managed under a free-to-use
-system known as BitKeeper. 
-
+system known as BitKeeper. <br>
+<br>
 In 2005, BitKeeper changed to a for-fee system which was problematic for
-Linux developers for many reasons. 
-
+Linux developers for many reasons. <br>
+<br>
 Linus Torvalds led a team to develop a replacement source-version
-control system. 
-
+control system. <br>
+<br>
 The project ran in short time frames and the key characteristics were
 defined by a small group. 
 
@@ -4714,29 +4710,29 @@ defined by a small group. 
   style="width:65%;margin-left:16px;margin-right:16px;">
 </div>
 
-These include: 
+These include: <br>
 
 -   Strong support for non-linear development. 
 
 (Linux patches were then arriving at a rate of 6.7 patches per second) 
-
+<br>
 -   Distributed development. 
 
 Each developer can have a local copy of the full development history. 
-
+<br>
 -   Compatibility with existing systems and protocols. 
 
 This was necessary to acknowledge the diversity of the Linux community. 
-
+<br>
 -   Efficient handling of large projects. 
 
 -   Cryptographic authentication of history. 
 
 This makes certain that distributed systems all have identical code
 updates. 
-
--   Pluggable merge strategies. 
-
+<br>
+-   Pluggable merge strategies. <br>
+<br>
 Many pathways of development can lead to complex integration decisions
 that might require explicit integration strategies. 
 
@@ -4770,33 +4766,33 @@ support non-linear workflows. 
 Created in 2005 by Linus Torvalds for distribution of Linux kernels. 
 
 Git is a distributed version-control system that is used to track
-changes to content. 
-
+changes to content. <br>
+<br>
 It serves as a central point for collaboration with a particular focus
-on agile development methodologies. 
-
+on agile development methodologies. <br>
+<br>
 In a central version control system, every developer needs to check out
-code from the central system and commit back into it. 
-
+code from the central system and commit back into it. <br>
+<br>
 As Git is a distributed version control, each developer has a local copy
 of the full development history, and changes are copied from one such
-repository to another. Each developer can act as a hub. 
-
+repository to another. Each developer can act as a hub. <br>
+<br>
 When Git is used correctly, there is a main branch that corresponds to
-the deployable code. 
-
+the deployable code. <br>
+<br>
 Teams can continuously integrate changes that are ready to be released
-and can simultaneously work on separate branches in between releases. 
-
+and can simultaneously work on separate branches in between releases. <br>
+<br>
 Git also allows centralized administration of tasks with access-level
-controls for each team. 
-
+controls for each team. <br>
+<br>
 Git can co-exist locally such as through the GitHub Desktop client or it
 can be used directly through a browser connected to the GitHub web
-interface. 
-
+interface. <br>
+<br>
 IBM Cloud is based on sound and established open-source tools including
-Git repositories, often called repos. 
+Git repositories, often called repos. <br>
 
 <!------------------------------------------------------------------------------------------------>
 <!---------------------------------- 131. what is github? (122) ---------------------------------->
@@ -4807,15 +4803,15 @@ Git repositories, often called repos. 
   style="width:65%;margin-left:16px;margin-right:16px;">
 </div>
 
-GitHub is an online hosting service for Git repositories. 
-
-GitHub hosted by a subsidiary of Microsoft. 
-
-GitHub offers free, professional and enterprise accounts. 
-
-As of August 2019, GitHub had over 100M repositories. 
-
-A Repository is: 
+GitHub is an online hosting service for Git repositories. <br>
+<br>
+GitHub hosted by a subsidiary of Microsoft. <br>
+<br>
+GitHub offers free, professional and enterprise accounts. <br>
+<br>
+As of August 2019, GitHub had over 100M repositories. <br>
+<br>
+A Repository is: <br>
 
 -   A data structure for storing documents including application source
     code. 
@@ -4891,30 +4887,30 @@ After reading this section, you will be able to:</p>
   style="width:65%;margin-left:16px;margin-right:16px;">
 </div>
 
-Start at the GitHub site, https://github.com
-
+Start at the GitHub site, https://github.com<br>
+<br>
 You'll need to choose a username, enter your email address and select a
-password, then click Sign up for GitHub.
-
-Next, you'll have a short test to prove that you're a person.
-
-Click Verify and solve the puzzle presented.
-
+password, then click Sign up for GitHub.<br>
+<br>
+Next, you'll have a short test to prove that you're a person.<br>
+<br>
+Click Verify and solve the puzzle presented.<br>
+<br>
 When you're done, click Join a free plan and then you'll be taken to a
 screen where you can select the type of account -- most likely a free,
-personal account is all that you'll want.
-
-Choose to set up a personal, free account, which is the default.
-
+personal account is all that you'll want.<br>
+<br>
+Choose to set up a personal, free account, which is the default.<br>
+<br>
 GitHub asks some questions about your work, programming experience and
-interests.
-
-You can skip these if you want.
-
+interests.<br>
+<br>
+You can skip these if you want.<br>
+<br>
 Finally, you'll have to respond to an email that you receive which
 proves that you linked to GitHub from an account that you access GitHub
-provides you with some starting points.
-
+provides you with some starting points.<br>
+<br>
 You can choose to create a repository or an organization, or you can
 take the Introduction to GitHub course.
 
@@ -4929,28 +4925,28 @@ take the Introduction to GitHub course.
 
 Remember, a repository is a data structure for storing documents
 including application source code which tracks and maintains
-version-control.
-
-An organization is a collection of user accounts that owns repositories.
-
+version-control.<br>
+<br>
+An organization is a collection of user accounts that owns repositories.<br>
+<br>
 Organizations have one or more owners, who have administrative
-privileges for the organization.
-
-Or you can skip this for now and get straight to work.
-
+privileges for the organization.<br>
+<br>
+Or you can skip this for now and get straight to work.<br>
+<br>
 GitHub provides many resources to help you work effectively. When you
-have time, read the GitHub guide.
-
-The heart of a Git-based project is the repository.
-
+have time, read the GitHub guide.<br>
+<br>
+The heart of a Git-based project is the repository.<br>
+<br>
 This contains all your code and the related artifacts, including things
-like:
+like:<br>
 
 -   a README file to describe the purpose of the project.
 
 -   A license to express the ways in which people can use your code,
-    Etc.
-
+    Etc.<br>
+<br>
 You can also make your repository private (only available to people with
 accounts that have permission to see it) or public (searchable and seen
 by everyone).
@@ -4965,38 +4961,38 @@ by everyone).
 </div>
 
 When you create your repository, you'll notice that it has a number of
-tabs, and is opened to the Code tab.
-
-Code -- this is where all the source files reside.
-
+tabs, and is opened to the Code tab.<br>
+<br>
+Code -- this is where all the source files reside.<br>
+<br>
 Git was initially created as a source code repository but now all sorts
-of files end up in here.
-
+of files end up in here.<br>
+<br>
 If you created a README and/or license, that's all that's here right
-now.
+now.<br>
 
 *Issues* -- as you continue, you can track and plan with tools such as
-"Issues" that lists all open items against your project base.
-
+"Issues" that lists all open items against your project base.<br>
+<br>
 *Pull Requests* -- this is part of the mechanism for collaborating with
-other users.
-
+other users.<br>
+<br>
 Pull requests define changes that are committed and ready for review
-before being merged into the main branch.
-
+before being merged into the main branch.<br>
+<br>
 *Projects* -- all the tools for managing, sorting, planning, etc. your
-various projects.
-
-This is the core of the collaborative power of GitHub.
-
+various projects.<br>
+<br>
+This is the core of the collaborative power of GitHub.<br>
+<br>
 *Wiki, Security,* and *Insights* -- often left for more advanced users,
-these tools provide a communication base to the external user community.
-
+these tools provide a communication base to the external user community.<br>
+<br>
 *Settings* -- GitHub allows for a lot of personalization, including
-changing the name of your repository and controlling access.
-
-In this section you learned:
-
+changing the name of your repository and controlling access.<br>
+<br>
+In this section you learned:<br>
+<br>
 -   How to create and verify a GitHub account.
 
 -   Repositories are storage structures that can hold Code, track
@@ -5005,14 +5001,14 @@ In this section you learned:
 <!------------------------------------- 5.4 github branches -------------------------------------->
 <h3 id="ch5-4">5.4 GitHub Branches</h3>
 
-Welcome to GitHub Branches!
-
-After reading this section, you will be able to:
+Welcome to GitHub Branches!<br>
+<br>
+After reading this section, you will be able to:<br>
 
 -   Explain the purpose of branches and
 
 -   describe how to merge changes into branches.
-
+<br>
 All files in GitHub are stored on a branch.
 
 <!------------------------------------------------------------------------------------------------>
@@ -5025,16 +5021,16 @@ All files in GitHub are stored on a branch.
 </div>
 
 The master branch is definitive; it stores the deployable version of
-your code.
-
+your code.<br>
+<br>
 The master branch is created by default, however, you can use any branch
-as the main, finished, deployable version of the code.
-
+as the main, finished, deployable version of the code.<br>
+<br>
 When you plan to change things, you create a new branch and give it a
-descriptive name.
-
-The new branch starts as an exact copy of the original branch.
-
+descriptive name.<br>
+<br>
+The new branch starts as an exact copy of the original branch.<br>
+<br>
 As you make changes, the branch that you created holds the changed code.
 
 <!------------------------------------------------------------------------------------------------>
@@ -5046,26 +5042,24 @@ As you make changes, the branch that you created holds the changed code.
   style="width:65%;margin-left:16px;margin-right:16px;">
 </div>
 
-To create a new branch, click drop-down branch: master
-
-Add new branch name into new branch text and select Create branch.
-
-GitHub branches can be very complex for large software projects.
-
+To create a new branch, click drop-down branch: master<br>
+<br>
+Add new branch name into new branch text and select Create branch.<br>
+<br>
+GitHub branches can be very complex for large software projects.<br>
+<br>
 For a simple project, such as the ones we are exploring, consider the
-following:
-
-Start with a common base, the initial source for this project.
-
-At one point, the code is branched while new features are developed.
-
-In this example, both branches are undergoing changes.
-
+following:<br>
+<br>
+Start with a common base, the initial source for this project.<br>
+<br>
+At one point, the code is branched while new features are developed.<br>
+<br>
+In this example, both branches are undergoing changes.<br>
+<br>
 When the two streams of work are ready to merge, each branch's code is
-identified
-
-as a tip.
-
+identified as a tip.<br>
+<br>
 and the two tips are merged into a third, combined branch.
 
 <!------------------------------------------------------------------------------------------------>
@@ -5078,9 +5072,9 @@ and the two tips are merged into a third, combined branch.
 </div>
 
 Developers work on source files in a branch. Since some projects take a
-while, the source doesn't make sense right away.
-
-To change the contents of a file.
+while, the source doesn't make sense right away.<br>
+<br>
+To change the contents of a file.<br>
 
 1.  Select the file.
 
@@ -5090,22 +5084,23 @@ To change the contents of a file.
 
 4.  Commit the changes.
 
+<br>
 When the developer has completed their assigned work, to save their
-changes, they commit the code.
-
+changes, they commit the code.<br>
+<br>
 Commit indicates that the developer is convinced that the code
 represents a stable platform for the feature or set of features being
-developed.
-
+developed.<br>
+<br>
 When a developer commits changed source to their path, they are required
-to write a comment that describes the changes.
-
-The comment should be meaningful and descriptive.
-
+to write a comment that describes the changes.<br>
+<br>
+The comment should be meaningful and descriptive.<br>
+<br>
 The developer can choose to commit to the current branch or create a new
-branch.
-
-Some rules:
+branch.<br>
+<br>
+Some rules:<br>
 
 -   Don't end the commit message with a period.
 
@@ -5124,22 +5119,21 @@ Some rules:
 </div>
 
 Pull is used to initiate the merging of branches in a way to capture
-changes.
-
+changes.<br>
+<br>
 A pull request makes the proposed (committed) changes available for
-others to review and use.
-
-A pull can follow any commits, even if code is unfinished.
-
+others to review and use.<br>
+<br>
+A pull can follow any commits, even if code is unfinished.<br>
+<br>
 A pull requires a user to approve the changes. This can be the author of
-the change or it can be assigned within the team.
-
+the change or it can be assigned within the team.<br>
 Note that GitHub automatically makes a pull request on your behalf if
-you make a change on a branch that you do not own.
-
+you make a change on a branch that you do not own.<br>
+<br>
 Since the log files are immutable, it is always possible to find the
-person who approved the merge of the change.
-
+person who approved the merge of the change.<br>
+<br>
 To open a new pull request:
 
 <!------------------------------------------------------------------------------------------------>
@@ -5152,29 +5146,29 @@ To open a new pull request:
 </div>
 
 Click Pull request and select New pull request.
-
+<br>
 Select the new branch from the compare box.
-
+<br>
 Scroll down to view the changes.
-
+<br>
 Confirm that the changes are what you want to assess.
-
+<br>
 Add a title and description to the request.
-
+<br>
 Click Create pull request.
-
+<br>
 The intent of Git repositories is for the master branch to be the only
-deployed code.
-
+deployed code.<br>
+<br>
 Developers can change source files in a branch but the changes are not
-released until.
-
-They are committed.
-
-A pull command is issued.
-
-The code is reviewed and approved.
-
+released until.<br>
+<br>
+They are committed.<br>
+<br>
+A pull command is issued.<br>
+<br>
+The code is reviewed and approved.<br>
+<br>
 The approved code is merged back into the master code.
 
 <!------------------------------------------------------------------------------------------------>
@@ -5186,11 +5180,11 @@ The approved code is merged back into the master code.
   style="width:65%;margin-left:16px;margin-right:16px;">
 </div>
 
-To merge a committed code change into your master code.
-
-Click Merge pull request.
-
-Click Confirm merge.
+To merge a committed code change into your master code.<br>
+<br>
+Click Merge pull request.<br>
+<br>
+Click Confirm merge.<br>
 
 <!------------------------------------------------------------------------------------------------>
 <!------------------------------ 142. merge a pull request (131) --------------------------------->
@@ -5202,8 +5196,8 @@ Click Confirm merge.
 </div>
 
 When all changes for a branch are complete, that branch is considered
-obsolete and it should be deleted.
-
+obsolete and it should be deleted.<br>
+<br>
 In this section, you learned:
 
 -   All files in GitHub exist on a branch.
@@ -5221,9 +5215,9 @@ In this section, you learned:
 -   More than one branch can be undergoing changes at the same time.
 
 -   Saved changes are called commits.
-
+<br>
 Pull requests enables other users to review and use the proposed changes
-(committed).
+(committed).<br>
 
 When you are ready to merge the changed code into the master branch, you
 merge the committed code changes into your master code.
@@ -5264,21 +5258,21 @@ After reading this section, you will be able to:
 
 GitHub has over existing 100M repositories, including some very useful
 projects.
-
+<br>
 Whether you are joining a team or basing your own project on prior work,
 some of the most powerful tools are forking and cloning a repository.
-
+<br>
 Cloning generally refers to creating a copy of a repository on your
 local machine.
-
+<br>
 Cloned copies can be kept in sync between the two locations.
-
+<br>
 Forking allows you to modify or extend a project without affecting the
 original project.
-
+<br>
 Frequently, this is used to take an existing project and make it the
 starting point for your new project.
-
+<br>
 To clone a GitHub repository, navigate to the repository that you want
 to clone.
 
@@ -5304,16 +5298,16 @@ Under the repository name, click Code.
 
 In the Clone with HTTPS section, click the clipboard button to copy the
 URL.
-
+<br>
 To download the source code, you can click Download zip, but without the
 version control information.
-
+<br>
 On your local machine, open a "Terminal" window and change to the
 directory where you want the clone to be copied.
-
+<br>
 Type "git clone" followed by pasting the URL that you copied above and
 then press ENTER to execute the cloning.
-
+<br>
 When you have made your changes and are ready to sync your code back to
 GitHub.
 
@@ -6248,7 +6242,7 @@ In this module, you learned that:</p>
 </ul>
 &nbsp;<br><br></li>
 </ul>
-<p><b><i>Last edited 11/25/2022 9:26pm</i></b>
+<p><b><i>Last edited 11/26/2022 Sat 1:13am</i></b>
 
 ...the end.
 </p>
