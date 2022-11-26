@@ -8,93 +8,26 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
 background: linear-gradient(60deg, #3d3393 0%, #2b76b9 37%, #2cacd1 65%, #35eb93 100%);
-
-.sample {
-  text-align: center;
-  border:solid;
-  margin:2em auto;
-  overflow:hidden
-}
-img {
-  margin:0 -100%;
-  vertical-align:middle;
-  }
-
-h1  {
-  color: initial;
-  text-align: center;
+body {
+  font-family: Arial, Helvetica, sans-serif;
   font-size: 20px;
 }
-h2 {
-  font-family: Bahnschrift, Arial, Helvetic, sans-serif;
-  font-size: 18px;
-  text-align: center;
+
+.sample {
+color: green;
+border: 3px blue;
+margin-left: auto;
+margin-right: auto;
 }
-body {
-  font-family: Bahnschrift, Arial, Helvetic, sans-serif;
-  font-size: 14px;
+h1  {
+color: initial;
 }
-
-#myBtn {
-  display: none;
-  position: fixed;
-  bottom: 20px;
-  right: 30px;
-  z-index: 99;
-  font-size: 18px;
-  border: none;
-  outline: none;
-  background-color: red;
-  color: white;
-  cursor: pointer;
-  padding: 15px;
-  border-radius: 4px;
-}
-
-#myBtn:hover {
-  background-color: #555;
-}
-
-.dropbtn {
-  background-color: #04006D;
-  color: white;
-  padding: 14px;
-  font-size: 14px;
-  border: none;
-}
-
-.dropdown {
-  position: relative;
-  display: inline-block;
-}
-
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #f1f1f1;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
-}
-
-.dropdown-content a {
-  color: black;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-}
-
-.dropdown-content a:hover {background-color: #ccc;}
-
-.dropdown:hover .dropdown-content {display: block;}
-
-.dropdown:hover .dropbtn {background-color: #398e41;}
 
 </style>
 
 <head>
 
-<h2>CAD101en - IBM Skills Network</h2>
+<h2 align="center">CAD101en - IBM Skills Network</h2>
 
 <script>
 let text = "Total width/height: " + screen.width + "*" + screen.height + "<br>" +
@@ -102,28 +35,41 @@ let text = "Total width/height: " + screen.width + "*" + screen.height + "<br>" 
 "Color depth: " + screen.colorDepth + "<br>" +
 "Color resolution: " + screen.pixelDepth;
 
-document.getElementById("div.sample").innerHTML = text;
+document.getElementById("demo").innerHTML = text;
 </script>
 
 <!------------------------------------------------------------------------------------------------>
 <!----------------------------------------- 01. ibm logo ----------------------------------------->
 <!------------------------------------------------------------------------------------------------>
-<div class="sample">
-<img src="/images/image001.png?raw=true" 
-  alt="IBM logo." 
-  style="width:30%;margin-left:16px;margin-right:16px;">
+<div align="center" class="sample">
+<img src="/images/image001.png?raw=true" alt="IBM logo." style="width:70px;height:50px;margin-left:16px;">
 </div>
 
+<!--
+<p align="center" width="100%">
+<img src="/images/image001.png?raw=true"
+   alt="IBM logo"
+   width="40%" />
+&nbsp;
+-->
 <!------------------------------------------------------------------------------------------------>
-<h2>Introduction to Cloud Development with HTML5, CSS3, &amp; JavaScript (w/Github)</h2>
+<h2 align="center">Introduction to Cloud Development with HTML5, CSS3, &amp; JavaScript (w/Github)</h2>
 <!------------------------------------------------------------------------------------------------>
 <!---------------------------------------- 02. cloud logo ---------------------------------------->
 <!------------------------------------------------------------------------------------------------>
-<div class="sample">
-<img src="/images/image002.png?raw=true"
-  alt="IBM cloud logo.">
-<!--  style="width:60%;margin-left:16px;margin-right:16px;">  -->
+<div align="center" class="sample">
+<img src="/images/image002.png?raw=true" alt="IBM cloud logo." style="width:400px;height:220px;margin-left:16px;">
 </div>
+
+<!--
+<p align="center" width="100%">
+<img src="/images/image002.png?raw=true"
+   alt="Cloud logo"
+   width="40%" />
+&nbsp;
+-->
+
+</p>
 
 <h3>edX.org online course (CAD101EN) - 5 module course</h3>
 
@@ -166,6 +112,33 @@ Anyone and everyone who wants to learn about building cloud applications -  whe
 <!------------------------------------------------------------------------------------------------>
 
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+background: linear-gradient(60deg, #3d3393 0%, #2b76b9 37%, #2cacd1 65%, #35eb93 100%);
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+}
+
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: red;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 4px;
+}
+
+#myBtn:hover {
+  background-color: #555;
+}
+</style>
 
 <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
 
@@ -202,6 +175,43 @@ function topFunction() {
 <script type = "text/javascript" src="/js/function.js"></script>  
 
 <!---- Drop down menu ----->
+<style>
+.dropbtn {
+  background-color: #04006D;
+  color: white;
+  padding: 14px;
+  font-size: 14px;
+  border: none;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #ccc;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #398e41;}
+
+</style>
 </head>
 <body>
 
@@ -264,8 +274,8 @@ Github} (CAD101EN)</h3>
 <!------------------------------------------------------------------------------------------------>
 <div class="sample">
 <img src="/images/image003.png?raw=true" 
-  alt="IBM Cloud Development - the Skills Network.">
-<!--  style="width:65%;margin-left:16px;margin-right:16px"> -->
+  alt="IBM Cloud Development - the Skills Network." 
+  style="width:65%;margin-left:16px;margin-right:16px">
 </div>
 
 <!--------------- 1.1 welcome to intro to cloud development with html5, css3 & js ---------------->
@@ -276,7 +286,8 @@ Github} (CAD101EN)</h3>
 <!------------------------------------------------------------------------------------------------>
 <div class="sample">
 <img src="/images/image004.png?raw=true" 
-  alt="Cloud Courses from IBM.">
+  alt="Cloud Courses from IBM."
+  style="width:65%;margin-left:16px;margin-right:16px">
 </div>
 
 <!------------------------------------------------------------------------------------------------>
@@ -284,7 +295,8 @@ Github} (CAD101EN)</h3>
 <!------------------------------------------------------------------------------------------------>
 <div class="sample">
 <img src="/images/image005.png?raw=true" 
-  alt="Emerging Jobs: Full-Stack, Back-End, Front-End, JavaScript.">
+  alt="Emerging Jobs: Full-Stack, Back-End, Front-End, JavaScript."
+  style="width:65%;margin-left:16px;margin-right:16px">
 </div>
 
 <p>
@@ -329,7 +341,8 @@ After completing this module, you will be able to:</p>
 <!------------------------------------------------------------------------------------------------>
 <div class="sample">
 <img src="/images/image006.png?raw=true" 
-  alt="Overview of Cloud and Web Development by IBM - Skills Network.">
+  alt="Overview of Cloud and Web Development by IBM - Skills Network."
+  style="width:65%;margin-left:16px;margin-right:16px">
 </div>
 
 <!-------------------------- 1.2 overview of web and cloud development --------------------------->
@@ -603,7 +616,8 @@ becomes overridingly important.
 <!------------------------------------------------------------------------------------------------>
 <div class="sample">
 <img src="/images/image007.png?raw=true" 
-  alt="Version control.">
+  alt="Version control."
+  style="width:65%;margin-left:16px;margin-right:16px">
 </div>
 
 <p>
@@ -633,7 +647,8 @@ them back into the main body of code.
 <!------------------------------------------------------------------------------------------------>
 <div class="sample">
 <img src="/images/image008.png?raw=true" 
-  alt="Libraries">
+  alt="Libraries"
+  style="width:65%;margin-left:16px;margin-right:16px;">
 </div>
 
 <p>
@@ -667,8 +682,8 @@ Here are some examples of code libraries:
 <!--------------------------------- 09. libraries: jquery (13) ----------------------------------->
 <div class="sample">
 <img src="/images/image009.png?raw=true"
-  alt="Libraries: JQuery">
-<!--  style="width:30%;margin-left:16px;margin-right:16px;"> -->
+  alt="Libraries: JQuery"
+  style="width:30%;margin-left:16px;margin-right:16px;">
 </div>
 
 <ul>
@@ -677,8 +692,8 @@ Here are some examples of code libraries:
 <!---------------------------- 10. libraries: e-mail validator (13) ------------------------------>
 <div class="sample">
 <img src="/images/image010.png?raw=true"
-  alt="Libraries: E-Mail Validator.">
-<!--  style="width:30%;margin-left:16px;margin-right:16px;"> -->
+  alt="Libraries: E-Mail Validator."
+  style="width:30%;margin-left:16px;margin-right:16px;">
 </div>
 
 <li>Email-validator is a small library that checks an email address is
@@ -687,8 +702,8 @@ Here are some examples of code libraries:
 <!-------------------------- 11. libraries: apache commons proper (13) --------------------------->
 <div class="sample">
 <img src="/images/image011.png?raw=true"
-  alt="Libraries: Apache Commons Proper.">
-<!--  style="width:30%;margin-left:16px;margin-right:16px;"> -->
+  alt="Libraries: Apache Commons Proper."
+  style="width:30%;margin-left:16px;margin-right:16px;">
 </div>
 
 <li>Apache Commons Proper is a repository of reusable Java components.<br></li>
@@ -701,8 +716,10 @@ Frameworks provide a standard way to build and deploy applications.
 <!------------------------------------------------------------------------------------------------>
 <div  class="sample">
 <img src="/images/image012.png?raw=true"
-  alt="Frameworks - the scaffold to build your apps.">
+  alt="Frameworks - the scaffold to build your apps."
+  style="width:65%;margin-left:16px;margin-right:16px;">
 </div>
+</p>
 You can think of a framework as being a skeleton that you can extend by
 adding your own code, providing a scaffold on which to build your apps.<br>
 <br>
@@ -1221,7 +1238,8 @@ that is uniform across platforms and devices.</p>
 <!------------------------------------------------------------------------------------------------>
 <div class="sample">
 <img src="/images/image013.png?raw=true"
-  alt="HTML DOM Tree.">
+  alt="HTML DOM Tree."
+  style="width:65%;margin-left:16px;margin-right:16px;">
 </div>
 <p>
 Here is an example of a document that conforms to the syntax of HTML5.
@@ -1281,7 +1299,8 @@ it into a DOM (Document Object Model) tree.
 <!------------------------------------------------------------------------------------------------>
 <div class="sample">
 <img src="/images/image014.png?raw=true"
-  alt="DOM Tree - an in-memory representation of a document.">
+  alt="DOM Tree - an in-memory representation of a document."
+  style="width:65%;margin-left:16px;margin-right:16px;">
 </div>
 
 A DOM tree is an in-memory representation of a document.
@@ -1672,7 +1691,7 @@ more.
   style="width:85%;margin-left:16px;margin-right:16px;">
 </div>
 
-Here are the results of displaying the &lt; input type= 'date' &gt; element
+Here are the results of displaying the < input type= 'date' >element
 in different browsers.
 
 The Google Chrome browser displays a calendar to enter the data.
@@ -2207,7 +2226,7 @@ logical grouping of the content.
 </div>
 
 You can use these dedicated elements to mark up your website, rather
-than using the generic &lt;div&gt; or &lt;span&gt; elements.
+than using the generic &lt;div&gt; or <span> elements.
 
 An &lt;article&gt; defines a block of code that can be distinguished from
 the rest of the page.
@@ -2295,7 +2314,7 @@ Websites typically have sections that are dedicated to navigational
 links that go to these sites or for moving between pages of a single
 application.
 
-In HTML5 syntax, these navigational links are placed inside a &lt; &gt; tag.
+In HTML5 syntax, these navigational links are placed inside a <> tag.
 
 The &lt;&gt; tag is a convenience tag for grouping navigational links in a
 web page.
@@ -2348,7 +2367,7 @@ In non-supporting browsers, this input type is displayed as a regular
 text input field into which the user might type a valid color name or
 color code.
 
-The &lt; input type="date" &gt; attribute is a date control (year, month,
+The < input type="date" > attribute is a date control (year, month,
 day) with no time zone.
 <!------------------------------------------------------------------------------------------------>
 <!----------------------------------- 47. input for date (59) ------------------------------------>
@@ -2471,9 +2490,9 @@ validate the telephone number.
 
 The URL attribute is used to validate that the user typed in a properly formatted URL or web address.
 
-The &lt; input list="some_list" &gt; provides a list of auto-complete suggestions for the input field.
+The < input list="some_list" > provides a list of auto-complete suggestions for the input field.
 
-Not to be confused with the &lt; select &gt; element. Useful for auto-complete functionality.
+Not to be confused with the < select > element. Useful for auto-complete functionality.
 
 You can fill the list by nesting
 
@@ -3210,7 +3229,7 @@ newly created Car object.
 <!------------------------------------------------------------------------------------------------>
 <div class="sample">
 <img src="images/image075.png"
-  alt="Creating custom objects."
+  alt="Creating Custom Objects"
   style="width:65%;margin-left:16px;margin-right:16px;">
 </div>
 
@@ -3465,14 +3484,14 @@ value.
   style="width:65%;margin-left:16px;margin-right:16px;">
 </div>
 
-Here is another example that uses a prototype to change Car instances.<br>
-<br>
+Here is another example that uses a prototype to change Car instances.
+
 This time, you add a method function called getName to the Car
-prototype.<br>
-<br>
+prototype.
+
 Now when a Car object is instantiated, it also includes the getName
-function that returns the make, model, and year.<br>
-<br>
+function that returns the make, model, and year.
+
 All existing instances of the Car object also inherit the getName
 method.
 
@@ -3486,21 +3505,21 @@ method.
 </div>
 
 Functions are usually declared first, and not run until you specifically
-ask them to, as you saw in some of the previous examples.<br>
-<br>
+ask them to, as you saw in some of the previous examples.
+
 Auto-invocation or self-executing functions start running immediately
-after being declared.<br>
-<br>
+after being declared.
+
 The functions and variables inside self-executing functions are only
-available to the code inside the self-executing function.<br>
-<br>
+available to the code inside the self-executing function.
+
 Auto-invocation functions can also be unnamed or anonymous functions,
-and have the format that is shown in the code block on the slide.<br>
-<br>
+and have the format that is shown in the code block on the slide.
+
 Self-executing functions are often used to initialize data or to declare
-DOM elements on the page.<br>
-<br>
-In this section , you learned:<br>
+DOM elements on the page.
+
+In this section , you learned:
 
 -   A function is a block of code which can be called from any point in
     a script after being declared.
@@ -3526,9 +3545,9 @@ In this section , you learned:<br>
 <!------------------------------- 4.3 client-side js: with html ---------------------------------->
 <h3 id="ch4-3">4.3 Client-Side JavaScript: with HTML</h3>
 
-Hello. Welcome to Client-side JavaScript.<br>
-<br>
-After reading this section, you will be able to:<br>
+Hello. Welcome to Client-side JavaScript.
+
+After reading this section, you will be able to:
 
 -   Define a client-side script,
 
@@ -3536,8 +3555,8 @@ After reading this section, you will be able to:<br>
 
 -   Explain how to use the
 
--   Describe Event Binding in scripts.<br>
-<br>
+-   Describe Event Binding in scripts.
+
 A client-side script is a program that accompanies an HTML document or
 might be embedded directly in the HTML document itself.
 
@@ -3552,22 +3571,22 @@ might be embedded directly in the HTML document itself.
 
 The script program runs on the client device when the document loads, or
 at some other time such as when a link is activated or when a button is
-clicked.<br>
-<br>
+clicked.
+
 Although JavaScript is widely used as a scripting language in HTML,
-other scripting languages can be used instead.<br>
-<br>
+other scripting languages can be used instead.
+
 Scripts offer authors a means to modify and extend HTML documents in
-highly interactive ways.<br>
-<br>
-Scripts can run after an HTML document is loaded.<br>
-<br>
+highly interactive ways.
+
+Scripts can run after an HTML document is loaded.
+
 Scripts can be used to validate forms or to process input as it is
-typed.<br>
-<br>
+typed.
+
 Scripts can be triggered by events that occur on a web page, such as the
-clicking of a button.<br>
-<br>
+clicking of a button.
+
 Scripts can be used to dynamically create document elements on an HTML
 page.
 
@@ -3580,11 +3599,11 @@ page.
   style="width:65%;margin-left:16px;margin-right:16px;">
 </div>
 
-This slide shows two ways in which the document.<br>
-<br>
+This slide shows two ways in which the document.
+
 Example 1 demonstrates how you can include a script directly inside the
-HTML document.<br>
-<br>
+HTML document.
+
 This method is good for short scripts, but when a script is long, the
 method used in example 2 is preferred.
 
@@ -3598,11 +3617,11 @@ method used in example 2 is preferred.
 </div>
 
 Example 2 uses the src attribute to point to an external script file.
-<br>
+
 This method has several use cases, such as importing JavaScript
 libraries for complex interactions or using the same script across
-several HTML documents.<br>
-<br>
+several HTML documents.
+
 Some users who visit your website might disable JavaScript from running,
 or they might be using a browser that does not support scripting.
 
@@ -3616,11 +3635,11 @@ or they might be using a browser that does not support scripting.
 </div>
 
 To allow for these situations, place the content for the alternative
-path within the tag.<br>
-<br>
+path within the tag.
+
 If the browser does not support scripting, the browser runs the section
-of code that is within the noscript tag.<br>
-<br>
+of code that is within the noscript tag.
+
 Scripts can be run on the detection of certain events that happen when
 the page is running in a browser session.
 
@@ -3634,13 +3653,13 @@ the page is running in a browser session.
 </div>
 
 For example, the onload event can run a script when the browser finishes
-loading a page.<br>
-<br>
-Or a function can be performed when the onclick event occurs.<br>
-<br>
+loading a page.
+
+Or a function can be performed when the onclick event occurs.
+
 This event occurs when the pointing device is clicked over an element,
-such as a button, that declares a handler for the event.<br>
-<br>
+such as a button, that declares a handler for the event.
+
 The event handler is a function that declares what to do when the button
 is clicked.
 
@@ -3654,13 +3673,13 @@ is clicked.
 </div>
 
 Here the inline event handler named showAnswers runs when the button is
-clicked.<br>
-<br>
-In this section, you learned:<br>
+clicked.
+
+In this section, you learned:
 
 -   A client-side script is a program that accompanies an HTML document.
 
-It may even be embedded into the HTML itself.<br>
+It may even be embedded into the HTML itself.
 
 -   Scripts offer developers ways to extend HTML documents to enhance
     the user experience, especially by incorporating more interactive
@@ -3680,9 +3699,9 @@ loading a page.
 <!-------------------------------- 4.4 client-side js: with dom ---------------------------------->
 <h3 id="ch4-4">4.4 Client-Side JavaScript: with DOM</h3>
 
-Hello. Welcome to Client-side JavaScript.<br>
-<br>
-After reading this section, you will be able to:<br>
+Hello. Welcome to Client-side JavaScript.
+
+After reading this section, you will be able to:
 
 -   Describe the document object model (DOM) hierarchy.
 
@@ -3701,12 +3720,12 @@ After reading this section, you will be able to:<br>
 </div>
 
 The document object model is the programming interface between HTML or
-XHTML and JavaScript.<br>
-<br>
+XHTML and JavaScript.
+
 The Document Object Model (DOM) is a browser-based interface for
 applications and scripts to dynamically access and update the content,
-structure, and style of documents.<br>
-<br>
+structure, and style of documents.
+
 JavaScript uses the DOM to access and modify web page elements in the
 web browser.
 
@@ -3720,8 +3739,8 @@ web browser.
 </div>
 
 The World Wide Web Consortium released four levels of the Document
-Object Model specifications.<br>
-<br>
+Object Model specifications.
+
 Each successive level provides a more detailed set of features for
 describing structured documents.
 
@@ -3735,11 +3754,13 @@ describing structured documents.
 </div>
 
 The different browsers have various levels of compatibility with the DOM
-standard.<br>
-<br>
+standard.
+
 The discussion of the DOM in this unit focuses on the DOM Level 1 Core
-and DOM Level 1 HTML APIs to access HTML elements with the DOM.<br>
-<br>
+and DOM Level 1 HTML
+
+APIs to access HTML elements with the DOM.
+
 The JavaScript engine in most web browsers fully supports DOM level 1.
 
 <!------------------------------------------------------------------------------------------------>
@@ -3751,43 +3772,43 @@ The JavaScript engine in most web browsers fully supports DOM level 1.
   style="width:65%;margin-left:16px;margin-right:16px;">
 </div>
 
-Here is a representation of the basic DOM model for browsers:<br>
-<br>
+Here is a representation of the basic DOM model for browsers:
+
 The window object is at the top of the DOM hierarchy and controls the
-environment that contains the document.<br>
-<br>
+environment that contains the document.
+
 The history object keeps internal details about the recent history of
-pages in the browser.<br>
-<br>
+pages in the browser.
+
 The history object has methods for letting you simulate clicking the
-back or forward buttons in a browser.<br>
-<br>
-The location object contains information about the URL of a page.<br>
-<br>
+back or forward buttons in a browser.
+
+The location object contains information about the URL of a page.
+
 The navigator is an object representation of the client Internet browser
-(user agent).<br>
-<br>
+(user agent).
+
 There is no standard that applies to the navigator object, so the
 property values returned when running queries on the navigator object
-are not consistent across browsers.<br>
-<br>
+are not consistent across browsers.
+
 The screen object is used to derive information about a user's screen,
-such as the dimensions of the display screen.<br>
-<br>
+such as the dimensions of the display screen.
+
 The screen object is useful for determining the screen size of browser
-windows that run on mobile devices.<br>
-<br>
-The document object provides access to all HTML elements within a page.<br>
-<br>
+windows that run on mobile devices.
+
+The document object provides access to all HTML elements within a page.
+
 Each HTML document that gets loaded into a window becomes a document
-object.<br>
-<br>
+object.
+
 The window object is the outermost global container of all the objects
-in the DOM hierarchy.<br>
-<br>
+in the DOM hierarchy.
+
 When the browser loads a page, a window object is automatically created
-for you.<br>
-<br>
+for you.
+
 You can then access the window object properties and functions from your
 JavaScript code.
 
@@ -3801,19 +3822,19 @@ JavaScript code.
 </div>
 
 In client-side JavaScript, the Window object serves as the global object
-and everything in the DOM takes place in a window.<br>
-<br>
-A number of predefined methods exist for the window object.<br>
-<br>
+and everything in the DOM takes place in a window.
+
+A number of predefined methods exist for the window object.
+
 The window.alert, window.confirm, and window.prompt dialogs that are
-used in web pages, come from the global window object.<br>
-<br>
+used in web pages, come from the global window object.
+
 You can leave out the window prefix for methods in the DOM API. So the
 window.alert method can be coded more simply as alert with a message
-argument.<br>
-<br>
-This figure shows the object model for a simple HTML document.<br>
-<br>
+argument.
+
+This figure shows the object model for a simple HTML document.
+
 Notice how the object hierarchy matches the HTML containment hierarchy
 on the left.
 
@@ -3838,13 +3859,13 @@ corresponds to the structure of the HTML document.
   style="width:65%;margin-left:16px;margin-right:16px;">
 </div>
 
-The branches of the tree structure are termed nodes.<br>
-<br>
+The branches of the tree structure are termed nodes.
+
 There are two types of nodes in the W3C DOM, element nodes and text
-nodes.<br>
-<br>
-All HTML tags (html, head, meta, title, and body) are element nodes.<br>
-<br>
+nodes.
+
+All HTML tags (html, head, meta, title, and body) are element nodes.
+
 The nodes that contain actual text that go between an element start tag
 and end tag, are text nodes.
 
@@ -3858,8 +3879,8 @@ and end tag, are text nodes.
 </div>
 
 The figure shows the DOM level 2 tree for the FORM portion of the
-document.<br>
-<br>
+document.
+
 The line feeds between elements are text nodes and are part of the DOM
 level 2 tree.
 
@@ -3873,21 +3894,20 @@ level 2 tree.
 </div>
 
 The DOM level 2 tree includes a line feed text node before the paragraph
-and input elements.<br>
-<br>
+and input elements.
+
 The input element includes a text node that contains all the text that
-follows the input tag.<br>
-<br>
-An additional line feed text node follows the input element.<br>
-<br>
+follows the input tag.
+
+An additional line feed text node follows the input element.
+
 The DOM level 0 for the form portion of the document would have only the
-form, p, and input boxes.<br>
-<br>
+form, p, and input boxes.
+
 The DOM level 2 adds the carriage returns, tabs, and spaces, sometimes
-referred to as "white space".<br>
-<br>
-In this section, you learned:<br>
-<br>
+referred to as "white space".
+
+In this section, you learned:
 
 -   The document object model (DOM) is the programming interface between
     HTML or XHTML and JavaScript.
@@ -3930,18 +3950,18 @@ After reading this section, you will be able to:
 </div>
 
 The W3C DOM level 2 defines 12 different types of nodes, seven of which
-have direct applicability in HTML documents.<br>
-<br>
-Node types that are not applicable to HTML are omitted from the table.<br>
-<br>
+have direct applicability in HTML documents.
+
+Node types that are not applicable to HTML are omitted from the table.
+
 This table is of interest so that when you view a DOM tree, you
-understand the meaning of the numeric node types.<br>
-<br>
+understand the meaning of the numeric node types.
+
 Each node type is a named constant that is also represented by an
-integer value.<br>
-<br>
-For example:<br>
-<br>
+integer value.
+
+For example:
+
 An ELEMENT_NODE type is represented by the integer 1.
 
 <!------------------------------------------------------------------------------------------------>
@@ -3953,23 +3973,23 @@ An ELEMENT_NODE type is represented by the integer 1.
   style="width:65%;margin-left:16px;margin-right:16px;">
 </div>
 
-An ATTRIBUTE_NODE type is represented by the integer 2.<br>
-<br>
-A TEXT_NODE type is represented by the integer 3.<br>
-<br>
-A COMMENT_NODE is represented by the integer 8.<br>
-<br>
+An ATTRIBUTE_NODE type is represented by the integer 2.
+
+A TEXT_NODE type is represented by the integer 3.
+
+A COMMENT_NODE is represented by the integer 8.
+
 In the DOM tree, the node name for ELEMENT_NODE type is the name of the
-element or tag.<br>
-<br>
-For example, if you are looking at a DIV element, the node name is DIV.<br>
-<br>
+element or tag.
+
+For example, if you are looking at a DIV element, the node name is DIV.
+
 If the DIV element has an attribute like id=div123, then the attribute
 name is "id" and the attribute value is "div123", which is the
-name-value pair.<br>
-<br>
-Another example:<br>
-<br>
+name-value pair.
+
+Another example:
+
 If a paragraph element is followed by some text, the text string has a
 node name of hash-sign-text, and the node value is the text string
 itself.
@@ -3984,8 +4004,8 @@ itself.
 </div>
 
 The table lists some of the DOM Level 2 node object properties and
-corresponding data types.<br>
-<br>
+corresponding data types.
+
 You see these properties when you view a DOM tree for an HTML page in a
 browser's developer tools, like Chrome's DevTools.
 
@@ -3994,20 +4014,20 @@ browser's developer tools, like Chrome's DevTools.
 <!------------------------------------------------------------------------------------------------>
 <div class="sample">
 <img src="/images/image102.png?raw=true"
-  alt="Accessing document elements, #1."
+  alt="Accessing Document Elements #1."
   style="width:65%;margin-left:16px;margin-right:16px;">
 </div>
 
-How do you access the elements on an HTML page with the DOM API?<br>
-<br>
+How do you access the elements on an HTML page with the DOM API?
+
 When the document is loaded, the browser creates arrays for forms,
-images, anchors, links, applets, and embeds.<br>
-<br>
-It then places all the objects of each type into these arrays.<br>
-<br>
+images, anchors, links, applets, and embeds.
+
+It then places all the objects of each type into these arrays.
+
 The arrays are indexed as they occur in the source document. The first
-index of each array starts at zero.<br>
-<br>
+index of each array starts at zero.
+
 Each of the array types, such as forms[], contains an array of
 elements[] with each index element being the fields or buttons that
 occur in that form.
@@ -4017,7 +4037,7 @@ occur in that form.
 <!------------------------------------------------------------------------------------------------>
 <div class="sample">
 <img src="/images/image103.png?raw=true"
-  alt="Accessing document elements, #2."
+  alt="Accessing Document Elements #2."
   style="width:65%;margin-left:16px;margin-right:16px;">
 </div>
 
@@ -4029,7 +4049,7 @@ position as document.forms[0].elements[0].
 <!------------------------------------------------------------------------------------------------>
 <div class="sample">
 <img src="/images/image104.png?raw=true"
-  alt="Accessing document elements, #3."
+  alt="Accessing Document Elements #3."
   style="width:65%;margin-left:16px;margin-right:16px;">
 </div>
 
@@ -4042,19 +4062,19 @@ shortened document.form1.field1.
 <!------------------------------------------------------------------------------------------------>
 <div class="sample">
 <img src="/images/image105.png?raw=true"
-  alt="Accessing document elements, #4."
+  alt="Accessing Document Elements"
   style="width:65%;margin-left:16px;margin-right:16px;">
 </div>
 
 Since only one document can be contained in a window, shown by the
 dashed line in the figure, you can leave out the window prefix. However,
-you cannot omit the document prefix from the referenced object.<br>
-<br>
-The id attribute identifies an element in a document.<br>
-<br>
+you cannot omit the document prefix from the referenced object.
+
+The id attribute identifies an element in a document.
+
 The id attribute of an element is used by scripts to refer to the
-element with a name that matches the value of the id attribute.<br>
-<br>
+element with a name that matches the value of the id attribute.
+
 In order to assign a scriptable reference name to an HTML element with
 the id attribute, use the following conventions:
 
@@ -4067,20 +4087,20 @@ the id attribute, use the following conventions:
   style="width:65%;margin-left:16px;margin-right:16px;">
 </div>
 
-The id must be a unique name in the document.<br>
-<br>
-The name must be in quotation marks when assigned to the id attribute.<br>
-<br>
-The name must not start with a numeric digit.<br>
-<br>
+The id must be a unique name in the document.
+
+The name must be in quotation marks when assigned to the id attribute.
+
+The name must not start with a numeric digit.
+
 The function that is used to return a node object that matches the id
 value is document.getElementById with the name of the id as a parameter
-argument.<br>
-<br>
+argument.
+
 It is suggested that the same value is used for both the id and the name
-attribute (seen earlier) when both are used.<br>
-<br>
-In this section, you learned:<br>
+attribute (seen earlier) when both are used.
+
+In this section, you learned:
 
 -   How to work with DOM objects in JavaScript, including:
 
@@ -4091,9 +4111,9 @@ In this section, you learned:<br>
 <!---------------------------------------- 4.6 js: apis ------------------------------------------>
 <h3 id="ch4-6">4.6 JavaScript APIs</h3>
 
-Hello. Welcome to JavaScript APIs.<br>
-<br>
-After reading this section, you will be able to:<br>
+Hello. Welcome to JavaScript APIs.
+
+After reading this section, you will be able to:
 
 -   Explain how to work with nodes,
 
@@ -4121,8 +4141,8 @@ properties that are commonly used when working with HTML pages.
 </div>
 
 Some of these common APIs used in when accessing HTML DOM elements in
-web pages are seen on the slide.<br>
-<br>
+web pages are seen on the slide.
+
 DOM elements are reviewed next.
 
 <!------------------------------------------------------------------------------------------------>
@@ -4136,22 +4156,22 @@ DOM elements are reviewed next.
 
 To retrieve a node reference for an element of a document given an id,
 use the document.getElementById function and pass the id value as an
-argument.<br>
-<br>
+argument.
+
 This returns one specific HTML or XML element if a matching unique id is
-found on the web page.<br>
-<br>
+found on the web page.
+
 The getElementsByTagName function retrieves a NodeList of elements with
-a specified tag name.<br>
-<br>
-The NodeList contains an array of elements in your document.<br>
-<br>
+a specified tag name.
+
+The NodeList contains an array of elements in your document.
+
 You provide the name of the element you are interested in and an array
-of all elements with that name found in the document is returned.<br>
-<br>
+of all elements with that name found in the document is returned.
+
 For HTML elements, the tagName parameter is the literal name of the HTML
-tag.<br>
-<br>
+tag.
+
 If you run the function getElementsByTagName with a "p" as a parameter
 argument, a NodeList of all the paragraphs in the document is returned.
 
@@ -4160,28 +4180,28 @@ argument, a NodeList of all the paragraphs in the document is returned.
 <!------------------------------------------------------------------------------------------------>
 <div class="sample">
 <img src="/images/image109.png?raw=true"
-  alt="Example: retrieving all images."
+  alt="Example: Retrieving All Images."
   style="width:65%;margin-left:16px;margin-right:16px;">
 </div>
 
 This example shows how you can retrieve all the image elements from a
 web page by using the getElementsByTagName function and passing "img" as
-the parameter argument.<br>
-<br>
-The result is a NodeList that is assigned to the variable imgSet.<br>
-<br>
+the parameter argument.
+
+The result is a NodeList that is assigned to the variable imgSet.
+
 In the next part of the code, you loop through the nodeList and
-concatenate the results into a DOM output stream.<br>
-<br>
+concatenate the results into a DOM output stream.
+
 The src attribute is a common property for the img tag. The src
-attribute indicates the location of the image source.<br>
-<br>
+attribute indicates the location of the image source.
+
 The document.write() function adds the script-generated HTML to the
-document.<br>
-<br>
+document.
+
 You can use the DOM API function document.createElement(TagName) to
-create an element in the current document.<br>
-<br>
+create an element in the current document.
+
 After creating the element, you can use any of a number of functions to
 place the element in the appropriate location within the document.
 
@@ -4203,17 +4223,17 @@ into the document.
 <!------------------------------------------------------------------------------------------------>
 <div class="sample">
 <img src="/images/image111.png?raw=true"
-  alt="Example: adding a node."
+  alt="Example: Adding a Node."
   style="width:65%;margin-left:16px;margin-right:16px;">
 </div>
 
-This example shows the source code for adding a node to a document.<br>
-<br>
+This example shows the source code for adding a node to a document.
+
 A new paragraph element is being created that includes a text node with
-the string "Hello world!"<br>
-<br>
-The text node is then appended as a child of the paragraph element.<br>
-<br>
+the string "Hello world!"
+
+The text node is then appended as a child of the paragraph element.
+
 Finally, the entire paragraph with text is appended as a child node at
 the end of the body node of the HTML page.
 
@@ -4227,27 +4247,27 @@ the end of the body node of the HTML page.
 </div>
 
 The function element.innerHTML retrieves or sets the contents of an HTML
-element.<br>
-<br>
-The innerHTML property returns all child elements as a text string.<br>
-<br>
+element.
+
+The innerHTML property returns all child elements as a text string.
+
 With the element.innerHTML function, you can change the contents of an
-HTML element, by setting it to a text string that can include HTML tags.<br>
-<br>
+HTML element, by setting it to a text string that can include HTML tags.
+
 Setting the innerHTML value of an element to a string removes all of the
 current child elements. The browser then parses the string and sets the
-contents of the HTML element.<br>
-<br>
+contents of the HTML element.
+
 You can use the element.style method to retrieve or set the inline CSS
-style for a particular element.<br>
-<br>
+style for a particular element.
+
 If you use element.style to set the style of an element, it overrides
-any setting from a CSS style sheet with one specific style.<br>
-<br>
+any setting from a CSS style sheet with one specific style.
+
 The way to set the style in JavaScript is with the format
-element.style.propertyName = value.<br>
-<br>
-For example, if you had an element &lt;div style="color:blue"&gt;.
+element.style.propertyName = value.
+
+For example, if you had an element <div style="color:blue">.
 
 <!------------------------------------------------------------------------------------------------>
 <!---------------------------- 113. modifying the inline style (107) ----------------------------->
@@ -4262,9 +4282,7 @@ Here the &lt;div&gt; tag is used to group block-elements to format them with
 a color style. You can change the style of this div tag with the
 JavaScript statement:
 
-```
 div.style.color = 'red';
-```
 
 <!------------------------------------------------------------------------------------------------>
 <!---------------------------- 114. modifying the inline style (108) ----------------------------->
@@ -4275,7 +4293,10 @@ div.style.color = 'red';
   style="width:65%;margin-left:16px;margin-right:16px;">
 </div>
 
-In contrast, the element.setAttribute('style', ...) wipes out all previously set inline CSS styles.
+In contrast, the element.setAttribute('style', ...) wipes out all
+previously set inline CSS
+
+styles.
 
 <!------------------------------------------------------------------------------------------------>
 <!------------------------------- 115. modifying attributes (108) -------------------------------->
@@ -4287,72 +4308,72 @@ In contrast, the element.setAttribute('style', ...) wipes out all previously set
 </div>
 
 The function element.setAttribute with parameters(attrName, attrValue)
-dynamically modifies the attribute of an element.<br>
-<br>
+dynamically modifies the attribute of an element.
+
 In the example, the src attribute of an element with an id of theImage
-is set to a different target image.<br>
-<br>
+is set to a different target image.
+
 The function element.removeAttribute(attrName) removes an attribute from
-an element.<br>
-<br>
+an element.
+
 The function element.getAttribute(attrName) retrieves the value of the
-specified attribute in the element, if it exists.<br>
+specified attribute in the element, if it exists.
 
 <!------------------------------------------------------------------------------------------------>
 <!------------------------- 116. window object methods and events (109) -------------------------->
 <!------------------------------------------------------------------------------------------------>
 <div class="sample">
 <img src="/images/image116.png?raw=true"
-  alt=""Window object methods and events."
+  alt=""Window Object Methods and Events."
   style="width:65%;margin-left:16px;margin-right:16px;">
 </div>
 
 Here are some window object functions and events.
 
 <!------------------------------------------------------------------------------------------------>
-<!----------------------- 117. window object functions and events (109) -------------------------->
+<!---------------------- 117.  window object methods and events #2 (109) ------------------------->
 <!------------------------------------------------------------------------------------------------>
 <div class="sample">
 <img src="/images/image117.png?raw=true"
-  alt="Window object functions and events."
+  alt="Window Object methods and events."
   style="width:65%;margin-left:16px;margin-right:16px;">
 </div>
 
-To open a new browser window, use the window.open() function.<br>
-<br>
-This method returns a reference to the new window object.<br>
-<br>
+To open a new browser window, use the window.open() function.
+
+This method returns a reference to the new window object.
+
 You can use this reference later to close the window, with the
-reference_name followed by the close() function.<br>
-<br>
-The parameters of the window.open function are:<br>
-<br>
+reference_name followed by the close() function.
+
+The parameters of the window.open function are:
+
 URL - A string that indicates the location of the web page to be
-displayed in the new window.<br>
-<br>
+displayed in the new window.
+
 You can pass an empty string if you are going to write some script-
-generated content to the new window in the current URL context.<br>
-<br>
-Name - A string that specifies the name of the window.<br>
-<br>
+generated content to the new window in the current URL context.
+
+Name - A string that specifies the name of the window.
+
 Features - An optional string that specifies the features of the window,
 such as its placement and dimensions. The features string is a
-comma-separated list of name- value pairs.<br>
-<br>
+comma-separated list of name- value pairs.
+
 Replace -- An optional boolean value. If true, the new location replaces
-the current page in the browser history.<br>
-<br>
+the current page in the browser history.
+
 The window.onload function can be used to start a function after the
-page is loaded.<br>
-<br>
+page is loaded.
+
 The function, window.dump("message") writes a string into the console
-for the web browser.<br>
-<br>
+for the web browser.
+
 The dump() function is a less intrusive way to display diagnostic
-information than the alert() method.<br>
-<br>
+information than the alert() method.
+
 Finally, the window.scrollTo(x-value, y-value) scrolls the web browser
-to a particular set of coordinates on a page.<br>
+to a particular set of coordinates on a page.
 
 <!------------------------------------------------------------------------------------------------>
 <!-------------------------- 118. example: using window.onload (110) ----------------------------->
@@ -4375,48 +4396,47 @@ loads the web page.
   style="width:65%;margin-left:16px;margin-right:16px;">
 </div>
 
-In the example, the onload event causes an anonymous function to run.<br>
-<br>
-This function, in turn, runs the function addPara().<br>
-<br>
-In this section, you learned:<br>
+In the example, the onload event causes an anonymous function to run.
+This function, in turn, runs the function addPara().
+
+In this section, you learned:
 
 -   You can retrieve a reference to a node using:
 
 document.getElementById(id) - Returns one specific element that is based
-on the id attribute.<br>
+on the id attribute.
 
 document.getElementsByTagName(tagName) - retrieves a of elements with
-the specified tag.<br>
+the specified tag.
 
--   You can create an element using:<br>
+-   You can create an element using:
 
-document.createElement(TagName).<br>
+document.createElement(TagName).
 
--   And place it using:<br>
+-   And place it using:
 
-insertBefore, appendChild, or replaceChild.<br>
+insertBefore, appendChild, or replaceChild.
 
 -   You can modify elements using:
 
-element.innerHTML to retrieve or set the contents of an HTML element.<br>
+element.innerHTML to retrieve or set the contents of an HTML element.
 
-element.style to retrieve or set the inline CSS style.<br>
+element.style to retrieve or set the inline CSS style.
 
-element.setAttribute to modify the attributes of an element.<br>
+element.setAttribute to modify the attributes of an element.
 
--   You can manage a window object using functions including:<br>
+-   You can manage a window object using functions including:
 
 window.open to return reference to a new window object for the web
-browser.<br>
+browser.
 
 window.dump("message") to write a string into the console for the web
-browser.<br>
+browser.
 
 This is not an exhaustive list -- many more functions exist that enable
-you to work with HTML elements and nodes.<br>
+you to work with HTML elements and nodes.
 
-Window Object Methods & Events<br>
+Window Object Methods & Events
 
 <!------------------------------------ 4.7 chapter 4 summary ------------------------------------->
 <h3 id="ch4-7">4.7 Chapter 4 Summary</h3>
@@ -4449,33 +4469,25 @@ In this module, you learned that:
 <!----------------------------------- 5.1 overview of github ------------------------------------->
 <h3 id="ch5-1">5.1 Overview of GitHub</h3>
 
-Web and Cloud App developers rarely work alone. <br>
-<br>
-Large projects will include many people -- front-end developers, back-end developers,
-database administrators, and repository administrators. <br>
-<br>
-Every change by every contributor must be tracked and controlled to enable the changes
+Web and Cloud App developers rarely work alone. Large projects will
+include many people -- front-end developers, back-end developers,
+database administrators, and repository administrators. Every change by
+every contributor must be tracked and controlled to enable the changes
 to be merged seamlessly, to allow for potential rollbacks, and for
-accountability. <br>
-<br>
-This type of distributed version control is extremely important when managing large software projects.<br>
-<br>
-Git, GitHub, and Git Lab are some of the most widely used tools for collaboration, storage,
-and version control.<br>
-<br>
-Web and Cloud App developers rarely work alone. <br>
-<br>
-Large projects will include many people -- front-end developers, back-end developers,
-database administrators, and repository administrators. <br>
-<br>
-Every change by every contributor must be tracked and controlled to enable the changes
-to be merged seamlessly, to allow for potential rollbacks, and for accountability. <br>
-<br>
-This type of distributed version control is extremely important when managing large software projects. <br>
-<br>
-Git, GitHub, and Git Lab are some of the most widely used tools for collaboration, storage,
-and version control.<br>
-<br>
+accountability. This type of distributed version control is extremely
+important when managing large software projects. Git, GitHub, and Git
+Lab are some of the most widely used tools for collaboration, storage,
+and version control.
+
+Web and Cloud App developers rarely work alone. Large projects will
+include many people -- front-end developers, back-end developers,
+database administrators, and repository administrators. Every change by
+every contributor must be tracked and controlled to enable the changes
+to be merged seamlessly, to allow for potential rollbacks, and for
+accountability. This type of distributed version control is extremely
+important when managing large software projects. Git, GitHub, and Git
+Lab are some of the most widely used tools for collaboration, storage,
+and version control. 
 After completing this module, you will be able to: 
 
 -   Define distributed version control,
@@ -4494,8 +4506,8 @@ After completing this module, you will be able to: 
 In this module, you'll get an overview of Git and GitHub, which are
 popular environments among developers and data scientists for performing
 version control of source code files and projects and collaborating with
-others. <br>
-<br>
+others. 
+
 You can't talk about Git and GitHub without a basic understanding of
 what version control is. 
 
@@ -4504,7 +4516,7 @@ what version control is. 
 <!------------------------------------------------------------------------------------------------>
 <div class="sample">
 <img src="/images/image120.png?raw=true"
-  alt="Version control defined."
+  alt="Version Control."
   style="width:65%;margin-left:16px;margin-right:16px;">
 </div>
 
@@ -4523,11 +4535,11 @@ you make a mistake, and it makes collaboration with others much easier. 
   style="width:65%;margin-left:16px;margin-right:16px;">
 </div>
 
-Here is an example to illustrate how version control works.<br>
-<br>
+Here is an example to illustrate how version control works. 
+
 Let's say you've got a shopping list and you want your roommates to
-confirm the things you need and add additional items.<br>
-<br>
+confirm the things you need and add additional items. 
+
 Without version control, you've got a big mess to clean up before you
 can go shopping. 
 
@@ -4553,24 +4565,24 @@ contributed their ideas. 
 </div>
 
 Git is free and open source software distributed under the GNU General
-Public License.<br>
-<br>
+Public License. 
+
 Git is a distributed version control system, which means that users
 anywhere in the world can have a copy of your project on their own
 computer; when they've made changes, they can sync their version to a
-remote server to share it with you.<br>
-<br>
+remote server to share it with you. 
+
 Git isn't the only version control system out there, but the distributed
 aspect is one of the main reasons it's become one of the most common
-version control systems available. <br>
-<br>
+version control systems available. 
+
 Version control systems are widely used for things involving code, but
 you can also version control images, documents, and any number of file
-types. <br>
-<br>
+types. 
+
 You can use Git without a web interface by using your command line
 interface, but GitHub is one of the most popular web-hosted services for
-Git repositories.
+Git repositories. 
 
 <!------------------------------------------------------------------------------------------------>
 <!----------------------------- 124. git logos: git + github (116) ------------------------------->
@@ -4596,16 +4608,16 @@ get started. 
 </div>
 
 The SSH protocol is a method for secure remote login from one computer
-to another.<br>
-<br>
+to another. 
+
 A repository contains your project folders that are set up for version
-control.<br>
-<br>
-A fork is a copy of a repository.<br>
-<br>
+control. 
+
+A fork is a copy of a repository. 
+
 A pull request is the way you request that someone reviews and approves
-your changes before they become final.<br>
-<br>
+your changes before they become final. 
+
 A working directory contains the files and subdirectories on your
 computer that are associated with a Git repository. 
 
@@ -4618,31 +4630,31 @@ computer that are associated with a Git repository. 
   style="width:65%;margin-left:16px;margin-right:16px;">
 </div>
 
-There are a few basic <b>Git</b> commands that you will always use.<br>
-<br>
+There are a few basic <b>Git</b> commands that you will always use. 
+
 When starting out with a new repository, you only need create it once:
 either locally, and then push to GitHub, or by cloning an existing
-repository by using the command <b>"git init"</b>.<br>
-<br>
+repository by using the command <b>"git init"</b>.
+
 <b>"git add"</b> moves changes from the working directory to the staging
-area.<br>
-<br>
+area. 
+
 <b>"git status"</b> allows you to see the state of your working directory and
-the staged snapshot of your changes.<br>
-<br>
+the staged snapshot of your changes. 
+
 <b>"git commit"</b> takes your staged snapshot of changes and commits them to
-the project. <br>
-<br>
+the project. 
+
 <b>"git reset"</b> undoes changes that you've made to the files in your
-working directory. <br>
-<br>
-<b>"git log"</b> enables you to browse previous changes to a project. <br>
-<br>
+working directory. 
+
+<b>"git log"</b> enables you to browse previous changes to a project. 
+
 <b>"git branch"</b> lets you create an isolated environment within your
-repository to make changes. <br>
-<br>
-<b>"git checkout"</b> lets you see and change existing branches. <br>
-<br>
+repository to make changes. 
+
+<b>"git checkout"</b> lets you see and change existing branches. 
+
 <b>"git merge"</b> lets you put everything back together again. 
 
 <!------------------------------------------------------------------------------------------------>
@@ -4656,37 +4668,36 @@ repository to make changes. <br>
 
 To learn how to use Git effectively and begin collaborating with data
 scientists around the world, you will need to learn the essential
-commands. <br>
-<br>
+commands. 
+
 Luckily for us, GitHub has amazing resources available to help you get
-started. <br>
-<br>
+started. 
+
 Go to try.github.io to download the cheat sheets and run through the
-tutorials. <br>
-<br>
+tutorials. 
+
 In the following modules, we'll give you a crash course on setting up
 your local environment and getting started on a project. 
 
 <h3>Introduction to GitHub</h3>
 
-Welcome to Introduction to GitHub. <br>
-<br>
-After reading this module, you will be able to: <br>
+Welcome to Introduction to GitHub. 
+
+After reading this module, you will be able to: 
 
 -   Describe the purpose of source repositories. 
 
 -   Explain how GitHub satisfies the needs of a source repository. 
 
-<br>
 Linux development in the early 2000's was managed under a free-to-use
-system known as BitKeeper. <br>
-<br>
+system known as BitKeeper. 
+
 In 2005, BitKeeper changed to a for-fee system which was problematic for
-Linux developers for many reasons. <br>
-<br>
+Linux developers for many reasons. 
+
 Linus Torvalds led a team to develop a replacement source-version
-control system. <br>
-<br>
+control system. 
+
 The project ran in short time frames and the key characteristics were
 defined by a small group. 
 
@@ -4699,29 +4710,29 @@ defined by a small group. 
   style="width:65%;margin-left:16px;margin-right:16px;">
 </div>
 
-These include: <br>
+These include: 
 
 -   Strong support for non-linear development. 
 
 (Linux patches were then arriving at a rate of 6.7 patches per second) 
-<br>
+
 -   Distributed development. 
 
 Each developer can have a local copy of the full development history. 
-<br>
+
 -   Compatibility with existing systems and protocols. 
 
 This was necessary to acknowledge the diversity of the Linux community. 
-<br>
+
 -   Efficient handling of large projects. 
 
 -   Cryptographic authentication of history. 
 
 This makes certain that distributed systems all have identical code
 updates. 
-<br>
--   Pluggable merge strategies. <br>
-<br>
+
+-   Pluggable merge strategies. 
+
 Many pathways of development can lead to complex integration decisions
 that might require explicit integration strategies. 
 
@@ -4755,33 +4766,33 @@ support non-linear workflows. 
 Created in 2005 by Linus Torvalds for distribution of Linux kernels. 
 
 Git is a distributed version-control system that is used to track
-changes to content. <br>
-<br>
+changes to content. 
+
 It serves as a central point for collaboration with a particular focus
-on agile development methodologies. <br>
-<br>
+on agile development methodologies. 
+
 In a central version control system, every developer needs to check out
-code from the central system and commit back into it. <br>
-<br>
+code from the central system and commit back into it. 
+
 As Git is a distributed version control, each developer has a local copy
 of the full development history, and changes are copied from one such
-repository to another. Each developer can act as a hub. <br>
-<br>
+repository to another. Each developer can act as a hub. 
+
 When Git is used correctly, there is a main branch that corresponds to
-the deployable code. <br>
-<br>
+the deployable code. 
+
 Teams can continuously integrate changes that are ready to be released
-and can simultaneously work on separate branches in between releases. <br>
-<br>
+and can simultaneously work on separate branches in between releases. 
+
 Git also allows centralized administration of tasks with access-level
-controls for each team. <br>
-<br>
+controls for each team. 
+
 Git can co-exist locally such as through the GitHub Desktop client or it
 can be used directly through a browser connected to the GitHub web
-interface. <br>
-<br>
+interface. 
+
 IBM Cloud is based on sound and established open-source tools including
-Git repositories, often called repos. <br>
+Git repositories, often called repos. 
 
 <!------------------------------------------------------------------------------------------------>
 <!---------------------------------- 131. what is github? (122) ---------------------------------->
@@ -4792,15 +4803,15 @@ Git repositories, often called repos. <br>
   style="width:65%;margin-left:16px;margin-right:16px;">
 </div>
 
-GitHub is an online hosting service for Git repositories. <br>
-<br>
-GitHub hosted by a subsidiary of Microsoft. <br>
-<br>
-GitHub offers free, professional and enterprise accounts. <br>
-<br>
-As of August 2019, GitHub had over 100M repositories. <br>
-<br>
-A Repository is: <br>
+GitHub is an online hosting service for Git repositories. 
+
+GitHub hosted by a subsidiary of Microsoft. 
+
+GitHub offers free, professional and enterprise accounts. 
+
+As of August 2019, GitHub had over 100M repositories. 
+
+A Repository is: 
 
 -   A data structure for storing documents including application source
     code. 
@@ -4876,30 +4887,30 @@ After reading this section, you will be able to:</p>
   style="width:65%;margin-left:16px;margin-right:16px;">
 </div>
 
-Start at the GitHub site, https://github.com<br>
-<br>
+Start at the GitHub site, https://github.com
+
 You'll need to choose a username, enter your email address and select a
-password, then click Sign up for GitHub.<br>
-<br>
-Next, you'll have a short test to prove that you're a person.<br>
-<br>
-Click Verify and solve the puzzle presented.<br>
-<br>
+password, then click Sign up for GitHub.
+
+Next, you'll have a short test to prove that you're a person.
+
+Click Verify and solve the puzzle presented.
+
 When you're done, click Join a free plan and then you'll be taken to a
 screen where you can select the type of account -- most likely a free,
-personal account is all that you'll want.<br>
-<br>
-Choose to set up a personal, free account, which is the default.<br>
-<br>
+personal account is all that you'll want.
+
+Choose to set up a personal, free account, which is the default.
+
 GitHub asks some questions about your work, programming experience and
-interests.<br>
-<br>
-You can skip these if you want.<br>
-<br>
+interests.
+
+You can skip these if you want.
+
 Finally, you'll have to respond to an email that you receive which
 proves that you linked to GitHub from an account that you access GitHub
-provides you with some starting points.<br>
-<br>
+provides you with some starting points.
+
 You can choose to create a repository or an organization, or you can
 take the Introduction to GitHub course.
 
@@ -4914,28 +4925,28 @@ take the Introduction to GitHub course.
 
 Remember, a repository is a data structure for storing documents
 including application source code which tracks and maintains
-version-control.<br>
-<br>
-An organization is a collection of user accounts that owns repositories.<br>
-<br>
+version-control.
+
+An organization is a collection of user accounts that owns repositories.
+
 Organizations have one or more owners, who have administrative
-privileges for the organization.<br>
-<br>
-Or you can skip this for now and get straight to work.<br>
-<br>
+privileges for the organization.
+
+Or you can skip this for now and get straight to work.
+
 GitHub provides many resources to help you work effectively. When you
-have time, read the GitHub guide.<br>
-<br>
-The heart of a Git-based project is the repository.<br>
-<br>
+have time, read the GitHub guide.
+
+The heart of a Git-based project is the repository.
+
 This contains all your code and the related artifacts, including things
-like:<br>
+like:
 
 -   a README file to describe the purpose of the project.
 
 -   A license to express the ways in which people can use your code,
-    Etc.<br>
-<br>
+    Etc.
+
 You can also make your repository private (only available to people with
 accounts that have permission to see it) or public (searchable and seen
 by everyone).
@@ -4950,38 +4961,38 @@ by everyone).
 </div>
 
 When you create your repository, you'll notice that it has a number of
-tabs, and is opened to the Code tab.<br>
-<br>
-Code -- this is where all the source files reside.<br>
-<br>
+tabs, and is opened to the Code tab.
+
+Code -- this is where all the source files reside.
+
 Git was initially created as a source code repository but now all sorts
-of files end up in here.<br>
-<br>
+of files end up in here.
+
 If you created a README and/or license, that's all that's here right
-now.<br>
+now.
 
 *Issues* -- as you continue, you can track and plan with tools such as
-"Issues" that lists all open items against your project base.<br>
-<br>
+"Issues" that lists all open items against your project base.
+
 *Pull Requests* -- this is part of the mechanism for collaborating with
-other users.<br>
-<br>
+other users.
+
 Pull requests define changes that are committed and ready for review
-before being merged into the main branch.<br>
-<br>
+before being merged into the main branch.
+
 *Projects* -- all the tools for managing, sorting, planning, etc. your
-various projects.<br>
-<br>
-This is the core of the collaborative power of GitHub.<br>
-<br>
+various projects.
+
+This is the core of the collaborative power of GitHub.
+
 *Wiki, Security,* and *Insights* -- often left for more advanced users,
-these tools provide a communication base to the external user community.<br>
-<br>
+these tools provide a communication base to the external user community.
+
 *Settings* -- GitHub allows for a lot of personalization, including
-changing the name of your repository and controlling access.<br>
-<br>
-In this section you learned:<br>
-<br>
+changing the name of your repository and controlling access.
+
+In this section you learned:
+
 -   How to create and verify a GitHub account.
 
 -   Repositories are storage structures that can hold Code, track
@@ -4990,14 +5001,14 @@ In this section you learned:<br>
 <!------------------------------------- 5.4 github branches -------------------------------------->
 <h3 id="ch5-4">5.4 GitHub Branches</h3>
 
-Welcome to GitHub Branches!<br>
-<br>
-After reading this section, you will be able to:<br>
+Welcome to GitHub Branches!
+
+After reading this section, you will be able to:
 
 -   Explain the purpose of branches and
 
 -   describe how to merge changes into branches.
-<br>
+
 All files in GitHub are stored on a branch.
 
 <!------------------------------------------------------------------------------------------------>
@@ -5010,16 +5021,16 @@ All files in GitHub are stored on a branch.
 </div>
 
 The master branch is definitive; it stores the deployable version of
-your code.<br>
-<br>
+your code.
+
 The master branch is created by default, however, you can use any branch
-as the main, finished, deployable version of the code.<br>
-<br>
+as the main, finished, deployable version of the code.
+
 When you plan to change things, you create a new branch and give it a
-descriptive name.<br>
-<br>
-The new branch starts as an exact copy of the original branch.<br>
-<br>
+descriptive name.
+
+The new branch starts as an exact copy of the original branch.
+
 As you make changes, the branch that you created holds the changed code.
 
 <!------------------------------------------------------------------------------------------------>
@@ -5031,24 +5042,26 @@ As you make changes, the branch that you created holds the changed code.
   style="width:65%;margin-left:16px;margin-right:16px;">
 </div>
 
-To create a new branch, click drop-down branch: master<br>
-<br>
-Add new branch name into new branch text and select Create branch.<br>
-<br>
-GitHub branches can be very complex for large software projects.<br>
-<br>
+To create a new branch, click drop-down branch: master
+
+Add new branch name into new branch text and select Create branch.
+
+GitHub branches can be very complex for large software projects.
+
 For a simple project, such as the ones we are exploring, consider the
-following:<br>
-<br>
-Start with a common base, the initial source for this project.<br>
-<br>
-At one point, the code is branched while new features are developed.<br>
-<br>
-In this example, both branches are undergoing changes.<br>
-<br>
+following:
+
+Start with a common base, the initial source for this project.
+
+At one point, the code is branched while new features are developed.
+
+In this example, both branches are undergoing changes.
+
 When the two streams of work are ready to merge, each branch's code is
-identified as a tip.<br>
-<br>
+identified
+
+as a tip.
+
 and the two tips are merged into a third, combined branch.
 
 <!------------------------------------------------------------------------------------------------>
@@ -5061,9 +5074,9 @@ and the two tips are merged into a third, combined branch.
 </div>
 
 Developers work on source files in a branch. Since some projects take a
-while, the source doesn't make sense right away.<br>
-<br>
-To change the contents of a file.<br>
+while, the source doesn't make sense right away.
+
+To change the contents of a file.
 
 1.  Select the file.
 
@@ -5073,23 +5086,22 @@ To change the contents of a file.<br>
 
 4.  Commit the changes.
 
-<br>
 When the developer has completed their assigned work, to save their
-changes, they commit the code.<br>
-<br>
+changes, they commit the code.
+
 Commit indicates that the developer is convinced that the code
 represents a stable platform for the feature or set of features being
-developed.<br>
-<br>
+developed.
+
 When a developer commits changed source to their path, they are required
-to write a comment that describes the changes.<br>
-<br>
-The comment should be meaningful and descriptive.<br>
-<br>
+to write a comment that describes the changes.
+
+The comment should be meaningful and descriptive.
+
 The developer can choose to commit to the current branch or create a new
-branch.<br>
-<br>
-Some rules:<br>
+branch.
+
+Some rules:
 
 -   Don't end the commit message with a period.
 
@@ -5108,21 +5120,22 @@ Some rules:<br>
 </div>
 
 Pull is used to initiate the merging of branches in a way to capture
-changes.<br>
-<br>
+changes.
+
 A pull request makes the proposed (committed) changes available for
-others to review and use.<br>
-<br>
-A pull can follow any commits, even if code is unfinished.<br>
-<br>
+others to review and use.
+
+A pull can follow any commits, even if code is unfinished.
+
 A pull requires a user to approve the changes. This can be the author of
-the change or it can be assigned within the team.<br>
+the change or it can be assigned within the team.
+
 Note that GitHub automatically makes a pull request on your behalf if
-you make a change on a branch that you do not own.<br>
-<br>
+you make a change on a branch that you do not own.
+
 Since the log files are immutable, it is always possible to find the
-person who approved the merge of the change.<br>
-<br>
+person who approved the merge of the change.
+
 To open a new pull request:
 
 <!------------------------------------------------------------------------------------------------>
@@ -5135,29 +5148,29 @@ To open a new pull request:
 </div>
 
 Click Pull request and select New pull request.
-<br>
+
 Select the new branch from the compare box.
-<br>
+
 Scroll down to view the changes.
-<br>
+
 Confirm that the changes are what you want to assess.
-<br>
+
 Add a title and description to the request.
-<br>
+
 Click Create pull request.
-<br>
+
 The intent of Git repositories is for the master branch to be the only
-deployed code.<br>
-<br>
+deployed code.
+
 Developers can change source files in a branch but the changes are not
-released until.<br>
-<br>
-They are committed.<br>
-<br>
-A pull command is issued.<br>
-<br>
-The code is reviewed and approved.<br>
-<br>
+released until.
+
+They are committed.
+
+A pull command is issued.
+
+The code is reviewed and approved.
+
 The approved code is merged back into the master code.
 
 <!------------------------------------------------------------------------------------------------>
@@ -5169,11 +5182,11 @@ The approved code is merged back into the master code.
   style="width:65%;margin-left:16px;margin-right:16px;">
 </div>
 
-To merge a committed code change into your master code.<br>
-<br>
-Click Merge pull request.<br>
-<br>
-Click Confirm merge.<br>
+To merge a committed code change into your master code.
+
+Click Merge pull request.
+
+Click Confirm merge.
 
 <!------------------------------------------------------------------------------------------------>
 <!------------------------------ 142. merge a pull request (131) --------------------------------->
@@ -5185,8 +5198,8 @@ Click Confirm merge.<br>
 </div>
 
 When all changes for a branch are complete, that branch is considered
-obsolete and it should be deleted.<br>
-<br>
+obsolete and it should be deleted.
+
 In this section, you learned:
 
 -   All files in GitHub exist on a branch.
@@ -5204,9 +5217,9 @@ In this section, you learned:
 -   More than one branch can be undergoing changes at the same time.
 
 -   Saved changes are called commits.
-<br>
+
 Pull requests enables other users to review and use the proposed changes
-(committed).<br>
+(committed).
 
 When you are ready to merge the changed code into the master branch, you
 merge the committed code changes into your master code.
@@ -5247,21 +5260,21 @@ After reading this section, you will be able to:
 
 GitHub has over existing 100M repositories, including some very useful
 projects.
-<br>
+
 Whether you are joining a team or basing your own project on prior work,
 some of the most powerful tools are forking and cloning a repository.
-<br>
+
 Cloning generally refers to creating a copy of a repository on your
 local machine.
-<br>
+
 Cloned copies can be kept in sync between the two locations.
-<br>
+
 Forking allows you to modify or extend a project without affecting the
 original project.
-<br>
+
 Frequently, this is used to take an existing project and make it the
 starting point for your new project.
-<br>
+
 To clone a GitHub repository, navigate to the repository that you want
 to clone.
 
@@ -5287,16 +5300,16 @@ Under the repository name, click Code.
 
 In the Clone with HTTPS section, click the clipboard button to copy the
 URL.
-<br>
+
 To download the source code, you can click Download zip, but without the
 version control information.
-<br>
+
 On your local machine, open a "Terminal" window and change to the
 directory where you want the clone to be copied.
-<br>
+
 Type "git clone" followed by pasting the URL that you copied above and
 then press ENTER to execute the cloning.
-<br>
+
 When you have made your changes and are ready to sync your code back to
 GitHub.
 
@@ -6231,7 +6244,7 @@ In this module, you learned that:</p>
 </ul>
 &nbsp;<br><br></li>
 </ul>
-<p><b><i>Last edited 11/26/2022 Sat 1:13am</i></b>
+<p><b><i>Last edited 11/25/2022 9:26pm</i></b>
 
 ...the end.
 </p>
