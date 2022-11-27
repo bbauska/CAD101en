@@ -123,48 +123,12 @@ body {
 }
 </style>
 
-<button onclick="topFunction()" id="myBtn" title="Go to top">Go to Top</button>
-
-<div style="background-color:darkgreen;color:white;padding:30px">Scroll Down</div>
-<div style="background-color:lightgrey;padding:30px 30px 1500px">  <!-- 2500px -->
-</div>
-<!--------------------------------------------------------->
-<!------------ script function: scrollFunction() ---------->
-<script>
-// Get the button
-var mybutton = document.getElementById("myBtn");
-
-// When the user scrolls down from the top of the document, show the button
-window.onscroll = function() {scrollFunction()};
-
-function scrollFunction() {
-  if (document.body.scrollTop > 5 || document.documentElement.scrollTop > 5) {
-    mybutton.style.display = "block";
-  } else {
-    mybutton.style.display = "none";
-  }
-}
-
-// When the user clicks on the button, scroll to the top of the document
-function topFunction() {
-  document.body.scrollTop = 0;
-  document.documentElement.scrollTop = 0;
-}
-</script>
-
-<!---------------------------------------------------------------------------------->
-
-<!--- Added 6/18/21  --->
-
-<script type = "text/javascript" src="/js/function.js"></script>  
-
-<!---- Drop down menu ----->
-<style>
-.dropBtn {
-  background-color: #04006D;  <!-- purple -->
+<!--------------------------------------- drop down menu ----------------------------------------->
+.dropbtn {
+  background-color: #04006D;
   color: white;
-  padding: 12px;
-  font-size: 12px;  <!-- 14px -->
+  padding: 14px;
+  font-size: 14px;  /* was 14 */
   border: none;
 }
 
@@ -176,28 +140,198 @@ function topFunction() {
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color: #f1f1f1;  <!-- off white -->
+  background-color: #f1f1f1;
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  font-size: 11px;
   z-index: 1;
 }
 
 .dropdown-content a {
-  color: #87bef0;  <!-- black -->
-  padding: 10px 14px;  <!-- 12px 16px -->
+  color: black;
+  padding: 12px 16px;
   text-decoration: none;
   display: block;
 }
 
-.dropdown-content a:hover {background-color: #ccc;}  <!-- grey -->
+.dropdown-content a:hover {background-color: #ccc;}
 
 .dropdown:hover .dropdown-content {display: block;}
 
-.dropdown:hover .dropBtn {background-color: #398e41;}  <!-- green -->
+.dropdown:hover .dropbtn {background-color: #398e41;}
 
+<!--------------------------------------- drop down menu ----------------------------------------->
+ h1 {
+  padding: 20px 0 0 0;
+  font-family: normal 1.4em verdana, tahoma, arial, sans-serif, helvetica;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  color: #acaf2c;		<!--- olive ---->
+  background: inherit;
+  text-align: center;
+}
+ h2 {
+  padding: 20px 0 0 0;
+  font: normal 1.4em verdana, calibri, arial, sans-serif, tahoma;
+  letter-spacing: 3px;
+  color: #3800aa;   <!--- dark purple --->
+  background: inherit;
+  text-align: left;
+}
+ h3 {
+  padding: 20px 0 0 0;
+  font: normal 1.4em frente, verdana, helvetica, arial, sans-serif;
+  letter-spacing: 3px;
+  color: #326908;    <!-- green ---->
+  background: inherit;
+  text-align: left;
+}
+ h4 {
+  padding: 20px 0 0 0;
+  font: normal 1.4em verdana, helvetica, arial, sans-serif;
+  <!---- frente, helvetica, garamond, futura, didot; --->
+  <!--- verdana, helvetica, arial, sans-serif --->
+  letter-spacing: 3px;
+  color: #900001 ;    <!-- red ---->
+  background: inherit;
+  text-align: left;
+}
+ h5 {
+  padding: 20px 0 0 0;
+  font: normal 1.4em frente, verdana, helvetica, arial, sans-serif;
+  letter-spacing: 3px;
+  color: #326908;    <!-- green ---->
+  background: inherit;
+  text-align: left;
+}
+ h6 {
+  padding: 20px 0 0 0;
+  font: normal 1.4em frente, verdana, helvetica, arial, sans-serif;
+  letter-spacing: 3px;
+  color: #326908;    <!-- green ---->
+  background: inherit;
+  text-align: left;
+}
+body {
+  font-family: "Avenir Next", Calibri, Verdana, sans-serif;
+}
+p {
+  margin: 15px;  /* 50px */
+}
+<!------ list item styles ------>
+ol.c {list-style-type: decimal;}
+ol.d {list-style-type: decimal-leading-zero;}
+ol.e {list-style-type: lower-roman;}
+ol.f {list-style-type: lower-alpha;}
+ol.g {list-style-type: lower-latin;
+}
+ul.a {list-style-type: circle;}
+ul.b {list-style-type: square;}
+
+ol.c {list-style-type: decimal;}
+ol.d {list-style-type: decimal-leading-zero;}
+ol.e {list-style-type: lower-roman;}
+ol.f {list-style-type: lower-alpha;}
+ol.g {list-style-type: lower-latin;
+}
+
+h1 {
+  padding: 20px 0 0 0;
+  font-family: normal Bahnschrift, Verdana, Helvetica, sans-serif, helvetica;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-size: 2.0em;
+  color: #acaf2c;		<!--- olive ---->
+  background: inherit;
+  text-align: center;
+}
+h2 {
+  padding: 18px 0 0 0;
+  font: normal 1.8em Bahnschrift, Verdana, Helvetica, sans-serif, tahoma;
+  letter-spacing: 3px;
+  color: #3800aa;   <!--- dark purple --->
+  background: inherit;
+  text-align: left;
+}
+h3 {
+  padding: 16px 0 0 0;
+  font: normal 1.6em Bahnschrift, Verdana, Helvetica, arial, sans-serif;
+  letter-spacing: 3px;
+<!---  color: #3899ff; light blue --->
+  color: #326908;    <!-- green ---->
+  background: inherit;
+  text-align: left;
+}
+h4 {
+  padding: 14px 0 0 0;
+  font: normal 1.4em Bahnschrift, Verdana, Helvetica, sans-serif;
+  <!---- frente, helvetica, garamond, futura, didot; --->
+  <!--- verdana, helvetica, arial, sans-serif --->
+  letter-spacing: 3px;
+  color: #900001 ;    <!-- red ---->
+  background: inherit;
+  text-align: left;
+}
+h5 {
+  padding: 12px 0 0 0;  /* -4px */
+  font: normal 1.3em Bahnschrift, Verdana, Helvetica, arial, sans-serif;
+  letter-spacing: 3px;
+  color: #326908;    <!-- green ---->
+  background: inherit;
+  text-align: left;
+}
+h6 {
+  padding: 11px 0 0 0;  /* 14px */
+  font: normal 1.3em Bahnschrift, Verdana, Helvetica, arial, sans-serif;
+  letter-spacing: 3px;
+  color: #326908;    <!-- green ---->
+  background: inherit;
+  text-align: left;
+}
+body {
+  font-family: Bahnschrift, Calibri, Verdana, sans-serif;
+}
 </style>
 </head>
+
 <body>
+<!------------------------------------------------------------------------------------------------>
+<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+<div style="background-color:black;color:white;padding:30px">Scroll Down</div>
+<div style="background-color:lightgrey;padding:30px 30px 750px"></div>
+<!------------------------------------------------------------------------------------------------>
+<!----------------- script function: scrollFunction() ------------------->
+<script>
+<!--- Added 6/18/21  --->
+
+<script type = "text/javascript" src="/js/function.js"></script>  
+
+//Get the button
+var mybutton = document.getElementById("myBtn");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 5 || document.documentElement.scrollTop > 5) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+<!----------------- function: topFunction() ------------------->
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>
+
+<!------------------------------------------------------------------------------------------------>
+<h4>Welcome to LFS171x: Introduction to Hyperledger Blockchain Technology</h4>
+<p>
+<!---------------------------------------------------------------------------------->
 
 <!---- <h2>Hoverable Dropdown Menu</h2> ---->
 <p>Move the mouse over the button to open the dropdown menu.</p>
