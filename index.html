@@ -7,10 +7,11 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
+background: linear-gradient(60deg, #3d3393 0%, #2b76b9 37%, #2cacd1 65%, #35eb93 100%);
 
 div.sample {
   color: green;
-  border: 1px blue;
+  border: 3px blue;
   margin-left: auto;
   margin-right: auto;
   justify-content: center;
@@ -25,31 +26,11 @@ h2 {
   font-size: 18px;
   text-align: center;
 }
-h3 {
-  font-family: Bahnschrift, Arial, Helvetic, sans-serif;
-  font-size: 16px;
-  text-align: left;
-}
-h4 {
-  font-family: Bahnschrift, Arial, Helvetic, sans-serif;
-  font-size: 14px;
-  text-align: left;
-}
 body {
   font-family: Bahnschrift, Arial, Helvetic, sans-serif;
-  font-size: 12px;
-  justify-content: left;
-  margin-left: auto;
-  margin-right: auto;
+  font-size: 14px;
 }
-
-#grad1 {
-  height: 1000px;
-<!--  background-image: linear-gradient(red, yellow, blue); -->
-  background: linear-gradient(60deg, #3d3393 0%, #2b76b9 37%, #2cacd1 65%, #35eb93 100%);
-
-}
-
+  
 </style>
 
 <head>
@@ -68,22 +49,22 @@ document.getElementById("demo").innerHTML = text;
 <!------------------------------------------------------------------------------------------------>
 <!----------------------------------------- 01. ibm logo ----------------------------------------->
 <!------------------------------------------------------------------------------------------------>
-<div style="text-align: center;">
-<div style="border:1px solid blue; width: 100px; margin: 0 auto; background: #fff; color: #fff;">
+<div class="sample">
 <img src="/images/image001.png?raw=true" 
   alt="IBM logo." 
-</div></div>
+  style="width:30%;margin-left:16px;margin-right:16px;">
+</div>
 
 <!------------------------------------------------------------------------------------------------>
 <h2>Introduction to Cloud Development with HTML5, CSS3, &amp; JavaScript (w/Github)</h2>
 <!------------------------------------------------------------------------------------------------>
 <!---------------------------------------- 02. cloud logo ---------------------------------------->
 <!------------------------------------------------------------------------------------------------>
-<div style="text-align: center;">
-<div style="border:1px solid black; width: 440px; margin: 0 auto; background: #fff; color: #fff;">
+<div class="sample">
 <img src="/images/image002.png?raw=true"
   alt="IBM cloud logo."
-</div></div>
+  style="width:60%;margin-left:16px;margin-right:16px;">
+</div>
 
 </p>
 
@@ -128,16 +109,11 @@ Anyone and everyone who wants to learn about building cloud applications -  whe
 <!------------------------------------------------------------------------------------------------>
 
 <meta name="viewport" content="width=device-width, initial-scale=1">
-
 <style>
-
 background: linear-gradient(60deg, #3d3393 0%, #2b76b9 37%, #2cacd1 65%, #35eb93 100%);
-
 body {
-  font-family: Bahnschrift, Arial, Helvetic, sans-serif;
-<!--  font-size: 20px; -->
-  font-size: 12px;
-  justify-content: left;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
 }
 
 #myBtn {
@@ -164,10 +140,10 @@ body {
 <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
 
 <div style="background-color:black;color:white;padding:30px">Scroll Down</div>
-<div style="background-color:lightgrey;padding:30px 30px 1000px">  <!-- 2500px -->
+<div style="background-color:lightgrey;padding:30px 30px 2500px">
 </div>
-
-<!------------------------------------------- scripts -------------------------------------------->
+<!--------------------------------------------------------->
+<!------------ script function: scrollFunction() ---------->
 <script>
 //Get the button
 var mybutton = document.getElementById("myBtn");
@@ -175,7 +151,6 @@ var mybutton = document.getElementById("myBtn");
 // When the user scrolls down 20px from the top of the document, show the button
 window.onscroll = function() {scrollFunction()};
 
-<!------------------------------ script function: scrollFunction() ------------------------------->
 function scrollFunction() {
   if (document.body.scrollTop > 5 || document.documentElement.scrollTop > 5) {
     mybutton.style.display = "block";
@@ -184,17 +159,17 @@ function scrollFunction() {
   }
 }
 
-<!-------------------------------- script function: topFunction() -------------------------------->
 // When the user clicks on the button, scroll to the top of the document
 function topFunction() {
   document.body.scrollTop = 0;
   document.documentElement.scrollTop = 0;
 }
+</script>
+
+<!---------------------------------------------------------------------------------->
 
 <!--- Added 6/18/21  --->
 <script type = "text/javascript" src="/js/function.js"></script>  
-
-</script>
 
 <!---- Drop down menu ----->
 <style>
@@ -236,8 +211,6 @@ function topFunction() {
 </style>
 </head>
 <body>
-
-<div id="grad1">
 
 <!---- <h2>Hoverable Dropdown Menu</h2> ---->
 <p>Move the mouse over the button to open the dropdown menu.</p>
@@ -286,7 +259,6 @@ function topFunction() {
   </div>
 </div>
 
-</div>
 <hr/>
 
 <!--------------------------- ch 1 intro to programming for the cloud ---------------------------->
@@ -297,11 +269,11 @@ Github} (CAD101EN)</h3>
 <!------------------------------------------------------------------------------------------------>
 <!----------------------------- 03. course intro: cloud development ------------------------------>
 <!------------------------------------------------------------------------------------------------>
-<div style="text-align: center;">
-<div style="border:1px solid black; width: 778px; height: 438px; margin: 0 auto; background: #fff; color: #fff;">
-<img src="/images/image003.png?raw=true"
-  alt="IBM Cloud Development - the Skills Network.">
-</div></div>
+<div class="sample">
+<img src="/images/image003.png?raw=true" 
+  alt="IBM Cloud Development - the Skills Network." 
+  style="width:65%;margin-left:16px;margin-right:16px">
+</div>
 
 <!--------------- 1.1 welcome to intro to cloud development with html5, css3 & js ---------------->
 <h3 id="ch1-1">1.1 Welcome to Introduction to Cloud Development with HTML5, CSS3, and JavaScript</h3>
@@ -309,20 +281,20 @@ Github} (CAD101EN)</h3>
 <!------------------------------------------------------------------------------------------------>
 <!----------------------------- 04. course intro: cloud courses (4) ------------------------------>
 <!------------------------------------------------------------------------------------------------>
-<div style="text-align: center;">
-<div style="border:1px solid black; width: 549px; margin: 0 auto; background: #fff; color: #fff;">
-<img src="/images/image004.png?raw=true"
-  alt="Cloud Courses from IBM.">
-</div></div>
+<div class="sample">
+<img src="/images/image004.png?raw=true" 
+  alt="Cloud Courses from IBM."
+  style="width:65%;margin-left:16px;margin-right:16px">
+</div>
 
 <!------------------------------------------------------------------------------------------------>
 <!------------------------------------ 05. emerging jobs (4) ------------------------------------->
 <!------------------------------------------------------------------------------------------------>
-<div style="text-align: center;">
-<div style="border:1px solid black; width: 389px; margin: 0 auto; background: #fff; color: #fff;">
+<div class="sample">
 <img src="/images/image005.png?raw=true" 
-  alt="Emerging Jobs: Full-Stack, Back-End, Front-End, JavaScript.">
-</div></div>
+  alt="Emerging Jobs: Full-Stack, Back-End, Front-End, JavaScript."
+  style="width:65%;margin-left:16px;margin-right:16px">
+</div>
 
 <p>
 Want to take the first steps to become a Cloud Application Developer?<br>
@@ -364,11 +336,11 @@ After completing this module, you will be able to:</p>
 <!------------------------------------------------------------------------------------------------>
 <!-------------------------- 06. overview of web and cloud development --------------------------->
 <!------------------------------------------------------------------------------------------------>
-<div style="text-align: center;">
-<div style="border:1px solid black; width: 388px; margin: 0 auto; background: #fff; color: #fff;">
-<img src="/images/image006.png?raw=true"
-  alt="Overview of Cloud and Web Development by IBM - Skills Network.">
-</div></div>
+<div class="sample">
+<img src="/images/image006.png?raw=true" 
+  alt="Overview of Cloud and Web Development by IBM - Skills Network."
+  style="width:65%;margin-left:16px;margin-right:16px">
+</div>
 
 <!-------------------------- 1.2 overview of web and cloud development --------------------------->
 <h3 id="ch1-2">1.2 Overview of Web and Cloud Development</h3>
@@ -640,9 +612,9 @@ becomes overridingly important.
 <!---------------------------------- 07. version control (12) ------------------------------------>
 <!------------------------------------------------------------------------------------------------>
 <div class="sample">
-<img src="/images/image007.png?raw=true"
+<img src="/images/image007.png?raw=true" 
   alt="Version control."
-  style="width:947px;height:463px;margin-left:16px;margin-right:16px">
+  style="width:65%;margin-left:16px;margin-right:16px">
 </div>
 
 <p>
@@ -6274,10 +6246,9 @@ In this module, you learned that:</p>
     <li>Repository Administrator -- configures and maintains access to
         the repository&nbsp;<br></li>
 </ul>
-</li>
+&nbsp;<br><br></li>
 </ul>
-<br><br>
-<p><b><i>Last edited 11/27/2022 7:50pm</i></b>
+<p><b><i>Last edited 11/25/2022 9:26pm</i></b>
 
 ...the end.
 </p>
