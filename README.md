@@ -8,7 +8,7 @@
 <p align="center" width="100%">
 <img src="/images/image001.png?raw=true"
    alt="IBM logo"
-   width="40%" />
+   width="25%" />
 &nbsp;
 <!------------------------------------------------------------------------------------------------>
 <h2 align="center">Introduction to Cloud Development with HTML5, CSS3, & JavaScript (w/Github)</h2>
