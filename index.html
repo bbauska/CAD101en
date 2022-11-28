@@ -9,21 +9,34 @@
 <style>
 
 div.sample {
+  width: 300px;
   color: green;
-  border: 3px blue;
-  margin-left: auto;
-  margin-right: auto;
-  justify-content: center;
+  margin: auto;
+  border: 3px solid blue;
 }
 h1  {
   color: initial;
   text-align: center;
+  color: #4287f5;  <!-- blue -->
   font-size: 20px;
 }
 h2 {
   font-family: Bahnschrift, Arial, Helvetic, sans-serif;
   font-size: 18px;
+  color: #74a549;
   text-align: center;
+}
+h3 {
+  font-family: Bahnschrift, Arial, Helvetic, sans-serif;
+  font-size: 16px;
+  text-align: left;
+  color: #a5d7dd ;
+}
+h4 {
+  font-family: Bahnschrift, Arial, Helvetic, sans-serif;
+  font-size: 15px;
+  text-align: left;
+  color: #ffff00;
 }
 body {
   font-family: Bahnschrift, Arial, Helvetic, sans-serif;
@@ -33,16 +46,8 @@ body {
 .wrap{
   position: relative;
   width: 100vw;
+  text-align: center;
 }
-.midImg{
-  margin: auto;
-  position: absolute;
-  left:0;
-  right: 0;
-  top: 0;
-  bottom: 0;
-  width: 150px;
-} 
   
 </style>
 
@@ -65,7 +70,7 @@ document.getElementById("demo").innerHTML = text;
 <div class="wrap">
 <img src="/images/image001.png?raw=true"
   alt="IBM logo."
-  style="width:150px;margin-left:16px;margin-right:16px;"/>
+  style="width:125px;margin-left:16px;margin-right:16px;"/>
 </div>
 
 <!------------------------------------------------------------------------------------------------>
@@ -76,7 +81,7 @@ document.getElementById("demo").innerHTML = text;
 <div class="wrap">
 <img src="/images/image002.png?raw=true"
   alt="IBM cloud logo."
-<!--  style="width:60%;margin-left:16px;margin-right:16px;"> -->
+  style="width:290px;margin-left:16px;margin-right:16px;"/>
 </div>
 
 <h3>edX.org online course (CAD101EN) - 5 module course</h3>
@@ -151,7 +156,7 @@ body {
 <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
 
 <div style="background-color:black;color:white;padding:30px">Scroll Down</div>
-<div style="background-color:lightgrey;padding:30px 30px 2500px">
+<div style="background-color:lightgrey;padding:30px 30px 1500px">
 </div>
 <!--------------------------------------------------------->
 <!------------ script function: scrollFunction() ---------->
@@ -282,9 +287,7 @@ Github} (CAD101EN)</h3>
 <!------------------------------------------------------------------------------------------------>
 <div class="wrap">
 <img src="/images/image003.png?raw=true"
-  alt="IBM Cloud Development - the Skills Network."
-<!--  style="width:65%;margin-left:16px;margin-right:16px" -->
-  class="midImg">
+  alt="IBM Cloud Development - the Skills Network."/>
 </div>
 
 <!--------------- 1.1 welcome to intro to cloud development with html5, css3 & js ---------------->
