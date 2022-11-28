@@ -23,19 +23,24 @@ h1  {
 h2 {
   font-family: Bahnschrift, Arial, Helvetic, sans-serif;
   font-size: 18px;
-  text-align: left;
+  text-align: center;
 }
 body {
   font-family: Bahnschrift, Arial, Helvetic, sans-serif;
-  font-size: 14px;
+  font-size: 12px;
   justify-content: left;
 }
-  
+
+#grad1 {
+  height: 200px;
+<!--  background-image: linear-gradient(red, yellow, blue); -->
+  background: linear-gradient(60deg, #3d3393 0%, #2b76b9 37%, #2cacd1 65%, #35eb93 100%);
+
+}
+
 </style>
 
 <head>
-
-background: linear-gradient(60deg, #3d3393 0%, #2b76b9 37%, #2cacd1 65%, #35eb93 100%);
 
 <h2>CAD101en - IBM Skills Network</h2>
 
@@ -52,7 +57,7 @@ document.getElementById("demo").innerHTML = text;
 <!----------------------------------------- 01. ibm logo ----------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <div style="text-align: center;">
-<div style="border:1px solid black; width: 200px; margin: 0 auto; background: #fff; color: #fff;">
+<div style="border:1px solid black; width: 100px; margin: 0 auto; background: #fff; color: #fff;">
 <img src="/images/image001.png?raw=true" 
   alt="IBM logo." 
 </div></div>
@@ -63,7 +68,7 @@ document.getElementById("demo").innerHTML = text;
 <!---------------------------------------- 02. cloud logo ---------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <div style="text-align: center;">
-<div style="border:1px solid black; width: 60%; margin: 0 auto; background: #fff; color: #fff;">
+<div style="border:1px solid black; width: 50%; margin: 0 auto; background: #fff; color: #fff;">
 <img src="/images/image002.png?raw=true"
   alt="IBM cloud logo."
 </div></div>
@@ -214,6 +219,8 @@ function topFunction() {
 </style>
 </head>
 <body>
+
+<div id="grad1"></div>
 
 <!---- <h2>Hoverable Dropdown Menu</h2> ---->
 <p>Move the mouse over the button to open the dropdown menu.</p>
