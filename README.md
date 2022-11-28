@@ -43,8 +43,7 @@ Anyone and everyone who wants to learn about building cloud applications -  whe
 <li>Basic computer literacy,</li>
 <li>Understanding of Cloud Computing concepts and terminology.</li>
 </ul>
-
-   [e.g.: Introduction to Cloud Computing](https://www.edx.org/course/introduction-to-cloud-computing-6)
+<a href="https://www.edx.org/course/introduction-to-cloud-computing-6" target="_blank" rel="noopener noreferrer">e.g.: Introduction to Cloud Computing</a>.
 
 <h4><b>Learning Objectives</b></h4>
 
