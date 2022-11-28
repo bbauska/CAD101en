@@ -30,6 +30,22 @@ body {
   font-family: Bahnschrift, Arial, Helvetic, sans-serif;
   font-size: 14px;
 }
+
+.wrap{
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+}
+.midImg{
+  margin: auto;  
+  position: absolute;
+  left:0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  height: 150px;
+  width: 150px;
+} 
   
 </style>
 
@@ -45,14 +61,14 @@ let text = "Total width/height: " + screen.width + "*" + screen.height + "<br>" 
 
 document.getElementById("demo").innerHTML = text;
 </script>
-
 <!------------------------------------------------------------------------------------------------>
 <!----------------------------------------- 01. ibm logo ----------------------------------------->
 <!------------------------------------------------------------------------------------------------>
-<div class="sample">
+<div class="wrap">
 <img src="/images/image001.png?raw=true" 
-  alt="IBM logo." 
-  style="width:30%;margin-left:16px;margin-right:16px;">
+  alt="IBM logo."
+  class="midImg">
+<!--  style="width:200px;margin-left:16px;margin-right:16px;"> -->
 </div>
 
 <!------------------------------------------------------------------------------------------------>
@@ -60,10 +76,11 @@ document.getElementById("demo").innerHTML = text;
 <!------------------------------------------------------------------------------------------------>
 <!---------------------------------------- 02. cloud logo ---------------------------------------->
 <!------------------------------------------------------------------------------------------------>
-<div class="sample">
+<div class="wrap">
 <img src="/images/image002.png?raw=true"
   alt="IBM cloud logo."
-  style="width:60%;margin-left:16px;margin-right:16px;">
+  class="midImg">
+<!--  style="width:60%;margin-left:16px;margin-right:16px;"> -->
 </div>
 
 </p>
@@ -269,10 +286,11 @@ Github} (CAD101EN)</h3>
 <!------------------------------------------------------------------------------------------------>
 <!----------------------------- 03. course intro: cloud development ------------------------------>
 <!------------------------------------------------------------------------------------------------>
-<div class="sample">
-<img src="/images/image003.png?raw=true" 
-  alt="IBM Cloud Development - the Skills Network." 
-  style="width:65%;margin-left:16px;margin-right:16px">
+<div class="wrap">
+<img src="/images/image003.png?raw=true"
+  alt="IBM Cloud Development - the Skills Network."
+<!--  style="width:65%;margin-left:16px;margin-right:16px" -->
+  class="midImg">
 </div>
 
 <!--------------- 1.1 welcome to intro to cloud development with html5, css3 & js ---------------->
@@ -281,10 +299,10 @@ Github} (CAD101EN)</h3>
 <!------------------------------------------------------------------------------------------------>
 <!----------------------------- 04. course intro: cloud courses (4) ------------------------------>
 <!------------------------------------------------------------------------------------------------>
-<div class="sample">
+<div class="wrap">
 <img src="/images/image004.png?raw=true" 
   alt="Cloud Courses from IBM."
-  style="width:65%;margin-left:16px;margin-right:16px">
+  class="midImg">
 </div>
 
 <!------------------------------------------------------------------------------------------------>
