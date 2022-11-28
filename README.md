@@ -2850,9 +2850,11 @@ In this section, you learned:
 
 -   Primitives are values, and have no properties or methods. 
 	Examples of primitives include:
+
 ```{=html}
 	-   number, string, boolean, null, and undefined.
 ```
+
 -   Wrapper objects allow objects of corresponding primitive data types
     to be created.
 
@@ -2863,6 +2865,7 @@ In this section, you learned:
     begin with a capital letter to differentiate them from the primitive
     data type itself.
 	Examples of wrapper objects are:
+
 ```[=html]
 	-   array, data, and error objects.
 ```
