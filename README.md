@@ -298,7 +298,7 @@ storage tools like Git and GitHub.
 Other useful features are custom extensions and themes for supporting
 your working style and environment.
 
-aExamples for code editors and IDEs include Sublime Text, Atom, Vim, VS
+Examples for code editors and IDEs include Sublime Text, Atom, Vim, VS
 Code, Visual Studio, Eclipse and NetBeans.
 
 In this brief overview, you learned about:
@@ -6185,7 +6185,7 @@ In this module, you learned that:
 	</ul>
 </ul>
 
-<p><b><i>Last edited 05/13/2022 11:38am +</i></b></p>
+<p><b><i>Last edited 11/28/2022 8:50am +</i></b></p>
 
 ...the end.
 <div align="right">
