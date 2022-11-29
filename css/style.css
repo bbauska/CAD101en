@@ -1,0 +1,54 @@
+
+div.sample {
+  width: 300px;
+  color: green;
+  margin: auto;
+  border: 3px solid blue;
+}
+
+h1  {
+  color: initial;
+  text-align: center;
+  color: #4287f5;  <!-- blue -->
+  font-size: 20px;
+}
+
+h2 {
+  font-family: Bahnschrift, Arial, Helvetic, sans-serif;
+  font-size: 18px;
+  color: #74a549;  <!-- greenish --->
+  text-align: center;
+}
+
+h3 {
+  font-family: Bahnschrift, Arial, Helvetic, sans-serif;
+  font-size: 16px;
+  text-align: left;
+  color: #a5d7dd ;  <!-- very ligh blue - sky? --->
+}
+
+h4 {
+  font-family: Bahnschrift, Arial, Helvetic, sans-serif;
+  font-size: 15px;
+  text-align: left;
+  color: #ffff00;  <!-- bright yellow --->
+}
+
+body {
+  font-family: Bahnschrift, Arial, Helvetic, sans-serif;
+  font-size: 14px;
+}
+
+p  {
+  font-family: Bahnschrift, Arial, Helvetic, sans-serif;
+  font-size: 13px;
+  text-align: left;
+  color: black;
+  }
+
+.wrap{
+  position: relative;
+  width: 100vw;
+  text-align: center;
+  margin: 0 auto;
+}
