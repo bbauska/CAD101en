@@ -1441,17 +1441,19 @@ the user interactions to the current page.</p>
 <h4>In this section, you learned about:</h4>
 <ul>
   <li>HTML5 Themes, which provide:<br>
+  <br>
     <ul>
       <li>Syntax compatible with HTML4 and XHTML1,<br><br></li>
       <li>New and refined APIs for video and audio elements, offline web apps,
-        and drag and drop.</li>
+        and drag and drop.<br></li>
     </ul>
   </li>
   <li>About HTML5 Web Applications, which have:<br>
+  <br>
     <ol>
       <li>Improved search indexing with meta tags,<br><br></li>
       <li>Better page load times, and<br><br></li>
-      <li>Enhanced user experience.</li>
+      <li>Enhanced user experience.<br></li>
     </ol>
   </li>
   <li>And about HTML5 Elements, which enable you to define and manage web page
@@ -1472,36 +1474,36 @@ scripting is enabled in browsers.</p>
   src="/images/image019.png?raw=true"
   alt="Enabling Scripting."
   style="width:85%;" />
-
+<p>
 Scripting is enabled for a browser context, when the conditions shown on
-the slide are true.
-
+the slide are true.<br>
+<br>
 Scripting is used to provide a more interactive user experience when
-browsing websites.
-
+browsing websites.<br>
+<br>
 Since scripting can be turned off, the recommendation is to use
-scripting but not to rely on it.
-
-HTML5 also defines a text/html-sandboxed media type for documents.
-
-This attribute can be used when hosting untrusted content.
-
+scripting but not to rely on it.<br>
+<br>
+HTML5 also defines a text/html-sandboxed media type for documents.<br>
+<br>
+This attribute can be used when hosting untrusted content.<br>
+<br>
 The sandboxed browsing context can be set at the page level or specified
-as an attribute on any tag that contains an embedded object.
-
+as an attribute on any tag that contains an embedded object.<br>
+<br>
 If you are running a page with an embedded object without the sandbox
 attribute, you are implicitly giving a third-party vendor permission to
-run scripts with the same permissions that you have for the page.
-
+run scripts with the same permissions that you have for the page.<br>
+<br>
 Granting the embedded object the same permissions as the rest of your
 page is one way that you can inadvertently allow advertisements to occur
-in your application.
-
+in your application.<br>
+<br>
 To prevent granting implicit permission to embedded objects, use the
-sandbox attribute on any tag that contains an embedded object.
-
+sandbox attribute on any tag that contains an embedded object.<br>
+<br>
 Each HTML document that is loaded into a browser page becomes a Document
-object.
+object.</p>
 
 <!------------------------------------------------------------------------------------------------>
 <!------------------------- 20. html document api: dom tree accessors (35) ----------------------->
@@ -1510,25 +1512,25 @@ object.
   src="/images/image020.png?raw=true"
   alt="HTML Document API - DOM Tree Accessors."
   style="width:85%;" />
-
+<p>
 The Document object provides access to all HTML elements in a page and
-can be accessed from within a script.
-
+can be accessed from within a script.<br>
+<br>
 The DOM tree accessors are HTML document APIs that provide access to all
-the HTML elements on a page.
-
-The property to access is prefixed by the word document.
-
+the HTML elements on a page.<br>
+<br>
+The property to access is prefixed by the word document.<br>
+<br>
 For example, <b>document.head</b> returns the first head element that is a
-child of the html element, if there is one, otherwise null.
-
+child of the html element, if there is one, otherwise null.<br>
+<br>
 The function <b>document.images</b> returns an HTML Collection of the image
-elements in the document.
-
+elements in the document.<br>
+<br>
 The function <b>document.scripts</b> returns an HTML Collection of the
-script elements in the document.
-
-Here are some common HTML DOM tree methods:
+script elements in the document.<br>
+<br>
+Here are some common HTML DOM tree methods:</p>
 
 <!------------------------------------------------------------------------------------------------>
 <!------------------------ 21. html document api: dom tree methods (36) -------------------------->
@@ -1537,21 +1539,21 @@ Here are some common HTML DOM tree methods:
   src="/images/image021.png?raw=true"
   alt="HTML Document API - DOM Tree Accessors."
   style="width:85%;" />
-
+<p>
 The <b>document.getElementById ('id')</b> function has one required
-parameter which is the id of the element you want to access.
-
+parameter which is the id of the element you want to access.<br>
+<br>
 The id is specified as an attribute on one of the elements that is coded
-elsewhere on the page.
-
+elsewhere on the page.<br>
+<br>
 The <b>document.getElementsByTagName('tag')</b> function has one required
-parameter which is the tag name of the element you want to access.
-
+parameter which is the tag name of the element you want to access.<br>
+<br>
 This function returns a node list of all the elements with the tag that
-matches the required parameter.
-
+matches the required parameter.<br>
+<br>
 This is a fragment of HTML with JavaScript code that uses the document
-API.
+API.</p>
 <!------------------------------------------------------------------------------------------------>
 <!------------------------ 22. example script with the document api (37) ------------------------->
 <!------------------------------------------------------------------------------------------------>
@@ -1559,21 +1561,21 @@ API.
   src="/images/image022.png?raw=true"
   alt="Example Script with the Document API."
   style="width:85%;" />
-
+<p>
 When Submit is clicked inside the page that is running in a web browser,
-the *textChecker* function begins.
-
+the *textChecker* function begins.<br>
+<br>
 The <b>document.getElementById('textField1')</b> retrieves the contents of
 what was typed into the input field that has the id of textField1 and
-places this content into a variable.
-
+places this content into a variable.<br>
+<br>
 The JavaScript logic then tests whether any data was typed into the
-field, and an alert dialog is displayed with the result.
-
-A similar function will be used later in Exercise 1.
-
+field, and an alert dialog is displayed with the result.<br>
+<br>
+A similar function will be used later in Exercise 1.<br>
+<br>
 Here is the output from running the code on the previous page that uses
-the document API.
+the document API.</p>
 
 <!------------------------------------------------------------------------------------------------>
 <!----------------------- 23. output from running the example script (38) ------------------------>
@@ -1582,31 +1584,32 @@ the document API.
   src="/images/image023.png?raw=true"
   alt="Output from Running the Example Script."
   style="width:85%;" />
-
+<p>
 The user types "Test" in the input field and clicks Submit. The result
-is seen in an alert dialog box on the same page.
+is seen in an alert dialog box on the same page.</p>
 
 <h4>In this section, you learned:</h4>
 <ul>
 <li>Scripting is used to provide a more interactive user experience when
-    browsing websites,</li>
+    browsing websites,<br></li>
 <li>Since scripting can be turned off, the recommendation is to use
-    scripting but not to rely on it,</li>
-<li>Scripting is enabled when certain browser conditions are met,</li>
+    scripting but not to rely on it,<br></li>
+<li>Scripting is enabled when certain browser conditions are met,<br></li>
 <li>HTML5 sandboxes enable you to manage iframe mash-ups; web pages that
-    pull content from more than one site,</li>
+    pull content from more than one site,<br></li>
 <li>HTML documents loaded into a browser page become Document objects,
     which you can access through scripts.</li>
 </ul>
 
 <!---------------------------------- 2.5 html5 browser support ----------------------------------->
 <h3 id="ch2-5">2.5 HTML5 Browser Support</h3>
-
-Hello and welcome to HTML5 Browser Support.
-
-After reading this section, you will be able to:
-
--   Describe browser support for HTML5 features.
+<p>
+Hello and welcome to HTML5 Browser Support.<br>
+<br>
+<h4>After reading this section, you will be able to:</h4>
+<ul>
+<li>Describe browser support for HTML5 features.</li>
+</ul>
 
 <!------------------------------------------------------------------------------------------------>
 <!------------------------------- 24. html5 browser support (39) --------------------------------->
@@ -1615,23 +1618,23 @@ After reading this section, you will be able to:
   src="/images/image024.png?raw=true"
   alt="HTML5 Browser Support."
   style="width:85%;" />
-
+<p>
 Not all browsers fully support all the features that are described in
-the HTML5 and CSS3 specifications.
-
-For example, older versions of browsers do not support certain features.
-
+the HTML5 and CSS3 specifications.<br>
+<br>
+For example, older versions of browsers do not support certain features.<br>
+<br>
 The developers of different browsers are continually adding support for
-HTML5 features to their new browser versions.
-
+HTML5 features to their new browser versions.<br>
+<br>
 For the most comprehensive support of HTML5 features, consider using
-Google Chrome.
-
+Google Chrome.<br>
+<br>
 Support tables show which features are supported by which browsers and
-can be a useful tool when developing web pages.
-
+can be a useful tool when developing web pages.<br>
+<br>
 For example, caniuse.com has great support tables for HTML5, CSS3, and
-more.
+more.</p>
 
 <!------------------------------------------------------------------------------------------------>
 <!------------------- 25. how different browsers display html5 elements (39) --------------------->
@@ -1643,16 +1646,16 @@ more.
 
 <p>
 Here are the results of displaying the &lt; input type= 'date' &gt; element
-in different browsers.
-
-The Google Chrome browser displays a calendar to enter the data.
-
-The Microsoft Edge browser displays spinning boxes to enter the data.
-
-Notice the difference in date formats (yyyy-mm-dd vs mm/dd/yyyy).
-
-The Firefox browser displays the date field as a text field.
-
+in different browsers.<br>
+<br>
+The Google Chrome browser displays a calendar to enter the data.<br>
+<br>
+The Microsoft Edge browser displays spinning boxes to enter the data.<br>
+<br>
+Notice the difference in date formats (yyyy-mm-dd vs mm/dd/yyyy).<br>
+<br>
+The Firefox browser displays the date field as a text field.<br>
+<br>
 This could raise several issues regarding input format and validation.</p>
 
 <!------------------------------------------------------------------------------------------------>
@@ -1663,26 +1666,27 @@ This could raise several issues regarding input format and validation.</p>
   alt="HTML5 Browser Support Tables"
   style="width:85%;" />
 
+<p>
 This example shows a support table for the &lt; input type= 'date' &gt;
-element.
-
-The numbers represent the browser version. The color determines the
-level of support.
-
--   Green: Full support
-
--   Olive: Partial support
-
--   Red: No support
-
+element.<br>
+<br>
+The numbers represent the browser version.<br>
+<br>
+<h4>The color determines the level of support.</h4>
+<ul>
+<li>Green: Full support<br><br></li>
+<li>Olive: Partial support<br><br></li>
+<li>Red: No support</li>
+</ul>
+<p>
 Edge, Chrome, and Opera browsers are green, meaning they support the &lt;
-input type= 'date' &gt; element.
-
+input type= 'date' &gt; element.<br>
+<br>
 Internet Explorer and Safari browsers are red, meaning they do not
-support the type = 'date' element.  Just what you'd expect from proprietary greedy assholes.
-
+support the type = 'date' element.  Just what you'd expect from proprietary greedy assholes.<br>
+<br>
 Support levels change as developers of browsers add new features, so
-check back frequently to see if the features you require are supported.
+check back frequently to see if the features you require are supported.</p>
 
 <!------------------------------------------------------------------------------------------------>
 <!------------------ 27. verifying html5 browser support using javascript (40) ------------------->
@@ -1721,17 +1725,17 @@ default behavior such as displaying the field as a regular text field.</p>
   
 <p>
 Here is an example of using JavaScript to check whether a certain HTML5
-element is supported by a browser.
-
+element is supported by a browser.<br>
+<br>
 This code is used to test whether the browser supports the element &lt;
-input type= 'date' &gt;.
-
+input type= 'date' &gt;.<br>
+<br>
 In the example, you dynamically create the DOM object for the input
-element, and then you set the type attribute to the value of "date".
-
+element, and then you set the type attribute to the value of "date".<br>
+<br>
 If the browser does not support the input type =date, the field is
 displayed in the browser as a regular text field.</p>
-
+<br>
 <h4>In this section, you learned:</h4>
 <ul>
 <li>Not all browsers fully support all the features that are described
@@ -1744,7 +1748,7 @@ displayed in the browser as a regular text field.</p>
 
 <h3>Hands-On Lab: HTML - Creating a Simple Web Page</h3>
 
-<h3>Use the Start Lab button below to launch the lab in a new browser tab.</h3>
+<h4>Use the Start Lab button below to launch the lab in a new browser tab.</h4>
 
 <a href="https://labs.cognitiveclass.ai/tools/theiadocker/?md_instructions_url=https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBMDeveloperSkillsNetwork-CD0101EN-SkillsNetwork/labs/Theia%20Labs/01%20-%20HTML%20and%20CSS/Lab%201%20HTML/instructions.md" target="_blank" rel="noopener noreferrer">Note: In case the Start Lab button does not work, instructions to complete this lab are also available here</a>.
 
@@ -1769,19 +1773,19 @@ provision your lab environment.</p>
   alt="Objectives: CSS Styling HTML."
   style="width:65%;" />
 
-Hello and welcome to CSS: Styling HTML.
+<p>
+Hello and welcome to CSS: Styling HTML.</p>
 
-<h4>After reading this section, you will be able to:</h4>
-
--   Explain what a Cascade Style Sheet (CSS) is,
-
--   Describe how to use CSS to format HTML elements,
-
--   Describe how to use CSS in HTML documents to format web pages.
-
+<h4>After reading this section (2.6), you will be able to:</h4>
+<ul>
+<li>Explain what a Cascade Style Sheet (CSS) is,<br><br></li>
+<li>Describe how to use CSS to format HTML elements,<br><br></li>
+<li>Describe how to use CSS in HTML documents to format web pages.</li>
+</ul>
+<p>
 By using a combination of HTML5, JavaScript, and cascading style sheets,
 developers can create web pages that can be displayed on desktop
-computers and mobile devices.
+computers and mobile devices.</p>
 
 <!------------------------------------------------------------------------------------------------>
 <!------------------------ 30. media independence with html and css (43) ------------------------->
@@ -1790,17 +1794,17 @@ computers and mobile devices.
   src="/images/image030.png?raw=true"
   alt="Media Independence with HTML and CSS."
   style="width:65%;" />
-
+<p>
 These technologies have powerful features that can be used to show rich
 interactive applications without requiring plug-in technologies, like
-the Flash media player.
-
+the Flash media player.<br>
+<br>
 HTML documents might be rendered to a browser window, or through a
 speech synthesizer to provide assistive technologies for vision impaired
-people.
-
+people.<br>
+<br>
 Being able to meet accessibility requirements is one advantage of using
-HTML markup over browser plug-ins for delivering interactive content.
+HTML markup over browser plug-ins for delivering interactive content.</p>
 
 <!------------------------------------------------------------------------------------------------>
 <!------------------------------------ 31. what is css? (43) ------------------------------------->
@@ -1809,30 +1813,30 @@ HTML markup over browser plug-ins for delivering interactive content.
   src="/images/image031.png?raw=true"
   alt="What is CSS?"
   style="width:65%;" />
-
-CSS is the design that is layered over the top of an HTML web page.
-
+<p>
+CSS is the design that is layered over the top of an HTML web page.<br>
+<br>
 CSS is a style sheet language that describes how HTML elements are
-displayed.
-
+displayed.<br>
+<br>
 What makes the style sheet "cascading" is that developers can apply CSS
 to create a uniform look throughout each element of each page of the
-website.
-
+website.<br>
+<br>
 Child and descendant elements often inherit styles that are defined for
-parent elements, however, exceptions to this rule do exist.
-
+parent elements, however, exceptions to this rule do exist.<br>
+<br>
 For websites, it is an important concept to separate the data from the
-design.
-
+design.<br>
+<br>
 The data is sent to the browser by using HTML, and the design is applied
-to that data by using a CSS.
-
+to that data by using a CSS.<br>
+<br>
 This separation allows people to render a web page without your design
-if they have special accessibility needs.
-
+if they have special accessibility needs.<br>
+<br>
 It allows machines (such as search engines) to index a website without
-the design interfering.
+the design interfering.</p>
 
 <!------------------------------------------------------------------------------------------------>
 <!------------------------------- 32. css design and coding (44) --------------------------------->
@@ -1841,12 +1845,12 @@ the design interfering.
   src="/images/image032.png?raw=true"
   alt="CSS Design and Coding."
   style="width:65%;" />
-
+<p>
 You can code CSS as a style attribute in an HTML tag, a head section of
-a document, or an external document.
-
+a document, or an external document.<br>
+<br>
 The preference is to code CSS in external documents (referred to
-as style sheets).
+as style sheets).</p>
 
 <!------------------------------------------------------------------------------------------------>
 <!-------------------------- 33. what elements can css control? (45) ----------------------------->
@@ -1906,23 +1910,18 @@ Establish a base style by styling the &lt;body&gt; tag, as shown here.</p>
 </ul>
 
 <h4>These settings are simple. Generally, follow these guidelines:</h4>
-
--   When a color is specified, use Red-Green-Blue (RGB) hexadecimal
-    light values.
-
--   When a size is specified, use pixels (indicated by apx after the
+<ul>
+<li>When a color is specified, use Red-Green-Blue (RGB) hexadecimal
+    light values.<br><br></li>
+<li>When a size is specified, use pixels (indicated by apx after the
     number); an em, which is indicated by em after the number (that is,
     the size of the font multiplied by the specified number); or
-    a percentage, which is indicated by a % after the number.
-
--   Text can be aligned left,right, or center.
-
--   Floats can also be left or right.
-
--   Vertical alignments must be top, middle, or bottom.
-
--   Fonts can be any specific font or font family (serif, sans-serif, or
-    monospace) or even a downloadable font.
+    a percentage, which is indicated by a % after the number.<br><br></li>
+<li>Text can be aligned left,right, or center.<br><br></li>
+<li>Floats can also be left or right.<br><br></li>
+<li>Vertical alignments must be top, middle, or bottom.<br><br></li>
+<li>Fonts can be any specific font or font family (serif, sans-serif, or
+    monospace) or even a downloadable font.</li>
 </ul>
 <p>
 One of the most important decisions you must make when you are
@@ -2047,7 +2046,7 @@ some of these elements.</p>
 <h4>After reading this section, you will be able to:</h4>
 <ul>
   <li>List specific elements to HTML5, and<br><br></li>
-  <li>Describe HTML5 structural elements:<br></li>
+  <li>Describe HTML5 structural elements:<br><br></li>
   <ul>
     <li>section, article, header, footer, figure, fig caption.</li>
   </ul>
@@ -3949,56 +3948,50 @@ argument.<br>
 It is suggested that the same value is used for both the id and the name
 attribute (seen earlier) when both are used.<br>
 <br>
-In this section, you learned:<br>
-
--   How to work with DOM objects in JavaScript, including:
-
--   You can access nested objects using a dot notation.
-
--   Objects can be named to make accessing them from the script easier.
-
+<h4>In this section (4.5), you learned:</h4>
+<ul>
+<li>How to work with DOM objects in JavaScript, including:<br><br></li>
+<li>You can access nested objects using a dot notation.<br><br></li>
+<li>Objects can be named to make accessing them from the script easier.</li>
+</ul>
 <!---------------------------------------- 4.6 js: apis ------------------------------------------>
 <h3 id="ch4-6">4.6 JavaScript APIs</h3>
-
+<p>
 Hello. Welcome to JavaScript APIs.<br>
 <br>
 After reading this section, you will be able to:<br>
-
--   Explain how to work with nodes,
-
--   Describe how to modify the content of an element,
-
--   Explain how to modify the inline style of an object,
-
--   Describe how to modify the attributes of an object,
-
--   Describe how to use Window object methods and events.
-
+<ul>
+<li>Explain how to work with nodes,<br><br></li>
+<li>Describe how to modify the content of an element,<br><br></li>
+<li>Explain how to modify the inline style of an object,<br><br></li>
+<li>Describe how to modify the attributes of an object,<br><br></li>
+<li>Describe how to use Window object methods and events.</li>
+</ul>
 The DOM Level 1 core and Level 1 HTML specifications have too much
-detail for one unit.
-
+detail for one unit.<br>
+<br>
 Instead, the remainder of the unit focuses on script functions and
-properties that are commonly used when working with HTML pages.
-
+properties that are commonly used when working with HTML pages.</p>
 <!------------------------------------------------------------------------------------------------>
 <!----------------------------------- 107. common apis (103) ------------------------------------->
 <!------------------------------------------------------------------------------------------------>
-<img src="/images/image107.png?raw=true"
+<img class="displayed"
+  src="/images/image107.png?raw=true"
   alt="Common APIs."
-  style="width:65%;margin-left:16px;margin-right:16px;" />
-
+  style="width:65%;" />
+<p>
 Some of these common APIs used in when accessing HTML DOM elements in
 web pages are seen on the slide.<br>
 <br>
-DOM elements are reviewed next.
+DOM elements are reviewed next.</p>
 
 <!------------------------------------------------------------------------------------------------>
 <!------------------------- 108. retrieving a reference to a node (104) -------------------------->
 <!------------------------------------------------------------------------------------------------>
-<img 
+<img class="displayed"
   src="/images/image108.png?raw=true"
   alt="Retrieving a Reference to a Node."
-  style="width:65%;margin-left:16px;margin-right:16px;" />
+  style="width:65%;" />
 
 To retrieve a node reference for an element of a document given an id,
 use the document.getElementById function and pass the id value as an
