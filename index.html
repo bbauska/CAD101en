@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 
+<head>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <!------------------------------------------------------------------------------------------------>
 <!------------------- index.html in https://github.com/bbauska/CAD101en/main --------------------->
@@ -13,7 +14,7 @@ img.displayed {
   margin: 0 auto; }
 
 .border {
-  border-width: 3px;
+  border-width: 1px;
   border-color: black; 
   border-style: solid; }
 
@@ -105,7 +106,7 @@ Anyone and everyone who wants to learn about building cloud applications -  whe
 <!------------------------------------------------------------------------------------------------>
 
 <style>
-background: linear-gradient(60deg, #3d3393 0%, #2b76b9 37%, #2cacd1 65%, #35eb93 100%);
+background: linear-gradient(60deg, #3d3393 0%, #2b76b9 37%, #2cacd1 65%, #35eb93 100%)
 
 body {
   font-family: Bahnschrift, Arial, Helvetic, sans-serif;
@@ -344,7 +345,7 @@ constructed and delivered to you is a good starting point.
 <br><br>
 Let's review the basics of how you interact with a website.</p>
 <ol>
-<li>You launch an internet browser -- there are lots available:<br>
+<li>You launch an internet browser -- there are lots available:<br></li>
 <ul>
 <li>Google Chrome, </li>
 <li>Microsoft Edge (pos),</li>
@@ -671,22 +672,23 @@ Here are some examples of code libraries:
 
 <ul>
 <li>jQuery is a JavaScript library that simplifies DOM manipulation.<br></li>
+</ul>
 
 <!---------------------------- 10. libraries: e-mail validator (13) ------------------------------>
 <img class="displayed border"
   src="/images/image010.png?raw=true"
   alt="Libraries: E-Mail Validator."
   style="width:30%;" />
-
+<ul>
 <li>Email-validator is a small library which checks an email address so it is
     correctly constructed and valid.<br></li>
-
+</ul>
 <!-------------------------- 11. libraries: apache commons proper (13) --------------------------->
 <img class="displayed border"
   src="/images/image011.png?raw=true"
   alt="Libraries: Apache Commons Proper."
   style="width:30%;" />
-
+<ul>
 <li>Apache Commons Proper is a repository of reusable Java components.<br></li>
 </ul>
 <p>
@@ -699,8 +701,7 @@ Frameworks provide a standard way to build and deploy applications.
   src="/images/image012.png?raw=true"
   alt="Frameworks - the scaffold to build your apps."
   style="width:65%;" />
-
-</p>
+<p>
 You can think of a framework as being a skeleton that you can extend by
 adding your own code, providing a scaffold on which to build your apps.<br>
 <br>
@@ -812,9 +813,9 @@ In these environments it can be very difficult to keep track of what
 changes were made, in what order, what dependencies exist, and what
 needs to be incorporated in the next build, so automation is key to
 keeping everything running smoothly.<br>
-<br>
-Build automation can automate a wide variety of tasks that developers do
-in their day-to-day activities like:
+</p>
+<h4>Build automation can automate a wide variety of tasks that developers do
+in their day-to-day activities like:</h4>
 <ul>
 <li>Downloading dependencies,<br><br></li>
 <li>Compiling source code into binary code,<br><br></li>
@@ -822,19 +823,17 @@ in their day-to-day activities like:
 <li>Running tests,<br><br></li>
 <li>Deployment to production systems.</li>
 </ul>
-
+<p>
 You can initiate a build from the command line or from an IDE.<br>
 <br>
 There are two categories of Build Tools widely in use:</p>
 <ol>
 <li>Build-automation utilities, which generate build artifacts like
-    executables, by compiling and linking source code.<br></li>
-<br>
+    executables, by compiling and linking source code.<br><br></li>
 <li>Build-automation servers, which execute build-automation utilities
     on a scheduled or triggered basis.</li>
 </ol>
-<p>
-Some examples of build tools are:</p>
+<h4>Some examples of build tools are:</h4>
 <ul>
 <li>Webpack -- a module bundler for JavaScript<br><br></li>
 <li>Babel -- a JavaScript compiler</li>
@@ -860,9 +859,8 @@ manager to distribute it.<br>
 <br>
 Package managers take care of the tasks of finding, installing,
 maintaining or uninstalling software packages at the user's request.<br>
-<br>
-Package management systems:
-</p>
+<br></p>
+<h4>Package management systems:</h4>
 <ol>
 <li>Coordinate with file archivers to extract package archives.<br><br></li>
 <li>Verify checksums and digital certificates to ensure the integrity
@@ -872,9 +870,8 @@ Package management systems:
 <li>Manage dependencies to ensure a package is installed with all
     packages it requires.</li>
 </ol>
-<p>
-Some commonly used package managers for each of the major platforms are
-listed here:</p>
+<h4>Some commonly used package managers for each of the major platforms are
+listed here:</h4>
 <ul>
 <li>On Linux - Debian Package Management System (DPKG) and Red Hat Package Manager (RPM) &nbsp;<br><br></li>
 <li>On Windows - Chocolatey &nbsp;<br><br></li>
@@ -884,24 +881,23 @@ listed here:</p>
 <p>
 Any libraries that are used or utility code that is developed as part of
 the application is managed with the cloud application package managers.<br>
-<br>
-Here are some examples of package managers for popular languages:
-</p>
+<h4>Here are some examples of package managers for popular languages:</h4>
 <ul>
 <li>For Node.js/Javascript - npm &nbsp;<br><br></li>
 <li>For Java - Gradle and Maven &nbsp;<br><br></li>
 <li>For Ruby - RubyGems &nbsp;<br><br></li>
 <li>For Python - Pip and Conda &nbsp;<br></li>
 </ul>
-In this section, you've learned about some of the tools that you
-will utilize and support you in your career as a developer , including:
+
+<h4>In this section, you've learned about some of the tools that you
+will utilize and support you in your career as a developer, including:</h4>
 <ul>
 <li>CI/CD, Build Tools, Packages, Package Managers.</li>
 </ul>
 
 <!------------------------- 1.6 the importance of back-end development --------------------------->
 <h3 id="ch1-6">1.6 The Importance of Back-End Development</h3>
-
+<p>
 Welcome to the importance of back-end development.<br>
 <br>
 A front-end developer creates websites and Cloud applications, using
@@ -967,10 +963,10 @@ accepting input from a user filling out a form, or securing sensitive
 information like a credit card number all require different services
 from the back-end server.<br>
 <br>
-Each request needs to interact with the back-end in a different way.<br>
-<br>
-Back-end developers use APIs, routes, and endpoints to process incoming
-requests:
+Each request needs to interact with the back-end in a different way.</p>
+
+<h4>Back-end developers use APIs, routes, and endpoints to process incoming
+requests:</h4>
 <ul>
 <li>An <b>API</b> is code that works with data, usually using
 JSON or XML. APIs have set rules and structure.<br><br></li>
@@ -1211,58 +1207,55 @@ that is uniform across platforms and devices.</p>
   style="width:45%;" />
 
 <p>
-Here is an example of a document that conforms to the syntax of HTML5.
+Here is an example of a document that conforms to the syntax of HTML5.<br>
 <br>
-Documents that have the text/html media type are parsed using HTML
-rules.
+Documents that have the text/html media type are parsed using HTML rules.<br>
 <br>
 If a document is transmitted with an HTML content type, such as
 text/html, it is processed as an HTML document by web browsers.
 <br></p>
 <h4>This example uses the following elements:</h4>
 <ul>
-<li>The <b><!DOCTYPE html></b> is a declaration tag that represents the
+<li>The <b>&lt;!DOCTYPE html&gt;</b> is a declaration tag that represents the
 document type.<br><br></li>
 <li>The <b>declaration</b> is not an HTML tag; it is an instruction to the web
 browser about what version of HTML the page is written in.</li>
 </ul>
 <p>
 Although this declaration is not required, it should be the first line
-of the HTML code if the developer decides to include it.
-
-The &lt;html&gt; ... &lt;/html&gt; tag is the root element of this tree.
-
+of the HTML code if the developer decides to include it.<br>
+<br>
+The &lt;html&gt; ... &lt;/html&gt; tag is the root element of this tree.<br>
+<br>
 It contains all of the other HTML elements, except the &lt;!DOCTYPE html&gt;
-declaration tag.
-
-This example, contains two elements: &lt;head&gt; and &lt;body&gt;.
-
-The &lt;head&gt; tag contains a &lt;title&gt; in the example.
-
+declaration tag.<br>
+<br>
+This example, contains two elements: &lt;head&gt; and &lt;body&gt;.<br>
+<br>
+The &lt;head&gt; tag contains a &lt;title&gt; in the example.</p>
 <h4>The &lt;head&gt; element can contain the following tags:</h4>
 <ul>
-<li>&lt;title&gt;,
-</li>
-<li>&lt;scripts&gt;,
-</li>
-<li>&lt;style&gt;,
-</li>
-<li>style sheet links,
-</li>
-<li>&lt;meta&gt; information,
-</li>
-<li>browser support information and,
-</li>
-<li>other initialization functions.
-</li>
+<li>&lt;title&gt;,<br></li>
+
+<li>&lt;scripts&gt;,<br></li>
+
+<li>&lt;style&gt;,<br></li>
+
+<li>style sheet links,<br></li>
+
+<li>&lt;meta&gt; information,<br></li>
+
+<li>browser support information and,<br></li>
+
+<li>other initialization functions.</li>
 </ul>
-
+<p>
 Finally, the &lt;body&gt; tag contains all content that is displayed on the
-webpage.
-
+webpage.<br>
+<br>
 HTML user agents, commonly known as browsers, parse the markup, turning
-it into a DOM (Document Object Model) tree.
-</p>
+it into a DOM (Document Object Model) tree.</p>
+
 <!------------------------------------------------------------------------------------------------>
 <!--------------- 14. dom tree - an in-memory representation of a document (28) ------------------>
 <!------------------------------------------------------------------------------------------------>
@@ -1287,57 +1280,57 @@ HTML5.<br>
   src="/images/image015.png?raw=true"
   alt="XML Example Document."
   style="width:65%;" />
-
+<p>
 Extensible Markup Language (XML) documents look similar to HTML
-documents, except they have an XML tag on the first line.
-
+documents, except they have an XML tag on the first line.<br>
+<br>
 In addition, with XML documents, the Content-type must be specified as
-an XML media type such as application/xml.
-
+an XML media type such as application/xml.<br>
+<br>
 When a document is transmitted with an XML content type, it is treated
 as an XML document by a web browser and an XML processor parses the
-document.
-
-How do you decide whether to use HTML or XHTML for developing web pages?
-
+document.<br>
+<br>
+How do you decide whether to use HTML or XHTML for developing web pages?<br>
+<br>
 Which of the two options you choose is related to how you intend to use
-the application.
-
+the application.<br>
+<br>
 For instance, are you using XSLT (Extensible Style Sheet Language
 Transformations) to create other documents and resources from your web
-pages?
-
-People are equally divided about whether to use XHTML or HTML.
-
+pages?<br>
+<br>
+People are equally divided about whether to use XHTML or HTML.<br>
+<br>
 Both HTML and XHTML use the same semantic (tags). However, XHTML tags
 all need to be in *lowercase*, while the case used does not matter in
-HTML.
-
-In addition, XHTML must be well-formed.
-
+HTML.<br>
+<br>
+In addition, XHTML must be well-formed.<br>
+<br>
 Every element must have an end tag. All attributes must have a value and
-double or single quotation marks must surround all attribute values.
-
+double or single quotation marks must surround all attribute values.<br>
+<br>
 If an XML parser encounters a situation where the syntax is not
-well-formed, it stops processing.
-
+well-formed, it stops processing.<br>
+<br>
 In HTML, different case, unmatched quotation marks, and non-terminated
-and uncontained elements are allowed and commonplace.
-
-In this regard, HTML syntax is less rigorous than XHTML syntax.
-
+and uncontained elements are allowed and commonplace.<br>
+<br>
+In this regard, HTML syntax is less rigorous than XHTML syntax.<br>
+<br>
 In this section, you learned that HTML5 Includes features for
 categorizing sections of web pages, and managing data, video and audio
-tools.
-
+tools.<br>
+<br>
 Enables you to develop a single, cross-browser application for the web
 and portable devices, helps you to create a more engaging user
-experience.
-
-The DOM tree is a representation of a document which is held in memory.
-
-It contains nodes which define the type and structure of the document.
-
+experience.<br>
+<br>
+The DOM tree is a representation of a document which is held in memory.<br>
+<br>
+It contains nodes which define the type and structure of the document.<br>
+</p>
 <h3>Hands-on Lab: Intro to HTML (JDFiddle)</h3>
 
 <a href="https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBMDeveloperSkillsNetwork-CD0101EN-SkillsNetwork/labs/demos/jsfiddle-demo.md.html" target="_blank" rel="noopener noreferrer">Click here to launch the lab in another browser.</a>
@@ -1346,7 +1339,7 @@ It contains nodes which define the type and structure of the document.
 <h3 id="ch2-3">2.3 HTML Management and Support</h3>
 <p>
 Hello, and welcome to HTML Management and Support.<br>
-<br>
+</p>
 <h4>After reading this section, you will be able to:</h4>
 <ul>
 <li>List some HTML document API properties and methods,<br><br></li>
@@ -1362,7 +1355,7 @@ Hello, and welcome to HTML Management and Support.<br>
   alt="HTML5 Objectives."
   style="width:65%;" />
 
-Let's examine some of the key themes of the HTML5 specification.
+<p>Let's examine some of the key themes of the HTML5 specification.</p>
 
 <!------------------------------------------------------------------------------------------------>
 <!---------------------------------- 17. key themes html5 (31) ----------------------------------->
@@ -1371,22 +1364,22 @@ Let's examine some of the key themes of the HTML5 specification.
   src="/images/image017.png?raw=true"
   alt="Key Themes of HTML5."
   style="width:85%;" />
-
-The syntax it defines is compatible with HTML4 and XHTML1 documents.
-
+<p>
+The syntax it defines is compatible with HTML4 and XHTML1 documents.<br>
+<br>
 HTML5 is defined in a way that it is compatible with earlier versions in
-the way browsers handle deployed content.
-
+the way browsers handle deployed content.<br>
+<br>
 It separates conformance requirements for user agents and authors. In
 other words, how browsers treat HTML5 code and how page authors treat
-HTML5 code is different.
-
+HTML5 code is different.<br>
+<br>
 For user agents, HTML5 is defined in a way that supports elements and
-attributes of the earlier specifications.
-
+attributes of the earlier specifications.<br>
+<br>
 For authors, several elements and attributes have been removed in order
-to simplify the language.
-
+to simplify the language.<br>
+</p>
 <!------------------------------------------------------------------------------------------------>
 <!------------------------------ 18. html5 for web applications (32) ----------------------------->
 <!------------------------------------------------------------------------------------------------>
@@ -1394,14 +1387,15 @@ to simplify the language.
   src="/images/image018.png?raw=true"
   alt="HTML5 for Web Applications."
   style="width:85%;" />
-
+<p>
 HTML5 includes some elements and application programming interfaces that
-help in the creation of web applications.
-
+help in the creation of web applications.<br>
+<br>
 Examples include video and audio elements, and an API that supports the
-creation of offline applications.
-
-What do you think makes HTML suitable for creating web applications?
+creation of offline applications.<br>
+<br>
+What do you think makes HTML suitable for creating web applications?<br>
+<br>
 There are a number of possible reasons:
 
 The range of devices that all have built-in browsers that support HTML5
@@ -1605,11 +1599,12 @@ is seen in an alert dialog box on the same page.
 <!---------------------------------- 2.5 html5 browser support ----------------------------------->
 <h3 id="ch2-5">2.5 HTML5 Browser Support</h3>
 
-Hello and welcome to HTML5 Browser Support.
+<p>Hello and welcome to HTML5 Browser Support.</p>
 
-After reading this section, you will be able to:
-
--   Describe browser support for HTML5 features.
+<h4>After reading this section, you will be able to:</h4>
+<ul>
+<li>Describe browser support for HTML5 features.</li>
+</ul>
 
 <!------------------------------------------------------------------------------------------------>
 <!------------------------------- 24. html5 browser support (39) --------------------------------->
@@ -1909,23 +1904,18 @@ Establish a base style by styling the &lt;body&gt; tag, as shown here.</p>
 </ul>
 
 <h4>These settings are simple. Generally, follow these guidelines:</h4>
-
--   When a color is specified, use Red-Green-Blue (RGB) hexadecimal
-    light values.
-
--   When a size is specified, use pixels (indicated by apx after the
-    number); an em, which is indicated by em after the number (that is,
-    the size of the font multiplied by the specified number); or
-    a percentage, which is indicated by a % after the number.
-
--   Text can be aligned left,right, or center.
-
--   Floats can also be left or right.
-
--   Vertical alignments must be top, middle, or bottom.
-
--   Fonts can be any specific font or font family (serif, sans-serif, or
-    monospace) or even a downloadable font.
+<ul>
+<li>When a color is specified, use Red-Green-Blue (RGB) hexadecimal
+light values.<br><br></li>
+<li>When a size is specified, use pixels (indicated by apx after the
+number); an em, which is indicated by em after the number (that is,
+the size of the font multiplied by the specified number); or
+a percentage, which is indicated by a % after the number.<br><br></li>
+<li>Text can be aligned left,right, or center.<br><br></li>
+<li>Floats can also be left or right.<br><br></li>
+<li>Vertical alignments must be top, middle, or bottom.<br><br></li>
+<li>Fonts can be any specific font or font family (serif, sans-serif, or
+monospace) or even a downloadable font.</li>
 </ul>
 <p>
 One of the most important decisions you must make when you are
@@ -2049,7 +2039,7 @@ some of these elements.</p>
 
 <h4>After reading this section, you will be able to:</h4>
 <ul>
-  <li>List specific elements to HTML5, and<br><br></li>
+  <li>List specific elements to HTML5, and<br></li>
   <li>Describe HTML5 structural elements:<br></li>
   <ul>
     <li>section, article, header, footer, figure, fig caption.</li>
@@ -2070,8 +2060,7 @@ some of these elements.</p>
 <img class="displayed border"
   src="/images/image037.png?raw=true"
   alt="HTML5 Specific Tags (2 of 4)"
-  style="width:65%;margin-left:16px;margin-right:16px;"
-  align="middle" />
+  style="width:65%;" />
 
 There are many HTML5 specific elements. The table shows some of them.
 
@@ -2223,10 +2212,10 @@ tag.
 <!------------------------------------------------------------------------------------------------>
 <!--------------------------- 45. more on navigational elements (57) ----------------------------->
 <!------------------------------------------------------------------------------------------------>
-<img src="/images/image045.png?raw=true"
+<img class="displayed border"
+  src="/images/image045.png?raw=true"
   alt="More on navigational elements."
-  style="width:65%;margin-left:16px;margin-right:16px;"
-  align="middle" />
+  style="width:65%;" />
 
 The &lt;nav&gt; tag is a convenience tag for grouping navigational links in
 a web page.
@@ -2243,10 +2232,10 @@ web page.
 <!------------------------------------------------------------------------------------------------>
 <!--------------------------------- 46. summary chapter 3 (58) ----------------------------------->
 <!------------------------------------------------------------------------------------------------>
-<img src="/images/image046.png?raw=true"
+<img class="displayed border"
+  src="/images/image046.png?raw=true"
   alt="Summary chapter 3."
-  style="width:65%;margin-left:16px;margin-right:16px;"
-  align="middle" />
+  style="width:65%;" />
 
 In this section, you learned:
 
@@ -2292,10 +2281,10 @@ day) with no time zone.
 <!------------------------------------------------------------------------------------------------>
 <!----------------------------------- 47. input for date (59) ------------------------------------>
 <!------------------------------------------------------------------------------------------------>
-<img src="/images/image047.png?raw=true"
+<img class="displayed border"
+  src="/images/image047.png?raw=true"
   alt="Input for date format."
-  style="width:65%;margin-left:16px;margin-right:16px;"
-  align="middle" />
+  style="width:65%;" />
 
 The example shows the input type="date" field as it is seen in Google
 Chrome.
@@ -2308,10 +2297,10 @@ month, day, hour, minute, AM/PM) with no time zone.
 <!------------------------------------------------------------------------------------------------>
 <!------------------------------ 48. input for date and time (59) -------------------------------->
 <!------------------------------------------------------------------------------------------------>
-<img src="/images/image048.png?raw=true"
+<img class="displayed border"
+  src="/images/image048.png?raw=true"
   alt="Input for date & time."
-  style="width:65%;margin-left:16px;margin-right:16px;"
-  align="middle" />
+  style="width:65%;" />
 
 The datetime-local input field is displayed as a drop-down calendar in
 the Google Chrome browser. The time can be typed or entered using the
@@ -2320,10 +2309,10 @@ spinner control.
 <!------------------------------------------------------------------------------------------------>
 <!------------------------------ 49. input for e-mails format (60) ------------------------------->
 <!------------------------------------------------------------------------------------------------>
-<img src="/images/image049.png?raw=true"
+<img class="displayed border"
+  src="/images/image049.png?raw=true"
   alt="Input for e-mails format."
-  style="width:65%;margin-left:16px;margin-right:16px;"
-  align="middle" />
+  style="width:65%;" />
 
 The &lt; input type="email" &gt; attribute is displayed as a regular text
 input field.
@@ -2336,10 +2325,10 @@ You can optionally specify the minimum, maximum values, step size, etc.
 <!------------------------------------------------------------------------------------------------>
 <!-------------------------------- 50. input of type number (60) --------------------------------->
 <!------------------------------------------------------------------------------------------------>
-<img src="/images/image050.png?raw=true"
+<img class="displayed border"
+  src="/images/image050.png?raw=true"
   alt="Input of type number."
-  style="width:65%;margin-left:16px;margin-right:16px;"
-  align="middle" />
+  style="width:65%;" />
 
 The example shows the number selector in the Chrome browser. Only the
 numbers between 5 and the 10 are available for selection.
@@ -2357,10 +2346,10 @@ the minimum and maximum.
 <!------------------------------------------------------------------------------------------------>
 <!-------------------------------- 51. input of type range (61) ---------------------------------->
 <!------------------------------------------------------------------------------------------------>
-<img src="/images/image051.png?raw=true"
+<img class="displayed border"
+  src="/images/image051.png?raw=true"
   alt="Input of type range."
-  style="width:65%;margin-left:16px;margin-right:16px;"
-  align="middle" />
+  style="width:65%;" />
 
 Only the slider itself is shown. Additional JavaScript code is needed in
 order to display the value of the slider.
@@ -2379,10 +2368,10 @@ telephone number as input.
 <!------------------------------------------------------------------------------------------------>
 <!------------------------------ 52. input of phone numbers (61) --------------------------------->
 <!------------------------------------------------------------------------------------------------>
-<img src="/images/image052.png?raw=true"
+<img class="displayed border"
+  src="/images/image052.png?raw=true"
   alt="Input of phone numbers format."
-  style="width:65%;margin-left:16px;margin-right:16px;"
-  align="middle" />
+  style="width:65%;" />
 
 On its own, the &lt; input type="tel" &gt; provides nothing more than a
 text entry field in the browsers.
@@ -2394,12 +2383,12 @@ You need to supply your own pattern matcher if you want the browser to
 validate the telephone number.
 
 <!------------------------------------------------------------------------------------------------>
-<!----------------------------------- 53. input for urls (63) ------------------------------------>
+<!----------------------------------- 53. input for urls (62) ------------------------------------>
 <!------------------------------------------------------------------------------------------------>
-<img src="/images/image053.png?raw=true"
+<img class="displayed border"
+  src="/images/image053.png?raw=true"
   alt="Input for URLs."
-  style="width:65%;margin-left:16px;margin-right:16px;"
-  align="middle" />
+  style="width:65%;" />
 
 The URL attribute is used to validate that the user typed in a properly formatted URL or web address.
 
@@ -2410,13 +2399,12 @@ Not to be confused with the &lt; select &gt; element. Useful for auto-complete f
 You can fill the list by nesting
 
 <!------------------------------------------------------------------------------------------------>
-<!--------------------- 54. input attribute 'list' used with datalist (63) ----------------------->
+<!--------------------- 54. input attribute 'list' used with datalist (62) ----------------------->
 <!------------------------------------------------------------------------------------------------>
-<img src="/images/image054.png?raw=true"
+<img class="displayed border"
+  src="/images/image054.png?raw=true"
   alt="Input Attribute 'list' used with &lt;datalist&gt;."
-  style="width:65%;margin-left:16px;margin-right:16px;"
-  align="middle" />
-
+  style="width:65%;" />
 
 These options are the types of fruits listed in the drop-down list.
 
@@ -2429,10 +2417,10 @@ lighter shade of text.
 <!------------------------------------------------------------------------------------------------>
 <!------------------- 55. input attribute 'placeholder' used as example (64) --------------------->
 <!------------------------------------------------------------------------------------------------>
-<img src="/images/image055.png?raw=true"
+<img class="displayed border"
+  src="/images/image055.png?raw=true"
   alt="Input Attribute 'placeholder' used to provide an example of the input format."
-  style="width:65%;margin-left:16px;margin-right:16px;"
-  align="middle" />
+  style="width:65%;" />
 
 The form does not submit the placeholder text value if the input text is
 not overwritten.
@@ -2440,11 +2428,10 @@ not overwritten.
 <!------------------------------------------------------------------------------------------------>
 <!------------ 56. input attribute 'required' indicates that field is required (64) -------------->
 <!------------------------------------------------------------------------------------------------>
-<img src="/images/image056.png?raw=true"
+<img class="displayed border"
+  src="/images/image056.png?raw=true"
   alt="Input Attribute 'required' indicates that the field is required."
-  style="width:65%;margin-left:16px;margin-right:16px;"
-  align="middle" />
-
+  style="width:65%;" />
 
 The required attribute implies that some text must be typed.
 
@@ -2457,10 +2444,10 @@ input attributes?
 <!------------------------------------------------------------------------------------------------>
 <!-------------------------------- 57. validation fallback (65) ---------------------------------->
 <!------------------------------------------------------------------------------------------------>
-<img src="/images/image057.png?raw=true"
+<img class="displayed border"
+  src="/images/image057.png?raw=true"
   alt="Validation Fallback"
-  style="width:65%;margin-left:16px;margin-right:16px;"
-  align="middle" />
+  style="width:65%;" />
 
 <p>
 There are several options to performing validation in browsers that do
@@ -2564,10 +2551,10 @@ After reading this section, you will be able to:</p>
 <!------------------------------------------------------------------------------------------------>
 <!----------------------------- 58. the nature of javascript (67) -------------------------------->
 <!------------------------------------------------------------------------------------------------>
-<img src="/images/image058.png?raw=true"
+<img class="displayed border"
+  src="/images/image058.png?raw=true"
   alt="The Nature of JavaScript."
-  style="width:65%;margin-left:16px;margin-right:16px;"
-  align="middle" />
+  style="width:65%;" />
 
 JavaScript is a scripting language that is derived from the ECMAScript
 standard and originally designed to run on the Netscape Navigator
@@ -2660,10 +2647,10 @@ The wrapper objects use special methods such as the *valueOf* and
 <!------------------------------------------------------------------------------------------------>
 <!--------------------------- 60. examples with wrapper objects (69) ----------------------------->
 <!------------------------------------------------------------------------------------------------>
-<img src="/images/image060.png?raw=true"
+<img class="displayed border"
+  src="/images/image060.png?raw=true"
   alt="Examples with Wrapper Objects."
-  style="width:65%;margin-left:16px;margin-right:16px;"
-  align="middle" />
+  style="width:65%;" />
 
 The *typeof* keyword in JavaScript is used to find out the data type of
 the supplied operand.
@@ -2679,10 +2666,10 @@ valueOf function on the object wrapper class.
 <!------------------------------------------------------------------------------------------------>
 <!--------------------------------- 61. array objects defined (70) ------------------------------->
 <!------------------------------------------------------------------------------------------------>
-<img src="/images/image061.png?raw=true"
+<img class="displayed border"
+  src="/images/image061.png?raw=true"
   alt="Arrays are specialized collection objects"
-  style="width:65%;margin-left:16px;margin-right:16px;"
-  align="middle" />
+  style="width:65%;" />
 
 Arrays are specialized collection objects that aid the programmer in the
 storage and retrieval of data by indexed keys.
@@ -2698,10 +2685,10 @@ array.
 <!------------------------------------------------------------------------------------------------>
 <!------------------------------ 62. declaring array objects (70) -------------------------------->
 <!------------------------------------------------------------------------------------------------>
-<img src="images/image062.png"
+<img class="displayed border"
+  src="images/image062.png"
   alt="Declaring Array Objects"
-  style="width:65%;margin-left:16px;margin-right:16px;"
-  align="middle" />
+  style="width:65%;" />
 
 Arrays can be declared by using either an array constructor or an array
 literal.
@@ -2718,10 +2705,10 @@ the slide.
 <!------------------------------------------------------------------------------------------------>
 <!------------------------------------ 63. date objects (71) ------------------------------------->
 <!------------------------------------------------------------------------------------------------>
-<img src="images/image063.png"
-  alt="Date Objects"
-  style="width:65%;margin-left:16px;margin-right:16px;"
-  align="middle" />
+<img class="displayed border"
+  src="images/image063.png"
+  alt="Date Objects."
+  style="width:65%;" />
 
 The Date object is a specialized object that is used to hold the date
 and time.
@@ -2742,10 +2729,10 @@ this slide.
 <!------------------------------------------------------------------------------------------------>
 <!------------------------------------ 64. date objects (72) ------------------------------------->
 <!------------------------------------------------------------------------------------------------>
-
-<img src="images/image064.png"
+<img class="displayed border"
+  src="images/image064.png"
   alt="Date Objects #2"
-  style="width:65%;margin-left:16px;margin-right:16px;" />
+  style="width:65%;" />
 
 You can also create new dates by passing parameters to the new Date
 function.
@@ -2759,10 +2746,10 @@ instances when an exception occurs.
 <!------------------------------------------------------------------------------------------------>
 <!------------------------------------ 65. error objects (72) ------------------------------------>
 <!------------------------------------------------------------------------------------------------>
-<img src="images/image065.png"
-  alt="Error Objects"
-  style="width:65%;margin-left:16px;margin-right:16px;"
-  align="middle" />
+<img class="displayed border"
+  src="images/image065.png"
+  alt="Error Objects."
+  style="width:65%;" />
 
 The error object instance includes two properties that contain
 information about the error:
@@ -2782,10 +2769,10 @@ The other three are EvalError, ReferenceError, and SyntaxError.
 <!------------------------------------------------------------------------------------------------>
 <!--------------------------------- 66. custom error types (73) ---------------------------------->
 <!------------------------------------------------------------------------------------------------>
-<img src="images/image066.png"
+<img class="displayed border"
+  src="images/image066.png"
   alt="Custom Error Types."
-  style="width:65%;margin-left:16px;margin-right:16px;"
-  align="middle" />
+  style="width:65%;" />
 <p>
 The Error object can be extended to create custom error types.
 
@@ -2832,10 +2819,10 @@ name, as in the example, var age.</li>
 <!------------------------------------------------------------------------------------------------>
 <!------------------------------- 67. a primer on variables (74) --------------------------------->
 <!------------------------------------------------------------------------------------------------>
-<img src="images/image067.png"
+<img class="displayed border"
+  src="images/image067.png"
   alt="A Primer on Variables"
-  style="width:65%;margin-left:16px;margin-right:16px;"
-  align="middle" />
+  style="width:65%;" />
 
 <p>
 Variables can be declared and initialized in one step, as in the
@@ -2847,10 +2834,10 @@ value of a variable,
 <!------------------------------------------------------------------------------------------------>
 <!----------------------------- 68.  a primer on variables #2 (75) ------------------------------->
 <!------------------------------------------------------------------------------------------------>
-<img src="images/image068.png"
+<img class="displayed border"
+  src="images/image068.png"
   alt="A Primer on Variables #2"
-  style="width:65%;margin-left:16px;margin-right:16px;"
-  align="middle" />
+  style="width:65%;" />
 <p>
 Since JavaScript is a loosely typed language, you do not need to declare
 the data type of a variable.<br>
@@ -3119,9 +3106,10 @@ newly created Car object.
 <!------------------------------------------------------------------------------------------------>
 <!------------------------------ 75. Creating custom Objects (81) -------------------------------->
 <!------------------------------------------------------------------------------------------------>
-<img src="images/image075.png"
+<img class="displayed border"
+  src="images/image075.png"
   alt="Creating custom objects."
-  style="width:65%;margin-left:16px;margin-right:16px;" />
+  style="width:65%;" />
 
 By using prototypes, you can easily define properties and methods for
 all instances of a particular object.
@@ -3129,9 +3117,10 @@ all instances of a particular object.
 <!------------------------------------------------------------------------------------------------>
 <!------------------------------------ 76. Prototypes (82) --------------------------------------->
 <!------------------------------------------------------------------------------------------------>
-<img src="images/image076.png"
+<img class="displayed border"
+  src="images/image076.png"
   alt="Prototypes"
-  style="width:65%;margin-left:16px;margin-right:16px;" />
+  style="width:65%;" />
 
 Prototypes exist for all JavaScript objects that can be created with the
 new keyword.
@@ -3142,9 +3131,10 @@ methods that are defined by the prototype for that object.
 <!------------------------------------------------------------------------------------------------>
 <!------------------------------------ 77. Prototypes (77) --------------------------------------->
 <!------------------------------------------------------------------------------------------------>
-<img src="images/image077.png"
+<img class="displayed border"
+  src="images/image077.png"
   alt="Prototypes"
-  style="width:65%;margin-left:16px;margin-right:16px;" />
+  style="width:65%;" />
 
 Any object that gets instantiated inherits the current state of the
 prototype.
@@ -3168,9 +3158,10 @@ value.
 <!------------------------------------------------------------------------------------------------>
 <!-------------------------- 78. Adding functions to prototypes (78) ----------------------------->
 <!------------------------------------------------------------------------------------------------>
-<img src="/images/image078.png?raw=true"
+<img class="displayed border"
+  src="/images/image078.png?raw=true"
   alt="Adding Functions to Prototypes"
-  style="width:65%;margin-left:16px;margin-right:16px;" />
+  style="width:65%;" />
 
 Here is another example that uses a prototype to change Car instances.
 
@@ -3186,9 +3177,10 @@ method.
 <!------------------------------------------------------------------------------------------------>
 <!------------------------------ 79. self-executing function (79) -------------------------------->
 <!------------------------------------------------------------------------------------------------>
-<img src="/images/image079.png?raw=true"
+<img class="displayed border"
+  src="/images/image079.png?raw=true"
   alt="Self-executing Function"
-  style="width:65%;margin-left:16px;margin-right:16px;" />
+  style="width:65%;" />
 
 Functions are usually declared first, and not run until you specifically
 ask them to, as you saw in some of the previous examples.
@@ -3256,16 +3248,18 @@ script after being declared.
 <!------------------------------------------------------------------------------------------------>
 <!-------------------------- 80. Functions: parts of a function (80) ----------------------------->
 <!------------------------------------------------------------------------------------------------>
-<img src="/images/image080.png?raw=true"
+<img class="displayed border"
+  src="/images/image080.png?raw=true"
   alt="Functions: Parts of a Function"
-  style="width:65%;margin-left:16px;margin-right:16px;">
+  style="width:65%;" />
 
 <!------------------------------------------------------------------------------------------------>
 <!------------------------------ 81. creating custom objects (81) -------------------------------->
 <!------------------------------------------------------------------------------------------------>
-<img src="/images/image081.png?raw=true"
+<img class="displayed border"
+  src="/images/image081.png?raw=true"
   alt="Creating Custom Objects"
-  style="width:65%;margin-left:16px;margin-right:16px;" />
+  style="width:65%;" />
 
 <p>
 This example is a function that is named add.
@@ -3314,9 +3308,10 @@ all instances of a particular object.</p>
 <!------------------------------------------------------------------------------------------------>
 <!------------------------------------ 76. prototypes  (82) -------------------------------------->
 <!------------------------------------------------------------------------------------------------>
-<img src="/images/image082.png?raw=true"
+<img class="displayed border"
+  src="/images/image082.png?raw=true"
   alt="Prototypes"
-  style="width:65%;margin-left:16px;margin-right:16px;" />
+  style="width:65%;" />
 <p>
 Prototypes exist for all JavaScript objects that can be created with the
 new keyword.<br>
@@ -3327,9 +3322,10 @@ methods that are defined by the prototype for that object.</p>
 <!------------------------------------------------------------------------------------------------>
 <!----------------------------------- 77/82. prototypes (82) ------------------------------------->
 <!------------------------------------------------------------------------------------------------>
-<img src="/images/image082.png?raw=true"
+<img class="displayed border"
+  src="/images/image082.png?raw=true"
   alt="Prototypes 2."
-  style="width:65%;margin-left:16px;margin-right:16px;" />
+  style="width:65%;" />
 
 Any object that gets instantiated inherits the current state of the
 prototype.
@@ -3353,9 +3349,10 @@ value.
 <!------------------------------------------------------------------------------------------------>
 <!--------------------------- 83. adding functions to prototypes (83) ---------------------------->
 <!------------------------------------------------------------------------------------------------>
-<img src="/images/image083.png?raw=true"
+<img class="displayed border"
+  src="/images/image083.png?raw=true"
   alt="Adding functions to prototypes."
-  style="width:65%;margin-left:16px;margin-right:16px;" />
+  style="width:65%;" />
 
 Here is another example that uses a prototype to change Car instances.<br>
 <br>
@@ -4462,7 +4459,7 @@ computer that are associated with a Git repository. 
 <img class="displayed border"
   src="/images/image126.png?raw=true"
   alt="Basic git Commands"
-  style="width:65%;">
+  style="width:65%;" />
 
 There are a few basic <b>Git</b> commands that you will always use. 
 
@@ -4563,9 +4560,9 @@ updates. </li>
 
 <li>Pluggable merge strategies.</li>
 </ul>
-
+<p>
 Many pathways of development can lead to complex integration decisions
-that might require explicit integration strategies. 
+that might require explicit integration strategies. </p>
 
 <!------------------------------------------------------------------------------------------------>
 <!--------------------------------- 129. git repository model (120) ------------------------------>
@@ -4587,11 +4584,10 @@ support non-linear workflows. 
 <!------------------------------------------------------------------------------------------------>
 <!---------------------------------- 130. what is git? (121) ------------------------------------->
 <!------------------------------------------------------------------------------------------------>
-
-<img src="/images/image130.png?raw=true"
+<img class="displayed border"
+  src="/images/image130.png?raw=true"
   alt="What is Git?"
-  style="width:65%;margin-left:16px;margin-right:16px;">
-
+  style="width:65%;" />
 
 Created in 2005 by Linus Torvalds for distribution of Linux kernels. 
 
@@ -4627,11 +4623,10 @@ Git repositories, often called repos. 
 <!------------------------------------------------------------------------------------------------>
 <!---------------------------------- 131. what is github? (122) ---------------------------------->
 <!------------------------------------------------------------------------------------------------>
-
-<img src="/images/image131.png?raw=true"
+<img class="displayed border"
+  src="/images/image131.png?raw=true"
   alt="What is Github?"
-  style="width:65%;margin-left:16px;margin-right:16px;">
-
+  style="width:65%;" />
 
 GitHub is an online hosting service for Git repositories. 
 
@@ -4657,10 +4652,10 @@ A Repository is: 
 <!------------------------------------------------------------------------------------------------>
 <!--------------------------------- 132. what is gitlab? (123) ----------------------------------->
 <!------------------------------------------------------------------------------------------------>
-
-<img src="/images/image132.png?raw=true" 
+<img class="displayed border"
+  src="/images/image132.png?raw=true" 
   alt="What is GitLab?" 
-  style="width:150px;height:150px;margin-left:16px;">
+  style="width:150px;" />
 
 <p>
 With GitLab, developers can: 
@@ -4711,11 +4706,10 @@ After reading this section, you will be able to:</p>
 <!------------------------------------------------------------------------------------------------>
 <!-------------------------------- 133. create an account (124) ---------------------------------->
 <!------------------------------------------------------------------------------------------------>
-
-<img src="/images/image133.png?raw=true" 
+<img class="displayed border"
+  src="/images/image133.png?raw=true"
   alt="Create an Account"
-  style="width:65%;margin-left:16px;margin-right:16px;">
-
+  style="width:65%;" />
 
 Start at the GitHub site, https://github.com
 
@@ -4747,11 +4741,10 @@ take the Introduction to GitHub course.
 <!------------------------------------------------------------------------------------------------>
 <!------------------------------- 134. create a repository (125) --------------------------------->
 <!------------------------------------------------------------------------------------------------>
-
-<img src="/images/image134.png?raw=true" 
+<img class="displayed border"
+  src="/images/image134.png?raw=true"
   alt="Create a Repository."
-  style="width:65%;margin-left:16px;margin-right:16px;">
-
+  style="width:65%;" />
 
 Remember, a repository is a data structure for storing documents
 including application source code which tracks and maintains
@@ -4769,34 +4762,33 @@ have time, read the GitHub guide.
 
 The heart of a Git-based project is the repository.
 
-This contains all your code and the related artifacts, including things
-like:
-
--   a README file to describe the purpose of the project.
-
--   A license to express the ways in which people can use your code,
-    Etc.
-
+<h4>This contains all your code and the related artifacts, including things
+like:</h4>
+<ul>
+<li>a README file to describe the purpose of the project.<br></li>
+<li>A license to express the ways in which people can use your code,
+    Etc.</li>
+</ul>
+<p>
 You can also make your repository private (only available to people with
 accounts that have permission to see it) or public (searchable and seen
-by everyone).
+by everyone).</p>
 
 <!------------------------------------------------------------------------------------------------>
 <!---------------------------- 135. exploring your repository (126) ------------------------------>
 <!------------------------------------------------------------------------------------------------>
-
-<img src="/images/image135.png?raw=true"
+<img class="displayed border"
+  src="/images/image135.png?raw=true"
   alt="Exploring Your Repository."
-  style="width:65%;margin-left:16px;margin-right:16px;">
-
-
+  style="width:65%; />
+<p>
 When you create your repository, you'll notice that it has a number of
-tabs, and is opened to the Code tab.
-
-Code -- this is where all the source files reside.
-
+tabs, and is opened to the Code tab.<br>
+<br>
+Code -- this is where all the source files reside.<br>
+<br>
 Git was initially created as a source code repository but now all sorts
-of files end up in here.
+of files end up in here.<br>
 
 If you created a README and/or license, that's all that's here right
 now.
@@ -4830,25 +4822,23 @@ In this section you learned:
 
 <!------------------------------------- 5.4 github branches -------------------------------------->
 <h3 id="ch5-4">5.4 GitHub Branches</h3>
+<p>Welcome to GitHub Branches!</p>
 
-Welcome to GitHub Branches!
+<h4>After reading this section (5.4), you will be able to:</h4>
+<ul>
+<li>Explain the purpose of branches and<br></li>
+<li>describe how to merge changes into branches.</li>
+</ul>
 
-After reading this section, you will be able to:
-
--   Explain the purpose of branches and
-
--   describe how to merge changes into branches.
-
-All files in GitHub are stored on a branch.
+<p>All files in GitHub are stored on a branch.</p>
 
 <!------------------------------------------------------------------------------------------------>
 <!------------------------------- 136. what are branches? (127) ---------------------------------->
 <!------------------------------------------------------------------------------------------------>
-
-<img src="/images/image136.png?raw=true"
+<img class="displayed border"
+  src="/images/image136.png?raw=true"
   alt="What are Branches?"
-  style="width:65%;margin-left:16px;margin-right:16px;">
-
+  style="width:65%;" />
 
 The master branch is definitive; it stores the deployable version of
 your code.
@@ -4866,11 +4856,10 @@ As you make changes, the branch that you created holds the changed code.
 <!------------------------------------------------------------------------------------------------>
 <!----------------------------- 137. how to create a branch (128) -------------------------------->
 <!------------------------------------------------------------------------------------------------>
-
-<img src="/images/image137.png?raw=true"
-   alt="How to Create a Branch"
-  style="width:65%;margin-left:16px;margin-right:16px;">
-
+<img class="displayed border"
+  src="/images/image137.png?raw=true"
+  alt="How to Create a Branch"
+  style="width:65%;" />
 
 To create a new branch, click drop-down branch: master
 
@@ -4888,20 +4877,17 @@ At one point, the code is branched while new features are developed.
 In this example, both branches are undergoing changes.
 
 When the two streams of work are ready to merge, each branch's code is
-identified
+identified as a tip.
 
-as a tip.
-
-and the two tips are merged into a third, combined branch.
+And the two tips are merged into a third, combined branch.
 
 <!------------------------------------------------------------------------------------------------>
 <!-------------------------------- 138. merging branches (128) ----------------------------------->
 <!------------------------------------------------------------------------------------------------>
-
-<img src="/images/image138.png?raw=true"
+<img class="displayed border"
+  src="/images/image138.png?raw=true"
   alt="Merging Branches"
-  style="width:65%;margin-left:16px;margin-right:16px;">
-
+  style="width:65%;" />
 
 Developers work on source files in a branch. Since some projects take a
 while, the source doesn't make sense right away.
@@ -4943,11 +4929,10 @@ Some rules:
 <!------------------------------------------------------------------------------------------------>
 <!----------------------------- 139. what is a pull request? (129) ------------------------------->
 <!------------------------------------------------------------------------------------------------>
-
-<img src="/images/image139.png?raw=true"
+<img class="displayed border"
+  src="/images/image139.png?raw=true"
   alt="What is a Pull Request?"
-  style="width:65%;margin-left:16px;margin-right:16px;">
-
+  style="width:65%;" />
 
 Pull is used to initiate the merging of branches in a way to capture
 changes.
@@ -4971,11 +4956,9 @@ To open a new pull request:
 <!------------------------------------------------------------------------------------------------>
 <!------------------------------- 140. open a pull request (130) --------------------------------->
 <!------------------------------------------------------------------------------------------------>
-
 <img src="/images/image140.png?raw=true"
   alt="Open a Pull Request"
-  style="width:65%;margin-left:16px;margin-right:16px;">
-
+  style="width:65%;" />
 
 Click Pull request and select New pull request.
 
@@ -5006,9 +4989,10 @@ The approved code is merged back into the master code.
 <!------------------------------------------------------------------------------------------------>
 <!-------------------------- 141. merged into the master branch (131) ---------------------------->
 <!------------------------------------------------------------------------------------------------>
-<img src="/images/image141.png?raw=true"
+<img class="displayed border"
+  src="/images/image141.png?raw=true"
   alt="Merging into the Master Branch"
-  style="width:65%;margin-left:16px;margin-right:16px;">
+  style="width:65%;" />
 
 To merge a committed code change into your master code.
 
@@ -5019,9 +5003,10 @@ Click Confirm merge.
 <!------------------------------------------------------------------------------------------------>
 <!------------------------------ 142. merge a pull request (131) --------------------------------->
 <!------------------------------------------------------------------------------------------------>
-<img src="/images/image142.png?raw=true"
+<img class="displayed border"
+  src="/images/image142.png?raw=true"
   alt="Merge a Pull Request."
-  style="width:65%;margin-left:16px;margin-right:16px;">
+  style="width:65%;" />
 
 When all changes for a branch are complete, that branch is considered
 obsolete and it should be deleted.
@@ -5053,9 +5038,10 @@ merge the committed code changes into your master code.
 <!------------------------------------------------------------------------------------------------>
 <!-------------------------------- 143. summary chapter 5 (132) ---------------------------------->
 <!------------------------------------------------------------------------------------------------>
-<img src="/images/image143.png?raw=true"
+<img class="displayed border"
+  src="/images/image143.png?raw=true"
   alt="Summary chapter 5."
-  style="width:65%;margin-left:16px;margin-right:16px;">
+  style="width:65%;" />
 
 <a href="https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBMDeveloperSkillsNetwork-CD0101EN-SkillsNetwork/labs/GitHubLabs/GitHub2_Branch_Merge.md.html" target="_blank" rel="noopener noreferrer">Click here to launch the lab in another browser.</a>
 
@@ -5075,11 +5061,10 @@ After reading this section, you will be able to:
 <!------------------------------------------------------------------------------------------------>
 <!----------------------------- 144. team working with github (133) ------------------------------>
 <!------------------------------------------------------------------------------------------------>
-
-<img src="/images/image144.png?raw=true"
+<img class="displayed border"
+  src="/images/image144.png?raw=true"
   alt="Team Working with GitHub."
-  style="width:65%;margin-left:16px;margin-right:16px;">
-
+  style="width:65%;" />
 
 GitHub has over existing 100M repositories, including some very useful
 projects.
@@ -5104,17 +5089,18 @@ to clone.
 <!------------------------------------------------------------------------------------------------>
 <!-------------------------- 145. cloning a github repository #1 (133) --------------------------->
 <!------------------------------------------------------------------------------------------------>
-<img src="/images/image145.png?raw=true"
+<img class="displayed border"
+  src="/images/image145.png?raw=true"
   alt="Cloning a GitHub Repository."
-  style="width:65%;margin-left:16px;margin-right:16px;" />
+  style="width:65%;" />
 
 <!------------------------------------------------------------------------------------------------>
 <!-------------------------- 146. cloning a github repository #2 (134) --------------------------->
 <!------------------------------------------------------------------------------------------------>
-<img src="/images/image146.png?raw=true"
+<img class="displayed border"
+  src="/images/image146.png?raw=true"
   alt="Cloning a GitHub Repository."
-  style="width:65%;margin-left:16px;margin-right:16px;" />
-
+  style="width:65%;" />
 
 Under the repository name, click Code.
 
@@ -5136,9 +5122,10 @@ GitHub.
 <!------------------------------------------------------------------------------------------------>
 <!----------------------------- 147. syncing local changes (133) --------------------------------->
 <!------------------------------------------------------------------------------------------------>
-<img src="/images/image147.png?raw=true"
+<img class="displayed border"
+  src="/images/image147.png?raw=true"
   alt="Syncing a Local Repository."
-  style="width:65%;margin-left:16px;margin-right:16px;" />
+  style="width:65%;" />
 
 First, you must run the "git add " command.
 
@@ -5157,9 +5144,10 @@ repository.
 <!------------------------------------------------------------------------------------------------>
 <!------------------------- 148. commit changes to staging area (134) ---------------------------->
 <!------------------------------------------------------------------------------------------------>
-<img src="/images/image148.png?raw=true"
+<img class="displayed border"
+  src="/images/image148.png?raw=true"
   alt="git commit changes to the staging area."
-  style="width:65%;margin-left:16px;margin-right:16px;" />
+  style="width:65%;" />
 
 Use the "git push" command.
 
@@ -5180,9 +5168,10 @@ need to share work.
 <!------------------------------------------------------------------------------------------------>
 <!----------------------------- 149. remote repositories #2 (136) -------------------------------->
 <!------------------------------------------------------------------------------------------------>
-<img src="/images/image149.png?raw=true"
+<img class="displayed border"
+  src="/images/image149.png?raw=true"
   alt="Remote Repositories #2"
-  style="width:65%;margin-left:16px;margin-right:16px;" />
+  style="width:65%;" />
 
 Use git push to transfer your changes to the remote repo.
 
@@ -5195,9 +5184,10 @@ can perform a merge manually if you want.
 <!------------------------------------------------------------------------------------------------>
 <!----------------------------- 150. remote repositories #3 (136) -------------------------------->
 <!------------------------------------------------------------------------------------------------>
-<img src="/images/image150.png?raw=true"
+<img class="displayed border"
+  src="/images/image150.png?raw=true"
   alt="Remote Repositories #3"
-  style="width:65%;margin-left:16px;margin-right:16px;" />
+  style="width:65%;" />
 
 Use git pull to transfer any changes from the remote repo to your local
 repo, and merge them to a branch.
@@ -5208,9 +5198,10 @@ reps.
 <!------------------------------------------------------------------------------------------------>
 <!------------------------------ 151. remote repositories #4 (137) ------------------------------->
 <!------------------------------------------------------------------------------------------------>
-<img src="/images/image151.png?raw=true"
+<img class="displayed border"
+  src="/images/image151.png?raw=true"
   alt="Remote Repositories #4"
-  style="width:65%;margin-left:16px;margin-right:16px;" />
+  style="width:65%;" />
 
 Origin generally refers to your fork and upstream refers to the original
 work.
@@ -5222,9 +5213,10 @@ You can of course name them anything you like.
 <!------------------------------------------------------------------------------------------------>
 <!-------------------------------- 152. forking a project (137) ---------------------------------->
 <!------------------------------------------------------------------------------------------------>
-<img src="/images/image152.png?raw=true"
+<img class="displayed border"
+  src="/images/image152.png?raw=true"
   alt="Forking a Project"
-  style="width:65%;margin-left:16px;margin-right:16px;" />
+  style="width:65%;" />
 
 Forking is used to take a copy of a GitHub repository and use it as the
 base for a new
@@ -5249,9 +5241,10 @@ Even if no legal requirement exists, it's good practice.
 <!------------------------------------------------------------------------------------------------>
 <!--------------------------- 153. steps in forking a project (138) ------------------------------>
 <!------------------------------------------------------------------------------------------------>
-<img src="/images/image153.png?raw=true"
+<img class="displayed border"
+  src="/images/image153.png?raw=true"
   alt="Steps in Forking of a Project."
-  style="width:65%;margin-left:16px;margin-right:16px;" />
+  style="width:65%;" />
 
 Navigate to the repository that you want to fork.
 
@@ -5262,9 +5255,10 @@ To keep a fork in sync with the original work from a local clone.
 <!------------------------------------------------------------------------------------------------>
 <!--------------------------- 154. syncing a fork of a project (138) ----------------------------->
 <!------------------------------------------------------------------------------------------------>
-<img src="/images/image154.png?raw=true"
+<img class="displayed border"
+  src="/images/image154.png?raw=true"
   alt="Syncing a Fork of a Project."
-  style="width:65%;margin-left:16px;margin-right:16px;" />
+  style="width:65%;" />
 
 First, create a local clone of the project.
 
@@ -5285,9 +5279,10 @@ If you type "git remote --v", you'll see the change reflected.
 <!------------------------------------------------------------------------------------------------>
 <!--------------------------- 155. commands for managing forks (139) ----------------------------->
 <!------------------------------------------------------------------------------------------------>
-<img src="/images/image155.png?raw=true"
+<img class="displayed border"
+  src="/images/image155.png?raw=true"
   alt="Commands for managing forks"
-  style="width:65%;margin-left:16px;margin-right:16px;" />
+  style="width:65%;" />
 
 Other commands of interest include "git fetch upstream" to grab upstream
 branches and "git merge upstream/master" which merges changes into the
@@ -5327,11 +5322,10 @@ the ones needed by a standalone developer.
 <!------------------------------------------------------------------------------------------------>
 <!---------------------------- 156. github developer commands (140) ------------------------------>
 <!------------------------------------------------------------------------------------------------>
-
-<img src="/images/image156.png?raw=true"
+<img class="displayed border"
+  src="/images/image156.png?raw=true"
   alt="GitHub Developer commands"
-  style="width:65%;margin-left:16px;margin-right:16px;">
-
+  style="width:65%;" />
 
 When working with Git, you can use Git commands or a desktop tool such
 as GitHub Desktop.
@@ -5356,11 +5350,10 @@ as GitHub Desktop.
 <!------------------------------------------------------------------------------------------------>
 <!-------------------------------- 157. github integrator (141) ---------------------------------->
 <!------------------------------------------------------------------------------------------------>
-
-<img src="/images/image157.png?raw=true"
+<img class="displayed border"
+  src="/images/image157.png?raw=true"
   alt="GitHub Integrator"
-  style="width:65%;margin-left:16px;margin-right:16px;">
-
+  style="width:65%;" />
 
 An integrator in a group project receives changes made by others,
 reviews and integrates them (responds to pull requests) and publishes
@@ -5383,11 +5376,10 @@ participants.
 <!------------------------------------------------------------------------------------------------>
 <!---------------------------- 158. github repository administrator (141) ------------------------>
 <!------------------------------------------------------------------------------------------------>
-
-<img src="/images/image158.png?raw=true"
+<img class="displayed border"
+  src="/images/image158.png?raw=true"
   alt="GitHub Repository Administrator"
-  style="width:85%;margin-left:16px;margin-right:16px;">
-
+  style="width:85%;" />
 
 A Repository Administrator uses the following tools to set up and
 maintain access to the repository by developers.
@@ -5437,33 +5429,36 @@ Start Lab
 <!------------------------------- 5.7 git installation on desktop -------------------------------->
 <h3 id="ch5-7">5.7 Git Installation on Desktop</h3>
 
-Installing Git Bash
+<h4>Installing Git Bash</h4>
 
 <!------------------------------------------------------------------------------------------------>
 <!---------------------------------- 159. ibm cloud logo (143) ----------------------------------->
 <!------------------------------------------------------------------------------------------------>
-
-<img src="/images/image159.png?raw=true"
+<img class="displayed border"
+  src="/images/image159.png?raw=true"
   alt="IBM Cloud logo."
-  style="width:85%;margin-left:16px;margin-right:16px;">
-
+  style="width:85%;" />
 
 <b>Estimated time</b>: 20 minutes
 
 <h3>What is Git Bash?</h3>
 
 Git Bash for Windows is simply a package that includes
-both *Git* and *Bash*.
+both <i>Git</i> and <i>Bash</i>.
 
 Git is an open-source version control system for tracking source code
-changes when developing software. It keeps a commit history that allows
-you to revert to a stable state in case you make errors in your code.
+changes when developing software.
+
+It keeps a commit history that allows you to revert to a stable state in case you make errors in your code.
+
 Git also enables multiple developers to collaborate on the same code
 base.
 
-Bash is a Unix command-line shell. The name is an acronym
-for *Bourne-Again Shell*. It comes with useful Unix commands like cat,
-ssh, SCP, etc., which are not usually found on Windows.
+Bash is a Unix command-line shell. 
+
+The name is an acronym for <i>Bourne-Again Shell</i>. 
+
+It comes with useful Unix commands like cat, ssh, SCP, etc., which are not usually found on Windows.
 
 <h3>Installing Git Bash for Windows</h3>
 
@@ -5475,22 +5470,20 @@ following steps:
 <!------------------------------------------------------------------------------------------------>
 <!------------------------------------ 160. downloads (144) -------------------------------------->
 <!------------------------------------------------------------------------------------------------>
-
-<img src="/images/image160.png?raw=true"
+<img class="displayed border"
+  src="/images/image160.png?raw=true"
   alt="Downloads"
-  style="width:85%;margin-left:16px;margin-right:16px;">
-
+  style="width:85%;" />
 
 You will be redirected to a new page and the download will start.
 
 <!------------------------------------------------------------------------------------------------>
 <!--------------------------------- 161. downloading git  (144) ---------------------------------->
 <!------------------------------------------------------------------------------------------------>
-
-<img src="/images/image161.png?raw=true"
+<img class="displayed border"
+  src="/images/image161.png?raw=true"
   alt="Downloading Git."
-  style="width:85%;margin-left:16px;margin-right:16px;">
-
+  style="width:85%;" />
 
 <b>Note</b>: If the download doesn't start, click <b>Click here to download
 manually</b>.
@@ -5501,20 +5494,20 @@ manually</b>.
 <!------------------------------------------------------------------------------------------------>
 <!--------------------------- 162. open file security warning (145) ------------------------------>
 <!------------------------------------------------------------------------------------------------>
-
-<img src="/images/image162.png?raw=true"
+<img class="displayed border"
+  src="/images/image162.png?raw=true"
   alt="Open File Security Warning"
-  style="width:85%;margin-left:16px;margin-right:16px;">
-
+  style="width:85%;" />
 
 3.  Click <b>Run</b> to begin the installation.
 
 <!------------------------------------------------------------------------------------------------>
 <!--------------------------- 163. click run to begin install (145) ------------------------------>
 <!------------------------------------------------------------------------------------------------>
-<img src="/images/image163.png?raw=true"
+<img class="displayed border"
+  src="/images/image163.png?raw=true"
   alt="Click Next to Begin Install."
-  style="width:85%:margin-left:16px;margin-right:16px;">
+  style="width:85%;" />
 
 4.  Select the location where you want to install Git Bash. 
 
@@ -5640,9 +5633,10 @@ commands.
 <!------------------------------------------------------------------------------------------------>
 <!--------------------------------- 176. git bash terminal (1xx) --------------------------------->
 <!------------------------------------------------------------------------------------------------>
-<img src="/images/image176.png?raw=true"
+<img class="displayed border"
+  src="/images/image176.png?raw=true"
   alt="Git Bash Terminal."
-  style="width:65%:margin-left:16px;margin-right:16px;">
+  style="width:65%;" />
 
 <h4>© IBM Corporation 2020. All rights reserved.</h4>
 
@@ -5654,9 +5648,10 @@ commands.
 <!------------------------------------------------------------------------------------------------>
 <!----------------------------- 159. ibm skills network logo (153) ------------------------------->
 <!------------------------------------------------------------------------------------------------>
-<img src="/images/image159.png?raw=true"
+<img class="displayed border"
+  src="/images/image159.png?raw=true"
   alt="IBM Skills Network."
-  style="width:35%:margin-left:16px;margin-right:16px;">
+  style="width:35%;" />
 
 <h3>What is an SSH key?</h3>
 
@@ -5712,12 +5707,16 @@ key.
     the authentication process. To start the ssh-agent, run the
     following command in the terminal:
 
-<b>eval "$(ssh-agent -s)"</b>
+```
+eval "$(ssh-agent -s)"
+```
 
 7.  To add the key to the agent, run the following command in the
     terminal:
 
-<b>ssh-add ~/.ssh/id_rsa</b>
+```
+ssh-add ~/.ssh/id_rsa
+```
 
 <h4>© IBM Corporation 2020. All rights reserved.</h4>
 
@@ -5729,10 +5728,10 @@ key.
 <!------------------------------------------------------------------------------------------------>
 <!----------------------------- 159. ibm skills network logo (155) ------------------------------->
 <!------------------------------------------------------------------------------------------------>
-<img src="images/image159.png"
+<img class="displayed border"
+  src="images/image159.png"
   alt="IBM Skills Network logo"
-  style="width:35%:margin-left:16px;margin-right:16px;">
-&nbsp;
+  style="width:35%;" />
 
 <h3>Prerequisites</h3>
 
@@ -5771,20 +5770,20 @@ command line and the copy the output.
 <!------------------------------------------------------------------------------------------------>
 <!--------------------------------- 178. ssh and gpg keys (156) ---------------------------------->
 <!------------------------------------------------------------------------------------------------>
-<img src="images/image178.png" 
+<img class="displayed border"
+  src="images/image178.png"
   alt="SSH and GPG Keys"
-  style="width:65%:margin-left:16px;margin-right:16px;">
-&nbsp;
+  style="width:65%;" />
 
 4.  Click <b>New SSH key</b>.
 
 <!------------------------------------------------------------------------------------------------>
 <!----------------------------------- 179. new ssh key (157) ------------------------------------->
 <!------------------------------------------------------------------------------------------------>
-<img src="images/image179.png" 
+<img class="displayed border"
+  src="images/image179.png"
   alt="New SSH Key"
-  style="width:65%:margin-left:16px;margin-right:16px;">
-&nbsp;
+  style="width:65%;" />
 
 5.  Enter a title for the new SSH key. In the <b>Key</b> field, paste the
     key that you copied in step 1, above. The pasted key should
@@ -5793,9 +5792,10 @@ command line and the copy the output.
 <!------------------------------------------------------------------------------------------------>
 <!--------------------------------- 180. title to ssh keys (157) --------------------------------->
 <!------------------------------------------------------------------------------------------------>
-<img src="images/image180.png"
+<img class="displayed border"
+  src="images/image180.png"
   alt="Enter title for SSH keys."
-  style="width:45%:margin-left:16px;margin-right:16px;">
+  style="width:45%;" />
 
 6.  Click <b>Add SSH Key</b>. The SSH key is added to your account.
 
@@ -5812,9 +5812,10 @@ command line and the copy the output.
 <!------------------------------------------------------------------------------------------------>
 <!------------------------------- 159. ibm developer logo (158) ---------------------------------->
 <!------------------------------------------------------------------------------------------------>
-<img src="images/image159.png" 
+<img class="displayed border"
+  src="images/image159.png"
   alt="IBM Developer Logo."
-  style="width:25%:margin-left:16px;margin-right:16px;">
+  style="width:25%;" />
 
 <h3>Objectives</h3>
 
@@ -5854,7 +5855,8 @@ To clone a repo, you need the ssh url of the repo.</p>
 <!------------------------------------------------------------------------------------------------>
 <!---------------------------------- 181. copy/paste url (159) ----------------------------------->
 <!------------------------------------------------------------------------------------------------>
-<img src="images/image181.png" 
+<img class="displayed border"
+  src="images/image181.png" 
   alt="Copy/Paste URL."
   style="width:65%:margin-left:16px;margin-right:16px;">
 </li>
@@ -5868,9 +5870,10 @@ To clone a repo, you need the ssh url of the repo.</p>
 <!------------------------------------------------------------------------------------------------>
 <!------------------------------------ 182. git clone (159) -------------------------------------->
 <!------------------------------------------------------------------------------------------------>
-<img src="/images/image182.png?raw=true"
+<img class="displayed border"
+  src="/images/image182.png?raw=true"
   alt="Clone .git file."
-  style="width:65%:margin-left:16px;margin-right:16px;">
+  style="width:65%;" />
 </li>
 
 <li>8.  This will clone the repo on GitHub into your current directory,<br></li>
