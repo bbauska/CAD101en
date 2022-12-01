@@ -1865,7 +1865,7 @@ as style sheets).</p>
 <h4>You can use CSS to control a document's appearance and specify style
 rules for the following web page elements:</h4>
 <ul>
-<li>Fonts,<br></li>
+<li>Fonts,<br><br></li>
 <li>Text,<br><br></li>
 <li>Colors,<br><br></li>
 <li>Backgrounds,<br><br></li>
@@ -1891,9 +1891,9 @@ rules for the following web page elements:</h4>
 <h4>In this example, the html-tag-name can be one of the following elements:</h4>
 <ul>
 <li>Any of the tags you find in HTML code (for example,&lt;a&gt;, &lt;div&gt;,
-    &lt;li&gt;, or &lt;label&gt;, etc.)</li>
+    &lt;li&gt;, or &lt;label&gt;, etc.)<br><br></li>
 <li>An id reference that is displayed with a preceding hash symbol (#)
-    in CSS code.</li>
+    in CSS code.<br><br></li>
 <li>A class reference that is displayed with a preceding dot/period
     (.) symbol in CSS code.</li>
 </ul>
@@ -1911,11 +1911,11 @@ Establish a base style by styling the &lt;body&gt; tag, as shown here.</p>
 
 <h4>This example makes the following styles:</h4>
 <ul>
-<li>Sets the background color: off-white (background-color),<br></li>
-<li>Ensures that the font color is black (color),<br></li>
+<li>Sets the background color: off-white (background-color),<br><br></li>
+<li>Ensures that the font color is black (color),<br><br></li>
 <li>Ensures that all content edges match the edge of the browser window
-    frame (margin and padding),</li>
-<li>Horizontally aligns the textual content to the left (text-align),</li>
+    frame (margin and padding),<br><br></li>
+<li>Horizontally aligns the textual content to the left (text-align),<br><br></li>
 <li>Sets the font size to the browser's default (font-size) and uses a
     sans-serif (a font without the little flicks around the edges) as
     font family (font-family).</li>
@@ -1985,7 +1985,7 @@ To use this method, the tag must be added to the  tag section.</p>
   <li>Design can be removed for special accessibility renders,<br><br></li>
   <li>Search engines can index the website without the design interfering,<br><br></li>
   <li>CSS is usually coded in external style sheets,<br><br></li>
-  <li>Create base styles for your website first,<br></li>
+  <li>Create base styles for your website first,<br><br></li>
     <ul>
       <li>Choose a layout type,<br><br></li>
       <li>Fluid: the height and width of elements is flexible and can expand
@@ -3300,9 +3300,9 @@ arguments as Parameters.
 A little further down, you specifically ask the function to run, by
 declaring the statement:
 
-```
+<pre>
 var c = new Car with the arguments "meridian", "Sabre GT" and 2012.
-```
+</pre>
 
 In the Car function, the keyword "this" refers to the current instance
 of the Car object that is being created. In other words, an instance of
@@ -4137,9 +4137,9 @@ Here the &lt;div&gt; tag is used to group block-elements to format them with
 a color style. You can change the style of this div tag with the
 JavaScript statement:</p>
 
-```
+<pre>
 div.style.color = 'red';
-```
+</pre>
 
 <!------------------------------------------------------------------------------------------------>
 <!---------------------------- 114. modifying the inline style (108) ----------------------------->
@@ -5685,61 +5685,66 @@ used for automated processes.
 <h3>Generating an SSH key</h3>
 
 <h4>To generate an SSH key, complete the following steps:</h4>
-
-1.  Launch a terminal. If you are using Windows, launch Git Bash.
-
+<p>
+1.  Launch a terminal. If you are using Windows, launch Git Bash.<br>
+<br>
 2.  Type the following command in your terminal, replacing  with the
     email address that is linked to your Github account. When you have
-    typed the command, press Enter.
+    typed the command, press Enter.<br>
+<br>
 
-```
-ssh-keygen -t rsa -b 4096 -C "<your email address>"
-```
+<pre>
+ssh-keygen -t rsa -b 4096 -C "&lt;your email address&gt;"
+</pre>
 
-A new SSH key is generated.
-
+A new SSH key is generated.<br>
+<br>
 3.  You will be prompted to enter a directory to save the key. You can
     simply press Enter to accept the default location, which is an .ssh
     folder in the home directory. This means you will be able to locate
-    the key in ~/.ssh/id_rsa.
-
+    the key in ~/.ssh/id_rsa.<br>
+<br>
 4.  You will be prompted to choose a passphrase. You also have the
     option not to create a passphrase. To skip the passphrase, press
-    Enter twice to confirm that the passphrase is empty.
-
+    Enter twice to confirm that the passphrase is empty.<br>
+<br>
 5.  <b>Optional</b>: To navigate to the .ssh directory, and check the
     contents of the directory, run the following commands in the
-    terminal:
+    terminal:<br>
+<br>
 
-```
+<pre>
 cd ~/.ssh
-```
+</pre>
 
-and then,
+and then,<br>
+<br>
 
-```
+<pre>
 ls
-```
+</pre>
 
 When you list the contents of the .ssh directory, you should
 see id_rsa and id_rsa.pub in the list of contents, where id_rsa is the
 private version of your key and id_rsa.pub is the public version of your
-key.
-
+key.<br>
+<br>
 6.  You now need to add the SSH key to the ssh-agent, which helps with
     the authentication process. To start the ssh-agent, run the
-    following command in the terminal:
+    following command in the terminal:<br>
+<br>
 
-```
+<pre>
 eval "$(ssh-agent -s)"
-```
+</pre>
 
 7.  To add the key to the agent, run the following command in the
-    terminal:
+    terminal:<br>
+<br>
 
-```
+<pre>
 ssh-add ~/.ssh/id_rsa
-```
+</pre>
 
 <h4>© IBM Corporation 2020. All rights reserved.</h4>
 
@@ -5769,9 +5774,9 @@ following steps:
 
 1.  In the terminal, run the following command:
 
-```
+<pre>
 cat ~/.ssh/id_rsa.pub | clip
-```
+</pre>
 
 <b>Note</b>: If clip doesn't work, run cat ~/.ssh/id_rsa.pub in the
 command line and the copy the output.
@@ -5955,9 +5960,9 @@ Run "git add browser-support.txt"<br>
 To commit the changes you have made, run git commit with a message like this.<br>
 <br>
 
-```
+<pre>
 git commit -m 'added a new file browser-support.txt'
-```
+</pre>
 
 Now all the changes you have made thus far, get committed locally.<br>
 </p>
