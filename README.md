@@ -1173,19 +1173,19 @@ The \<head\> tag contains a \<title\> in the example.
 
 The \<head\> element can contain the following tags:
 
--   title ( 
+-   title
 
--   scripts (
+-   scripts
 
--   style (
+-   style
 
--   style sheet links ( ),
+-   style sheet links
 
--   meta information (),
+-   meta information
 
 -   browser support information and,
 
--   other initialization functions ().
+-   other initialization functions.
 
 <div align="right">
   <b><a href="#table-of-contents">↥ Back To Top</a></b>
