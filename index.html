@@ -3806,7 +3806,7 @@ Hello. Welcome to JavaScript Dom Objects.</p>
 <ul>
 <li>Identify the DOM objects that are commonly used in JavaScript
     applications for working with HTML documents.</li>
-
+</ul>
 <!------------------------------------------------------------------------------------------------>
 <!---------------------------- 99. dom html-related note types (98) ------------------------------>
 <!------------------------------------------------------------------------------------------------>
@@ -5181,9 +5181,7 @@ Use the "git push" command.
 This will push all the committed changes into the repository.
 
 Remote repositories are repositories that are stored elsewhere -- on the
-internet,
-
-on your network, even on your local computer.
+internet, on your network, even on your local computer.
 
 You can have several of remote repositories, each of which generally is
 either read-only or read/write for you.
@@ -5244,24 +5242,24 @@ You can of course name them anything you like.
   src="/images/image152.png?raw=true"
   alt="Forking a Project"
   style="width:65%;margin-left:16px;margin-right:16px;" />
-
+<p>
 Forking is used to take a copy of a GitHub repository and use it as the
-base for a new project.
-
+base for a new project.<br>
+<br>
 You can also use forking to submit back changes into the original
-repository.
-
-This is also used to independently make changes to a project.
-
+repository.<br>
+<br>
+This is also used to independently make changes to a project.<br>
+<br>
 In that instance, when you are satisfied with your changes, submit a
-pull request to the original project owner.
-
-They can decide whether or not to accept your updates.
-
+pull request to the original project owner.<br>
+<br>
+They can decide whether or not to accept your updates.<br>
+<br>
 It is often a legal requirement to keep a copy of the of the license
-file.
-
-Even if no legal requirement exists, it's good practice.
+file.<br>
+<br>
+Even if no legal requirement exists, it's good practice.</p>
 
 <!------------------------------------------------------------------------------------------------>
 <!--------------------------- 153. steps in forking a project (138) ------------------------------>
@@ -5270,36 +5268,35 @@ Even if no legal requirement exists, it's good practice.
   src="/images/image153.png?raw=true"
   alt="Steps in Forking of a Project."
   style="width:65%;margin-left:16px;margin-right:16px;" />
-
-Navigate to the repository that you want to fork.
-
-In the top-right corner, click the "Fork" button.
-
-To keep a fork in sync with the original work from a local clone.
+<p>
+Navigate to the repository that you want to fork.<br>
+<br>
+In the top-right corner, click the "Fork" button.<br>
+<br>
+To keep a fork in sync with the original work from a local clone.</p>
 
 <!------------------------------------------------------------------------------------------------>
-<!--------------------------- 154. syncing a fork of a project (138) ----------------------------->
+<!--------------------------- 154. syncing a fork of a project (137) ----------------------------->
 <!------------------------------------------------------------------------------------------------>
 <img class="displayed"
   src="/images/image154.png?raw=true"
   alt="Syncing a Fork of a Project."
   style="width:65%;margin-left:16px;margin-right:16px;" />
+<p>
+First, create a local clone of the project.</p>
 
-First, create a local clone of the project.
-
-To configure Git to sync your fork:
-
--   Open a Terminal and change to the directory containing the clone.
-
--   Type "git remote --v" This gives you the remote repository.
-
--   Type "git remote add upstream " with the pasted-in directory that
-    you used in creating your clone.
-
+<h4>To configure Git to sync your fork:</h4>
+<ul>
+<li>Open a Terminal and change to the directory containing the clone,<br><br></li>
+<li>Type "git remote --v" This gives you the remote repository,<br><br></li>
+<li>Type "git remote add upstream " with the pasted-in directory that
+    you used in creating your clone.<br><br></li>
+</ul>
+<p>
 Adding upstream adds the original repository as a new remote repository
-labelled upstream.
-
-If you type "git remote --v", you'll see the change reflected.
+labelled upstream.<br>
+<br>
+If you type "git remote --v", you'll see the change reflected.</p>
 
 <!------------------------------------------------------------------------------------------------>
 <!--------------------------- 155. commands for managing forks (139) ----------------------------->
@@ -5308,18 +5305,18 @@ If you type "git remote --v", you'll see the change reflected.
   src="/images/image155.png?raw=true"
   alt="Commands for managing forks"
   style="width:65%;margin-left:16px;margin-right:16px;" />
-
+<p>
 Other commands of interest include "git fetch upstream" to grab upstream
 branches and "git merge upstream/master" which merges changes into the
-master branch.
-
+master branch.<br>
+<br>
 You will also see "git pull upstream" used to fetch and merge the
-remote branch in the same step.
-
+remote branch in the same step.<br>
+<br>
 "Git pull upstream" reduces the number of steps to sync with a remote
-branch, but the automatic merges are not always desired.
-
-In this section, you learned:
+branch, but the automatic merges are not always desired.<br>
+<br>
+<h4>In this section, you learned:</h4>
 
 -   GitHub has over existing 100M repositories that you can use.
 
@@ -5352,25 +5349,21 @@ the ones needed by a standalone developer.
   alt="GitHub Developer commands"
   style="width:65%;margin-left:16px;margin-right:16px;" />
 
-When working with Git, you can use Git commands or a desktop tool such
-as GitHub Desktop.
-
--   git-clone from the upstream to prime the local repository.
-
--   git-pull and git-fetch from "origin" to keep up-to-date with the
-    upstream
-
--   git-push to shared repository, if you adopt CVS style shared
-    repository workflow.
-
--   git-format-patch to prepare e-mail submission, if you adopt Linux
-    kernel-style public forum workflow.
-
--   git-send-email to send your e-mail submission without corruption by
-    your MUA.
-
--   git-request-pull to create a summary of changes for your upstream to
-    pull.
+<h4>When working with Git, you can use Git commands or a desktop tool such
+as GitHub Desktop.</h4>
+<ul>
+<li><i>git-clone</i> from the upstream to prime the local repository,<br><br></li>
+<li><i>git-pull</i> and <i>git-fetch</i> from "origin" directory to keep up-to-date with the
+    upstream,<br><br></li>
+<li><i>git-push</i> to shared repository, if you adopt CVS style shared
+    repository workflow,<br><br></li>
+<li><i>git-format-patch</i> to prepare e-mail submission, if you adopt Linux
+    kernel-style public forum workflow,<br><br></li>
+<li><i>git-send-email</i> to send your e-mail submission without corruption by
+    your MUA,<br><br></li>
+<li><i>git-request-pull</i> to create a summary of changes for your upstream to
+    pull.</li>
+</ul>
 
 <!------------------------------------------------------------------------------------------------>
 <!-------------------------------- 157. github integrator (141) ---------------------------------->
@@ -5379,24 +5372,21 @@ as GitHub Desktop.
   src="/images/image157.png?raw=true"
   alt="GitHub Integrator"
   style="width:65%;margin-left:16px;margin-right:16px;" />
-
+<p>
 An integrator in a group project receives changes made by others,
 reviews and integrates them (responds to pull requests) and publishes
-the result for others to use
-
-Integrators use the following commands in addition to the ones needed by
-participants.
-
--   git-am to apply patches e-mailed in from your contributors.
-
--   git-pull to merge from your trusted lieutenants.
-
--   git-format-patch to prepare and send suggested alternative to
-    contributors.
-
--   git-revert to undo botched commits.
-
--   git-push to publish the bleeding edge.
+the result for others to use.</p>
+<br>
+<h4>Integrators use the following commands in addition to the ones needed by
+participants.</h4>
+<ul>
+<li>git-am to apply patches e-mailed in from your contributors,<br><br></li>
+<li>git-pull to merge from your trusted lieutenants,<br><br></li>
+<li>git-format-patch to prepare and send suggested alternative to
+    contributors,<br><br></li>
+<li>git-revert to undo botched commits,<br><br></li>
+<li>git-push to publish the bleeding edge.</li>
+</ul>
 
 <!------------------------------------------------------------------------------------------------>
 <!---------------------------- 158. github repository administrator (141) ------------------------>
@@ -5406,50 +5396,48 @@ participants.
   alt="GitHub Repository Administrator"
   style="width:85%;margin-left:16px;margin-right:16px;" />
 
-A Repository Administrator uses the following tools to set up and
-maintain access to the repository by developers.
-
--   git-daemon to allow anonymous download from repository.
-
--   git-shell can be used as a restricted login shell for shared central
-    repository users.
-
--   git-http-backend provides a server-side implementation of
+<h4>A Repository Administrator uses the following tools to set up and
+maintain access to the repository by developers.</h4>
+<ul>
+<li>git-daemon to allow anonymous download from repository,<br><br></li>
+<li>git-shell can be used as a restricted login shell for shared central
+    repository users,<br><br></li>
+<li>git-http-backend provides a server-side implementation of
     Git-over-HTTP ("Smart http") allowing both fetch and push
-    services.
+    services,<br><br></li>
+<li>gitweb provides a web front-end to Git repositories, which can be
+    set-up using the git-instaweb script.</li>
+</ul>
 
--   gitweb provides a web front-end to Git repositories, which can be
-    set-up using the git-instaweb script.
+<p>Repository Admins can use GitHub Actions to automate software workflows,
+including continuous integration and continuous delivery.</p>
 
-Repository Admins can use GitHub Actions to automate software workflows,
-including continuous integration and continuous delivery.
+<h4>In this section, you learned:</h4>
+<ul>
+<li>There are multiple roles involved in managing a project:<br></li>
+  <ul>
+    <li>Developer<br><br></li>
+    <li>Integrator<br><br></li>
+    <li>Repository Administrator</li>
+  </ul>
+</ul>
 
-In this section, you learned:
-
--   There are multiple roles involved in managing a project:
-
-    -   Developer
-
-    -   Integrator
-
-    -   Repository Administrator
-
-Each role uses different git commands to communicate with collaborators.
+<p>Each role uses different git commands to communicate with collaborators.</p>
 
 <h3>HANDS-ON LAB: Working with Git on Theia</h3>
 
 <a href="https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBMDeveloperSkillsNetwork-CD0101EN-SkillsNetwork/labs/Theia%20Labs/04%20-%20GitHub/Lab%20Using%20git%20on%20Theia/instructions.md" target="_blank" rel="noopener noreferrer">Note: In case the Start Lab button does not work, instructions to
-complete this lab are also available
-here.</a>
+complete this lab are also available here.</a>
 
 <h3>Hands-On Lab: Working with Git on Theia (External resource)</h3>
-
+<p>
 Clicking on the Start Lab button below will launch the cloud based SN
-labs virtual labs environment with instructions to complete this lab.
+labs virtual labs environment with instructions to complete this lab.<br>
+<br>
 Your username and email will be shared with SN Labs to authenticate and
-provision your lab environment.
-
-Start Lab
+provision your lab environment.<br>
+<br>
+Start Lab</p>
 
 <!------------------------------- 5.7 git installation on desktop -------------------------------->
 <h3 id="ch5-7">5.7 Git Installation on Desktop</h3>
@@ -5463,30 +5451,33 @@ Start Lab
   src="/images/image159.png?raw=true"
   alt="IBM Cloud logo."
   style="width:85%;margin-left:16px;margin-right:16px;" />
-
-<b>Estimated time</b>: 20 minutes
+<p>
+<b>Estimated time</b>: 20 minutes</p>
 
 <h3>What is Git Bash?</h3>
-
+<p>
 Git Bash for Windows is simply a package that includes
-both <i>Git</i> and <i>Bash</i>.
-
+both <i>Git</i> and <i>Bash</i>.<br>
+<br>
 Git is an open-source version control system for tracking source code
-changes when developing software. It keeps a commit history that allows
-you to revert to a stable state in case you make errors in your code.
-Git also enables multiple developers to collaborate on the same code
-base.
-
-Bash is a Unix command-line shell. The name is an acronym
-for <i>Bourne-Again Shell</i>. It comes with useful Unix commands like cat,
-ssh, SCP, etc., which are not usually found on Windows.
+changes when developing software.<br>
+<br>
+It keeps a commit history that allows you to revert to a stable state in case you make errors in your code.<br>
+<br>
+Git also enables multiple developers to collaborate on the same code base.<br>
+<br>
+Bash is a Unix command-line shell.<br>
+<br>
+The name is an acronym for <i>Bourne-Again Shell</i>.<br>
+<br>
+It comes with useful Unix commands like cat, ssh, SCP, etc., which are not usually found on Windows.  Because Windows is idiotic.</p>
 
 <h3>Installing Git Bash for Windows</h3>
 
-To install Git Bash for Windows to your local system, complete the
-following steps:
-
-1.  Go to the <a href="https://git-scm.com/downloads?cm_mmc=Email_Newsletter-_-Developer_Ed%2BTech-_-WW_WW-_-SkillsNetwork-Courses-IBMDeveloperSkillsNetwork-CD0101EN-SkillsNetwork-20336975&cm_mmca1=000026UJ&cm_mmca2=10006555&cm_mmca3=M12345678&cvosrc=email.Newsletter.M12345678&cvo_campaign=000026UJ&cm_mmc=Email_Newsletter-_-Developer_Ed%2BTech-_-WW_WW-_-SkillsNetwork-Courses-IBMDeveloperSkillsNetwork-CD0101EN-SkillsNetwork-20336975&cm_mmca1=000026UJ&cm_mmca2=10006555&cm_mmca3=M12345678&cvosrc=email.Newsletter.M12345678&cvo_campaign=000026UJ" target="_blank" rel="noopener noreferrer">Git download page</a>.  Click <b>Download [version number] for Windows</b>, as shown in the following image:
+<h4>To install Git Bash for Windows to your local system, complete the following steps:</h4>
+<p>
+1.  Go to the <a href="https://git-scm.com/downloads?cm_mmc=Email_Newsletter-_-Developer_Ed%2BTech-_-WW_WW-_-SkillsNetwork-Courses-IBMDeveloperSkillsNetwork-CD0101EN-SkillsNetwork-20336975&cm_mmca1=000026UJ&cm_mmca2=10006555&cm_mmca3=M12345678&cvosrc=email.Newsletter.M12345678&cvo_campaign=000026UJ&cm_mmc=Email_Newsletter-_-Developer_Ed%2BTech-_-WW_WW-_-SkillsNetwork-Courses-IBMDeveloperSkillsNetwork-CD0101EN-SkillsNetwork-20336975&cm_mmca1=000026UJ&cm_mmca2=10006555&cm_mmca3=M12345678&cvosrc=email.Newsletter.M12345678&cvo_campaign=000026UJ" target="_blank" rel="noopener noreferrer">Git download page</a>.<br>
+Click <b>Download [version number] for Windows</b>, as shown in the following image:</p>
 
 <!------------------------------------------------------------------------------------------------>
 <!------------------------------------ 160. downloads (144) -------------------------------------->
@@ -5495,22 +5486,21 @@ following steps:
   src="/images/image160.png?raw=true"
   alt="Downloads"
   style="width:85%;margin-left:16px;margin-right:16px;" />
-
-You will be redirected to a new page and the download will start.
+<p>
+You will be redirected to a new page and the download will start.</p>
 
 <!------------------------------------------------------------------------------------------------>
-<!--------------------------------- 161. downloading git  (144) ---------------------------------->
+<!--------------------------------- 161. downloading git (144) ----------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <img class="displayed"
   src="/images/image161.png?raw=true"
   alt="Downloading Git."
   style="width:85%;margin-left:16px;margin-right:16px;" />
-
+<p>
 <b>Note</b>: If the download doesn't start, click <b>Click here to download
-manually</b>.
-
-2.  Go to the folder where you saved the file and double-click to open
-    it.
+manually</b><br>.
+<br>
+2.  Go to the folder where you saved the file and double-click to open it.<br>
 
 <!------------------------------------------------------------------------------------------------>
 <!--------------------------- 162. open file security warning (145) ------------------------------>
@@ -5520,7 +5510,7 @@ manually</b>.
   alt="Open File Security Warning"
   style="width:85%;margin-left:16px;margin-right:16px;" />
 
-3.  Click <b>Run</b> to begin the installation.
+3.  Click <b>Run</b> to begin the installation.<br>
 
 <!------------------------------------------------------------------------------------------------>
 <!--------------------------- 163. click run to begin install (145) ------------------------------>
@@ -5618,6 +5608,7 @@ location. Click <b>Next</b>.
 
 12. Configure the default behavior for a git pull by selecting <b>Default
     (fast-forward or merge)</b>. Click <b>Next</b>.
+	
 <!------------------------------------------------------------------------------------------------>
 <!-------------- 172. configure default git pull with fast-forward or merge (150) ---------------->
 <!------------------------------------------------------------------------------------------------>
@@ -5662,7 +5653,7 @@ location. Click <b>Next</b>.
   alt="Leave the checkboxes selected and click 'Next'"
   style="width:65%;margin-left:16px;margin-right:16px;" />
 
-The Git Bash terminal opens. You are now able to enter Git and Bash commands.
+The Git Bash terminal opens. You are now able to enter Git and Bash commands.</p>
 
 <!------------------------------------------------------------------------------------------------>
 <!--------------------------------- 176. git bash terminal (1xx) --------------------------------->
@@ -5695,7 +5686,7 @@ used for automated processes.
 
 <h3>Generating an SSH key</h3>
 
-To generate an SSH key, complete the following steps:
+<h4>To generate an SSH key, complete the following steps:</h4>
 
 1.  Launch a terminal. If you are using Windows, launch Git Bash.
 
