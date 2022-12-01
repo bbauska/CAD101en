@@ -3576,8 +3576,8 @@ loading a page.</p>
 
 <p>
 Hello. Welcome to Client-side JavaScript.<br>
-<br>
-<h4>After reading this section, you will be able to:<br></h4>
+<br></p>
+<h4>After reading this section (4-4), you will be able to:<br></h4>
 <ul>
 <li>Describe the document object model (DOM) hierarchy,<br><br></li>
 <li>Describe the window and document objects,<br><br></li>
@@ -3592,7 +3592,7 @@ Hello. Welcome to Client-side JavaScript.<br>
   src="/images/image091.png?raw=true"
   alt="DOM Programming Interface."
   style="width:65%;" />
-
+<p>
 The document object model is the programming interface between HTML or
 XHTML and JavaScript.<br>
 <br>
@@ -3601,7 +3601,7 @@ applications and scripts to dynamically access and update the content,
 structure, and style of documents.<br>
 <br>
 JavaScript uses the DOM to access and modify web page elements in the
-web browser.
+web browser.</p>
 
 <!------------------------------------------------------------------------------------------------>
 <!------------------------------------- 92. dom levels (93) -------------------------------------->
@@ -3610,12 +3610,12 @@ web browser.
   src="/images/image092.png?raw=true"
   alt="DOM Levels."
   style="width:65%;" />
-
+<p>
 The World Wide Web Consortium released four levels of the Document
 Object Model specifications.<br>
 <br>
 Each successive level provides a more detailed set of features for
-describing structured documents.
+describing structured documents.</p>
 
 <!------------------------------------------------------------------------------------------------>
 <!--------------------------- 93. basic dom model for browsers (94) ------------------------------>
@@ -3624,14 +3624,14 @@ describing structured documents.
   src="/images/image093.png?raw=true"
   alt="Basic DOM Model for Browsers."
   style="width:65%;" />
-
+<p>
 The different browsers have various levels of compatibility with the DOM
 standard.<br>
 <br>
 The discussion of the DOM in this unit focuses on the DOM Level 1 Core
 and DOM Level 1 HTML APIs to access HTML elements with the DOM.<br>
 <br>
-The JavaScript engine in most web browsers fully supports DOM level 1.
+The JavaScript engine in most web browsers fully supports DOM level 1.</p>
 
 <!------------------------------------------------------------------------------------------------>
 <!--------------------------- 93. basic dom model for browsers (94) ------------------------------>
@@ -3640,7 +3640,7 @@ The JavaScript engine in most web browsers fully supports DOM level 1.
   src="/images/image093.png?raw=true"
   alt="Basic DOM Model for Browsers."
   style="width:65%;" />
-
+<p>
 Here is a representation of the basic DOM model for browsers:<br>
 <br>
 The window object is at the top of the DOM hierarchy and controls the
@@ -3679,7 +3679,7 @@ When the browser loads a page, a window object is automatically created
 for you.<br>
 <br>
 You can then access the window object properties and functions from your
-JavaScript code.
+JavaScript code.</p>
 
 <!------------------------------------------------------------------------------------------------>
 <!----------------------------- 94. client-side window object (95) ------------------------------->
@@ -3761,6 +3761,7 @@ level 2 tree.</p>
   alt="DOM Level 2 tree for a form 2."
   style="width:65%;" />
 
+<p>
 The DOM level 2 tree includes a line feed text node before the paragraph
 and input elements.<br>
 <br>
@@ -3773,24 +3774,23 @@ The DOM level 0 for the form portion of the document would have only the
 form, p, and input boxes.<br>
 <br>
 The DOM level 2 adds the carriage returns, tabs, and spaces, sometimes
-referred to as "white space".<br>
-<br>
-<h4>In this section, you learned:</h4>
+referred to as "white space".<br></p>
+<h4>In this section (4-4), you learned:</h4>
 <ul>
 <li>The document object model (DOM) is the programming interface between
-    HTML or XHTML and JavaScript.<br></li>
+    HTML or XHTML and JavaScript.<br><br></li>
 <li>Each successive level of the DOM provides a more detailed set of
-    features for describing structured documents.<br></li>
+    features for describing structured documents.<br><br></li>
 <li>Different browsers have different levels of compatibility with the
-    DOM standard.<br></li>
+    DOM standard.<br><br></li>
 <li>The basic DOM for browsers is a hierarchy that includes objects that
     perform different functions.</li>
 </ul>
-
+<p>
 For example, the window object controls the environment of the document,
 the location object contains information about the URL of the page,
 screen object derives information about the user's screen, and the
-document object provides access to all HTML elements within a page.
+document object provides access to all HTML elements within a page.</p>
 <ul>
 <li>DOM levels define object types, with which developers can build a
     variety of documents, from plain HTML documents for web pages, to
@@ -3802,7 +3802,7 @@ document object provides access to all HTML elements within a page.
 <p>
 Hello. Welcome to JavaScript Dom Objects.</p>
 
-<h4>After reading this section, you will be able to:</h4>
+<h4>After reading this section (4-5), you will be able to:</h4>
 <ul>
 <li>Identify the DOM objects that are commonly used in JavaScript
     applications for working with HTML documents.</li>
@@ -3874,7 +3874,7 @@ The table lists some of the DOM Level 2 node object properties and
 corresponding data types.<br>
 <br>
 You see these properties when you view a DOM tree for an HTML page in a
-browser's developer tools, like Chrome's DevTools.
+browser's developer tools, like Chrome's DevTools.</p>
 
 <!------------------------------------------------------------------------------------------------>
 <!------------------------- 102. accessing document elements #1 (100) ---------------------------->
@@ -3883,7 +3883,7 @@ browser's developer tools, like Chrome's DevTools.
   src="/images/image102.png?raw=true"
   alt="Accessing document elements, #1."
   style="width:65%;" />
-
+<p>
 How do you access the elements on an HTML page with the DOM API?<br>
 <br>
 When the document is loaded, the browser creates arrays for forms,
@@ -3896,7 +3896,7 @@ index of each array starts at zero.<br>
 <br>
 Each of the array types, such as forms[], contains an array of
 elements[] with each index element being the fields or buttons that
-occur in that form.
+occur in that form.</p>
 
 <!------------------------------------------------------------------------------------------------>
 <!------------------------- 103. accessing document elements #2 (101) ---------------------------->
@@ -3906,8 +3906,9 @@ occur in that form.
   alt="Accessing document elements, #2."
   style="width:65%;" />
 
+<p>
 You can reference the element named field1 in the figure by its relative
-position as document.forms[0].elements[0].
+position as document.forms[0].elements[0].</p>
 
 <!------------------------------------------------------------------------------------------------>
 <!------------------------- 104. accessing document elements #3 (101) ---------------------------->
@@ -3917,9 +3918,10 @@ position as document.forms[0].elements[0].
   alt="Accessing document elements, #3."
   style="width:65%;" />
 
+<p>
 You can reference the same field with named elements; for example,
 document.forms["form1"].elements["field1"], or even the
-shortened document.form1.field1.
+shortened document.form1.field1.</p>
 
 <!------------------------------------------------------------------------------------------------>
 <!------------------------- 105. accessing document elements #4 (102) ---------------------------->
@@ -3929,6 +3931,7 @@ shortened document.form1.field1.
   alt="Accessing document elements, #4."
   style="width:65%;" />
 
+<p>
 Since only one document can be contained in a window, shown by the
 dashed line in the figure, you can leave out the window prefix. However,
 you cannot omit the document prefix from the referenced object.<br>
@@ -3939,7 +3942,7 @@ The id attribute of an element is used by scripts to refer to the
 element with a name that matches the value of the id attribute.<br>
 <br>
 In order to assign a scriptable reference name to an HTML element with
-the id attribute, use the following conventions:
+the id attribute, use the following conventions:</p>
 
 <!------------------------------------------------------------------------------------------------>
 <!---------------------------------- 106. object naming (102) ------------------------------------>
@@ -3949,6 +3952,7 @@ the id attribute, use the following conventions:
   alt="Object Naming"
   style="width:65%;" />
 
+<p>
 The id must be a unique name in the document.<br>
 <br>
 The name must be in quotation marks when assigned to the id attribute.<br>
@@ -3960,8 +3964,8 @@ value is document.getElementById with the name of the id as a parameter
 argument.<br>
 <br>
 It is suggested that the same value is used for both the id and the name
-attribute (seen earlier) when both are used.<br>
-<br>
+attribute (seen earlier) when both are used.<br></p>
+
 <h4>In this section (4.5), you learned:</h4>
 <ul>
 <li>How to work with DOM objects in JavaScript, including:<br><br></li>
@@ -3973,7 +3977,7 @@ attribute (seen earlier) when both are used.<br>
 <p>
 Hello. Welcome to JavaScript APIs.<br>
 <br>
-After reading this section, you will be able to:<br>
+After reading this section (4-6), you will be able to:<br>
 <ul>
 <li>Explain how to work with nodes,<br><br></li>
 <li>Describe how to modify the content of an element,<br><br></li>
@@ -4006,7 +4010,7 @@ DOM elements are reviewed next.</p>
   src="/images/image108.png?raw=true"
   alt="Retrieving a Reference to a Node."
   style="width:65%;" />
-
+<p>
 To retrieve a node reference for an element of a document given an id,
 use the document.getElementById function and pass the id value as an
 argument.<br>
@@ -4026,7 +4030,7 @@ For HTML elements, the tagName parameter is the literal name of the HTML
 tag.<br>
 <br>
 If you run the function getElementsByTagName with a "p" as a parameter
-argument, a NodeList of all the paragraphs in the document is returned.
+argument, a NodeList of all the paragraphs in the document is returned.</p>
 
 <!------------------------------------------------------------------------------------------------>
 <!-------------------------- 109. example: retrieving all images (104) --------------------------->
@@ -4036,6 +4040,7 @@ argument, a NodeList of all the paragraphs in the document is returned.
   alt="Example: retrieving all images."
   style="width:65%;" />
 
+<p>
 This example shows how you can retrieve all the image elements from a
 web page by using the getElementsByTagName function and passing "img" as
 the parameter argument.<br>
@@ -4055,7 +4060,7 @@ You can use the DOM API function document.createElement(TagName) to
 create an element in the current document.<br>
 <br>
 After creating the element, you can use any of a number of functions to
-place the element in the appropriate location within the document.
+place the element in the appropriate location within the document.</p>
 
 <!------------------------------------------------------------------------------------------------>
 <!--------------------------------- 110. adding new nodes (105) ---------------------------------->
@@ -4065,9 +4070,10 @@ place the element in the appropriate location within the document.
   alt="Adding New Nodes."
   style="width:65%;" />
 
+<p>
 Examples of these functions include the insertBefore, appendChild, or
 replaceChild function that can be used to add the newly created element
-into the document.
+into the document.</p>
 
 <!------------------------------------------------------------------------------------------------>
 <!----------------------------- 111. example: adding a node (106) -------------------------------->
@@ -4077,6 +4083,7 @@ into the document.
   alt="Example: adding a node."
   style="width:65%;" />
 
+<p>
 This example shows the source code for adding a node to a document.<br>
 <br>
 A new paragraph element is being created that includes a text node with
@@ -4085,7 +4092,7 @@ the string "Hello world!"<br>
 The text node is then appended as a child of the paragraph element.<br>
 <br>
 Finally, the entire paragraph with text is appended as a child node at
-the end of the body node of the HTML page.
+the end of the body node of the HTML page.</p>
 
 <!------------------------------------------------------------------------------------------------>
 <!-------------------------- 112. modifying an elements content (106) ---------------------------->
@@ -4095,6 +4102,7 @@ the end of the body node of the HTML page.
   alt="Modifying an Elements Content"
   style="width:65%;" />
 
+<p>
 The function element.innerHTML retrieves or sets the contents of an HTML
 element.<br>
 <br>
@@ -4116,7 +4124,7 @@ any setting from a CSS style sheet with one specific style.<br>
 The way to set the style in JavaScript is with the format
 element.style.propertyName = value.<br>
 <br>
-For example, if you had an element <div style="color:blue">.
+For example, if you had an element &lt;div style="color:blue"&gt;.</p>
 
 <!------------------------------------------------------------------------------------------------>
 <!---------------------------- 113. modifying the inline style (107) ----------------------------->
@@ -4126,9 +4134,10 @@ For example, if you had an element <div style="color:blue">.
   alt="Modifying the inline style"
   style="width:65%;" />
 
+<p>
 Here the &lt;div&gt; tag is used to group block-elements to format them with
 a color style. You can change the style of this div tag with the
-JavaScript statement:
+JavaScript statement:</p>
 
 ```
 div.style.color = 'red';
@@ -4142,7 +4151,8 @@ div.style.color = 'red';
   alt="Modifying the inline style #2"
   style="width:65%;margin-left:16px;margin-right:16px;" />
 
-In contrast, the element.setAttribute('style', ...) wipes out all previously set inline CSS styles.
+<p>
+In contrast, the element.setAttribute('style', ...) wipes out all previously set inline CSS styles.</p>
 
 <!------------------------------------------------------------------------------------------------>
 <!------------------------------- 115. modifying attributes (108) -------------------------------->
@@ -4152,6 +4162,7 @@ In contrast, the element.setAttribute('style', ...) wipes out all previously set
   alt="Modifying Attributes"
   style="width:65%;margin-left:16px;margin-right:16px;" />
 
+<p>
 The function element.setAttribute with parameters(attrName, attrValue)
 dynamically modifies the attribute of an element.<br>
 <br>
@@ -4162,7 +4173,7 @@ The function element.removeAttribute(attrName) removes an attribute from
 an element.<br>
 <br>
 The function element.getAttribute(attrName) retrieves the value of the
-specified attribute in the element, if it exists.<br>
+specified attribute in the element, if it exists.</p>
 
 <!------------------------------------------------------------------------------------------------>
 <!------------------------- 116. window object methods and events (109) -------------------------->
@@ -4172,7 +4183,7 @@ specified attribute in the element, if it exists.<br>
   alt=""Window object methods and events."
   style="width:65%;margin-left:16px;margin-right:16px;" />
 
-Here are some window object functions and events.
+<p>Here are some window object functions and events.</p>
 
 <!------------------------------------------------------------------------------------------------>
 <!----------------------- 117. window object functions and events (109) -------------------------->
@@ -4182,6 +4193,7 @@ Here are some window object functions and events.
   alt="Window object functions and events."
   style="width:65%;margin-left:16px;margin-right:16px;" />
 
+<p>
 To open a new browser window, use the window.open() function.<br>
 <br>
 This method returns a reference to the new window object.<br>
@@ -4216,7 +4228,7 @@ The dump() function is a less intrusive way to display diagnostic
 information than the alert() method.<br>
 <br>
 Finally, the window.scrollTo(x-value, y-value) scrolls the web browser
-to a particular set of coordinates on a page.<br>
+to a particular set of coordinates on a page.</p>
 
 <!------------------------------------------------------------------------------------------------>
 <!-------------------------- 118. example: using window.onload (110) ----------------------------->
@@ -4226,8 +4238,8 @@ to a particular set of coordinates on a page.<br>
   alt="Example: Using window.onload."
   style="width:65%;margin-left:16px;margin-right:16px;" />
 
-The onload event handler runs in the current window after the document
-loads the web page.
+<p>The onload event handler runs in the current window after the document
+loads the web page.</p>
 
 <!------------------------------------------------------------------------------------------------>
 <!-------------------------------- 119. summary chapter 4 (111) ---------------------------------->
@@ -4924,7 +4936,7 @@ represents a stable platform for the feature or set of features being
 developed.
 
 When a developer commits changed source to their path, they are required
-to write a comment that describes the changes.
+to write a comment that describes the changes.<br>
 
 The comment should be meaningful and descriptive.
 
@@ -5516,7 +5528,7 @@ manually</b>.
 <img class="displayed"
   src="/images/image163.png?raw=true"
   alt="Click Next to Begin Install."
-  style="width:85%:margin-left:16px;margin-right:16px;" />
+  style="width:85%;" />
 
 4.  Select the location where you want to install Git Bash. 
 
@@ -5529,7 +5541,7 @@ location. Click <b>Next</b>.
 <img class="displayed"
   src="/images/image164.png?raw=true"
   alt="Enter Location to Install Git Bash."
-  style="width:65%:margin-left:16px;margin-right:16px;" />
+  style="width:65%;" />
 
 5.  Choose the components you want to install, or simply leave the
     default options selected. Click <b>Next</b>.
@@ -5539,7 +5551,7 @@ location. Click <b>Next</b>.
 <img class="displayed"
   src="/images/image165.png?raw=true"
   alt="Choose component you want to install, or leave default options."
-  style="width:65%:margin-left:16px;margin-right:16px;" />
+  style="width:65%;" />
 
 6.  You can change the name of the start menu folder or simply leave the
     default name as is. Click <b>Next</b>.
@@ -5549,7 +5561,7 @@ location. Click <b>Next</b>.
 <img class="displayed"
   src="/images/image166.png?raw=true"
   alt="Change name of start menu folder or leave default name."
-  style="width:65%:margin-left:16px;margin-right:16px;" />
+  style="width:65%;" />
 
 7.  Select the default editor for Git to use. Click <b>Next</b>.
 
@@ -5558,7 +5570,7 @@ location. Click <b>Next</b>.
 <img class="displayed"
   src="/images/image167.png?raw=true"
   alt="Set default editor for Git."
-  style="width:65%:margin-left:16px;margin-right:16px;" />
+  style="width:65%;" />
 
 8.  Choose how you want to use Git from the command line.
     Click <b>Next</b>.
@@ -5569,7 +5581,7 @@ location. Click <b>Next</b>.
 <img class="displayed"
   src="/images/image168.png?raw=true"
   alt="How Would you Like to Use Git from the Command Line Interface (CLI)?"
-  style="width:65%:margin-left:16px;margin-right:16px;" />
+  style="width:65%;margin-left:16px;margin-right:16px;" />
 
 9.  Select <b>Use the OpenSSL library</b>. Click <b>Next</b>.
 
@@ -5579,7 +5591,7 @@ location. Click <b>Next</b>.
 <img class="displayed"
   src="/images/image169.png?raw=true"
   alt="Use OpenSSL Library (not piece of shit windows), if you can"
-  style="width:65%:margin-left:16px;margin-right:16px;" />
+  style="width:65%;margin-left:16px;margin-right:16px;" />
 
 10. Configure your line ending conversions for Windows by selecting the
     default option, <b>Checkout Windows-style, commit Unix-style line
@@ -5591,7 +5603,7 @@ location. Click <b>Next</b>.
 <img class="displayed"
   src="/images/image170.png?raw=true"
   alt="Configure line ending conversions."
-  style="width:65%:margin-left:16px;margin-right:16px;" />
+  style="width:65%;margin-left:16px;margin-right:16px;" />
 
 11. Configure your terminal emulator to use with Git Bash by selecting
     the default option, <b>Use MinTTY(the default terminal of MSYS2)</b>.
@@ -5602,7 +5614,7 @@ location. Click <b>Next</b>.
 <img class="displayed"
   src="/images/image171.png?raw=true"
   alt="Configure Terminal Emulator to Work with Git Bash"
-  style="width:65%:margin-left:16px;margin-right:16px;" />
+  style="width:65%;margin-left:16px;margin-right:16px;" />
 
 12. Configure the default behavior for a git pull by selecting <b>Default
     (fast-forward or merge)</b>. Click <b>Next</b>.
@@ -5612,7 +5624,7 @@ location. Click <b>Next</b>.
 <img class="displayed"
   src="/images/image172.png?raw=true"
   alt="Configure Default Behavior for git pull"
-  style="width:65%:margin-left:16px;margin-right:16px;" />
+  style="width:65%;margin-left:16px;margin-right:16px;" />
 
 13. Select any additional options you want to install. (The default
     option is sufficient to use Git Bash successfully). Click <b>Next</b>.
@@ -5623,7 +5635,7 @@ location. Click <b>Next</b>.
 <img class="displayed"
   src="/images/image173.png?raw=true"
   alt="Additional Options"
-  style="width:65%:margin-left:16px;margin-right:16px;" />
+  style="width:65%;margin-left:16px;margin-right:16px;" />
 
 14. You can enable experimental options if you choose to. By enabling
     these options, you will be able to try newer features that are still
@@ -5638,7 +5650,7 @@ location. Click <b>Next</b>.
 <img class="displayed"
   src="/images/image174.png?raw=true"
   alt="Experimental Options? yes/no"
-  style="width:65%:margin-left:16px;margin-right:16px;" />
+  style="width:65%;margin-left:16px;margin-right:16px;" />
 
 15. Leave the checkboxes selected and click <b>Next</b>.
 
@@ -5648,7 +5660,7 @@ location. Click <b>Next</b>.
 <img class="displayed"
   src="/images/image175.png?raw=true"
   alt="Leave the checkboxes selected and click 'Next'"
-  style="width:65%:margin-left:16px;margin-right:16px;" />
+  style="width:65%;margin-left:16px;margin-right:16px;" />
 
 The Git Bash terminal opens. You are now able to enter Git and Bash commands.
 
@@ -5658,7 +5670,7 @@ The Git Bash terminal opens. You are now able to enter Git and Bash commands.
 <img class="displayed"
   src="/images/image176.png?raw=true"
   alt="Git Bash Terminal."
-  style="width:65%:margin-left:16px;margin-right:16px;" />
+  style="width:65%;margin-left:16px;margin-right:16px;" />
 
 <h4>© IBM Corporation 2020. All rights reserved.</h4>
 
@@ -5673,7 +5685,7 @@ The Git Bash terminal opens. You are now able to enter Git and Bash commands.
 <img class="displayed"
   src="/images/image159.png?raw=true"
   alt="IBM Skills Network."
-  style="width:35%:margin-left:16px;margin-right:16px;" />
+  style="width:35%;margin-left:16px;margin-right:16px;" />
 
 <h3>What is an SSH key?</h3>
 
@@ -5729,12 +5741,16 @@ key.
     the authentication process. To start the ssh-agent, run the
     following command in the terminal:
 
-<b>eval "$(ssh-agent -s)"</b>
+```
+eval "$(ssh-agent -s)"
+```
 
 7.  To add the key to the agent, run the following command in the
     terminal:
 
-<b>ssh-add ~/.ssh/id_rsa</b>
+```
+ssh-add ~/.ssh/id_rsa
+```
 
 <h4>© IBM Corporation 2020. All rights reserved.</h4>
 
@@ -5749,7 +5765,7 @@ key.
 <img class="displayed"
   src="images/image159.png"
   alt="IBM Skills Network logo"
-  style="width:35%:margin-left:16px;margin-right:16px;" />
+  style="width:35%;" />
 
 <h3>Prerequisites</h3>
 
@@ -5780,7 +5796,7 @@ command line and the copy the output.
 <img class="displayed"
   src="images/image177.png"
   alt="Github Settings"
-  style="width:45%:margin-left:16px;margin-right:16px;" />
+  style="width:45%;" />
 
 3.  From the "Personal settings" menu, select <b>SSH and GPG keys</b>, as
     shown in the following image:
@@ -5791,7 +5807,7 @@ command line and the copy the output.
 <img class="displayed"
   src="images/image178.png" 
   alt="SSH and GPG Keys"
-  style="width:65%:margin-left:16px;margin-right:16px;" />
+  style="width:65%;" />
 
 4.  Click <b>New SSH key</b>.
 
@@ -5801,7 +5817,7 @@ command line and the copy the output.
 <img class="displayed"
   src="images/image179.png" 
   alt="New SSH Key"
-  style="width:65%:margin-left:16px;margin-right:16px;" />
+  style="width:65%;" />
 
 5.  Enter a title for the new SSH key. In the <b>Key</b> field, paste the
     key that you copied in step 1, above. The pasted key should
@@ -5813,7 +5829,7 @@ command line and the copy the output.
 <img class="displayed"
   src="images/image180.png"
   alt="Enter title for SSH keys."
-  style="width:45%:margin-left:16px;margin-right:16px;" />
+  style="width:45%;" />
 
 6.  Click <b>Add SSH Key</b>. The SSH key is added to your account.
 
@@ -5833,7 +5849,7 @@ command line and the copy the output.
 <img class="displayed"
   src="images/image159.png" 
   alt="IBM Developer Logo."
-  style="width:25%:margin-left:16px;margin-right:16px;" />
+  style="width:25%;" />
 
 <h3>Objectives</h3>
 
@@ -5861,59 +5877,48 @@ command line and the copy the output.
 To clone a repo, you need the ssh url of the repo.</p>
 
 <ol>
-<li>1.  To get the ssh url, login into GitHub,<br></li>
-
-<li>2.  Navigate to the repo you wish to clone,<br></li>
-
-<li>3.  Click on the 'Code' button,<br></li>
-
-<li>4.  Click on the 'clipboard icon' to copy the url. Paste this url
-    where you can access it later,
-
+<li>To get the ssh url, login into GitHub,<br><br></li>
+<li>Navigate to the repo you wish to clone,<br><br></li>
+<li>Click on the 'Code' button,<br><br></li>
+<li>Click on the 'clipboard icon' to copy the url. Paste this url
+    where you can access it later,<br>
 <!------------------------------------------------------------------------------------------------>
 <!---------------------------------- 181. copy/paste url (159) ----------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <img class="displayed"
   src="images/image181.png" 
   alt="Copy/Paste URL."
-  style="width:65%:margin-left:16px;margin-right:16px;" />
+  style="width:65%;" />
 </li>
-
-<li>5.  On your desktop open a terminal.(gitbash if you are using windows (os),<br></li>
-
-<li>6.  Navigate to a directory where you wish to clone the repo,<br></li>
-
-<li>7.  Run the command "git clone",
-
+<li>5.  On your desktop open a terminal.(gitbash if you are using windows (os),<br><br></li>
+<li>6.  Navigate to a directory where you wish to clone the repo,<br><br></li>
+<li>7.  Run the command "git clone",<br>
 <!------------------------------------------------------------------------------------------------>
 <!------------------------------------ 182. git clone (159) -------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <img class="displayed"
   src="/images/image182.png?raw=true"
   alt="Clone .git file."
-  style="width:65%:margin-left:16px;margin-right:16px;" />
+  style="width:65%;" />
 </li>
-
-<li>8.  This will clone the repo on GitHub into your current directory,<br></li>
+<li>8.  This will clone the repo on GitHub into your current directory,<br><br></li>
 <br>
 <li>9.  You can see all the downloaded files under a directory named as your
-    repo name,</li>
-
+    repo name,<br>
 <!------------------------------------------------------------------------------------------------>
 <!---------------------------------- 183. list directory (159) ----------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <img class="displayed"
   src="/images/image183.png?raw=true"
   alt="List directory."
-  style="width:65%:margin-left:16px;margin-right:16px;" />
+  style="width:65%;" />
 </li>
-
 <li>10.  Change to the simple_interest_calulator directory and list the files to
-verify all the files got downloaded.<br></li>
+verify all the files got downloaded.</li>
 </ol>
 
 <h3>Exercise 2: Make changes to cloned files</h3>
-
+<p>
 Using your favorite editor make the changes to the html file.</p>
 
 <!------------------------------------------------------------------------------------------------>
@@ -5922,7 +5927,7 @@ Using your favorite editor make the changes to the html file.</p>
 <img class="displayed"
   src="/images/image184.png?raw=true"
   alt="Edit the HTML."
-  style="width:65%:margin-left:16px;margin-right:16px;" />
+  style="width:65%;" />
 
 <i>git status</i> will show all the modified files.
 
@@ -5932,49 +5937,49 @@ Using your favorite editor make the changes to the html file.</p>
 <img class="displayed"
   src="/images/image185.png?raw=true"
   alt="Git status."
-  style="width:65%:margin-left:16px;margin-right:16px;" />
+  style="width:65%;" />
 
 <h3>Exercise 3: Add a new file to the local repo</h3>
 <p>
-Let us add a new file to the local repo.
+Let us add a new file to the local repo.<br>
 <br>
-Using a text editor, create a new file "browser-support.txt".
+Using a text editor, create a new file "browser-support.txt".<br>
 <br>
-Add "Chrome, Firefox, Edge" into the file.
+Add "Chrome, Firefox, Edge" into the file.<br>
 <br>
-Save the file.
+Save the file.<br>
 </p>
 
 <h3>Exercise 4: Check the status</h3>
 <p>
-Run "git status" to see info on the modified files.
+Run "git status" to see info on the modified files.<br>
 <br>
-Let us add the file for committing.
+Let us add the file for committing.<br>
 <br>
-Run "git add browser-support.txt"
+Run "git add browser-support.txt"<br>
 </p>
 
 <h3>Exercise 5: Commit the changes</h3>
 <p>
-<i>git commit</i> will record all the changes into the local staging area.
+<i>git commit</i> will record all the changes into the local staging area.<br>
 <br>
-To commit the changes you have made, run git commit with a message like this.
+To commit the changes you have made, run git commit with a message like this.<br>
 <br>
 
 ```
 git commit -m 'added a new file browser-support.txt'
 ```
 
-Now all the changes you have made thus far, get committed locally.
+Now all the changes you have made thus far, get committed locally.<br>
 </p>
 
 <h3>Exercise 6: Push the changes to GitHub</h3>
 <p>
 After you have made all the changes and committed them, it is time to
-push the changes to the GitHub.
+push the changes to the GitHub.<br>
 <br>
 <b>git push</b> will sync all the changes made till now to your online
-GitHub repository.
+GitHub repository.<br>
 <br>
 Run the command "git push".
 </p>
@@ -5985,7 +5990,7 @@ Run the command "git push".
 <img class="displayed"
   src="/images/image186.png?raw=true"
   alt="Git push."
-  style="width:65%:margin-left:16px;margin-right:16px;" />
+  style="width:65%;" />
 
 <p>
 Log into your GitHub account and verify if the local changes have
@@ -6006,26 +6011,26 @@ changes to it, commit the changes locally, and push it back to GitHub.
 
 <li>Repositories are storage structures that:
 <ul>
-	<li>Hold code &nbsp<br></li>
-	<li>Track issues &nbsp<br></li>
-	<li>Enable you to collaborate with others&nbsp;<br><br></li>
+	<li>Hold code<br><br></li>
+	<li>Track issues<br><br></li>
+	<li>Enable you to collaborate with others;<br><br></li>
 </ul>
 <li>Branches are used to isolate changes to code. When the changes are
-    complete, they can be merged back into the master branch.&nbsp;<br><br></li>
+    complete, they can be merged back into the master branch.<br><br></li>
 <li>Repositories can be cloned to make it possible to work locally, then
-    sync changes back to the original.&nbsp;<br><br></li>
+    sync changes back to the original.<br><br></li>
 <li>Repositories can be forked to be used as a base for a new project,
-    or so that the developer can work independently.&nbsp;<br><br></li>
+    or so that the developer can work independently.<br><br></li>
 <li>Large projects include people working in different roles:
   <ul>
-    <li>Developer -- creates code &nbsp;<br></li>
-    <li>Integrator -- manages changes made by developers &nbsp;<br></li>
+    <li>Developer -- creates code<br><br></li>
+    <li>Integrator -- manages changes made by developers;<br><br></li>
     <li>Repository Administrator -- configures and maintains access to
-        the repository&nbsp;<br></li>
+        the repository.</li>
   </ul>
-&nbsp;<br><br></li>
+<br><br></li>
 </ul>
-<p><b><i>Last edited 11/30/2022 8:07am</i></b>
+<p><b><i>Last edited 11/30/2022 7:51pm</i></b>
 
 ...the end.
 </p>
