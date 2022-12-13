@@ -5638,39 +5638,40 @@ The Git Bash terminal opens. You are now able to enter Git and Bash commands.</p
   style="width:25%;" />
 
 <h3>What is an SSH key?</h3>
-
-An SSH key is an access credential in the SSH protocol. Its function is
-similar to that of user names and passwords, but the keys are primarily
+<p>
+An SSH key is an access credential in the SSH protocol. <br>
+<br>
+Its function is similar to that of user names and passwords, but the keys are primarily
 used for automated processes.
-
+</p>
 <h3>Generating an SSH key</h3>
 
 <h4>To generate an SSH key, complete the following steps:</h4>
 <p>
-1.  Launch a terminal. If you are using Windows, launch Git Bash.<br>
+  1.  Launch a terminal. If you are using Windows, launch Git Bash.<br>
 <br>
-2.  Type the following command in your terminal, replacing  with the
-    email address that is linked to your Github account. When you have
-    typed the command, press Enter.<br>
+  2.  Type the following command in your terminal, replacing  with the
+      email address that is linked to your Github account. When you have
+      typed the command, press Enter.<br>
 <br>
 <pre>
 $ ssh-keygen -t rsa -b 4096 -C "&lt;your email address&gt;"
 </pre>
-
+<p>
 A new SSH key is generated.<br>
 <br>
-3.  You will be prompted to enter a directory to save the key. You can
-    simply press Enter to accept the default location, which is an .ssh
-    folder in the home directory. This means you will be able to locate
-    the key in ~/.ssh/id_rsa.<br>
+  3.  You will be prompted to enter a directory to save the key. You can
+      simply press Enter to accept the default location, which is an .ssh
+      folder in the home directory. This means you will be able to locate
+      the key in ~/.ssh/id_rsa.<br>
 <br>
-4.  You will be prompted to choose a passphrase. You also have the
-    option not to create a passphrase. To skip the passphrase, press
-    Enter twice to confirm that the passphrase is empty.<br>
+  4.  You will be prompted to choose a passphrase. You also have the
+      option not to create a passphrase. To skip the passphrase, press
+      Enter twice to confirm that the passphrase is empty.<br>
 <br>
-5.  <i>Optional</i>: To navigate to the .ssh directory, and check the
-    contents of the directory, run the following commands in the
-    terminal:<br>
+  5.  <i>Optional</i>: To navigate to the .ssh directory, and check the
+      contents of the directory, run the following commands in the
+      terminal:<br>
 <br>
 <pre>
 $ cd ~/.ssh
@@ -5687,23 +5688,23 @@ see id_rsa and id_rsa.pub in the list of contents, where id_rsa is the
 private version of your key and id_rsa.pub is the public version of your
 key.<br>
 <br>
-6.  You now need to add the SSH key to the ssh-agent, which helps with
-    the authentication process. To start the ssh-agent, run the
-    following command in the terminal:<br>
+  6.  You now need to add the SSH key to the ssh-agent, which helps with
+      the authentication process. To start the ssh-agent, run the
+      following command in the terminal:<br>
 <br>
 <pre>
 $ eval "$(ssh-agent -s)"
 </pre>
 <br>
-7.  To add the key to the agent, run the following command in the
-    terminal:<br>
+  7.  To add the key to the agent, run the following command in the
+      terminal:<br>
 <br>
 
 <pre>
 $ ssh-add ~/.ssh/id_rsa
 </pre>
 
-<h4>© IBM Corporation 2020. All rights reserved.</h4>
+<h5>© IBM Corporation 2020. All rights reserved.</h5>
 
 <!------------------------------ 5.9 adding and ssh key to github -------------------------------->
 <h3 id="ch5-9">5.9 Adding an SSH Key to GitHub</h3>
@@ -5729,7 +5730,7 @@ To add an SSH key to GitHub, you need to copy the SSH key that you
 generated in the previous lab. Open a terminal and then complete the
 following steps:<br>
 <br>
-1.  In the terminal, run the following command:<br>
+  1.  In the terminal, run the following command:<br>
 
 <pre>
 $ cat ~/.ssh/id_rsa.pub | clip
@@ -5738,8 +5739,8 @@ $ cat ~/.ssh/id_rsa.pub | clip
 <i>Note</i>: If clip doesn't work, run cat ~/.ssh/id_rsa.pub in the
 command line and then copy the output.<br>
 <br>
-2.  Sign in to GitHub. At the top right, click the drop-down menu on
-    your profile image and select <i>Settings</i>.<br>
+  2.  Sign in to GitHub. At the top right, click the drop-down menu on
+      your profile image and select <i>Settings</i>.<br>
 <br>
 <!------------------------------------------------------------------------------------------------>
 <!--------------------------------- 177. github settings (156) ----------------------------------->
@@ -5749,8 +5750,8 @@ command line and then copy the output.<br>
   alt="Github Settings"
   style="width:45%;" />
 <br>
-3.  From the "Personal settings" menu, select <i>SSH and GPG keys</i>, as
-    shown in the following image:<br>
+  3.  From the "Personal settings" menu, select <i>SSH and GPG keys</i>, as
+      shown in the following image:<br>
 <br>
 <!------------------------------------------------------------------------------------------------>
 <!--------------------------------- 178. ssh and gpg keys (156) ---------------------------------->
@@ -5760,7 +5761,7 @@ command line and then copy the output.<br>
   alt="SSH and GPG Keys"
   style="width:65%;" />
 <br>
-4.  Click <i>New SSH key</i>.
+  4.  Click <i>New SSH key</i>.
 <br>
 <!------------------------------------------------------------------------------------------------>
 <!----------------------------------- 179. new ssh key (157) ------------------------------------->
@@ -5770,10 +5771,10 @@ command line and then copy the output.<br>
   alt="New SSH Key"
   style="width:65%;" />
 <br>
-5.  Enter a title for the new SSH key.<br>
-	In the <i>Key</i> field, paste the key that you copied in step 1, above.<br>
-	The pasted key should include <i>Your email address</i> at the end, as shown in the following
-    image:<br>
+  5.  Enter a title for the new SSH key.<br>
+	  In the <i>Key</i> field, paste the key that you copied in step 1, above.<br>
+	  The pasted key should include <i>Your email address</i> at the end, as shown in the following
+      image:<br>
 	
 <!------------------------------------------------------------------------------------------------>
 <!--------------------------------- 180. title to ssh keys (157) --------------------------------->
@@ -5783,7 +5784,7 @@ command line and then copy the output.<br>
   alt="Enter title for SSH keys."
   style="width:45%;" />
 <br>
-6.  Click <i>Add SSH Key</i>. The SSH key is added to your account.<br>
+  6.  Click <i>Add SSH Key</i>. The SSH key is added to your account.<br>
 
 <h3>Summary:</h3>
 
