@@ -5708,7 +5708,6 @@ To generate an SSH key, complete the following steps:<br>
       email address that is linked to your Github account. When you have
       typed the command, press Enter.<br></li>
 </ol>
-<br>
 
 <pre>
 $ ssh-keygen -t rsa -b 4096 -C "&lt;your email address&gt;"
@@ -5716,20 +5715,19 @@ $ ssh-keygen -t rsa -b 4096 -C "&lt;your email address&gt;"
 
 <br>
 A new SSH key is generated.<br>
-<br>
-  3.  You will be prompted to enter a directory to save the key. You can
+<ol start="3">
+  <li>You will be prompted to enter a directory to save the key. You can
       simply press Enter to accept the default location, which is an .ssh
       folder in the home directory. This means you will be able to locate
-      the key in ~/.ssh/id_rsa.<br>
-<br>
-  4.  You will be prompted to choose a passphrase. You also have the
+      the key in ~/.ssh/id_rsa.<br><br></li>
+  <li>You will be prompted to choose a passphrase. You also have the
       option not to create a passphrase. To skip the passphrase, press
-      Enter twice to confirm that the passphrase is empty.<br>
-<br>
-  5.  <i>Optional</i>: To navigate to the .ssh directory, and check the
+      Enter twice to confirm that the passphrase is empty.<br><br></li>
+  <li><i>Optional</i>: To navigate to the .ssh directory, and check the
       contents of the directory, run the following commands in the
-      terminal:<br>
-<br>
+      terminal:<br></li>
+</ol>
+
 <pre>
 $ cd ~/.ssh
 </pre>
@@ -5744,25 +5742,27 @@ When you list the contents of the .ssh directory, you should
 see id_rsa and id_rsa.pub in the list of contents, where id_rsa is the
 private version of your key and id_rsa.pub is the public version of your
 key.<br>
-<br>
-  6.  You now need to add the SSH key to the ssh-agent, which helps with
+<ol start="6">
+  <li>You now need to add the SSH key to the ssh-agent, which helps with
       the authentication process. To start the ssh-agent, run the
-      following command in the terminal:<br>
-<br>
+      following command in the terminal:<br></li>
+</ol>
+
 <pre>
 $ eval "$(ssh-agent -s)"
 </pre>
-<br>
-  7.  To add the key to the agent, run the following command in the
-      terminal:<br>
-<br>
+
+<ol start="7">
+  <li>To add the key to the agent, run the following command in the
+      terminal:<br></li>
+</ol>
 
 <pre>
 $ ssh-add ~/.ssh/id_rsa
 </pre>
 
 <h5>© IBM Corporation 2020. All rights reserved.</h5>
-
+</p>
 <!------------------------------ 5.9 adding and ssh key to github -------------------------------->
 <h3 id="ch5-9">5.9 Adding an SSH Key to GitHub</h3>
 
@@ -5786,8 +5786,10 @@ the <a href="https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud
 To add an SSH key to GitHub, you need to copy the SSH key that you
 generated in the previous lab. Open a terminal and then complete the
 following steps:<br>
-<br>
-  1.  In the terminal, run the following command:<br>
+
+<ol start="1">
+  <li>In the terminal, run the following command:<br></li>
+</ol>
 
 <pre>
 $ cat ~/.ssh/id_rsa.pub | clip
@@ -5795,10 +5797,12 @@ $ cat ~/.ssh/id_rsa.pub | clip
 
 <i>Note</i>: If clip doesn't work, run cat ~/.ssh/id_rsa.pub in the
 command line and then copy the output.<br>
-<br>
-  2.  Sign in to GitHub. At the top right, click the drop-down menu on
-      your profile image and select <i>Settings</i>.<br>
-<br>
+
+<ol start="2">
+  <li>Sign in to GitHub. At the top right, click the drop-down menu on
+      your profile image and select <i>Settings</i>.<br></li>
+</ol>
+
 <!------------------------------------------------------------------------------------------------>
 <!--------------------------------- 177. github settings (156) ----------------------------------->
 <!------------------------------------------------------------------------------------------------>
@@ -5806,10 +5810,12 @@ command line and then copy the output.<br>
   src="images/image177.png"
   alt="Github Settings"
   style="width:45%;" />
-<br>
-  3.  From the "Personal settings" menu, select <i>SSH and GPG keys</i>, as
-      shown in the following image:<br>
-<br>
+
+<ol start="3">
+  <li>From the "Personal settings" menu, select <i>SSH and GPG keys</i>, as
+      shown in the following image:<br></li>
+</ol>
+
 <!------------------------------------------------------------------------------------------------>
 <!--------------------------------- 178. ssh and gpg keys (156) ---------------------------------->
 <!------------------------------------------------------------------------------------------------>
@@ -5817,9 +5823,11 @@ command line and then copy the output.<br>
   src="images/image178.png" 
   alt="SSH and GPG Keys"
   style="width:65%;" />
-<br>
-  4.  Click <i>New SSH key</i>.
-<br>
+
+<ol start="4">
+  <li>Click <i>New SSH key</i>.<br></li>
+</ol>
+
 <!------------------------------------------------------------------------------------------------>
 <!----------------------------------- 179. new ssh key (157) ------------------------------------->
 <!------------------------------------------------------------------------------------------------>
@@ -5827,11 +5835,13 @@ command line and then copy the output.<br>
   src="images/image179.png" 
   alt="New SSH Key"
   style="width:65%;" />
-<br>
-  5.  Enter a title for the new SSH key.<br>
+
+<ol start="5">
+  <li>Enter a title for the new SSH key.<br>
 	  In the <i>Key</i> field, paste the key that you copied in step 1, above.<br>
 	  The pasted key should include <i>Your email address</i> at the end, as shown in the following
-      image:<br>
+      image:<br></li>
+</ol>
 	
 <!------------------------------------------------------------------------------------------------>
 <!--------------------------------- 180. title to ssh keys (157) --------------------------------->
@@ -5840,8 +5850,10 @@ command line and then copy the output.<br>
   src="images/image180.png"
   alt="Enter title for SSH keys."
   style="width:45%;" />
-<br>
-  6.  Click <i>Add SSH Key</i>. The SSH key is added to your account.<br>
+
+<ol start="6">
+  <li>Click <i>Add SSH Key</i>. The SSH key is added to your account.<br></li>
+</ol>
 
 <h3>Summary:</h3>
 
