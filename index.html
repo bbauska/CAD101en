@@ -4,18 +4,22 @@
 <!------------------------------------------------------------------------------------------------>
 <!------------------- index.html in https://github.com/bbauska/CAD101en/main --------------------->
 <!------------------------------------------------------------------------------------------------>
-<head>
+
 <meta name="viewport" content="width=device-width, initial-scale=1">
+
+<head>
+
 <title>CAD101en</title>
 
 <style>
+
 img.displayed {
   display: block;
   margin: 0 auto; }
 
 .border {
   border-width: 1px;
-  border-color: #778899;
+  border-color: #778899;  <!-- slate grey -->
   border-style: solid; }
 
 h1  {
@@ -46,64 +50,6 @@ body {
   font-family: Bahnschrift, Arial, Helvetic, sans-serif;
   font-size: 13px;
   text-align: left; }
-
-background: linear-gradient(60deg, #3d3393 0%, #2b76b9 37%, #2cacd1 65%, #35eb93 100%)
-
-#myBtn {
-  display: none;
-  position: fixed;
-  bottom: 20px;
-  right: 30px;
-  z-index: 99;
-  font-size: 11px;
-  border: none;
-  outline: none;
-  background-color: red;
-  color: white;
-  cursor: pointer;
-  padding: 10px;
-  border-radius: 1px;
-}
-
-#myBtn:hover {
-  background-color: #555;
-}
-
-// moved here - 11/29/2022 from below 6/18/21.
-.dropbtn {
-  background-color: #04006D;
-  color: white;
-  padding: 14px;
-  font-size: 12px;
-  border: none;
-}
-
-.dropdown {
-  position: relative;
-  display: inline-block;
-}
-
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #f1f1f1;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
-}
-
-.dropdown-content a {
-  color: black;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-}
-
-.dropdown-content a:hover {background-color: #A8D8FF;}
-
-.dropdown:hover .dropdown-content {display: block;}
-
-.dropdown:hover .dropbtn {background-color: #398e41;}
 
 </style>
 <!------ first style above ------>
@@ -167,7 +113,71 @@ Anyone and everyone who wants to learn about building cloud applications -  whe
 
 <!------------------------------------------------------------------------------------------------>
 
-<!-- moved style background, mybtn, dropbtn to above style <style> </style> -->
+<style>
+background: linear-gradient(60deg, #3d3393 0%, #2b76b9 37%, #2cacd1 65%, #35eb93 100%)
+
+body {
+  font-family: Bahnschrift, Arial, Helvetic, sans-serif;
+  font-size: 15px;
+}
+
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 11px;
+  border: none;
+  outline: none;
+  background-color: red;
+  color: white;
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 1px;
+}
+
+#myBtn:hover {
+  background-color: #555;
+}
+
+// moved here - 11/29/2022 from below 6/18/21.
+.dropbtn {
+  background-color: #04006D;
+  color: white;
+  padding: 14px;
+  font-size: 12px;
+  border: none;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #ccc;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #398e41;}
+
+</style>
 
 <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
 
@@ -178,7 +188,7 @@ Anyone and everyone who wants to learn about building cloud applications -  whe
 <!------------ script function: scrollFunction() ---------->
 <script>
 //Get the button
-let mybutton = document.getElementById("myBtn");
+var mybutton = document.getElementById("myBtn");
 
 // When the user scrolls down 20px from the top of the document, show the button
 window.onscroll = function() {scrollFunction()};
@@ -264,7 +274,7 @@ function topFunction() {
 <!------------------------------------------------------------------------------------------------>
 <img class="displayed"
   src="/images/image003.png?raw=true"
-  alt="IBM cloud development - the skills network."
+  alt="IBM Cloud Development - the Skills Network."
   style="width:65%;" />
 
 <!--------------- 1.1 welcome to intro to cloud development with html5, css3 & js ---------------->
@@ -349,16 +359,15 @@ Let's review the basics of how you interact with a website.</p>
       <li>Mozilla Firefox, and </li>
       <li>Apple Safari are some of the most popular.<br></li>
     </ul>
-	<br></li>
   <li>The browser has an address bar, into which you enter a URL, like www.IBM.com.<br><br></li>
   <li>The browser then contacts the server with the name and requests the information that makes up the website.<br><br></li>
   <li>The server then sends a response, which contains the data that the client requires to display the website.<br><br></li>
-  <li>For most websites, the server will return:<br>
+  <li>For most websites, the server will return:</li>
     <ul>
       <li>HTML, which defines the structure of the page, but doesn't look very attractive,<br></li>
       <li>CSS, which adds styles and flair to the page and,<br></li>
       <li>JavaScript, which adds interactivity and dynamic content.</li>
-    </ul></li>
+    </ul>
 </ol>
 <p>
 Content displayed by websites can contain elements that are either
@@ -381,11 +390,11 @@ Cloud services, making them very scalable and very resilient.
 The environment for building websites and Cloud Applications is divided
 into two primary areas:</p>
 <ol>
-  <li>The <i>front-end</i> deals with everything that happens
+  <li>The <b>front-end</b> deals with everything that happens
     at the client-side -- everything the user can see and interact with.<br>
   You can choose to specialize in front-end coding, using HTML, CSS,
   JavaScript and related frameworks, libraries, and tools.<br><br></li>
-  <li>The <i>back-end</i> deals with everything that happens on
+  <li>The <b>back-end</b> deals with everything that happens on
     the server before the code and data are sent to the client.<br>
   The back-end coding usually handles the logic and functionality that
   make the website or app work, and the authentication processes that keep
@@ -543,7 +552,7 @@ JavaScript.<br>
 <br>
 Programmers can manipulate the different functions, use them wherever
 required and can create device responsive applications.<br>
-</p>
+<br></p>
 <h4>A few examples of several frameworks being used are:</h4>
 <ul>
   <li><b><i>Angular framework</i></b> is an open-source framework and is being maintained by Google.<br>
@@ -583,6 +592,7 @@ you along the way.<br>
 </p>
 <h4>A cloud application developer's workbench includes:</h4>
 <ul>
+
 <li>Version Control,<br><br></li>
 <li>Libraries, and<br><br></li>
 <li>Frameworks.</li>
@@ -664,23 +674,23 @@ Here are some examples of code libraries:
   style="width:30%;" />
 
 <ul>
-<li>jQuery is a JavaScript library that simplifies DOM manipulation.<br><br></li>
-</ul>
+<li>jQuery is a JavaScript library that simplifies DOM manipulation.<br></li>
+
 <!---------------------------- 10. libraries: e-mail validator (13) ------------------------------>
 <img class="displayed border"
   src="/images/image010.png?raw=true"
   alt="Libraries: E-Mail Validator."
   style="width:30%;" />
-<ul>
+
 <li>Email-validator is a small library which checks an email address so it is
-    correctly constructed and valid.<br><br></li>
-</ul>
+    correctly constructed and valid.<br></li>
+
 <!-------------------------- 11. libraries: apache commons proper (13) --------------------------->
 <img class="displayed border"
   src="/images/image011.png?raw=true"
   alt="Libraries: Apache Commons Proper."
   style="width:30%;" />
-<ul>
+
 <li>Apache Commons Proper is a repository of reusable Java components.<br></li>
 </ul>
 <p>
@@ -693,7 +703,8 @@ Frameworks provide a standard way to build and deploy applications.
   src="/images/image012.png?raw=true"
   alt="Frameworks - the scaffold to build your apps."
   style="width:65%;" />
-<p>
+
+</p>
 You can think of a framework as being a skeleton that you can extend by
 adding your own code, providing a scaffold on which to build your apps.<br>
 <br>
@@ -730,7 +741,7 @@ Here are some examples of frameworks:</p>
 <li>Vue.js is a JavaScript framework focused on the user interface.<br><br></li>
 <li>Django is a framework that uses Python for web development.</li>
 </ul>
-<p>
+
 Frameworks define the workflow that you must follow, unlike libraries,
 which allow you to call functions as and when required.<br>
 <br>
@@ -752,20 +763,21 @@ Inversion of control allows you to create standardized apps, and takes
 away a lot of the tedious configuration work, so you can focus on the
 code for your app.<br>
 <br>
-In this last module (1-4), you've learned about some of the tools that you
-will utilize in your career as a developer including:</p>
+In this last module, you've learned about some of the tools that you
+will utilize in your career as a developer including:
 <ul>
 <li>Version control,&nbsp;<br><br></li>
 <li>libraries,&nbsp;<br><br></li>
-<li>frameworks.&nbsp;<br></li>
+<li>frameworks.&nbsp;<br><br></li>
 </ul>
+</p>
 <!------------------------------ 1.5 more appl'n development tools ------------------------------->
 <h3 id="ch1-5">1.5 More Application Development Tools</h3>
 <p>
 Welcome to More Application Development Tools.<br>
 <br>
 Let's look at some tools which can help you get your app built and
-deployed:</p>
+deployed:<br>
 <ul>
 <li>CI/CD,<br><br></li>
 <li>Build Tools, <br><br></li>
@@ -806,7 +818,7 @@ needs to be incorporated in the next build, so automation is key to
 keeping everything running smoothly.<br>
 <br>
 Build automation can automate a wide variety of tasks that developers do
-in their day-to-day activities like:</p>
+in their day-to-day activities like:
 <ul>
 <li>Downloading dependencies,<br><br></li>
 <li>Compiling source code into binary code,<br><br></li>
@@ -814,7 +826,7 @@ in their day-to-day activities like:</p>
 <li>Running tests,<br><br></li>
 <li>Deployment to production systems.</li>
 </ul>
-<p>
+
 You can initiate a build from the command line or from an IDE.<br>
 <br>
 There are two categories of Build Tools widely in use:</p>
@@ -885,15 +897,15 @@ Here are some examples of package managers for popular languages:
 <li>For Ruby - RubyGems &nbsp;<br><br></li>
 <li>For Python - Pip and Conda &nbsp;<br></li>
 </ul>
-<p>In this section (1-5), you've learned about some of the tools that you
-will utilize and support you in your career as a developer, including:</p>
+In this section, you've learned about some of the tools that you
+will utilize and support you in your career as a developer , including:
 <ul>
 <li>CI/CD, Build Tools, Packages, Package Managers.</li>
 </ul>
 
 <!------------------------- 1.6 the importance of back-end development --------------------------->
 <h3 id="ch1-6">1.6 The Importance of Back-End Development</h3>
-<p>
+
 Welcome to the importance of back-end development.<br>
 <br>
 A front-end developer creates websites and Cloud applications, using
@@ -962,14 +974,14 @@ from the back-end server.<br>
 Each request needs to interact with the back-end in a different way.<br>
 <br>
 Back-end developers use APIs, routes, and endpoints to process incoming
-requests:</p>
+requests:
 <ul>
-<li>An <i>API</i> is code that works with data, usually using
+<li>An <b>API</b> is code that works with data, usually using
 JSON or XML. APIs have set rules and structure.<br><br></li>
-<li>A <i>route</i> is a path to a website or page that the user
+<li>A <b>route</b> is a path to a website or page that the user
 interacts with.<br>
 Routes generally take user input and show results based on the input.<br><br></li>
-<li>An <i>endpoint</i> may be an API or may simply be a path.<br>
+<li>An <b>endpoint</b> may be an API or may simply be a path.<br>
 When a request from the front-end arrives at the back-end, it is routed
 to the correct service.<br></li>
 </ul>
@@ -1034,7 +1046,7 @@ Life for a back-end developer is varied, challenging, and ever changing.</p>
 <!------------------------------------ 1.7 chapter 1 summary ------------------------------------->
 <h3 id="ch1-7">1.7 Chapter 1 Summary</h3>
 <p>
-In this module (1), you learned that:</p>
+In this module, you learned that:</p>
 <ul>
 <li>Front-end developers work on the parts of the website or app that
     the user sees and interacts with.<br><br></li>
@@ -1066,7 +1078,7 @@ you can add style with Cascading Style Sheets (CSS).<br>
 CSS enables you to make your websites more attractive by adding a consistent style and design
 throughout.<br>
 <br>
-After completing this module (2), you will be able to:</p>
+After completing this module, you will be able to:</p>
 <ul>
 <li>Discuss the history and objectives of HTML.<br><br></li>
 <li>Describe how HTML features enable you to build flexible and
@@ -1082,9 +1094,9 @@ After completing this module (2), you will be able to:</p>
 <!-------------------------------------- 2.1 intro to html --------------------------------------->
 <h3 id="ch2-1">2.1 Introduction to HTML</h3>
 <p>
-Hello and welcome to Introduction to HTML.<br>
-<br>
-After reading this section (2-1), you will be able to:</p>
+Hello and welcome to Introduction to HTML.
+</p>
+<h4>After reading this section, you will be able to:</h4>
 <ul>
 <li>Explain what Hyper Text Markup Language (HTML) and HTML5 is, and list the objectives of HTML5.<br><br></li>
 <li>The core HTML specification includes this background information:</li>
@@ -1098,9 +1110,8 @@ Adaptations to HTML over the years have made it suitable to describe a
 number of other types of documents that can be displayed as web pages on
 the Internet.<br>
 <br>
-HTML Elements are the building blocks of an HTML page.<br>
-<br>
-The pieces of content that form the page are assigned labels such as "paragraph,"
+HTML Elements are the building blocks of an HTML page. The pieces of
+content that form the page are assigned labels such as "paragraph,"
 "list," and "table".<br>
 <br>
 They are represented by tags.<br>
@@ -1142,7 +1153,6 @@ with earlier HTML implementations.<br><br></li>
 <li>HTML5 includes markup and APIs for idioms, such as web storage, video,
 and audio content.</li>
 </ul>
-</p>
 <p>
 When speaking about creating web pages, developers may use the terms
 HTML and HTML5 interchangeably.<br>
@@ -1154,7 +1164,7 @@ such as when discussing features new to HTML5.<br>
 <br>
 In this course, HTML refers to HTML5, unless specified otherwise.<br>
 <br>
-<p>In this section (2-1), you learned:</p>
+<h4>In this section, you learned:</h4>
 <ul>
 <li>HTML stands for HyperText Markup Language, a markup language that
     enables documents to be displayed as web pages on the Internet,<br><br></li>
@@ -1167,10 +1177,10 @@ In this course, HTML refers to HTML5, unless specified otherwise.<br>
 
 <!-------------------------------------- 2.2 html features --------------------------------------->
 <h3 id-"ch2-2">2.2 HTML Features</h3>
-<p>
-Hello and welcome to HTML Features.<br>
-<br>
-After reading this section (2-2), you will be able to:</p>
+
+Hello and welcome to HTML Features.
+
+<h4>After reading this section, you will be able to:</h4>
 <ul>
 <li>List some of the features of HTML5,<br><br></li>
 <li>Describe the Document Object Model (DOM) tree,<br><br></li>
@@ -1214,14 +1224,14 @@ text/html, it is processed as an HTML document by web browsers.
 <br></p>
 <h4>This example uses the following elements:</h4>
 <ul>
-<li>The <b>&lt;!DOCTYPE html&gt;</b> is a declaration tag that represents the
+<li>The <b><!DOCTYPE html></b> is a declaration tag that represents the
 document type.<br><br></li>
-<li>The <i>declaration</i> is not an HTML tag; it is an instruction to the web
+<li>The <b>declaration</b> is not an HTML tag; it is an instruction to the web
 browser about what version of HTML the page is written in.</li>
 </ul>
 <p>
 Although this declaration is not required, it should be the first line
-of the HTML code if the developer decides to include it.</p>
+of the HTML code if the developer decides to include it.<br>
 <br>
 The &lt;html&gt; ... &lt;/html&gt; tag is the root element of this tree.<br>
 <br>
@@ -1249,7 +1259,7 @@ The &lt;head&gt; tag contains a &lt;title&gt; in the example.<br>
 <li>other initialization functions.
 </li>
 </ul>
-<p>
+
 Finally, the &lt;body&gt; tag contains all content that is displayed on the
 webpage.<br>
 <br>
@@ -1324,25 +1334,26 @@ In this regard, HTML syntax is less rigorous than XHTML syntax.<br>
 <br>
 In this section, you learned that HTML5 Includes features for
 categorizing sections of web pages, and managing data, video and audio
-tools.</p>
-<ul>
-<li>Enables you to develop a single, cross-browser application for the web
+tools.<br>
+<br>
+Enables you to develop a single, cross-browser application for the web
 and portable devices, helps you to create a more engaging user
-experience.<br><br></li>
-<li>The DOM tree is a representation of a document which is held in memory.<br><br></li>
-<li>It contains nodes which define the type and structure of the document.<br></li>
-</ul>
+experience.<br>
+<br>
+The DOM tree is a representation of a document which is held in memory.<br>
+<br>
+It contains nodes which define the type and structure of the document.</p>
 
 <h3>Hands-on Lab: Intro to HTML (JDFiddle)</h3>
 
-<a href="https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBMDeveloperSkillsNetwork-CD0101EN-SkillsNetwork/labs/demos/jsfiddle-demo.md.html" target="_blank" rel="noopener noreferrer">Click here to launch the lab in another tab.</a>
+<a href="https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBMDeveloperSkillsNetwork-CD0101EN-SkillsNetwork/labs/demos/jsfiddle-demo.md.html" target="_blank" rel="noopener noreferrer">Click here to launch the lab in another browser.</a>
 
 <!------------------------------- 2.3 html management and support -------------------------------->
 <h3 id="ch2-3">2.3 HTML Management and Support</h3>
 <p>
 Hello, and welcome to HTML Management and Support.<br>
 </p>
-<h4>After reading this section (2-3), you will be able to:</h4>
+<h4>After reading this section, you will be able to:</h4>
 <ul>
 <li>List some HTML document API properties and methods,<br><br></li>
 <li>Describe how scripting is enabled in browsers,<br><br></li>
@@ -1398,7 +1409,7 @@ creation of offline applications.<br>
 <br>
 What do you think makes HTML suitable for creating web applications?<br>
 <br>
-There are a number of possible reasons:<br>
+<h4>There are a number of possible reasons:</h4>
 <ul>
   <li>The range of devices that all have built-in browsers that support HTML5
 features.<br><br></li>
@@ -1412,7 +1423,7 @@ are displayed.<br><br></li>
   <li>The meta tags shown are used to provide information to search engines.</li>
 </ul>
 
-Here are some examples of elements in HTML5.<br>
+<h4>Here are some examples of elements in HTML5.</h4>
 <ul>
 <li>New structural elements are part of the HTML5 specification. These
     markup elements help you to logically define the page structure.<br><br></li>
@@ -1428,9 +1439,9 @@ Here are some examples of elements in HTML5.<br>
 The web workers feature can be used for non-interactive processing.<br>
 <br>
 Web workers provide a way to run processing-intensive tasks without blocking
-the user interactions to the current page.
-<br>
-In this section (2-3), you learned about:<br>
+the user interactions to the current page.</p>
+
+<h4>In this section, you learned about:</h4>
 <ul>
   <li>HTML5 Themes, which provide:<br>
   <br>
@@ -1446,7 +1457,7 @@ In this section (2-3), you learned about:<br>
     <ol>
       <li>Improved search indexing with meta tags,<br><br></li>
       <li>Better page load times, and<br><br></li>
-      <li>Enhanced user experience.<br><br></li>
+      <li>Enhanced user experience.<br></li>
     </ol>
   </li>
   <li>And about HTML5 Elements, which enable you to define and manage web page
@@ -1457,9 +1468,8 @@ structure and content.</li>
 <p>
 Hello and welcome to HTML Scripting.<br>
 <br>
-After reading this section (2-4), you will be able to describe how
-scripting is enabled in browsers.<br>
-</p>
+After reading this section, you will be able to describe how
+scripting is enabled in browsers.</p>
 
 <!------------------------------------------------------------------------------------------------>
 <!-------------------------------- 19. enabling scripting (34) ----------------------------------->
@@ -1515,13 +1525,13 @@ the HTML elements on a page.<br>
 <br>
 The property to access is prefixed by the word document.<br>
 <br>
-For example, <i>document.head</i> returns the first head element that is a
+For example, <b>document.head</b> returns the first head element that is a
 child of the html element, if there is one, otherwise null.<br>
 <br>
-The function <i>document.images</i> returns an HTML Collection of the image
+The function <b>document.images</b> returns an HTML Collection of the image
 elements in the document.<br>
 <br>
-The function <i>document.scripts</i> returns an HTML Collection of the
+The function <b>document.scripts</b> returns an HTML Collection of the
 script elements in the document.<br>
 <br>
 Here are some common HTML DOM tree methods:</p>
@@ -1534,13 +1544,13 @@ Here are some common HTML DOM tree methods:</p>
   alt="HTML Document API - DOM Tree Accessors."
   style="width:85%;" />
 <p>
-The <i>document.getElementById ('id')</i> function has one required
+The <b>document.getElementById ('id')</b> function has one required
 parameter which is the id of the element you want to access.<br>
 <br>
 The id is specified as an attribute on one of the elements that is coded
 elsewhere on the page.<br>
 <br>
-The <i>document.getElementsByTagName('tag')</i> function has one required
+The <b>document.getElementsByTagName('tag')</b> function has one required
 parameter which is the tag name of the element you want to access.<br>
 <br>
 This function returns a node list of all the elements with the tag that
@@ -1559,7 +1569,7 @@ API.</p>
 When Submit is clicked inside the page that is running in a web browser,
 the <i>textChecker</i> function begins.<br>
 <br>
-The <i>document.getElementById('textField1')</i> retrieves the contents of
+The <b>document.getElementById('textField1')</b> retrieves the contents of
 what was typed into the input field that has the id of textField1 and
 places this content into a variable.<br>
 <br>
@@ -1580,9 +1590,9 @@ the document API.</p>
   style="width:85%;" />
 <p>
 The user types "Test" in the input field and clicks Submit. The result
-is seen in an alert dialog box on the same page.<br>
-<br>
-In this section (2-4), you learned:<br>
+is seen in an alert dialog box on the same page.</p>
+
+<h4>In this section, you learned:</h4>
 <ul>
 <li>Scripting is used to provide a more interactive user experience when
     browsing websites,<br><br></li>
@@ -1594,12 +1604,12 @@ In this section (2-4), you learned:<br>
 <li>HTML documents loaded into a browser page become Document objects,
     which you can access through scripts.</li>
 </ul>
+
 <!---------------------------------- 2.5 html5 browser support ----------------------------------->
 <h3 id="ch2-5">2.5 HTML5 Browser Support</h3>
 <p>
 Hello and welcome to HTML5 Browser Support.<br>
-<br>
-After reading this section (2-5), you will be able to:<br>
+<h4>After reading this section, you will be able to:</h4>
 <ul>
 <li>Describe browser support for HTML5 features.</li>
 </ul>
@@ -1663,8 +1673,8 @@ This example shows a support table for the &lt; input type= 'date' &gt;
 element.<br>
 <br>
 The numbers represent the browser version.<br>
-<br>
-The color determines the level of support.<br>
+
+<h4>The color determines the level of support.</h4>
 <ul>
 <li>Green: Full support<br><br></li>
 <li>Olive: Partial support<br><br></li>
@@ -1687,9 +1697,9 @@ check back frequently to see if the features you require are supported.</p>
   src="/images/image027.png?raw=true"
   alt="Verifying HTML5 Browser Support Using JavaScript."
   style="width:85%;" />
-<p>
-You can also use JavaScript to check whether a certain HTML5 element is
-supported by a browser.<br>
+
+<h4>You can also use JavaScript to check whether a certain HTML5 element is
+supported by a browser.</h4>
 <ul>
 <li>First, create a DOM element by typing document.createElement() and
     include the element type as a parameter argument. As a result, the
@@ -1703,10 +1713,10 @@ supported by a browser.<br>
     yet fully support the DOM element (or the HTML5 tag) that has been
     created.</li>
 </ul>
-<br>
+<p>
 Browsers that do not support the element can revert to a fallback or
-default behavior such as displaying the field as a regular text field.<br>
-</p>
+default behavior such as displaying the field as a regular text field.</p>
+
 <!------------------------------------------------------------------------------------------------>
 <!---------------------- 28. verifying html5 browser support example (41) ------------------------>
 <!------------------------------------------------------------------------------------------------>
@@ -1726,9 +1736,9 @@ In the example, you dynamically create the DOM object for the input
 element, and then you set the type attribute to the value of "date".<br>
 <br>
 If the browser does not support the input type =date, the field is
-displayed in the browser as a regular text field.<br>
-<br>
-In this section (2-5), you learned:<br>
+displayed in the browser as a regular text field.</p>
+
+<h4>In this section, you learned:</h4>
 <ul>
 <li>Not all browsers fully support all the features that are described
     in the HTML5 and CSS3 specifications.<br><br></li>
@@ -1737,7 +1747,6 @@ In this section (2-5), you learned:<br>
 <li>You can use JavaScript to check whether a certain HTML5 element is
     supported by a browser.</li>
 </ul>
-</p>
 
 <h3>Hands-On Lab: HTML - Creating a Simple Web Page</h3>
 
@@ -1769,7 +1778,7 @@ provision your lab environment.</p>
 <p>
 Hello and welcome to CSS: Styling HTML.</p>
 
-<h4>After reading this section (2-6), you will be able to:</h4>
+<h4>After reading this section (2.6), you will be able to:</h4>
 <ul>
 <li>Explain what a Cascade Style Sheet (CSS) is,<br><br></li>
 <li>Describe how to use CSS to format HTML elements,<br><br></li>
@@ -1853,9 +1862,8 @@ as style sheets).</p>
   alt="What Elements Can CSS Control?"
   style="width:65%;" />
 
-<p>
-You can use CSS to control a document's appearance and specify style
-rules for the following web page elements:</p>
+<h4>You can use CSS to control a document's appearance and specify style
+rules for the following web page elements:</h4>
 <ul>
 <li>Fonts,<br><br></li>
 <li>Text,<br><br></li>
@@ -1869,9 +1877,8 @@ rules for the following web page elements:</p>
 <li>Tables, and<br><br></li>
 <li>Lists.<br>
 </ul>
-<p>
-CSS style elements are structured like this.
-</p>
+
+<p>CSS style elements are structured like this.</p>
 
 <!------------------------------------------------------------------------------------------------>
 <!------------------------------------- 34. css format (45) -------------------------------------->
@@ -1881,8 +1888,7 @@ CSS style elements are structured like this.
   alt="CSS Format."
   style="width:65%;" />
 
-<p>
-In this example, the html-tag-name can be one of the following elements:</p>
+<h4>In this example, the html-tag-name can be one of the following elements:</h4>
 <ul>
 <li>Any of the tags you find in HTML code (for example,&lt;a&gt;, &lt;div&gt;,
     &lt;li&gt;, or &lt;label&gt;, etc.)<br><br></li>
@@ -1902,8 +1908,8 @@ Establish a base style by styling the &lt;body&gt; tag, as shown here.</p>
   src="/images/image035.png?raw=true"
   alt="Base Styles."
   style="width:50%;" />
-<p>
-This example makes the following styles:</p>
+
+<h4>This example makes the following styles:</h4>
 <ul>
 <li>Sets the background color: off-white (background-color),<br><br></li>
 <li>Ensures that the font color is black (color),<br><br></li>
@@ -1914,8 +1920,8 @@ This example makes the following styles:</p>
     sans-serif (a font without the little flicks around the edges) as
     font family (font-family).</li>
 </ul>
-<p>
-These settings are simple. Generally, follow these guidelines:</p>
+
+<h4>These settings are simple. Generally, follow these guidelines:</h4>
 <ul>
 <li>When a color is specified, use Red-Green-Blue (RGB) hexadecimal
     light values.<br><br></li>
@@ -1962,16 +1968,16 @@ It "dirties" the page with a non-HTML code.<br>
 You apply this style to only one page.<br>
 <br>
 If you copy and paste this style on each page, this approach increases
-the load time of each page, which causes the user to wait longer.<br>
-</p>
+the load time of each page, which causes the user to wait longer.</p>
+
 <h3>Link tag</h3>
 <p>
 You can link to it from other pages, which ensures a clean HTML and a
 smaller page size.<br>
 <br>
-To use this method, the tag must be added to the tag section.<br>
-<br>
-In this section (2-6), you learned:</p>
+To use this method, the tag must be added to the  tag section.</p>
+
+<h4>In this section (2), you learned:</h4>
 <ul>
   <li>CSS creates a uniform look throughout each element of each page of
       the website,<br><br></li>
@@ -2007,11 +2013,11 @@ provision your lab environment.
 
 <!------------------------------------ 2.7 chapter 2 summary ------------------------------------->
 <h3 id="ch2-7">2.7 Chapter 2 Summary</h3>
-<p>
-In this module (2), you learned that:</p>
+
+<h4>In this module (2.7), you learned that:</h4>
 <ul>
 <li>HTML provides the basic structure and content for a website using
-    tags.<br><br></li>
+    tags.<br></li>
 <li>The HTML DOM Tree describes how a website is structured.<br><br></li>
 <li>HTML uses APIs to enhance the user experience, providing features
     for advanced animation, audio, and video.<br><br></li>
@@ -2021,6 +2027,7 @@ In this module (2), you learned that:</p>
     HTML5 features.<br><br></li>
 <li>CSS provides a consistent style and design throughout the website.</li>
 </ul>
+
 <!---------------------------------- chapter 3 html5 elements ------------------------------------>
 <h2 id="ch3">Chapter 3: HTML5 Elements</h2>
 <p>
@@ -2035,19 +2042,20 @@ with the website, inputting information in various formats like dates,
 times, numbers, email addresses, and much more besides.<br>
 <br>
 To be able to create the structure you want for your site, you must be familiar with
-some of these elements.<br>
-<br>
-After completing this section (3-1), you will be able to:</p>
+some of these elements.</p>
+
+<h4>After completing this module (3), you will be able to:</h4>
 <ul>
 <li>Describe the basic structural elements of HTML5.<br><br></li>
 <li>Describe the attributes of HTML5 input elements.</li>
 </ul>
+
 <!---------------------------- 3.1 html5 tags and structural elements ---------------------------->
 <h3 id="ch3-1">3.1 HTML5 Tags and Structural Elements</h3>
 
-<p>Hello. Welcome to HTML5 Tags and Structural Elements.<br>
-<br>
-After reading this section (3-1), you will be able to:</p>
+<p>Hello. Welcome to HTML5 Tags and Structural Elements.</p>
+
+<h4>After reading this section, you will be able to:</h4>
 <ul>
   <li>List specific elements to HTML5, and<br><br></li>
   <li>Describe HTML5 structural elements:<br><br></li>
@@ -2055,6 +2063,7 @@ After reading this section (3-1), you will be able to:</p>
     <li>section, article, header, footer, figure, fig caption.</li>
   </ul>
 </ul>
+
 <!------------------------------------------------------------------------------------------------>
 <!---------------------------- 36. html5 specific tags (1of4) (51) ------------------------------->
 <!------------------------------------------------------------------------------------------------>
@@ -2078,8 +2087,7 @@ that is used to embed sound content, and canvas that is used for
 graphical content.<br>
 <br>
 Not all of these element tags are covered in this section, so take a
-moment to read through the table.<br>
-</p>
+moment to read through the table.
 
 <!------------------------------------------------------------------------------------------------>
 <!---------------------------- 38. html5 specific tags (3of4) (53) ------------------------------->
@@ -2137,8 +2145,7 @@ For example, a &lt;p&gt; element is a paragraph that usually contains some
 text.<br>
 <br>
 In contrast, the &lt;div&gt; tag has no innate semantic meaning besides the
-logical grouping of the content.<br>
-</p>
+logical grouping of the content.</p>
 
 <!------------------------------------------------------------------------------------------------>
 <!--------------------------- 41. html5 structural elements #2 (55) ------------------------------>
@@ -2245,8 +2252,8 @@ web page.</p>
   src="/images/image046.png?raw=true"
   alt="Summary chapter 3."
   style="width:65%;" />
-<p>
-In this section (3-1), you learned:<br>
+
+<h4>In this section (3-1), you learned:</h4>
 <ul>
 <li>Tags provide control within an HTML5 document.<br><br></li>
 <li>Some tags provide structural elements:<br><br></li>
@@ -2259,18 +2266,17 @@ In this section (3-1), you learned:<br>
     group content.<br><br></li>
 <li>And the &lt;nav&gt; tags enable you to group navigational links.</li>
 </ul>
-</p>
 <!---------------------- 3.2 html5 input element: att's for the input tag ------------------------>
 <h3 id="ch3-2">3.2 HTML5 Input Element: Attributes for the Input Tag</h3>
-<p>
-Hello. Welcome to HTML5 Input Element: Attributes for the Input Tag.<br>
+
+Hello. Welcome to HTML5 Input Element: Attributes for the Input Tag.
 <br>
-After reading this section (3-2), you will be able to:<br>
+<h4>After reading this section (3-2), you will be able to:</h4>
 <ul>
 <li>Describe the attributes of the HTML5 input element input type
     attributes tel, email, date time, number, range, and color.</li>
 </ul>
-<br>
+<p>
 The &lt; input type= "color" / &gt; attribute allows the user to select a
 color.<br>
 <br>
@@ -2283,8 +2289,7 @@ text input field into which the user might type a valid color name or
 color code.<br>
 <br>
 The &lt; input type="date" &gt; attribute is a date control (year, month,
-day) with no time zone.<br>
-</p>
+day) with no time zone.</p>
 <!------------------------------------------------------------------------------------------------>
 <!----------------------------------- 47. input for date (59) ------------------------------------>
 <!------------------------------------------------------------------------------------------------>
@@ -2386,8 +2391,7 @@ It does not enforce numeric only input since many telephone numbers
 include other characters, such as the plus sign and hyphens.<br>
 <br>
 You need to supply your own pattern matcher if you want the browser to
-validate the telephone number.<br>
-</p>
+validate the telephone number.</p>
 
 <!------------------------------------------------------------------------------------------------>
 <!----------------------------------- 53. input for urls (63) ------------------------------------>
@@ -2403,8 +2407,7 @@ The &lt; input list="some_list" &gt; provides a list of auto-complete suggestion
 <br>
 Not to be confused with the &lt; select &gt; element. Useful for auto-complete functionality.<br>
 <br>
-You can fill the list by nesting.<br>
-</p>
+You can fill the list by nesting.</p>
 
 <!------------------------------------------------------------------------------------------------>
 <!--------------------- 54. input attribute 'list' used with datalist (63) ----------------------->
@@ -2469,7 +2472,8 @@ and leave all final validation to server-side processing.<br>
 You can code client-side validation that is attached to the form submit
 event handler to validate all the fields on the form when the form is
 submitted.<br>
-<h4>In this section (3-2), you learned:</h4>
+<br>
+In this section (3-2), you learned:</p>
 <ul>
 <li>Common attributes of the &lt; input &gt; tag,<br><br></li>
 <li>How to implement validation fallback.</li>
@@ -2495,10 +2499,10 @@ provision your lab environment.</p>
 
 <!------------------------------------ 3.3 chapter 3 summary ------------------------------------->
 <h3 id="ch3-3">3.3 Chapter 3 Summary</h3>
-<p>
-In this module (3), you learned that:</p>
+
+<h4>In this module (3), you learned that:</h4>
 <ul>
-  <li>To structure a document, HTML5 uses elements like:
+  <li>To structure a document, HTML5 uses elements like:</li>
     <ul>
       <li>&lt;div&gt;</li>
       <li>&lt;header&gt;</li>
@@ -2506,20 +2510,21 @@ In this module (3), you learned that:</p>
       <li>&lt;section&gt;</li>
       <li>&lt;body&gt;</li>
       <li>&lt;heading&gt;</li>
-    </ul></li><br>
+    </ul>
   <li>HTML5 uses the &lt;input&gt; tag to allow users to input information. It
-    has many different types, including:
+    has many different types, including:</li>
     <ul>
       <li>Color,<br></li>
       <li>Date,<br></li>
-      <li>Datetime-local,<br></li>
+      <li>Datetime-local,
       <li>Email,<br></li>
       <li>Number,<br></li>
       <li>Range,<br></li>
       <li>Search,<br></li>
       <li>URL<br></li>
-	</ul></li>
+	</ul>
 </ul>
+
 <!---------------------------- chapter 4: js prog'g for web appl'ns ------------------------------>
 <h2 id="ch4">Chapter 4: JavaScript Programming for Web Applications</h2>
 <p>
@@ -2533,7 +2538,7 @@ factor, you're going to need JavaScript.<br>
 With JavaScript, you can make your webpages dynamic, using features like interactive forms, picture
 slideshows, and sophisticated menu systems.<br>
 <br>
-After completing this module (4), you will be able to:</p>
+After completing this module, you will be able to:</p>
 <ul>
 <li>Describe the basic syntax of JavaScript,<br><br></li>
 <li>Explain how to work with variables in JavaScript,<br><br></li>
@@ -2545,15 +2550,16 @@ After completing this module (4), you will be able to:</p>
     (DOM),<br><br></li>
 <li>List the common APIs used in JavaScript Applications.</li>
 </ul>
+
 <h3>JavaScript Language Overview & Syntax</h3>
 <p>
 Hello. Welcome to The JavaScript language, Overview and Syntax.<br>
 <br>
-After reading this section (3-1), you will be able to:<br>
+After reading this section, you will be able to:</p>
 <ul>
 <li>Describe JavaScript primitives and objects.</li>
 </ul>
-</p>
+
 <!------------------------------------------------------------------------------------------------>
 <!----------------------------- 58. the nature of javascript (67) -------------------------------->
 <!------------------------------------------------------------------------------------------------>
@@ -2594,17 +2600,21 @@ modifying the web page through the Document Object Model.<br>
 <br>
 Nowadays, JSON is commonly used instead of XML.<br>
 <br>
-In JavaScript, there are five primitive types that are associated with
-various primitive values:</p>
-<ol>
-  <li>Number: All numbers, such as 0 or 3.1412,<br><br></li>
-  <li>String: All strings, such as "Hello World",<br><br></li>
-  <li>Boolean: The values true or false,<br><br></li>
-  <li>Null: The value null,<br><br></li>
-  <li>Undefined: The value undefined, since a data type has not been
-    assigned or the variable does not exist.</li>
-</ol>
+
+<h4>In JavaScript, there are five primitive types that are associated with
+various primitive values:</h4>
 <p>
+1.  Number: All numbers, such as 0 or 3.1412,<br>
+<br>
+2.  String: All strings, such as "Hello World",<br>
+<br>
+3.  Boolean: The values true or false,<br>
+<br>
+4.  Null: The value null,<br>
+<br>
+5.  Undefined: The value undefined, since a data type has not been
+    assigned or the variable does not exist.
+<br>
 All other non-primitive data types are objects.<br>
 <br>
 The number primitive represents both integer and floating point values,
@@ -2626,8 +2636,7 @@ There is no behavior or methods that are associated with primitive data
 types.<br>
 <br>
 The primitive types number, string, and boolean can be wrapped by their
-object counterparts.<br>
-</p>
+object counterparts.</p>
 
 <!------------------------------------------------------------------------------------------------>
 <!---------------------------------- 59. wrapper objects (69) ------------------------------------>
@@ -2645,8 +2654,7 @@ built-in ways to convert between these wrapper objects and primitive
 values.<br>
 <br>
 The wrapper objects use special methods such as the <i>valueOf</i> and
-<i>toString</i> methods to convert between objects and primitive literals.<br>
-</p>
+<i>toString</i> methods to convert between objects and primitive literals.</p>
 
 <!------------------------------------------------------------------------------------------------>
 <!--------------------------- 60. examples with wrapper objects (69) ----------------------------->
@@ -2665,8 +2673,7 @@ string.<br>
 The keyword new is used to create the String wrapper object.<br>
 <br>
 This object can be converted to a primitive string type by calling the
-valueOf function on the object wrapper class.<br>
-</p>
+valueOf function on the object wrapper class.</p>
 
 <!------------------------------------------------------------------------------------------------>
 <!--------------------------------- 61. array objects defined (70) ------------------------------->
@@ -2684,8 +2691,8 @@ of an array has an index of zero.<br>
 <br>
 Arrays grow or shrink dynamically by adding or removing elements.<br>
 <br>
-The length property holds the number of elements that occur in the array.<br>
-</p>
+The length property holds the number of elements that occur in the
+array.</p>
 
 <!------------------------------------------------------------------------------------------------>
 <!------------------------------ 62. declaring array objects (70) -------------------------------->
@@ -2705,8 +2712,7 @@ Array literals are created by declaring the array elements within square
 brackets.<br>
 <br>
 You then assign the array to a variable, as seen in the last example on
-the slide.<br>
-</p>
+the slide.</p>
 
 <!------------------------------------------------------------------------------------------------>
 <!------------------------------------ 63. date objects (71) ------------------------------------->
@@ -2730,8 +2736,7 @@ object on a web page, JavaScript automatically applies a toString method
 to the object.<br>
 <br>
 The result that is displayed is a string version of the date as shown on
-this slide.<br>
-</p>
+this slide.</p>
 
 <!------------------------------------------------------------------------------------------------>
 <!------------------------------------ 64. date objects (72) ------------------------------------->
@@ -2748,8 +2753,7 @@ Examples on the slide show how either string or numeric values can be
 used for the date parameters when creating new date objects.<br>
 <br>
 As with other object-oriented languages, JavaScript creates error object
-instances when an exception occurs.<br>
-</p>
+instances when an exception occurs.</p>
 
 <!------------------------------------------------------------------------------------------------>
 <!------------------------------------ 65. error objects (72) ------------------------------------>
@@ -2758,14 +2762,14 @@ instances when an exception occurs.<br>
   src="images/image065.png"
   alt="Error Objects"
   style="width:65%;" />
-<p>
-The error object instance includes two properties that contain
-information about the error:<br>
+
+<h4>The error object instance includes two properties that contain
+information about the error:</h4>
 <ul>
-  <li>The message property contains a description about the error.<br><br></li>
-  <li>The name property identifies the type of error such as a RangeError.</li>
+<li>The message property contains a description about the error.<br><br></li>
+<li>The name property identifies the type of error such as a RangeError.</li>
 </ul>
-<br>
+<p>
 A RangeError is an error instance that is created when a numeric value
 or parameter is outside of its valid range.<br>
 <br>
@@ -2786,8 +2790,8 @@ The Error object can be extended to create custom error types.<br>
 <br>
 The last line of the slide shows the creation of a generic error object
 with a custom error message in the parameter field.
-<br>
-In this section (3-1), you learned:<br>
+</p>
+<h4>In this section (3-1), you learned:</h4>
 <ul>
   <li>JavaScript is a scripting language that adds behavior to otherwise
       static web content,<br></li>
@@ -2802,7 +2806,7 @@ In this section (3-1), you learned:<br>
     which to process it.<br><br></li>
   <li>Wrapper objects have the same name as the primitive type, but they
       begin with a capital letter to differentiate them from the primitive
-      data type itself.<br><br></li>
+      data type itself.<br>
   <li>Some examples of wrapper objects are:<br><br>
 	  <ul>
 	  <li>array, data, and error objects.<br></li>
@@ -2812,17 +2816,16 @@ In this section (3-1), you learned:<br>
 <!--------------------------- 4.1 js: variables & control statements ----------------------------->
 <h3 id="ch4-1">4.1 JavaScript: Variables & Control Statements</h3>
 
-<h3><b>Hello. Welcome to JavaScript Variables and Control</i> Statements.</h3>
+<h3><b>Hello. Welcome to JavaScript Variables and Control</b> Statements.</h3>
 
-<p>
-After reading this section (4-1), you will be able to:<br>
+<h4>After reading this section, you will be able to:</h4>
 <ul>
 <li>Explain how variables are declared and used in JavaScript,<br><br></li>
 <li>Describe JavaScript control structures,<br><br></li>
 <li>Variables are declared with the var keyword followed by the variable
 name, as in the example, var age.</li>
 </ul>
-</p>
+
 <!------------------------------------------------------------------------------------------------>
 <!------------------------------- 67. a primer on variables (74) --------------------------------->
 <!------------------------------------------------------------------------------------------------>
@@ -2830,13 +2833,13 @@ name, as in the example, var age.</li>
   src="images/image067.png"
   alt="A Primer on Variables."
   style="width:65%;" />
+
 <p>
 Variables can be declared and initialized in one step, as in the
 example, var age = 54,<br>
 <br>
 You can assign a value to the variable at a later time, or reassign the
-value of a variable.<br>
-</p>
+value of a variable,</p>
 <!------------------------------------------------------------------------------------------------>
 <!----------------------------- 68.  a primer on variables #2 (75) ------------------------------->
 <!------------------------------------------------------------------------------------------------>
@@ -2863,12 +2866,12 @@ until you provide a value.<br>
 It therefore cannot decide by default whether to assign a zero or an
 empty string.<br>
 <br>
-Variable names, or identifiers, have these rules:<br>
+<h4>Variable names, or identifiers, have these rules:</h4>
 <ul>
 <li>The name must start with a letter, underscore (_), or a dollar sign ($),<br><br></li>
 <li>Subsequent characters can also be digits [0-9] Identifiers are
     case-sensitive.<br><br></li>
-<li>Variables also have a scope:<br><br>
+<li>Variables also have a scope:<br>
   <ul>
     <li>Variables declared within a function have a scope local to that
     function,<br><br></li>
@@ -2876,15 +2879,15 @@ Variable names, or identifiers, have these rules:<br>
     <li>Variables with a global scope can be used elsewhere in the
     JavaScript program,<br><br></li>
     <li>Variables declared without the var keyword have a global scope.</li>
-  </ul></li><br>
+  </ul></li>
 <li>Variables that are not initialized have a value of undefined.<br></li>
 </ul>
-<br>
+<p>
 You learn about functions shortly.<br>
 <br>
 Conditional statements are the set of commands that are used to perform
 different actions for different conditions:<br>
-</p>
+<br>
 <!------------------------------------------------------------------------------------------------>
 <!---------------------------- 69. compound control statements (76) ------------------------------>
 <!------------------------------------------------------------------------------------------------>
@@ -2920,8 +2923,7 @@ structure to make it more readable.<br>
 Unlike Java, there is no block statement scope in JavaScript.<br>
 <br>
 Having no block statement scope means that variables declared inside one
-IF condition can be used outside the scope of that condition.<br>
-</p>
+IF condition can be used outside the scope of that condition.</p>
 
 <!------------------------------------------------------------------------------------------------>
 <!--------------------------------- 70. switch statement (77) ------------------------------------>
@@ -2930,30 +2932,29 @@ IF condition can be used outside the scope of that condition.<br>
   src="images/image070.png"
   alt="Switch Statement"
   style="width:65%;" />
-<p>
+
 JavaScript supports the switch statement as an alternative to the IF
-then ELSE control statements.<br>
-<br>
+then ELSE control statements.
+
 The condition that is being tested is placed in parentheses that follow
-the switch keyword.<br>
-<br>
+the switch keyword.
+
 The expression parameter of the switch statement can evaluate to any
-number or string value.<br>
-<br>
+number or string value.
+
 The labels in the case statement are enclosed in quotation marks when
-the labels represent string values of the expression.<br>
-<br>
+the labels represent string values of the expression.
+
 The program looks for a case clause with a label that matches the value
 of expression and then transfers control to that clause, running the
-associated statements.<br>
-<br>
+associated statements.
+
 If no matching label is found, the program looks for the optional
 default clause, and if found, transfers control to that clause, issuing
-the associated statements.<br>
-<br>
+the associated statements.
+
 The break keyword is used to prevent the code from automatically falling
-into the next case clause.<br>
-</p>
+into the next case clause.
 
 <!------------------------------------------------------------------------------------------------>
 <!------------------------------- 71. repeat with for loop (78) ---------------------------------->
@@ -2962,26 +2963,26 @@ into the next case clause.<br>
   src="images/image071.png"
   alt="Repeat with for loop"
   style="width:65%;" />
-<p>
-The FOR loop repeats a series of statements for any number of times.<br>
-<br>
+
+The FOR loop repeats a series of statements for any number of times.
+
 The FOR loop takes three parameter arguments, namely the initial value,
-the condition that is being tested, and the increment expression.<br>
-<br>
-When the FOR loop runs, the following occurs:<br>
-<ul>
-<li>First, the initial expression is set,<br><br></li>
-<li>Second, the conditional expression is evaluated.<br></li>
-</ul>
-<br>
+the condition that is being tested, and the increment expression.
+
+<h4>When the FOR loop runs, the following occurs:</h4>
+
+-   First, the initial expression is set,
+
+-   Second, the conditional expression is evaluated.
+
 If this condition evaluates to true, the loop statements runs and the
-increment expression is updated.<br>
-<br>
-If the condition evaluates to false, the FOR loop terminates.<br>
-<br>
+increment expression is updated.
+
+If the condition evaluates to false, the FOR loop terminates.
+
 If the loop does not terminate, control returns to the second step and
-the conditional expression is evaluated again.<br>
-</p>
+the conditional expression is evaluated again.
+
 <!------------------------------------------------------------------------------------------------>
 <!------------------------------ 72. repeat with while loops (78) -------------------------------->
 <!------------------------------------------------------------------------------------------------>
@@ -2989,64 +2990,74 @@ the conditional expression is evaluated again.<br>
   src="images/image072.png"
   alt="Repeat with while loops"
   style="width:65%;" />
-<p>
-The WHILE loop is another common loop in JavaScript,<br>
-<br>
-The loop repeats while the condition remains true,<br>
-<br>
+
+The WHILE loop is another common loop in JavaScript,
+
+The loop repeats while the condition remains true,
+
 The WHILE loop assumes that the condition reaches a conclusion and then
-exits the loop.<br>
-<br>
+exits the loop.
+
 Make sure that the condition evaluates to false at some point; otherwise
-the loop never terminates.<br>
-<br>
-In this section (4-1), you learned:<br>
-<ul>
-<li>Variables are declared using the keyword var followed by the
-    variable name.<br><br></li>
-<li>You can initialize variables at the time of declaration or assign a
-    value later.<br><br></li>
-<li>You do not need to declare the data type of a variable. Variables
+the loop never terminates.
+
+<h4>In this section, you learned:</h4>
+
+-   Variables are declared using the keyword var followed by the
+    variable name.
+
+-   You can initialize variables at the time of declaration or assign a
+    value later.
+
+-   You do not need to declare the data type of a variable. Variables
     take their data type from the value assigned and can change type
-    during program execution.<br><br></li>
-<li>Variables also have a scope.<br><br></li>
-<li>Variables declared within a function have a scope local to that
-    function.<br><br></li>
-<li>Variables declared outside of a function have a global scope.<br><br></li>
-<li>Variables declared without the var keyword have a global scope.<br></li>
-</ul>
-<br>
-When executing, the flow of the program is directed by control
-statements, including:<br>
-<ul>
-<li>Conditional statements like if...then...else,<br><br></li>
-<li>Switch statements,<br><br></li>
-<li>Repeat statements like for loops and while loops.<br></li>
-</ul>
-</p>
+    during program execution.
+
+-   Variables also have a scope.
+
+-   Variables declared within a function have a scope local to that
+    function.
+
+-   Variables declared outside of a function have a global scope.
+
+-   Variables declared without the var keyword have a global scope.
+
+<h4>When executing, the flow of the program is directed by control
+statements, including:</h4>
+
+-   Conditional statements like if...then...else,
+
+-   Switch statements,
+
+-   Repeat statements like for loops and while loops.
+
 <!------------------------------- 4.2 js: functions & prototypes --------------------------------->
 <h3 id="ch4-2">4.2 JavaScript: Functions & Prototypes</h3>
-<p>
-Hello. Welcome to JavaScript Functions and Prototypes.<br>
-<br>
-After reading this section (4-2), you will be able to:<br>
-<ul>
-<li>Describe functions in JavaScript, and<br><br></li>
-<li>Describe prototypes in JavaScript.<br></li>
-</ul>
+
+Hello. Welcome to JavaScript Functions and Prototypes.
+
+<h4>After reading this section, you will be able to:</h4>
+
+-   Describe functions in JavaScript, and
+
+-   Describe prototypes in JavaScript.
+
 A function is a block of code which can be called from any point in a
-script after being declared.<br>
-<br>
-A function is made up of the following parts:<br>
-<ul>
-<li>The keyword function,<br><br></li>
-<li>The name of the function,<br><br></li>
-<li>Parentheses, with optional parameter arguments,<br><br></li>
-<li>Curly braces, with the logic.<br></li>
-</ul>
+script after being declared.
+
+<h4>A function is made up of the following parts:</h4>
+
+-   The keyword function,
+
+-   The name of the function,
+
+-   Parentheses, with optional parameter arguments,
+
+-   Curly braces, with the logic,
+
 The last statement in a function block is the optional return statement
-that returns control back to whatever called the function.<br>
-</p>
+that returns control back to whatever called the function.
+
 <!------------------------------------------------------------------------------------------------>
 <!-------------------------- 73. Functions: Parts of a Function (80) ----------------------------->
 <!------------------------------------------------------------------------------------------------>
@@ -3054,57 +3065,53 @@ that returns control back to whatever called the function.<br>
   src="images/image073.png"
   alt="Functions: Parts of a Function"
   style="width:65%;" />
-<p>
-This example is a function that is named add.<br>
-<br>
+
+This example is a function that is named add.
+
 This function takes two parameter arguments and returns the sum of the
-arguments or concatenates the two arguments if they are strings.<br>
-<br>
+arguments or concatenates the two arguments if they are strings.
+
 Notice that you do not specify the data type for the arguments of the
-function.<br>
-<br>
+function.
+
 The data types are determined by the values of the arguments that are
-being passed to the function.<br>
-<br>
+being passed to the function.
+
 There is no specific return type declared -- the function returns
-whatever type is required.<br>
-<br>
+whatever type is required.
+
 In this case, the return is a simple addition or concatenation of the
-input parameters.<br>
-<br>
-The action chosen depends on what data is provided to the function.<br>
-<br>
-If the values can be interpreted as numbers, they are added.<br>
-<br>
-If they can be interpreted as strings, they are concatenated.<br>
-</p>
+input parameters.
+
+The action chosen depends on what data is provided to the function.
+
+If the values can be interpreted as numbers, they are added.
+
+If they can be interpreted as strings, they are concatenated.
 
 <!------------------------------------------------------------------------------------------------>
 <!------------------------------ 74. Creating Custom Objects (81) -------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <img class="displayed border"
   src="images/image074.png"
-  alt="Creating custom objects."
+  alt="Creating Custom Objects"
   style="width:65%;" />
-<p>
-This is an example of declaring a function named Car that accepts three
-arguments as parameters.<br>
-<br>
-A little further down, you specifically ask the function to run, by
-declaring the statement:<br>
 
-<pre>
-   var c = new Car with the arguments; "meridian", "Sabre GT" and 2012.
-</pre>
+This is an example of declaring a function named Car that accepts three
+arguments as parameters.
+
+A little further down, you specifically ask the function to run, by
+declaring the statement:
+
+var c = new Car with the arguments; "meridian", "Sabre GT" and 2012.
 
 In the Car function, the keyword "this" refers to the current instance
-of the Car object that is being created. <br>
-<br>
-In other words, an instance of Car that is associated with the variable named c.<br>
-<br>
+of the Car object that is being created. In other words, an instance of
+Car that is associated with the variable named c.
+
 The getName function of Car returns the make, model, and year of the
 newly created Car object.
-</p>
+
 <!------------------------------------------------------------------------------------------------>
 <!------------------------------ 75. Creating custom Objects (81) -------------------------------->
 <!------------------------------------------------------------------------------------------------>
@@ -3113,10 +3120,8 @@ newly created Car object.
   alt="Creating custom objects."
   style="width:65%;" />
 
-<p>
 By using prototypes, you can easily define properties and methods for
-all instances of a particular object.<br>
-</p>
+all instances of a particular object.
 
 <!------------------------------------------------------------------------------------------------>
 <!------------------------------------ 76. Prototypes (82) --------------------------------------->
@@ -3125,13 +3130,13 @@ all instances of a particular object.<br>
   src="images/image076.png"
   alt="Prototypes"
   style="width:65%;" />
-<p>
+
 Prototypes exist for all JavaScript objects that can be created with the
-new keyword.<br>
-<br>
+new keyword.
+
 All object constructors create objects that inherit the properties and
-methods that are defined by the prototype for that object.<br>
-</p>
+methods that are defined by the prototype for that object.
+
 <!------------------------------------------------------------------------------------------------>
 <!------------------------------------ 77. Prototypes (77) --------------------------------------->
 <!------------------------------------------------------------------------------------------------>
@@ -3139,28 +3144,26 @@ methods that are defined by the prototype for that object.<br>
   src="images/image077.png"
   alt="Prototypes"
   style="width:65%;" />
-<p>
-Any object that gets instantiated inherits the current state of the
-prototype.<br>
-<br>
-Scripts can override prototype properties and functions.<br>
-<br>
-If they do so, these changes affect the current working instances of
-objects that match the prototype.<br>
-<br>
-In the Car example that is shown on the slide, you can add another
-property to the Car prototype, with the statement:<br>
 
-<pre>
+Any object that gets instantiated inherits the current state of the
+prototype.
+
+Scripts can override prototype properties and functions.
+
+If they do so, these changes affect the current working instances of
+objects that match the prototype.
+
+In the Car example that is shown on the slide, you can add another
+property to the Car prototype, with the statement:
+
 Car.prototype.property_name as in:
 
 Car.prototype.floor_model = true;
-</pre>
 
 Any Car object that you create, or any car object that is already
 created, automatically inherits the new floor_model property and its
-value.</p>
-<br>
+value.
+
 <!------------------------------------------------------------------------------------------------>
 <!-------------------------- 78. Adding functions to prototypes (78) ----------------------------->
 <!------------------------------------------------------------------------------------------------>
@@ -3168,18 +3171,18 @@ value.</p>
   src="/images/image078.png?raw=true"
   alt="Adding Functions to Prototypes"
   style="width:65%;" />
-<p>
-Here is another example that uses a prototype to change Car instances.<br>
-<br>
+
+Here is another example that uses a prototype to change Car instances.
+
 This time, you add a method function called getName to the Car
-prototype.<br>
-<br>
+prototype.
+
 Now when a Car object is instantiated, it also includes the getName
-function that returns the make, model, and year.<br>
-<br>
+function that returns the make, model, and year.
+
 All existing instances of the Car object also inherit the getName
-method.<br>
-</p>
+method.
+
 <!------------------------------------------------------------------------------------------------>
 <!------------------------------ 79. self-executing function (79) -------------------------------->
 <!------------------------------------------------------------------------------------------------>
@@ -3187,32 +3190,33 @@ method.<br>
   src="/images/image079.png?raw=true"
   alt="Self-executing Function"
   style="width:65%;" />
-<p>
+
 Functions are usually declared first, and not run until you specifically
-ask them to, as you saw in some of the previous examples.<br>
-<br>
+ask them to, as you saw in some of the previous examples.
+
 Auto-invocation or self-executing functions start running immediately
-after being declared.<br>
-<br>
+after being declared.
+
 The functions and variables inside self-executing functions are only
-available to the code inside the self-executing function.<br>
-<br>
+available to the code inside the self-executing function.
+
 Auto-invocation functions can also be unnamed or anonymous functions,
-and have the format that is shown in the code block on the slide.<br>
-<br>
+and have the format that is shown in the code block on the slide.
+
 Self-executing functions are often used to initialize data or to declare
-DOM elements on the page.<br>
-<br>
-In this section (4-2), you learned:<br>
-<ul>
-<li>A function is a block of code which can be called from any point in
-    a script after being declared.<br><br></li>
-<li>Functions can take arguments passed as parameters and can return
-    results.<br><br></li>
-<li>By using prototypes, you can easily define properties and methods
-    for all instances of a specific object.<br></li>
-</ul>
-<br>
+DOM elements on the page.
+
+<h4>In this section, you learned:</h4>
+
+-   A function is a block of code which can be called from any point in
+    a script after being declared.
+
+-   Functions can take arguments passed as parameters and can return
+    results.
+
+-   By using prototypes, you can easily define properties and methods
+    for all instances of a specific object.
+<p>
 Prototypes exist for all JavaScript objects that can be created with the
 new keyword.<br>
 <br>
@@ -3222,23 +3226,22 @@ prototype for the object.<br>
 Self-executing (auto-invocation) functions start running immediately
 after they have been declared.<br>
 <br>
-The functions and variables are isolated from the rest of the script.<br>
-</p>
+The functions and variables are isolated from the rest of the script.</p>
 
 <h3>Module 4, JavaScript: Functions & Prototypes</h3>
 <p>
-Hello. Welcome to JavaScript Functions and Prototypes.<br>
-<br>
-After reading this section (4-3), you will be able to:<br>
+Hello. Welcome to JavaScript Functions and Prototypes.</p>
+
+<h4>After reading this section, you will be able to:</h4>
 <ul>
 <li>Describe functions in JavaScript, and<br><br></li>
 <li>Describe prototypes in JavaScript.</li>
 </ul>
-<br>
+<p>
 A function is a block of code which can be called from any point in a
-script after being declared.<br>
-<br>
-A function is made up of the following parts:<br>
+script after being declared.</p>
+
+<h4>A function is made up of the following parts:</h4>
 <ul>
 <li>The keyword function,<br><br></li>
 <li>The name of the function,<br><br></li>
@@ -3247,7 +3250,7 @@ A function is made up of the following parts:<br>
 <li>The last statement in a function block is the optional return
     statement that returns control back to whatever called the function.</li>
 </ul>
-</p>
+
 <!------------------------------------------------------------------------------------------------>
 <!-------------------------- 80. Functions: parts of a function (80) ----------------------------->
 <!------------------------------------------------------------------------------------------------>
@@ -3329,28 +3332,25 @@ methods that are defined by the prototype for that object.</p>
   src="/images/image082.png?raw=true"
   alt="Prototypes 2."
   style="width:65%;" />
-<p>
-Any object that gets instantiated inherits the current state of the
-prototype.<br>
-<br>
-Scripts can override prototype properties and functions.<br>
-<br>
-If they do so, these changes affect the current working instances of
-objects that match the prototype.<br>
-<br>
-In the Car example that is shown on the slide, you can add another
-property to the Car prototype, with the statement:<br>
 
-<pre>
+Any object that gets instantiated inherits the current state of the
+prototype.
+
+Scripts can override prototype properties and functions.
+
+If they do so, these changes affect the current working instances of
+objects that match the prototype.
+
+In the Car example that is shown on the slide, you can add another
+property to the Car prototype, with the statement:
+
 Car.prototype.property_name as in:
 
 Car.prototype.floor_model = true;
-</pre>
 
 Any Car object that you create, or any car object that is already
 created, automatically inherits the new floor_model property and its
-value.<br>
-</p>
+value.
 
 <!------------------------------------------------------------------------------------------------>
 <!--------------------------- 83. adding functions to prototypes (83) ---------------------------->
@@ -3359,7 +3359,7 @@ value.<br>
   src="/images/image083.png?raw=true"
   alt="Adding functions to prototypes."
   style="width:65%;" />
-<p>
+
 Here is another example that uses a prototype to change Car instances.<br>
 <br>
 This time, you add a method function called getName to the Car
@@ -3369,8 +3369,7 @@ Now when a Car object is instantiated, it also includes the getName
 function that returns the make, model, and year.<br>
 <br>
 All existing instances of the Car object also inherit the getName
-method.<br>
-</p>
+method.
 
 <!------------------------------------------------------------------------------------------------>
 <!----------------------------- 84. self-executing functions (83) -------------------------------->
@@ -3379,7 +3378,7 @@ method.<br>
   src="/images/image084.png?raw=true"
   alt="Self-executing functions."
   style="width:65%;" />
-<p>
+
 Functions are usually declared first, and not run until you specifically
 ask them to, as you saw in some of the previous examples.<br>
 <br>
@@ -3395,41 +3394,46 @@ and have the format that is shown in the code block on the slide.<br>
 Self-executing functions are often used to initialize data or to declare
 DOM elements on the page.<br>
 <br>
-In this section (4.2), you learned:<br>
-<ul>
-<li>A function is a block of code which can be called from any point in
-    a script after being declared.<br><br></li>
-<li>Functions can take arguments passed as parameters and can return
-    results.<br><br></li>
-<li>By using prototypes, you can easily define properties and methods
-    for all instances of a specific object.<br><br></li>
-<li>Prototypes exist for all JavaScript objects that can be created with
-    the new keyword.<br><br></li>
-<li>To add a new function to the template for the object, modify the
-    prototype for the object.<br><br></li>
-<li>Self-executing (auto-invocation) functions start running immediately
-    after they have been declared.<br><br></li>
-<li>The functions and variables are isolated from the rest of the
-    script.<br></li>
-</ul>
-</p>
+<h4>In this section (4.2), you learned:</h4>
+
+-   A function is a block of code which can be called from any point in
+    a script after being declared.
+
+-   Functions can take arguments passed as parameters and can return
+    results.
+
+-   By using prototypes, you can easily define properties and methods
+    for all instances of a specific object.
+
+-   Prototypes exist for all JavaScript objects that can be created with
+    the new keyword.
+
+-   To add a new function to the template for the object, modify the
+    prototype for the object.
+
+-   Self-executing (auto-invocation) functions start running immediately
+    after they have been declared.
+
+-   The functions and variables are isolated from the rest of the
+    script.
+
 <!------------------------------- 4.3 client-side js: with html ---------------------------------->
 <h3 id="ch4-3">4.3 Client-Side JavaScript: with HTML</h3>
 
 <p>
 Hello. Welcome to Client-side JavaScript.<br>
 <br>
-After reading this section (4-3), you will be able to:<br>
+<h4>After reading this section, you will be able to:</h4>
 <ul>
   <li>Define a client-side script,<br><br></li>
   <li>Give examples of when client-side script can be used,<br><br></li>
-  <li>Explain how to use them,<br><br></li>
+  <li>Explain how to use the
+
   <li>Describe Event Binding in scripts.<br></li>
 </ul>
 <br>
 A client-side script is a program that accompanies an HTML document or
-might be embedded directly in the HTML document itself.<br>
-</p>
+might be embedded directly in the HTML document itself.
 
 <!------------------------------------------------------------------------------------------------>
 <!---------------------------------- 85. scripts in html (89) ------------------------------------>
@@ -3438,7 +3442,7 @@ might be embedded directly in the HTML document itself.<br>
   src="/images/image085.png?raw=true"
   alt="Scripts in HTML."
   style="width:65%;" />
-<p>
+
 The script program runs on the client device when the document loads, or
 at some other time such as when a link is activated or when a button is
 clicked.<br>
@@ -3458,8 +3462,7 @@ Scripts can be triggered by events that occur on a web page, such as the
 clicking of a button.<br>
 <br>
 Scripts can be used to dynamically create document elements on an HTML
-page.<br>
-</p>
+page.
 
 <!------------------------------------------------------------------------------------------------>
 <!--------------------------- 86. script tag examples: example 1 (90) ---------------------------->
@@ -3468,6 +3471,7 @@ page.<br>
   src="/images/image086.png?raw=true"
   alt="SCRIPT tag example 1."
   style="width:65%;" />
+
 <p>
 This slide shows two ways in which the document.<br>
 <br>
@@ -3475,8 +3479,7 @@ Example 1 demonstrates how you can include a script directly inside the
 HTML document.<br>
 <br>
 This method is good for short scripts, but when a script is long, the
-method used in example 2 is preferred.<br>
-</p>
+method used in example 2 is preferred.</p>
 
 <!------------------------------------------------------------------------------------------------>
 <!--------------------------- 87. script tag examples: example 2 (90) ---------------------------->
@@ -3485,16 +3488,16 @@ method used in example 2 is preferred.<br>
   src="/images/image087.png?raw=true"
   alt="SCRIPT tag example 2."
   style="width:65%:" />
+
 <p>
-Example 2 uses the src attribute to point to an external script file.<br>
+Example 2 uses the src attribute to point to an external script file.
 <br>
 This method has several use cases, such as importing JavaScript
 libraries for complex interactions or using the same script across
 several HTML documents.<br>
 <br>
 Some users who visit your website might disable JavaScript from running,
-or they might be using a browser that does not support scripting.<br>
-</p>
+or they might be using a browser that does not support scripting.</p>
 
 <!------------------------------------------------------------------------------------------------>
 <!-------------------------- 88. when scripting is not available (91) ---------------------------->
@@ -3512,9 +3515,8 @@ If the browser does not support scripting, the browser runs the section
 of code that is within the noscript tag.<br>
 <br>
 Scripts can be run on the detection of certain events that happen when
-the page is running in a browser session.<br>
+the page is running in a browser session.
 </p>
-
 <!------------------------------------------------------------------------------------------------>
 <!-------------------------- 89. scripts tied to intrinsic events (91) --------------------------->
 <!------------------------------------------------------------------------------------------------>
@@ -3533,8 +3535,7 @@ This event occurs when the pointing device is clicked over an element,
 such as a button, that declares a handler for the event.<br>
 <br>
 The event handler is a function that declares what to do when the button
-is clicked.<br>
-</p>
+is clicked.</p>
 <!------------------------------------------------------------------------------------------------>
 <!------------------------------ 90. event binding in scripts (92) ------------------------------->
 <!------------------------------------------------------------------------------------------------>
@@ -3546,8 +3547,8 @@ is clicked.<br>
 <p>
 Here the inline event handler named showAnswers runs when the button is
 clicked.<br>
-<br>
-In this section (4-3), you learned:<br>
+</p>
+<h4>In this section, you learned:</h4>
 <ul>
 <li>A client-side script is a program that accompanies an HTML document.<br>
 It may even be embedded into the HTML itself.<br><br></li>
@@ -3560,25 +3561,24 @@ It may even be embedded into the HTML itself.<br><br></li>
     disabled.<br><br></li>
 <li>Scripts can be bound to events so that they run automatically.</li>
 </ul>
-<br>
+<p>
 For example, the onload event can run a script when the browser finishes
-loading a page.<br>
-</p>
+loading a page.</p>
 
 <!-------------------------------- 4.4 client-side js: with dom ---------------------------------->
 <h3 id="ch4-4">4.4 Client-Side JavaScript: with DOM</h3>
 
 <p>
 Hello. Welcome to Client-side JavaScript.<br>
-<br>
-After reading this section (4-4), you will be able to:<br>
+<br></p>
+<h4>After reading this section (4-4), you will be able to:<br></h4>
 <ul>
 <li>Describe the document object model (DOM) hierarchy,<br><br></li>
 <li>Describe the window and document objects,<br><br></li>
 <li>Identify the DOM objects that are commonly used in JavaScript
     applications for working with HTML documents.</li>
 </ul>
-</p>
+
 <!------------------------------------------------------------------------------------------------>
 <!----------------------------- 91. dom programming interface (93) ------------------------------->
 <!------------------------------------------------------------------------------------------------>
@@ -3595,8 +3595,7 @@ applications and scripts to dynamically access and update the content,
 structure, and style of documents.<br>
 <br>
 JavaScript uses the DOM to access and modify web page elements in the
-web browser.<br>
-</p>
+web browser.</p>
 
 <!------------------------------------------------------------------------------------------------>
 <!------------------------------------- 92. dom levels (93) -------------------------------------->
@@ -3610,8 +3609,7 @@ The World Wide Web Consortium released four levels of the Document
 Object Model specifications.<br>
 <br>
 Each successive level provides a more detailed set of features for
-describing structured documents.<br>
-</p>
+describing structured documents.</p>
 
 <!------------------------------------------------------------------------------------------------>
 <!--------------------------- 93. basic dom model for browsers (94) ------------------------------>
@@ -3627,8 +3625,7 @@ standard.<br>
 The discussion of the DOM in this unit focuses on the DOM Level 1 Core
 and DOM Level 1 HTML APIs to access HTML elements with the DOM.<br>
 <br>
-The JavaScript engine in most web browsers fully supports DOM level 1.<br>
-</p>
+The JavaScript engine in most web browsers fully supports DOM level 1.</p>
 
 <!------------------------------------------------------------------------------------------------>
 <!--------------------------- 93. basic dom model for browsers (94) ------------------------------>
@@ -3676,8 +3673,7 @@ When the browser loads a page, a window object is automatically created
 for you.<br>
 <br>
 You can then access the window object properties and functions from your
-JavaScript code.<br>
-</p>
+JavaScript code.</p>
 
 <!------------------------------------------------------------------------------------------------>
 <!----------------------------- 94. client-side window object (95) ------------------------------->
@@ -3696,16 +3692,14 @@ A number of predefined methods exist for the window object.<br>
 The window.alert, window.confirm, and window.prompt dialogs that are
 used in web pages, come from the global window object.<br>
 <br>
-You can leave out the window prefix for methods in the DOM API.<br>
-<br>
-So the window.alert method can be coded more simply as alert with a message
+You can leave out the window prefix for methods in the DOM API. So the
+window.alert method can be coded more simply as alert with a message
 argument.<br>
 <br>
 This figure shows the object model for a simple HTML document.<br>
 <br>
 Notice how the object hierarchy matches the HTML containment hierarchy
-on the left.<br>
-</p>
+on the left.</p>
 
 <!------------------------------------------------------------------------------------------------>
 <!--------------------------- 95. html document object diagram (96) ------------------------------>
@@ -3717,8 +3711,7 @@ on the left.<br>
 
 <p>
 The object diagram can also be represented as a tree structure that
-corresponds to the structure of the HTML document.<br>
-</p>
+corresponds to the structure of the HTML document.</p>
 
 <!------------------------------------------------------------------------------------------------>
 <!---------------------- 96. html document object diagram with tree (96) ------------------------->
@@ -3737,8 +3730,7 @@ nodes.<br>
 All HTML tags (html, head, meta, title, and body) are element nodes.<br>
 <br>
 The nodes that contain actual text that go between an element start tag
-and end tag, are text nodes.<br>
-</p>
+and end tag, are text nodes.</p>
 
 <!------------------------------------------------------------------------------------------------>
 <!---------------------------- 97. DOM Level 2 Tree for a Form (97) ------------------------------>
@@ -3753,8 +3745,7 @@ The figure shows the DOM level 2 tree for the FORM portion of the
 document.<br>
 <br>
 The line feeds between elements are text nodes and are part of the DOM
-level 2 tree.<br>
-</p>
+level 2 tree.</p>
 
 <!------------------------------------------------------------------------------------------------>
 <!--------------------------- 98. DOM Level 2 Tree for a Form #2 (97) ---------------------------->
@@ -3777,9 +3768,8 @@ The DOM level 0 for the form portion of the document would have only the
 form, p, and input boxes.<br>
 <br>
 The DOM level 2 adds the carriage returns, tabs, and spaces, sometimes
-referred to as "white space".<br>
-<br>
-In this section (4-4), you learned:<br>
+referred to as "white space".<br></p>
+<h4>In this section (4-4), you learned:</h4>
 <ul>
 <li>The document object model (DOM) is the programming interface between
     HTML or XHTML and JavaScript.<br><br></li>
@@ -3790,12 +3780,11 @@ In this section (4-4), you learned:<br>
 <li>The basic DOM for browsers is a hierarchy that includes objects that
     perform different functions.</li>
 </ul>
-<br>
+<p>
 For example, the window object controls the environment of the document,
 the location object contains information about the URL of the page,
 screen object derives information about the user's screen, and the
-document object provides access to all HTML elements within a page.<br>
-</p>
+document object provides access to all HTML elements within a page.</p>
 <ul>
 <li>DOM levels define object types, with which developers can build a
     variety of documents, from plain HTML documents for web pages, to
@@ -3805,14 +3794,13 @@ document object provides access to all HTML elements within a page.<br>
 <!------------------------------------ 4.5 js: dom objects --------------------------------------->
 <h3 id="ch4-5">4.5 JavaScript DOM Objects</h3>
 <p>
-Hello. Welcome to JavaScript Dom Objects.<br>
-<br>
-After reading this section (4-5), you will be able to:<br>
+Hello. Welcome to JavaScript Dom Objects.</p>
+
+<h4>After reading this section (4-5), you will be able to:</h4>
 <ul>
 <li>Identify the DOM objects that are commonly used in JavaScript
     applications for working with HTML documents.</li>
 </ul>
-</p>
 <!------------------------------------------------------------------------------------------------>
 <!---------------------------- 99. dom html-related note types (98) ------------------------------>
 <!------------------------------------------------------------------------------------------------>
@@ -3866,8 +3854,7 @@ Another example:<br>
 <br>
 If a paragraph element is followed by some text, the text string has a
 node name of hash-sign-text, and the node value is the text string
-itself.<br>
-</p>
+itself.</p>
 
 <!------------------------------------------------------------------------------------------------>
 <!----------------------------- 101. dom level 2 properties (100) -------------------------------->
@@ -3881,8 +3868,7 @@ The table lists some of the DOM Level 2 node object properties and
 corresponding data types.<br>
 <br>
 You see these properties when you view a DOM tree for an HTML page in a
-browser's developer tools, like Chrome's DevTools.<br>
-</p>
+browser's developer tools, like Chrome's DevTools.</p>
 
 <!------------------------------------------------------------------------------------------------>
 <!------------------------- 102. accessing document elements #1 (100) ---------------------------->
@@ -3899,14 +3885,12 @@ images, anchors, links, applets, and embeds.<br>
 <br>
 It then places all the objects of each type into these arrays.<br>
 <br>
-The arrays are indexed as they occur in the source document.<br>
-<br>
-The first index of each array starts at zero.<br>
+The arrays are indexed as they occur in the source document. The first
+index of each array starts at zero.<br>
 <br>
 Each of the array types, such as forms[], contains an array of
 elements[] with each index element being the fields or buttons that
-occur in that form.<br>
-</p>
+occur in that form.</p>
 
 <!------------------------------------------------------------------------------------------------>
 <!------------------------- 103. accessing document elements #2 (101) ---------------------------->
@@ -3918,8 +3902,7 @@ occur in that form.<br>
 
 <p>
 You can reference the element named field1 in the figure by its relative
-position as document.forms[0].elements[0].<br>
-</p>
+position as document.forms[0].elements[0].</p>
 
 <!------------------------------------------------------------------------------------------------>
 <!------------------------- 104. accessing document elements #3 (101) ---------------------------->
@@ -3931,8 +3914,8 @@ position as document.forms[0].elements[0].<br>
 
 <p>
 You can reference the same field with named elements; for example,
-document.forms["form1"].elements["field1"], or even the shortened document.form1.field1.<br>
-</p>
+document.forms["form1"].elements["field1"], or even the
+shortened document.form1.field1.</p>
 
 <!------------------------------------------------------------------------------------------------>
 <!------------------------- 105. accessing document elements #4 (102) ---------------------------->
@@ -3953,8 +3936,7 @@ The id attribute of an element is used by scripts to refer to the
 element with a name that matches the value of the id attribute.<br>
 <br>
 In order to assign a scriptable reference name to an HTML element with
-the id attribute, use the following conventions:<br>
-</p>
+the id attribute, use the following conventions:</p>
 
 <!------------------------------------------------------------------------------------------------>
 <!---------------------------------- 106. object naming (102) ------------------------------------>
@@ -3976,21 +3958,20 @@ value is document.getElementById with the name of the id as a parameter
 argument.<br>
 <br>
 It is suggested that the same value is used for both the id and the name
-attribute (seen earlier) when both are used.<br>
-<br>
-In this section (4-5), you learned:<br>
+attribute (seen earlier) when both are used.<br></p>
+
+<h4>In this section (4.5), you learned:</h4>
 <ul>
 <li>How to work with DOM objects in JavaScript, including:<br><br></li>
 <li>You can access nested objects using a dot notation.<br><br></li>
 <li>Objects can be named to make accessing them from the script easier.</li>
 </ul>
-</p>
 <!---------------------------------------- 4.6 js: apis ------------------------------------------>
 <h3 id="ch4-6">4.6 JavaScript APIs</h3>
 <p>
 Hello. Welcome to JavaScript APIs.<br>
-<br>
-After reading this section (4-6), you will be able to:<br>
+</p>
+<h4>After reading this section (4-6), you will be able to:</h4>
 <ul>
 <li>Explain how to work with nodes,<br><br></li>
 <li>Describe how to modify the content of an element,<br><br></li>
@@ -3998,13 +3979,12 @@ After reading this section (4-6), you will be able to:<br>
 <li>Describe how to modify the attributes of an object,<br><br></li>
 <li>Describe how to use Window object methods and events.</li>
 </ul>
-<br>
+<p>
 The DOM Level 1 core and Level 1 HTML specifications have too much
 detail for one unit.<br>
 <br>
 Instead, the remainder of the unit focuses on script functions and
-properties that are commonly used when working with HTML pages.<br>
-</p>
+properties that are commonly used when working with HTML pages.</p>
 <!------------------------------------------------------------------------------------------------>
 <!----------------------------------- 107. common apis (103) ------------------------------------->
 <!------------------------------------------------------------------------------------------------>
@@ -4263,107 +4243,119 @@ loads the web page.</p>
   src="/images/image119.png?raw=true"
   alt="Summary chapter 4."
   style="width:65%;" />
-<p>
+
 In the example, the onload event causes an anonymous function to run.<br>
 <br>
 This function, in turn, runs the function addPara().<br>
+<br>
+In this section, you learned:<br>
 
-<h4>In this section (4.6), you learned:</h4>
-<ul>
-  <li>You can retrieve a reference to a node using:<br>
-  <br>
-    <ul>
-    <li>document.getElementById(id) - Returns one specific element that is based on the id attribute.<br><br></li>
-    <li>document.getElementsByTagName(tagName) - retrieves a of elements with the specified tag.<br><br></li>
-    </li>
-    </ul>
-  <li>You can create an element using:<br><br>
-    <ul>
-    <li>document.createElement(TagName).<br><br></li>
-    </ul>
-  <li>And place it using:<br><br>
-    <ul>
-    <li>insertBefore, appendChild, or replaceChild.<br><br></li>
-    </ul>
-  <li>You can modify elements using:<br><br>
-    <ul>
-    <li>element.innerHTML to retrieve or set the contents of an HTML element.<br><br></li>
-    <li>element.style to retrieve or set the inline CSS style.<br><br></li>
-    <li>element.setAttribute to modify the attributes of an element.<br><br></li>
-    </ul>
-  <li>You can manage a window object using functions including:<br><br>
-    <ul>
-    <li>window.open to return reference to a new window object for the web browser.<br><br></li>
-    <li>window.dump("message") to write a string into the console for the web browser.<br><br></li>
-  </ul>
-</ul>
-<p>
+-   You can retrieve a reference to a node using:
+
+document.getElementById(id) - Returns one specific element that is based
+on the id attribute.<br>
+
+document.getElementsByTagName(tagName) - retrieves a of elements with
+the specified tag.<br>
+
+-   You can create an element using:<br>
+
+document.createElement(TagName).<br>
+
+-   And place it using:<br>
+
+insertBefore, appendChild, or replaceChild.<br>
+
+-   You can modify elements using:
+
+element.innerHTML to retrieve or set the contents of an HTML element.<br>
+
+element.style to retrieve or set the inline CSS style.<br>
+
+element.setAttribute to modify the attributes of an element.<br>
+
+-   You can manage a window object using functions including:<br>
+
+window.open to return reference to a new window object for the web
+browser.<br>
+
+window.dump("message") to write a string into the console for the web
+browser.<br>
+
 This is not an exhaustive list -- many more functions exist that enable
 you to work with HTML elements and nodes.<br>
-</p>
 
-<h4>Window Object Methods & Events</h4>
+Window Object Methods & Events<br>
 
 <!------------------------------------ 4.7 chapter 4 summary ------------------------------------->
 <h3 id="ch4-7">4.7 Chapter 4 Summary</h3>
 
 In this module (4), you learned that:
-<ul>
-<li>JavaScript is a scripting language that enables developers to add
-    dynamic content to webpages.<br><br></li>
-<li>JavaScript variables are declared using the var keyword and take
-    their type from the value assigned.<br><br></li>
-<li>Program execution is controlled by statements like If...Then...Else,
-    Switch, For loops, and While loops.<br><br></li>
-<li>JavaScript uses functions: blocks of code that can be called from
-    anywhere in the script.<br><br></li>
-<li>Client-side scripts are programs that accompany HTML documents and
-    are used by developers to incorporate more interactive elements.<br><br></li>
-<li>Developers can access HTML DOM elements from JavaScript scripts
-    using the correct DOM notation.<br><br></li>
-<li>APIs are often used to access HTML DOM elements in web pages.</li>
-</ul>
+
+-   JavaScript is a scripting language that enables developers to add
+    dynamic content to webpages.
+
+-   JavaScript variables are declared using the var keyword and take
+    their type from the value assigned.
+
+-   Program execution is controlled by statements like If...Then...Else,
+    Switch, For loops, and While loops.
+
+-   JavaScript uses functions: blocks of code that can be called from
+    anywhere in the script.
+
+-   Client-side scripts are programs that accompany HTML documents and
+    are used by developers to incorporate more interactive elements.
+
+-   Developers can access HTML DOM elements from JavaScript scripts
+    using the correct DOM notation.
+
+-   APIs are often used to access HTML DOM elements in web pages.
 
 <!------------------------------------- chapter 5: github ---------------------------------------->
 <h2 id="ch5">Chapter 5: GitHub</h2>
 
 <!----------------------------------- 5.1 overview of github ------------------------------------->
 <h3 id="ch5-1">5.1 Overview of GitHub</h3>
-<p>
-Web and Cloud App developers rarely work alone.<br>
+
+Web and Cloud App developers rarely work alone. <br>
 <br>
 Large projects will include many people -- front-end developers, back-end developers,
-database administrators, and repository administrators.<br>
+database administrators, and repository administrators. <br>
 <br>
 Every change by every contributor must be tracked and controlled to enable the changes
-to be merged seamlessly, to allow for potential rollbacks, and for accountability.<br>
+to be merged seamlessly, to allow for potential rollbacks, and for
+accountability. <br>
 <br>
 This type of distributed version control is extremely important when managing large software projects.<br>
 <br>
 Git, GitHub, and Git Lab are some of the most widely used tools for collaboration, storage,
 and version control.<br>
 <br>
-Web and Cloud App developers rarely work alone.<br>
+Web and Cloud App developers rarely work alone. <br>
 <br>
 Large projects will include many people -- front-end developers, back-end developers,
-database administrators, and repository administrators.<br>
+database administrators, and repository administrators. <br>
 <br>
 Every change by every contributor must be tracked and controlled to enable the changes
-to be merged seamlessly, to allow for potential rollbacks, and for accountability.<br>
+to be merged seamlessly, to allow for potential rollbacks, and for accountability. <br>
 <br>
 This type of distributed version control is extremely important when managing large software projects. <br>
 <br>
 Git, GitHub, and Git Lab are some of the most widely used tools for collaboration, storage,
 and version control.<br>
+<br>
+After completing this module, you will be able to: 
 
-<h4>After completing this module (5), you will be able to:</h4>
-<ul>
-<li>Define distributed version control,<br><br></li>
-<li>Describe the purpose of repositories,<br><br></li>
-<li>Explain how branches are used,<br><br></li>
-<li>Describe the function of Git commands like push, pull, and fetch,<br><br></li>
-<li>List the roles common in large projects.<br></li>
-</ul>
+-   Define distributed version control,
+
+-   Describe the purpose of repositories,
+
+-   Explain how branches are used,
+
+-   Describe the function of Git commands like push, pull, and fetch,
+
+-   List the roles common in large projects.
 
 <!------------------------------------- 5.2 intro to github -------------------------------------->
 <h3 id="ch5-2">5.2 Introduction to Git/GitHub</h3>
@@ -4383,12 +4375,12 @@ what version control is.</p>
   src="/images/image120.png?raw=true"
   alt="Version control defined."
   style="width:65%;" />
-<p>
+
 A version control system allows you to keep track of changes to your
-documents.<br>
-<br>
+documents. 
+
 This makes it easy for you to recover older versions of your document if
-you make a mistake, and it makes collaboration with others much easier.</p>
+you make a mistake, and it makes collaboration with others much easier. 
 
 <!------------------------------------------------------------------------------------------------>
 <!------------------------- 121. working without version control (114) --------------------------->
@@ -4397,14 +4389,14 @@ you make a mistake, and it makes collaboration with others much easier.</p>
   src="/images/image121.png?raw=true"
   alt="Working Without Version Control."
   style="width:65%;" />
-<p>
-Here is an example to illustrate how version control works.<br>
-<br>
+
+Here is an example to illustrate how version control works. 
+
 Let's say you've got a shopping list and you want your roommates to
-confirm the things you need and add additional items.<br>
-<br>
+confirm the things you need and add additional items. 
+
 Without version control, you've got a big mess to clean up before you
-can go shopping.</p>
+can go shopping. 
 
 <!------------------------------------------------------------------------------------------------>
 <!-------------------------- 122. working with version control (114) ----------------------------->
@@ -4413,9 +4405,9 @@ can go shopping.</p>
   src="/images/image122.png?raw=true"
   alt="Working with Version Control"
   style="width:65%;" />
-<p>
+
 With version control, you know EXACTLY what you need after everyone has
-contributed their ideas. </p>
+contributed their ideas. 
 
 <!------------------------------------------------------------------------------------------------>
 <!--------------------------------------- 123. git (115) ----------------------------------------->
@@ -4424,26 +4416,26 @@ contributed their ideas. </p>
   src="/images/image123.png?raw=true"
   alt="Git"
   style="width:65%;" />
-<p>
+
 Git is free and open source software distributed under the GNU General
-Public License.<br>
-<br>
+Public License. 
+
 Git is a distributed version control system, which means that users
 anywhere in the world can have a copy of your project on their own
 computer; when they've made changes, they can sync their version to a
-remote server to share it with you.<br>
-<br>
+remote server to share it with you. 
+
 Git isn't the only version control system out there, but the distributed
 aspect is one of the main reasons it's become one of the most common
-version control systems available.<br>
-<br>
+version control systems available. 
+
 Version control systems are widely used for things involving code, but
 you can also version control images, documents, and any number of file
-types.<br>
-<br>
+types. 
+
 You can use Git without a web interface by using your command line
 interface, but GitHub is one of the most popular web-hosted services for
-Git repositories. </p>
+Git repositories. 
 
 <!------------------------------------------------------------------------------------------------>
 <!----------------------------- 124. git logos: git + github (116) ------------------------------->
@@ -4452,11 +4444,11 @@ Git repositories. </p>
   src="/images/image124.png?raw=true"
   alt="Git logos: git + github."
   style="width:65%;" />
-<p>
-Others include GitLab, BitBucket, and Beanstalk.<br>
-<br>
+
+Others include GitLab, BitBucket, and Beanstalk. 
+
 There are a few basic terms that you will need to know before you can
-get started.</p>
+get started. 
 
 <!------------------------------------------------------------------------------------------------>
 <!----------------------------- 125. short glossary of terms (116) ------------------------------->
@@ -4465,20 +4457,20 @@ get started.</p>
   src="/images/image125.png?raw=true"
   alt="Short Glossary of Terms."
   style="width:65%;" />
-<p>
+
 The SSH protocol is a method for secure remote login from one computer
-to another.<br>
-<br>
+to another. 
+
 A repository contains your project folders that are set up for version
-control.<br>
-<br>
-A fork is a copy of a repository.<br>
-<br>
+control. 
+
+A fork is a copy of a repository. 
+
 A pull request is the way you request that someone reviews and approves
-your changes before they become final.<br>
-<br>
+your changes before they become final. 
+
 A working directory contains the files and subdirectories on your
-computer that are associated with a Git repository.</p>
+computer that are associated with a Git repository. 
 
 <!------------------------------------------------------------------------------------------------>
 <!-------------------------------- 126. basic git commands (117) --------------------------------->
@@ -4487,34 +4479,34 @@ computer that are associated with a Git repository.</p>
   src="/images/image126.png?raw=true"
   alt="Basic git Commands"
   style="width:65%;" />
-<p>
-There are a few basic <i>Git</i> commands that you will always use.<br>
-<br>
-When starting out with a new repository, you only need create it once:<br>
+
+There are a few basic <b>Git</b> commands that you will always use. 
+
+When starting out with a new repository, you only need create it once:
 either locally, and then push to GitHub, or by cloning an existing
-repository by using the command <b>"git init"</b>.<br>
-<br>
+repository by using the command <b>"git init"</b>.
+
 <b>"git add"</b> moves changes from the working directory to the staging
-area.<br>
-<br>
+area. 
+
 <b>"git status"</b> allows you to see the state of your working directory and
-the staged snapshot of your changes.<br>
-<br>
+the staged snapshot of your changes. 
+
 <b>"git commit"</b> takes your staged snapshot of changes and commits them to
-the project.<br>
-<br>
+the project. 
+
 <b>"git reset"</b> undoes changes that you've made to the files in your
-working directory.<br>
-<br>
-<b>"git log"</b> enables you to browse previous changes to a project.<br>
-<br>
+working directory. 
+
+<b>"git log"</b> enables you to browse previous changes to a project. 
+
 <b>"git branch"</b> lets you create an isolated environment within your
-repository to make changes.<br>
-<br>
-<b>"git checkout"</b> lets you see and change existing branches.<br>
-<br>
-<b>"git merge"</b> lets you put everything back together again.
-</p>
+repository to make changes. 
+
+<b>"git checkout"</b> lets you see and change existing branches. 
+
+<b>"git merge"</b> lets you put everything back together again. 
+
 <!------------------------------------------------------------------------------------------------>
 <!------------------------------ 127. https://try.github.io (118) -------------------------------->
 <!------------------------------------------------------------------------------------------------>
@@ -4522,43 +4514,41 @@ repository to make changes.<br>
   src="/images/image127.png?raw=true"
   alt="https://try.github.io" 
   style="width:65%;" />
-<p>
+
 To learn how to use Git effectively and begin collaborating with data
 scientists around the world, you will need to learn the essential
-commands.<br>
-<br>
+commands. 
+
 Luckily for us, GitHub has amazing resources available to help you get
-started.<br>
-<br>
+started. 
+
 Go to try.github.io to download the cheat sheets and run through the
-tutorials.<br>
-<br>
+tutorials. 
+
 In the following modules, we'll give you a crash course on setting up
-your local environment and getting started on a project.<br>
-</p>
+your local environment and getting started on a project. 
 
 <h3>Introduction to GitHub</h3>
-<p>
-Welcome to Introduction to GitHub.<br>
-<br>
-<h4>After reading this module (5-2), you will be able to:</h4>
-<ul>
-<li>Describe the purpose of source repositories.<br><br></li>
-<li>Explain how GitHub satisfies the needs of a source repository.</li>
-</ul>
+
+Welcome to Introduction to GitHub. 
+
+After reading this module, you will be able to: 
+
+-   Describe the purpose of source repositories. 
+
+-   Explain how GitHub satisfies the needs of a source repository. 
 
 Linux development in the early 2000's was managed under a free-to-use
-system known as BitKeeper.<br>
-<br>
+system known as BitKeeper. 
+
 In 2005, BitKeeper changed to a for-fee system which was problematic for
-Linux developers for many reasons.<br>
-<br>
+Linux developers for many reasons. 
+
 Linus Torvalds led a team to develop a replacement source-version
-control system.<br>
-<br>
+control system. 
+
 The project ran in short time frames and the key characteristics were
-defined by a small group.
-</p>
+defined by a small group. 
 
 <!------------------------------------------------------------------------------------------------>
 <!-------------------------------- 128. background of git (119) ---------------------------------->
@@ -4567,34 +4557,32 @@ defined by a small group.
   src="/images/image128.png?raw=true"
   alt="Background of git"
   style="width:65%;" />
-<p>
-These include: <br>
-<ul>
-  <li>Strong support for non-linear development. <br>
-    (Linux patches were then arriving at a rate of 6.7 patches per second) <br><br></li>
-  <li>Distributed development. </li>
-</ul>
 
-Each developer can have a local copy of the full development history. <br>
-<ul>
-  <li>Compatibility with existing systems and protocols.<br></li>
-</ul>
+These include: 
 
-This was necessary to acknowledge the diversity of the Linux community. <br>
-<ul>
-  <li>Efficient handling of large projects. <br><br></li>
-  <li>Cryptographic authentication of history.</li>
-</ul>
+-   Strong support for non-linear development. 
+
+(Linux patches were then arriving at a rate of 6.7 patches per second) 
+
+-   Distributed development. 
+
+Each developer can have a local copy of the full development history. 
+
+-   Compatibility with existing systems and protocols. 
+
+This was necessary to acknowledge the diversity of the Linux community. 
+
+-   Efficient handling of large projects. 
+
+-   Cryptographic authentication of history. 
 
 This makes certain that distributed systems all have identical code
-updates. <br>
-<ul>
-  <li>Pluggable merge strategies. </li>
-</ul>
+updates. 
+
+-   Pluggable merge strategies. 
 
 Many pathways of development can lead to complex integration decisions
-that might require explicit integration strategies. <br>
-</p>
+that might require explicit integration strategies. 
 
 <!------------------------------------------------------------------------------------------------>
 <!--------------------------------- 129. git repository model (120) ------------------------------>
@@ -4603,16 +4591,16 @@ that might require explicit integration strategies. <br>
   src="/images/image129.png?raw=true"
   alt="Git Repository Model"
   style="width:65%;" />
-<p>
-What is special about the Git Repository model. <br>
-<br>
-Git is designed as a distributed version-control system. <br>
-<br>
-Primarily focused on tracking source code during development. <br>
-<br>
+
+What is special about the Git Repository model. 
+
+Git is designed as a distributed version-control system. 
+
+Primarily focused on tracking source code during development. 
+
 Contains elements to coordinate among programmers, track changes, and
-support non-linear workflows. <br>
-</p>
+support non-linear workflows. 
+
 <!------------------------------------------------------------------------------------------------>
 <!---------------------------------- 130. what is git? (121) ------------------------------------->
 <!------------------------------------------------------------------------------------------------>
@@ -4620,38 +4608,38 @@ support non-linear workflows. <br>
   src="/images/image130.png?raw=true"
   alt="What is Git?"
   style="width:65%;" />
-<p>
-Created in 2005 by Linus Torvalds for distribution of Linux kernels. <br>
-<br>
+
+Created in 2005 by Linus Torvalds for distribution of Linux kernels. 
+
 Git is a distributed version-control system that is used to track
-changes to content. <br>
-<br>
+changes to content. 
+
 It serves as a central point for collaboration with a particular focus
-on agile development methodologies. <br>
-<br>
+on agile development methodologies. 
+
 In a central version control system, every developer needs to check out
-code from the central system and commit back into it. <br>
-<br>
+code from the central system and commit back into it. 
+
 As Git is a distributed version control, each developer has a local copy
 of the full development history, and changes are copied from one such
-repository to another. Each developer can act as a hub. <br>
-<br>
+repository to another. Each developer can act as a hub. 
+
 When Git is used correctly, there is a main branch that corresponds to
-the deployable code. <br>
-<br>
+the deployable code. 
+
 Teams can continuously integrate changes that are ready to be released
-and can simultaneously work on separate branches in between releases. <br>
-<br>
+and can simultaneously work on separate branches in between releases. 
+
 Git also allows centralized administration of tasks with access-level
-controls for each team. <br>
-<br>
+controls for each team. 
+
 Git can co-exist locally such as through the GitHub Desktop client or it
 can be used directly through a browser connected to the GitHub web
-interface. <br>
-<br>
+interface. 
+
 IBM Cloud is based on sound and established open-source tools including
-Git repositories, often called repos. <br>
-</p>
+Git repositories, often called repos. 
+
 <!------------------------------------------------------------------------------------------------>
 <!---------------------------------- 131. what is github? (122) ---------------------------------->
 <!------------------------------------------------------------------------------------------------>
@@ -4659,65 +4647,82 @@ Git repositories, often called repos. <br>
   src="/images/image131.png?raw=true"
   alt="What is Github?"
   style="width:65%;" />
-<p>
-GitHub is an online hosting service for Git repositories.<br>
-<br>
-GitHub hosted by a subsidiary of Microsoft.<br>
-<br>
-GitHub offers free, professional and enterprise accounts.<br>
-<br>
-As of August 2019, GitHub had over 100M repositories.<br>
-<br>
-A Repository is:<br>
-<ul>
-  <li>A data structure for storing documents including application source code. <br><br></li>
-  <li>A repository can track and maintain version-control. <br><br></li>
-  <li>GitLab is a complete DevOps platform, delivered as a single application. <br><br></li>
-  <li>GitLab provides access to Git repositories, controlled by source code management.<br></li>
-</ul>
-</p>
+
+GitHub is an online hosting service for Git repositories. 
+
+GitHub hosted by a subsidiary of Microsoft. 
+
+GitHub offers free, professional and enterprise accounts. 
+
+As of August 2019, GitHub had over 100M repositories. 
+
+A Repository is: 
+
+-   A data structure for storing documents including application source
+    code. 
+
+-   A repository can track and maintain version-control. 
+
+-   GitLab is a complete DevOps platform, delivered as a single
+    application. 
+
+-   GitLab provides access to Git repositories, controlled by source
+    code management. 
+
 <!------------------------------------------------------------------------------------------------>
 <!--------------------------------- 132. what is gitlab? (123) ----------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <img class="displayed"
   src="/images/image132.png?raw=true" 
   alt="What is GitLab?" 
-  style="width:750px;" />
+  style="width:150px;" />
+
 <p>
-With GitLab, developers can:<br>
+With GitLab, developers can: 
+</p>
 <ul>
-  <li>Collaborate, reviewing code, making comments and helping to improve
-      each other's code.<br><br></li>
-  <li>Work from their own local copy of the code.<br><br></li>
-  <li>Branch and merge code when required.<br><br></li>
-  <li>Streamline testing and delivery with Built-in Continuous
-      Integration (CI) and Continuous Delivery (CD).</li>
+<li>Collaborate, reviewing code, making comments and helping to improve
+    each other's code.<br></li>
+
+<li>Work from their own local copy of the code.<br></li>
+
+<li>Branch and merge code when required.<br></li>
+
+<li>Streamline testing and delivery with Built-in Continuous
+    Integration (CI) and Continuous Delivery (CD).</li>
 </ul>
-<br>
-In this section (5-2), you learned:<br>
+
+<h4>In this module (5), you learned: </h4>
 <ul>
-<li>GitHub is the online hosting service for Git repositories.<br><br></li>
+<li>GitHub is the online hosting service for Git repositories.<br></li>
+
 <li>Repositories store documents including application source code and
-    enable contributors to track and maintain version-control.<br><br></li>
-<li>What is special about the Git Repository model.<br><br></li>
-<li>Git is designed as a distributed version-control system.<br><br></li>
-<li>Primarily focused on tracking source code during development.<br><br></li>
+    enable contributors to track and maintain version-control.<br></li>
+
+<li>What is special about the Git Repository model.<br></li>
+
+<li>Git is designed as a distributed version-control system.<br></li>
+
+<li>Primarily focused on tracking source code during development.<br></li>
+
 <li>Contains elements to coordinate among programmers, track changes,
     and support non-linear workflows.</li>
 </ul>
-</p>
+
 <!----------------------------------- 5.3 github repositories ------------------------------------>
 <h3 id="ch5-3">5.3 GitHub Repositories</h3>
-<p>
-Welcome to GitHub Repositories!<br>
-<br>
-After reading this section (5-3), you will be able to:<br>
+
+<p>Welcome to GitHub Repositories!
+
+After reading this section, you will be able to:</p>
 <ul>
-  <li>Explain how to sign up for a GitHub account, and<br><br></li>
-  <li>Describe how to create a repository.<br><br></li>
-  <li>Signing up for a free, personal account on GitHub is quick and easy.</li>
+<li>Explain how to sign up for a GitHub account, and<br></li>
+
+<li>Describe how to create a repository.<br></li>
+
+<li>Signing up for a free, personal account on GitHub is quick and easy.</li>
 </ul>
-</p>
+
 <!------------------------------------------------------------------------------------------------>
 <!-------------------------------- 133. create an account (124) ---------------------------------->
 <!------------------------------------------------------------------------------------------------>
@@ -4725,34 +4730,34 @@ After reading this section (5-3), you will be able to:<br>
   src="/images/image133.png?raw=true" 
   alt="Create an Account"
   style="width:65%;" />
-<p>
-Start at the GitHub site, https://github.com<br>
-<br>
+
+Start at the GitHub site, https://github.com
+
 You'll need to choose a username, enter your email address and select a
-password, then click Sign up for GitHub.<br>
-<br>
-Next, you'll have a short test to prove that you're a person.<br>
-<br>
-Click Verify and solve the puzzle presented.<br>
-<br>
+password, then click Sign up for GitHub.
+
+Next, you'll have a short test to prove that you're a person.
+
+Click Verify and solve the puzzle presented.
+
 When you're done, click Join a free plan and then you'll be taken to a
 screen where you can select the type of account -- most likely a free,
-personal account is all that you'll want.<br>
-<br>
-Choose to set up a personal, free account, which is the default.<br>
-<br>
+personal account is all that you'll want.
+
+Choose to set up a personal, free account, which is the default.
+
 GitHub asks some questions about your work, programming experience and
-interests.<br>
-<br>
-You can skip these if you want.<br>
-<br>
+interests.
+
+You can skip these if you want.
+
 Finally, you'll have to respond to an email that you receive which
 proves that you linked to GitHub from an account that you access GitHub
-provides you with some starting points.<br>
-<br>
+provides you with some starting points.
+
 You can choose to create a repository or an organization, or you can
-take the Introduction to GitHub course.<br>
-</p>
+take the Introduction to GitHub course.
+
 <!------------------------------------------------------------------------------------------------>
 <!------------------------------- 134. create a repository (125) --------------------------------->
 <!------------------------------------------------------------------------------------------------>
@@ -4760,35 +4765,35 @@ take the Introduction to GitHub course.<br>
   src="/images/image134.png?raw=true" 
   alt="Create a Repository."
   style="width:65%;" />
-<p>
+
 Remember, a repository is a data structure for storing documents
 including application source code which tracks and maintains
-version-control.<br>
-<br>
-An organization is a collection of user accounts that owns repositories.<br>
-<br>
+version-control.
+
+An organization is a collection of user accounts that owns repositories.
+
 Organizations have one or more owners, who have administrative
-privileges for the organization.<br>
-<br>
-Or you can skip this for now and get straight to work.<br>
-<br>
+privileges for the organization.
+
+Or you can skip this for now and get straight to work.
+
 GitHub provides many resources to help you work effectively. When you
-have time, read the GitHub guide.<br>
-<br>
-The heart of a Git-based project is the repository.<br>
-<br>
+have time, read the GitHub guide.
+
+The heart of a Git-based project is the repository.
+
 This contains all your code and the related artifacts, including things
-like:<br>
-<ul>
-<li>a README file to describe the purpose of the project.<br><br></li>
-<li>A license to express the ways in which people can use your code,
-    Etc.<br></li>
-</ul>
-<br>
+like:
+
+-   a README file to describe the purpose of the project.
+
+-   A license to express the ways in which people can use your code,
+    Etc.
+
 You can also make your repository private (only available to people with
 accounts that have permission to see it) or public (searchable and seen
-by everyone).<br>
-</p>
+by everyone).
+
 <!------------------------------------------------------------------------------------------------>
 <!---------------------------- 135. exploring your repository (126) ------------------------------>
 <!------------------------------------------------------------------------------------------------>
@@ -4796,57 +4801,58 @@ by everyone).<br>
   src="/images/image135.png?raw=true"
   alt="Exploring Your Repository."
   style="width:65%;" />
-<p>
+
 When you create your repository, you'll notice that it has a number of
-tabs, and is opened to the Code tab.<br>
-<br>
-Code -- this is where all the source files reside.<br>
-<br>
+tabs, and is opened to the Code tab.
+
+Code -- this is where all the source files reside.
+
 Git was initially created as a source code repository but now all sorts
-of files end up in here.<br>
-<br>
+of files end up in here.
+
 If you created a README and/or license, that's all that's here right
-now.<br>
-<br>
+now.
+
 <i>Issues</i> -- as you continue, you can track and plan with tools such as
-"Issues" that lists all open items against your project base.<br>
-<br>
+"Issues" that lists all open items against your project base.
+
 <i>Pull Requests</i> -- this is part of the mechanism for collaborating with
-other users.<br>
-<br>
+other users.
+
 Pull requests define changes that are committed and ready for review
-before being merged into the main branch.<br>
-<br>
+before being merged into the main branch.
+
 <i>Projects</i> -- all the tools for managing, sorting, planning, etc. your
-various projects.<br>
-<br>
-This is the core of the collaborative power of GitHub.<br>
-<br>
+various projects.
+
+This is the core of the collaborative power of GitHub.
+
 <i>Wiki, Security,</i> and <i>Insights</i> -- often left for more advanced users,
-these tools provide a communication base to the external user community.<br>
-<br>
+these tools provide a communication base to the external user community.
+
 <i>Settings</i> -- GitHub allows for a lot of personalization, including
-changing the name of your repository and controlling access.<br>
-<br>
-In this section (5.3) you learned:<br>
-<ul>
-  <li>How to create and verify a GitHub account.<br><br></li>
-  <li>Repositories are storage structures that can hold Code, track
-      Issues, and enable you to collaborate with others.<br></li>
-</ul>
-</p>
+changing the name of your repository and controlling access.
+
+In this section you learned:
+
+-   How to create and verify a GitHub account.
+
+-   Repositories are storage structures that can hold Code, track
+    Issues, and enable you to collaborate with others.
+
 <!------------------------------------- 5.4 github branches -------------------------------------->
 <h3 id="ch5-4">5.4 GitHub Branches</h3>
-<p>
-Welcome to GitHub Branches!<br>
-<br>
-After reading this section (5-4), you will be able to:<br>
-<ul>
-  <li>Explain the purpose of branches and<br><br></li>
-  <li>describe how to merge changes into branches.<br></li>
-</ul>
-All files in GitHub are stored on a branch.<br>
-</p>
+
+Welcome to GitHub Branches!
+
+After reading this section, you will be able to:
+
+-   Explain the purpose of branches and
+
+-   describe how to merge changes into branches.
+
+All files in GitHub are stored on a branch.
+
 <!------------------------------------------------------------------------------------------------>
 <!------------------------------- 136. what are branches? (127) ---------------------------------->
 <!------------------------------------------------------------------------------------------------>
@@ -4854,20 +4860,20 @@ All files in GitHub are stored on a branch.<br>
   src="/images/image136.png?raw=true"
   alt="What are Branches?"
   style="width:65%;" />
-<p>
+
 The master branch is definitive; it stores the deployable version of
-your code.<br>
-<br>
+your code.
+
 The master branch is created by default, however, you can use any branch
-as the main, finished, deployable version of the code.<br>
-<br>
+as the main, finished, deployable version of the code.
+
 When you plan to change things, you create a new branch and give it a
-descriptive name.<br>
-<br>
-The new branch starts as an exact copy of the original branch.<br>
-<br>
-As you make changes, the branch that you created holds the changed code.<br>
-</p>
+descriptive name.
+
+The new branch starts as an exact copy of the original branch.
+
+As you make changes, the branch that you created holds the changed code.
+
 <!------------------------------------------------------------------------------------------------>
 <!----------------------------- 137. how to create a branch (128) -------------------------------->
 <!------------------------------------------------------------------------------------------------>
@@ -4875,27 +4881,27 @@ As you make changes, the branch that you created holds the changed code.<br>
   src="/images/image137.png?raw=true"
   alt="How to Create a Branch"
   style="width:65%;" />
-<p>
-To create a new branch, click drop-down branch: master<br>
-<br>
-Add new branch name into new branch text and select Create branch.<br>
-<br>
-GitHub branches can be very complex for large software projects.<br>
-<br>
+
+To create a new branch, click drop-down branch: master
+
+Add new branch name into new branch text and select Create branch.
+
+GitHub branches can be very complex for large software projects.
+
 For a simple project, such as the ones we are exploring, consider the
-following:<br>
-<br>
-Start with a common base, the initial source for this project.<br>
-<br>
-At one point, the code is branched while new features are developed.<br>
-<br>
-In this example, both branches are undergoing changes.<br>
-<br>
+following:
+
+Start with a common base, the initial source for this project.
+
+At one point, the code is branched while new features are developed.
+
+In this example, both branches are undergoing changes.
+
 When the two streams of work are ready to merge, each branch's code is
-identified as a tip.<br>
-<br>
-And the two tips are merged into a third, combined branch.<br>
-</p>
+identified as a tip.
+
+And the two tips are merged into a third, combined branch.
+
 <!------------------------------------------------------------------------------------------------>
 <!-------------------------------- 138. merging branches (128) ----------------------------------->
 <!------------------------------------------------------------------------------------------------>
@@ -4903,41 +4909,43 @@ And the two tips are merged into a third, combined branch.<br>
   src="/images/image138.png?raw=true"
   alt="Merging Branches"
   style="width:65%;" />
-<p>
+
 Developers work on source files in a branch. Since some projects take a
-while, the source doesn't make sense right away.<br>
-<br>
-To change the contents of a file.<br>
-<ol>
-  <li>Select the file,<br><br></li>
-  <li>Click the pencil icon,<br><br></li>
-  <li>Make the changes,<br><br></li>
-  <li>Commit the changes.<br></li>
-</ol>
-<br>
+while, the source doesn't make sense right away.
+
+To change the contents of a file.
+
+1.  Select the file.
+
+2.  Click the pencil icon.
+
+3.  Make the changes.
+
+4.  Commit the changes.
+
 When the developer has completed their assigned work, to save their
-changes, they commit the code.<br>
-<br>
+changes, they commit the code.
+
 Commit indicates that the developer is convinced that the code
 represents a stable platform for the feature or set of features being
-developed.<br>
-<br>
+developed.
+
 When a developer commits changed source to their path, they are required
 to write a comment that describes the changes.<br>
-<br>
-The comment should be meaningful and descriptive.<br>
-<br>
+
+The comment should be meaningful and descriptive.
+
 The developer can choose to commit to the current branch or create a new
-branch.<br>
-<br>
-Some rules:<br>
-<ul>
-  <li>Don't end the commit message with a period.<br><br></li>
-  <li>Keep commit messages under 50 characters -- use the extended window
-      for the details.<br><br></li>
-  <li>Always write in an "active" voice.<br></li>
-</ul>
-</p>
+branch.
+
+Some rules:
+
+-   Don't end the commit message with a period.
+
+-   Keep commit messages under 50 characters -- use the extended window
+    for the details.
+
+-   Always write in an "active" voice.
 
 <!------------------------------------------------------------------------------------------------>
 <!----------------------------- 139. what is a pull request? (129) ------------------------------->
@@ -4946,27 +4954,26 @@ Some rules:<br>
   src="/images/image139.png?raw=true"
   alt="What is a Pull Request?"
   style="width:65%;" />
-<p>
+
 Pull is used to initiate the merging of branches in a way to capture
-changes.<br>
-<br>
+changes.
+
 A pull request makes the proposed (committed) changes available for
-others to review and use.<br>
-<br>
-A pull can follow any commits, even if code is unfinished.<br>
-<br>
+others to review and use.
+
+A pull can follow any commits, even if code is unfinished.
+
 A pull requires a user to approve the changes. This can be the author of
-the change or it can be assigned within the team.<br>
-<br>
+the change or it can be assigned within the team.
+
 Note that GitHub automatically makes a pull request on your behalf if
-you make a change on a branch that you do not own.<br>
-<br>
+you make a change on a branch that you do not own.
+
 Since the log files are immutable, it is always possible to find the
-person who approved the merge of the change.<br>
-<br>
-To open a new pull request:<br>
-</p>
-	
+person who approved the merge of the change.
+
+To open a new pull request:
+
 <!------------------------------------------------------------------------------------------------>
 <!------------------------------- 140. open a pull request (130) --------------------------------->
 <!------------------------------------------------------------------------------------------------>
@@ -4974,33 +4981,32 @@ To open a new pull request:<br>
   src="/images/image140.png?raw=true"
   alt="Open a Pull Request"
   style="width:65%;" />
-<p>
-Click Pull request and select New pull request.<br>
-<br>
-Select the new branch from the compare box.<br>
-<br>
-Scroll down to view the changes.<br>
-<br>
-Confirm that the changes are what you want to assess.<br>
-<br>
-Add a title and description to the request.<br>
-<br>
-Click Create pull request.<br>
-<br>
+
+Click Pull request and select New pull request.
+
+Select the new branch from the compare box.
+
+Scroll down to view the changes.
+
+Confirm that the changes are what you want to assess.
+
+Add a title and description to the request.
+
+Click Create pull request.
+
 The intent of Git repositories is for the master branch to be the only
-deployed code.<br>
-<br>
+deployed code.
+
 Developers can change source files in a branch but the changes are not
-released until.<br>
-<br>
-They are committed.<br>
-<br>
-A pull command is issued.<br>
-<br>
-The code is reviewed and approved.<br>
-<br>
-The approved code is merged back into the master code.<br>
-</p>
+released until.
+
+They are committed.
+
+A pull command is issued.
+
+The code is reviewed and approved.
+
+The approved code is merged back into the master code.
 
 <!------------------------------------------------------------------------------------------------>
 <!-------------------------- 141. merged into the master branch (131) ---------------------------->
@@ -5009,13 +5015,13 @@ The approved code is merged back into the master code.<br>
   src="/images/image141.png?raw=true"
   alt="Merging into the Master Branch"
   style="width:65%;" />
-<p>
-To merge a committed code change into your master code.<br>
-<br>
-Click Merge pull request.<br>
-<br>
-Click Confirm merge.<br>
-</p>
+
+To merge a committed code change into your master code.
+
+Click Merge pull request.
+
+Click Confirm merge.
+
 <!------------------------------------------------------------------------------------------------>
 <!------------------------------ 142. merge a pull request (131) --------------------------------->
 <!------------------------------------------------------------------------------------------------>
@@ -5023,28 +5029,34 @@ Click Confirm merge.<br>
   src="/images/image142.png?raw=true"
   alt="Merge a Pull Request."
   style="width:65%;" />
-<p>
+
 When all changes for a branch are complete, that branch is considered
-obsolete and it should be deleted.<br>
-<br>
-In this section (5-4), you learned:<br>
-<ul>
-  <li>All files in GitHub exist on a branch.<br><br></li>
-  <li>The Master Branch contains the finished, deployable version of the
-      code.<br><br></li>
-  <li>Create new branches when you need to change the code.<br><br></li>
-  <li>The new branch starts as an exact copy of the original branch.<br><br></li>
-  <li>As you make changes, the branch that you created holds the changed code.<br><br></li>
-  <li>More than one branch can be undergoing changes at the same time.<br><br></li>
-  <li>Saved changes are called commits.<br></li>
-</ul>
-<p>
+obsolete and it should be deleted.
+
+<h4>In this section, you learned:</h4>
+
+-   All files in GitHub exist on a branch.
+
+-   The Master Branch contains the finished, deployable version of the
+    code.
+
+-   Create new branches when you need to change the code.
+
+-   The new branch starts as an exact copy of the original branch.
+
+-   As you make changes, the branch that you created holds the changed
+    code.
+
+-   More than one branch can be undergoing changes at the same time.
+
+-   Saved changes are called commits.
+
 Pull requests enables other users to review and use the proposed changes
-(committed).<br>
-<br>
+(committed).
+
 When you are ready to merge the changed code into the master branch, you
-merge the committed code changes into your master code.<br>
-</p>
+merge the committed code changes into your master code.
+
 <!------------------------------------------------------------------------------------------------>
 <!-------------------------------- 143. summary chapter 5 (132) ---------------------------------->
 <!------------------------------------------------------------------------------------------------>
@@ -5057,16 +5069,16 @@ merge the committed code changes into your master code.<br>
 
 <!---------------------------- 5.5 cloning & forking github projects ----------------------------->
 <h3 id="ch5-5">5.5 Cloning & Forking GitHub Projects</h3>
-<p>
-Welcome to Cloning and Forking GitHub Projects.<br>
-<br>
-After reading this section (5-5), you will be able to:<br>
-<ul>
-  <li>Clone and sync repositories.<br><br></li>
-  <li>Fork a project to make a base for a new project.<br><br></li>
-  <li>Use git commands to communicate with other developers.<br></li>
-</ul>
-</p>
+
+Welcome to Cloning and Forking GitHub Projects.
+
+After reading this section, you will be able to:
+
+-   Clone and sync repositories.
+
+-   Fork a project to make a base for a new project.
+
+-   Use git commands to communicate with other developers.
 
 <!------------------------------------------------------------------------------------------------>
 <!----------------------------- 144. team working with github (133) ------------------------------>
@@ -5075,27 +5087,27 @@ After reading this section (5-5), you will be able to:<br>
   src="/images/image144.png?raw=true"
   alt="Team Working with GitHub."
   style="width:65%;" />
-<p>
+
 GitHub has over existing 100M repositories, including some very useful
-projects.<br>
-<br>
+projects.
+
 Whether you are joining a team or basing your own project on prior work,
-some of the most powerful tools are forking and cloning a repository.<br>
-<br>
+some of the most powerful tools are forking and cloning a repository.
+
 Cloning generally refers to creating a copy of a repository on your
-local machine.<br>
-<br>
-Cloned copies can be kept in sync between the two locations.<br>
-<br>
+local machine.
+
+Cloned copies can be kept in sync between the two locations.
+
 Forking allows you to modify or extend a project without affecting the
-original project.<br>
-<br>
+original project.
+
 Frequently, this is used to take an existing project and make it the
-starting point for your new project.<br>
-<br>
+starting point for your new project.
+
 To clone a GitHub repository, navigate to the repository that you want
-to clone.<br>
-</p>
+to clone.
+
 <!------------------------------------------------------------------------------------------------>
 <!-------------------------- 145. cloning a github repository #1 (133) --------------------------->
 <!------------------------------------------------------------------------------------------------>
@@ -5111,24 +5123,24 @@ to clone.<br>
   src="/images/image146.png?raw=true"
   alt="Cloning a GitHub Repository."
   style="width:65%;" />
-<p>
-Under the repository name, click Code.<br>
-<br>
+
+Under the repository name, click Code.
+
 In the Clone with HTTPS section, click the clipboard button to copy the
-URL.<br>
-<br>
+URL.
+
 To download the source code, you can click Download zip, but without the
-version control information.<br>
-<br>
+version control information.
+
 On your local machine, open a "Terminal" window and change to the
-directory where you want the clone to be copied.<br>
-<br>
+directory where you want the clone to be copied.
+
 Type "git clone" followed by pasting the URL that you copied above and
-then press ENTER to execute the cloning.<br>
-<br>
+then press ENTER to execute the cloning.
+
 When you have made your changes and are ready to sync your code back to
-GitHub.<br>
-</p>
+GitHub.
+
 <!------------------------------------------------------------------------------------------------>
 <!----------------------------- 147. syncing local changes (133) --------------------------------->
 <!------------------------------------------------------------------------------------------------>
@@ -5136,21 +5148,21 @@ GitHub.<br>
   src="/images/image147.png?raw=true"
   alt="Syncing a Local Repository."
   style="width:65%;" />
-<p>
-First, you must run the "git add " command.<br>
-<br>
+
+First, you must run the "git add " command.
+
 This moves the changed files into a staging area on the GitHub
-repository.<br>
-<br>
+repository.
+
 The staging area is an area where commits can be formatted and reviewed
-before completing the commit.<br>
-<br>
+before completing the commit.
+
 Next, when you are ready, run "git commit --m " and this will commit
-changes in the staging area.<br>
-<br>
+changes in the staging area.
+
 When you are ready to move your changes fully into the GitHub
-repository.<br>
-</p>
+repository.
+
 <!------------------------------------------------------------------------------------------------>
 <!------------------------- 148. commit changes to staging area (134) ---------------------------->
 <!------------------------------------------------------------------------------------------------>
@@ -5158,21 +5170,21 @@ repository.<br>
   src="/images/image148.png?raw=true"
   alt="git commit changes to the staging area."
   style="width:65%;" />
-<p>
-Use the "git push" command.<br>
-<br>
-This will push all the committed changes into the repository.<br>
-<br>
+
+Use the "git push" command.
+
+This will push all the committed changes into the repository.
+
 Remote repositories are repositories that are stored elsewhere -- on the
-internet, on your network, even on your local computer.<br>
-<br>
+internet, on your network, even on your local computer.
+
 You can have several of remote repositories, each of which generally is
-either read-only or read/write for you.<br>
-<br>
+either read-only or read/write for you.
+
 Collaborating with others involves managing these remote repositories
 and involves push, pull, and fetch operations to and from them when you
-need to share work.<br>
-</p>
+need to share work.
+
 <!------------------------------------------------------------------------------------------------>
 <!----------------------------- 149. remote repositories #2 (136) -------------------------------->
 <!------------------------------------------------------------------------------------------------>
@@ -5180,15 +5192,15 @@ need to share work.<br>
   src="/images/image149.png?raw=true"
   alt="Remote Repositories #2"
   style="width:65%;" />
-<p>
-Use git push to transfer your changes to the remote repo.<br>
-<br>
+
+Use git push to transfer your changes to the remote repo.
+
 Use git fetch to transfer any changes from the remote repo to your local
-repo.<br>
-<br>
+repo.
+
 It does not merge those changes to the branch you are working on. You
-can perform a merge manually if you want.<br>
-</p>
+can perform a merge manually if you want.
+
 <!------------------------------------------------------------------------------------------------>
 <!----------------------------- 150. remote repositories #3 (136) -------------------------------->
 <!------------------------------------------------------------------------------------------------>
@@ -5196,13 +5208,13 @@ can perform a merge manually if you want.<br>
   src="/images/image150.png?raw=true"
   alt="Remote Repositories #3"
   style="width:65%;" />
-<p>
+
 Use git pull to transfer any changes from the remote repo to your local
-repo, and merge them to a branch.<br>
-<br>
+repo, and merge them to a branch.
+
 Developers use the terms upstream and origin when talking about remote
-reps.<br>
-</p>
+reps.
+
 <!------------------------------------------------------------------------------------------------>
 <!------------------------------ 151. remote repositories #4 (137) ------------------------------->
 <!------------------------------------------------------------------------------------------------>
@@ -5210,14 +5222,14 @@ reps.<br>
   src="/images/image151.png?raw=true"
   alt="Remote Repositories #4"
   style="width:65%;" />
-<p>
+
 Origin generally refers to your fork and upstream refers to the original
-work.<br>
-<br>
-These are the norms.<br>
-<br>
-You can of course name them anything you like.<br>
-</p>
+work.
+
+These are the norms.
+
+You can of course name them anything you like.
+
 <!------------------------------------------------------------------------------------------------>
 <!-------------------------------- 152. forking a project (137) ---------------------------------->
 <!------------------------------------------------------------------------------------------------>
@@ -5242,8 +5254,7 @@ They can decide whether or not to accept your updates.<br>
 It is often a legal requirement to keep a copy of the of the license
 file.<br>
 <br>
-Even if no legal requirement exists, it's good practice.<br>
-</p>
+Even if no legal requirement exists, it's good practice.</p>
 
 <!------------------------------------------------------------------------------------------------>
 <!--------------------------- 153. steps in forking a project (138) ------------------------------>
@@ -5257,8 +5268,7 @@ Navigate to the repository that you want to fork.<br>
 <br>
 In the top-right corner, click the "Fork" button.<br>
 <br>
-To keep a fork in sync with the original work from a local clone.<br>
-</p>
+To keep a fork in sync with the original work from a local clone.</p>
 
 <!------------------------------------------------------------------------------------------------>
 <!--------------------------- 154. syncing a fork of a project (137) ----------------------------->
@@ -5268,21 +5278,20 @@ To keep a fork in sync with the original work from a local clone.<br>
   alt="Syncing a Fork of a Project."
   style="width:65%;" />
 <p>
-First, create a local clone of the project.<br>
-<br>
-To configure Git to sync your fork:<br>
+First, create a local clone of the project.</p>
+
+<h4>To configure Git to sync your fork:</h4>
 <ul>
-  <li>Open a Terminal and change to the directory containing the clone,<br><br></li>
-  <li>Type "git remote --v" This gives you the remote repository,<br><br></li>
-  <li>Type "git remote add upstream " with the pasted-in directory that
-      you used in creating your clone.<br></li>
+<li>Open a Terminal and change to the directory containing the clone,<br><br></li>
+<li>Type "git remote --v" This gives you the remote repository,<br><br></li>
+<li>Type "git remote add upstream " with the pasted-in directory that
+    you used in creating your clone.<br><br></li>
 </ul>
-<br>
+<p>
 Adding upstream adds the original repository as a new remote repository
 labelled upstream.<br>
 <br>
-If you type "git remote --v", you'll see the change reflected.<br>
-</p>
+If you type "git remote --v", you'll see the change reflected.</p>
 
 <!------------------------------------------------------------------------------------------------>
 <!--------------------------- 155. commands for managing forks (139) ----------------------------->
@@ -5302,30 +5311,31 @@ remote branch in the same step.<br>
 "Git pull upstream" reduces the number of steps to sync with a remote
 branch, but the automatic merges are not always desired.<br>
 <br>
-In this section (5-5), you learned:<br>
-<ul>
-  <li>GitHub has over existing 100M repositories that you can use.<br><br></li>
-  <li>You can clone a repository to copy it to your local machine and sync
-      changes back to the original repository.<br><br></li>
-  <li>You can fork a repository to use it as the base for a new project,
-      or to work on a project independently.<br></li>
-</ul>
-</p>
+<h4>In this section, you learned:</h4>
+
+-   GitHub has over existing 100M repositories that you can use.
+
+-   You can clone a repository to copy it to your local machine and sync
+    changes back to the original repository.
+
+-   You can fork a repository to use it as the base for a new project,
+    or to work on a project independently.
+
 <!-------------------------------- 5.6 managing github projects ---------------------------------->
 <h3 id="ch5-6">5.6 Managing GitHub Projects</h3>
-<p>
-Welcome to Managing GitHub Projects<br>
-<br>
-After reading this section (5-6), you will be able to:<br>
-<ul>
-  <li>Understand common roles in a Git project.<br><br></li>
-  <li>Use git commands to communicate with other developers.<br></li>
-</ul>
-<br>
+
+Welcome to Managing GitHub Projects
+
+After reading this section, you will be able to:
+
+-   Understand common roles in a Git project
+
+-   Use git commands to communicate with other developers
+
 A Developer working as a participant in a group project needs to learn
 how to communicate with others and uses these commands in addition to
-the ones needed by a standalone developer.<br>
-</p>
+the ones needed by a standalone developer.
+
 <!------------------------------------------------------------------------------------------------>
 <!---------------------------- 156. github developer commands (140) ------------------------------>
 <!------------------------------------------------------------------------------------------------>
@@ -5333,23 +5343,23 @@ the ones needed by a standalone developer.<br>
   src="/images/image156.png?raw=true"
   alt="GitHub Developer commands"
   style="width:65%;" />
-<p>
-When working with Git, you can use Git commands or a desktop tool such
-as GitHub Desktop.<br>
+
+<h4>When working with Git, you can use Git commands or a desktop tool such
+as GitHub Desktop.</h4>
 <ul>
-  <li><i>git-clone</i> from the upstream to prime the local repository,<br><br></li>
-  <li><i>git-pull</i> and <i>git-fetch</i> from "origin" directory to keep up-to-date with the
-      upstream,<br><br></li>
-  <li><i>git-push</i> to shared repository, if you adopt CVS style shared
-      repository workflow,<br><br></li>
-  <li><i>git-format-patch</i> to prepare e-mail submission, if you adopt Linux
+<li><i>git-clone</i> from the upstream to prime the local repository,<br><br></li>
+<li><i>git-pull</i> and <i>git-fetch</i> from "origin" directory to keep up-to-date with the
+    upstream,<br><br></li>
+<li><i>git-push</i> to shared repository, if you adopt CVS style shared
+    repository workflow,<br><br></li>
+<li><i>git-format-patch</i> to prepare e-mail submission, if you adopt Linux
     kernel-style public forum workflow,<br><br></li>
-  <li><i>git-send-email</i> to send your e-mail submission without corruption by
+<li><i>git-send-email</i> to send your e-mail submission without corruption by
     your MUA,<br><br></li>
-  <li><i>git-request-pull</i> to create a summary of changes for your upstream to
-    pull.<br></li>
+<li><i>git-request-pull</i> to create a summary of changes for your upstream to
+    pull.</li>
 </ul>
-</p>
+
 <!------------------------------------------------------------------------------------------------>
 <!-------------------------------- 157. github integrator (141) ---------------------------------->
 <!------------------------------------------------------------------------------------------------>
@@ -5360,19 +5370,19 @@ as GitHub Desktop.<br>
 <p>
 An integrator in a group project receives changes made by others,
 reviews and integrates them (responds to pull requests) and publishes
-the result for others to use.<br>
+the result for others to use.</p>
 <br>
-Integrators use the following commands in addition to the ones needed by
-participants.<br>
+<h4>Integrators use the following commands in addition to the ones needed by
+participants.</h4>
 <ul>
-  <li>git-am to apply patches e-mailed in from your contributors,<br><br></li>
-  <li>git-pull to merge from your trusted lieutenants,<br><br></li>
-  <li>git-format-patch to prepare and send suggested alternative to
+<li>git-am to apply patches e-mailed in from your contributors,<br><br></li>
+<li>git-pull to merge from your trusted lieutenants,<br><br></li>
+<li>git-format-patch to prepare and send suggested alternative to
     contributors,<br><br></li>
-  <li>git-revert to undo botched commits,<br><br></li>
-  <li>git-push to publish the bleeding edge.</li>
+<li>git-revert to undo botched commits,<br><br></li>
+<li>git-push to publish the bleeding edge.</li>
 </ul>
-</p>
+
 <!------------------------------------------------------------------------------------------------>
 <!---------------------------- 158. github repository administrator (141) ------------------------>
 <!------------------------------------------------------------------------------------------------>
@@ -5380,36 +5390,35 @@ participants.<br>
   src="/images/image158.png?raw=true"
   alt="GitHub Repository Administrator"
   style="width:85%;" />
-<p>
-A Repository Administrator uses the following tools to set up and
-maintain access to the repository by developers.<br>
+
+<h4>A Repository Administrator uses the following tools to set up and
+maintain access to the repository by developers.</h4>
 <ul>
-  <li>git-daemon to allow anonymous download from repository,<br><br></li>
-  <li>git-shell can be used as a restricted login shell for shared central
+<li>git-daemon to allow anonymous download from repository,<br><br></li>
+<li>git-shell can be used as a restricted login shell for shared central
     repository users,<br><br></li>
-  <li>git-http-backend provides a server-side implementation of
+<li>git-http-backend provides a server-side implementation of
     Git-over-HTTP ("Smart http") allowing both fetch and push
     services,<br><br></li>
-  <li>gitweb provides a web front-end to Git repositories, which can be
-    set-up using the git-instaweb script.<br></li>
+<li>gitweb provides a web front-end to Git repositories, which can be
+    set-up using the git-instaweb script.</li>
 </ul>
-<br>
-Repository Admins can use GitHub Actions to automate software workflows,
-including continuous integration and continuous delivery.<br>
-<br>
-In this section (5-6), you learned:<br>
+
+<p>Repository Admins can use GitHub Actions to automate software workflows,
+including continuous integration and continuous delivery.</p>
+
+<h4>In this section, you learned:</h4>
 <ul>
-  <li>There are multiple roles involved in managing a project:<br>
-  <br>
+<li>There are multiple roles involved in managing a project:<br>
   <ul>
     <li>Developer<br><br></li>
     <li>Integrator<br><br></li>
     <li>Repository Administrator</li>
-  </ul></li>	
+  </ul></li>
 </ul>
-<br>
-Each role uses different git commands to communicate with collaborators.<br>
-<br>
+
+<p>Each role uses different git commands to communicate with collaborators.</p>
+
 <h3>HANDS-ON LAB: Working with Git on Theia</h3>
 
 <a href="https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBMDeveloperSkillsNetwork-CD0101EN-SkillsNetwork/labs/Theia%20Labs/04%20-%20GitHub/Lab%20Using%20git%20on%20Theia/instructions.md" target="_blank" rel="noopener noreferrer">Note: In case the Start Lab button does not work, instructions to
@@ -5423,13 +5432,12 @@ labs virtual labs environment with instructions to complete this lab.<br>
 Your username and email will be shared with SN Labs to authenticate and
 provision your lab environment.<br>
 <br>
-Start Lab<br>
-</p>
+Start Lab</p>
 
 <!------------------------------- 5.7 git installation on desktop -------------------------------->
 <h3 id="ch5-7">5.7 Git Installation on Desktop</h3>
 
-<h3>Installing Git Bash</h3>
+<h4>Installing Git Bash</h4>
 
 <!------------------------------------------------------------------------------------------------>
 <!---------------------------------- 159. ibm cloud logo (143) ----------------------------------->
@@ -5437,12 +5445,12 @@ Start Lab<br>
 <img class="displayed"
   src="/images/image159.png?raw=true"
   alt="IBM Cloud logo."
-  style="width:60%;" />
+  style="width:85%;" />
 <p>
-<i>Estimated time</i>: 20 minutes<br>
+<b>Estimated time</b>: 20 minutes</p>
 
 <h3>What is Git Bash?</h3>
-
+<p>
 Git Bash for Windows is simply a package that includes
 both <i>Git</i> and <i>Bash</i>.<br>
 <br>
@@ -5457,27 +5465,24 @@ Bash is a Unix command-line shell.<br>
 <br>
 The name is an acronym for <i>Bourne-Again Shell</i>.<br>
 <br>
-It comes with useful Unix commands like cat, ssh, SCP, etc., which are not usually found on Windows.  Because Windows is idiotic.<br>
-</p>
+It comes with useful Unix commands like cat, ssh, SCP, etc., which are not usually found on Windows.  Because Windows is idiotic.</p>
 
 <h3>Installing Git Bash for Windows</h3>
+
+<h4>To install Git Bash for Windows to your local system, complete the following steps:</h4>
 <p>
-To install Git Bash for Windows to your local system, complete the following steps:<br>
-<br>
-  1.  Go to the <a href="https://git-scm.com/downloads?cm_mmc=Email_Newsletter-_-Developer_Ed%2BTech-_-WW_WW-_-SkillsNetwork-Courses-IBMDeveloperSkillsNetwork-CD0101EN-SkillsNetwork-20336975&cm_mmca1=000026UJ&cm_mmca2=10006555&cm_mmca3=M12345678&cvosrc=email.Newsletter.M12345678&cvo_campaign=000026UJ&cm_mmc=Email_Newsletter-_-Developer_Ed%2BTech-_-WW_WW-_-SkillsNetwork-Courses-IBMDeveloperSkillsNetwork-CD0101EN-SkillsNetwork-20336975&cm_mmca1=000026UJ&cm_mmca2=10006555&cm_mmca3=M12345678&cvosrc=email.Newsletter.M12345678&cvo_campaign=000026UJ" target="_blank" rel="noopener noreferrer">Git download page</a>.<br>
-<br>
-Click <i>Download [version number] for Windows</i>>, as shown in the following image:<br>
-</p>
+1.  Go to the <a href="https://git-scm.com/downloads?cm_mmc=Email_Newsletter-_-Developer_Ed%2BTech-_-WW_WW-_-SkillsNetwork-Courses-IBMDeveloperSkillsNetwork-CD0101EN-SkillsNetwork-20336975&cm_mmca1=000026UJ&cm_mmca2=10006555&cm_mmca3=M12345678&cvosrc=email.Newsletter.M12345678&cvo_campaign=000026UJ&cm_mmc=Email_Newsletter-_-Developer_Ed%2BTech-_-WW_WW-_-SkillsNetwork-Courses-IBMDeveloperSkillsNetwork-CD0101EN-SkillsNetwork-20336975&cm_mmca1=000026UJ&cm_mmca2=10006555&cm_mmca3=M12345678&cvosrc=email.Newsletter.M12345678&cvo_campaign=000026UJ" target="_blank" rel="noopener noreferrer">Git download page</a>.<br>
+Click <b>Download [version number] for Windows</b>, as shown in the following image:</p>
+
 <!------------------------------------------------------------------------------------------------>
 <!------------------------------------ 160. downloads (144) -------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <img class="displayed"
   src="/images/image160.png?raw=true"
   alt="Downloads"
-  style="width:65%;" />
+  style="width:85%;" />
 <p>
-You will be redirected to a new page and the download will start.<br>
-</p>
+You will be redirected to a new page and the download will start.</p>
 
 <!------------------------------------------------------------------------------------------------>
 <!--------------------------------- 161. downloading git (144) ----------------------------------->
@@ -5485,175 +5490,173 @@ You will be redirected to a new page and the download will start.<br>
 <img class="displayed"
   src="/images/image161.png?raw=true"
   alt="Downloading Git."
-  style="width:65%;" />
+  style="width:85%;" />
 <p>
-<i>Note</i>: If the download doesn't start, click <i>Click here to download manually.</i><br>
+<b>Note</b>: If the download doesn't start, click <b>Click here to download
+manually</b><br>.
 <br>
-  2.  Go to the folder where you saved the file and double-click to open it.<br>
-</p>
+2.  Go to the folder where you saved the file and double-click to open it.<br>
+
 <!------------------------------------------------------------------------------------------------>
 <!--------------------------- 162. open file security warning (145) ------------------------------>
 <!------------------------------------------------------------------------------------------------>
 <img class="displayed"
   src="/images/image162.png?raw=true"
   alt="Open File Security Warning"
-  style="width:65%;" />
-<p>
-  3.  Click <i>Run</i> to begin the installation.<br>
-</p>
+  style="width:85%;" />
+
+3.  Click <b>Run</b> to begin the installation.<br>
+
 <!------------------------------------------------------------------------------------------------>
 <!--------------------------- 163. click run to begin install (145) ------------------------------>
 <!------------------------------------------------------------------------------------------------>
 <img class="displayed"
   src="/images/image163.png?raw=true"
   alt="Click Next to Begin Install."
-  style="width:65%;" />
-<p>
-  4.  Select the location where you want to install Git Bash.<br>
-<br>
-<i>Note</i>: It's recommended that you simply install to the default location. Click <i>Next</i>.<br>
-</p>
+  style="width:85%;" />
+
+4.  Select the location where you want to install Git Bash. 
+
+<b>Note</b>: It's recommended that you simply install to the default
+location. Click <b>Next</b>.
+
 <!------------------------------------------------------------------------------------------------>
 <!----------------------- 164. select location to install git bash (146) ------------------------->
 <!------------------------------------------------------------------------------------------------>
 <img class="displayed"
   src="/images/image164.png?raw=true"
   alt="Enter Location to Install Git Bash."
-  style="width:45%;" />
-<p>
-  5.  Choose the components you want to install, or simply leave the
-      default options selected. Click <i>Next</i>.<br>
-</p>
+  style="width:65%;" />
+
+5.  Choose the components you want to install, or simply leave the
+    default options selected. Click <b>Next</b>.
+
 <!------------------------------------------------------------------------------------------------>
 <!--------------------------- 165. choose components to install (14x) ---------------------------->
 <img class="displayed"
   src="/images/image165.png?raw=true"
   alt="Choose component you want to install, or leave default options."
-  style="width:45%;" />
-<p>
-  6.  You can change the name of the start menu folder or simply leave the
-      default name as is. Click <i>Next</i>.<br>
-</p>
+  style="width:65%;" />
+
+6.  You can change the name of the start menu folder or simply leave the
+    default name as is. Click <b>Next</b>.
+
 <!------------------------------------------------------------------------------------------------>
 <!----------------------- 166. change folder name or leave default (14x) ------------------------->
 <img class="displayed"
   src="/images/image166.png?raw=true"
   alt="Change name of start menu folder or leave default name."
-  style="width:45%;" />
-<p>
-  7.  Select the default editor for Git to use. Click <i>Next</i>.<br>
-</p>
+  style="width:65%;" />
+
+7.  Select the default editor for Git to use. Click <b>Next</b>.
+
 <!------------------------------------------------------------------------------------------------>
 <!-------------------------------- 167. set default editor (14x) --------------------------------->
 <img class="displayed"
   src="/images/image167.png?raw=true"
   alt="Set default editor for Git."
-  style="width:45%;" />
-<p>
-  8.  Choose how you want to use Git from the command line.  Click <i>Next</i>.<br>
-</p>
+  style="width:65%;" />
+
+8.  Choose how you want to use Git from the command line.
+    Click <b>Next</b>.
+
 <!------------------------------------------------------------------------------------------------>
 <!------------------------ 168. choose how you want to use git from cli (148) -------------------->
 <!------------------------------------------------------------------------------------------------>
 <img class="displayed"
   src="/images/image168.png?raw=true"
   alt="How Would you Like to Use Git from the Command Line Interface (CLI)?"
-  style="width:45%;" />
-<p>
-  9.  Select <i>Use the OpenSSL library</i>. Click <i>Next</i>.<br>
-</p>
+  style="width:65%;" />
+
+9.  Select <b>Use the OpenSSL library</b>. Click <b>Next</b>.
+
 <!------------------------------------------------------------------------------------------------>
 <!------------------------- 169. use openssl library or native windows (148) --------------------->
 <!------------------------------------------------------------------------------------------------>
 <img class="displayed"
   src="/images/image169.png?raw=true"
   alt="Use OpenSSL Library (not piece of shit windows), if you can"
-  style="width:45%;" />
-<p>
-  10. Configure your line ending conversions for Windows by selecting the
-      default option, <i>Checkout Windows-style, commit Unix-style line
-      endings</i>. Click <i>Next</i>.<br>
-</p>
+  style="width:65%;" />
+
+10. Configure your line ending conversions for Windows by selecting the
+    default option, <b>Checkout Windows-style, commit Unix-style line
+    endings</b>. Click <b>Next</b>.
+
 <!------------------------------------------------------------------------------------------------>
 <!----------------------------- 170. line ending conversions (149) ------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <img class="displayed"
   src="/images/image170.png?raw=true"
   alt="Configure line ending conversions."
-  style="width:45%;" />
-<p>
-  11. Configure your terminal emulator to use with Git Bash by selecting
-      the default option, <i>Use MinTTY (the default terminal of MSYS2)</i>.
-      Click <i>Next</i>.<br>
-</p>
+  style="width:65%;" />
+
+11. Configure your terminal emulator to use with Git Bash by selecting
+    the default option, <b>Use MinTTY(the default terminal of MSYS2)</b>.
+    Click <b>Next</b>.
 <!------------------------------------------------------------------------------------------------>
 <!---------------------- 171. configure terminal emulator to gitbash (150) ------------------------>
 <!------------------------------------------------------------------------------------------------>
 <img class="displayed"
   src="/images/image171.png?raw=true"
   alt="Configure Terminal Emulator to Work with Git Bash"
-  style="width:45%;" />
-<p>
-  12. Configure the default behavior for a git pull by selecting <i>Default
-      (fast-forward or merge)</i>. Click <i>Next</i>.<br>
-</p>
+  style="width:65%;" />
+
+12. Configure the default behavior for a git pull by selecting <b>Default
+    (fast-forward or merge)</b>. Click <b>Next</b>.
+	
 <!------------------------------------------------------------------------------------------------>
 <!-------------- 172. configure default git pull with fast-forward or merge (150) ---------------->
 <!------------------------------------------------------------------------------------------------>
 <img class="displayed"
   src="/images/image172.png?raw=true"
   alt="Configure Default Behavior for git pull"
-  style="width:45%;" />
-<p>
-  13. Select any additional options you want to install. (The default
-      option is sufficient to use Git Bash successfully). Click <i>Next</i>.<br>
-</p>
+  style="width:65%;" />
+
+13. Select any additional options you want to install. (The default
+    option is sufficient to use Git Bash successfully). Click <b>Next</b>.
+
 <!------------------------------------------------------------------------------------------------>
 <!---------------------------- 173. configuring extra options  (151) ----------------------------->
 <!------------------------------------------------------------------------------------------------>
 <img class="displayed"
   src="/images/image173.png?raw=true"
   alt="Additional Options"
-  style="width:45%;" />
-<p>
-  14. You can enable experimental options if you choose to.<br>
+  style="width:65%;" />
 <br>
+14. You can enable experimental options if you choose to.<br>
 	By enabling these options, you will be able to try newer features that are still
     being developed.<br>
-<br>
 	However, you do not have to select any experimental options to use Git Bash.<br>
-<br>
-	Click <i>Install</i> to complete the installation with the options you have chosen.<br>
-<br>
-	The installation runs and when complete, a Completing the Git Setup Wizard window opens.<br>
-</p>
+	Click <b>Install</b> to complete the installation with the options you have chosen.<br>
+	The installation runs and when complete, a Completing the Git Setup Wizard window opens.
+
 <!------------------------------------------------------------------------------------------------>
 <!--------------------------- 174. experimental options? yes/no (152) ---------------------------->
 <!------------------------------------------------------------------------------------------------>
 <img class="displayed"
   src="/images/image174.png?raw=true"
   alt="Experimental Options? yes/no"
-  style="width:45%;" />
-<p>
-  15. Leave the checkboxes selected and click <i>Next</i>.<br>
-</p>
+  style="width:65%;" />
+<br>
+15. Leave the checkboxes selected and click <b>Next</b>.
+<br>
 <!------------------------------------------------------------------------------------------------>
 <!--------------------- 175. leave checkboxes selected and click next (152) ---------------------->
 <!------------------------------------------------------------------------------------------------>
 <img class="displayed"
   src="/images/image175.png?raw=true"
   alt="Leave the checkboxes selected and click 'Next'"
-  style="width:45%;" />
-<p>
-The Git Bash terminal opens. You are now able to enter Git and Bash commands.<br>
-</p>
+  style="width:65%;" />
+<br>
+The Git Bash terminal opens. You are now able to enter Git and Bash commands.</p>
+<br>
 <!------------------------------------------------------------------------------------------------>
 <!--------------------------------- 176. git bash terminal (1xx) --------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <img class="displayed"
   src="/images/image176.png?raw=true"
   alt="Git Bash Terminal."
-  style="width:45%;" />
+  style="width:65%;" />
 
 <h4>© IBM Corporation 2020. All rights reserved.</h4>
 
@@ -5665,46 +5668,47 @@ The Git Bash terminal opens. You are now able to enter Git and Bash commands.<br
 <!------------------------------------------------------------------------------------------------>
 <!----------------------------- 159. ibm skills network logo (153) ------------------------------->
 <!------------------------------------------------------------------------------------------------>
-<img class="displayed border"
+<img class="displayed"
   src="/images/image159.png?raw=true"
   alt="IBM Skills Network."
-  style="width:25%;" />
+  style="width:35%;" />
 
 <h3>What is an SSH key?</h3>
-<p>
-An SSH key is an access credential in the SSH protocol.<br>
-<br>
-Its function is similar to that of user names and passwords, but the keys are primarily
-used for automated processes.<br>
-</p>
+
+An SSH key is an access credential in the SSH protocol. Its function is
+similar to that of user names and passwords, but the keys are primarily
+used for automated processes.
+
 <h3>Generating an SSH key</h3>
+
+<h4>To generate an SSH key, complete the following steps:</h4>
 <p>
-To generate an SSH key, complete the following steps:<br>
-<ol>
-  <li>Launch a terminal. If you are using Windows, launch Git Bash.<br><br></li>
-  <li>Type the following command in your terminal, replacing  with the
-      email address that is linked to your Github account. When you have
-      typed the command, press Enter.<br></li>
-</ol>
+1.  Launch a terminal. If you are using Windows, launch Git Bash.<br>
+<br>
+2.  Type the following command in your terminal, replacing  with the
+    email address that is linked to your Github account. When you have
+    typed the command, press Enter.<br>
+<br>
 
 <pre>
 $ ssh-keygen -t rsa -b 4096 -C "&lt;your email address&gt;"
 </pre>
 
-<br>
 A new SSH key is generated.<br>
-<ol start="3">
-  <li>You will be prompted to enter a directory to save the key. You can
-      simply press Enter to accept the default location, which is an .ssh
-      folder in the home directory. This means you will be able to locate
-      the key in ~/.ssh/id_rsa.<br><br></li>
-  <li>You will be prompted to choose a passphrase. You also have the
-      option not to create a passphrase. To skip the passphrase, press
-      Enter twice to confirm that the passphrase is empty.<br><br></li>
-  <li><i>Optional</i>: To navigate to the .ssh directory, and check the
-      contents of the directory, run the following commands in the
-      terminal:<br></li>
-</ol>
+<br>
+3.  You will be prompted to enter a directory to save the key. You can
+    simply press Enter to accept the default location, which is an .ssh
+    folder in the home directory. This means you will be able to locate
+    the key in ~/.ssh/id_rsa.<br>
+<br>
+4.  You will be prompted to choose a passphrase. You also have the
+    option not to create a passphrase. To skip the passphrase, press
+    Enter twice to confirm that the passphrase is empty.<br>
+<br>
+5.  <b>Optional</b>: To navigate to the .ssh directory, and check the
+    contents of the directory, run the following commands in the
+    terminal:<br>
+<br>
 
 <pre>
 $ cd ~/.ssh
@@ -5712,6 +5716,7 @@ $ cd ~/.ssh
 
 and then,<br>
 <br>
+
 <pre>
 $ ls
 </pre>
@@ -5720,27 +5725,26 @@ When you list the contents of the .ssh directory, you should
 see id_rsa and id_rsa.pub in the list of contents, where id_rsa is the
 private version of your key and id_rsa.pub is the public version of your
 key.<br>
-<ol start="6">
-  <li>You now need to add the SSH key to the ssh-agent, which helps with
-      the authentication process. To start the ssh-agent, run the
-      following command in the terminal:<br></li>
-</ol>
+<br>
+6.  You now need to add the SSH key to the ssh-agent, which helps with
+    the authentication process. To start the ssh-agent, run the
+    following command in the terminal:<br>
+<br>
 
 <pre>
 $ eval "$(ssh-agent -s)"
 </pre>
 
-<ol start="7">
-  <li>To add the key to the agent, run the following command in the
-      terminal:<br></li>
-</ol>
+7.  To add the key to the agent, run the following command in the
+    terminal:<br>
+<br>
 
 <pre>
 $ ssh-add ~/.ssh/id_rsa
 </pre>
 
-<h5>© IBM Corporation 2020. All rights reserved.</h5>
-</p>
+<h4>© IBM Corporation 2020. All rights reserved.</h4>
+
 <!------------------------------ 5.9 adding and ssh key to github -------------------------------->
 <h3 id="ch5-9">5.9 Adding an SSH Key to GitHub</h3>
 
@@ -5752,7 +5756,7 @@ $ ssh-add ~/.ssh/id_rsa
 <img class="displayed"
   src="images/image159.png"
   alt="IBM Skills Network logo"
-  style="width:25%;" />
+  style="width:35%;" />
 
 <h3>Prerequisites</h3>
 
@@ -5763,23 +5767,19 @@ the <a href="https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud
 
 To add an SSH key to GitHub, you need to copy the SSH key that you
 generated in the previous lab. Open a terminal and then complete the
-following steps:<br>
+following steps:
 
-<ol start="1">
-  <li>In the terminal, run the following command:<br></li>
-</ol>
+1.  In the terminal, run the following command:
 
 <pre>
 $ cat ~/.ssh/id_rsa.pub | clip
 </pre>
 
-<i>Note</i>: If clip doesn't work, run cat ~/.ssh/id_rsa.pub in the
-command line and then copy the output.<br>
+<b>Note</b>: If clip doesn't work, run cat ~/.ssh/id_rsa.pub in the
+command line and the copy the output.
 
-<ol start="2">
-  <li>Sign in to GitHub. At the top right, click the drop-down menu on
-      your profile image and select <i>Settings</i>.<br></li>
-</ol>
+2.  Sign in to GitHub. At the top right, click the drop-down menu on
+    your profile image and select <b>Settings</b>.
 
 <!------------------------------------------------------------------------------------------------>
 <!--------------------------------- 177. github settings (156) ----------------------------------->
@@ -5789,10 +5789,8 @@ command line and then copy the output.<br>
   alt="Github Settings"
   style="width:45%;" />
 
-<ol start="3">
-  <li>From the "Personal settings" menu, select <i>SSH and GPG keys</i>, as
-      shown in the following image:<br></li>
-</ol>
+3.  From the "Personal settings" menu, select <b>SSH and GPG keys</b>, as
+    shown in the following image:
 
 <!------------------------------------------------------------------------------------------------>
 <!--------------------------------- 178. ssh and gpg keys (156) ---------------------------------->
@@ -5802,9 +5800,7 @@ command line and then copy the output.<br>
   alt="SSH and GPG Keys"
   style="width:65%;" />
 
-<ol start="4">
-  <li>Click <i>New SSH key</i>.<br></li>
-</ol>
+4.  Click <b>New SSH key</b>.
 
 <!------------------------------------------------------------------------------------------------>
 <!----------------------------------- 179. new ssh key (157) ------------------------------------->
@@ -5814,13 +5810,10 @@ command line and then copy the output.<br>
   alt="New SSH Key"
   style="width:65%;" />
 
-<ol start="5">
-  <li>Enter a title for the new SSH key.<br>
-	  In the <i>Key</i> field, paste the key that you copied in step 1, above.<br>
-	  The pasted key should include <i>Your email address</i> at the end, as shown in the following
-      image:<br></li>
-</ol>
-	
+5.  Enter a title for the new SSH key. In the <b>Key</b> field, paste the
+    key that you copied in step 1, above. The pasted key should
+    include <b>Your email address</b> at the end, as shown in the following
+    image:
 <!------------------------------------------------------------------------------------------------>
 <!--------------------------------- 180. title to ssh keys (157) --------------------------------->
 <!------------------------------------------------------------------------------------------------>
@@ -5829,11 +5822,9 @@ command line and then copy the output.<br>
   alt="Enter title for SSH keys."
   style="width:45%;" />
 
-<ol start="6">
-  <li>Click <i>Add SSH Key</i>. The SSH key is added to your account.<br></li>
-</ol>
+6.  Click <b>Add SSH Key</b>. The SSH key is added to your account.
 
-<h3>Summary:</h3>
+<h3>Summary</h3>
 
 <h4>Congratulations! You have now learned how to add an SSH key to GitHub.</h4>
 
@@ -5855,20 +5846,20 @@ command line and then copy the output.<br>
 
 <h4>After completing this lab you will be able to:</h4>
 <ul>
-<li>Clone your GitHub repository locally,<br><br></li>
-<li>Make changes to the cloned files,<br><br></li>
-<li>Add a new file,<br><br></li>
-<li>Check the status,<br><br></li>
-<li>Commit changes,<br><br></li>
+<li>Clone your GitHub repository locally,<br></li>
+<li>Make changes to the cloned files,<br></li>
+<li>Add a new file,<br></li>
+<li>Check the status,<br></li>
+<li>Commit changes,<br></li>
 <li>Push the changes back to GitHub.</li>
 </ul>
 
 <h3>Pre-requisites</h3>
 
 <ul>
-<li>GitHub account, with a project in it, as illustrated in <a href="https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBMDeveloperSkillsNetwork-CD0101EN-SkillsNetwork/labs/GitHubLabs/GitHub1_Getting_Started.md.html" target="_blank" rel="noopener noreferrer">this lab</a>.<br><br></li>
-<li>GitBash or git installed on your local desktop, as in <a href="https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBMDeveloperSkillsNetwork-CD0101EN-SkillsNetwork/labs/GitHubLabs/GitBash_Install.md.html" target="_blank" rel="noopener noreferrer">this lab</a>.<br><br></li>
-<li>Create ssh keys, as in <a  href="https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBMDeveloperSkillsNetwork-CD0101EN-SkillsNetwork/labs/GitHubLabs/SSH_Key.md.html" target="_blank" rel="noopener noreferrer">this lab</a>.<br><br></li>
+<li>GitHub account, with a project in it, as illustrated in <a href="https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBMDeveloperSkillsNetwork-CD0101EN-SkillsNetwork/labs/GitHubLabs/GitHub1_Getting_Started.md.html" target="_blank" rel="noopener noreferrer">this lab</a>.<br></li>
+<li>GitBash or git installed on your local desktop, as in <a href="https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBMDeveloperSkillsNetwork-CD0101EN-SkillsNetwork/labs/GitHubLabs/GitBash_Install.md.html" target="_blank" rel="noopener noreferrer">this lab</a>.<br></li>
+<li>Create ssh keys, as in <a  href="https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBMDeveloperSkillsNetwork-CD0101EN-SkillsNetwork/labs/GitHubLabs/SSH_Key.md.html" target="_blank" rel="noopener noreferrer">this lab</a>.<br></li>
 <li>Add SSH Key to GitHub, as in <a href="https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBMDeveloperSkillsNetwork-CD0101EN-SkillsNetwork/labs/GitHubLabs/GitHub_AddSSHtoRepo.md.html" target="_blank" rel="noopener noreferrer">this lab</a>.</li>
 </ul>
 
@@ -5890,9 +5881,9 @@ To clone a repo, you need the ssh url of the repo.</p>
   alt="Copy/Paste URL."
   style="width:65%;" />
 </li>
-<li>On your desktop open a terminal.(gitbash if you are using windows (os),<br><br></li>
-<li>Navigate to a directory where you wish to clone the repo,<br><br></li>
-<li>Run the command "git clone",<br>
+<li>5.  On your desktop open a terminal.(gitbash if you are using windows (os),<br><br></li>
+<li>6.  Navigate to a directory where you wish to clone the repo,<br><br></li>
+<li>7.  Run the command "git clone",<br>
 <!------------------------------------------------------------------------------------------------>
 <!------------------------------------ 182. git clone (159) -------------------------------------->
 <!------------------------------------------------------------------------------------------------>
@@ -5901,9 +5892,9 @@ To clone a repo, you need the ssh url of the repo.</p>
   alt="Clone .git file."
   style="width:65%;" />
 </li>
-<li>This will clone the repo on GitHub into your current directory,<br><br></li>
+<li>8.  This will clone the repo on GitHub into your current directory,<br><br></li>
 <br>
-<li>You can see all the downloaded files under a directory named as your
+<li>9.  You can see all the downloaded files under a directory named as your
     repo name,<br>
 <!------------------------------------------------------------------------------------------------>
 <!---------------------------------- 183. list directory (159) ----------------------------------->
@@ -5913,7 +5904,7 @@ To clone a repo, you need the ssh url of the repo.</p>
   alt="List directory."
   style="width:65%;" />
 </li>
-<li>Change to the simple_interest_calulator directory and list the files to
+<li>10.  Change to the simple_interest_calulator directory and list the files to
 verify all the files got downloaded.</li>
 </ol>
 
@@ -5995,16 +5986,10 @@ Run the command "<i>git push</i>".
 Log into your GitHub account and verify if the local changes have
 synched.</p>
 
-<h3>Summary:</h3>
+<h3>Summary Module 4:</h3>
 <p>
-In this lab, you have learned how to:<br>
-<ul>
-<li>clone a GitHub repository,<br><br></li>
-<li>make changes to it, <br><br></li>
-<li>commit the changes locally, and<br><br></li>
-<li>push it back to GitHub.</li>
-</ul>
-
+In this lab, you have learned how to clone a GitHub repository, make
+changes to it, commit the changes locally, and push it back to GitHub.
 </p>
 <!----------------------------------- 5.10 chapter 5 summary ------------------------------------->
 <h3 id="ch5-10">5.10 Chapter 5 Summary</h3>
@@ -6013,27 +5998,29 @@ In this lab, you have learned how to:<br>
 <ul>
 <li>Distributed version control keeps track of changes to code,
     regardless of where it is stored.&nbsp;<br><br></li>
-<li>Repositories are storage structures that:<br><br>
+
+<li>Repositories are storage structures that:<br>
 <ul>
 	<li>Hold code<br><br></li>
 	<li>Track issues<br><br></li>
 	<li>Enable you to collaborate with others;<br><br></li>
-</ul></li>
+</ul>
 <li>Branches are used to isolate changes to code. When the changes are
     complete, they can be merged back into the master branch.<br><br></li>
 <li>Repositories can be cloned to make it possible to work locally, then
     sync changes back to the original.<br><br></li>
 <li>Repositories can be forked to be used as a base for a new project,
     or so that the developer can work independently.<br><br></li>
-<li>Large projects include people working in different roles:<br><br>
+<li>Large projects include people working in different roles:<br>
   <ul>
     <li>Developer -- creates code<br><br></li>
     <li>Integrator -- manages changes made by developers;<br><br></li>
     <li>Repository Administrator -- configures and maintains access to
         the repository.</li>
-  </ul></li>
+  </ul>
+<br><br></li>
 </ul>
-<p><b><i>Last edited 12/22/2022 5:50pm</i></b>
+<p><b><i>Last edited 12/1/2022 10:35am</i></b>
 
 ...the end.
 </p>
