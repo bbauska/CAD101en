@@ -245,13 +245,13 @@ function topFunction() {
       <a href="#ch3-3">  3.3 Chapter 3 Summary</a>
    <a href="#ch4">Chapter 4. JavaScript Programming for Web Applications</a>
       <a href="#ch4-1">  4.1 JavaScript: Overview and Syntax</a>
-      <a href="#ch4-1">  4.2 JavaScript: Variables and Control Statements</a>
-      <a href="#ch4-2">  4.3 JavaScript: Functions and Prototypes</a>
-      <a href="#ch4-3">  4.4 Client-Side JavaScript: with HTML</a>
-      <a href="#ch4-4">  4.5 Client-Side JavaScript: with DOM</a>
-      <a href="#ch4-5">  4.6 JavScript DOM Objects</a>
-      <a href="#ch4-6">  4.7 JavScript APIs</a>
-      <a href="#ch4-7">  4.8 Chapter 4 Summary</a>
+      <a href="#ch4-2">  4.2 JavaScript: Variables and Control Statements</a>
+      <a href="#ch4-3">  4.3 JavaScript: Functions and Prototypes</a>
+      <a href="#ch4-4">  4.4 Client-Side JavaScript: with HTML</a>
+      <a href="#ch4-5">  4.5 Client-Side JavaScript: with DOM</a>
+      <a href="#ch4-6">  4.6 JavScript DOM Objects</a>
+      <a href="#ch4-7">  4.7 JavScript APIs</a>
+      <a href="#ch4-8">  4.8 Chapter 4 Summary</a>
    <a href="#ch5">Chapter 5. GitHub</a>
       <a href="#ch5-1">  5.1 Overview of GitHub</a>
       <a href="#ch5-2">  5.2 Introduction to GitHub</a>
@@ -365,12 +365,12 @@ Let's review the basics of how you interact with a website.</p>
   <li>The browser has an address bar, into which you enter a URL, like www.IBM.com.<br><br></li>
   <li>The browser then contacts the server with the name and requests the information that makes up the website.<br><br></li>
   <li>The server then sends a response, which contains the data that the client requires to display the website.<br><br></li>
-  <li>For most websites, the server will return:</li>
+  <li>For most websites, the server will return:
     <ul>
       <li>HTML, which defines the structure of the page, but doesn't look very attractive,<br></li>
       <li>CSS, which adds styles and flair to the page and,<br></li>
       <li>JavaScript, which adds interactivity and dynamic content.</li>
-    </ul>
+    </ul></li>
 </ol>
 <p>
 Content displayed by websites can contain elements that are either
@@ -833,10 +833,10 @@ in their day-to-day activities like:</p>
 You can initiate a build from the command line or from an IDE.<br>
 <br>
 There are two categories of Build Tools widely in use:</p>
+
 <ol>
 <li>Build-automation utilities, which generate build artifacts like
-    executables, by compiling and linking source code.<br></li>
-<br>
+    executables, by compiling and linking source code.<br><br></li>
 <li>Build-automation servers, which execute build-automation utilities
     on a scheduled or triggered basis.</li>
 </ol>
@@ -1988,13 +1988,13 @@ To use this method, the tag must be added to the  tag section.</p>
   <li>Design can be removed for special accessibility renders,<br><br></li>
   <li>Search engines can index the website without the design interfering,<br><br></li>
   <li>CSS is usually coded in external style sheets,<br><br></li>
-  <li>Create base styles for your website first,<br><br></li>
+  <li>Create base styles for your website first,<br><br>
     <ul>
       <li>Choose a layout type,<br><br></li>
       <li>Fluid: the height and width of elements is flexible and can expand
           or contract,<br><br></li>
       <li>Fixed: the height and width of elements remains the same.</li>
-    </ul>
+    </ul></li>
 </ul>
 
 <h3>Hands On Lab: CSS Basics</h3>
@@ -2513,8 +2513,7 @@ provision your lab environment.</p>
       <li>&lt;section&gt;</li>
       <li>&lt;body&gt;</li>
       <li>&lt;heading&gt;</li>
-    </ul></li>
-    <br>
+    </ul><br></li>
   <li>HTML5 uses the &lt;input&gt; tag to allow users to input information. It
     has many different types, including:
     <ul>
@@ -2555,7 +2554,7 @@ After completing this module (4), you will be able to:</p>
 <li>List the common APIs used in JavaScript Applications.</li>
 </ul>
 
-<h3>4.1 JavaScript Language Overview & Syntax</h3>
+<h3 id="ch4-1">4.1 JavaScript Language Overview & Syntax</h3>
 <p>
 Hello. Welcome to The JavaScript language, Overview and Syntax.<br>
 <br>
@@ -2878,7 +2877,7 @@ empty string.
     <li>Variables with a global scope can be used elsewhere in the
     JavaScript program,<br><br></li>
     <li>Variables declared without the var keyword have a global scope.<br></li>
-  </ul></li>
+  </ul><br></li>
 <li>Variables that are not initialized have a value of undefined.<br></li>
 </ul>
 <p>
@@ -2987,16 +2986,16 @@ the conditional expression is evaluated again.</p>
   src="images/image072.png"
   alt="Repeat with while loops"
   style="width:65%;" />
-
-The WHILE loop is another common loop in JavaScript,
-
-The loop repeats while the condition remains true,
-
+<p>
+The WHILE loop is another common loop in JavaScript,<br>
+<br>
+The loop repeats while the condition remains true,<br>
+<br>
 The WHILE loop assumes that the condition reaches a conclusion and then
-exits the loop.
-
+exits the loop.<br>
+<br>
 Make sure that the condition evaluates to false at some point; otherwise
-the loop never terminates.
+the loop never terminates.</p>
 
 <h4>In this section (4-2), you learned:</h4>
 <ul>
@@ -3556,7 +3555,7 @@ It may even be embedded into the HTML itself.<br><br></li>
 For example, the onload event can run a script when the browser finishes
 loading a page.</p>
 <!-------------------------------- 4.5 client-side js: with dom ---------------------------------->
-<h3 id="ch4-4">4.5 Client-Side JavaScript: with DOM</h3>
+<h3 id="ch4-5">4.5 Client-Side JavaScript: with DOM</h3>
 <p>
 Hello. Welcome to Client-side JavaScript.
 </p>
@@ -4295,7 +4294,7 @@ you to work with HTML elements and nodes.</p>
 <h4>Window Object Methods & Events</h4>
 
 <!------------------------------------ 4.8 chapter 4 summary ------------------------------------->
-<h3 id="ch4-7">4.8 Chapter 4 Summary</h3>
+<h3 id="ch4-8">4.8 Chapter 4 Summary</h3>
 <p>
 In this module (4), you learned that:</p>
 
