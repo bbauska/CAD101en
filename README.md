@@ -113,13 +113,13 @@ After completing this course, you will be able to:
 
 After completing this course, you will be able to:
 <ul>
-<li>Explain the roles of Front-end, back-end, and full stack developers in developing Cloud Applications,.</li>
-<li>Describe the common languages, libraries, frameworks, and other tools that developers use,</li>
-<li>Demonstrate basic programming techniques in HTML5,</li>
-<li>Enhance the appearance of a website by using CSS,</li>
-<li>Describe the HTML5 input element and its attributes,</li>
-<li>Use JavaScript to enhance the interactivity of a Cloud Application or website,</li>
-<li>Manage your projects in GitHub.</li>
+  <li>Explain the roles of Front-end, back-end, and full stack developers in developing Cloud Applications,.</li>
+  <li>Describe the common languages, libraries, frameworks, and other tools that developers use,</li>
+  <li>Demonstrate basic programming techniques in HTML5,</li>
+  <li>Enhance the appearance of a website by using CSS,</li>
+  <li>Describe the HTML5 input element and its attributes,</li>
+  <li>Use JavaScript to enhance the interactivity of a Cloud Application or website,</li>
+  <li>Manage your projects in GitHub.</li>
 </ul>
 
 <!------------------------------------------------------------------------------------------------>
@@ -127,8 +127,8 @@ After completing this course, you will be able to:
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="images/image003.png" 
-	alt="IBM Cloud Development - the Skills Network"
-	width="65%">
+  alt="IBM Cloud Development - the Skills Network"
+  width="65%">
 &nbsp;
 </p>
 
@@ -138,9 +138,9 @@ After completing this course, you will be able to:
 <!----------------------------- 04. course intro: cloud courses (4) ------------------------------>
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
-	<img src="images/image004.png" 
-	alt="Cloud Courses from IBM"
-	width="65%" />
+  <img src="images/image004.png"
+  alt="Cloud Courses from IBM"
+  width="65%" />
 &nbsp;
 </p>
 <div align="right">
@@ -150,20 +150,24 @@ After completing this course, you will be able to:
 <!------------------------------------ 05. emerging jobs (4) ------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
-	<img src="images/image005.png" 
-	alt="Emerging Jobs: Full-Stack, Back-End, Front-End, JavaScript"
-	width="65%" />
+  <img src="images/image005.png"
+  alt="Emerging Jobs: Full-Stack, Back-End, Front-End, JavaScript"
+  width="65%" />
 &nbsp;
-
+</p>
 Want to take the first steps to become a Cloud Application Developer?
+
 This course will lead you through the languages and tools you will need
-to develop your own Cloud Apps. Beginning with an explanation of how
-internet servers and clients work together to deliver applications to
+to develop your own Cloud Apps.
+
+Beginning with an explanation of how internet servers and clients work together to deliver applications to
 users, this course then takes you through the context for application
 development in the Cloud, introducing front-end, back-end, and
-full-stack development. You'll then focus on the languages you need for
-front-end development, working with HTML, CSS, and JavaScript. Finally,
-you will discover tools that help you to store your projects and keep
+full-stack development.
+
+You'll then focus on the languages you need for front-end development, working with HTML, CSS, and JavaScript.
+
+Finally, you will discover tools that help you to store your projects and keep
 track of changes made to project files, such as Git and GitHub.
 
 <h3>Chapter 1: Introduction to Programming for the Cloud</h3>
@@ -215,33 +219,34 @@ constructed and delivered to you is a good starting point.
 
 Let's review the basics of how you interact with a website:
 <ol>
-   <li>You launch an internet browser -- there are lots available:
-   <ul>
-      <li>Google Chrome,</li> <li>Microsoft Edge,</li> <li>Mozilla Firefox, and</li> <li>Apple Safari are
-some of the most popular.</li>
-</ul></li>
-   <li>The browser has an address bar, into which you enter a URL, like
-    www.IBM.com,</li>
-   <li>The browser then contacts the server with the name and requests the
+  <li>You launch an internet browser -- there are lots available:
+  <ul>
+    <li>Google Chrome,</li> <li>Microsoft Edge,</li> <li>Mozilla Firefox, and</li> <li>Apple Safari are
+    some of the most popular.</li>
+  </ul></li>
+    <li>The browser has an address bar, into which you enter a URL, like www.IBM.com,</li>
+    <li>The browser then contacts the server with the name and requests the
     information that makes up the website,</li>
-   <li>The server then sends a response, which contains the data that the
+    <li>The server then sends a response, which contains the data that the
     client requires to display the website,</li>
-   <li>For most websites, the server will return:
-   <ul>
+    <li>For most websites, the server will return:
+    <ul>
       <li>HTML, which defines the structure of the page, but doesn't look very attractive,</li>
       <li>CSS, which adds styles and flair to the page and,</li>
       <li>JavaScript, which adds interactivity and dynamic content.</li>
-   </ul>
-   </li>
-</ol>
-Content displayed by websites can contain elements that are either
-previously stored on the server (called "static") or generated each time
-they are requested by the client (called "dynamic").
+    </ul>
+    </li>
+  </ol>
+  Content displayed by websites can contain elements that are either
+  previously stored on the server (called "static") or generated each time
+  they are requested by the client (called "dynamic").
 
 Dynamic elements can involve information coming from other systems and
 applications, such as databases.
+
 Most websites contain static and dynamic elements to provide the best
 user experience.
+
 Cloud Applications are similar to Websites in that they request content
 that a server returns.
 
