@@ -27,35 +27,32 @@
 <p>
 Want to take the first steps to become a Cloud Application Developer? This course will lead you through the languages and tools you will need to develop your own Cloud Apps.
 </p>
-<p>
-Beginning with an explanation of how internet servers and clients work together to deliver applications to users, this course then takes you through the context for application development in the Cloud, introducing front-end, back-end, and full-stack development.
-</p>
-You’ll then focus on the languages you need for front-end development, working with HTML, CSS, and JavaScript.
-
-Finally, you will discover tools that help you to store your projects and keep track of changes made to project files, such as Git and GitHub.
+<p>Beginning with an explanation of how internet servers and clients work together to deliver applications to users, this course then takes you through the context for application development in the Cloud, introducing front-end, back-end, and full-stack development.</p>
+<p>You’ll then focus on the languages you need for front-end development, working with HTML, CSS, and JavaScript.</p>
+<p>Finally, you will discover tools that help you to store your projects and keep track of changes made to project files, such as Git and GitHub.</p>
 
 <h4><b>Who is this course intended for?</b></h4>
-
-Anyone and everyone who wants to learn about building cloud applications -  whether you want to just understand what is Cloud Application Development (e.g. C-level execs, Managers, Sellers, Students, etc.) or start a career as a Cloud Application Developer (e.g. Developers, Systems/Cloud Architects, Technical Leads, Data Engineers, Security Engineers, Consultants, Technical Sellers, etc.).
+<p>Anyone and everyone who wants to learn about building cloud applications -  whether you want to just understand what is Cloud Application Development (e.g. C-level execs, Managers, Sellers, Students, etc.) or start a career as a Cloud Application Developer (e.g. Developers, Systems/Cloud Architects, Technical Leads, Data Engineers, Security Engineers, Consultants, Technical Sellers, etc.).</p>
 
 <h4>Prerequisites:</h4>
 <ul>
-<li>Basic computer literacy,</li>
-<li>Understanding of Cloud Computing concepts and terminology.</li>
+  <li>Basic computer literacy,</li>
+  <li>Understanding of Cloud Computing concepts and terminology.</li>
 </ul>
+
 <a href="https://www.edx.org/course/introduction-to-cloud-computing-6" target="_blank" rel="noopener noreferrer">e.g.: Introduction to Cloud Computing</a>.
 
 <h4><b>Learning Objectives</b></h4>
 
 After completing this course, you will be able to:
 <ul>
-<li>Explain the roles of Front-end, back-end, and full stack developers in developing Cloud Applications,</li>
-<li>Describe the common languages, libraries, frameworks, and other tools that developers use,</li>
-<li>Demonstrate basic programming techniques in HTML5,</li>
-<li>Enhance the appearance of a website by using CSS,</li>
-<li>Describe the HTML5 input element and its attributes,</li>
-<li>Use JavaScript to enhance the interactivity of a Cloud Application or website,</li>
-<li>Manage your projects in GitHub.</li>
+  <li>Explain the roles of Front-end, back-end, and full stack developers in developing Cloud Applications,</li>
+  <li>Describe the common languages, libraries, frameworks, and other tools that developers use,</li>
+  <li>Demonstrate basic programming techniques in HTML5,</li>
+  <li>Enhance the appearance of a website by using CSS,</li>
+  <li>Describe the HTML5 input element and its attributes,</li>
+  <li>Use JavaScript to enhance the interactivity of a Cloud Application or website,</li>
+  <li>Manage your projects in GitHub.</li>
 </ul>
 
 ## [Table of Contents](#table-of-contents)
@@ -111,7 +108,7 @@ After completing this course, you will be able to:
 <h2 id="ch1">Chapter 1: Introduction to Programming for the Cloud</h2>
 <h3>Learning Objectives</h3>
 
-After completing this course, you will be able to:
+<p>After completing this course, you will be able to:</p>
 <ul>
   <li>Explain the roles of Front-end, back-end, and full stack developers in developing Cloud Applications,.</li>
   <li>Describe the common languages, libraries, frameworks, and other tools that developers use,</li>
@@ -155,39 +152,30 @@ After completing this course, you will be able to:
   width="65%" />
 &nbsp;
 </p>
-Want to take the first steps to become a Cloud Application Developer?
-
-This course will lead you through the languages and tools you will need
-to develop your own Cloud Apps.
-
-Beginning with an explanation of how internet servers and clients work together to deliver applications to
-users, this course then takes you through the context for application
-development in the Cloud, introducing front-end, back-end, and
-full-stack development.
-
-You'll then focus on the languages you need for front-end development, working with HTML, CSS, and JavaScript.
-
-Finally, you will discover tools that help you to store your projects and keep
-track of changes made to project files, such as Git and GitHub.
+<p>Want to take the first steps to become a Cloud Application Developer?</p>
+<p>This course will lead you through the languages and tools you will need
+to develop your own Cloud Apps.</p>
+<p>Beginning with an explanation of how internet servers and clients work together to deliver applications to
+users, this course then takes you through the context for application development in the Cloud, introducing front-end, back-end, and
+full-stack development.</p>
+<p>You'll then focus on the languages you need for front-end development, working with HTML, CSS, and JavaScript.</p>
+<p>Finally, you will discover tools that help you to store your projects and keep
+track of changes made to project files, such as Git and GitHub.</p>
 
 <h3>Chapter 1: Introduction to Programming for the Cloud</h3>
-
-Learn what Cloud Application development involves from the very
-beginning. Discover the languages, frameworks, and tools that enable you
+<p>Learn what Cloud Application development involves from the very
+beginning.</p>
+<p>Discover the languages, frameworks, and tools that enable you
 to create interactive and engaging websites and Cloud Applications,
-right from the very beginning.
-
-In this module, you will learn about the roles of front-end, back-end,
+right from the very beginning.</p>
+<p>In this module, you will learn about the roles of front-end, back-end,
 and full-stack developers and how they work together on development
 projects and become familiar with the terminology and skills you will
-need in your career as a Cloud App developer. 
-
-It is recommended that learner's practice outside of the course to
-become proficient.
-
-The labs are intended as an introduction to the basics. 
-
-After completing this module, you will be able to:
+need in your career as a Cloud App developer.</p>
+<p>It is recommended that learner's practice outside of the course to
+become proficient.</p>
+<p>The labs are intended as an introduction to the basics.</p>
+<p>After completing this module, you will be able to:</p>
 <ul>
    <li>Describe what developing a website or Cloud App involves,</li>
    <li>Recognize some of the terminologies that web developers and Cloud
@@ -210,14 +198,11 @@ After completing this module, you will be able to:
 </div>
 
 <h3 id="ch1-2">1.2 Overview of Web and Cloud Development</h3>
-
-When you're starting out as a Web Developer, it can be difficult to
-determine what you need to learn and what order you should learn it in.
-
-Understanding how the websites that you're already familiar with are
-constructed and delivered to you is a good starting point.
-
-Let's review the basics of how you interact with a website:
+<p>When you're starting out as a Web Developer, it can be difficult to
+determine what you need to learn and what order you should learn it in.</p>
+<p>Understanding how the websites that you're already familiar with are
+constructed and delivered to you is a good starting point.</p>
+<p>Let's review the basics of how you interact with a website:</p>
 <ol>
   <li>You launch an internet browser -- there are lots available:
   <ul>
@@ -237,18 +222,15 @@ Let's review the basics of how you interact with a website:
     </ul>
     </li>
   </ol>
-  Content displayed by websites can contain elements that are either
-  previously stored on the server (called "static") or generated each time
-  they are requested by the client (called "dynamic").
-
-Dynamic elements can involve information coming from other systems and
-applications, such as databases.
-
-Most websites contain static and dynamic elements to provide the best
-user experience.
-
-Cloud Applications are similar to Websites in that they request content
-that a server returns.
+<p>Content displayed by websites can contain elements that are either
+previously stored on the server (called "static") or generated each time
+they are requested by the client (called "dynamic").</p>
+<p>Dynamic elements can involve information coming from other systems and
+applications, such as databases.</p>
+<p>Most websites contain static and dynamic elements to provide the best
+user experience.</p>
+<p>Cloud Applications are similar to Websites in that they request content
+that a server returns.</p>
 
 <div align="right">
   <b><a href="#table-of-contents">↥ Back To Top</a></b>
