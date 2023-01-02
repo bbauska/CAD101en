@@ -222,13 +222,10 @@ some of the most popular.</li>
 </ul></li>
    <li>The browser has an address bar, into which you enter a URL, like
     www.IBM.com,</li>
-
    <li>The browser then contacts the server with the name and requests the
     information that makes up the website,</li>
-
    <li>The server then sends a response, which contains the data that the
     client requires to display the website,</li>
-
    <li>For most websites, the server will return:
    <ul>
       <li>HTML, which defines the structure of the page, but doesn't look very attractive,</li>
@@ -243,10 +240,8 @@ they are requested by the client (called "dynamic").
 
 Dynamic elements can involve information coming from other systems and
 applications, such as databases.
-
 Most websites contain static and dynamic elements to provide the best
 user experience.
-
 Cloud Applications are similar to Websites in that they request content
 that a server returns.
 
@@ -257,49 +252,34 @@ that a server returns.
 Cloud Apps are built to work seamlessly with a Cloud-based back-end
 infrastructure, Cloud-based data storage and data processing, and other
 Cloud services, making them very scalable and very resilient.
-
 The environment for building websites and Cloud Applications is divided
 into two primary areas:
-
 1.  The <b>front-end</b> deals with everything that happens
     at the client-side -- everything the user can see and interact with.
-
 You can choose to specialize in front-end coding, using HTML, CSS,
 JavaScript and related frameworks, libraries, and tools.
-
 2.  The <b>back-end</b> deals with everything that happens on
     the server before the code and data are sent to the client.
-
 The back-end coding usually handles the logic and functionality that
 make the website or app work, and the authentication processes that keep
 data secure.
-
 Back-end developers may also work with relational or noSQL databases,
 even collaborating with database administrators in bigger projects.
-
 Full-stack developers have skills, knowledge, and experience in both
 front-end and back-end environments.
-
 Whichever way you choose to specialize, you will need the appropriate
 tools to help you work.
-
 The first tool most developers add to their resources is a code editor.
-
 Developers also need tools to integrate, build, compile, and debug code.
-
 Integrated Development Environments or IDEs incorporate some of these
 additional capabilities beyond just code editing and make it easier to
 build and manage your code.
-
 Good IDEs support multiple languages and integrate with management and
 storage tools like Git and GitHub.
-
 Other useful features are custom extensions and themes for supporting
 your working style and environment.
-
 Examples for code editors and IDEs include Sublime Text, Atom, Vim, VS
 Code, Visual Studio, Eclipse and NetBeans.
-
 In this brief overview, you learned about:
 <ul>
 <li>The basic communication between client and servers,<br/>&nbsp;</li>
@@ -318,7 +298,6 @@ In this brief overview, you learned about:
 
 Internet websites offer lots of different services, one of the most
 popular being online shopping.
-
 When you explore an online shopping website, navigating through pages,
 choosing different product categories, or comparing products, you are
 interacting with the front-end of a website.
