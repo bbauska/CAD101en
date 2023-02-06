@@ -1970,7 +1970,7 @@ provision your lab environment.
 
 <h3 id="ch2-7">2.7 Chapter 2 Summary</h3>
 
-In this module (2), you learned that:
+In this module, you learned that:
 
 -   HTML provides the basic structure and content for a website using
     tags.
@@ -4606,7 +4606,7 @@ defined by a small group. 
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="/images/image128.png?raw=true" 
-   alt="Background of git"
+   alt="Background of git."
    width="65%" />
 &nbsp;
 
@@ -6019,7 +6019,7 @@ To clone a repo, you need the ssh url of the repo.
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="images/image182.png" 
-   alt="Clone .git File"
+   alt="Clone .git file."
    width="65%" />
 &nbsp;
 </p>
@@ -6062,7 +6062,7 @@ Using your favorite editor make the changes to the html file.
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="images/image185.png" 
-   alt="git Status"
+   alt="Git Status."
    width="65%" />
 &nbsp;
 </p>
@@ -6126,7 +6126,7 @@ changes to it, commit the changes locally, and push it back to GitHub.
 
 <h3 id="ch5-10">5.10 Chapter 5 Summary</h3>
 
-In this module, you learned that:
+In this module (5), you learned that:
 <ul>
 <li>Distributed version control keeps track of changes to code,
     regardless of where it is stored,<br/>&nbsp;</li>
@@ -6150,7 +6150,7 @@ In this module, you learned that:
 	</ul>
 </ul>
 
-<p><b><i>Last edited 11/28/2022 8:50am +</i></b></p>
+<p><b><i>Last edited 2/4/2023 4:31pm +</i></b></p>
 
 ...the end.
 <div align="right">
