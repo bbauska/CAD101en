@@ -46,7 +46,25 @@ h4 {
   color: black;
   font-size: 15px;
   text-align: left; }
-  
+
+h5 {
+  font-family: Bahnschrift, Arial, Helvetic, sans-serif;
+  color: black;
+  font-size: 14px;
+  text-align: left; }
+
+h6 {
+  font-family: Bahnschrift, Arial, Helvetic, sans-serif;
+  color: black;
+  font-size: 13px;
+  text-align: left; }
+
+h7 {
+  font-family: Bahnschrift, Arial, Helvetic, sans-serif;
+  color: black;
+  font-size: 12px;
+  text-align: left; }
+    
 body {
   font-family: Bahnschrift, Arial, Helvetic, sans-serif;
   font-size: 13px;
@@ -54,6 +72,8 @@ body {
 
 </style>
 <!------ first style above ------>
+
+<link rel="stylesheet" href="css/style.css" />
 
 <h2>CAD101en - IBM Skills Network</h2>
 
@@ -2200,11 +2220,9 @@ month, day, hour, minute, AM/PM) with no time zone.</p>
   src="/images/image048.png?raw=true"
   alt="Input for date & time."
   style="width:65%;" />
-<p>
-The datetime-local input field is displayed as a drop-down calendar in
-the Google Chrome browser. <br>
-<br>
-The time can be typed or entered using the spinner control.</p>
+
+<p>The datetime-local input field is displayed as a drop-down calendar in the Google Chrome browser. <br>
+<br>The time can be typed or entered using the spinner control.</p>
 <!------------------------------------------------------------------------------------------------>
 <!------------------------------ 49. input for e-mails format (60) ------------------------------->
 <!------------------------------------------------------------------------------------------------>
@@ -2221,26 +2239,17 @@ It provides feedback when the input does not follow the email format.<br>
 The &lt; input type="number" &gt; takes a numeric value as input.<br>
 <br>
 You can optionally specify the minimum, maximum values, step size, etc.</p>
-<!------------------------------------------------------------------------------------------------>
-<!-------------------------------- 50. input of type number (60) --------------------------------->
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 50. input of type number (60) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="/images/image050.png?raw=true"
   alt="Input of type number."
   style="width:65%;" />
-<p>
-The example shows the number selector in the Chrome browser. Only the
-numbers between 5 and the 10 are available for selection.<br>
-<br>
-The &lt; input type="range" &gt; takes a numeric range as input.<br>
-<br>
-The example shows the number selector in the Google Chrome browser.<br>
-<br>
-Only the numbers in the range of the minimum and the maximum are
-available for selection.<br>
-<br>
-The range attribute displays a slider with the range of values between
-the minimum and maximum.</p>
+
+<p>The example shows the number selector in the Chrome browser. Only the numbers between 5 and the 10 are available for selection.<br>
+<br>The &lt; input type="range" &gt; takes a numeric range as input.<br>
+<br>The example shows the number selector in the Google Chrome browser.<br>
+<br>Only the numbers in the range of the minimum and the maximum are available for selection.<br>
+<br>The range attribute displays a slider with the range of values between the minimum and maximum.</p>
 
 <!------------------------------------------------------------------------------------------------>
 <!-------------------------------- 51. input of type range (61) ---------------------------------->
@@ -2249,6 +2258,7 @@ the minimum and maximum.</p>
   src="/images/image051.png?raw=true"
   alt="Input of type range."
   style="width:65%;" />
+
 <p>
 Only the slider itself is shown. Additional JavaScript code is needed in
 order to display the value of the slider.<br>
@@ -2871,95 +2881,75 @@ the conditional expression is evaluated again.</p>
   src="images/image072.png"
   alt="Repeat with while loops"
   style="width:65%;" />
-<p>
-The WHILE loop is another common loop in JavaScript,<br>
-<br>
-The loop repeats while the condition remains true,<br>
-<br>
-The WHILE loop assumes that the condition reaches a conclusion and then
+  
+<p>The WHILE loop is another common loop in JavaScript,<br>
+<br>The loop repeats while the condition remains true,<br>
+<br>The WHILE loop assumes that the condition reaches a conclusion and then
 exits the loop.<br>
-<br>
-Make sure that the condition evaluates to false at some point; otherwise
+<br>Make sure that the condition evaluates to false at some point; otherwise
 the loop never terminates.</p>
 
 <h4>In this section (4-2), you learned:</h4>
+
 <ul>
-<li>Variables are declared using the keyword var followed by the
-    variable name.<br><br></li>
-<li>You can initialize variables at the time of declaration or assign a
-    value later.<br><br></li>
-<li>You do not need to declare the data type of a variable. Variables
-    take their data type from the value assigned and can change type
-    during program execution.<br><br></li>
-<li>Variables also have a scope.<br><br></li>
-<li>Variables declared within a function have a scope local to that
-    function.<br><br></li>
-<li>Variables declared outside of a function have a global scope.<br><br></li>
-<li>Variables declared without the var keyword have a global scope.</li>
+  <li>Variables are declared using the keyword var followed by the variable name.<br><br></li>
+  <li>You can initialize variables at the time of declaration or assign a value later.<br><br></li>
+  <li>You do not need to declare the data type of a variable. Variables take their data type from the value assigned and can change type during program execution.<br><br></li>
+  <li>Variables also have a scope.<br><br></li>
+  <li>Variables declared within a function have a scope local to that function.<br><br></li>
+  <li>Variables declared outside of a function have a global scope.<br><br></li>
+  <li>Variables declared without the var keyword have a global scope.</li>
 </ul>
 
-<h4>When executing, the flow of the program is directed by control
-statements, including:</h4>
+<h4>When executing, the flow of the program is directed by control statements, including:</h4>
+
 <ul>
-<li>Conditional statements like if...then...else,<br><br></li>
-<li>Switch statements,<br><br></li>
-<li>Repeat statements like for loops and while loops.</li>
+  <li>Conditional statements like if...then...else,<br><br></li>
+  <li>Switch statements,<br><br></li>
+  <li>Repeat statements like for loops and while loops.</li>
 </ul>
 
 <!------------------------------- 4.3 js: functions & prototypes --------------------------------->
 <h3 id="ch4-3">4.3 JavaScript: Functions & Prototypes</h3>
-<p>
-Hello. Welcome to JavaScript Functions and Prototypes.</p>
-<h4>After reading this section (4-3), you will be able to:</h4>
-<ul>
-<li>Describe functions in JavaScript, and<br><br></li>
-<li>Describe prototypes in JavaScript.</li>
-</ul>
-<p>
-A function is a block of code which can be called from any point in a
-script after being declared.<br>
-</p>
-<h4>A function is made up of the following parts:</h4>
-<ul>
-<li>The keyword function,<br><br></li>
-<li>The name of the function,<br><br></li>
-<li>Parentheses, with optional parameter arguments,<br><br></li>
-<li>Curly braces, with the logic.<br></li>
-</ul>
-<p>
-The last statement in a function block is the optional return statement
-that returns control back to whatever called the function.</p>
+<!------------------------------------------------------------------------------------------------>
+<p>Hello. Welcome to JavaScript Functions and Prototypes.</p>
 
+<h4>After reading this section (4-3), you will be able to:</h4>
+
+<ul>
+  <li>Describe functions in JavaScript, and<br><br></li>
+  <li>Describe prototypes in JavaScript.</li>
+</ul>
+
+<p>A function is a block of code which can be called from any point in a script after being declared.<br></p>
+
+<h4>A function is made up of the following parts:</h4>
+
+<ul>
+  <li>The keyword function,<br><br></li>
+  <li>The name of the function,<br><br></li>
+  <li>Parentheses, with optional parameter arguments,<br><br></li>
+  <li>Curly braces, with the logic.<br></li>
+</ul>
+
+<p>The last statement in a function block is the optional return statement that returns control back to whatever called the function.</p>
 <!------------------------------------------------------------------------------------------------>
 <!-------------------------- 73. Functions: Parts of a Function (80) ----------------------------->
 <!------------------------------------------------------------------------------------------------>
 <img class="displayed border"
   src="images/image073.png"
-  alt="Functions: Parts of a Function"
+  alt="Functions: parts of a function."
   style="width:65%;" />
-<p>
-This example is a function that is named add.<br>
-<br>
-This function takes two parameter arguments and returns the sum of the
-arguments or concatenates the two arguments if they are strings.<br>
-<br>
-Notice that you do not specify the data type for the arguments of the
-function.<br>
-<br>
-The data types are determined by the values of the arguments that are
-being passed to the function.<br>
-<br>
-There is no specific return type declared -- the function returns
-whatever type is required.<br>
-<br>
-In this case, the return is a simple addition or concatenation of the
-input parameters.<br>
-<br>
-The action chosen depends on what data is provided to the function.<br>
-<br>
-If the values can be interpreted as numbers, they are added.<br>
-<br>
-If they can be interpreted as strings, they are concatenated.</p>
+
+<p>This example is a function that is named add.<br>
+<br>This function takes two parameter arguments and returns the sum of the arguments or concatenates the two arguments if they are strings.<br>
+<br>Notice that you do not specify the data type for the arguments of the function.<br>
+<br>The data types are determined by the values of the arguments that are being passed to the function.<br>
+<br>There is no specific return type declared -- the function returns whatever type is required.<br>
+<br>In this case, the return is a simple addition or concatenation of the input parameters.<br>
+<br>The action chosen depends on what data is provided to the function.<br>
+<br>If the values can be interpreted as numbers, they are added.<br>
+<br>If they can be interpreted as strings, they are concatenated.</p>
 
 <!------------------------------------------------------------------------------------------------>
 <!------------------------------ 74. Creating Custom Objects (81) -------------------------------->
@@ -2968,24 +2958,16 @@ If they can be interpreted as strings, they are concatenated.</p>
   src="images/image074.png"
   alt="Creating Custom Objects"
   style="width:65%;" />
-<p>
-This is an example of declaring a function named Car that accepts three
-arguments as parameters.<br>
-<br>
-A little further down, you specifically ask the function to run, by
-declaring the statement:</p>
+
+<p>This is an example of declaring a function named Car that accepts three arguments as parameters<br>
+<br>A little further down, you specifically ask the function to run, by declaring the statement:</p>
 
 <pre>
 var c = new Car with the arguments; "meridian", "Sabre GT" and 2012.
 </pre>
 
-<p>
-In the Car function, the keyword "this" refers to the current instance
-of the Car object that is being created. In other words, an instance of
-Car that is associated with the variable named c.<br>
-<br>
-The getName function of Car returns the make, model, and year of the
-newly created Car object.</p>
+<p>In the Car function, the keyword "this" refers to the current instance of the Car object that is being created. In other words, an instance of Car that is associated with the variable named c.<br>
+<br>The getName function of Car returns the make, model, and year of the newly created Car object.</p>
 
 <!------------------------------------------------------------------------------------------------>
 <!------------------------------ 75. Creating custom Objects (81) -------------------------------->
@@ -3005,12 +2987,9 @@ all instances of a particular object.</p>
   src="images/image076.png"
   alt="Prototypes"
   style="width:65%;" />
-<p>
-Prototypes exist for all JavaScript objects that can be created with the
-new keyword.<br>
-<br>
-All object constructors create objects that inherit the properties and
-methods that are defined by the prototype for that object.</p>
+
+<p>Prototypes exist for all JavaScript objects that can be created with the new keyword.<br>
+<br>All object constructors create objects that inherit the properties and methods that are defined by the prototype for that object.</p>
 
 <!------------------------------------------------------------------------------------------------>
 <!------------------------------------ 77. Prototypes (77) --------------------------------------->
@@ -5727,138 +5706,119 @@ To clone a repo, you need the ssh url of the repo.</p>
   src="images/image181.png" 
   alt="Copy/Paste URL."
   style="width:35%;" />
+
 <ol type="1" start="5">
-<li>On your desktop open a terminal.(gitbash if you are using windows (os),<br><br></li>
-<li>Navigate to a directory where you wish to clone the repo,<br><br></li>
-<li>Run the command "git clone",<br></li>
+  <li>On your desktop open a terminal.(gitbash if you are using windows (os),<br><br></li>
+  <li>Navigate to a directory where you wish to clone the repo,<br><br></li>
+  <li>Run the command "git clone",<br></li>
 </ol>
-<!------------------------------------------------------------------------------------------------>
-<!------------------------------------ 182. git clone (159) -------------------------------------->
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 182. git clone (159) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="/images/image182.png?raw=true"
   alt="Clone .git file."
   style="width:65%;" />
+
 <ol type="1" start="8">
-<li>This will clone the repo on GitHub into your current directory,<br><br></li>
-<li>You can see all the downloaded files under a directory named as your
-    repo name,<br></li>
+  <li>This will clone the repo on GitHub into your current directory,<br><br></li>
+  <li>You can see all the downloaded files under a directory named as your repo name,<br></li>
 </ol>
-<!------------------------------------------------------------------------------------------------>
-<!---------------------------------- 183. list directory (159) ----------------------------------->
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 183. list directory (159) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="/images/image183.png?raw=true"
   alt="List directory."
   style="width:65%;" />
 
 <ol type="1" start="10">
-<li>Change to the simple_interest_calulator directory and list the files to
-verify all the files got downloaded.</li>
+  <li>Change to the simple_interest_calulator directory and list the files to verify all the files got downloaded.</li>
 </ol>
+
 <h3>Exercise 2: Make changes to cloned files</h3>
-<p>
-Using your favorite editor make the changes to the html file.</p>
-<!------------------------------------------------------------------------------------------------>
-<!---------------------------------- 184. edit the html (160) ------------------------------------>
-<!------------------------------------------------------------------------------------------------>
+
+<p>Using your favorite editor make the changes to the html file.</p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 184. edit the html (160) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="/images/image184.png?raw=true"
   alt="Edit the HTML."
   style="width:65%;" />
-<p>
-<i>git status</i> will show all the modified files.</p>
-<!------------------------------------------------------------------------------------------------>
-<!-------------------------------------- 185. git status ----------------------------------------->
-<!------------------------------------------------------------------------------------------------>
+
+<p><i>git status</i> will show all the modified files.</p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 185. git status (162) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="/images/image185.png?raw=true"
   alt="Git status."
   style="width:65%;" />
+
 <h3>Exercise 3: Add a new file to the local repo</h3>
-<p>
-Let us add a new file to the local repo.<br>
-<br>
-Using a text editor, create a new file "browser-support.txt".<br>
-<br>
-Add "Chrome, Firefox, Edge" into the file.<br>
-<br>
-Save the file.<br>
+
+<p>Let us add a new file to the local repo.<br>
+<br>Using a text editor, create a new file "browser-support.txt".<br>
+<br>Add "Chrome, Firefox, Edge" into the file.<br>
+<br>Save the file.<br>
 </p>
+
 <h3>Exercise 4: Check the status</h3>
-<p>
-Run "git status" to see info on the modified files.<br>
-<br>
-Let us add the file for committing.<br>
-<br>
-Run "git add browser-support.txt"<br>
+
+<p>Run "git status" to see info on the modified files.<br>
+<br>Let us add the file for committing.<br>
+<br>Run "git add browser-support.txt"<br>
 </p>
+
 <h3>Exercise 5: Commit the changes</h3>
+
 <p>
 <i>git commit</i> will record all the changes into the local staging area.<br>
-<br>
-To commit the changes you have made, run git commit with a message like this.
-</p>
+<br>To commit the changes you have made, run git commit with a message like this.</p>
+
 <pre>
 $ git commit -m 'added a new file browser-support.txt'
 </pre>
-<p>
-Now all the changes you have made thus far, get committed locally.<br>
-</p>
+
+<p>Now all the changes you have made thus far, get committed locally.<br></p>
+
 <h3>Exercise 6: Push the changes to GitHub</h3>
-<p>
-After you have made all the changes and committed them, it is time to
-push the changes to the GitHub.<br>
-<br>
-<i>git push</i> will sync all the changes made till now to your online
-GitHub repository.<br>
-<br>
-Run the command "<i>git push</i>".
-</p>
-<!------------------------------------------------------------------------------------------------>
-<!------------------------------------- 186. git push (162) -------------------------------------->
-<!------------------------------------------------------------------------------------------------>
+
+<p>After you have made all the changes and committed them, it is time to push the changes to the GitHub.<br>
+<br><i>git push</i> will sync all the changes made till now to your online GitHub repository.<br>
+<br>Run the command "<i>git push</i>".</p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 186. git push (162) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="/images/image186.png?raw=true"
   alt="Git push."
   style="width:65%;" />
-<p>
-Log into your GitHub account and verify if the local changes have
-synched.</p>
+
+<p>Log into your GitHub account and verify if the local changes have synched.</p>
+
 <h3>Summary Module 4:</h3>
-<p>
-In this lab, you have learned how to clone a GitHub repository, make
-changes to it, commit the changes locally, and push it back to GitHub.
-</p>
-<!----------------------------------- 5.10 chapter 5 summary ------------------------------------->
+
+<p>In this lab, you have learned how to clone a GitHub repository, make changes to it, commit the changes locally, and push it back to GitHub.</p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 5.10 chapter 5 summary ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch5-10">5.10 Chapter 5 Summary</h3>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>In this module (5), you learned that:</h4>
 <ul>
-<li>Distributed version control keeps track of changes to code,
-    regardless of where it is stored.&nbsp;<br><br></li>
-<li>Repositories are storage structures that:<br><br>
-<ul>
+  <li>Distributed version control keeps track of changes to code, regardless of where it is stored.&nbsp;<br><br></li>
+  <li>Repositories are storage structures that:<br><br>
+  <ul>
 	<li>Hold code<br><br></li>
 	<li>Track issues<br><br></li>
 	<li>Enable you to collaborate with others;<br><br></li>
-</ul></li>
-<li>Branches are used to isolate changes to code. When the changes are
-    complete, they can be merged back into the master branch.<br><br></li>
-<li>Repositories can be cloned to make it possible to work locally, then
-    sync changes back to the original.<br><br></li>
-<li>Repositories can be forked to be used as a base for a new project,
-    or so that the developer can work independently.<br><br></li>
-<li>Large projects include people working in different roles:<br><br>
+  </ul>
+  </li>
+  <li>Branches are used to isolate changes to code. When the changes are complete, they can be merged back into the master branch.<br><br></li>
+  <li>Repositories can be cloned to make it possible to work locally, then sync changes back to the original.<br><br></li>
+  <li>Repositories can be forked to be used as a base for a new project, or so that the developer can work independently.<br><br></li>
+  <li>Large projects include people working in different roles:<br><br>
   <ul>
     <li>Developer -- creates code<br><br></li>
     <li>Integrator -- manages changes made by developers;<br><br></li>
     <li>Repository Administrator -- configures and maintains access to
         the repository.</li>
   </ul>
-<br><br></li>
+  <br><br>
+  </li>
 </ul>
-<p><b><i>Last edited 1/4/2023 7:00am</i></b>
+<p>...the end.</p>
 
-...the end.
-</p>
+<b><i>Last edited 1/6/2023 11:29am</i></b>
+
 </html>
