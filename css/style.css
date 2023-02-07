@@ -24,14 +24,14 @@ h3 {
   font-family: Bahnschrift, Arial, Helvetic, sans-serif;
   font-size: 16px;
   text-align: left;
-  color: #a5d7dd ;  <!-- very ligh blue - sky? --->
+  color: black  ;  <!-- #a5d7dd very light blue - sky? --->
 }
 
 h4 {
   font-family: Bahnschrift, Arial, Helvetic, sans-serif;
   font-size: 15px;
   text-align: left;
-  color: #ffff00;  <!-- bright yellow --->
+  color: black  ;  <!-- #ffff00;  bright yellow --->
 }
 
 body {
