@@ -23,33 +23,39 @@ h3 {
   font-family: Bahnschrift, Arial, Helvetic, sans-serif;
   color: black;
   font-size: 16px;
-  text-align: left; }
+  text-align: left; 
+  margin-left: 5px; }
   
 h4 {
   font-family: Bahnschrift, Arial, Helvetic, sans-serif;
   color: black;
   font-size: 15px;
-  text-align: left; }
+  text-align: left; 
+  margin-left: 5px; }
 
 h5 {
   font-family: Bahnschrift, Arial, Helvetic, sans-serif;
   color: black;
   font-size: 14px;
-  text-align: left; }
+  text-align: left;
+  margin-left: 5px; }
 
 h6 {
   font-family: Bahnschrift, Arial, Helvetic, sans-serif;
   color: black;
   font-size: 11px;
-  text-align: left; }
+  text-align: left; 
+  margin-left: 5px; }
 
 h7 {
   font-family: Bahnschrift, Arial, Helvetic, sans-serif;
   color: black;
   font-size: 10px;
-  text-align: left; }
+  text-align: left; 
+  margin-left: 5px; }
     
 body {
   font-family: Bahnschrift, Arial, Helvetic, sans-serif;
   font-size: 13.5px;
-  text-align: left; }
+  text-align: left; 
+  margin-left: 5px; }
