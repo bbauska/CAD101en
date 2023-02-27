@@ -8,14 +8,14 @@ img.displayed {
   border-style: solid; }
 
 h1  {
-  font-family: Helvetic;
+  font-family: Bahnschrift, Helvetic, Arial, sans-serif;
   color: initial;
   text-align: center;
   font-size: 20px; }
   
 h2 {
   font-family: Bahnschrift, Arial, Helvetic, sans-serif;
-  color: green;
+  color: darkgreen;
   font-size: 18px;
   text-align: center; }
   
