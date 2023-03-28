@@ -8,70 +8,70 @@ img.displayed {
   border-style: solid; }
 
 h1  {
-  font-family: Bahnschrift, Helvetic, Arial, sans-serif;
+  font-family: Bahnschrift, Inter, Helvetic, sans-serif;
   color: initial;
   text-align: center;
   font-size: 20px; }
   
 h2 {
-  font-family: Bahnschrift, Arial, Helvetic, sans-serif;
+  font-family: Bahnschrift, Inter, Helvetic, sans-serif;
   color: darkgreen;
   font-size: 18px;
   text-align: center; }
   
 h3 {
-  font-family: Bahnschrift, Arial, Helvetic, sans-serif;
+  font-family: Bahnschrift, Inter, Helvetic, sans-serif;
   color: black;
-  font-size: 16px;
+  font-size: 17px;
   text-align: left; 
   margin-left: 5px; }
   
 h4 {
-  font-family: Bahnschrift, Arial, Helvetic, sans-serif;
+  font-family: Bahnschrift, Inter, Helvetic, sans-serif;
   color: black;
-  font-size: 15px;
+  font-size: 16px;
   text-align: left; 
   margin-left: 5px; }
 
 h5 {
-  font-family: Bahnschrift, Arial, Helvetic, sans-serif;
+  font-family: Bahnschrift, Inter, Helvetic, sans-serif;
   color: black;
-  font-size: 14px;
+  font-size: 15px;
   text-align: left;
   margin-left: 5px; }
 
 h6 {
-  font-family: Bahnschrift, Arial, Helvetic, sans-serif;
+  font-family: Bahnschrift, Inter, Helvetic, sans-serif;
   color: black;
-  font-size: 11px;
+  font-size: 13px;
   text-align: left; 
   margin-left: 5px; }
 
 h7 {
-  font-family: Bahnschrift, Arial, Helvetic, sans-serif;
+  font-family: Bahnschrift, Inter, Helvetic, sans-serif;
   color: black;
-  font-size: 10px;
+  font-size: 11px;
   text-align: left; 
   margin-left: 5px; }
     
 p {
-  font-family: Bahnschrift, Arial, Helvetic, sans-serif;
-  font-size: 13.5px;
+  font-family: Bahnschrift, Inter, Helvetic, sans-serif;
+  font-size: 15px;
   text-align: left; 
   margin-left: 5px; }
 
 background: linear-gradient(60deg, #3d3393 0%, #2b76b9 37%, #2cacd1 65%, #35eb93 100%)
 
 body {
-  font-family: Bahnschrift, Arial, Helvetic, sans-serif;
-  font-size: 100%;  // was 15px.
+  font-family: Bahnschrift, Inter, Helvetic, sans-serif;
+  font-size: 1.2rem;
   background-color: #EEEEEE;
   color: #000000;
   text-align: left;
-  padding: 5px;
+  padding: 10px;
   
 }
-
+<!-- 15px and 100% for font-size, padding was 5px -->
 #myBtn {
   display: none;
   position: fixed;
