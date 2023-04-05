@@ -69,7 +69,6 @@ body {
   color: #000000;
   text-align: left;
   padding: 10px;
-  
 }
 
 #myBtn {
@@ -81,8 +80,8 @@ body {
   font-size: 11px;
   border: none;
   outline: none;
-  background-color: red;
-  color: white;
+  background-color: #8b0000;
+  color: #fdfeff;
   cursor: pointer;
   padding: 10px;
   border-radius: 1px;
