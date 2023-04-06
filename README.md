@@ -3297,7 +3297,6 @@ A function is made up of the following parts:
    alt="Functions: Parts of a Function"
    width="65%" />
 &nbsp;
-
 <!------------------------------------------------------------------------------------------------>
 <!------------------------------ 81. creating custom objects (84) -------------------------------->
 <!------------------------------------------------------------------------------------------------>
@@ -3347,7 +3346,6 @@ newly created Car object.
 
 By using prototypes, you can easily define properties and methods for
 all instances of a particular object.
-
 <!------------------------------------------------------------------------------------------------>
 <!------------------------------------ 82. prototypes  (85) -------------------------------------->
 <!------------------------------------------------------------------------------------------------>
@@ -3381,7 +3379,6 @@ Car.prototype.floor_model = true;
 Any Car object that you create, or any car object that is already
 created, automatically inherits the new floor_model property and its
 value.
-
 <!------------------------------------------------------------------------------------------------>
 <!-------------------------- 83. adding functions to prototypes  (86) ---------------------------->
 <!------------------------------------------------------------------------------------------------>
@@ -3401,7 +3398,6 @@ function that returns the make, model, and year.
 
 All existing instances of the Car object also inherit the getName
 method.
-
 <!------------------------------------------------------------------------------------------------>
 <!------------------------------ 84. self-executing functions (87) ------------------------------->
 <!------------------------------------------------------------------------------------------------>
@@ -3465,7 +3461,6 @@ After reading this section, you will be able to:
 
 A client-side script is a program that accompanies an HTML document or
 might be embedded directly in the HTML document itself.
-
 <!------------------------------------------------------------------------------------------------>
 <!---------------------------------- 85. scripts in html (88) ------------------------------------>
 <!------------------------------------------------------------------------------------------------>
@@ -3495,7 +3490,6 @@ clicking of a button.
 
 Scripts can be used to dynamically create document elements on an HTML
 page.
-
 <!------------------------------------------------------------------------------------------------>
 <!-------------------------- 86. <script> tag examples: example 1 (89) --------------------------->
 <!------------------------------------------------------------------------------------------------>
@@ -3512,7 +3506,6 @@ HTML document.
 
 This method is good for short scripts, but when a script is long, the
 method used in example 2 is preferred.
-
 <!------------------------------------------------------------------------------------------------>
 <!-------------------------- 87. <script> tag examples: example 2 (89) --------------------------->
 <!------------------------------------------------------------------------------------------------>
@@ -3530,7 +3523,6 @@ several HTML documents.
 
 Some users who visit your website might disable JavaScript from running,
 or they might be using a browser that does not support scripting.
-
 <!------------------------------------------------------------------------------------------------>
 <!-------------------------- 88. when scripting is not available (90) ---------------------------->
 <!------------------------------------------------------------------------------------------------>
@@ -3548,7 +3540,6 @@ of code that is within the noscript tag.
 
 Scripts can be run on the detection of certain events that happen when
 the page is running in a browser session.
-
 <!------------------------------------------------------------------------------------------------>
 <!-------------------------- 89. scripts tied to intrinsic events (90) --------------------------->
 <!------------------------------------------------------------------------------------------------>
@@ -3568,7 +3559,6 @@ such as a button, that declares a handler for the event.
 
 The event handler is a function that declares what to do when the button
 is clicked.
-
 <!------------------------------------------------------------------------------------------------>
 <!------------------------------ 90. event binding in scripts (92) ------------------------------->
 <!------------------------------------------------------------------------------------------------>
@@ -3614,7 +3604,6 @@ After reading this section, you will be able to:
 
 -   Identify the DOM objects that are commonly used in JavaScript
     applications for working with HTML documents.
-
 <!------------------------------------------------------------------------------------------------>
 <!----------------------------- 91. dom programming interface (93) ------------------------------->
 <!------------------------------------------------------------------------------------------------>
@@ -3633,7 +3622,6 @@ structure, and style of documents.
 
 JavaScript uses the DOM to access and modify web page elements in the
 web browser.
-
 <!------------------------------------------------------------------------------------------------>
 <!------------------------------------- 92. dom levels (93) -------------------------------------->
 <!------------------------------------------------------------------------------------------------>
@@ -3648,7 +3636,6 @@ Object Model specifications.
 
 Each successive level provides a more detailed set of features for
 describing structured documents.
-
 <!------------------------------------------------------------------------------------------------>
 <!--------------------------- 93. basic dom model for browsers (94) ------------------------------>
 <!------------------------------------------------------------------------------------------------>
@@ -3667,7 +3654,6 @@ and DOM Level 1 HTML
 APIs to access HTML elements with the DOM.
 
 The JavaScript engine in most web browsers fully supports DOM level 1.
-
 <!------------------------------------------------------------------------------------------------>
 <!--------------------------- 93. basic dom model for browsers (94) ------------------------------>
 <!------------------------------------------------------------------------------------------------>
@@ -3716,7 +3702,6 @@ for you.
 
 You can then access the window object properties and functions from your
 JavaScript code.
-
 <!------------------------------------------------------------------------------------------------>
 <!----------------------------- 94. client-side window object (95) ------------------------------->
 <!------------------------------------------------------------------------------------------------>
@@ -3742,7 +3727,6 @@ This figure shows the object model for a simple HTML document.
 
 Notice how the object hierarchy matches the HTML containment hierarchy
 on the left.
-
 <!------------------------------------------------------------------------------------------------>
 <!--------------------------- 95. html document object diagram (96) ------------------------------>
 <!------------------------------------------------------------------------------------------------>
@@ -3754,7 +3738,6 @@ on the left.
 
 The object diagram can also be represented as a tree structure that
 corresponds to the structure of the HTML document.
-
 <!------------------------------------------------------------------------------------------------>
 <!---------------------- 96. html document object diagram with tree (96) ------------------------->
 <!------------------------------------------------------------------------------------------------>
@@ -3773,7 +3756,6 @@ All HTML tags (html, head, meta, title, and body) are element nodes.
 
 The nodes that contain actual text that go between an element start tag
 and end tag, are text nodes.
-
 <!------------------------------------------------------------------------------------------------>
 <!---------------------------- 97. DOM Level 2 Tree for a Form (97) ------------------------------>
 <!------------------------------------------------------------------------------------------------>
@@ -3788,7 +3770,6 @@ document.
 
 The line feeds between elements are text nodes and are part of the DOM
 level 2 tree.
-
 <!------------------------------------------------------------------------------------------------>
 <!--------------------------- 98. DOM Level 2 Tree for a Form #2 (97) ---------------------------->
 <!------------------------------------------------------------------------------------------------>
@@ -3843,7 +3824,6 @@ After reading this section, you will be able to:
 
 -   Identify the DOM objects that are commonly used in JavaScript
     applications for working with HTML documents.
-
 <!------------------------------------------------------------------------------------------------>
 <!---------------------------- 99. dom html-related note types (98) ------------------------------>
 <!------------------------------------------------------------------------------------------------>
@@ -3867,7 +3847,6 @@ integer value.
 For example:
 
 An ELEMENT_NODE type is represented by the integer 1.
-
 <!------------------------------------------------------------------------------------------------>
 <!--------------------------- 100. dom html-related node types (99) ------------------------------>
 <!------------------------------------------------------------------------------------------------>
@@ -3912,7 +3891,6 @@ corresponding data types.
 
 You see these properties when you view a DOM tree for an HTML page in a
 browser's developer tools, like Chrome's DevTools.
-
 <!------------------------------------------------------------------------------------------------>
 <!------------------------- 102. accessing document elements #1 (100) ---------------------------->
 <!------------------------------------------------------------------------------------------------>
@@ -3935,7 +3913,6 @@ index of each array starts at zero.
 Each of the array types, such as forms\[\], contains an array of
 elements\[\] with each index element being the fields or buttons that
 occur in that form.
-
 <!------------------------------------------------------------------------------------------------>
 <!------------------------- 103. accessing document elements #2 (101) ---------------------------->
 <!------------------------------------------------------------------------------------------------>
@@ -3947,7 +3924,6 @@ occur in that form.
 
 You can reference the element named field1 in the figure by its relative
 position as document.forms\[0\].elements\[0\].
-
 <!------------------------------------------------------------------------------------------------>
 <!------------------------- 104. accessing document elements #3 (101) ---------------------------->
 <!------------------------------------------------------------------------------------------------>
@@ -3960,8 +3936,7 @@ position as document.forms\[0\].elements\[0\].
 You can reference the same field with named elements; for example,
 document.forms\[\"form1\"\].elements\[\"field1\"\], or even the
 shortened document.form1.field1.
-
-<!------------------------------------------------------------------------------------------------>
+!------------------------------------------------------------------------------------------------->
 <!------------------------- 105. accessing document elements #4 (102) ---------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
@@ -3981,7 +3956,6 @@ element with a name that matches the value of the id attribute.
 
 In order to assign a scriptable reference name to an HTML element with
 the id attribute, use the following conventions:
-
 <!------------------------------------------------------------------------------------------------>
 <!---------------------------------- 106. object naming (102) ------------------------------------>
 <!------------------------------------------------------------------------------------------------>
@@ -4047,7 +4021,6 @@ Some of these common APIs used in when accessing HTML DOM elements in
 web pages are seen on the slide.
 
 DOM elements are reviewed next.
-
 <!------------------------------------------------------------------------------------------------>
 <!------------------------- 108. retrieving a reference to a node (104) -------------------------->
 <!------------------------------------------------------------------------------------------------>
@@ -4077,7 +4050,6 @@ tag.
 
 If you run the function getElementsByTagName with a "p" as a parameter
 argument, a NodeList of all the paragraphs in the document is returned.
-
 <!------------------------------------------------------------------------------------------------>
 <!-------------------------- 109. example: retrieving all images (104) --------------------------->
 <!------------------------------------------------------------------------------------------------>
@@ -4107,7 +4079,6 @@ create an element in the current document.
 
 After creating the element, you can use any of a number of functions to
 place the element in the appropriate location within the document.
-
 <!------------------------------------------------------------------------------------------------>
 <!------------------------- 110. adding new nodes (105) --------------------->
 <!------------------------------------------------------------------------------------------------>
@@ -4120,7 +4091,6 @@ place the element in the appropriate location within the document.
 Examples of these functions include the insertBefore, appendChild, or
 replaceChild function that can be used to add the newly created element
 into the document.
-
 <!------------------------------------------------------------------------------------------------>
 <!----------------------------- 111. example: adding a node (106) -------------------------------->
 <!------------------------------------------------------------------------------------------------>
@@ -4139,7 +4109,6 @@ The text node is then appended as a child of the paragraph element.
 
 Finally, the entire paragraph with text is appended as a child node at
 the end of the body node of the HTML page.
-
 <!------------------------------------------------------------------------------------------------>
 <!-------------------------- 112. modifying an elements content (106) ---------------------------->
 <!------------------------------------------------------------------------------------------------>
@@ -4171,7 +4140,6 @@ The way to set the style in JavaScript is with the format
 element.style.propertyName = value.
 
 For example, if you had an element \<div style=\"color:blue\"\>.
-
 <!------------------------------------------------------------------------------------------------>
 <!---------------------------- 113. modifying the inline style (107) ----------------------------->
 <!------------------------------------------------------------------------------------------------>
@@ -4186,7 +4154,6 @@ a color style. You can change the style of this div tag with the
 JavaScript statement:
 
 div.style.color = \'red\';
-
 <!------------------------------------------------------------------------------------------------>
 <!---------------------------- 114. modifying the inline style (108) ----------------------------->
 <!------------------------------------------------------------------------------------------------>
@@ -4197,10 +4164,7 @@ div.style.color = \'red\';
 &nbsp;
 
 In contrast, the element.setAttribute(\'style\', ...) wipes out all
-previously set inline CSS
-
-styles.
-
+previously set inline CSS styles.
 <!------------------------------------------------------------------------------------------------>
 <!------------------------------- 115. modifying attributes (108) -------------------------------->
 <!------------------------------------------------------------------------------------------------>
@@ -4221,7 +4185,6 @@ an element.
 
 The function element.getAttribute(attrName) retrieves the value of the
 specified attribute in the element, if it exists.
-
 <!------------------------------------------------------------------------------------------------>
 <!------------------------- 116. window object methods and events (109) -------------------------->
 <!------------------------------------------------------------------------------------------------>
@@ -4232,7 +4195,6 @@ specified attribute in the element, if it exists.
 &nbsp;
 
 Here are some window object functions and events.
-
 <!------------------------------------------------------------------------------------------------>
 <!---------------------- 117.  window object methods and events #2 (109) ------------------------->
 <!------------------------------------------------------------------------------------------------>
@@ -4277,7 +4239,6 @@ information than the alert() method.
 
 Finally, the window.scrollTo(x-value, y-value) scrolls the web browser
 to a particular set of coordinates on a page.
-
 <!------------------------------------------------------------------------------------------------>
 <!-------------------------- 118. example: using window.onload (110) ----------------------------->
 <!------------------------------------------------------------------------------------------------>
@@ -4289,7 +4250,6 @@ to a particular set of coordinates on a page.
 
 The onload event handler runs in the current window after the document
 loads the web page.
-
 <!------------------------------------------------------------------------------------------------>
 <!------------------------------------- 119. summary (111) --------------------------------------->
 <!------------------------------------------------------------------------------------------------>
@@ -4409,7 +4369,6 @@ others. 
 
 You can't talk about Git and GitHub without a basic understanding of
 what version control is. 
-
 <!------------------------------------------------------------------------------------------------>
 <!---------------------------------- 120. version control (113) ---------------------------------->
 <!------------------------------------------------------------------------------------------------>
@@ -4441,7 +4400,6 @@ confirm the things you need and add additional items. 
 
 Without version control, you've got a big mess to clean up before you
 can go shopping. 
-
 <!------------------------------------------------------------------------------------------------>
 <!-------------------------- 122. working with version control (114) ----------------------------->
 <!------------------------------------------------------------------------------------------------>
@@ -4453,7 +4411,6 @@ can go shopping. 
 
 With version control, you know EXACTLY what you need after everyone has
 contributed their ideas. 
-
 <!------------------------------------------------------------------------------------------------>
 <!--------------------------------------- 123. git (115) ----------------------------------------->
 <!------------------------------------------------------------------------------------------------>
@@ -4491,7 +4448,6 @@ Git repositories. 
    alt="git logos: git + github"
    width="65%" />
 &nbsp;
-
 Others include GitLab, BitBucket, and Beanstalk. 
 
 There are a few basic terms that you will need to know before you can
@@ -4519,7 +4475,6 @@ your changes before they become final. 
 
 A working directory contains the files and subdirectories on your
 computer that are associated with a Git repository. 
-
 <!------------------------------------------------------------------------------------------------>
 <!-------------------------------- 126. basic git commands (117) --------------------------------->
 <!------------------------------------------------------------------------------------------------>
@@ -4555,7 +4510,6 @@ repository to make changes. 
 <b>\"git checkout\"</b> lets you see and change existing branches. 
 
 <b>\"git merge\"</b> lets you put everything back together again. 
-
 <!------------------------------------------------------------------------------------------------>
 <!------------------------------ 127. https://try.github.io (118) -------------------------------->
 <!------------------------------------------------------------------------------------------------>
@@ -4599,8 +4553,7 @@ control system. 
 
 The project ran in short time frames and the key characteristics were
 defined by a small group. 
-
-<!------------------------------------------------------------------------------------------------>
+0<!------------------------------------------------------------------------------------------------>
 <!-------------------------------- 128. background of git (119) ---------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
@@ -4634,7 +4587,6 @@ updates. 
 
 Many pathways of development can lead to complex integration decisions
 that might require explicit integration strategies. 
-
 <!------------------------------------------------------------------------------------------------>
 <!--------------------------------- 129. git repository model (120) ------------------------------>
 <!------------------------------------------------------------------------------------------------>
@@ -4652,7 +4604,6 @@ Primarily focused on tracking source code during development. 
 
 Contains elements to coordinate among programmers, track changes, and
 support non-linear workflows. 
-
 <!------------------------------------------------------------------------------------------------>
 <!---------------------------------- 130. what is git? (121) ------------------------------------->
 <!------------------------------------------------------------------------------------------------>
@@ -4692,7 +4643,6 @@ interface. 
 
 IBM Cloud is based on sound and established open-source tools including
 Git repositories, often called repos. 
-
 <!------------------------------------------------------------------------------------------------>
 <!---------------------------------- 131. what is github? (122) ---------------------------------->
 <!------------------------------------------------------------------------------------------------>
@@ -4722,7 +4672,6 @@ A Repository is: 
 
 -   GitLab provides access to Git repositories, controlled by source
     code management. 
-
 <!------------------------------------------------------------------------------------------------>
 <!--------------------------------- 132. what is gitlab? (123) ----------------------------------->
 <!------------------------------------------------------------------------------------------------>
@@ -4771,7 +4720,6 @@ After reading this section, you will be able to:
 -   Describe how to create a repository.
 
 -   Signing up for a free, personal account on GitHub is quick and easy.
-
 <!------------------------------------------------------------------------------------------------>
 <!-------------------------------- 133. create an account (124) ---------------------------------->
 <!------------------------------------------------------------------------------------------------>
@@ -4807,7 +4755,6 @@ provides you with some starting points.
 
 You can choose to create a repository or an organization, or you can
 take the Introduction to GitHub course.
-
 <!------------------------------------------------------------------------------------------------>
 <!------------------------------- 134. create a repository (125) --------------------------------->
 <!------------------------------------------------------------------------------------------------>
@@ -4844,7 +4791,6 @@ like:
 You can also make your repository private (only available to people with
 accounts that have permission to see it) or public (searchable and seen
 by everyone).
-
 <!------------------------------------------------------------------------------------------------>
 <!---------------------------- 135. exploring your repository (126) ------------------------------>
 <!------------------------------------------------------------------------------------------------>
@@ -4903,7 +4849,6 @@ After reading this section, you will be able to:
 -   describe how to merge changes into branches.
 
 All files in GitHub are stored on a branch.
-
 <!------------------------------------------------------------------------------------------------>
 <!------------------------------- 136. what are branches? (127) ---------------------------------->
 <!------------------------------------------------------------------------------------------------>
@@ -4925,7 +4870,6 @@ descriptive name.
 The new branch starts as an exact copy of the original branch.
 
 As you make changes, the branch that you created holds the changed code.
-
 <!------------------------------------------------------------------------------------------------>
 <!----------------------------- 137. how to create a branch (128) -------------------------------->
 <!------------------------------------------------------------------------------------------------>
@@ -5002,7 +4946,6 @@ Some rules:
     for the details.
 
 -   Always write in an "active" voice.
-
 <!------------------------------------------------------------------------------------------------>
 <!----------------------------- 139. what is a pull request? (129) ------------------------------->
 <!------------------------------------------------------------------------------------------------>
@@ -5030,7 +4973,6 @@ Since the log files are immutable, it is always possible to find the
 person who approved the merge of the change.
 
 To open a new pull request:
-
 <!------------------------------------------------------------------------------------------------>
 <!------------------------- 140. open a pull request (130) --------------------->
 <!------------------------------------------------------------------------------------------------>
@@ -5080,7 +5022,6 @@ To merge a committed code change into your master code.
 Click Merge pull request.
 
 Click Confirm merge.
-
 <!------------------------------------------------------------------------------------------------>
 <!------------------------------ 142. merge a pull request (131) --------------------------------->
 <!------------------------------------------------------------------------------------------------>
@@ -5116,7 +5057,6 @@ Pull requests enables other users to review and use the proposed changes
 
 When you are ready to merge the changed code into the master branch, you
 merge the committed code changes into your master code.
-
 <!------------------------------------------------------------------------------------------------>
 <!------------------------------------- 143. summary (132) --------------------------------------->
 <!------------------------------------------------------------------------------------------------>
@@ -5140,7 +5080,6 @@ After reading this section, you will be able to:
 -   Fork a project to make a base for a new project.
 
 -   Use git commands to communicate with other developers.
-
 <!------------------------------------------------------------------------------------------------>
 <!----------------------------- 144. team working with github (133) ------------------------------>
 <!------------------------------------------------------------------------------------------------>
@@ -5169,7 +5108,6 @@ starting point for your new project.
 
 To clone a GitHub repository, navigate to the repository that you want
 to clone.
-
 <!------------------------------------------------------------------------------------------------>
 <!-------------------------- 145. cloning a github repository #1 (133) --------------------------->
 <!------------------------------------------------------------------------------------------------>
@@ -5286,14 +5224,13 @@ repo, and merge them to a branch.
 
 Developers use the terms upstream and origin when talking about remote
 reps.
-
 <!------------------------------------------------------------------------------------------------>
 <!------------------------------ 151. remote repositories #4 (137) ------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="images/image151.png"
-   alt="Remote Repositories #4"
-   width="65%" />
+  alt="Remote Repositories #4"
+  width="65%" />
 &nbsp;
 
 Origin generally refers to your fork and upstream refers to the original
@@ -5313,9 +5250,7 @@ You can of course name them anything you like.
 &nbsp;
 
 Forking is used to take a copy of a GitHub repository and use it as the
-base for a new
-
-project.
+base for a new project.
 
 You can also use forking to submit back changes into the original
 repository.
@@ -5331,14 +5266,13 @@ It is often a legal requirement to keep a copy of the of the license
 file.
 
 Even if no legal requirement exists, it's good practice.
-
 <!------------------------------------------------------------------------------------------------>
 <!--------------------------- 153. steps in forking a project (138) ------------------------------>
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="images/image153.png" 
-   alt="Steps in Forking of a Project"
-   width="65%" />
+  alt="Steps in Forking of a Project"
+  width="65%" />
 &nbsp;
 
 Navigate to the repository that you want to fork.
@@ -5346,14 +5280,13 @@ Navigate to the repository that you want to fork.
 In the top-right corner, click the "Fork" button.
 
 To keep a fork in sync with the original work from a local clone.
-
 <!------------------------------------------------------------------------------------------------>
 <!--------------------------- 154. syncing a fork of a project (138) ----------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="images/image154.png" 
-   alt="Syncing a Fork of a Project"
-   width="65%" />
+  alt="Syncing a Fork of a Project"
+  width="65%" />
 &nbsp;
 
 First, create a local clone of the project.
@@ -5371,14 +5304,13 @@ Adding upstream adds the original repository as a new remote repository
 labelled upstream.
 
 If you type "git remote --v", you'll see the change reflected.
-
 <!------------------------------------------------------------------------------------------------>
 <!--------------------------- 155. commands for managing forks (139) ----------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="images/image155.png" 
-   alt="Commands for managing forks"
-   width="65%" />
+  alt="Commands for managing forks"
+  width="65%" />
 &nbsp;
 
 Other commands of interest include "git fetch upstream" to grab upstream
@@ -5414,14 +5346,13 @@ After reading this section, you will be able to:
 A Developer working as a participant in a group project needs to learn
 how to communicate with others and uses these commands in addition to
 the ones needed by a standalone developer.
-
 <!------------------------------------------------------------------------------------------------>
 <!---------------------------- 156. github developer commands (140) ------------------------------>
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="images/image156.png"
-   alt="GitHub Developer commands"
-   width="65%" />
+  alt="GitHub Developer commands"
+  width="65%" />
 &nbsp;
 
 When working with Git, you can use Git commands or a desktop tool such
@@ -5443,14 +5374,13 @@ as GitHub Desktop.
 
 -   git-request-pull to create a summary of changes for your upstream to
     pull.
-
 <!------------------------------------------------------------------------------------------------>
 <!-------------------------------- 157. github integrator (141) ---------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="images/image156.png" 
-   alt="GitHub Integrator"
-   width="65%" />
+  alt="GitHub Integrator"
+  width="65%" />
 &nbsp;
 
 An integrator in a group project receives changes made by others,
@@ -5470,14 +5400,13 @@ participants.
 -   git-revert to undo botched commits.
 
 -   git-push to publish the bleeding edge.
-
 <!------------------------------------------------------------------------------------------------>
 <!------------------------- 158. github repository administrator (141) --------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="images/image158.png" 
-   alt="GitHub Repository Administrator"
-   width="65%" />
+  alt="GitHub Repository Administrator"
+  width="65%" />
 &nbsp;
 
 A Repository Administrator uses the following tools to set up and
@@ -5528,14 +5457,13 @@ Start Lab
 <h3 id="ch5-7">5.7 Git Installation on Desktop</h3>
 
 Installing Git Bash
-
 <!------------------------------------------------------------------------------------------------>
 <!---------------------------------- 159. ibm cloud logo (143) ----------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="images/image159.png"
-   alt="IBM Cloud logo"
-   width="20%" />
+  alt="IBM Cloud logo"
+  width="20%" />
 &nbsp;
 
 <b>Estimated time</b>: 20 minutes
@@ -5564,25 +5492,23 @@ following steps:
     page](https://git-scm.com/downloads?cm_mmc=Email_Newsletter-_-Developer_Ed%2BTech-_-WW_WW-_-SkillsNetwork-Courses-IBMDeveloperSkillsNetwork-CD0101EN-SkillsNetwork-20336975&cm_mmca1=000026UJ&cm_mmca2=10006555&cm_mmca3=M12345678&cvosrc=email.Newsletter.M12345678&cvo_campaign=000026UJ&cm_mmc=Email_Newsletter-_-Developer_Ed%2BTech-_-WW_WW-_-SkillsNetwork-Courses-IBMDeveloperSkillsNetwork-CD0101EN-SkillsNetwork-20336975&cm_mmca1=000026UJ&cm_mmca2=10006555&cm_mmca3=M12345678&cvosrc=email.Newsletter.M12345678&cvo_campaign=000026UJ).
     Click <b>Download \[version number\] for Windows</b>, as shown in the
     following image:
-
 <!------------------------------------------------------------------------------------------------>
 <!------------------------------------ 160. downloads (144) -------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="images/image160.png" 
-   alt="Downloads"
-   width="65%" />
+  alt="Downloads"
+  width="65%" />
 &nbsp;
 
 You will be redirected to a new page and the download will start.
-
 <!------------------------------------------------------------------------------------------------>
 <!--------------------------------- 161. downloading git  (144) ---------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="images/image161.png" 
-   alt="Downloading Git"
-   width="65%" />
+  alt="Downloading Git"
+  width="65%" />
 &nbsp;
 
 <b>Note</b>: If the download doesn\'t start, click <b>Click here to download
@@ -5590,32 +5516,29 @@ manually</b>.
 
 2.  Go to the folder where you saved the file and double-click to open
     it.
-
 <!------------------------------------------------------------------------------------------------>
 <!--------------------------- 162. open file security warning (145) ------------------------------>
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="images/image162.png" 
-   alt="Open File Security Warning"
-   width="65%" />
+  alt="Open File Security Warning"
+  width="65%" />
 &nbsp;
 
 3.  Click <b>Run</b> to begin the installation.
-
 <!------------------------------------------------------------------------------------------------>
 <!--------------------------- 163. click run to begin install (145) ------------------------------>
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
 <img src="images/image163.png"
-   alt="Click Next to Begin Install"
-   width="65%" />
+  alt="Click Next to Begin Install"
+  width="65%" />
 &nbsp;
 
 4.  Select the location where you want to install Git Bash. 
 
 <b>Note</b>: It\'s recommended that you simply install to the default
 location. Click <b>Next</b>.
-
 <!------------------------------------------------------------------------------------------------>
 <!----------------------- 164. select location to install git bash (146) ------------------------->
 <!------------------------------------------------------------------------------------------------>
@@ -5648,7 +5571,6 @@ location. Click <b>Next</b>.
 &nbsp;
 
 7.  Select the default editor for Git to use. Click <b>Next</b>.
-
 <!------------------------------------------------------------------------------------------------>
 <!-------------------------- 167. choose default editor for git (14x) ---------------------------->
 <!------------------------------------------------------------------------------------------------>
@@ -5660,7 +5582,6 @@ location. Click <b>Next</b>.
 
 8.  Choose how you want to use Git from the command line.
     Click <b>Next</b>.
-
 <!------------------------------------------------------------------------------------------------>
 <!--------------------- 168. choose how you want to use git from cli (148) ----------------------->
 <!------------------------------------------------------------------------------------------------>
@@ -5671,7 +5592,6 @@ location. Click <b>Next</b>.
 &nbsp;
 
 9.  Select <b>Use the OpenSSL library</b>. Click <b>Next</b>.
-
 <!------------------------------------------------------------------------------------------------>
 <!------------------------- 169. use openssl library or native windows (148) --------------------->
 <!------------------------------------------------------------------------------------------------>
@@ -5684,7 +5604,6 @@ location. Click <b>Next</b>.
 10. Configure your line ending conversions for Windows by selecting the
     default option, <b>Checkout Windows-style, commit Unix-style line
     endings</b>. Click <b>Next</b>.
-
 <!------------------------------------------------------------------------------------------------>
 <!----------------------------- 170. line ending conversions (149) ------------------------------->
 <!------------------------------------------------------------------------------------------------>
@@ -5719,7 +5638,6 @@ location. Click <b>Next</b>.
 
 13. Select any additional options you want to install. (The default
     option is sufficient to use Git Bash successfully). Click <b>Next</b>.
-
 <!------------------------------------------------------------------------------------------------>
 <!---------------------------- 173. configuring extra options  (151) ----------------------------->
 <!------------------------------------------------------------------------------------------------>
@@ -5735,7 +5653,6 @@ location. Click <b>Next</b>.
     options to use Git Bash. Click <b>Install</b> to complete the
     installation with the options you have chosen. The installation runs
     and when complete, a Completing the Git Setup Wizard window opens.
-
 <!------------------------------------------------------------------------------------------------>
 <!--------------------------- 174. experimental options? yes/no (152) ---------------------------->
 <!------------------------------------------------------------------------------------------------>
@@ -5746,7 +5663,6 @@ location. Click <b>Next</b>.
 &nbsp;
 
 15. Leave the checkboxes selected and click <b>Next</b>.
-
 <!------------------------------------------------------------------------------------------------>
 <!--------------------- 175. leave checkboxes selected and click next (152) ---------------------->
 <!------------------------------------------------------------------------------------------------>
@@ -5758,7 +5674,6 @@ location. Click <b>Next</b>.
 
 The Git Bash terminal opens. You are now able to enter Git and Bash
 commands.
-
 <!------------------------------------------------------------------------------------------------>
 <!--------------------------------- 176. git bash terminal (1xx) --------------------------------->
 <!------------------------------------------------------------------------------------------------>
@@ -5774,7 +5689,6 @@ commands.
 <h3 id="ch5-8">5.8 SSH Key Creation</h3>
 
 <h3>Generate an SSH key</h3>
-
 <!------------------------------------------------------------------------------------------------>
 <!----------------------------- 159. ibm skills network logo (153) ------------------------------->
 <!------------------------------------------------------------------------------------------------>
@@ -5845,7 +5759,6 @@ key.
 <h3 id="ch5-9">5.9 Adding an SSH Key to GitHub</h3>
 
 <h3>Lab: Adding an SSH key to GitHub</h3>
-
 <!------------------------------------------------------------------------------------------------>
 <!----------------------------- 159. ibm skills network logo (154) ------------------------------->
 <!------------------------------------------------------------------------------------------------>
@@ -5882,7 +5795,6 @@ command line and the copy the output.
 <div align="right">
   <b><a href="#table-of-contents">↥ Back To Top</a></b>
 </div>
-
 <!------------------------------------------------------------------------------------------------>
 <!--------------------------------- 177. github settings (155) ----------------------------------->
 <!------------------------------------------------------------------------------------------------>
@@ -5900,14 +5812,13 @@ command line and the copy the output.
 <!--------------------------------- 178. ssh and gpg keys (155) ---------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center">
-<img src="images/image178.png" 
-   alt="SSH and GPG Keys"
-   width="65%" />
+<img src="images/image178.png"
+  alt="SSH and GPG Keys"
+  width="65%" />
 &nbsp;
 </p>
 
 4.  Click <b>New SSH key</b>.
-
 <!------------------------------------------------------------------------------------------------>
 <!----------------------------------- 179. new ssh key (156) ------------------------------------->
 <!------------------------------------------------------------------------------------------------>
@@ -5943,7 +5854,6 @@ Congratulations! You have now learned how to add an SSH key to GitHub.
 <h3>Module 5, Using Git from Your Own Desktop</h3>
 
 <h3>Hands-on Lab: Cloning, committing and pushing your GitHub repo from the command line.</h3>
-
 <!------------------------------------------------------------------------------------------------>
 <!------------------------------- 159. ibm developer logo (157) ---------------------------------->
 <!------------------------------------------------------------------------------------------------>
@@ -5996,7 +5906,6 @@ To clone a repo, you need the ssh url of the repo.
 
 4.  Click on the \'clipboard icon\' to copy the url. Paste this url
     where you can access it later.
-
 <!------------------------------------------------------------------------------------------------>
 <!---------------------------------- 181. copy/paste url (158) ----------------------------------->
 <!------------------------------------------------------------------------------------------------>
@@ -6012,7 +5921,6 @@ To clone a repo, you need the ssh url of the repo.
 6.  Navigate to a directory where you wish to clone the repo.
 
 7.  Run the command \"git clone \".
-
 <!------------------------------------------------------------------------------------------------>
 <!------------------------------------ 182. git clone (158) -------------------------------------->
 <!------------------------------------------------------------------------------------------------>
@@ -6043,7 +5951,6 @@ verify all were downloaded.
 <h3>Exercise 2: Make changes to cloned files</h3>
 
 Using your favorite editor make the changes to the html file.
-
 <!------------------------------------------------------------------------------------------------>
 <!---------------------------------- 184. edit the html (159) ------------------------------------>
 <!------------------------------------------------------------------------------------------------>
@@ -6055,7 +5962,6 @@ Using your favorite editor make the changes to the html file.
 </p>
 
 <b>git status</b> will show all the modified files.
-
 <!------------------------------------------------------------------------------------------------>
 <!----------------------------------- 185. git status (160) -------------------------------------->
 <!------------------------------------------------------------------------------------------------>
@@ -6104,7 +6010,6 @@ push the changes to the GitHub.
 GitHub repository.
 
 Run the command \"git push\"
-
 <!------------------------------------------------------------------------------------------------>
 <!------------------------------------- 186. git push (161) -------------------------------------->
 <!------------------------------------------------------------------------------------------------>
@@ -6127,26 +6032,26 @@ changes to it, commit the changes locally, and push it back to GitHub.
 
 In this module (5), you learned that:
 <ul>
-<li>Distributed version control keeps track of changes to code,
-    regardless of where it is stored,<br/>&nbsp;</li>
-<li>Repositories are storage structures that:
-	<ul>
+  <li>Distributed version control keeps track of changes to code,
+  regardless of where it is stored,<br/>&nbsp;</li>
+  <li>Repositories are storage structures that:
+  <ul>
     <li>Hold code</li>
     <li>Track issues</li>
     <li>Enable you to collaborate with others</li>
-</ul></li>
-<li>Branches are used to isolate changes to code. When the changes are
+  </ul></li>
+  <li>Branches are used to isolate changes to code. When the changes are
     complete, they can be merged back into the master branch,<br/>&nbsp;</li>
-<li>Repositories can be cloned to make it possible to work locally, then
+  <li>Repositories can be cloned to make it possible to work locally, then
     sync changes back to the original.<br/>&nbsp;</li>
-<li>Repositories can be forked to be used as a base for a new project,
+  <li>Repositories can be forked to be used as a base for a new project,
     or so that the developer can work independently.<br/>&nbsp;</li>
-<li>Large projects include people working in different roles:
-	<ul>
+  <li>Large projects include people working in different roles:
+  <ul>
     <li>Developer -- creates code</li>
     <li>Integrator -- manages changes made by developers</li>
     <li>Repository Administrator -- configures and maintains access to the repository</li>
-	</ul>
+  </ul>
 </ul>
 
 <p><b><i>Last edited 2/4/2023 4:31pm +</i></b></p>
