@@ -7,6 +7,10 @@ img.displayed {
   border-color: #778899;
   border-style: solid; }
 
+font-family: Consolas, "Andale Mono WT", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L", Monaco, "Courier New", Courier, monospace;
+pre { white-space: pre-wrap; }
+pre:hover, pre:focus { width: min-content; }
+
 h1  {
   font-family: Bahnschrift, Inter, Helvetic, sans-serif;
   color: initial;
