@@ -2710,9 +2710,9 @@ the loop never terminates.</p>
 <p>This is an example of declaring a function named Car that accepts three arguments as parameters<br>
 <br>A little further down, you specifically ask the function to run, by declaring the statement:</p>
 
-<pre>
+<pre><mark class="red"><b>
       var c = new Car with the arguments; "meridian", "Sabre GT" and 2012.
-</pre>
+</b></mark></pre>
 
 <p>In the Car function, the keyword "this" refers to the current instance of the Car object that is being created. In other words, an instance of Car that is associated with the variable named c.<br>
 <br>The getName function of Car returns the make, model, and year of the newly created Car object.</p>
@@ -2755,11 +2755,11 @@ objects that match the prototype.<br>
 In the Car example that is shown on the slide, you can add another
 property to the Car prototype, with the statement:</p>
 
-<pre>
+<pre><mark class="red"><b>
       Car.prototype.property_name as in:
 
       Car.prototype.floor_model = true;
-</pre>
+</b></mark></pre>
 
 <p>
 Any Car object that you create, or any car object that is already
@@ -2892,9 +2892,9 @@ arguments as Parameters.<br>
 A little further down, you specifically ask the function to run, by
 declaring the statement:</p>
 
-<pre>
+<pre><mark class="red"><b>
       $ var c = new Car with the arguments "meridian", "Sabre GT" and 2012.
-</pre>
+</b></mark></pre>
 
 <p>
 In the Car function, the keyword "this" refers to the current instance
@@ -2940,9 +2940,9 @@ property to the Car prototype, with the statement:<br>
 <br>
 Car.prototype.property_name as in:</p>
 
-<pre>
+<pre><mark class="red"><b>
       Car.prototype.floor_model = true;
-</pre>
+</b></mark></pre>
 
 <p>
 Any Car object that you create, or any car object that is already
@@ -3691,9 +3691,9 @@ Here the &lt;div&gt; tag is used to group block-elements to format them with
 a color style. You can change the style of this div tag with the
 JavaScript statement:</p>
 
-<pre>
+<pre><mark class="red"><b>
       $ div.style.color = 'red';
-</pre>
+</b></mark></pre>
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 114. modifying the inline style (108) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -3808,48 +3808,48 @@ In this section, you learned:</p>
   <li>You can retrieve a reference to a node using:</li>
 </ul>
 
-<pre>
+<pre><mark class="red"><b>
       document.getElementById(id) - Returns one specific element that is based
       on the id attribute.<br>
 <br>
       document.getElementsByTagName(tagName) - retrieves a of elements with
       the specified tag.
-</pre>
+</b></mar></pre>
 
 <ul>
   <li>You can create an element using:</li>
 </ul>
 
-<pre>
+<pre><mark class="red"><b>
       document.createElement(TagName)
-</pre>
+</b></mark></pre>
 
 <ul>
   <li>And place it using:</li>
 </ul>
 
-<pre>
+<pre><mark class="red"><b>
       insertBefore, appendChild, or replaceChild.
-</pre>
+</b></mark></pre>
 
 <ul>
   <li>You can modify elements using:</li>
 </ul>
 
-<pre>
+<pre><mark class="red"><b>
       element.innerHTML - to retrieve or set the contents of an HTML element.<br>
       element.style - to retrieve or set the inline CSS style.<br>
       element.setAttribute - to modify the attributes of an element.<br>
-</pre>
+</b></mark></pre>
 
 <ul>
   <li>You can manage a window object using functions including:</li>
 </ul>
 
-<pre>
+<pre><mark class="red"><b>
       window.open - to return reference to a new window object for the web browser.<br>
       window.dump("message") - to write a string into the console for the web browser.<br>
-</pre>
+</b></mark></pre>
 
 <p>
 This is not an exhaustive list -- many more functions exist that enable
@@ -5079,9 +5079,9 @@ used for automated processes.</p>
   <li>Type the following command in your terminal, replacing  with the email address that is linked to your Github account. When you have typed the command, press Enter.<br></li>
 </ol>
 
-<pre>
+<pre><mark class="red"><b>
       $ ssh-keygen -t rsa -b 4096 -C "&lt;your email address&gt;"
-</pre>
+</b></mark></pre>
 
 <p>A new SSH key is generated.<br></p>
 
@@ -5091,16 +5091,16 @@ used for automated processes.</p>
   <li><b>Optional</b>: To navigate to the .ssh directory, and check the contents of the directory, run the following commands in the terminal:<br></li>
 </ol>
 
-<pre>
+<pre><mark class="red"><b>
       $ cd ~/.ssh
-</pre>
+</b></mark></pre>
 
 <p>
 and then,</p>
 
-<pre>
+<pre><mark class="red"><b>
       $ ls
-</pre>
+</b></mark></pre>
 
 <p>
 When you list the contents of the .ssh directory, you should
@@ -5112,17 +5112,17 @@ key.</p>
   <li>You now need to add the SSH key to the ssh-agent, which helps with the authentication process. To start the ssh-agent, run the following command in the terminal:<br><br></li>
 </ol>
 
-<pre>
+<pre><mark class="red"><b>
       $ eval "$(ssh-agent -s)"
-</pre>
+</b></mark></pre>
 
 <ol type="1" start="7">
   <li>To add the key to the agent, run the following command in the terminal:</li>
 </ol>
 
-<pre>
+<pre><mark class="red"><b>
       $ ssh-add ~/.ssh/id_rsa
-</pre>
+</b></mark></pre>
 
 <h4>© IBM Corporation 2020. All rights reserved.</h4>
 
@@ -5152,9 +5152,9 @@ following steps:</p>
   <li>In the terminal, run the following command:</li>
 </ol>
 
-<pre>
+<pre><mark class="red"><b>
       $ cat ~/.ssh/id_rsa.pub | clip
-</pre>
+</b></mark></pre>
 
 <p>
 <b>Note</b>: If clip doesn't work, run cat ~/.ssh/id_rsa.pub in the
@@ -5333,9 +5333,9 @@ command line and the copy the output.</p>
 <i>git commit</i> will record all the changes into the local staging area.<br>
 <br>To commit the changes you have made, run git commit with a message like this.</p>
 
-<pre><mark class="red">
+<pre><mark class="red"><b>
       $ git commit -m 'added a new file browser-support.txt'
-</mark></pre>
+</b></mark></pre>
 
 <p>Now all the changes you have made thus far, get committed locally.<br></p>
 
@@ -5365,9 +5365,9 @@ command line and the copy the output.</p>
   <li>Distributed version control keeps track of changes to code, regardless of where it is stored.&nbsp;<br><br></li>
   <li>Repositories are storage structures that:<br><br>
   <ul>
-	<li>Hold code<br><br></li>
-	<li>Track issues<br><br></li>
-	<li>Enable you to collaborate with others;<br><br></li>
+    <li>Hold code<br><br></li>
+    <li>Track issues<br><br></li>
+    <li>Enable you to collaborate with others;<br><br></li>
   </ul>
   </li>
   <li>Branches are used to isolate changes to code. When the changes are complete, they can be merged back into the master branch.<br><br></li>
