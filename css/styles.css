@@ -19,9 +19,11 @@ color: #333;
 pre, code {
   font-family: monospace, monospace;
 }
+
 pre {
   overflow: auto;
 }
+
 pre > code {
   display: block;
   padding: 1rem;
@@ -76,12 +78,23 @@ h7 {
   font-size: 11px;
   text-align: left; 
   margin-left: 5px; }
-    
+
 p {
   font-family: Bahnschrift, Inter, Helvetic, sans-serif;
   font-size: 15px;
   text-align: left; 
-  margin-left: 5px; }
+  margin-left: 5px;
+}
+
+mark.red {
+    color:#ff0000;
+    background: none;
+}
+
+mark.blue {
+    color:#0000A0;
+    background: none;
+}
 
 background: linear-gradient(60deg, #3d3393 0%, #2b76b9 37%, #2cacd1 65%, #35eb93 100%)
 
