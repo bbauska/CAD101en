@@ -3829,7 +3829,7 @@ document.createElement(TagName)
 </ul>
 
 <pre>
-insertBefore, appendChild, or replaceChild.
+    insertBefore, appendChild, or replaceChild.
 </pre>
 
 <ul>
@@ -3837,9 +3837,9 @@ insertBefore, appendChild, or replaceChild.
 </ul>
 
 <pre>
-element.innerHTML - to retrieve or set the contents of an HTML element.<br>
-element.style - to retrieve or set the inline CSS style.<br>
-element.setAttribute - to modify the attributes of an element.<br>
+    element.innerHTML - to retrieve or set the contents of an HTML element.<br>
+    element.style - to retrieve or set the inline CSS style.<br>
+    element.setAttribute - to modify the attributes of an element.<br>
 </pre>
 
 <ul>
@@ -3847,10 +3847,8 @@ element.setAttribute - to modify the attributes of an element.<br>
 </ul>
 
 <pre>
-window.open - to return reference to a new window object for the web
-browser.<br>
-window.dump("message") - to write a string into the console for the web
-browser.<br>
+    window.open - to return reference to a new window object for the web browser.<br>
+    window.dump("message") - to write a string into the console for the web browser.<br>
 </pre>
 
 <p>
@@ -5082,7 +5080,7 @@ used for automated processes.</p>
 </ol>
 
 <pre>
-$ ssh-keygen -t rsa -b 4096 -C "&lt;your email address&gt;"
+    $ ssh-keygen -t rsa -b 4096 -C "&lt;your email address&gt;"
 </pre>
 
 <p>A new SSH key is generated.<br></p>
@@ -5094,14 +5092,14 @@ $ ssh-keygen -t rsa -b 4096 -C "&lt;your email address&gt;"
 </ol>
 
 <pre>
-$ cd ~/.ssh
+    $ cd ~/.ssh
 </pre>
 
 <p>
 and then,</p>
 
 <pre>
-$ ls
+    $ ls
 </pre>
 
 <p>
@@ -5115,7 +5113,7 @@ key.</p>
 </ol>
 
 <pre>
-$ eval "$(ssh-agent -s)"
+    $ eval "$(ssh-agent -s)"
 </pre>
 
 <ol type="1" start="7">
@@ -5123,7 +5121,7 @@ $ eval "$(ssh-agent -s)"
 </ol>
 
 <pre>
-$ ssh-add ~/.ssh/id_rsa
+    $ ssh-add ~/.ssh/id_rsa
 </pre>
 
 <h4>© IBM Corporation 2020. All rights reserved.</h4>
@@ -5155,7 +5153,7 @@ following steps:</p>
 </ol>
 
 <pre>
-$ cat ~/.ssh/id_rsa.pub | clip
+    $ cat ~/.ssh/id_rsa.pub | clip
 </pre>
 
 <p>
@@ -5335,9 +5333,9 @@ command line and the copy the output.</p>
 <i>git commit</i> will record all the changes into the local staging area.<br>
 <br>To commit the changes you have made, run git commit with a message like this.</p>
 
-<pre>
-$ git commit -m 'added a new file browser-support.txt'
-</pre>
+<pre><code>
+    $ git commit -m 'added a new file browser-support.txt'
+</code></pre>
 
 <p>Now all the changes you have made thus far, get committed locally.<br></p>
 
