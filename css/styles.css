@@ -88,12 +88,12 @@ p {
 
 mark.red {
     color:#ff0000;
-    background: none;
+    background: yellow;
 }
 
 mark.blue {
     color:#0000A0;
-    background: none;
+    background: green;
 }
 
 background: linear-gradient(60deg, #3d3393 0%, #2b76b9 37%, #2cacd1 65%, #35eb93 100%)
