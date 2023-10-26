@@ -4009,11 +4009,11 @@ then press ENTER to execute the cloning.<br>
   alt="git commit changes to the staging area."
   style="width:35%;" />
 
-<p>Use the "git push" command.<br>
-<br>This will push all the committed changes into the repository.<br>
-<br>Remote repositories are repositories that are stored elsewhere -- on the internet, on your network, even on your local computer.<br>
-<br>You can have several of remote repositories, each of which generally is either read-only or read/write for you.<br>
-<br>Collaborating with others involves managing these remote repositories and involves push, pull, and fetch operations to and from them when you need to share work.</p>
+<p>Use the "git push" command.</p>
+<p>This will push all the committed changes into the repository.</p>
+<p>Remote repositories are repositories that are stored elsewhere -- on the internet, on your network, even on your local computer.</p>
+<p>You can have several of remote repositories, each of which generally is either read-only or read/write for you.</p>
+<p>Collaborating with others involves managing these remote repositories and involves push, pull, and fetch operations to and from them when you need to share work.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 149. remote repositories #2 (136) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -4022,9 +4022,9 @@ then press ENTER to execute the cloning.<br>
   alt="Remote Repositories #2"
   style="width:35%;" />
 
-<p>Use git push to transfer your changes to the remote repo.<br>
-<br>Use git fetch to transfer any changes from the remote repo to your local repo.<br>
-<br>It does not merge those changes to the branch you are working on. You can perform a merge manually if you want.</p>
+<p>Use git push to transfer your changes to the remote repo.</p>
+<p>Use git fetch to transfer any changes from the remote repo to your local repo.</p>
+<p>It does not merge those changes to the branch you are working on. You can perform a merge manually if you want.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 150. remote repositories #3 (136) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -4034,8 +4034,8 @@ then press ENTER to execute the cloning.<br>
   style="width:35%;" />
 
 <p>Use git pull to transfer any changes from the remote repo to your local repo, and merge them to 
-a branch.<br>
-<br>Developers use the terms upstream and origin when talking about remote reps.</p>
+a branch.</p>
+<p>Developers use the terms upstream and origin when talking about remote reps.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 151. remote repositories #4 (137) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -4044,9 +4044,9 @@ a branch.<br>
   alt="Remote Repositories #4"
   style="width:35%;" />
 
-<p>Origin generally refers to your fork and upstream refers to the original work.<br>
-<br>These are the norms.<br>
-<br>You can of course name them anything you like.</p>
+<p>Origin generally refers to your fork and upstream refers to the original work.</p>
+<p>These are the norms.</p>
+<p>You can of course name them anything you like.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 152. forking a project (137) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -4055,13 +4055,13 @@ a branch.<br>
   alt="Forking a Project"
   style="width:35%;" />
 
-<p>Forking is used to take a copy of a GitHub repository and use it as the base for a new project.<br>
-<br>You can also use forking to submit back changes into the original repository.<br>
-<br>This is also used to independently make changes to a project.<br>
-<br>In that instance, when you are satisfied with your changes, submit a pull request to the original project owner.<br>
-<br>They can decide whether or not to accept your updates.<br>
-<br>It is often a legal requirement to keep a copy of the of the license file.<br>
-<br>Even if no legal requirement exists, it's good practice.</p>
+<p>Forking is used to take a copy of a GitHub repository and use it as the base for a new project.</p>
+<p>You can also use forking to submit back changes into the original repository.</p>
+<p>This is also used to independently make changes to a project.</p>
+<p>In that instance, when you are satisfied with your changes, submit a pull request to the original project owner.</p>
+<p>They can decide whether or not to accept your updates.</p>
+<p>It is often a legal requirement to keep a copy of the of the license file.</p>
+<p>Even if no legal requirement exists, it's good practice.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ 153. steps in forking a project (138) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -4070,9 +4070,9 @@ a branch.<br>
   alt="Steps in Forking of a Project."
   style="width:35%;" />
 
-<p>Navigate to the repository that you want to fork.<br>
-<br>In the top-right corner, click the "Fork" button.<br>
-<br>To keep a fork in sync with the original work from a local clone.</p>
+<p>Navigate to the repository that you want to fork.</p>
+<p>In the top-right corner, click the "Fork" button.</p>
+<p>To keep a fork in sync with the original work from a local clone.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ 154. syncing a fork of a project (137) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -4086,13 +4086,13 @@ a branch.<br>
 <h4>To configure Git to sync your fork:</h4>
 
 <ul>
-  <li>Open a Terminal and change to the directory containing the clone,<br><br></li>
-  <li>Type "git remote --v" This gives you the remote repository,<br><br></li>
-  <li>Type "git remote add upstream " with the pasted-in directory that you used in creating your clone.<br><br></li>
+  <li>Open a Terminal and change to the directory containing the clone,</li>
+  <li>Type "git remote --v" This gives you the remote repository,</li>
+  <li>Type "git remote add upstream " with the pasted-in directory that you used in creating your clone.</li>
 </ul>
 
-<p>Adding upstream adds the original repository as a new remote repository labelled upstream.<br>
-<br>If you type "git remote --v", you'll see the change reflected.</p>
+<p>Adding upstream adds the original repository as a new remote repository labelled upstream.</p>
+<p>If you type "git remote --v", you'll see the change reflected.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ 155. commands for managing forks (139) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -4101,16 +4101,16 @@ a branch.<br>
   alt="Commands for managing forks"
   style="width:35%;" />
 
-<p>Other commands of interest include "git fetch upstream" to grab upstream branches and "git merge upstream/master" which merges changes into the master branch.<br>
-<br>You will also see "git pull upstream" used to fetch and merge the remote branch in the same step.<br>
-<br>"Git pull upstream" reduces the number of steps to sync with a remote branch, but the automatic merges are not always desired.<br>
-<br>
+<p>Other commands of interest include "git fetch upstream" to grab upstream branches and "git merge upstream/master" which merges changes into the master branch.</p>
+<p>You will also see "git pull upstream" used to fetch and merge the remote branch in the same step.</p>
+<p>"Git pull upstream" reduces the number of steps to sync with a remote branch, but the automatic merges are not always desired.</p>
+
 
 <h4>In this section (5-5), you learned:</h4>
 
 <ul>
-  <li>GitHub has over existing 100M repositories that you can use.<br><br></li>
-  <li>You can clone a repository to copy it to your local machine and sync changes back to the original repository.<br><br></li>
+  <li>GitHub has over existing 100M repositories that you can use.</li>
+  <li>You can clone a repository to copy it to your local machine and sync changes back to the original repository.</li>
   <li>You can fork a repository to use it as the base for a new project, or to work on a project independently.</li>
 </ul>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 5.6 managing github projects ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -4121,11 +4121,11 @@ a branch.<br>
 <p>After reading this section, you will be able to:</p>
 
 <ul>
-  <li>Understand common roles in a Git project,<br><br></li>
+  <li>Understand common roles in a Git project,</li>
   <li>Use git commands to communicate with other developers.</li>
 </ul>
 
-<p>A Developer working as a participant in a group project needs to learn how to communicate with others and uses these commands in addition to the ones needed by a standalone developer.<br></p>
+<p>A Developer working as a participant in a group project needs to learn how to communicate with others and uses these commands in addition to the ones needed by a standalone developer.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 156. github developer commands (140) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -4137,11 +4137,11 @@ a branch.<br>
 <h4>When working with Git, you can use Git commands or a desktop tool such as GitHub Desktop.</h4>
 
 <ul>
-  <li><i>git-clone</i> from the upstream to prime the local repository,<br><br></li>
-  <li><i>git-pull</i> and <i>git-fetch</i> from "origin" directory to keep up-to-date with the  upstream,<br><br></li>
-  <li><i>git-push</i> to shared repository, if you adopt CVS style shared repository workflow,<br><br></li>
-  <li><i>git-format-patch</i> to prepare e-mail submission, if you adopt Linux kernel-style public forum workflow,<br><br></li>
-  <li><i>git-send-email</i> to send your e-mail submission without corruption by your MUA,<br><br></li>
+  <li><i>git-clone</i> from the upstream to prime the local repository,</li>
+  <li><i>git-pull</i> and <i>git-fetch</i> from "origin" directory to keep up-to-date with the  upstream,</li>
+  <li><i>git-push</i> to shared repository, if you adopt CVS style shared repository workflow,</li>
+  <li><i>git-format-patch</i> to prepare e-mail submission, if you adopt Linux kernel-style public forum workflow,</li>
+  <li><i>git-send-email</i> to send your e-mail submission without corruption by your MUA,</li>
   <li><i>git-request-pull</i> to create a summary of changes for your upstream to pull.</li>
 </ul>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -4153,15 +4153,15 @@ a branch.<br>
   style="width:35%;" />
 
 <p>An integrator in a group project receives changes made by others, reviews and integrates them (responds to pull requests) and publishes the result for others to use.</p>
-<br>
+
 
 <h4>Integrators use the following commands in addition to the ones needed by participants.</h4>
 
 <ul>
-  <li>git-am to apply patches e-mailed in from your contributors,<br><br></li>
-  <li>git-pull to merge from your trusted lieutenants,<br><br></li>
-  <li>git-format-patch to prepare and send suggested alternative to contributors,<br><br></li>
-  <li>git-revert to undo botched commits,<br><br></li>
+  <li>git-am to apply patches e-mailed in from your contributors,</li>
+  <li>git-pull to merge from your trusted lieutenants,</li>
+  <li>git-format-patch to prepare and send suggested alternative to contributors,</li>
+  <li>git-revert to undo botched commits,</li>
   <li>git-push to publish the bleeding edge.</li>
 </ul>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -4175,9 +4175,9 @@ a branch.<br>
 <h4>A Repository Administrator uses the following tools to set up and maintain access to the repository by developers.</h4>
 
 <ul>
-  <li>git-daemon to allow anonymous download from repository,<br><br></li>
-  <li>git-shell can be used as a restricted login shell for shared central repository users,<br><br></li>
-  <li>git-http-backend provides a server-side implementation of Git-over-HTTP ("Smart http") allowing both fetch and push services,<br><br></li>
+  <li>git-daemon to allow anonymous download from repository,</li>
+  <li>git-shell can be used as a restricted login shell for shared central repository users,</li>
+  <li>git-http-backend provides a server-side implementation of Git-over-HTTP ("Smart http") allowing both fetch and push services,</li>
   <li>gitweb provides a web front-end to Git repositories, which can be set-up using the git-instaweb script.</li>
 </ul>
 
@@ -4189,8 +4189,8 @@ including continuous integration and continuous delivery.</p>
 <ul>
   <li>There are multiple roles involved in managing a project:<br>
   <ul>
-    <li>Developer<br><br></li>
-    <li>Integrator<br><br></li>
+    <li>Developer</li>
+    <li>Integrator</li>
     <li>Repository Administrator</li>
   </ul></li>
 </ul>
@@ -4204,9 +4204,10 @@ complete this lab are also available here.</a>
 
 <h3>Hands-On Lab: Working with Git on Theia (External resource)</h3>
 
-<p>Clicking on the Start Lab button below will launch the cloud based SN labs virtual labs environment with instructions to complete this lab.<br>
-<br>Your username and email will be shared with SN Labs to authenticate and provision your lab environment.<br>
-<br>Start Lab</p>
+<p>Clicking on the Start Lab button below will launch the cloud based SN labs virtual labs environment with instructions to complete this lab.</p>
+<p>Your username and email will be shared with SN Labs to authenticate and provision your lab environment.</p>
+
+<h4>Start Lab</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 5.7 git installation on desktop ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch5-7">5.7 Git Installation on Desktop</h3>
 <h4>Installing Git Bash</h4>
@@ -4222,14 +4223,14 @@ complete this lab are also available here.</a>
 <h3>What is Git Bash?</h3>
 
 <p>Git Bash for Windows is simply a package that includes
-both <i>Git</i> and <i>Bash</i>.<br>
-<br>Git is an open-source version control system for tracking source code
-changes when developing software.<br>
-<br>It keeps a commit history that allows you to revert to a stable state in case you make errors in your code.<br>
-<br>Git also enables multiple developers to collaborate on the same code base.<br>
-<br>Bash is a Unix command-line shell.<br>
-<br>The name is an acronym for <i>Bourne-Again Shell</i>.<br>
-<br>It comes with useful Unix commands like cat, ssh, SCP, etc., which are not usually found on Windows.  Because Windows is idiotic.</p>
+both <i>Git</i> and <i>Bash</i>.</p>
+<p>Git is an open-source version control system for tracking source code
+changes when developing software.</p>
+<p>It keeps a commit history that allows you to revert to a stable state in case you make errors in your code.</p>
+<p>Git also enables multiple developers to collaborate on the same code base.</p>
+<p>Bash is a Unix command-line shell.</p>
+<p>The name is an acronym for <i>Bourne-Again Shell</i>.</p>
+<p>It comes with useful Unix commands like cat, ssh, SCP, etc., which are not usually found on Windows.  Because Windows is idiotic.</p>
 
 <h3>Installing Git Bash for Windows</h3>
 
@@ -4271,7 +4272,7 @@ changes when developing software.<br>
   style="width:35%;" />
 
 <ol type="1" start="3">
-  <li>Click <b>Run</b> to begin the installation.<br></li>
+  <li>Click <b>Run</b> to begin the installation.</li>
 </ol>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ 163. click run to begin install (145) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -4287,7 +4288,7 @@ changes when developing software.<br>
 
 <p>
 <b>Note</b>: It's recommended that you simply install to the default
-location. Click <b>Next</b>.<br>
+location. Click <b>Next</b>.
 </p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~ 164. select location to install git bash (146) ~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -4395,11 +4396,11 @@ location. Click <b>Next</b>.<br>
   src="/images/image173.png?raw=true"
   alt="Additional options."
   style="width:35%;" />
-<br>
+
 
 <ol type="1" start="14">
   <li>You can enable experimental options if you choose to.<br>
-  <br>By enabling these options, you will be able to try newer features that are still being developed.<br><br>However, you do not have to select any experimental options to use Git Bash.<br>  <br>Click <b>Install</b> to complete the installation with the options you have chosen.<br><br>The installation runs and when complete, a Completing the Git Setup Wizard window opens.</li>
+  By enabling these options, you will be able to try newer features that are still being developed. However, you do not have to select any experimental options to use Git Bash.  Click <b>Install</b> to complete the installation with the options you have chosen.The installation runs and when complete, a Completing the Git Setup Wizard window opens.</li>
 </ol>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ 174. experimental options? yes/no (152) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -4408,13 +4409,13 @@ location. Click <b>Next</b>.<br>
   src="/images/image174.png?raw=true"
   alt="Experimental options? yes/no."
   style="width:35%;" />
-<br>
+
 
 <ol type="1" start="15">
   <li>Leave the checkboxes selected and click <b>Next</b>.</li>
 </ol>
 
-<br>
+
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~ 175. leave checkboxes selected and click next (152) ~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -4423,7 +4424,7 @@ location. Click <b>Next</b>.<br>
   alt="Leave the checkboxes selected and click 'Next'."
   style="width:35%;" />
 
-<p>The Git Bash terminal opens. You are now able to enter Git and Bash commands.</p><br>
+<p>The Git Bash terminal opens. You are now able to enter Git and Bash commands.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 176. git bash terminal (152) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -4455,20 +4456,20 @@ location. Click <b>Next</b>.<br>
 <h4>To generate an SSH key, complete the following steps:</h4>
 
 <ol type="1" start="1">
-  <li>Launch a terminal. If you are using Windows, launch Git Bash.<br><br></li>
-  <li>Type the following command in your terminal, replacing  with the email address that is linked to your Github account. When you have typed the command, press Enter.<br></li>
+  <li>Launch a terminal. If you are using Windows, launch Git Bash.</li>
+  <li>Type the following command in your terminal, replacing  with the email address that is linked to your Github account. When you have typed the command, press Enter.</li>
 </ol>
 
 <pre><mark class="red"><b>
       $ ssh-keygen -t rsa -b 4096 -C "&lt;your email address&gt;"
 </b></mark></pre>
 
-<p>A new SSH key is generated.<br></p>
+<p>A new SSH key is generated.</p>
 
 <ol type="1" start="3">
-  <li>You will be prompted to enter a directory to save the key. You can simply press Enter to accept the default location, which is an .ssh folder in the home directory. This means you will be able to locate the key in ~/.ssh/id_rsa.<br><br></li>
-  <li>You will be prompted to choose a passphrase. You also have the option not to create a passphrase. To skip the passphrase, press Enter twice to confirm that the passphrase is empty.<br><br></li>
-  <li><b>Optional</b>: To navigate to the .ssh directory, and check the contents of the directory, run the following commands in the terminal:<br></li>
+  <li>You will be prompted to enter a directory to save the key. You can simply press Enter to accept the default location, which is an .ssh folder in the home directory. This means you will be able to locate the key in ~/.ssh/id_rsa.</li>
+  <li>You will be prompted to choose a passphrase. You also have the option not to create a passphrase. To skip the passphrase, press Enter twice to confirm that the passphrase is empty.</li>
+  <li><b>Optional</b>: To navigate to the .ssh directory, and check the contents of the directory, run the following commands in the terminal:</li>
 </ol>
 
 <pre><mark class="red"><b>
@@ -4489,7 +4490,7 @@ private version of your key and id_rsa.pub is the public version of your
 key.</p>
 
 <ol type="1" start="6">
-  <li>You now need to add the SSH key to the ssh-agent, which helps with the authentication process. To start the ssh-agent, run the following command in the terminal:<br><br></li>
+  <li>You now need to add the SSH key to the ssh-agent, which helps with the authentication process. To start the ssh-agent, run the following command in the terminal:</li>
 </ol>
 
 <pre><mark class="red"><b>
@@ -4535,7 +4536,7 @@ key.</p>
 <p><b>Note</b>: If clip doesn't work, run cat ~/.ssh/id_rsa.pub in the command line and the copy the output.</p>
 
 <ol type="1" start="2">
-  <li>Sign in to GitHub. At the top right, click the drop-down menu on your profile image and select <b>Settings</b>.</li>
+  <li>Sign in to GitHub. At the top right, click the drop-down menu on your profile image and select <b>Settings.</li>
 </ol>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 177. github settings (156) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -4604,20 +4605,20 @@ key.</p>
 <h4>After completing this lab you will be able to:</h4>
 
 <ul>
-  <li>Clone your GitHub repository locally,<br></li>
-  <li>Make changes to the cloned files,<br></li>
-  <li>Add a new file,<br></li>
-  <li>Check the status,<br></li>
-  <li>Commit changes,<br></li>
+  <li>Clone your GitHub repository locally,</li>
+  <li>Make changes to the cloned files,</li>
+  <li>Add a new file,</li>
+  <li>Check the status,</li>
+  <li>Commit changes,</li>
   <li>Push the changes back to GitHub.</li>
 </ul>
 
 <h3>Pre-requisites</h3>
 
 <ul>
-  <li>GitHub account, with a project in it, as illustrated in <a href="https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBMDeveloperSkillsNetwork-CD0101EN-SkillsNetwork/labs/GitHubLabs/GitHub1_Getting_Started.md.html" target="_blank" rel="noopener noreferrer">this lab</a>.<br></li>
-  <li>GitBash or git installed on your local desktop, as in <a href="https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBMDeveloperSkillsNetwork-CD0101EN-SkillsNetwork/labs/GitHubLabs/GitBash_Install.md.html" target="_blank" rel="noopener noreferrer">this lab</a>.<br></li>
-  <li>Create ssh keys, as in <a  href="https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBMDeveloperSkillsNetwork-CD0101EN-SkillsNetwork/labs/GitHubLabs/SSH_Key.md.html" target="_blank" rel="noopener noreferrer">this lab</a>.<br></li>
+  <li>GitHub account, with a project in it, as illustrated in <a href="https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBMDeveloperSkillsNetwork-CD0101EN-SkillsNetwork/labs/GitHubLabs/GitHub1_Getting_Started.md.html" target="_blank" rel="noopener noreferrer">this lab</a>.</li>
+  <li>GitBash or git installed on your local desktop, as in <a href="https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBMDeveloperSkillsNetwork-CD0101EN-SkillsNetwork/labs/GitHubLabs/GitBash_Install.md.html" target="_blank" rel="noopener noreferrer">this lab</a>.</li>
+  <li>Create ssh keys, as in <a  href="https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBMDeveloperSkillsNetwork-CD0101EN-SkillsNetwork/labs/GitHubLabs/SSH_Key.md.html" target="_blank" rel="noopener noreferrer">this lab</a>.</li>
   <li>Add SSH Key to GitHub, as in <a href="https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBMDeveloperSkillsNetwork-CD0101EN-SkillsNetwork/labs/GitHubLabs/GitHub_AddSSHtoRepo.md.html" target="_blank" rel="noopener noreferrer">this lab</a>.</li>
 </ul>
 
@@ -4626,9 +4627,9 @@ key.</p>
 <p>To clone a repo, you need the ssh url of the repo.</p>
 
 <ol>
-  <li>To get the ssh url, login into GitHub,<br><br></li>
-  <li>Navigate to the repo you wish to clone,<br><br></li>
-  <li>Click on the 'Code' button,<br><br></li>
+  <li>To get the ssh url, login into GitHub,</li>
+  <li>Navigate to the repo you wish to clone,</li>
+  <li>Click on the 'Code' button,</li>
   <li>Click on the 'clipboard icon' to copy the url. Paste this url where you can access it later,</li>
 </ol>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -4640,9 +4641,9 @@ key.</p>
   style="width:35%;" />
 
 <ol type="1" start="5">
-  <li>On your desktop open a terminal.(gitbash if you are using windows (os),<br><br></li>
-  <li>Navigate to a directory where you wish to clone the repo,<br><br></li>
-  <li>Run the command "git clone",<br></li>
+  <li>On your desktop open a terminal.(gitbash if you are using windows (os),</li>
+  <li>Navigate to a directory where you wish to clone the repo,</li>
+  <li>Run the command "git clone",</li>
 </ol>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 182. git clone (159) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -4653,8 +4654,8 @@ key.</p>
   style="width:65%;" />
 
 <ol type="1" start="8">
-  <li>This will clone the repo on GitHub into your current directory,<br><br></li>
-  <li>You can see all the downloaded files under a directory named as your repo name,<br></li>
+  <li>This will clone the repo on GitHub into your current directory,</li>
+  <li>You can see all the downloaded files under a directory named as your repo name,</li>
 </ol>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 183. list directory (159) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -4739,27 +4740,29 @@ key.</p>
 <h4>In this module (5), you learned that:</h4>
 
 <ul>
-  <li>Distributed version control keeps track of changes to code, regardless of where it is stored.&nbsp;<br><br></li>
-  <li>Repositories are storage structures that:<br><br>
+  <li>Distributed version control keeps track of changes to code, regardless of where it is stored.&nbsp;</li>
+  <li>Repositories are storage structures that:
   <ul>
-    <li>Hold code<br><br></li>
-    <li>Track issues<br><br></li>
-    <li>Enable you to collaborate with others;<br><br></li>
+    <li>Hold code</li>
+    <li>Track issues</li>
+    <li>Enable you to collaborate with others;</li>
   </ul>
   </li>
-  <li>Branches are used to isolate changes to code. When the changes are complete, they can be merged back into the master branch.<br><br></li>
-  <li>Repositories can be cloned to make it possible to work locally, then sync changes back to the original.<br><br></li>
-  <li>Repositories can be forked to be used as a base for a new project, or so that the developer can work independently.<br><br></li>
-  <li>Large projects include people working in different roles:<br><br>
+  <li>Branches are used to isolate changes to code. When the changes are complete, 
+    they can be merged back into the master branch.</li>
+  <li>Repositories can be cloned to make it possible to work locally, then sync 
+    changes back to the original.</li>
+  <li>Repositories can be forked to be used as a base for a new project, or so that the developer can work independently.</li>
+  <li>Large projects include people working in different roles:
   <ul>
-    <li>Developer -- creates code<br><br></li>
-    <li>Integrator -- manages changes made by developers;<br><br></li>
+    <li>Developer -- creates code</li>
+    <li>Integrator -- manages changes made by developers;</li>
     <li>Repository Administrator -- configures and maintains access to
         the repository.</li>
   </ul>
-  <br><br>
   </li>
 </ul>
+
 <p>...the end.</p>
 
 <b><i>Last edited 4/6/2023 07:42pm</i></b>
