@@ -6038,7 +6038,7 @@ In this module (5), you learned that:
       <li>Track issues</li>
       <li>Enable you to collaborate with others</li>
     </ul>
-  <br/>&nbsp;</li>
+  <br/></li>
   <li>Branches are used to isolate changes to code. When the changes are
     complete, they can be merged back into the master branch,<br/>&nbsp;</li>
   <li>Repositories can be cloned to make it possible to work locally, then
