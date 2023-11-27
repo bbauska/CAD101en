@@ -6033,11 +6033,12 @@ In this module (5), you learned that:
   <li>Distributed version control keeps track of changes to code,
   regardless of where it is stored,<br/>&nbsp;</li>
   <li>Repositories are storage structures that:
-  <ul>
-    <li>Hold code</li>
-    <li>Track issues</li>
-    <li>Enable you to collaborate with others</li>
-  </ul></li>
+    <ul>
+      <li>Hold code</li>
+      <li>Track issues</li>
+      <li>Enable you to collaborate with others</li>
+    </ul>
+  </li>
   <li>Branches are used to isolate changes to code. When the changes are
     complete, they can be merged back into the master branch,<br/>&nbsp;</li>
   <li>Repositories can be cloned to make it possible to work locally, then
