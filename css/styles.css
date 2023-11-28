@@ -42,44 +42,39 @@ h2 {
   color: #006700;  /* dark green */
   font-size: 18px;
   text-align: center; }
-  
 h3 {
   font-family: Bahnschrift, Inter, Helvetic, sans-serif;
   color: #000;
   font-size: 17px;
   text-align: left; 
   margin-left: 15px; }
-  
 h4 {
   font-family: Bahnschrift, Inter, Helvetic, sans-serif;
   color: #000;
   font-size: 16px;
   text-align: left; 
   margin-left: 15px; }
-
 h5 {
   font-family: Bahnschrift, Inter, Helvetic, sans-serif;
   color: #000;
   font-size: 15px;
   text-align: left;
   margin-left: 15px; }
-
 h6 {
   font-family: Bahnschrift, Inter, Helvetic, sans-serif;
   color: #000;
   font-size: 13px;
   text-align: left; 
   margin-left: 15px; }
-
 h7 {
   font-family: Bahnschrift, Inter, Helvetic, sans-serif;
   color: #000;
   font-size: 11px;
   text-align: left; 
   margin-left: 15px; }
-
 p {
   font-family: Bahnschrift, Inter, Helvetic, sans-serif;
+  color: #777111;  /* dark yellow (olive tone) */
   font-size: 15px;
   text-align: left; 
   margin-left: 15px;
