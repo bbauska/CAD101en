@@ -87,7 +87,7 @@ mark.red {
 
 mark.blue {
   color:#0000a0;  /* dark blue */
-  background: 00ff00;  /* pure (or mostly pure) lime green */
+  background: #00ff00;  /* pure (or mostly pure) lime green */
 }
 
 background: linear-gradient(60deg, #3d3393 0%, #2b76b9 37%, #2cacd1 65%, #35eb93 100%)
