@@ -99,6 +99,7 @@ body {
   color: #000;  /* black */
   text-align: left;
   padding: 10px;
+  margin-left: 15px;
 }
 
 #myBtn {
