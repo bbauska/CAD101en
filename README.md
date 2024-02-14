@@ -4083,7 +4083,7 @@ place the element in the appropriate location within the document.
 <p align="center">
 <img src="/./images/.webp/image110.webp?raw=true"
    alt="Adding New Nodes"
-   width="65%" />
+  style="width:65%" />
 &nbsp;
 
 Examples of these functions include the insertBefore, appendChild, or
@@ -4095,7 +4095,7 @@ into the document.
 <p align="center">
 <img src="/./images/.webp/image111.webp?raw=true"
    alt="Example: Adding a Node"
-   width="65%" />
+  style="width:65%" />
 &nbsp;
 
 This example shows the source code for adding a node to a document.
@@ -4113,7 +4113,7 @@ the end of the body node of the HTML page.
 <p align="center">
 <img src="/./images/.webp/image112.webp?raw=true"
    alt="Modifying an Elements Content"
-   width="65%" />
+  style="width:65%" />
 &nbsp;
 
 The function element.innerHTML retrieves or sets the contents of an HTML
@@ -4144,7 +4144,7 @@ For example, if you had an element &lt;div style=&quot;color:blue&quot;&gt;.
 <p align="center">
 <img src="/./images/.webp/image113.webp?raw=true" 
    alt="Modifying the inline style"
-   width="65%" />
+  style="width:65%" />
 &nbsp;
 
 Here the &lt;div&gt; tag is used to group block-elements to format them with
@@ -4158,7 +4158,7 @@ div.style.color = &#39;red&#39;;
 <p align="center">
 <img src="/./images/.webp/image114.webp?raw=true" 
    alt="Modifying the inline style #2"
-   width="65%" />
+  style="width:65%" />
 &nbsp;
 
 In contrast, the element.setAttribute(&#39;style&#39;, ...) wipes out all
@@ -4169,7 +4169,7 @@ previously set inline CSS styles.
 <p align="center">
 <img src="/./images/.webp/image115.webp?raw=true" 
    alt="Modifying Attributes"
-   width="65%" />
+  style="width:65%" />
 &nbsp;
 
 The function element.setAttribute with parameters(attrName, attrValue)
@@ -4189,7 +4189,7 @@ specified attribute in the element, if it exists.
 <p align="center">
 <img src="/./images/.webp/image116.webp?raw=true" 
      alt=""Window Object Methods and Events" 
-     width="65%" />
+  style="width:65%" />
 &nbsp;
 
 Here are some window object functions and events.
@@ -4199,7 +4199,7 @@ Here are some window object functions and events.
 <p align="center">
 <img src="/./images/.webp/image117.webp?raw=true" 
    alt="Window Object methods and events"
-   width="65%" />
+  style="width:65%" />
 &nbsp;
 
 To open a new browser window, use the window.open() function.
@@ -4242,8 +4242,8 @@ to a particular set of coordinates on a page.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="/./images/.webp/image118.webp?raw=true"
-     alt="Example: Using window.onload"
-     width="65%" />
+  alt="Example: Using window.onload"
+  style="width:65%" />
 &nbsp;
 
 The onload event handler runs in the current window after the document
@@ -4253,9 +4253,11 @@ loads the web page.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="/./images/.webp/image119.webp?raw=true" 
-   alt="Summary"
-   width="65%" />
+  alt="Summary"
+  title="Summary"
+  style="width:65%" />
 &nbsp;
+</p>
 
 In the example, the onload event causes an anonymous function to run.
 This function, in turn, runs the function addPara().
@@ -4373,7 +4375,7 @@ what version control is. 
 <p align="center">
 <img src="/./images/.webp/image120.webp?raw=true" 
    alt="Version Control"
-   width="65%" />
+  style="width:65%" />
 &nbsp;
 
 A version control system allows you to keep track of changes to your
@@ -4388,7 +4390,7 @@ you make a mistake, and it makes collaboration with others much easier. 
 <p align="center">
 <img src="/./images/.webp/image121.webp?raw=true" 
    alt="Working Without Version Control"
-   width="65%" />
+  style="width:65%" />
 &nbsp;
 
 Here is an example to illustrate how version control works. 
@@ -4404,7 +4406,7 @@ can go shopping. 
 <p align="center">
 <img src="/./images/.webp/image122.webp?raw=true" 
    alt="Working with Version Control"
-   width="65%" />
+  style="width:65%" />
 &nbsp;
 
 With version control, you know EXACTLY what you need after everyone has
@@ -4415,7 +4417,7 @@ contributed their ideas. 
 <p align="center">
 <img src="/./images/.webp/image123.webp?raw=true" 
    alt="git"
-   width="65%" />
+  style="width:65%" />
 &nbsp;
 
 Git is free and open source software distributed under the GNU General
@@ -4444,7 +4446,7 @@ Git repositories. 
 <p align="center">
 <img src="/./images/.webp/image124.webp?raw=true" 
    alt="git logos: git + github"
-   width="65%" />
+  style="width:65%" />
 &nbsp;
 Others include GitLab, BitBucket, and Beanstalk. 
 
@@ -4479,7 +4481,7 @@ computer that are associated with a Git repository. 
 <p align="center">
 <img src="/./images/.webp/image126.webp?raw=true" 
    alt="Basic git Commands"
-   width="65%" />
+  style="width:65%" />
 &nbsp;
 
 There are a few basic <b>Git</b> commands that you will always use. 
@@ -4514,7 +4516,7 @@ repository to make changes. 
 <p align="center">
 <img src="/./images/.webp/image127.webp?raw=true" 
    alt="https://try.github.io" 
-   width="65%" />
+  style="width:65%" />
 &nbsp;
 
 To learn how to use Git effectively and begin collaborating with data
@@ -4557,7 +4559,7 @@ defined by a small group. 
 <p align="center">
 <img src="/./images/.webp/image128.webp?raw=true" 
    alt="Background of git."
-   width="65%" />
+  style="width:65%" />
 &nbsp;
 
 These include: 
@@ -4591,7 +4593,7 @@ that might require explicit integration strategies. 
 <p align="center">
 <img src="/./images/.webp/image129.webp?raw=true"
    alt="Git Repository Model"
-   width="65%" />
+  style="width:65%" />
 &nbsp;
 
 What is special about the Git Repository model. 
@@ -4608,7 +4610,7 @@ support non-linear workflows. 
 <p align="center">
 <img src="/./images/.webp/image130.webp?raw=true"
    alt="What is Git?"
-   width="75%" />
+  style="width:75%" />
 &nbsp;
 
 Created in 2005 by Linus Torvalds for distribution of Linux kernels. 
@@ -4647,7 +4649,7 @@ Git repositories, often called repos. 
 <p align="center">
 <img src="/./images/.webp/image131.webp?raw=true" 
    alt="What is GitHub?"
-   width="75%" />
+  style="width:75%" />
 &nbsp;
 
 GitHub is an online hosting service for Git repositories. 
@@ -4676,7 +4678,7 @@ A Repository is: 
 <p align="center">
 <img src="/./images/.webp/image132.webp?raw=true" 
    alt="What is GitLab?"
-   width="65%" />
+  style="width:65%" />
 &nbsp;
 
 With GitLab, developers can: 
@@ -4724,7 +4726,7 @@ After reading this section, you will be able to:
 <p align="center">
 <img src="/./images/.webp/image133.webp?raw=true" 
    alt="Create an Account"
-   width="65%" />
+  style="width:65%" />
 &nbsp;
 
 Start at the GitHub site, https://github.com
@@ -4759,7 +4761,7 @@ take the Introduction to GitHub course.
 <p align="center">
 <img src="/./images/.webp/image134.webp?raw=true" 
    alt="Create a Repository"
-   width="65%" />
+  style="width:65%" />
 &nbsp;
 
 Remember, a repository is a data structure for storing documents
@@ -4795,7 +4797,7 @@ by everyone).
 <p align="center">
 <img src="/./images/.webp/image135.webp?raw=true" 
    alt="Exploring Your Repository"
-   width="65%" />
+  style="width:65%" />
 &nbsp;
 
 When you create your repository, you'll notice that it has a number of
@@ -4853,7 +4855,7 @@ All files in GitHub are stored on a branch.
 <p align="center">
 <img src="/./images/.webp/image136.webp?raw=true"
    alt="What are Branches?"
-   width="65%" />
+  style="width:65%" />
 &nbsp;
 
 The master branch is definitive; it stores the deployable version of
@@ -4874,7 +4876,7 @@ As you make changes, the branch that you created holds the changed code.
 <p align="center">
 <img src="/./images/.webp/image137.webp?raw=true"
    alt="How to Create a Branch"
-   width="65%" />
+  style="width:65%" />
 &nbsp;
 
 To create a new branch, click drop-down branch: master
@@ -4905,7 +4907,7 @@ and the two tips are merged into a third, combined branch.
 <p align="center">
 <img src="/./images/.webp/image138.webp?raw=true" 
    alt="Merging Branches"
-   width="65%" />
+  style="width:65%" />
 &nbsp;
 
 Developers work on source files in a branch. Since some projects take a
@@ -4950,7 +4952,7 @@ Some rules:
 <p align="center">
 <img src="/./images/.webp/image139.webp?raw=true"
    alt="What is a Pull Request?"
-   width="65%" />
+  style="width:65%" />
 &nbsp;
 
 Pull is used to initiate the merging of branches in a way to capture
@@ -4977,7 +4979,7 @@ To open a new pull request:
 <p align="center">
 <img src="/./images/.webp/image140.webp?raw=true"
    alt="Open a Pull Request"
-   width="65%" />
+  style="width:65%" />
 &nbsp;
 
 Click Pull request and select New pull request.
@@ -5012,7 +5014,7 @@ The approved code is merged back into the master code.
 <p align="center">
 <img src="/./images/.webp/image141.webp?raw=true"
    alt="Merging into the Master Branch"
-   width="65%" />
+  style="width:65%" />
 &nbsp;
 
 To merge a committed code change into your master code.
@@ -5026,7 +5028,7 @@ Click Confirm merge.
 <p align="center">
 <img src="/./images/.webp/image142.webp?raw=true"
    alt="Merge a Pull Request"
-   width="65%" />
+  style="width:65%" />
 &nbsp;
 
 When all changes for a branch are complete, that branch is considered
@@ -5061,7 +5063,7 @@ merge the committed code changes into your master code.
 <p align="center">
 <img src="/./images/.webp/image143.webp?raw=true"
    alt="Summary"
-   width="65%" />
+  style="width:65%" />
 &nbsp;
 
 [Click here to launch the lab in another
@@ -5084,7 +5086,7 @@ After reading this section, you will be able to:
 <p align="center">
 <img src="./images/.webp/image144.webp"
    alt="Team Working with GitHub"
-   width="65%">
+  style="width:65%" />
 &nbsp;
 
 GitHub has over existing 100M repositories, including some very useful
@@ -5112,7 +5114,7 @@ to clone.
 <p align="center">
 <img src="./images/.webp/image145.webp"
    alt="Cloning a GitHub Repository #1"
-   width="65%" />
+  style="width:65%" />
 &nbsp;
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -5121,7 +5123,7 @@ to clone.
 <p align="center">
 <img src="./images/.webp/image146.webp"
 	alt="Cloning a GitHub Repository #2"
-	width="65%">
+  style="width:65%" />
 &nbsp;
 
 Under the repository name, click Code.
@@ -5147,7 +5149,7 @@ GitHub.
 <p align="center">
 <img src="./images/.webp/image147.webp"
    alt="Syncing a Local Repository"
-   width="65%" />
+  style="width:65%" />
 &nbsp;
 
 First, you must run the "git add " command.
@@ -5167,13 +5169,14 @@ When you are ready to move your changes fully into the GitHub
 repository.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!----------------------------- 148. remote repositories #1 (135) -------------------------------->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 148. remote repositories #1 (135) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/.webp/image148.webp"
-   alt="Remote Repositories #1"
-   width="65%" />
+  alt="Remote Repositories #1."
+  title="Remote Repositories #1"
+  style="width:65%" />
 &nbsp;
+</p>
 
 Use the "git push" command.
 
@@ -5192,13 +5195,14 @@ and involves push, pull, and fetch operations to and from them when you
 need to share work.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!----------------------------- 149. remote repositories #2 (136) -------------------------------->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 149. remote repositories #2 (136) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/.webp/image149.webp"
-   alt="Remote Repositories #2"
-   width="65%" />
+  alt="Remote Repositories #2."
+  title="Remote Repositories #2"
+  style="width:65%" />
 &nbsp;
+</p>
 
 Use git push to transfer your changes to the remote repo.
 
@@ -5209,13 +5213,14 @@ It does not merge those changes to the branch you are working on. You
 can perform a merge manually if you want.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!----------------------------- 150. remote repositories #3 (136) -------------------------------->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 150. remote repositories #3 (136) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/.webp/image150.webp"
-   alt="Remote Repositories #3"
-   width="65%" />
+  alt="Remote Repositories #3."
+  title="Remote Repositories #3"
+  style="width:65%" />
 &nbsp;
+</p>
 
 Use git pull to transfer any changes from the remote repo to your local
 repo, and merge them to a branch.
@@ -5223,13 +5228,14 @@ repo, and merge them to a branch.
 Developers use the terms upstream and origin when talking about remote
 reps.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!------------------------------ 151. remote repositories #4 (137) ------------------------------->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 151. remote repositories #4 (137) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/.webp/image151.webp"
-  alt="Remote Repositories #4"
-  width="65%" />
+  alt="Remote Repositories #4."
+  title="Remote Repositories #4"
+  style="width:65%" />
 &nbsp;
+</p>
 
 Origin generally refers to your fork and upstream refers to the original
 work.
@@ -5239,13 +5245,14 @@ These are the norms.
 You can of course name them anything you like.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!-------------------------------- 152. forking a project (137) ---------------------------------->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 152. forking a project (137) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/.webp/image152.webp" 
-   alt="Forking a Project"
-   width="65%" />
+  alt="Forking a Project."
+  title="Forking a Project"
+  style="width:65%" />
 &nbsp;
+</p>
 
 Forking is used to take a copy of a GitHub repository and use it as the
 base for a new project.
@@ -5265,13 +5272,14 @@ file.
 
 Even if no legal requirement exists, it's good practice.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--------------------------- 153. steps in forking a project (138) ------------------------------>
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 153. steps in forking a project (138) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/.webp/image153.webp" 
-  alt="Steps in Forking of a Project"
-  width="65%" />
+  alt="Steps in Forking a Project."
+  title="Steps in Forking a Project"
+  style="width:65%" />
 &nbsp;
+</p>
 
 Navigate to the repository that you want to fork.
 
@@ -5279,13 +5287,14 @@ In the top-right corner, click the "Fork" button.
 
 To keep a fork in sync with the original work from a local clone.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--------------------------- 154. syncing a fork of a project (138) ----------------------------->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 154. syncing a fork of a project (138) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/.webp/image154.webp" 
-  alt="Syncing a Fork of a Project"
-  width="65%" />
+  alt="Syncing a Fork of a Project."
+  title="Syncing a Fork of a Project"
+  style="width:65%" />
 &nbsp;
+</p>
 
 First, create a local clone of the project.
 
@@ -5303,13 +5312,14 @@ labelled upstream.
 
 If you type "git remote --v", you'll see the change reflected.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--------------------------- 155. commands for managing forks (139) ----------------------------->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 155. commands for managing forks (139) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/.webp/image155.webp" 
-  alt="Commands for managing forks"
-  width="65%" />
+  alt="Commands for managing forks."
+  title="Commands for Managing Forks"
+  style="width:65%" />
 &nbsp;
+</p>
 
 Other commands of interest include "git fetch upstream" to grab upstream
 branches and "git merge upstream/master" which merges changes into the
@@ -5352,6 +5362,7 @@ the ones needed by a standalone developer.
   title="GitHub Developer Commands"
   style="width:65%" />
 &nbsp;
+</p>
 
 When working with Git, you can use Git commands or a desktop tool such
 as GitHub Desktop.
@@ -5380,6 +5391,7 @@ as GitHub Desktop.
   title="GitHub Integrator"
   style="width:65%" />
 &nbsp;
+</p>
 
 An integrator in a group project receives changes made by others,
 reviews and integrates them (responds to pull requests) and publishes
@@ -5406,6 +5418,7 @@ participants.
   title="GitHub Repository Administrator"
   style="width:65%" />
 &nbsp;
+</p>
 
 A Repository Administrator uses the following tools to set up and
 maintain access to the repository by developers.
@@ -5463,6 +5476,7 @@ Installing Git Bash
   title="IBM Cloud Logo"
   style="width:20%" />
 &nbsp;
+</p>
 
 <b>Estimated time</b>: 20 minutes
 
@@ -5499,6 +5513,7 @@ following steps:
   title="Downloads"
   style="width:65%" />
 &nbsp;
+</p>
 
 You will be redirected to a new page and the download will start.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -5509,6 +5524,7 @@ You will be redirected to a new page and the download will start.
   title="Downloading Git"
   style="width:65%" />
 &nbsp;
+</p>
 
 <b>Note</b>: If the download doesn&#39;t start, click <b>Click here to download
 manually</b>.
@@ -5523,6 +5539,7 @@ manually</b>.
   title="Open File Security Warning"
   style="width:65%" />
 &nbsp;
+</p>
 
 3.  Click <b>Run</b> to begin the installation.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -5533,6 +5550,7 @@ manually</b>.
   title="Click Next to Begin Install"
   style="width:65%" />
 &nbsp;
+</p>
 
 4.  Select the location where you want to install Git Bash. 
 
@@ -5546,105 +5564,113 @@ location. Click <b>Next</b>.
   title="Enter Location to Install Git Bash"
   style="width:65%" />
 &nbsp;
+</p>
 
 5.  Choose the components you want to install, or simply leave the
     default options selected. Click <b>Next</b>.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!-------------------------- 165. select components for git setup (14x) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 165. select components for git setup (14x) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/.webp/image165.webp"
    alt="Select Components for Git Setup"
-   width="65%">
+  style="width:65%" />
 &nbsp;
+</p>
 
 6.  You can change the name of the start menu folder or simply leave the
     default name as is. Click <b>Next</b>.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!------------------------------- 166. select start menu folder (14x) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 166. select start menu folder (14x) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/.webp/image166.webp" 
    alt="Select Start Menu Folder for Git"
-   width="65%">
+  style="width:65%" />
 &nbsp;
+</p>
 
 7.  Select the default editor for Git to use. Click <b>Next</b>.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!-------------------------- 167. choose default editor for git (14x) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 167. choose default editor for git (14x) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/.webp/image167.webp" 
-   alt="Choose Default Editor for Git"
-   width="65%">
+  alt="Choose Default Editor for Git"
+  style="width:65%" />
 &nbsp;
+</p>
 
 8.  Choose how you want to use Git from the command line.
     Click <b>Next</b>.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--------------------- 168. choose how you want to use git from cli (148) ~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~ 168. choose how you want to use git from cli (148) ~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/.webp/image168.webp" 
-   alt="How Would you Like to Use Git from the Command Line Interface (CLI)?"
-   width="65%" />
+  alt="How Would you Like to Use Git from the Command Line Interface (CLI)?"
+  style="width:65%" />
 &nbsp;
+</p>
 
 9.  Select <b>Use the OpenSSL library</b>. Click <b>Next</b>.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!------------------------- 169. use openssl library or native windows (148) ~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~ 169. use openssl library or native windows (148) ~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/.webp/image169.webp" 
    alt="Use OpenSSL Library (not piece of shit windows), if you can"
-   width="65%" />
+  style="width:65%" />
 &nbsp;
+</p>
 
 10. Configure your line ending conversions for Windows by selecting the
     default option, <b>Checkout Windows-style, commit Unix-style line
     endings</b>. Click <b>Next</b>.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!----------------------------- 170. line ending conversions (149) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 170. line ending conversions (149) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/.webp/image170.webp" 
-   alt="Configure line ending conversios"
-   width="65%" />
+  alt="Configure line ending conversions."
+  title="Configure Line Ending Conversions"
+  style="width:65%" />
 &nbsp;
+</p>
 
 11. Configure your terminal emulator to use with Git Bash by selecting
     the default option, <b>Use MinTTY(the default terminal of MSYS2)</b>.
     Click <b>Next</b>.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!---------------------- 171. configure terminal emulator to gitbash (150) ~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~ 171. configure terminal emulator to gitbash (150) ~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/.webp/image171.webp" 
-   alt="Configure Terminal Emulator to Work with Git Bash"
-   width="65%" />
+  alt="Configure Terminal Emulator to Work with Git Bash."
+  title="Configure Terminal Emulator to Work with Git Bash"
+  style="width:65%" />
 &nbsp;
+</p>
 
 12. Configure the default behavior for a git pull by selecting <b>Default
     (fast-forward or merge)</b>. Click <b>Next</b>.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!-------------- 172. configure default git pull with fast-forward or merge (150) ~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~ 172. configure default git pull with fast-forward or merge (150) ~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/.webp/image172.webp" 
-   alt="Configure Default Behavior for git pull"
-   width="65%" />
+  alt="Configure Default Behavior for Git pull."
+  title="Configure Default Behavior for Git pull"
+  style="width:65%" />
 &nbsp;
+</p>
 
 13. Select any additional options you want to install. (The default
     option is sufficient to use Git Bash successfully). Click <b>Next</b>.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!---------------------------- 173. configuring extra options  (151) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 173. configuring extra options  (151) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/.webp/image173.webp" 
-   alt="Additional Options"
-   width="65%" />
+  alt="Additional Options."
+  title="Additional Options"
+  style="width:65%" />
 &nbsp;
+</p>
 
 14. You can enable experimental options if you choose to. By enabling
     these options, you will be able to try newer features that are still
@@ -5653,33 +5679,35 @@ location. Click <b>Next</b>.
     installation with the options you have chosen. The installation runs
     and when complete, a Completing the Git Setup Wizard window opens.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--------------------------- 174. experimental options? yes/no (152) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 174. experimental options? yes/no (152) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/.webp/image174.webp" 
-   alt="Experimental Options? yes/no"
-   width="65%" />
+  alt="Experimental Options? yes/no."
+  title="Experimental Options? yes/no"
+  style="width:65%" />
 &nbsp;
+</p>
 
 15. Leave the checkboxes selected and click <b>Next</b>.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--------------------- 175. leave checkboxes selected and click next (152) ~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~ 175. leave checkboxes selected and click next (152) ~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/.webp/image175.webp" 
-   alt="Leave the checkboxes selected and click 'Next'"
-   width="65%" />
+  alt="Leave the checkboxes selected and click 'Next'."
+  title="Leave the checkboxes selected and click 'Next'"
+  style="width:65%" />
 &nbsp;
+</p>
 
 The Git Bash terminal opens. You are now able to enter Git and Bash
 commands.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 176. git bash terminal (1xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/.webp/image176.webp" 
-   alt="Git Bash Terminal"
-   width="65%" />
+<img src="./images/.webp/image176.webp"
+  alt="Git Bash Terminal."
+  title="Git Bash Terminal"
+  style="width:65%" />
 &nbsp;
 </p>
 
