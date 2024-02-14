@@ -711,7 +711,7 @@ Once you have bundled your app into a package, you can use a package
 manager to distribute it.
 
 Package managers take care of the tasks of finding, installing,
-maintaining or uninstalling software packages at the user\'s request.
+maintaining or uninstalling software packages at the user&#39;s request.
 
 Package management systems:
 
@@ -1118,7 +1118,7 @@ text/html, it is processed as an HTML document by web browsers.
 
 This example uses the following elements:
 
-The <b>\<!DOCTYPE html\></b> is a declaration tag that represents the
+The <b>&lt;!DOCTYPE html&gt;</b> is a declaration tag that represents the
 document type.
 
 The declaration is not an HTML tag; it is an instruction to the web
@@ -1127,16 +1127,16 @@ browser about what version of HTML the page is written in.
 Although this declaration is not required, it should be the first line
 of the HTML code if the developer decides to include it.
 
-The \<html\> ... \</html\> tag is the root element of this tree.
+The &lt;html&gt; ... &lt;/html&gt; tag is the root element of this tree.
 
-It contains all of the other HTML elements, except the \<!DOCTYPE html\>
+It contains all of the other HTML elements, except the &lt;!DOCTYPE html&gt;
 declaration tag.
 
-This example, contains two elements:  \<head\> and \<body\>.
+This example, contains two elements:  &lt;head&gt; and &lt;body&gt;.
 
-The \<head\> tag contains a \<title\> in the example.
+The &lt;head&gt; tag contains a &lt;title&gt; in the example.
 
-The \<head\> element can contain the following tags:
+The &lt;head&gt; element can contain the following tags:
 
 -   title
 
@@ -1156,7 +1156,7 @@ The \<head\> element can contain the following tags:
   <b><a href="#table-of-contents">↥ Back To Top</a></b>
 </div>
 
-Finally, the \<body\> tag contains all content that is displayed on the
+Finally, the &lt;body&gt; tag contains all content that is displayed on the
 webpage.
 
 HTML user agents, commonly known as browsers, parse the markup, turning
@@ -1572,7 +1572,7 @@ more.
    width="65%" />
 &nbsp;
 
-Here are the results of displaying the \< input type= 'date' \>element
+Here are the results of displaying the &lt; input type= 'date' &gt;element
 in different browsers.
 
 The Google Chrome browser displays a calendar to enter the data.
@@ -1596,7 +1596,7 @@ This could raise several issues regarding input format and validation.
   <b><a href="#table-of-contents">↥ Back To Top</a></b>
 </div>
 
-This example shows a support table for the \< input type= 'date' \>
+This example shows a support table for the &lt; input type= 'date' &gt;
 element.
 
 The numbers represent the browser version. The color determines the
@@ -1608,11 +1608,11 @@ level of support.
 
 -   Red: No support
 
-Edge, Chrome, and Opera browsers are green, meaning they support the \<
-input type= 'date' \> element.
+Edge, Chrome, and Opera browsers are green, meaning they support the &lt;
+input type= 'date' &gt; element.
 
 Internet Explorer and Safari browsers are red, meaning they do not
-support the type ='date'\> element.
+support the type ='date'&gt; element.
 
 Support levels change as developers of browsers add new features, so
 check back frequently to see if the features you require are supported.
@@ -1662,11 +1662,11 @@ default behavior such as displaying the field as a regular text field.
 Here is an example of using JavaScript to check whether a certain HTML5
 element is supported by a browser.
 
-This code is used to test whether the browser supports the element \<
-input type= 'date' \>.
+This code is used to test whether the browser supports the element &lt;
+input type= 'date' &gt;.
 
 In the example, you dynamically create the DOM object for the input
-element, and then you set the type attribute to the value of \"date".
+element, and then you set the type attribute to the value of &quot;date".
 
 If the browser does not support the input type =date, the field is
 displayed in the browser as a regular text field.
@@ -1824,8 +1824,8 @@ CSS style elements are structured like this.
 
 In this example, the html-tag-name can be one of the following elements:
 
--   Any of the tags you find in HTML code (for example,\<a\>, \<div\>,
-    \<li\>, or \<label\>, etc.)
+-   Any of the tags you find in HTML code (for example,&lt;a&gt;, &lt;div&gt;,
+    &lt;li&gt;, or &lt;label&gt;, etc.)
 
 -   An id reference that is displayed with a preceding hash symbol (#)
     in CSS code.
@@ -1834,7 +1834,7 @@ In this example, the html-tag-name can be one of the following elements:
     (.) symbol in CSS code.
 
 When making a site design, begin by establishing the base style.
-Establish a base style by styling the \<Body\> tag, as shown here.
+Establish a base style by styling the &lt;Body&gt; tag, as shown here.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!------------------------------------ 35. base styles (47) -------------------------------------->
@@ -2099,7 +2099,7 @@ These divisions might include the page title, a banner with selectable
 tabs, an area for the image, and further blocks for text and thumbnail
 images.
 
-The \<div\> tag was not introduced in HTML5, but is a good starting
+The &lt;div&gt; tag was not introduced in HTML5, but is a good starting
 point for laying out a page or document.
 
 Then, you can use other HTML5-specific structural elements inside the
@@ -2109,10 +2109,10 @@ Most HTML elements have a semantic meaning. In other words, the element
 describes either the function or the type of data that is contained
 within.
 
-For example, a \<p\> element is a paragraph that usually contains some
+For example, a &lt;p&gt; element is a paragraph that usually contains some
 text.
 
-In contrast, the \<div\> tag has no innate semantic meaning besides the
+In contrast, the &lt;div&gt; tag has no innate semantic meaning besides the
 logical grouping of the content.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -2125,17 +2125,17 @@ logical grouping of the content.
 &nbsp;
 
 You can use these dedicated elements to mark up your website, rather
-than using the generic \<div\> or \<span\> elements.
+than using the generic &lt;div&gt; or &lt;span&gt; elements.
 
-An \<article\> defines a block of code that can be distinguished from
+An &lt;article&gt; defines a block of code that can be distinguished from
 the rest of the page.
 
-A \<section\> defines a logical separation in the document such as the
+A &lt;section&gt; defines a logical separation in the document such as the
 numbered chapters of an online manual.
 
-A \<header\> element is used to group the headers for a page.
+A &lt;header&gt; element is used to group the headers for a page.
 
-The \<footer\> defines the area at the bottom of the page.
+The &lt;footer&gt; defines the area at the bottom of the page.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!-------------------------- 42. example with structural elements (56) --------------------------->
@@ -2151,14 +2151,14 @@ The \<footer\> defines the area at the bottom of the page.
 
 This code example shows some of the HTML5 structural elements.
 
-Here, the \<article\> element is used to create an online news report.
+Here, the &lt;article&gt; element is used to create an online news report.
 
-The \<article\> includes a header.
+The &lt;article&gt; includes a header.
 
-Within the \<article\>, the page is marked up into sections that have
+Within the &lt;article&gt;, the page is marked up into sections that have
 their own headers.
 
-The page also includes a \<footer\> element.
+The page also includes a &lt;footer&gt; element.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--------------------------- 43. elements for grouping content (57) ----------------------------->
@@ -2169,19 +2169,19 @@ The page also includes a \<footer\> element.
    width="65%" />
 &nbsp;
 
-The \<aside\> tag is used to provide additional information that is
+The &lt;aside&gt; tag is used to provide additional information that is
 related to the main discussion.
 
-The \<aside\> tag lets you extract and display further content or go to
+The &lt;aside&gt; tag lets you extract and display further content or go to
 additional resources without detracting from the main discussion.
 
-The \<figure\> tag defines a self-contained element that is referred to
+The &lt;figure&gt; tag defines a self-contained element that is referred to
 from the main content.
 
-The \<figure\> element can be used to embed graphics, images, or code
+The &lt;figure&gt; element can be used to embed graphics, images, or code
 sections.
 
-The \<figurecaption\> tag defines the caption for the contents of the
+The &lt;figurecaption&gt; tag defines the caption for the contents of the
 element.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -2197,7 +2197,7 @@ Websites typically have sections that are dedicated to navigational
 links that go to these sites or for moving between pages of a single
 application.
 
-In HTML5 syntax, these navigational links are placed inside a \<nav\>
+In HTML5 syntax, these navigational links are placed inside a &lt;nav&gt;
 tag.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -2212,16 +2212,16 @@ tag.
   <b><a href="#table-of-contents">↥ Back To Top</a></b>
 </div>
 
-The \<nav\> tag is a convenience tag for grouping navigational links in
+The &lt;nav&gt; tag is a convenience tag for grouping navigational links in
 a web page.
 
 Websites typically have sections that are dedicated to navigational
 links that go to these sites or for moving between pages of a single
 application.
 
-In HTML5 syntax, these navigational links are placed inside a \<\> tag.
+In HTML5 syntax, these navigational links are placed inside a &lt;&gt; tag.
 
-The \<\> tag is a convenience tag for grouping navigational links in a
+The &lt;&gt; tag is a convenience tag for grouping navigational links in a
 web page.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -2239,17 +2239,17 @@ In this section, you learned:
 
 -   Some tags provide structural elements:
 
--   The \<div\> tag separates areas in a document into divisions,
+-   The &lt;div&gt; tag separates areas in a document into divisions,
     enabling you to apply different styles to different parts of a
     document.
 
--   Dedicated elements like \<article\>, \<section\>, \<header\>, and
-    \<footer\> are more specific than the generic element.
+-   Dedicated elements like &lt;article&gt;, &lt;section&gt;, &lt;header&gt;, and
+    &lt;footer&gt; are more specific than the generic element.
 
--   The \<aside\>, \<figure\> and \<figurecaption\> tags enable you to
+-   The &lt;aside&gt;, &lt;figure&gt; and &lt;figurecaption&gt; tags enable you to
     group content.
 
--   And the \<nav\> tags enable you to group navigational links.
+-   And the &lt;nav&gt; tags enable you to group navigational links.
 
 <h3 name="ch3-2">3.2 HTML5 Input Element: Attributes for the Input Tag</h3>
 
@@ -2260,7 +2260,7 @@ After reading this section, you will be able to:
 -   Describe the attributes of the HTML5 input element input type
     attributes tel, email, date time, number, range, and color.
 
-The \< input type= \"color\" / \> attribute allows the user to select a
+The &lt; input type= &quot;color&quot; / &gt; attribute allows the user to select a
 color.
 
 The dialog varies depending on the browser.
@@ -2271,7 +2271,7 @@ In non-supporting browsers, this input type is displayed as a regular
 text input field into which the user might type a valid color name or
 color code.
 
-The \< input type=\"date\" \> attribute is a date control (year, month,
+The &lt; input type=&quot;date&quot; &gt; attribute is a date control (year, month,
 day) with no time zone.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!----------------------------------- 47. input for date (60) ------------------------------------>
@@ -2285,7 +2285,7 @@ day) with no time zone.
   <b><a href="#table-of-contents">↥ Back To Top</a></b>
 </div>
 
-The example shows the input type=\"date\" field as it is seen in Google
+The example shows the input type=&quot;date&quot; field as it is seen in Google
 Chrome.
 
 The input dialog varies from browser to browser.
@@ -2315,12 +2315,12 @@ spinner control.
    width="65%" />
 &nbsp;
 
-The \< input type=\"email\" \> attribute is displayed as a regular text
+The &lt; input type=&quot;email&quot; &gt; attribute is displayed as a regular text
 input field.
 
 It provides feedback when the input does not follow the email format.
 
-The \< input type=\"number\" \> takes a numeric value as input.
+The &lt; input type=&quot;number&quot; &gt; takes a numeric value as input.
 
 You can optionally specify the minimum, maximum values, step size, etc.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -2335,7 +2335,7 @@ You can optionally specify the minimum, maximum values, step size, etc.
 The example shows the number selector in the Chrome browser. Only the
 numbers between 5 and the 10 are available for selection.
 
-The \< input type=\"range\" \> takes a numeric range as input.
+The &lt; input type=&quot;range&quot; &gt; takes a numeric range as input.
 
 The example shows the number selector in the Google Chrome browser.
 
@@ -2360,15 +2360,15 @@ the minimum and maximum.
 Only the slider itself is shown. Additional JavaScript code is needed in
 order to display the value of the slider.
 
-The differences between \< input type=\"search\"\\ \> and \< input
-type=\"text\" / \> are mostly in style.
+The differences between &lt; input type=&quot;search&quot;\\ &gt; and &lt; input
+type=&quot;text&quot; / &gt; are mostly in style.
 
 WebKit-based browsers return a history of recently searched text
 strings.
 
 The search input field on the Safari browser has rounded corners.
 
-The input type=\"tel\" pattern=\"\[parameters\]\" attribute expects a
+The input type=&quot;tel&quot; pattern=&quot;&lbrack;parameters&rbrack;&quot; attribute expects a
 telephone number as input.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -2380,7 +2380,7 @@ telephone number as input.
    width="65%" />
 &nbsp;
 
-On its own, the \< input type=\"tel\" \> provides nothing more than a
+On its own, the &lt; input type=&quot;tel&quot; &gt; provides nothing more than a
 text entry field in the browsers.
 
 It does not enforce numeric only input since many telephone numbers
@@ -2400,9 +2400,9 @@ validate the telephone number.
 
 The URL attribute is used to validate that the user typed in a properly formatted URL or web address.
 
-The \< input list=\"some_list\" \> provides a list of auto-complete suggestions for the input field.
+The &lt; input list=&quot;some_list&quot; &gt; provides a list of auto-complete suggestions for the input field.
 
-Not to be confused with the \< select \> element. Useful for auto-complete functionality.
+Not to be confused with the &lt; select &gt; element. Useful for auto-complete functionality.
 
 You can fill the list by nesting
 
@@ -2478,7 +2478,7 @@ submitted.
 
 In this section, you learned:
 
--   Common attributes of the \< input \> tag.
+-   Common attributes of the &lt; input &gt; tag.
 
 -   How to implement validation fallback.
 
@@ -2507,14 +2507,14 @@ In this module, you learned that:
 
 -   To structure a document, HTML5 uses elements like:
 
-    -   \<div\>
-    -   \<header\>
-    -   \<footer\>
-    -   \<section\>
-    -   \<body\>
-    -   \<heading\>
+    -   &lt;div&gt;
+    -   &lt;header&gt;
+    -   &lt;footer&gt;
+    -   &lt;section&gt;
+    -   &lt;body&gt;
+    -   &lt;heading&gt;
 
--   HTML5 uses the \<input\> tag to allow users to input information. It
+-   HTML5 uses the &lt;input&gt; tag to allow users to input information. It
     has many different types, including:
 
     -   Color
@@ -2598,7 +2598,7 @@ One of the ways that server programming and browser scripting work
 together is in an architecture that is called Ajax, or Asynchronous
 JavaScript and XML.
 
-The term \"Ajax\" encompasses more than asynchronous server calls
+The term &quot;Ajax&quot; encompasses more than asynchronous server calls
 through JavaScript and XML.
 
 Ajax represents a series of techniques that provide richer, interactive
@@ -2736,8 +2736,8 @@ the slide.
 The Date object is a specialized object that is used to hold the date
 and time.
 
-The constructor for a date object is in the format: new Date (\[with
-optional parameters\]).
+The constructor for a date object is in the format: new Date (&lbrack;with
+optional parameters&rbrack;).
 
 If you create a Date object without any parameters, JavaScript returns
 an object that contains the current local date and time.
@@ -2890,7 +2890,7 @@ Variable names, or identifiers, have these rules:
 -   The name must start with a letter, underscore (\_), or a dollar sign
     (\$),
 
--   Subsequent characters can also be digits \[0-9\] Identifiers are
+-   Subsequent characters can also be digits &lbrack;0-9&rbrack; Identifiers are
     case-sensitive.
 
 -   Variables also have a scope:
@@ -3133,7 +3133,7 @@ declaring the statement:
 
 var c = new Car with the arguments; "meridian", "Sabre GT" and 2012.
 
-In the Car function, the keyword \"this\" refers to the current instance
+In the Car function, the keyword &quot;this&quot; refers to the current instance
 of the Car object that is being created. In other words, an instance of
 Car that is associated with the variable named c.
 
@@ -3335,7 +3335,7 @@ declaring the statement:
 
 -   var c = new Car with the arguments "meridian", "Sabre GT" and 2012.
 
-In the Car function, the keyword \"this\" refers to the current instance
+In the Car function, the keyword &quot;this&quot; refers to the current instance
 of the Car object that is being created. In other words, an instance of
 Car that is associated with the variable named c.
 
@@ -3681,7 +3681,7 @@ There is no standard that applies to the navigator object, so the
 property values returned when running queries on the navigator object
 are not consistent across browsers.
 
-The screen object is used to derive information about a user\'s screen,
+The screen object is used to derive information about a user&#39;s screen,
 such as the dimensions of the display screen.
 
 The screen object is useful for determining the screen size of browser
@@ -3789,7 +3789,7 @@ The DOM level 0 for the form portion of the document would have only the
 form, p, and input boxes.
 
 The DOM level 2 adds the carriage returns, tabs, and spaces, sometimes
-referred to as \"white space\".
+referred to as &quot;white space&quot;.
 
 In this section, you learned:
 
@@ -3908,8 +3908,8 @@ It then places all the objects of each type into these arrays.
 The arrays are indexed as they occur in the source document. The first
 index of each array starts at zero.
 
-Each of the array types, such as forms\[\], contains an array of
-elements\[\] with each index element being the fields or buttons that
+Each of the array types, such as forms&lbrack;&rbrack;, contains an array of
+elements&lbrack;&rbrack; with each index element being the fields or buttons that
 occur in that form.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!------------------------- 103. accessing document elements #2 (101) ---------------------------->
@@ -3921,7 +3921,7 @@ occur in that form.
 &nbsp;
 
 You can reference the element named field1 in the figure by its relative
-position as document.forms\[0\].elements\[0\].
+position as document.forms&lbrack;0&rbrack;.elements&lbrack;0&rbrack;.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!------------------------- 104. accessing document elements #3 (101) ---------------------------->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -3932,7 +3932,7 @@ position as document.forms\[0\].elements\[0\].
 &nbsp;
 
 You can reference the same field with named elements; for example,
-document.forms\[\"form1\"\].elements\[\"field1\"\], or even the
+document.forms&lbrack;&quot;form1&quot;&rbrack;.elements&lbrack;&quot;field1&quot;&rbrack;, or even the
 shortened document.form1.field1.
 !------------------------------------------------------------------------------------------------->
 <!------------------------- 105. accessing document elements #4 (102) ---------------------------->
@@ -4137,7 +4137,7 @@ any setting from a CSS style sheet with one specific style.
 The way to set the style in JavaScript is with the format
 element.style.propertyName = value.
 
-For example, if you had an element \<div style=\"color:blue\"\>.
+For example, if you had an element &lt;div style=&quot;color:blue&quot;&gt;.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!---------------------------- 113. modifying the inline style (107) ----------------------------->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -4147,11 +4147,11 @@ For example, if you had an element \<div style=\"color:blue\"\>.
    width="65%" />
 &nbsp;
 
-Here the \<div\> tag is used to group block-elements to format them with
+Here the &lt;div&gt; tag is used to group block-elements to format them with
 a color style. You can change the style of this div tag with the
 JavaScript statement:
 
-div.style.color = \'red\';
+div.style.color = &#39;red&#39;;
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!---------------------------- 114. modifying the inline style (108) ----------------------------->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -4161,7 +4161,7 @@ div.style.color = \'red\';
    width="65%" />
 &nbsp;
 
-In contrast, the element.setAttribute(\'style\', ...) wipes out all
+In contrast, the element.setAttribute(&#39;style&#39;, ...) wipes out all
 previously set inline CSS styles.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!------------------------------- 115. modifying attributes (108) -------------------------------->
@@ -4229,7 +4229,7 @@ the current page in the browser history.
 The window.onload function can be used to start a function after the
 page is loaded.
 
-The function, window.dump(\"message\") writes a string into the console
+The function, window.dump(&quot;message&quot;) writes a string into the console
 for the web browser.
 
 The dump() function is a less intrusive way to display diagnostic
@@ -4291,7 +4291,7 @@ element.setAttribute to modify the attributes of an element.
 window.open to return reference to a new window object for the web
 browser.
 
-window.dump(\"message\") to write a string into the console for the web
+window.dump(&quot;message&quot;) to write a string into the console for the web
 browser.
 
 This is not an exhaustive list -- many more functions exist that enable
@@ -4345,7 +4345,7 @@ to be merged seamlessly, to allow for potential rollbacks, and for
 accountability. This type of distributed version control is extremely
 important when managing large software projects. Git, GitHub, and Git
 Lab are some of the most widely used tools for collaboration, storage,
-and version control. \
+and version control.
 After completing this module, you will be able to: 
 
 -   Define distributed version control,
@@ -4486,28 +4486,28 @@ There are a few basic <b>Git</b> commands that you will always use. 
 
 When starting out with a new repository, you only need create it once:
 either locally, and then push to GitHub, or by cloning an existing
-repository by using the command <b>\"git init\"</b>.
+repository by using the command <b>&quot;git init&quot;</b>.
 
-<b>\"git add\"</b> moves changes from the working directory to the staging
+<b>&quot;git add&quot;</b> moves changes from the working directory to the staging
 area. 
 
-<b>\"git status\"</b> allows you to see the state of your working directory and
+<b>&quot;git status&quot;</b> allows you to see the state of your working directory and
 the staged snapshot of your changes. 
 
-<b>\"git commit\"</b> takes your staged snapshot of changes and commits them to
+<b>&quot;git commit&quot;</b> takes your staged snapshot of changes and commits them to
 the project. 
 
-<b>\"git reset\"</b> undoes changes that you've made to the files in your
+<b>&quot;git reset&quot;</b> undoes changes that you've made to the files in your
 working directory. 
 
-<b>\"git log\"</b> enables you to browse previous changes to a project. 
+<b>&quot;git log&quot;</b> enables you to browse previous changes to a project. 
 
-<b>\"git branch\"</b> lets you create an isolated environment within your
+<b>&quot;git branch&quot;</b> lets you create an isolated environment within your
 repository to make changes. 
 
-<b>\"git checkout\"</b> lets you see and change existing branches. 
+<b>&quot;git checkout&quot;</b> lets you see and change existing branches. 
 
-<b>\"git merge\"</b> lets you put everything back together again. 
+<b>&quot;git merge&quot;</b> lets you put everything back together again. 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!------------------------------ 127. https://try.github.io (118) -------------------------------->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -4527,7 +4527,7 @@ started. 
 Go to try.github.io to download the cheat sheets and run through the
 tutorials. 
 
-In the following modules, we\'ll give you a crash course on setting up
+In the following modules, we&#39;ll give you a crash course on setting up
 your local environment and getting started on a project. 
 
 <h3>Introduction to GitHub</h3>
@@ -5315,10 +5315,10 @@ Other commands of interest include "git fetch upstream" to grab upstream
 branches and "git merge upstream/master" which merges changes into the
 master branch.
 
-You will also see \"git pull upstream\" used to fetch and merge the
+You will also see &quot;git pull upstream&quot; used to fetch and merge the
 remote branch in the same step.
 
-"Git pull upstream\" reduces the number of steps to sync with a remote
+"Git pull upstream&quot; reduces the number of steps to sync with a remote
 branch, but the automatic merges are not always desired.
 
 In this section, you learned:
@@ -5345,12 +5345,12 @@ A Developer working as a participant in a group project needs to learn
 how to communicate with others and uses these commands in addition to
 the ones needed by a standalone developer.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!---------------------------- 156. github developer commands (140) ------------------------------>
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 156. github developer commands (140) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/.webp/image156.webp"
-  alt="GitHub Developer commands"
-  width="65%" />
+  alt="GitHub Developer Commands."
+  title="GitHub Developer Commands"
+  style="width:65%" />
 &nbsp;
 
 When working with Git, you can use Git commands or a desktop tool such
@@ -5358,7 +5358,7 @@ as GitHub Desktop.
 
 -   git-clone from the upstream to prime the local repository.
 
--   git-pull and git-fetch from \"origin\" to keep up-to-date with the
+-   git-pull and git-fetch from &quot;origin&quot; to keep up-to-date with the
     upstream
 
 -   git-push to shared repository, if you adopt CVS style shared
@@ -5373,12 +5373,12 @@ as GitHub Desktop.
 -   git-request-pull to create a summary of changes for your upstream to
     pull.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!-------------------------------- 157. github integrator (141) ---------------------------------->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 157. github integrator (141) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/.webp/image156.webp" 
-  alt="GitHub Integrator"
-  width="65%" />
+  alt="GitHub Integrator."
+  title="GitHub Integrator"
+  style="width:65%" />
 &nbsp;
 
 An integrator in a group project receives changes made by others,
@@ -5399,12 +5399,12 @@ participants.
 
 -   git-push to publish the bleeding edge.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!------------------------- 158. github repository administrator (141) --------------------------->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~ 158. github repository administrator (141) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/.webp/image158.webp" 
-  alt="GitHub Repository Administrator"
-  width="65%" />
+  alt="GitHub Repository Administrator."
+  title="GitHub Repository Administrator"
+  style="width:65%" />
 &nbsp;
 
 A Repository Administrator uses the following tools to set up and
@@ -5416,7 +5416,7 @@ maintain access to the repository by developers.
     repository users.
 
 -   git-http-backend provides a server-side implementation of
-    Git-over-HTTP (\"Smart http\") allowing both fetch and push
+    Git-over-HTTP (&quot;Smart http&quot;) allowing both fetch and push
     services.
 
 -   gitweb provides a web front-end to Git repositories, which can be
@@ -5456,12 +5456,12 @@ Start Lab
 
 Installing Git Bash
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!---------------------------------- 159. ibm cloud logo (143) ----------------------------------->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 159. ibm cloud logo (143) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/.webp/image159.webp"
-  alt="IBM Cloud logo"
-  width="20%" />
+  alt="IBM Cloud Logo."
+  title="IBM Cloud Logo"
+  style="width:20%" />
 &nbsp;
 
 <b>Estimated time</b>: 20 minutes
@@ -5479,7 +5479,8 @@ base.
 
 Bash is a Unix command-line shell. The name is an acronym
 for <i>Bourne-Again Shell</i>. It comes with useful Unix commands like cat,
-ssh, SCP, etc., which are not usually found on Windows.
+ssh, SCP, etc., which are not usually found on Windows. And usually when are
+found, suck.
 
 <h3>Installing Git Bash for Windows</h3>
 
@@ -5488,68 +5489,68 @@ following steps:
 
 1.  Go to the [Git download
     page](https://git-scm.com/downloads?cm_mmc=Email_Newsletter-_-Developer_Ed%2BTech-_-WW_WW-_-SkillsNetwork-Courses-IBMDeveloperSkillsNetwork-CD0101EN-SkillsNetwork-20336975&cm_mmca1=000026UJ&cm_mmca2=10006555&cm_mmca3=M12345678&cvosrc=email.Newsletter.M12345678&cvo_campaign=000026UJ&cm_mmc=Email_Newsletter-_-Developer_Ed%2BTech-_-WW_WW-_-SkillsNetwork-Courses-IBMDeveloperSkillsNetwork-CD0101EN-SkillsNetwork-20336975&cm_mmca1=000026UJ&cm_mmca2=10006555&cm_mmca3=M12345678&cvosrc=email.Newsletter.M12345678&cvo_campaign=000026UJ).
-    Click <b>Download \[version number\] for Windows</b>, as shown in the
+    Click <b>Download &lbrack;version number&rbrack; for Windows</b>, as shown in the
     following image:
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!------------------------------------ 160. downloads (144) -------------------------------------->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 160. downloads (144) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/.webp/image160.webp" 
   alt="Downloads"
-  width="65%" />
+  title="Downloads"
+  style="width:65%" />
 &nbsp;
 
 You will be redirected to a new page and the download will start.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--------------------------------- 161. downloading git  (144) ---------------------------------->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 161. downloading git (144) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/.webp/image161.webp" 
-  alt="Downloading Git"
-  width="65%" />
+  alt="Downloading Git."
+  title="Downloading Git"
+  style="width:65%" />
 &nbsp;
 
-<b>Note</b>: If the download doesn\'t start, click <b>Click here to download
+<b>Note</b>: If the download doesn&#39;t start, click <b>Click here to download
 manually</b>.
 
 2.  Go to the folder where you saved the file and double-click to open
     it.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--------------------------- 162. open file security warning (145) ------------------------------>
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 162. open file security warning (145) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/.webp/image162.webp" 
-  alt="Open File Security Warning"
-  width="65%" />
+  alt="Open File Security Warning."
+  title="Open File Security Warning"
+  style="width:65%" />
 &nbsp;
 
 3.  Click <b>Run</b> to begin the installation.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--------------------------- 163. click run to begin install (145) ------------------------------>
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 163. click run to begin install (145) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/.webp/image163.webp"
-  alt="Click Next to Begin Install"
-  width="65%" />
+  alt="Click Next to Begin Install."
+  title="Click Next to Begin Install"
+  style="width:65%" />
 &nbsp;
 
 4.  Select the location where you want to install Git Bash. 
 
-<b>Note</b>: It\'s recommended that you simply install to the default
+<b>Note</b>: It&#39;s recommended that you simply install to the default
 location. Click <b>Next</b>.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!----------------------- 164. select location to install git bash (146) ------------------------->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~ 164. select location to install git bash (146) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/.webp/image164.webp" 
-   alt="Enter Location to Install Git Bash"
-   width="65%" />
+  alt="Enter Location to Install Git Bash."
+  title="Enter Location to Install Git Bash"
+  style="width:65%" />
 &nbsp;
 
 5.  Choose the components you want to install, or simply leave the
     default options selected. Click <b>Next</b>.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!-------------------------- 165. select components for git setup (14x) -------------------------->
+<!-------------------------- 165. select components for git setup (14x) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/.webp/image165.webp"
@@ -5560,7 +5561,7 @@ location. Click <b>Next</b>.
 6.  You can change the name of the start menu folder or simply leave the
     default name as is. Click <b>Next</b>.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!------------------------------- 166. select start menu folder (14x) ---------------------------->
+<!------------------------------- 166. select start menu folder (14x) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/.webp/image166.webp" 
@@ -5570,7 +5571,7 @@ location. Click <b>Next</b>.
 
 7.  Select the default editor for Git to use. Click <b>Next</b>.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!-------------------------- 167. choose default editor for git (14x) ---------------------------->
+<!-------------------------- 167. choose default editor for git (14x) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/.webp/image167.webp" 
@@ -5581,7 +5582,7 @@ location. Click <b>Next</b>.
 8.  Choose how you want to use Git from the command line.
     Click <b>Next</b>.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--------------------- 168. choose how you want to use git from cli (148) ----------------------->
+<!--------------------- 168. choose how you want to use git from cli (148) ~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/.webp/image168.webp" 
@@ -5591,7 +5592,7 @@ location. Click <b>Next</b>.
 
 9.  Select <b>Use the OpenSSL library</b>. Click <b>Next</b>.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!------------------------- 169. use openssl library or native windows (148) --------------------->
+<!------------------------- 169. use openssl library or native windows (148) ~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/.webp/image169.webp" 
@@ -5603,7 +5604,7 @@ location. Click <b>Next</b>.
     default option, <b>Checkout Windows-style, commit Unix-style line
     endings</b>. Click <b>Next</b>.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!----------------------------- 170. line ending conversions (149) ------------------------------->
+<!----------------------------- 170. line ending conversions (149) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/.webp/image170.webp" 
@@ -5615,7 +5616,7 @@ location. Click <b>Next</b>.
     the default option, <b>Use MinTTY(the default terminal of MSYS2)</b>.
     Click <b>Next</b>.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!---------------------- 171. configure terminal emulator to gitbash (150) ------------------------>
+<!---------------------- 171. configure terminal emulator to gitbash (150) ~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/.webp/image171.webp" 
@@ -5626,7 +5627,7 @@ location. Click <b>Next</b>.
 12. Configure the default behavior for a git pull by selecting <b>Default
     (fast-forward or merge)</b>. Click <b>Next</b>.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!-------------- 172. configure default git pull with fast-forward or merge (150) ---------------->
+<!-------------- 172. configure default git pull with fast-forward or merge (150) ~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/.webp/image172.webp" 
@@ -5637,7 +5638,7 @@ location. Click <b>Next</b>.
 13. Select any additional options you want to install. (The default
     option is sufficient to use Git Bash successfully). Click <b>Next</b>.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!---------------------------- 173. configuring extra options  (151) ----------------------------->
+<!---------------------------- 173. configuring extra options  (151) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/.webp/image173.webp" 
@@ -5652,7 +5653,7 @@ location. Click <b>Next</b>.
     installation with the options you have chosen. The installation runs
     and when complete, a Completing the Git Setup Wizard window opens.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--------------------------- 174. experimental options? yes/no (152) ---------------------------->
+<!--------------------------- 174. experimental options? yes/no (152) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/.webp/image174.webp" 
@@ -5662,7 +5663,7 @@ location. Click <b>Next</b>.
 
 15. Leave the checkboxes selected and click <b>Next</b>.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--------------------- 175. leave checkboxes selected and click next (152) ---------------------->
+<!--------------------- 175. leave checkboxes selected and click next (152) ~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/.webp/image175.webp" 
@@ -5673,7 +5674,7 @@ location. Click <b>Next</b>.
 The Git Bash terminal opens. You are now able to enter Git and Bash
 commands.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--------------------------------- 176. git bash terminal (1xx) --------------------------------->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 176. git bash terminal (1xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/.webp/image176.webp" 
@@ -5688,12 +5689,12 @@ commands.
 
 <h3>Generate an SSH key</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!----------------------------- 159. ibm skills network logo (153) ------------------------------->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 159. ibm skills network logo (153) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/.webp/image159.webp"
-   alt="IBM Skills Network"
-   width="20%" />
+  alt="IBM Skills Network Logo."
+  title="IBM Skills Network Logo"
+  style="width:20%" />
 &nbsp;
 </p>
 
@@ -5709,11 +5710,11 @@ To generate an SSH key, complete the following steps:
 
 1.  Launch a terminal. If you are using Windows, launch Git Bash.
 
-2.  Type the following command in your terminal, replacing \"\<your email address\>\" with the
+2.  Type the following command in your terminal, replacing &quot;&lt;your email address&gt;&quot; with the
     email address that is linked to your Github account. When you have
     typed the command, press Enter.
 
-<b>ssh-keygen -t rsa -b 4096 -C \"\<your email address\>\"</b>
+<b>ssh-keygen -t rsa -b 4096 -C &quot;&lt;your email address&gt;&quot;</b>
 
 A new SSH key is generated.
 
@@ -5745,7 +5746,7 @@ key.
     the authentication process. To start the ssh-agent, run the
     following command in the terminal:
 
-<b>eval \"\$(ssh-agent -s)\"</b>
+<b>eval &quot;\$(ssh-agent -s)&quot;</b>
 
 7.  To add the key to the agent, run the following command in the
     terminal:
@@ -5758,12 +5759,12 @@ key.
 
 <h3>Lab: Adding an SSH key to GitHub</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!----------------------------- 159. ibm skills network logo (154) ------------------------------->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 159. ibm skills network logo (154) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/.webp/image159.webp"
-   alt="IBM Skills Network logo"
-   width="20%" />
+  alt="IBM Skills Network Logo."
+  title="IBM Skills Network Logo"
+  style="width:20%" />
 &nbsp;
 </p>
 
@@ -5784,7 +5785,7 @@ following steps:
 
 <b>cat \~/.ssh/id_rsa.pub \| clip</b>
 
-<b>Note</b>: If clip doesn\'t work, run cat \~/.ssh/id_rsa.pub in the
+<b>Note</b>: If clip doesn&#39;t work, run cat \~/.ssh/id_rsa.pub in the
 command line and the copy the output.
 
 2.  Sign in to GitHub. At the top right, click the drop-down menu on
@@ -5794,36 +5795,36 @@ command line and the copy the output.
   <b><a href="#table-of-contents">↥ Back To Top</a></b>
 </div>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--------------------------------- 177. github settings (155) ----------------------------------->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 177. github settings (155) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/.webp/image177.webp" 
-   alt="Github Settings"
-   width="65%" />
+<img src="./images/.webp/image177.webp"
+  alt="GitHub Settings."
+  title="GitHub Settings"
+  style="width:65%" />
 &nbsp;
 </p>
 
-3.  From the \"Personal settings\" menu, select <b>SSH and GPG keys</b>, as
+3.  From the &quot;Personal settings&quot; menu, select <b>SSH and GPG keys</b>, as
     shown in the following image:
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--------------------------------- 178. ssh and gpg keys (155) ---------------------------------->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 178. ssh and gpg keys (155) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/.webp/image178.webp"
-  alt="SSH and GPG Keys"
-  width="65%" />
+  alt="SSH and GPG Keys."
+  title="SSH and GPG Keys"
+  style="width:65%" />
 &nbsp;
 </p>
 
 4.  Click <b>New SSH key</b>.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!----------------------------------- 179. new ssh key (156) ------------------------------------->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 179. new ssh key (156) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/.webp/image179.webp" 
-   alt="New SSH Key"
-   width="65%" />
+  alt="New SSH Key"
+  title="New SSH Key"
+  style="width:65%" />
 &nbsp;
 </p>
 
@@ -5832,12 +5833,12 @@ command line and the copy the output.
     include <b>Your email address</b> at the end, as shown in the following
     image:
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--------------------------------- 180. ssh keys/add new (156) ---------------------------------->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 180. ssh keys/add new (156) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/.webp/image180.webp" 
-   alt="SSH keys/Add New"
-   width="65%" />
+  alt="SSH keys/Add New."
+  title="SSH keys/Add New"
+  style="width:65%" />
 &nbsp;
 </p>
 
@@ -5853,12 +5854,12 @@ Congratulations! You have now learned how to add an SSH key to GitHub.
 
 <h3>Hands-on Lab: Cloning, committing and pushing your GitHub repo from the command line.</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!------------------------------- 159. ibm developer logo (157) ---------------------------------->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 159. ibm developer logo (157) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/.webp/image159.webp" 
-   alt="IBM Developer logo"
-   width="20%" />
+  alt="IBM Developer Logo."
+  title="IBM Developer Logo"
+  style="width:20%" />
 &nbsp;
 </p>
 
@@ -5900,17 +5901,17 @@ To clone a repo, you need the ssh url of the repo.
 
 2.  Navigate to the repo you wish to clone.
 
-3.  Click on the \'Code\' button.
+3.  Click on the &#39;Code&#39; button.
 
-4.  Click on the \'clipboard icon\' to copy the url. Paste this url
+4.  Click on the &#39;clipboard icon&#39; to copy the url. Paste this url
     where you can access it later.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!---------------------------------- 181. copy/paste url (158) ----------------------------------->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 181. copy/paste url (158) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/.webp/image181.webp" 
-   alt="Copy/Paste URL"
-   width="65%" />
+  alt="Copy/Paste URL."
+  title="Copy/Paste URL"
+  style="width:65%" />
 &nbsp;
 </p>
 
@@ -5918,14 +5919,14 @@ To clone a repo, you need the ssh url of the repo.
 
 6.  Navigate to a directory where you wish to clone the repo.
 
-7.  Run the command \"git clone \".
+7.  Run the command &quot;git clone &quot;.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!------------------------------------ 182. git clone (158) -------------------------------------->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 182. git clone (158) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/.webp/image182.webp" 
-   alt="Clone .git file."
-   width="65%" />
+  alt="Clone .git file."
+  title="Clone .git file"
+  style="width:65%" />
 &nbsp;
 </p>
 
@@ -5934,12 +5935,12 @@ To clone a repo, you need the ssh url of the repo.
 9.  You can see all the downloaded files under a directory named as your
     repo name.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!---------------------------------- 183. list directory (159) ----------------------------------->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 183. list directory (159) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/.webp/image183.webp" 
-   alt="git clone"
-   width="65%" />
+  alt="git clone."
+  title="Git clone"
+  style="width:65%" />
 &nbsp;
 </p>
 
@@ -5950,23 +5951,23 @@ verify all were downloaded.
 
 Using your favorite editor make the changes to the html file.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!---------------------------------- 184. edit the html (159) ------------------------------------>
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 184. edit the html (159) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/.webp/image184.webp" 
-   alt="Edit the html"
-   width="65%" />
+  alt="Edit the HTML."
+  title="Edit the HTML"
+  style="width:65%" />
 &nbsp;
 </p>
 
 <b>git status</b> will show all the modified files.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!----------------------------------- 185. git status (160) -------------------------------------->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 185. git status (160) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/.webp/image185.webp" 
-   alt="Git Status."
-   width="65%" />
+  alt="Git Status."
+  title="Git Status"
+  style="width:65%" />
 &nbsp;
 </p>
 
@@ -5974,19 +5975,19 @@ Using your favorite editor make the changes to the html file.
 
 Let us add a new file to the local repo.
 
-Using a text editor, create a new file \"browser-support.txt\".
+Using a text editor, create a new file &quot;browser-support.txt&quot;.
 
-Add \"Chrome, Firefox, Edge\" into the file.
+Add &quot;Chrome, Firefox, Edge&quot; into the file.
 
 Save the file.
 
 <h3>Exercise 4: Check the status</h3>
 
-Run \"git status\" to see info on the modified files.
+Run &quot;git status&quot; to see info on the modified files.
 
 Let us add the file for committing.
 
-Run \"git add browser-support.txt\"
+Run &quot;git add browser-support.txt&quot;
 
 <h3>Exercise 5: Commit the changes</h3>
 
@@ -5995,7 +5996,7 @@ Run \"git add browser-support.txt\"
 To commit the changes, you have made, run git commit with a message like
 this.
 
-git commit -m \'added a new file browser-support.txt\'
+git commit -m &#39;added a new file browser-support.txt&#39;
 
 Now all the changes you have made thus far, get committed locally.
 
@@ -6007,28 +6008,29 @@ push the changes to the GitHub.
 <b>git push</b> will sync all the changes made till now to your online
 GitHub repository.
 
-Run the command \"git push\"
+Run the command &quot;git push&quot;
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!------------------------------------- 186. git push (161) -------------------------------------->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 186. git push (161) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/.webp/image186.webp" 
-	alt="git push"
-	width="65%" />
+  alt="Git push."
+  title="Git push"
+  style="width:65%" />
 &nbsp;
 </p>
 
-Log into your GitHub account and verify if the local changes have
-synched.
+<p>Log into your GitHub account and verify if the local changes have
+synched.</p>
 
 <h3>Summary</h3>
 
-In this lab, you have learned how to clone a GitHub repository, make
-changes to it, commit the changes locally, and push it back to GitHub.
+<p>In this lab, you have learned how to clone a GitHub repository, make
+changes to it, commit the changes locally, and push it back to GitHub.</p>
 
 <h3 name="ch5-10">5.10 Chapter 5 Summary</h3>
 
-In this module (5), you learned that:
+<p>In this module (5), you learned that:</p>
+
 <ul>
   <li>Distributed version control keeps track of changes to code,
   regardless of where it is stored,<br/>&nbsp;</li>
@@ -6042,9 +6044,9 @@ In this module (5), you learned that:
   <li>Branches are used to isolate changes to code. When the changes are
     complete, they can be merged back into the master branch,<br/>&nbsp;</li>
   <li>Repositories can be cloned to make it possible to work locally, then
-    sync changes back to the original.<br/>&nbsp;</li>
+    sync changes back to the original,<br/>&nbsp;</li>
   <li>Repositories can be forked to be used as a base for a new project,
-    or so that the developer can work independently.<br/>&nbsp;</li>
+    or so that the developer can work independently,<br/>&nbsp;</li>
   <li>Large projects include people working in different roles:
   <ul>
     <li>Developer -- creates code</li>
@@ -6052,8 +6054,9 @@ In this module (5), you learned that:
     <li>Repository Administrator -- configures and maintains access to the repository</li>
   </ul>
 </ul>
+<p><b><i>Previous changes made: 2/1/2023 4:31pm +</i></b></p>
 
-<p><b><i>Last edited 2/4/2023 4:31pm +</i></b></p>
+<h6><b><i>Last edited 2/13/2024 6:36pm +</i></b></h6>
 
 ...the end.
 <div align="right">
