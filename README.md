@@ -3,21 +3,21 @@
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ readme.md in CAD101en.bauska.org ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 01. ibm logo ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/.webp/image001.webp?raw=true"
-   alt="IBM logo"
-   width="25%" />
+  title="IBM logo"
+  alt="IBM logo"
+  width="25%" />
 &nbsp;
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 align="center">Introduction to Cloud Development with HTML5, CSS3, & JavaScript (w/Github)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 02. cloud logo ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/.webp/image002.webp?raw=true"
-   alt="Cloud logo"
-   width="40%" />
+  title="Cloud logo"
+  alt="Cloud logo"
+  width="40%" />
 &nbsp;
 
 <h3>edX.org online course (CAD101EN) - 5 module course</h3>
@@ -120,11 +120,11 @@ After completing this course, you will be able to:
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 03. course intro: cloud development ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="images/image003.webp" 
-  alt="IBM Cloud Development - the Skills Network"
-  width="65%">
+  title="IBM Cloud Development - the Skills Network"
+  alt="IBM Cloud Development - the Skills Network."
+  style="width:65%">
 &nbsp;
 </p>
 
@@ -132,10 +132,10 @@ After completing this course, you will be able to:
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 04. course intro: cloud courses (4) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/.webp/image004.webp"
-  alt="Cloud Courses from IBM"
+  title="Cloud Courses from IBM"
+  alt="Cloud Courses from IBM."
   width="65%" />
 &nbsp;
 </p>
@@ -144,10 +144,10 @@ After completing this course, you will be able to:
 </div>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 05. emerging jobs (4) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/.webp/image005.webp"
-  alt="Emerging Jobs: Full-Stack, Back-End, Front-End, JavaScript"
+  title="Emerging Jobs: Full-Stack, Back-End, Front-End, JavaScript"
+  alt="Emerging Jobs: Full-Stack, Back-End, Front-End, JavaScript."
   width="65%" />
 &nbsp;
 </p>
@@ -185,12 +185,12 @@ become proficient.</p>
 </ul>
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!-------------------------- 06. overview of web and cloud development ~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 06. overview of web and cloud development ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/.webp/image006.webp" 
-   alt="Overview of Cloud and Web Development by IBM - Skills Network"
-   width="65%" />
+  title="Overview of Cloud and Web Development by IBM - Skills Network"
+  alt="Overview of Cloud and Web Development by IBM - Skills Network."
+  style="width:65%" />
 &nbsp;
 <div align="right">
   <b><a href="#table-of-contents">↥ Back To Top</a></b>
@@ -268,12 +268,12 @@ Examples for code editors and IDEs include Sublime Text, Atom, Vim, VS
 Code, Visual Studio, Eclipse and NetBeans.
 In this brief overview, you learned about:
 <ul>
-<li>The basic communication between client and servers,<br/>&nbsp;</li>
-<li>How websites are built and displayed,<br/>&nbsp;</li>
-<li>Front-end development is about what happens on the client,<br/>&nbsp;</li>
-<li>Back-end development is about what happens on the server,<br/>&nbsp;</li>
-<li>Full-stack development incudes both front-end and back-end development,<br/>&nbsp;</li>
-<li>IDEs will help you create and manage your code.</li>
+  <li>The basic communication between client and servers,<br/>&nbsp;</li>
+  <li>How websites are built and displayed,<br/>&nbsp;</li>
+  <li>Front-end development is about what happens on the client,<br/>&nbsp;</li>
+  <li>Back-end development is about what happens on the server,<br/>&nbsp;</li>
+  <li>Full-stack development incudes both front-end and back-end development,<br/>&nbsp;</li>
+  <li>IDEs will help you create and manage your code.</li>
 </ul>
 
 <div align="right">
@@ -440,11 +440,11 @@ becomes overridingly important.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 07. version control (12) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/.webp/image007.webp"
-   alt="Version Control"
-   width="65%">
+  title="Version Control"
+  alt="Version Control"
+  style="width:65%">
 &nbsp;
 <div align="right">
   <b><a href="#table-of-contents">↥ Back To Top</a></b>
@@ -473,11 +473,11 @@ them back into the main body of code.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 08. libraries (13) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/.webp/image008.webp" 
-   alt="Libraries"
-   width="65%" />
+  title="Libraries"
+  alt="Libraries"
+  style="width:65%" />
 &nbsp;
 <div align="right">
   <b><a href="#table-of-contents">↥ Back To Top</a></b>
@@ -510,6 +510,8 @@ Either way, there are lots for you to choose from, so do your research.
 
 Here are some examples of code libraries:
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 09. libraries - jquery (1x) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/.webp/image009.webp"
    alt="Libraries: jQuery"
@@ -518,6 +520,8 @@ Here are some examples of code libraries:
 
 -   jQuery is a JavaScript library that simplifies Dom manipulation.
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 10. e-mail validator (1x) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/.webp/image010.webp"
    alt="E-Mail Validator"
@@ -527,6 +531,8 @@ Here are some examples of code libraries:
 -   Email-validator is a small library that checks an email address is
     correctly constructed and valid.
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 11. apache commons proper (1x) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/.webp/image011.webp"
    alt="Apache Commons Proper"
@@ -1837,12 +1843,11 @@ When making a site design, begin by establishing the base style.
 Establish a base style by styling the &lt;Body&gt; tag, as shown here.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!------------------------------------ 35. base styles (47) -------------------------------------->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 35. base styles (47) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/.webp/image035.webp"
-   alt="Base Styles"
-   width="20%" />
+  alt="Base Styles"
+  width="20%" />
 &nbsp;
 
 This example makes the following styles:
@@ -2023,16 +2028,14 @@ After reading this section, you will be able to:
   <b><a href="#table-of-contents">↥ Back To Top</a></b>
 </div>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!---------------------------- 36. html5 specific tags (1of4) (51) ------------------------------->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 36. html5 specific tags (1of4) (51) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/.webp/image036.webp"
    alt="HTML5 Specific Tags (1 of 4)"
    width="85%" />
 &nbsp;
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!---------------------------- 37. html5 specific tags (2of4) (52) ------------------------------->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 37. html5 specific tags (2of4) (52) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/.webp/image037.webp"
    alt="HTML5 Specific Tags (2 of 4)"
@@ -2052,8 +2055,7 @@ Not all of these element tags are covered in this section, so take a
 moment to read through the table.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!---------------------------- 38. html5 specific tags (3of4) (53) ------------------------------->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 38. html5 specific tags (3of4) (53) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/.webp/image038.webp"
    alt="HTML5 Specific Tags (3 of 4)"
@@ -3912,8 +3914,7 @@ Each of the array types, such as forms&lbrack;&rbrack;, contains an array of
 elements&lbrack;&rbrack; with each index element being the fields or buttons that
 occur in that form.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!------------------------- 103. accessing document elements #2 (101) ---------------------------->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~ 103. accessing document elements #2 (101) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="/./images/.webp/image103.webp?raw=true" 
    alt="Accessing Document Elements"
@@ -3923,8 +3924,7 @@ occur in that form.
 You can reference the element named field1 in the figure by its relative
 position as document.forms&lbrack;0&rbrack;.elements&lbrack;0&rbrack;.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!------------------------- 104. accessing document elements #3 (101) ---------------------------->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~ 104. accessing document elements #3 (101) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="/./images/.webp/image104.webp?raw=true" 
    alt="Accessing Document Elements"
@@ -3934,9 +3934,8 @@ position as document.forms&lbrack;0&rbrack;.elements&lbrack;0&rbrack;.
 You can reference the same field with named elements; for example,
 document.forms&lbrack;&quot;form1&quot;&rbrack;.elements&lbrack;&quot;field1&quot;&rbrack;, or even the
 shortened document.form1.field1.
-!------------------------------------------------------------------------------------------------->
-<!------------------------- 105. accessing document elements #4 (102) ---------------------------->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~ 105. accessing document elements #4 (102) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="/./images/.webp/image105.webp?raw=true"
    alt="Accessing Document Elements"
@@ -3955,8 +3954,7 @@ element with a name that matches the value of the id attribute.
 In order to assign a scriptable reference name to an HTML element with
 the id attribute, use the following conventions:
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!---------------------------------- 106. object naming (102) ------------------------------------>
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 106. object naming (102) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="/./images/.webp/image106.webp?raw=true"
      alt="Object Nameing"
@@ -4007,8 +4005,7 @@ Instead, the remainder of the unit focuses on script functions and
 properties that are commonly used when working with HTML pages.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!----------------------------------- 107. common apis (103) ------------------------------------->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 107. common apis (103) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="/./images/.webp/image107.webp?raw=true" 
      alt="Common APIs"
@@ -4020,8 +4017,7 @@ web pages are seen on the slide.
 
 DOM elements are reviewed next.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!------------------------- 108. retrieving a reference to a node (104) -------------------------->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~ 108. retrieving a reference to a node (104) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="/./images/.webp/image108.webp?raw=true"
      alt="Retrieving a Reference to a Node"
@@ -4049,8 +4045,7 @@ tag.
 If you run the function getElementsByTagName with a "p" as a parameter
 argument, a NodeList of all the paragraphs in the document is returned.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!-------------------------- 109. example: retrieving all images (104) --------------------------->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 109. example: retrieving all images (104) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="/./images/.webp/image109.webp?raw=true" 
      alt="Example: Retrieving All Images"
@@ -4078,8 +4073,7 @@ create an element in the current document.
 After creating the element, you can use any of a number of functions to
 place the element in the appropriate location within the document.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!------------------------- 110. adding new nodes (105) --------------------->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 110. adding new nodes (105) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="/./images/.webp/image110.webp?raw=true"
    alt="Adding New Nodes"
@@ -4090,8 +4084,7 @@ Examples of these functions include the insertBefore, appendChild, or
 replaceChild function that can be used to add the newly created element
 into the document.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!----------------------------- 111. example: adding a node (106) -------------------------------->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 111. example: adding a node (106) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="/./images/.webp/image111.webp?raw=true"
    alt="Example: Adding a Node"
@@ -4108,8 +4101,7 @@ The text node is then appended as a child of the paragraph element.
 Finally, the entire paragraph with text is appended as a child node at
 the end of the body node of the HTML page.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!-------------------------- 112. modifying an elements content (106) ---------------------------->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 112. modifying an elements content (106) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="/./images/.webp/image112.webp?raw=true"
    alt="Modifying an Elements Content"
@@ -4139,8 +4131,7 @@ element.style.propertyName = value.
 
 For example, if you had an element &lt;div style=&quot;color:blue&quot;&gt;.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!---------------------------- 113. modifying the inline style (107) ----------------------------->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 113. modifying the inline style (107) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="/./images/.webp/image113.webp?raw=true" 
    alt="Modifying the inline style"
@@ -4153,8 +4144,7 @@ JavaScript statement:
 
 div.style.color = &#39;red&#39;;
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!---------------------------- 114. modifying the inline style (108) ----------------------------->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 114. modifying the inline style (108) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="/./images/.webp/image114.webp?raw=true" 
    alt="Modifying the inline style #2"
@@ -4164,8 +4154,7 @@ div.style.color = &#39;red&#39;;
 In contrast, the element.setAttribute(&#39;style&#39;, ...) wipes out all
 previously set inline CSS styles.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!------------------------------- 115. modifying attributes (108) -------------------------------->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 115. modifying attributes (108) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="/./images/.webp/image115.webp?raw=true" 
    alt="Modifying Attributes"
@@ -4184,8 +4173,7 @@ an element.
 The function element.getAttribute(attrName) retrieves the value of the
 specified attribute in the element, if it exists.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!------------------------- 116. window object methods and events (109) -------------------------->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~ 116. window object methods and events (109) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="/./images/.webp/image116.webp?raw=true" 
      alt=""Window Object Methods and Events" 
@@ -4194,8 +4182,7 @@ specified attribute in the element, if it exists.
 
 Here are some window object functions and events.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!---------------------- 117.  window object methods and events #2 (109) ------------------------->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~ 117.  window object methods and events #2 (109) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="/./images/.webp/image117.webp?raw=true" 
    alt="Window Object methods and events"
@@ -4238,8 +4225,7 @@ information than the alert() method.
 Finally, the window.scrollTo(x-value, y-value) scrolls the web browser
 to a particular set of coordinates on a page.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!-------------------------- 118. example: using window.onload (110) ----------------------------->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 118. example: using window.onload (110) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="/./images/.webp/image118.webp?raw=true"
   alt="Example: Using window.onload"
@@ -4249,8 +4235,7 @@ to a particular set of coordinates on a page.
 The onload event handler runs in the current window after the document
 loads the web page.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!------------------------------------- 119. summary (111) --------------------------------------->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 119. summary (111) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="/./images/.webp/image119.webp?raw=true" 
   alt="Summary"
@@ -4370,8 +4355,7 @@ others. 
 You can't talk about Git and GitHub without a basic understanding of
 what version control is. 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!---------------------------------- 120. version control (113) ---------------------------------->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 120. version control (113) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="/./images/.webp/image120.webp?raw=true" 
    alt="Version Control"
@@ -4385,8 +4369,7 @@ This makes it easy for you to recover older versions of your document if
 you make a mistake, and it makes collaboration with others much easier. 
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!------------------------- 121. working without version control (114) --------------------------->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~ 121. working without version control (114) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="/./images/.webp/image121.webp?raw=true" 
    alt="Working Without Version Control"
@@ -4401,8 +4384,7 @@ confirm the things you need and add additional items. 
 Without version control, you've got a big mess to clean up before you
 can go shopping. 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!-------------------------- 122. working with version control (114) ----------------------------->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 122. working with version control (114) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="/./images/.webp/image122.webp?raw=true" 
    alt="Working with Version Control"
@@ -4412,8 +4394,7 @@ can go shopping. 
 With version control, you know EXACTLY what you need after everyone has
 contributed their ideas. 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--------------------------------------- 123. git (115) ----------------------------------------->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 123. git (115) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="/./images/.webp/image123.webp?raw=true" 
    alt="git"
@@ -4441,8 +4422,7 @@ interface, but GitHub is one of the most popular web-hosted services for
 Git repositories. 
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!----------------------------- 124. git logos: git + github (116) ------------------------------->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 124. git logos: git + github (116) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="/./images/.webp/image124.webp?raw=true" 
    alt="git logos: git + github"
@@ -4454,8 +4434,7 @@ There are a few basic terms that you will need to know before you can
 get started. 
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!----------------------------- 125. short glossary of terms (116) ------------------------------->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 125. short glossary of terms (116) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="/./images/.webp/image125.webp?raw=true" 
    alt="Short Glossary of Terms"
@@ -4476,8 +4455,7 @@ your changes before they become final. 
 A working directory contains the files and subdirectories on your
 computer that are associated with a Git repository. 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!-------------------------------- 126. basic git commands (117) --------------------------------->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 126. basic git commands (117) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="/./images/.webp/image126.webp?raw=true" 
    alt="Basic git Commands"
@@ -4511,8 +4489,7 @@ repository to make changes. 
 
 <b>&quot;git merge&quot;</b> lets you put everything back together again. 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!------------------------------ 127. https://try.github.io (118) -------------------------------->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 127. https://try.github.io (118) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="/./images/.webp/image127.webp?raw=true" 
    alt="https://try.github.io" 
@@ -4553,9 +4530,8 @@ control system. 
 
 The project ran in short time frames and the key characteristics were
 defined by a small group. 
-0<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!-------------------------------- 128. background of git (119) ---------------------------------->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 128. background of git (119) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="/./images/.webp/image128.webp?raw=true" 
    alt="Background of git."
@@ -4588,8 +4564,7 @@ updates. 
 Many pathways of development can lead to complex integration decisions
 that might require explicit integration strategies. 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--------------------------------- 129. git repository model (120) ------------------------------>
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 129. git repository model (120) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="/./images/.webp/image129.webp?raw=true"
    alt="Git Repository Model"
@@ -4605,8 +4580,7 @@ Primarily focused on tracking source code during development. 
 Contains elements to coordinate among programmers, track changes, and
 support non-linear workflows. 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!---------------------------------- 130. what is git? (121) ------------------------------------->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 130. what is git? (121) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="/./images/.webp/image130.webp?raw=true"
    alt="What is Git?"
@@ -4644,8 +4618,7 @@ interface. 
 IBM Cloud is based on sound and established open-source tools including
 Git repositories, often called repos. 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!---------------------------------- 131. what is github? (122) ---------------------------------->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 131. what is github? (122) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="/./images/.webp/image131.webp?raw=true" 
    alt="What is GitHub?"
@@ -4673,8 +4646,7 @@ A Repository is: 
 -   GitLab provides access to Git repositories, controlled by source
     code management. 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--------------------------------- 132. what is gitlab? (123) ----------------------------------->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 132. what is gitlab? (123) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="/./images/.webp/image132.webp?raw=true" 
    alt="What is GitLab?"
@@ -4721,8 +4693,7 @@ After reading this section, you will be able to:
 
 -   Signing up for a free, personal account on GitHub is quick and easy.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!-------------------------------- 133. create an account (124) ---------------------------------->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 133. create an account (124) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="/./images/.webp/image133.webp?raw=true" 
    alt="Create an Account"
@@ -4756,8 +4727,7 @@ provides you with some starting points.
 You can choose to create a repository or an organization, or you can
 take the Introduction to GitHub course.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!------------------------------- 134. create a repository (125) --------------------------------->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 134. create a repository (125) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="/./images/.webp/image134.webp?raw=true" 
    alt="Create a Repository"
@@ -4792,8 +4762,7 @@ You can also make your repository private (only available to people with
 accounts that have permission to see it) or public (searchable and seen
 by everyone).
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!---------------------------- 135. exploring your repository (126) ------------------------------>
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 135. exploring your repository (126) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="/./images/.webp/image135.webp?raw=true" 
    alt="Exploring Your Repository"
@@ -4850,8 +4819,7 @@ After reading this section, you will be able to:
 
 All files in GitHub are stored on a branch.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!------------------------------- 136. what are branches? (127) ---------------------------------->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 136. what are branches? (127) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="/./images/.webp/image136.webp?raw=true"
    alt="What are Branches?"
@@ -4871,11 +4839,10 @@ The new branch starts as an exact copy of the original branch.
 
 As you make changes, the branch that you created holds the changed code.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!----------------------------- 137. how to create a branch (128) -------------------------------->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 137. how to create a branch (128) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="/./images/.webp/image137.webp?raw=true"
-   alt="How to Create a Branch"
+  alt="How to Create a Branch"
   style="width:65%" />
 &nbsp;
 
@@ -4902,11 +4869,10 @@ as a tip.
 and the two tips are merged into a third, combined branch.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!-------------------------------- 138. merging branches (128) ----------------------------------->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 138. merging branches (128) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="/./images/.webp/image138.webp?raw=true" 
-   alt="Merging Branches"
+  alt="Merging Branches"
   style="width:65%" />
 &nbsp;
 
@@ -4947,11 +4913,10 @@ Some rules:
 
 -   Always write in an "active" voice.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!----------------------------- 139. what is a pull request? (129) ------------------------------->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 139. what is a pull request? (129) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="/./images/.webp/image139.webp?raw=true"
-   alt="What is a Pull Request?"
+  alt="What is a Pull Request?"
   style="width:65%" />
 &nbsp;
 
@@ -4974,11 +4939,10 @@ person who approved the merge of the change.
 
 To open a new pull request:
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!------------------------- 140. open a pull request (130) --------------------->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 140. open a pull request (130) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="/./images/.webp/image140.webp?raw=true"
-   alt="Open a Pull Request"
+  alt="Open a Pull Request"
   style="width:65%" />
 &nbsp;
 
@@ -5009,11 +4973,10 @@ The code is reviewed and approved.
 The approved code is merged back into the master code.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!------------------------- 141. merged into the master branch  (131) --------------------->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~ 141. merged into the master branch  (131) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="/./images/.webp/image141.webp?raw=true"
-   alt="Merging into the Master Branch"
+  alt="Merging into the Master Branch"
   style="width:65%" />
 &nbsp;
 
@@ -5023,11 +4986,10 @@ Click Merge pull request.
 
 Click Confirm merge.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!------------------------------ 142. merge a pull request (131) --------------------------------->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 142. merge a pull request (131) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="/./images/.webp/image142.webp?raw=true"
-   alt="Merge a Pull Request"
+  alt="Merge a Pull Request"
   style="width:65%" />
 &nbsp;
 
@@ -5058,11 +5020,10 @@ Pull requests enables other users to review and use the proposed changes
 When you are ready to merge the changed code into the master branch, you
 merge the committed code changes into your master code.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!------------------------------------- 143. summary (132) --------------------------------------->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 143. summary (132) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="/./images/.webp/image143.webp?raw=true"
-   alt="Summary"
+  alt="Summary"
   style="width:65%" />
 &nbsp;
 
@@ -5081,8 +5042,7 @@ After reading this section, you will be able to:
 
 -   Use git commands to communicate with other developers.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!----------------------------- 144. team working with github (133) ------------------------------>
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 144. team working with github (133) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/.webp/image144.webp"
    alt="Team Working with GitHub"
@@ -5109,20 +5069,19 @@ starting point for your new project.
 To clone a GitHub repository, navigate to the repository that you want
 to clone.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!-------------------------- 145. cloning a github repository #1 (133) --------------------------->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 145. cloning a github repository #1 (133) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/.webp/image145.webp"
-   alt="Cloning a GitHub Repository #1"
+  alt="Cloning a GitHub Repository #1"
   style="width:65%" />
 &nbsp;
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!-------------------------- 146. cloning a github repository #2 (134) --------------------------->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 146. cloning a github repository #2 (134) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/.webp/image146.webp"
-	alt="Cloning a GitHub Repository #2"
+  title="Cloning a GitHub Repository #2"
+  alt="Cloning a GitHub Repository #2"
   style="width:65%" />
 &nbsp;
 
@@ -5144,11 +5103,11 @@ When you have made your changes and are ready to sync your code back to
 GitHub.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!----------------------------- 147. syncing local changes (134) --------------------------------->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 147. syncing local changes (134) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/.webp/image147.webp"
-   alt="Syncing a Local Repository"
+  title="Syncing a Local Repository"
+  alt="Syncing a Local Repository"
   style="width:65%" />
 &nbsp;
 
@@ -5570,7 +5529,6 @@ location. Click <b>Next</b>.
     default options selected. Click <b>Next</b>.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 165. select components for git setup (14x) ~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/.webp/image165.webp"
    alt="Select Components for Git Setup"
@@ -5582,7 +5540,6 @@ location. Click <b>Next</b>.
     default name as is. Click <b>Next</b>.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 166. select start menu folder (14x) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/.webp/image166.webp" 
    alt="Select Start Menu Folder for Git"
@@ -5593,7 +5550,6 @@ location. Click <b>Next</b>.
 7.  Select the default editor for Git to use. Click <b>Next</b>.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 167. choose default editor for git (14x) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/.webp/image167.webp" 
   alt="Choose Default Editor for Git"
