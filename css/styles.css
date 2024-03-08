@@ -123,9 +123,11 @@ body {
 }
 
 .dropbtn {
+  position: fixed;
   top: 20px;
   left: 30px;
-  background-color: #04006d;  /* very dark blue */
+  z-index: 99;
+  background-color: #00ff00;  /* dark green */
   color: #fff;  /* white */
   padding: 15px;  /* 11, 14px */
   font-size: 11px;  /* 12px */
