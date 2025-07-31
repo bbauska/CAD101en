@@ -1,2 +1,2 @@
 User-agent: *
-Disallow: cad101en.md
+Disallow: /cad101en.md
