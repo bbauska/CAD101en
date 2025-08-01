@@ -91,7 +91,7 @@ mark.blue {
 }
 
 background: linear-gradient(60deg, #3d3393 0%, #2b76b9 37%, #2cacd1 65%, #35eb93 100%)
-
+/**
 body {
   font-family: Bahnschrift, Inter, Helvetic, sans-serif;
   font-size: 15px;  /* 1.2rem */
@@ -101,7 +101,20 @@ body {
   padding: 10px;
   margin-left: 15px;
 }
-
+**/
+body {
+  margin: 0 auto;
+  font-family: Bahnschrift, Inter, Helvetic, sans-serif;
+  max-width: 48em;  /* 36em; */
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  hyphens: auto;
+  overflow-wrap: break-word;
+  text-rendering: optimizeLegibility;
+  font-kerning: normal;
+}
 #myBtn {
   display: none;
   position: fixed;
@@ -141,7 +154,7 @@ body {
   display: none;
   position: absolute;
   background-color: #f1f1f1;  /* very light gray */
-  min-width: 20em;  /* 25rem 160px 30rem */
+  min-width: 30em;  /* 25rem 160px 30rem */
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   font-size: 12px;  /* 11px */
   z-index: 1;
