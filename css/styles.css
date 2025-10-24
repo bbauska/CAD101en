@@ -1,12 +1,14 @@
 /* styles.css - github.com/bbauska/CAD101en/css/styles.css */
 img.displayed {
   display: block;
-  margin: 0 auto; }
+  margin: 0 auto; 
+}
 
 .border {
   border-width: 1px;
   border-color: #778899;  /* dark grayish blue */
-  border-style: solid; }
+  border-style: solid; 
+}
 
 font-family: Bahnschrift, Consolas, "Andale Mono WT", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", 
   "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L", Monaco, 
@@ -17,7 +19,6 @@ font-family: Bahnschrift, Consolas, "Andale Mono WT", "Andale Mono", "Lucida Con
   background-color: #ffff00;  /* yellow */
   color: #333;  /* very dark gray */
 }
-
 pre, code {
   font-family: monospace, monospace;
 }
@@ -31,47 +32,58 @@ pre > code {
 }
 pre:hover, pre:focus { width: min-content; }
 
+li {
+  font-family: Bahnschrift, Inter, Helvetic, sans-serif;
+}
+
 h1  {
   font-family: Bahnschrift, Inter, Helvetic, sans-serif;
   color: initial;
   text-align: center;
-  font-size: 20px; }
+  font-size: 20px; 
+}
   
 h2 {
   font-family: Bahnschrift, Inter, Helvetic, sans-serif;
   color: #006700;  /* dark green */
   font-size: 18px;
-  text-align: center; }
+  text-align: center; 
+}
 h3 {
   font-family: Bahnschrift, Inter, Helvetic, sans-serif;
   color: #000;
   font-size: 17px;
   text-align: left; 
-  margin-left: 15px; }
+  margin-left: 15px; 
+}
 h4 {
   font-family: Bahnschrift, Inter, Helvetic, sans-serif;
   color: #000;
   font-size: 16px;
   text-align: left; 
-  margin-left: 15px; }
+  margin-left: 15px; 
+}
 h5 {
   font-family: Bahnschrift, Inter, Helvetic, sans-serif;
   color: #000;
   font-size: 15px;
   text-align: left;
-  margin-left: 15px; }
+  margin-left: 15px; 
+}
 h6 {
   font-family: Bahnschrift, Inter, Helvetic, sans-serif;
   color: #000;
   font-size: 13px;
   text-align: left; 
-  margin-left: 15px; }
+  margin-left: 15px; 
+}
 h7 {
   font-family: Bahnschrift, Inter, Helvetic, sans-serif;
   color: #000;
   font-size: 11px;
   text-align: left; 
-  margin-left: 15px; }
+  margin-left: 15px; 
+}
 p {
   font-family: Bahnschrift, Inter, Helvetic, sans-serif;
   color: #000;
@@ -84,24 +96,13 @@ mark.red {
   color:#ff0000;  /* pure (or mostly pure) red */
   background: #ffff00;  /* yellow */
 }
-
 mark.blue {
   color:#0000a0;  /* dark blue */
   background: #00ff00;  /* pure (or mostly pure) lime green */
 }
 
 background: linear-gradient(60deg, #3d3393 0%, #2b76b9 37%, #2cacd1 65%, #35eb93 100%)
-/**
-body {
-  font-family: Bahnschrift, Inter, Helvetic, sans-serif;
-  font-size: 15px;  /* 1.2rem */
-  background-color: #eee;  /* very light gray */
-  color: #000;  /* black */
-  text-align: left;
-  padding: 10px;
-  margin-left: 15px;
-}
-**/
+
 body {
   margin: 0 auto;
   font-family: Bahnschrift, Inter, Helvetic, sans-serif;
@@ -130,7 +131,6 @@ body {
   padding: 10px;
   border-radius: 1px;
 }
-
 #myBtn:hover {
   background-color: #555;  /* very dark gray */
 }
@@ -167,7 +167,5 @@ body {
   display: block;
 }
 .dropdown-content a:hover {background-color: #d9ead3;}  /* ddd light grayish green */
-
 .dropdown:hover .dropdown-content {display: block;}
-
-.dropdown:hover .dropbtn {background-color: #398e41;} /* 398e41 dark moderate lime green */
+.dropdown:hover .dropbtn {background-color: #398e41;} /* dark moderate lime green */
